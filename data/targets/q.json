@@ -1,0 +1,26 @@
+{
+  "query": {
+    "type": "group",
+    "logical_operator": "and",
+    "nodes": [
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_accession_info.initial_release_date","operator":"range","value":{"from":"2024-01-01","to":"2026-12-31"}}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_entry_info.structure_determination_methodology","operator":"exact_match","value":"experimental"}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_entry_info.experimental_method","operator":"exact_match","value":"X-ray"}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_entry_info.selected_polymer_entity_types","operator":"exact_match","value":"Protein (only)"}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_entry_info.deposited_polymer_entity_instance_count","operator":"equals","value":1}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_entry_info.deposited_model_count","operator":"equals","value":1}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_entry_info.resolution_combined","operator":"less_or_equal","value":2.0}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"refine.ls_R_factor_R_free","operator":"less_or_equal","value":0.25}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"rcsb_entry_info.deposited_unmodeled_polymer_monomer_count","operator":"less_or_equal","value":10}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"entity_poly.rcsb_entity_polymer_type","operator":"exact_match","value":"Protein"}},
+      {"type":"terminal","service":"text","parameters":{"attribute":"entity_poly.rcsb_sample_sequence_length","operator":"range","value":{"from":100,"to":400}}}
+    ]
+  },
+  "return_type": "polymer_entity",
+  "request_options": {
+    "return_all_hits": true,
+    "results_content_type": ["experimental"],
+    "group_by": {"aggregation_method": "sequence_identity", "similarity_cutoff": 30},
+    "group_by_return_type": "representatives"
+  }
+}
