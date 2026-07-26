@@ -29,9 +29,23 @@ from requests import Session
 from tqdm import tqdm
 
 
-# BinaryCIF is ~10x smaller than text mmCIF and parses faster in biotite.
-RCSB_BCIF_URL = "https://models.rcsb.org/{entry_lower}.bcif.gz"
-RCSB_CIF_URL = "https://files.rcsb.org/download/{entry}.cif.gz"
+# Mirror sources, tried in order. files.wwpdb.org is the canonical wwPDB egress
+# host (secure HTTPS mirror of the PDB archive); RCSB's models/files hosts are
+# fallbacks. BinaryCIF (.bcif.gz) is ~10x smaller and parses faster in biotite;
+# the wwPDB divided archive serves gzipped text mmCIF. compute_lddt.load_structure
+# auto-detects the format from the filename, so either extension works downstream.
+def sources(entry: str, out_dir: Path) -> List[tuple]:
+    """Return ``(url, dest_path)`` candidates for one PDB entry, best first."""
+    lower = entry.lower()
+    mid = lower[1:3]  # divided-archive subdirectory (chars 2-3 of the ID)
+    return [
+        (f"https://files.wwpdb.org/pub/pdb/data/structures/divided/mmCIF/{mid}/{lower}.cif.gz",
+         out_dir / f"{entry}.cif.gz"),
+        (f"https://models.rcsb.org/{lower}.bcif.gz",
+         out_dir / f"{entry}.bcif.gz"),
+        (f"https://files.rcsb.org/download/{entry}.cif.gz",
+         out_dir / f"{entry}.cif.gz"),
+    ]
 
 
 def load_entries(targets_path: Path) -> List[str]:
@@ -57,24 +71,23 @@ def load_entries(targets_path: Path) -> List[str]:
     return sorted(entries)
 
 
-def download_one(session: Session, entry: str, dest: Path, timeout: int, retries: int) -> bool:
-    """Download one entry, trying BinaryCIF then falling back to text mmCIF.
+def download_one(session: Session, entry: str, out_dir: Path, timeout: int, retries: int) -> bool:
+    """Download one entry, trying each mirror source in turn.
 
-    Returns True on success (or if already present), False on failure.
+    Returns True on success (or if already present in any known format), False if
+    every source fails. A 403/407 (egress-policy denial) is not retried -- it
+    moves straight to the next source.
     """
-    if dest.exists() and dest.stat().st_size > 0:
+    candidates = sources(entry, out_dir)
+    if any(dest.exists() and dest.stat().st_size > 0 for _, dest in candidates):
         return True
 
-    urls = [
-        RCSB_BCIF_URL.format(entry_lower=entry.lower()),
-        RCSB_CIF_URL.format(entry=entry),
-    ]
-    for url in urls:
+    for url, dest in candidates:
         for attempt in range(retries):
             try:
                 resp = session.get(url, timeout=timeout)
-                if resp.status_code == 404:
-                    break  # try next URL format; retrying a 404 is pointless
+                if resp.status_code in (403, 404, 407):
+                    break  # next source; retrying a policy denial / miss is pointless
                 resp.raise_for_status()
                 tmp = dest.with_suffix(dest.suffix + ".part")
                 tmp.write_bytes(resp.content)
@@ -83,8 +96,8 @@ def download_one(session: Session, entry: str, dest: Path, timeout: int, retries
             except requests.RequestException as exc:
                 wait = 2 ** attempt
                 print(
-                    f"Warning: {entry} attempt {attempt + 1}/{retries} failed ({exc}); "
-                    f"retrying in {wait}s",
+                    f"Warning: {entry} <{url}> attempt {attempt + 1}/{retries} failed "
+                    f"({exc}); retrying in {wait}s",
                     file=sys.stderr,
                 )
                 time.sleep(wait)
@@ -118,8 +131,7 @@ def main() -> int:
 
     ok, failed = 0, []
     for entry in tqdm(entries, desc="Downloading structures", unit="entry"):
-        dest = out_dir / f"{entry}.bcif.gz"
-        if download_one(session, entry, dest, args.timeout, args.retries):
+        if download_one(session, entry, out_dir, args.timeout, args.retries):
             ok += 1
         else:
             failed.append(entry)

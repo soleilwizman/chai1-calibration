@@ -82,9 +82,11 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
     --plot data/analysis/reliability.png --by nonpolymer_entity_count
 ```
 
-> **Note:** stages 2–3 require outbound network / GPU access. In sandboxes where
-> RCSB hosts (`files.rcsb.org`, `data.rcsb.org`, `models.rcsb.org`) are blocked by
-> egress policy, stage 2 cannot run; the code is otherwise environment-agnostic.
+> **Note:** stages 2–3 require outbound network / GPU access. Stage 2 pulls
+> structures from `files.wwpdb.org` (the canonical wwPDB HTTPS egress host),
+> falling back to the RCSB mirrors (`models.rcsb.org`, `files.rcsb.org`). In
+> sandboxes where all of these are blocked by egress policy, stage 2 cannot run;
+> the code is otherwise environment-agnostic.
 
 ## Files
 - `data/targets/q.json`: baseline RCSB search query
