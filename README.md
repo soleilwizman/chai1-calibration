@@ -16,6 +16,8 @@ The baseline candidate pool is defined as:
 
 This query returns 2,814 entities collapsing to 559 clusters when deduplicated at 30% sequence identity.
 
+We do not filter on `nonpolymer_entity_count` in the baseline. Apo/holo status should be recorded as a covariate and analyzed separately because it represents a real confound for sequence-only prediction.
+
 ### Sensitivity variants
 | Variant | Entities | Clusters |
 |---|---|---|
@@ -41,3 +43,4 @@ This query returns 2,814 entities collapsing to 559 clusters when deduplicated a
 - `data/targets/q.json`: baseline RCSB search query
 - `data/targets/candidates_raw.json`: representative target entities
 - `scripts/extract_searchable_attrs.py`: extract searchable schema attributes from `schema.json`
+- `scripts/extract_candidate_covariates.py`: scaffold candidate covariate data for analysis
