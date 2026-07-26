@@ -96,8 +96,10 @@ python scripts/extract_msa_depth.py --pred-dir predictions --out data/targets/ms
 python scripts/extract_training_identity.py --out data/targets/training_identity.json
 
 # Stage 4: score each prediction against its reference (Cα lDDT by default)
+# Chai-1 writes predictions/<id>/output/pred.model_idx_0.cif (rank-0 model)
 python scripts/compute_lddt.py --ref data/raw/cif/10AF.cif.gz \
-    --pred predictions/10AF_1/pred.cif --out data/analysis/per_target/10AF_1.csv
+    --pred predictions/10AF_1/output/pred.model_idx_0.cif \
+    --out data/analysis/per_target/10AF_1.csv
 
 # Stage 4b: merge all per-target lDDT tables with covariates into one table
 python scripts/build_dataset.py --lddt-dir data/analysis/per_target \
