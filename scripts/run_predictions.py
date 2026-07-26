@@ -1,12 +1,14 @@
 """Run Chai-1 structure predictions for the candidate targets.
 
-Stage 3 of the pipeline. For each target this writes a Chai-1 input FASTA from
-the sequence recorded in the covariates file, then (when the ``chai_lab`` package
-and a GPU are available) runs the model, writing outputs to
-``predictions/<candidate>/``.
+Stage 3 of the pipeline. For each target this writes a Chai-1 input FASTA to
+``predictions/<candidate>/input.fasta``, then (when the ``chai_lab`` package and a
+GPU are available) runs the model, writing structures to
+``predictions/<candidate>/output/``. Input and output are kept in *separate*
+directories because ``run_inference`` requires an empty output directory.
 
 Chai-1 writes its per-atom predicted lDDT into the B-factor column of the output
-mmCIF, which ``compute_lddt.py`` later reads as ``plddt``.
+mmCIF (``predictions/<candidate>/output/pred.model_idx_*.cif``), which
+``compute_lddt.py`` later reads as ``plddt``.
 
 GPU note
 --------
@@ -47,23 +49,25 @@ def load_targets(path: Path) -> List[Dict]:
     return targets
 
 
-def write_fasta(target: Dict, out_dir: Path) -> Path:
+def write_fasta(target: Dict, target_dir: Path) -> Path:
     """Write a single-chain Chai-1 input FASTA and return its path.
 
-    Chai-1 expects headers of the form ``>protein|name=<id>``.
+    Chai-1 expects headers of the form ``>protein|name=<id>``. The FASTA lives at
+    ``<target_dir>/input.fasta``; Chai-1's outputs go in a *separate* subdirectory
+    (see :func:`run_chai`) because ``run_inference`` requires an empty output dir.
     """
-    out_dir.mkdir(parents=True, exist_ok=True)
-    fasta = out_dir / "input.fasta"
+    target_dir.mkdir(parents=True, exist_ok=True)
+    fasta = target_dir / "input.fasta"
     seq = target["sequence"].strip().replace("\n", "")
     fasta.write_text(f">protein|name={target['candidate']}\n{seq}\n", encoding="utf-8")
     return fasta
 
 
-def run_chai(fasta: Path, out_dir: Path) -> None:
+def run_chai(fasta: Path, chai_out_dir: Path) -> None:
     """Invoke Chai-1 on a FASTA. Requires chai_lab + a CUDA GPU.
 
-    Kept import-local so that ``--dry-run`` (staging inputs) works in
-    environments without the heavy dependency installed.
+    ``chai_out_dir`` must be empty (Chai-1 asserts this). Kept import-local so that
+    ``--dry-run`` (staging inputs) works without the heavy dependency installed.
     """
     try:
         from chai_lab.chai1 import run_inference  # type: ignore
@@ -73,9 +77,10 @@ def run_chai(fasta: Path, out_dir: Path) -> None:
             "(pip install chai_lab) or use --dry-run to stage FASTA inputs only."
         ) from exc
 
+    chai_out_dir.mkdir(parents=True, exist_ok=True)
     run_inference(
         fasta_file=fasta,
-        output_dir=out_dir,
+        output_dir=chai_out_dir,
         num_trunk_recycles=3,
         num_diffn_timesteps=200,
         use_msa_server=True,
@@ -91,7 +96,7 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true",
                         help="Only write input FASTAs; do not run the model")
     parser.add_argument("--skip-existing", action="store_true",
-                        help="Skip targets whose output dir already has a .cif")
+                        help="Skip targets whose output/ subdir already has a .cif")
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
@@ -102,13 +107,14 @@ def main() -> int:
     out_root = root / args.out_dir
     staged, predicted = 0, 0
     for t in targets:
-        out_dir = out_root / t["candidate"]
-        if args.skip_existing and any(out_dir.glob("*.cif")):
+        target_dir = out_root / t["candidate"]
+        chai_out = target_dir / "output"
+        if args.skip_existing and any(chai_out.glob("*.cif")):
             continue
-        fasta = write_fasta(t, out_dir)
+        fasta = write_fasta(t, target_dir)
         staged += 1
         if not args.dry_run:
-            run_chai(fasta, out_dir)
+            run_chai(fasta, chai_out)
             predicted += 1
 
     mode = "staged FASTA for" if args.dry_run else "predicted"
