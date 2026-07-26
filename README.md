@@ -39,8 +39,60 @@ We do not filter on `nonpolymer_entity_count` in the baseline. Apo/holo status s
 - Increasing unmodeled residue tolerance is the best lever for pool size, but comes with more structural ambiguity.
 - Deduplication at 30% sequence identity is performed server-side by the RCSB query with `group_by`.
 
+## Pipeline
+The project runs as a sequence of stages. Stage 1 is complete (559 curated
+targets + covariates are committed); the remaining stages are implemented as
+scripts under `scripts/`.
+
+| # | Stage | Script | Output |
+|---|---|---|---|
+| 1 | Target selection & covariates | `extract_candidate_covariates.py` | `data/targets/candidates_covariates.json` |
+| 2 | Download ground-truth structures | `download_structures.py` | `data/raw/cif/*.bcif.gz` |
+| 3 | Run Chai-1 predictions | `run_predictions.py` | `predictions/<candidate>/*.cif` |
+| 4 | Compute per-residue lDDT vs pLDDT | `compute_lddt.py` | `data/analysis/<candidate>.csv` |
+| 5 | Calibration analysis | `calibration.py` | metrics + reliability diagram |
+
+The core comparison is per residue: **lDDT** (realized accuracy, from stage 4)
+against **pLDDT** (Chai-1's predicted confidence, written into the mmCIF B-factor
+column). A calibrated model has `pLDDT ≈ 100 × lDDT` within any confidence bin;
+`calibration.py` reports ECE, MCE, and signed overconfidence, and can stratify
+every metric by a covariate (`--by`) to test the hypotheses above.
+
+### Setup
+```bash
+python3 -m venv .venv && . .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Running the pipeline
+```bash
+# Stage 2: fetch experimental ground truth (needs RCSB egress access)
+python scripts/download_structures.py
+
+# Stage 3: stage inputs (any host), then predict on a GPU host with chai_lab
+python scripts/run_predictions.py --dry-run      # writes input FASTAs only
+python scripts/run_predictions.py                # GPU + chai_lab required
+
+# Stage 4: score each prediction against its reference
+python scripts/compute_lddt.py --ref data/raw/cif/10AF.bcif.gz \
+    --pred predictions/10AF_1/pred.cif --out data/analysis/10AF_1.csv
+
+# Stage 5: concatenate the per-target CSVs, optionally merge covariates, analyze
+python scripts/calibration.py --scores data/analysis/all_residues.csv \
+    --plot data/analysis/reliability.png --by nonpolymer_entity_count
+```
+
+> **Note:** stages 2–3 require outbound network / GPU access. In sandboxes where
+> RCSB hosts (`files.rcsb.org`, `data.rcsb.org`, `models.rcsb.org`) are blocked by
+> egress policy, stage 2 cannot run; the code is otherwise environment-agnostic.
+
 ## Files
 - `data/targets/q.json`: baseline RCSB search query
 - `data/targets/candidates_raw.json`: representative target entities
+- `data/targets/candidates_covariates.json`: per-target metadata covariates
 - `scripts/extract_searchable_attrs.py`: extract searchable schema attributes from `schema.json`
-- `scripts/extract_candidate_covariates.py`: scaffold candidate covariate data for analysis
+- `scripts/extract_candidate_covariates.py`: fetch candidate covariate data for analysis
+- `scripts/download_structures.py`: stage 2 — download experimental mmCIF ground truth
+- `scripts/run_predictions.py`: stage 3 — write Chai-1 FASTAs and run predictions
+- `scripts/compute_lddt.py`: stage 4 — per-residue lDDT vs pLDDT from two structures
+- `scripts/calibration.py`: stage 5 — reliability curve, ECE/MCE, covariate stratification
