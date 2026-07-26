@@ -47,9 +47,12 @@ scripts under `scripts/`.
 | # | Stage | Script | Output |
 |---|---|---|---|
 | 1 | Target selection & covariates | `extract_candidate_covariates.py` | `data/targets/candidates_covariates.json` |
-| 2 | Download ground-truth structures | `download_structures.py` | `data/raw/cif/*.bcif.gz` |
+| 2 | Download ground-truth structures | `download_structures.py` | `data/raw/cif/*.cif.gz` |
 | 3 | Run Chai-1 predictions | `run_predictions.py` | `predictions/<candidate>/*.cif` |
-| 4 | Compute per-residue lDDT vs pLDDT | `compute_lddt.py` | `data/analysis/<candidate>.csv` |
+| 3b | MSA-depth covariate (hyp. 2) | `extract_msa_depth.py` | `data/targets/msa_depth.json` |
+| 3c | Training-identity covariate (hyp. 3) | `extract_training_identity.py` | `data/targets/training_identity.json` |
+| 4 | Compute per-residue lDDT vs pLDDT | `compute_lddt.py` | `data/analysis/per_target/<candidate>.csv` |
+| 4b | Merge lDDT + covariates | `build_dataset.py` | `data/analysis/all_residues.csv` |
 | 5 | Calibration analysis | `calibration.py` | metrics + reliability diagram |
 
 The core comparison is per residue: **lDDT** (realized accuracy, from stage 4)
@@ -57,6 +60,21 @@ against **pLDDT** (Chai-1's predicted confidence, written into the mmCIF B-facto
 column). A calibrated model has `pLDDT ≈ 100 × lDDT` within any confidence bin;
 `calibration.py` reports ECE, MCE, and signed overconfidence, and can stratify
 every metric by a covariate (`--by`) to test the hypotheses above.
+
+### Methodology notes (why the numbers are trustworthy)
+- **Residues are paired by sequence alignment, not residue number.** The
+  prediction is numbered 1..N from the FASTA; the experimental structure may use
+  a different numbering (offsets, gaps, an unmodeled His-tag). `compute_lddt.py`
+  globally aligns the two sequences, so tags/offsets/chain-ID differences don't
+  silently corrupt the score. Each target reports `coverage` (fraction of
+  reference residues aligned); low coverage is flagged, not trusted.
+- **lDDT is Cα by default** (`--metric ca`), matching what AlphaFold-style pLDDT
+  is trained to predict. `--metric all-atom` is available but is *not* the right
+  comparison for pLDDT calibration.
+- **Stratification bins are computed per target, not per residue**, so a few
+  large proteins don't dominate the bin edges. Note residues within a protein are
+  correlated: treat per-residue ECE as descriptive and cluster by `candidate` for
+  any significance testing.
 
 ### Setup
 ```bash
@@ -73,13 +91,21 @@ python scripts/download_structures.py
 python scripts/run_predictions.py --dry-run      # writes input FASTAs only
 python scripts/run_predictions.py                # GPU + chai_lab required
 
-# Stage 4: score each prediction against its reference
-python scripts/compute_lddt.py --ref data/raw/cif/10AF.bcif.gz \
-    --pred predictions/10AF_1/pred.cif --out data/analysis/10AF_1.csv
+# Stage 3b/3c: covariates for the hypotheses (MSA depth, novelty vs pre-cutoff PDB)
+python scripts/extract_msa_depth.py --pred-dir predictions --out data/targets/msa_depth.json
+python scripts/extract_training_identity.py --out data/targets/training_identity.json
 
-# Stage 5: concatenate the per-target CSVs, optionally merge covariates, analyze
+# Stage 4: score each prediction against its reference (Cα lDDT by default)
+python scripts/compute_lddt.py --ref data/raw/cif/10AF.cif.gz \
+    --pred predictions/10AF_1/pred.cif --out data/analysis/per_target/10AF_1.csv
+
+# Stage 4b: merge all per-target lDDT tables with covariates into one table
+python scripts/build_dataset.py --lddt-dir data/analysis/per_target \
+    --out data/analysis/all_residues.csv
+
+# Stage 5: analyze, stratifying by any covariate column
 python scripts/calibration.py --scores data/analysis/all_residues.csv \
-    --plot data/analysis/reliability.png --by nonpolymer_entity_count
+    --plot data/analysis/reliability.png --by msa_depth_bin   # or novelty_bin, ligand_state
 ```
 
 > **Note:** stages 2–3 require outbound network / GPU access. Stage 2 pulls
@@ -96,5 +122,8 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
 - `scripts/extract_candidate_covariates.py`: fetch candidate covariate data for analysis
 - `scripts/download_structures.py`: stage 2 — download experimental mmCIF ground truth
 - `scripts/run_predictions.py`: stage 3 — write Chai-1 FASTAs and run predictions
-- `scripts/compute_lddt.py`: stage 4 — per-residue lDDT vs pLDDT from two structures
+- `scripts/extract_msa_depth.py`: stage 3b — MSA depth / Neff covariate from a3m files
+- `scripts/extract_training_identity.py`: stage 3c — max identity to pre-cutoff PDB
+- `scripts/compute_lddt.py`: stage 4 — sequence-aligned per-residue lDDT vs pLDDT
+- `scripts/build_dataset.py`: stage 4b — merge per-target lDDT with covariates
 - `scripts/calibration.py`: stage 5 — reliability curve, ECE/MCE, covariate stratification
