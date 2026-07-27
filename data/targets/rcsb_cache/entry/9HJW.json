@@ -1,0 +1,621 @@
+{
+  "audit_author": [
+    {
+      "name": "Smith, H.G.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Beech, M.J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Allen, M.D.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Farley, A.J.M.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Schofield, C.J.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 12,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 97.286,
+    "length_b": 97.286,
+    "length_c": 167.673
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Chem Sci",
+      "journal_id_ISSN": "2041-6520",
+      "journal_volume": "16",
+      "page_first": "9691",
+      "page_last": "9704",
+      "pdbx_database_id_DOI": "10.1039/d5sc00964b",
+      "pdbx_database_id_PubMed": 40342919,
+      "rcsb_authors": [
+        "Beech, M.J.",
+        "Toma, E.C.",
+        "Smith, H.G.",
+        "Trush, M.M.",
+        "Ang, J.H.J.",
+        "Wong, M.Y.",
+        "Wong, C.H.J.",
+        "Ali, H.S.",
+        "Butt, Z.",
+        "Goel, V.",
+        "Duarte, F.",
+        "Farley, A.J.M.",
+        "Walsh, T.R.",
+        "Schofield, C.J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Chem Sci",
+      "title": "Binding assays enable discovery of Tet(X) inhibitors that combat tetracycline destructase resistance.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9HJW",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9hjw/pdb",
+      "pdbx_database_accession": "pdb_00009hjw"
+    },
+    {
+      "database_code": "D_1292143274",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-04-25T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I03",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.9763",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I03"
+    }
+  ],
+  "entry": {
+    "id": "9HJW"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.75,
+      "density_percent_sol": 55.25,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "0.2 M Ammonium acetate\n0.1 M Sodium citrate tribasic dihydrate pH 5.6\n30 % Polyethylene glycol 4,000",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "chem_comp",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "entity",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_entity_nonpoly",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-05-21T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-06-18T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2025-12-03T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp.name",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp.pdbx_synonyms",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_entity.pdbx_description",
+      "ordinal": 7,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entity_nonpoly.name",
+      "ordinal": 8,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Other private",
+      "grant_number": "Ineos Oxford Institute Core Grant",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "9HJV",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-12-02T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T14:42:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1773,
+      "DCC_Rfree": 0.2087,
+      "EDS_R": 0.1916,
+      "EDS_res_high": 1.9,
+      "EDS_res_low": 59.43,
+      "Fo_Fc_correlation": 0.962,
+      "I_over_sigma": "1.84(1.90A)",
+      "Padilla_Yeates_L2_mean": 0.349,
+      "Padilla_Yeates_L_mean": 0.515,
+      "Wilson_B_aniso": "[32.857,32.857,26.634,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 30.589,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 44.66,
+      "bulk_solvent_k": 0.348,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.202,
+      "data_completeness": 99.97,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 37723,
+      "number_reflns_R_free": 1900,
+      "percent_RSRZ_outliers": 1.09,
+      "percent_free_reflections": 5.03,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 3.53% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.5,
+      "bonds_RMSZ": 0.31,
+      "clashscore": 2.29,
+      "num_H_reduce": 2987,
+      "num_angles_RMSZ": 4136,
+      "num_bonds_RMSZ": 3066,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-12-02T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-05-21T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2025-12-03T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9HJW",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40342919,
+    "rcsb_id": "9HJW"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3450,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 368,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 371,
+    "deposited_solvent_atom_count": 361,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 0.9763,
+    "diffrn_radiation_wavelength_minimum": 0.9763,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 42.85,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.79,
+    "nonpolymer_molecular_weight_minimum": 0.1,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 41.67,
+    "polymer_molecular_weight_minimum": 41.67,
+    "polymer_monomer_count_maximum": 371,
+    "polymer_monomer_count_minimum": 371,
+    "resolution_combined": [
+      1.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DIALS",
+      "PHASER",
+      "PHENIX",
+      "SCALA"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Chem Sci",
+    "journal_id_ISSN": "2041-6520",
+    "journal_volume": "16",
+    "page_first": "9691",
+    "page_last": "9704",
+    "pdbx_database_id_DOI": "10.1039/d5sc00964b",
+    "pdbx_database_id_PubMed": 40342919,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Beech, M.J.",
+      "Toma, E.C.",
+      "Smith, H.G.",
+      "Trush, M.M.",
+      "Ang, J.H.J.",
+      "Wong, M.Y.",
+      "Wong, C.H.J.",
+      "Ali, H.S.",
+      "Butt, Z.",
+      "Goel, V.",
+      "Duarte, F.",
+      "Farley, A.J.M.",
+      "Walsh, T.R.",
+      "Schofield, C.J."
+    ],
+    "rcsb_journal_abbrev": "Chem Sci",
+    "title": "Binding assays enable discovery of Tet(X) inhibitors that combat tetracycline destructase resistance.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2089,
+      "ls_R_factor_R_work": 0.1769,
+      "ls_R_factor_obs": 0.1786,
+      "ls_d_res_high": 1.9,
+      "ls_d_res_low": 59.43,
+      "ls_number_reflns_R_free": 1900,
+      "ls_number_reflns_obs": 37715,
+      "ls_percent_reflns_R_free": 5.04,
+      "ls_percent_reflns_obs": 99.89,
+      "overall_SU_ML": 0.2,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 21.03,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.9,
+      "d_res_low": 59.43,
+      "number_atoms_solvent": 361,
+      "number_atoms_total": 3346,
+      "pdbx_number_atoms_ligand": 80,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2905,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "number": 3164,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.945,
+      "number": 4299,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 12.281,
+      "number": 421,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.063,
+      "number": 457,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "number": 565,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 59.43,
+      "number_obs": 37807,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.154,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 39.2,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.9,
+      "d_res_low": 1.94,
+      "number_unique_obs": 2389,
+      "pdbx_CC_half": 0.852,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.20.1_4487: ???)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "DIALS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALA",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of flavin-dependent monooxygenase Tet(X4) in complex with tegaserod"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "Flavin-dependent monooxygenase Tet(X4), OXIDOREDUCTASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 179,
+    "space_group_name_H_M": "P 65 2 2"
+  },
+  "rcsb_id": "9HJW"
+}

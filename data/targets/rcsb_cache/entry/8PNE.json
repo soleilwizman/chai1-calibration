@@ -1,0 +1,638 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0001-0566-6579",
+      "name": "Zappala, D.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-9484-7402",
+      "name": "Baumann, P.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-6927-4371",
+      "name": "Jin, Y.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 67.216,
+    "length_b": 79.567,
+    "length_c": 148.188
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Zappala, D.",
+        "Baumann, P.",
+        "Jin, Y."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Apo structure of E.coli YihX Wild Type"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8PNE",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8pne/pdb",
+      "pdbx_database_accession": "pdb_00008pne"
+    },
+    {
+      "database_code": "D_1292127145",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-07-31T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I03",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.9762",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I03"
+    }
+  ],
+  "entry": {
+    "id": "8PNE"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 4.16,
+      "density_percent_sol": 70.41,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "20-60 mg/mL YihX protein in the buffer of Tris-HCl 25 mM pH 7.5, NaCl 150 mM, MgCl2 20 mM, NaF 30 mM, was mixed 1:1 ratio with the precipitant containing MES 55.5 mM, imidazole 44.5 mM pH 6.5, 30 mM MgCl2, 30 mM CaCl2, 20% glycerol, 10% PEG4000, 20% PEG500",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-07-10T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United Kingdom",
+      "funding_organization": "Engineering and Physical Sciences Research Council",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-06-30T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2B0C",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-09T06:57:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2123,
+      "DCC_Rfree": 0.2408,
+      "EDS_R": 0.2157,
+      "EDS_res_high": 1.9,
+      "EDS_res_low": 70.2,
+      "Fo_Fc_correlation": 0.959,
+      "I_over_sigma": "1.77(1.90A)",
+      "Padilla_Yeates_L2_mean": 0.343,
+      "Padilla_Yeates_L_mean": 0.508,
+      "Wilson_B_aniso": "[26.744,20.293,53.548,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 30.183,
+      "acentric_outliers": 2,
+      "bulk_solvent_b": 42.221,
+      "bulk_solvent_k": 0.321,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.992,
+      "data_completeness": 99.96,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 31724,
+      "number_reflns_R_free": 1550,
+      "percent_RSRZ_outliers": 5.53,
+      "percent_free_reflections": 4.88,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.72% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.05,
+      "bonds_RMSZ": 0.64,
+      "clashscore": 6.5,
+      "num_H_reduce": 1592,
+      "num_angles_RMSZ": 2243,
+      "num_bonds_RMSZ": 1653,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 3.49
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-06-30T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-07-10T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-07-10T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "entry_id": "8PNE",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8PNE"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1811,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 199,
+    "deposited_nonpolymer_entity_instance_count": 10,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 207,
+    "deposited_solvent_atom_count": 171,
+    "deposited_unmodeled_polymer_monomer_count": 8,
+    "diffrn_radiation_wavelength_maximum": 0.9762,
+    "diffrn_radiation_wavelength_minimum": 0.9762,
+    "disulfide_bond_count": 0,
+    "entity_count": 7,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 14,
+    "molecular_weight": 24.42,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA",
+      "MG"
+    ],
+    "nonpolymer_entity_count": 5,
+    "nonpolymer_molecular_weight_maximum": 0.11,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 23.83,
+    "polymer_molecular_weight_minimum": 23.83,
+    "polymer_monomer_count_maximum": 207,
+    "polymer_monomer_count_minimum": 207,
+    "resolution_combined": [
+      1.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "MOLREP",
+      "REFMAC",
+      "XIA2"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0009-0001-0566-6579",
+      "0000-0001-9484-7402",
+      "0000-0002-6927-4371"
+    ],
+    "rcsb_authors": [
+      "Zappala, D.",
+      "Baumann, P.",
+      "Jin, Y."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Apo structure of E.coli YihX Wild Type"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 42.98,
+      "aniso_B_1_1": -2.854,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": -4.725,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": 7.578,
+      "correlation_coeff_Fo_to_Fc": 0.956,
+      "correlation_coeff_Fo_to_Fc_free": 0.951,
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.2339,
+      "ls_R_factor_R_work": 0.2037,
+      "ls_R_factor_all": 0.205,
+      "ls_d_res_high": 1.9,
+      "ls_d_res_low": 70.2,
+      "ls_number_reflns_R_free": 1549,
+      "ls_number_reflns_R_work": 30184,
+      "ls_number_reflns_obs": 31733,
+      "ls_percent_reflns_R_free": 4.881,
+      "ls_percent_reflns_obs": 99.987,
+      "overall_SU_B": 4.822,
+      "overall_SU_ML": 0.121,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.111,
+      "pdbx_overall_ESU_R_Free": 0.111,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "solvent_model_details": "MASK BULK SOLVENT"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.9,
+      "d_res_low": 70.2,
+      "number_atoms_solvent": 162,
+      "number_atoms_total": 1797,
+      "pdbx_number_atoms_ligand": 31,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1604,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "dev_ideal_target": 0.012,
+      "number": 1686,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.016,
+      "number": 1546,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.491,
+      "dev_ideal_target": 1.652,
+      "number": 2262,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 0.521,
+      "dev_ideal_target": 1.583,
+      "number": 3558,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.904,
+      "dev_ideal_target": 5.0,
+      "number": 200,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 8.88,
+      "dev_ideal_target": 5.0,
+      "number": 10,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 14.2,
+      "dev_ideal_target": 10.0,
+      "number": 272,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 15.829,
+      "dev_ideal_target": 10.0,
+      "number": 86,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_6_deg"
+    },
+    {
+      "dev_ideal": 0.067,
+      "dev_ideal_target": 0.2,
+      "number": 247,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.008,
+      "dev_ideal_target": 0.02,
+      "number": 1958,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 392,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 0.228,
+      "dev_ideal_target": 0.2,
+      "number": 410,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.195,
+      "dev_ideal_target": 0.2,
+      "number": 1548,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_other"
+    },
+    {
+      "dev_ideal": 0.188,
+      "dev_ideal_target": 0.2,
+      "number": 826,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "dev_ideal": 0.08,
+      "dev_ideal_target": 0.2,
+      "number": 887,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbtor_other"
+    },
+    {
+      "dev_ideal": 0.172,
+      "dev_ideal_target": 0.2,
+      "number": 151,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.425,
+      "dev_ideal_target": 0.2,
+      "number": 11,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.307,
+      "dev_ideal_target": 0.2,
+      "number": 49,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "dev_ideal": 0.138,
+      "dev_ideal_target": 0.2,
+      "number": 13,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 4.103,
+      "dev_ideal_target": 4.533,
+      "number": 801,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 4.108,
+      "dev_ideal_target": 4.538,
+      "number": 798,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 5.582,
+      "dev_ideal_target": 8.127,
+      "number": 995,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 5.597,
+      "dev_ideal_target": 8.136,
+      "number": 996,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 5.368,
+      "dev_ideal_target": 4.897,
+      "number": 885,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 5.364,
+      "dev_ideal_target": 4.899,
+      "number": 883,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 7.346,
+      "dev_ideal_target": 8.689,
+      "number": 1266,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 7.343,
+      "dev_ideal_target": 8.686,
+      "number": 1267,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 9.32,
+      "dev_ideal_target": 44.583,
+      "number": 2022,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_it"
+    },
+    {
+      "dev_ideal": 9.207,
+      "dev_ideal_target": 42.337,
+      "number": 1971,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_other"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 70.2,
+      "number_obs": 31737,
+      "pdbx_CC_half": 0.998,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 12.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 13.6,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.9,
+      "d_res_low": 1.94,
+      "number_unique_obs": 2009,
+      "pdbx_CC_half": 0.837,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0415"
+    },
+    {
+      "classification": "data reduction",
+      "name": "xia2",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "E.coli YihX Wild Type Apo"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "Apo, Hydrolase, Phosphatase"
+  },
+  "symmetry": {
+    "Int_Tables_number": 23,
+    "space_group_name_H_M": "I 2 2 2"
+  },
+  "rcsb_id": "8PNE"
+}

@@ -1,0 +1,481 @@
+{
+  "audit_author": [
+    {
+      "name": "Kim, Y.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Maltseva, N.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Endres, M.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Joachimiak, A.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Center for Structural Biology of Infectious Diseases (CSBID)",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 120.831,
+    "length_b": 120.831,
+    "length_c": 35.339,
+    "volume": 446829.283
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Kim, Y.",
+        "Maltseva, N.",
+        "Endres, M.",
+        "Joachimiak, A."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of metallo-hydrolase-like_MBL-fold protein from Salmonella typhimurium LT2"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9BZB",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9bzb/pdb",
+      "pdbx_database_accession": "pdb_00009bzb"
+    },
+    {
+      "database_code": "D_1000284344",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2018-10-28T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 X 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "19-ID",
+      "pdbx_synchrotron_site": "APS",
+      "pdbx_wavelength_list": "0.97918",
+      "source": "SYNCHROTRON",
+      "type": "APS BEAMLINE 19-ID"
+    }
+  ],
+  "entry": {
+    "id": "9BZB"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.48,
+      "density_percent_sol": 50.32,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "50 mM Tris pH 7.6. 2.9 % (v/v) PEG350 MME, 34.3 % (v/v) PEG 600",
+      "temp": 289.0
+    }
+  ],
+  "pdbx_SG_project": [
+    {
+      "full_name_of_center": "Center for Structural Biology of Infectious Diseases",
+      "id": 1,
+      "initial_of_center": "CSBID",
+      "project_name": "NIAID, National Institute of Allergy and Infectious Diseases"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-06-05T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "IDP02048",
+      "db_name": "TargetTrack"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "Y",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-05-24T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5IOQ",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-20T08:14:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1976,
+      "DCC_Rfree": 0.2362,
+      "EDS_R": 0.2108,
+      "EDS_res_high": 1.95,
+      "EDS_res_low": 39.55,
+      "Fo_Fc_correlation": 0.967,
+      "I_over_sigma": "1.45(1.95A)",
+      "Padilla_Yeates_L2_mean": 0.319,
+      "Padilla_Yeates_L_mean": 0.487,
+      "Wilson_B_aniso": "[50.712,50.712,34.654,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 44.972,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 33.433,
+      "bulk_solvent_k": 0.322,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.354,
+      "data_completeness": 96.06,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 20937,
+      "number_reflns_R_free": 1075,
+      "percent_RSRZ_outliers": 1.85,
+      "percent_free_reflections": 4.93,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.59% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-h-k,-l:0.035"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.31,
+      "bonds_RMSZ": 0.13,
+      "clashscore": 3.02,
+      "num_H_reduce": 2144,
+      "num_angles_RMSZ": 2973,
+      "num_bonds_RMSZ": 2186,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 2.26
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-05-24T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-06-05T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-06-05T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9BZB",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9BZB"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2188,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 270,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 275,
+    "deposited_solvent_atom_count": 39,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 0.9792,
+    "diffrn_radiation_wavelength_minimum": 0.9792,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 30.29,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.1,
+    "nonpolymer_molecular_weight_minimum": 0.05,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 30.08,
+    "polymer_molecular_weight_minimum": 30.08,
+    "polymer_monomer_count_maximum": 275,
+    "polymer_monomer_count_minimum": 275,
+    "resolution_combined": [
+      1.95
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-3000",
+      "MOLREP",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.95
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Kim, Y.",
+      "Maltseva, N.",
+      "Endres, M.",
+      "Joachimiak, A."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of metallo-hydrolase-like_MBL-fold protein from Salmonella typhimurium LT2"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 56.35,
+      "ls_R_factor_R_free": 0.2357,
+      "ls_R_factor_R_work": 0.1967,
+      "ls_R_factor_obs": 0.1987,
+      "ls_d_res_high": 1.95,
+      "ls_d_res_low": 39.55,
+      "ls_number_reflns_R_free": 1074,
+      "ls_number_reflns_R_work": 19846,
+      "ls_number_reflns_obs": 20920,
+      "ls_percent_reflns_R_free": 5.13,
+      "ls_percent_reflns_obs": 95.93,
+      "overall_SU_ML": 0.3155,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.37,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 34.6335,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.95,
+      "d_res_low": 39.55,
+      "number_atoms_solvent": 39,
+      "number_atoms_total": 2137,
+      "pdbx_number_atoms_ligand": 12,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2086,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0027,
+      "number": 2200,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.5694,
+      "number": 2997,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0434,
+      "number": 334,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0047,
+      "number": 395,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 13.9065,
+      "number": 809,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 45.06,
+      "d_resolution_high": 1.95,
+      "d_resolution_low": 50.0,
+      "number_obs": 21268,
+      "pdbx_Rmerge_I_obs": 0.138,
+      "pdbx_Rpim_I_all": 0.048,
+      "pdbx_Rrim_I_all": 0.147,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 20.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.7,
+      "percent_possible_obs": 97.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.837,
+      "d_res_high": 1.95,
+      "d_res_low": 1.98,
+      "meanI_over_sigI_obs": 0.92,
+      "number_unique_obs": 803,
+      "pdbx_CC_half": 0.616,
+      "pdbx_Rpim_I_all": 0.518,
+      "pdbx_Rrim_I_all": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.6,
+      "percent_possible_all": 75.4
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of metallo-hydrolase-like_MBL-fold protein from Salmonella typhimurium LT2"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "putative Zn-dependent hydrolase, metallo-hydrolase-like_MBL-fold, CSBID, Structural Genomics, Center for Structural Biology of Infectious Diseases, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 171,
+    "space_group_name_H_M": "P 62",
+    "space_group_name_Hall": "P 62"
+  },
+  "rcsb_id": "9BZB"
+}

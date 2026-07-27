@@ -1,0 +1,974 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-4734-0390",
+      "name": "Rubesova, P.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Brynda, J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-0847-5022",
+      "name": "Mares, M.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Gerwick, W.H.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 33.185,
+    "length_b": 79.214,
+    "length_c": 90.631
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Acs Infect Dis.",
+      "journal_id_ISSN": "2373-8227",
+      "journal_volume": "10",
+      "page_first": "1935",
+      "page_last": "1948",
+      "pdbx_database_id_DOI": "10.1021/acsinfecdis.3c00589",
+      "pdbx_database_id_PubMed": 38757505,
+      "rcsb_authors": [
+        "Spiwokova, P.",
+        "Horn, M.",
+        "Fanfrlik, J.",
+        "Jilkova, A.",
+        "Fajtova, P.",
+        "Leontovyc, A.",
+        "Houstecka, R.",
+        "Bielikova, L.",
+        "Brynda, J.",
+        "Chanova, M.",
+        "Mertlikova-Kaiserova, H.",
+        "Caro-Diaz, E.J.E.",
+        "Almaliti, J.",
+        "El-Sakkary, N.",
+        "Gerwick, W.H.",
+        "Caffrey, C.R.",
+        "Mares, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "ACS Infect Dis",
+      "title": "Nature-Inspired Gallinamides Are Potent Antischistosomal Agents: Inhibition of the Cathepsin B1 Protease Target and Binding Mode Analysis.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8CC2",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8cc2/pdb",
+      "pdbx_database_accession": "pdb_00008cc2"
+    },
+    {
+      "database_code": "D_1292128048",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2018-03-29T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "14.1",
+      "pdbx_synchrotron_site": "BESSY",
+      "pdbx_wavelength_list": "0.9184",
+      "source": "SYNCHROTRON",
+      "type": "BESSY BEAMLINE 14.1"
+    }
+  ],
+  "entry": {
+    "id": "8CC2"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.09,
+      "density_percent_sol": 41.17,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 6.0,
+      "pdbx_details": "0.2 M ammonium acetate, 0.1 M sodium citrate, 30% PEG 1500, streak seeding",
+      "temp": 278.15
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-02-07T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-08-07T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2024-11-06T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 11,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Other government",
+      "grant_number": "NV18-05-00345",
+      "ordinal": 1
+    },
+    {
+      "country": "Czech Republic",
+      "funding_organization": "Ministry of Education, Youth and Sports of the Czech Republic",
+      "grant_number": "LTAUSA19109",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "7JUJ",
+      "db_name": "PDB",
+      "details": "7JUJ contains the same ligand GN9"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-01-26T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "4I07",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T15:21:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1344,
+      "DCC_Rfree": 0.165,
+      "EDS_R": 0.1557,
+      "EDS_res_high": 1.2,
+      "EDS_res_low": 45.36,
+      "Fo_Fc_correlation": 0.976,
+      "I_over_sigma": "1.02(1.20A)",
+      "Padilla_Yeates_L2_mean": 0.329,
+      "Padilla_Yeates_L_mean": 0.496,
+      "Wilson_B_aniso": "[12.234,13.142,12.545,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 12.623,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 53.434,
+      "bulk_solvent_k": 0.394,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.072,
+      "data_completeness": 99.78,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 75696,
+      "number_reflns_R_free": 1511,
+      "percent_RSRZ_outliers": 0.39,
+      "percent_free_reflections": 1.99,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.51% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.95,
+      "bonds_RMSZ": 0.92,
+      "clashscore": 1.2,
+      "num_H_reduce": 2037,
+      "num_angles_RMSZ": 2954,
+      "num_bonds_RMSZ": 2192,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-01-26T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-02-07T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2024-11-06T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8CC2",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38757505,
+    "rcsb_id": "8CC2"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2405,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 254,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 254,
+    "deposited_solvent_atom_count": 272,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.9184,
+    "diffrn_radiation_wavelength_minimum": 0.9184,
+    "disulfide_bond_count": 6,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 1,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 29.13,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "GN9",
+      "NA"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.59,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 28.51,
+    "polymer_molecular_weight_minimum": 28.51,
+    "polymer_monomer_count_maximum": 254,
+    "polymer_monomer_count_minimum": 254,
+    "resolution_combined": [
+      1.2
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "MOLREP",
+      "REFMAC",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.2
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Acs Infect Dis.",
+    "journal_id_ISSN": "2373-8227",
+    "journal_volume": "10",
+    "page_first": "1935",
+    "page_last": "1948",
+    "pdbx_database_id_DOI": "10.1021/acsinfecdis.3c00589",
+    "pdbx_database_id_PubMed": 38757505,
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-4734-0390",
+      "0000-0001-9110-2018",
+      "0000-0002-1257-1201",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-2049-6248",
+      "?",
+      "?",
+      "0000-0003-1403-4458",
+      "?",
+      "0000-0002-0847-5022"
+    ],
+    "rcsb_authors": [
+      "Spiwokova, P.",
+      "Horn, M.",
+      "Fanfrlik, J.",
+      "Jilkova, A.",
+      "Fajtova, P.",
+      "Leontovyc, A.",
+      "Houstecka, R.",
+      "Bielikova, L.",
+      "Brynda, J.",
+      "Chanova, M.",
+      "Mertlikova-Kaiserova, H.",
+      "Caro-Diaz, E.J.E.",
+      "Almaliti, J.",
+      "El-Sakkary, N.",
+      "Gerwick, W.H.",
+      "Caffrey, C.R.",
+      "Mares, M."
+    ],
+    "rcsb_journal_abbrev": "ACS Infect Dis",
+    "title": "Nature-Inspired Gallinamides Are Potent Antischistosomal Agents: Inhibition of the Cathepsin B1 Protease Target and Binding Mode Analysis.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 14.588,
+      "aniso_B_1_1": -0.372,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": -0.192,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 0.564,
+      "correlation_coeff_Fo_to_Fc": 0.98,
+      "correlation_coeff_Fo_to_Fc_free": 0.973,
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.1653,
+      "ls_R_factor_R_work": 0.1346,
+      "ls_R_factor_all": 0.135,
+      "ls_d_res_high": 1.2,
+      "ls_d_res_low": 45.36,
+      "ls_number_reflns_R_free": 1511,
+      "ls_number_reflns_R_work": 74185,
+      "ls_number_reflns_obs": 75696,
+      "ls_percent_reflns_R_free": 1.996,
+      "ls_percent_reflns_obs": 99.55,
+      "overall_SU_B": 1.47,
+      "overall_SU_ML": 0.027,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.035,
+      "pdbx_overall_ESU_R_Free": 0.036,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "solvent_model_details": "MASK BULK SOLVENT"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.2,
+      "d_res_low": 45.36,
+      "number_atoms_solvent": 267,
+      "number_atoms_total": 2291,
+      "pdbx_number_atoms_ligand": 43,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1981,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.011,
+      "dev_ideal_target": 0.013,
+      "number": 2211,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.018,
+      "number": 1990,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.664,
+      "dev_ideal_target": 1.674,
+      "number": 3016,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 1.481,
+      "dev_ideal_target": 1.619,
+      "number": 4664,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.258,
+      "dev_ideal_target": 5.0,
+      "number": 288,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 30.345,
+      "dev_ideal_target": 22.301,
+      "number": 113,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 11.325,
+      "dev_ideal_target": 15.0,
+      "number": 380,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 13.729,
+      "dev_ideal_target": 15.0,
+      "number": 1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_other_3_deg"
+    },
+    {
+      "dev_ideal": 13.835,
+      "dev_ideal_target": 15.0,
+      "number": 13,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.091,
+      "dev_ideal_target": 0.2,
+      "number": 284,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.01,
+      "dev_ideal_target": 0.02,
+      "number": 2519,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 476,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 0.207,
+      "dev_ideal_target": 0.2,
+      "number": 426,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.179,
+      "dev_ideal_target": 0.2,
+      "number": 1820,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_other"
+    },
+    {
+      "dev_ideal": 0.171,
+      "dev_ideal_target": 0.2,
+      "number": 1037,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "dev_ideal": 0.083,
+      "dev_ideal_target": 0.2,
+      "number": 882,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbtor_other"
+    },
+    {
+      "dev_ideal": 0.161,
+      "dev_ideal_target": 0.2,
+      "number": 156,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.069,
+      "dev_ideal_target": 0.2,
+      "number": 2,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_other"
+    },
+    {
+      "dev_ideal": 0.046,
+      "dev_ideal_target": 0.2,
+      "number": 4,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "dev_ideal": 0.1,
+      "dev_ideal_target": 0.2,
+      "number": 5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.17,
+      "dev_ideal_target": 0.2,
+      "number": 51,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "dev_ideal": 0.162,
+      "dev_ideal_target": 0.2,
+      "number": 22,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 1.293,
+      "dev_ideal_target": 1.223,
+      "number": 1057,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.292,
+      "dev_ideal_target": 1.222,
+      "number": 1056,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 1.805,
+      "dev_ideal_target": 1.852,
+      "number": 1331,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 1.804,
+      "dev_ideal_target": 1.852,
+      "number": 1332,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 2.061,
+      "dev_ideal_target": 1.533,
+      "number": 1154,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 2.06,
+      "dev_ideal_target": 1.534,
+      "number": 1155,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 2.506,
+      "dev_ideal_target": 2.179,
+      "number": 1669,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 2.506,
+      "dev_ideal_target": 2.181,
+      "number": 1670,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 3.512,
+      "dev_ideal_target": 15.903,
+      "number": 2597,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_it"
+    },
+    {
+      "dev_ideal": 2.871,
+      "dev_ideal_target": 15.198,
+      "number": 2533,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_other"
+    },
+    {
+      "dev_ideal": 1.857,
+      "dev_ideal_target": 3.0,
+      "number": 4201,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.2,
+      "d_resolution_low": 50.0,
+      "number_obs": 75696,
+      "pdbx_CC_half": 0.9990000000000001,
+      "pdbx_Rmerge_I_obs": 0.087,
+      "pdbx_Rrim_I_all": 0.094,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 11.79,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.6,
+      "percent_possible_obs": 99.6
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.4040000000000001,
+      "d_res_high": 1.2,
+      "d_res_low": 1.27,
+      "number_unique_obs": 11996,
+      "pdbx_CC_half": 0.489,
+      "pdbx_Rrim_I_all": 1.524,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 98.7
+    },
+    {
+      "Rmerge_I_obs": 0.847,
+      "d_res_high": 1.27,
+      "d_res_low": 1.36,
+      "number_unique_obs": 11372,
+      "pdbx_CC_half": 0.7040000000000001,
+      "pdbx_Rrim_I_all": 0.9209999999999999,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.509,
+      "d_res_high": 1.36,
+      "d_res_low": 1.47,
+      "number_unique_obs": 10637,
+      "pdbx_CC_half": 0.882,
+      "pdbx_Rrim_I_all": 0.551,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 3,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.278,
+      "d_res_high": 1.47,
+      "d_res_low": 1.61,
+      "number_unique_obs": 9803,
+      "pdbx_CC_half": 0.961,
+      "pdbx_Rrim_I_all": 0.302,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 4,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.16,
+      "d_res_high": 1.61,
+      "d_res_low": 1.8,
+      "number_unique_obs": 8914,
+      "pdbx_CC_half": 0.987,
+      "pdbx_Rrim_I_all": 0.17300000000000001,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 5,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.08800000000000001,
+      "d_res_high": 1.8,
+      "d_res_low": 2.07,
+      "number_unique_obs": 7916,
+      "pdbx_CC_half": 0.996,
+      "pdbx_Rrim_I_all": 0.096,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 6,
+      "percent_possible_all": 99.7
+    },
+    {
+      "Rmerge_I_obs": 0.061,
+      "d_res_high": 2.07,
+      "d_res_low": 2.54,
+      "number_unique_obs": 6735,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rrim_I_all": 0.066,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 7,
+      "percent_possible_all": 99.7
+    },
+    {
+      "Rmerge_I_obs": 0.046,
+      "d_res_high": 2.54,
+      "d_res_low": 3.58,
+      "number_unique_obs": 5265,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rrim_I_all": 0.05,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 8,
+      "percent_possible_all": 99.4
+    },
+    {
+      "Rmerge_I_obs": 0.037000000000000005,
+      "d_res_high": 3.58,
+      "d_res_low": 50.0,
+      "number_unique_obs": 3058,
+      "pdbx_CC_half": 0.9990000000000001,
+      "pdbx_Rrim_I_all": 0.04,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 9,
+      "percent_possible_all": 99.3
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0257"
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3,
+      "version": "20180126"
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 4,
+      "version": "11.7.02"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Cathepsin B1 from Schistosoma mansoni in complex with gallinamide A"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "cysteine protease, cathepsin B, SmCB1, Schistosoma mansoni, protease inhibitor peptidomimetic, gallinamide A, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "8CC2"
+}

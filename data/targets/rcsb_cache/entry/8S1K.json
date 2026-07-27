@@ -1,0 +1,956 @@
+{
+  "audit_author": [
+    {
+      "name": "Ehler, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Benz, J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Obst-Sander, U.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Rudolph, M.G.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 31.988,
+    "length_b": 53.4,
+    "length_c": 72.131
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "journal_id_ISSN": "2059-7983",
+      "journal_volume": "81",
+      "page_first": "423",
+      "page_last": "435",
+      "pdbx_database_id_DOI": "10.1107/S2059798325006242",
+      "pdbx_database_id_PubMed": 40748029,
+      "rcsb_authors": [
+        "Casagrande, F.",
+        "Ehler, A.",
+        "Burger, D.",
+        "Benz, J.",
+        "Ross, A.",
+        "Rudolph, M.G."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "title": "A high-resolution data set of fatty acid-binding protein structures. I. Dynamics of FABP4 and ligand binding.",
+      "year": 2025
+    },
+    {
+      "id": "1",
+      "journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "journal_id_ISSN": "2059-7983",
+      "journal_volume": "81",
+      "page_first": "436",
+      "page_last": "450",
+      "pdbx_database_id_DOI": "10.1107/S2059798325005728",
+      "pdbx_database_id_PubMed": 40748030,
+      "rcsb_authors": [
+        "Ehler, A.",
+        "Benz, J.",
+        "Rudolph, M.G."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "title": "A high-resolution data set of fatty acid-binding protein structures. II. Crystallographic overview, ligand classes and binding pose.",
+      "year": 2025
+    },
+    {
+      "id": "2",
+      "journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "journal_id_ISSN": "2059-7983",
+      "journal_volume": "81",
+      "page_first": "451",
+      "page_last": "464",
+      "pdbx_database_id_DOI": "10.1107/S2059798325006096",
+      "pdbx_database_id_PubMed": 40748031,
+      "rcsb_authors": [
+        "Ehler, A.",
+        "Bartelmus, C.",
+        "Benz, J.",
+        "Plitzko, I.",
+        "Rudolph, M.G."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "title": "A high-resolution data set of fatty acid-binding protein structures. III. Unexpectedly high occurrence of wrong ligands.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8S1K",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8s1k/pdb",
+      "pdbx_database_accession": "pdb_00008s1k"
+    },
+    {
+      "database_code": "D_1292136644",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2013-06-10T00:00:00.000+00:00",
+      "type": "PSI PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X10SA",
+      "pdbx_synchrotron_site": "SLS",
+      "pdbx_wavelength_list": "1.000000",
+      "source": "SYNCHROTRON",
+      "type": "SLS BEAMLINE X10SA"
+    }
+  ],
+  "entry": {
+    "id": "8S1K"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.05,
+      "density_percent_sol": 40.01,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 7.0,
+      "pdbx_details": "protein in 25mM Tris/HCl pH 7.5 100mM NaCl, see also PMID 27658368",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_initial_refinement_model",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-03-06T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-09-17T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2026-03-04T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Switzerland",
+      "funding_organization": "F. Hoffmann-La Roche LTD",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-02-15T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_deposit_group": [
+    {
+      "group_description": "A set of fabp crystal structures",
+      "group_id": "G_1002280",
+      "group_title": "To be published",
+      "group_type": "undefined"
+    }
+  ],
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "inhouse model",
+      "id": 1,
+      "source_name": "Other",
+      "type": "other"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-04-26T06:21:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1876,
+      "DCC_Rfree": 0.2127,
+      "EDS_R": 0.1817,
+      "EDS_res_high": 1.22,
+      "EDS_res_low": 42.92,
+      "Fo_Fc_correlation": 0.97,
+      "I_over_sigma": "1.71(1.22A)",
+      "Padilla_Yeates_L2_mean": 0.32,
+      "Padilla_Yeates_L_mean": 0.488,
+      "Wilson_B_aniso": "[14.884,15.259,17.678,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 15.845,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 32.714,
+      "bulk_solvent_k": 0.378,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.175,
+      "data_completeness": 97.17,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 36522,
+      "number_reflns_R_free": 1848,
+      "percent_RSRZ_outliers": 6.15,
+      "percent_free_reflections": 4.92,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 8.52% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.67,
+      "bonds_RMSZ": 0.56,
+      "clashscore": 1.41,
+      "num_H_reduce": 1055,
+      "num_angles_RMSZ": 1422,
+      "num_bonds_RMSZ": 1058,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.88
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-02-15T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-03-06T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2026-03-04T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8S1K",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40748029,
+    "rcsb_id": "8S1K"
+  },
+  "rcsb_entry_group_membership": [
+    {
+      "aggregation_method": "matching_deposit_group_id",
+      "group_id": "G_1002280"
+    }
+  ],
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1226,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1076,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 130,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 135,
+    "deposited_solvent_atom_count": 155,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 15.56,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.46,
+    "nonpolymer_molecular_weight_minimum": 0.08,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 15.02,
+    "polymer_molecular_weight_minimum": 15.02,
+    "polymer_monomer_count_maximum": 135,
+    "polymer_monomer_count_minimum": 135,
+    "resolution_combined": [
+      1.22
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.22
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "Acta Crystallogr D Struct Biol",
+    "journal_id_ISSN": "2059-7983",
+    "journal_volume": "81",
+    "page_first": "423",
+    "page_last": "435",
+    "pdbx_database_id_DOI": "10.1107/S2059798325006242",
+    "pdbx_database_id_PubMed": 40748029,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0003-0447-1101"
+    ],
+    "rcsb_authors": [
+      "Casagrande, F.",
+      "Ehler, A.",
+      "Burger, D.",
+      "Benz, J.",
+      "Ross, A.",
+      "Rudolph, M.G."
+    ],
+    "rcsb_journal_abbrev": "Acta Crystallogr D Struct Biol",
+    "title": "A high-resolution data set of fatty acid-binding protein structures. I. Dynamics of FABP4 and ligand binding.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_max": 49.97,
+      "B_iso_mean": 19.93,
+      "B_iso_min": 10.61,
+      "details": "S-enantiomer bound. Pentyl chain flexible, last two atoms in particular are not well defined by electron density",
+      "ls_R_factor_R_free": 0.2075,
+      "ls_R_factor_R_work": 0.1711,
+      "ls_R_factor_obs": 0.1729,
+      "ls_d_res_high": 1.22,
+      "ls_d_res_low": 42.919,
+      "ls_number_reflns_R_free": 1848,
+      "ls_number_reflns_R_work": 34674,
+      "ls_number_reflns_obs": 36522,
+      "ls_percent_reflns_R_free": 5.06,
+      "ls_percent_reflns_obs": 97.17,
+      "overall_FOM_work_R_set": 0.8467,
+      "overall_SU_ML": 0.15,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 22.06,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "inhouse model",
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "final",
+      "d_res_high": 1.22,
+      "d_res_low": 42.919,
+      "number_atoms_solvent": 155,
+      "number_atoms_total": 1245,
+      "pdbx_B_iso_mean_ligand": 18.41,
+      "pdbx_B_iso_mean_solvent": 28.05,
+      "pdbx_number_atoms_ligand": 74,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1016,
+      "pdbx_number_residues_total": 130,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "number": 1091,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.259,
+      "number": 1476,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.075,
+      "number": 169,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.006,
+      "number": 183,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 12.496,
+      "number": 433,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 15.84,
+      "d_resolution_high": 1.22,
+      "d_resolution_low": 42.92,
+      "number_obs": 36560,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.085,
+      "pdbx_Rrim_I_all": 0.093,
+      "pdbx_chi_squared": 0.936,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 9.02,
+      "pdbx_number_measured_all": 223150,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.104,
+      "percent_possible_obs": 97.1
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.225,
+      "d_res_high": 1.22,
+      "d_res_low": 1.25,
+      "meanI_over_sigI_obs": 1.21,
+      "number_measured_obs": 14911,
+      "number_possible": 2746,
+      "number_unique_obs": 2451,
+      "pdbx_CC_half": 0.545,
+      "pdbx_Rrim_I_all": 1.338,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.084,
+      "percent_possible_all": 89.3
+    },
+    {
+      "Rmerge_I_obs": 1.055,
+      "d_res_high": 1.25,
+      "d_res_low": 1.29,
+      "meanI_over_sigI_obs": 1.57,
+      "number_measured_obs": 16323,
+      "number_possible": 2661,
+      "number_unique_obs": 2506,
+      "pdbx_CC_half": 0.641,
+      "pdbx_Rrim_I_all": 1.147,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 6.514,
+      "percent_possible_all": 94.2
+    },
+    {
+      "Rmerge_I_obs": 0.804,
+      "d_res_high": 1.29,
+      "d_res_low": 1.32,
+      "meanI_over_sigI_obs": 2.04,
+      "number_measured_obs": 15874,
+      "number_possible": 2604,
+      "number_unique_obs": 2496,
+      "pdbx_CC_half": 0.783,
+      "pdbx_Rrim_I_all": 0.875,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 3,
+      "pdbx_redundancy": 6.36,
+      "percent_possible_all": 95.9
+    },
+    {
+      "Rmerge_I_obs": 0.636,
+      "d_res_high": 1.32,
+      "d_res_low": 1.36,
+      "meanI_over_sigI_obs": 2.59,
+      "number_measured_obs": 14913,
+      "number_possible": 2510,
+      "number_unique_obs": 2414,
+      "pdbx_CC_half": 0.828,
+      "pdbx_Rrim_I_all": 0.695,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 4,
+      "pdbx_redundancy": 6.178,
+      "percent_possible_all": 96.2
+    },
+    {
+      "Rmerge_I_obs": 0.499,
+      "d_res_high": 1.36,
+      "d_res_low": 1.41,
+      "meanI_over_sigI_obs": 3.51,
+      "number_measured_obs": 15934,
+      "number_possible": 2461,
+      "number_unique_obs": 2381,
+      "pdbx_CC_half": 0.912,
+      "pdbx_Rrim_I_all": 0.541,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 5,
+      "pdbx_redundancy": 6.692,
+      "percent_possible_all": 96.7
+    },
+    {
+      "Rmerge_I_obs": 0.398,
+      "d_res_high": 1.41,
+      "d_res_low": 1.46,
+      "meanI_over_sigI_obs": 4.45,
+      "number_measured_obs": 15300,
+      "number_possible": 2366,
+      "number_unique_obs": 2314,
+      "pdbx_CC_half": 0.933,
+      "pdbx_Rrim_I_all": 0.433,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 6,
+      "pdbx_redundancy": 6.612,
+      "percent_possible_all": 97.8
+    },
+    {
+      "Rmerge_I_obs": 0.302,
+      "d_res_high": 1.46,
+      "d_res_low": 1.51,
+      "meanI_over_sigI_obs": 5.7,
+      "number_measured_obs": 14484,
+      "number_possible": 2305,
+      "number_unique_obs": 2253,
+      "pdbx_CC_half": 0.957,
+      "pdbx_Rrim_I_all": 0.329,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 7,
+      "pdbx_redundancy": 6.429,
+      "percent_possible_all": 97.7
+    },
+    {
+      "Rmerge_I_obs": 0.24,
+      "d_res_high": 1.51,
+      "d_res_low": 1.58,
+      "meanI_over_sigI_obs": 7.1,
+      "number_measured_obs": 12922,
+      "number_possible": 2202,
+      "number_unique_obs": 2151,
+      "pdbx_CC_half": 0.965,
+      "pdbx_Rrim_I_all": 0.263,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 8,
+      "pdbx_redundancy": 6.007,
+      "percent_possible_all": 97.7
+    },
+    {
+      "Rmerge_I_obs": 0.198,
+      "d_res_high": 1.58,
+      "d_res_low": 1.65,
+      "meanI_over_sigI_obs": 8.95,
+      "number_measured_obs": 13691,
+      "number_possible": 2121,
+      "number_unique_obs": 2092,
+      "pdbx_CC_half": 0.976,
+      "pdbx_Rrim_I_all": 0.215,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 9,
+      "pdbx_redundancy": 6.544,
+      "percent_possible_all": 98.6
+    },
+    {
+      "Rmerge_I_obs": 0.169,
+      "d_res_high": 1.65,
+      "d_res_low": 1.73,
+      "meanI_over_sigI_obs": 10.5,
+      "number_measured_obs": 12978,
+      "number_possible": 2043,
+      "number_unique_obs": 2006,
+      "pdbx_CC_half": 0.983,
+      "pdbx_Rrim_I_all": 0.184,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 10,
+      "pdbx_redundancy": 6.47,
+      "percent_possible_all": 98.2
+    },
+    {
+      "Rmerge_I_obs": 0.14,
+      "d_res_high": 1.73,
+      "d_res_low": 1.82,
+      "meanI_over_sigI_obs": 11.96,
+      "number_measured_obs": 11787,
+      "number_possible": 1927,
+      "number_unique_obs": 1910,
+      "pdbx_CC_half": 0.987,
+      "pdbx_Rrim_I_all": 0.153,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 11,
+      "pdbx_redundancy": 6.171,
+      "percent_possible_all": 99.1
+    },
+    {
+      "Rmerge_I_obs": 0.115,
+      "d_res_high": 1.82,
+      "d_res_low": 1.93,
+      "meanI_over_sigI_obs": 13.69,
+      "number_measured_obs": 10268,
+      "number_possible": 1851,
+      "number_unique_obs": 1826,
+      "pdbx_CC_half": 0.989,
+      "pdbx_Rrim_I_all": 0.127,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 12,
+      "pdbx_redundancy": 5.623,
+      "percent_possible_all": 98.6
+    },
+    {
+      "Rmerge_I_obs": 0.1,
+      "d_res_high": 1.93,
+      "d_res_low": 2.06,
+      "meanI_over_sigI_obs": 15.73,
+      "number_measured_obs": 9758,
+      "number_possible": 1734,
+      "number_unique_obs": 1710,
+      "pdbx_CC_half": 0.991,
+      "pdbx_Rrim_I_all": 0.11,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 13,
+      "pdbx_redundancy": 5.706,
+      "percent_possible_all": 98.6
+    },
+    {
+      "Rmerge_I_obs": 0.088,
+      "d_res_high": 2.06,
+      "d_res_low": 2.23,
+      "meanI_over_sigI_obs": 17.11,
+      "number_measured_obs": 9279,
+      "number_possible": 1626,
+      "number_unique_obs": 1614,
+      "pdbx_CC_half": 0.992,
+      "pdbx_Rrim_I_all": 0.097,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 14,
+      "pdbx_redundancy": 5.749,
+      "percent_possible_all": 99.3
+    },
+    {
+      "Rmerge_I_obs": 0.084,
+      "d_res_high": 2.23,
+      "d_res_low": 2.44,
+      "meanI_over_sigI_obs": 17.43,
+      "number_measured_obs": 8238,
+      "number_possible": 1507,
+      "number_unique_obs": 1501,
+      "pdbx_CC_half": 0.994,
+      "pdbx_Rrim_I_all": 0.092,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 15,
+      "pdbx_redundancy": 5.488,
+      "percent_possible_all": 99.6
+    },
+    {
+      "Rmerge_I_obs": 0.075,
+      "d_res_high": 2.44,
+      "d_res_low": 2.73,
+      "meanI_over_sigI_obs": 17.74,
+      "number_measured_obs": 6881,
+      "number_possible": 1362,
+      "number_unique_obs": 1350,
+      "pdbx_CC_half": 0.995,
+      "pdbx_Rrim_I_all": 0.083,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 16,
+      "pdbx_redundancy": 5.097,
+      "percent_possible_all": 99.1
+    },
+    {
+      "Rmerge_I_obs": 0.073,
+      "d_res_high": 2.73,
+      "d_res_low": 3.15,
+      "meanI_over_sigI_obs": 19.25,
+      "number_measured_obs": 6549,
+      "number_possible": 1226,
+      "number_unique_obs": 1218,
+      "pdbx_CC_half": 0.995,
+      "pdbx_Rrim_I_all": 0.08,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 17,
+      "pdbx_redundancy": 5.377,
+      "percent_possible_all": 99.3
+    },
+    {
+      "Rmerge_I_obs": 0.067,
+      "d_res_high": 3.15,
+      "d_res_low": 3.86,
+      "meanI_over_sigI_obs": 20.77,
+      "number_measured_obs": 5786,
+      "number_possible": 1039,
+      "number_unique_obs": 1039,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rrim_I_all": 0.073,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 18,
+      "pdbx_redundancy": 5.569,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.058,
+      "d_res_high": 3.86,
+      "d_res_low": 5.46,
+      "meanI_over_sigI_obs": 20.47,
+      "number_measured_obs": 4366,
+      "number_possible": 834,
+      "number_unique_obs": 826,
+      "pdbx_CC_half": 0.996,
+      "pdbx_Rrim_I_all": 0.063,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 19,
+      "pdbx_redundancy": 5.286,
+      "percent_possible_all": 99.0
+    },
+    {
+      "Rmerge_I_obs": 0.044,
+      "d_res_high": 5.46,
+      "d_res_low": 42.919,
+      "meanI_over_sigI_obs": 21.16,
+      "number_measured_obs": 2908,
+      "number_possible": 510,
+      "number_unique_obs": 502,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rrim_I_all": 0.048,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 20,
+      "pdbx_redundancy": 5.793,
+      "percent_possible_all": 98.4
+    }
+  ],
+  "software": [
+    {
+      "classification": "data scaling",
+      "contact_author": "Wolfgang Kabsch",
+      "location": "http://www.mpimf-heidelberg.mpg.de/~kabsch/xds/html_doc/xscale_program.html",
+      "name": "XSCALE",
+      "pdbx_ordinal": 1,
+      "type": "package"
+    },
+    {
+      "classification": "refinement",
+      "contact_author": "Paul D. Adams",
+      "contact_author_email": "PDAdams@lbl.gov",
+      "language": "C++",
+      "location": "http://www.phenix-online.org/",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2,
+      "type": "package",
+      "version": "dev_1391"
+    },
+    {
+      "classification": "data extraction",
+      "contact_author": "PDB",
+      "contact_author_email": "deposit@deposit.rcsb.org",
+      "date": "Apr. 15, 2021",
+      "language": "C++",
+      "location": "http://sw-tools.pdb.org/apps/PDB_EXTRACT/",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 3,
+      "type": "package",
+      "version": "3.28"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of human FABP4 in complex with 2-[1-(methoxymethyl)cyclopentyl]-6-pentyl-4-phenyl-3-(1H-tetrazol-5-yl)-5,6,7,8-tetrahydroquinoline"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "LIPID BINDING PROTEIN",
+    "text": "LIPID BINDING PROTEIN, FATTY ACID BINDING PROTEIN, CYTOPLASM, LIPID-BINDING, TRANSPORT, PROTEIN BINDING"
+  },
+  "symmetry": {
+    "Int_Tables_number": 18,
+    "space_group_name_H_M": "P 2 21 21"
+  },
+  "rcsb_id": "8S1K"
+}

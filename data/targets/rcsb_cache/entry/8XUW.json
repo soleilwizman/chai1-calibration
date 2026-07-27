@@ -1,0 +1,434 @@
+{
+  "audit_author": [
+    {
+      "name": "Li, L.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Ran, T.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Wang, W.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Zhang, F.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 65.582,
+    "length_b": 74.977,
+    "length_c": 50.106,
+    "volume": 246378.298
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Li, L.",
+        "Ran, T.",
+        "Wang, W.",
+        "Zhang, F."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal Structure of the bromodomain of Fusarium graminearum GCN5"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8XUW",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8xuw/pdb",
+      "pdbx_database_accession": "pdb_00008xuw"
+    },
+    {
+      "database_code": "D_1300044273",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 277.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-11-06T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL18U1",
+      "pdbx_synchrotron_site": "SSRF",
+      "pdbx_wavelength_list": "0.9791",
+      "source": "SYNCHROTRON",
+      "type": "SSRF BEAMLINE BL18U1"
+    }
+  ],
+  "entry": {
+    "id": "8XUW"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.21,
+      "density_percent_sol": 44.38,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION",
+      "pdbx_details": "0.2 M Sodium chloride,0.1 M BIS-TRIS pH5.5,25% w/v Polyethylene glycol 3350",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-04-23T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Basic Research Program of China (973 Program)",
+      "grant_number": "2022YFD1700300",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2024-01-14T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1e6i",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-07T00:10:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1879,
+      "DCC_Rfree": 0.2048,
+      "EDS_R": 0.2134,
+      "EDS_res_high": 1.58,
+      "EDS_res_low": 19.91,
+      "Fo_Fc_correlation": 0.961,
+      "I_over_sigma": "1.38(1.58A)",
+      "Padilla_Yeates_L2_mean": 0.327,
+      "Padilla_Yeates_L_mean": 0.493,
+      "Wilson_B_aniso": "[28.950,25.511,19.471,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 23.619,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 36.72,
+      "bulk_solvent_k": 0.352,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.385,
+      "data_completeness": 99.74,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 17252,
+      "number_reflns_R_free": 884,
+      "percent_RSRZ_outliers": 0.0,
+      "percent_free_reflections": 5.11,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.90% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.97,
+      "bonds_RMSZ": 0.83,
+      "clashscore": 2.15,
+      "num_H_reduce": 912,
+      "num_angles_RMSZ": 1337,
+      "num_bonds_RMSZ": 984,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.92
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-01-14T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-04-23T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-04-23T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "8XUW",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8XUW"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1110,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 112,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 117,
+    "deposited_solvent_atom_count": 162,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 0.9791,
+    "diffrn_radiation_wavelength_minimum": 0.9791,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 13.93,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 13.93,
+    "polymer_molecular_weight_minimum": 13.93,
+    "polymer_monomer_count_maximum": 117,
+    "polymer_monomer_count_minimum": 117,
+    "resolution_combined": [
+      1.58
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "SCALA",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.58
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Li, L.",
+      "Ran, T.",
+      "Wang, W.",
+      "Zhang, F."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal Structure of the bromodomain of Fusarium graminearum GCN5"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 26.59,
+      "ls_R_factor_R_free": 0.2044,
+      "ls_R_factor_R_work": 0.1885,
+      "ls_d_res_high": 1.58,
+      "ls_d_res_low": 19.91,
+      "ls_number_reflns_obs": 17252,
+      "ls_percent_reflns_obs": 99.67,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.58,
+      "d_res_low": 19.91,
+      "number_atoms_solvent": 162,
+      "number_atoms_total": 1098,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 936,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0105,
+      "number": 978,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.2525,
+      "number": 1334,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0731,
+      "number": 138,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0054,
+      "number": 176,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 15.8499,
+      "number": 602,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.58,
+      "d_resolution_low": 19.91,
+      "number_obs": 17567,
+      "pdbx_CC_half": 1.0,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 26.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.5,
+      "percent_possible_obs": 99.8
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.58,
+      "d_res_low": 1.61,
+      "number_unique_obs": 824,
+      "pdbx_CC_half": 0.642,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "v1.16"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALA",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of the bromodomain of Fusarium graminearum GCN5"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSCRIPTION",
+    "text": "Bromodomain-containing protein, TRANSCRIPTION"
+  },
+  "symmetry": {
+    "Int_Tables_number": 20,
+    "space_group_name_H_M": "C 2 2 21",
+    "space_group_name_Hall": "C 2c 2"
+  },
+  "rcsb_id": "8XUW"
+}

@@ -1,0 +1,539 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-0406-922X",
+      "name": "Collie, G.W.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0992-8193",
+      "name": "Russell, I.C.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 42.554,
+    "length_b": 80.379,
+    "length_c": 91.305
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Acs Med.Chem.Lett.",
+      "journal_id_ISSN": "1948-5875",
+      "journal_volume": "17",
+      "page_first": "590",
+      "page_last": "597",
+      "pdbx_database_id_DOI": "10.1021/acsmedchemlett.5c00713",
+      "pdbx_database_id_PubMed": 41847658,
+      "rcsb_authors": [
+        "Russell, I.C.",
+        "Bachurska-Szpala, P.",
+        "van Beek, L.",
+        "Michaelides, I.N.",
+        "Phillips, C.",
+        "Snijder, A.",
+        "Stubbs, C.J.",
+        "Collie, G.W."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "ACS Med Chem Lett",
+      "title": "Molecular Basis of c\u2010MET Inhibition by Approved Small Molecule Drugs: A Structural Perspective.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9T2V",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9t2v/pdb",
+      "pdbx_database_accession": "pdb_00009t2v"
+    },
+    {
+      "database_code": "D_1292151615",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-02-12T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I03",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.97625",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I03"
+    }
+  ],
+  "entry": {
+    "id": "9T2V"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.33,
+      "density_percent_sol": 47.27,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "20% PEG4K, 10% isopropanol, 0.1 M Na-HEPES pH 7.5",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-02-18T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-04-01T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2025-10-23T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "Non-public structure",
+      "id": 1,
+      "source_name": "Other",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T15:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.187,
+      "DCC_Rfree": 0.2207,
+      "EDS_R": 0.1876,
+      "EDS_res_high": 1.67,
+      "EDS_res_low": 60.33,
+      "Fo_Fc_correlation": 0.946,
+      "I_over_sigma": "1.62(1.66A)",
+      "Padilla_Yeates_L2_mean": 0.323,
+      "Padilla_Yeates_L_mean": 0.486,
+      "Wilson_B_aniso": "[19.151,21.064,18.317,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 18.638,
+      "acentric_outliers": 2,
+      "bulk_solvent_b": 32.61,
+      "bulk_solvent_k": 0.328,
+      "centric_outliers": 2,
+      "data_anisotropy": 0.141,
+      "data_completeness": 57.03,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 21367,
+      "number_reflns_R_free": 1028,
+      "percent_RSRZ_outliers": 3.45,
+      "percent_free_reflections": 4.81,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.07% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.01,
+      "bonds_RMSZ": 0.84,
+      "clashscore": 0.22,
+      "num_H_reduce": 2234,
+      "num_angles_RMSZ": 3114,
+      "num_bonds_RMSZ": 2294,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.26
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-10-23T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-02-18T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2026-04-01T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "9T2V",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 41847658,
+    "rcsb_id": "9T2V"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2467,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 290,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 296,
+    "deposited_solvent_atom_count": 192,
+    "deposited_unmodeled_polymer_monomer_count": 6,
+    "diffrn_radiation_wavelength_maximum": 0.9762,
+    "diffrn_radiation_wavelength_minimum": 0.9762,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 33.97,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.5,
+    "nonpolymer_molecular_weight_minimum": 0.5,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 33.47,
+    "polymer_molecular_weight_minimum": 33.47,
+    "polymer_monomer_count_maximum": 296,
+    "polymer_monomer_count_minimum": 296,
+    "resolution_combined": [
+      1.665
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOPROC",
+      "BUSTER",
+      "PHASER"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.67
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Acs Med.Chem.Lett.",
+    "journal_id_ISSN": "1948-5875",
+    "journal_volume": "17",
+    "page_first": "590",
+    "page_last": "597",
+    "pdbx_database_id_DOI": "10.1021/acsmedchemlett.5c00713",
+    "pdbx_database_id_PubMed": 41847658,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Russell, I.C.",
+      "Bachurska-Szpala, P.",
+      "van Beek, L.",
+      "Michaelides, I.N.",
+      "Phillips, C.",
+      "Snijder, A.",
+      "Stubbs, C.J.",
+      "Collie, G.W."
+    ],
+    "rcsb_journal_abbrev": "ACS Med Chem Lett",
+    "title": "Molecular Basis of c\u2010MET Inhibition by Approved Small Molecule Drugs: A Structural Perspective.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.226,
+      "ls_R_factor_R_work": 0.194,
+      "ls_d_res_high": 1.665,
+      "ls_d_res_low": 60.33,
+      "ls_number_reflns_obs": 21367,
+      "ls_percent_reflns_obs": 57.0,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.665,
+      "d_res_low": 60.33,
+      "number_atoms_solvent": 192,
+      "number_atoms_total": 2464,
+      "pdbx_number_atoms_ligand": 37,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2235,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "number": 2333,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_bond_d",
+      "weight": 2.0
+    },
+    {
+      "dev_ideal": 0.94,
+      "number": 3172,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_angle_deg",
+      "weight": 2.0
+    },
+    {
+      "number": 783,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SINUSOIDAL",
+      "type": "t_dihedral_angle_d",
+      "weight": 2.0
+    },
+    {
+      "number": 414,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_gen_planes",
+      "weight": 5.0
+    },
+    {
+      "number": 2333,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_it",
+      "weight": 10.0
+    },
+    {
+      "number": 301,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_chiral_improper_torsion",
+      "weight": 5.0
+    },
+    {
+      "number": 2111,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_ideal_dist_contact",
+      "weight": 4.0
+    },
+    {
+      "dev_ideal": 3.2,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_omega_torsion"
+    },
+    {
+      "dev_ideal": 15.34,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_other_torsion"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.665,
+      "d_resolution_low": 60.332,
+      "number_obs": 21372,
+      "pdbx_CC_half": 0.995,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 7.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.7,
+      "percent_possible_obs": 91.4
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.665,
+      "d_res_low": 1.871,
+      "number_unique_obs": 1069,
+      "pdbx_CC_half": 0.502,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "BUSTER",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "autoPROC",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of wild-type c-MET bound by cabozantinib."
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "Kinase, c-met, drug discovery, cancer, NSCLC, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "9T2V"
+}

@@ -1,0 +1,2409 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "CIKCDQFVTDALKTFENTYLNDHLPHDIHKNVMRMVNHEVSSFGVVTSAEDSYLGAVDENTLEQATWSFLKDLKRITDSDLKGELFIKELLWMLRHQKDIFNNLARQFQKEVLCPNKCGVMSQTLIWCLKCEKQLHICRKSLDCGERHIEVHRSEDLVLDCLLSWHRASKGLTDYSFYRVWENSSETLIAKGKEPYLTKSMVGPEDAGNYRCVLDTINQGHATVIRYDVTVLPPK",
+    "pdbx_seq_one_letter_code_can": "CIKCDQFVTDALKTFENTYLNDHLPHDIHKNVMRMVNHEVSSFGVVTSAEDSYLGAVDENTLEQATWSFLKDLKRITDSDLKGELFIKELLWMLRHQKDIFNNLARQFQKEVLCPNKCGVMSQTLIWCLKCEKQLHICRKSLDCGERHIEVHRSEDLVLDCLLSWHRASKGLTDYSFYRVWENSSETLIAKGKEPYLTKSMVGPEDAGNYRCVLDTINQGHATVIRYDVTVLPPK",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 235,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "house mouse",
+      "host_org_common_name": "human",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 235,
+      "pdbx_gene_src_gene": "Izumo1",
+      "pdbx_gene_src_ncbi_taxonomy_id": "10090",
+      "pdbx_gene_src_scientific_name": "Mus musculus",
+      "pdbx_host_org_cell_line": "Expi293F",
+      "pdbx_host_org_ncbi_taxonomy_id": "9606",
+      "pdbx_host_org_scientific_name": "Homo sapiens",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 53102,
+      "identity": 100
+    },
+    {
+      "cluster_id": 44818,
+      "identity": 95
+    },
+    {
+      "cluster_id": 49363,
+      "identity": 90
+    },
+    {
+      "cluster_id": 58018,
+      "identity": 70
+    },
+    {
+      "cluster_id": 15241,
+      "identity": 50
+    },
+    {
+      "cluster_id": 16163,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 235,
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "house mouse",
+      "end_seq_num": 235,
+      "ncbi_common_names": [
+        "house mouse",
+        "mouse"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Mus musculus",
+      "ncbi_taxonomy_id": 10090,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Mus musculus",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "314147",
+          "name": "Glires"
+        },
+        {
+          "depth": 23,
+          "id": "314147",
+          "name": "Rodents and rabbits"
+        },
+        {
+          "depth": 24,
+          "id": "9989",
+          "name": "Rodentia"
+        },
+        {
+          "depth": 24,
+          "id": "9989",
+          "name": "rodent"
+        },
+        {
+          "depth": 24,
+          "id": "9989",
+          "name": "rodents"
+        },
+        {
+          "depth": 25,
+          "id": "1963758",
+          "name": "Myomorpha"
+        },
+        {
+          "depth": 25,
+          "id": "1963758",
+          "name": "mice and others"
+        },
+        {
+          "depth": 26,
+          "id": "337687",
+          "name": "Muroidea"
+        },
+        {
+          "depth": 27,
+          "id": "10066",
+          "name": "Muridae"
+        },
+        {
+          "depth": 28,
+          "id": "39107",
+          "name": "Murinae"
+        },
+        {
+          "depth": 29,
+          "id": "10088",
+          "name": "Mus"
+        },
+        {
+          "depth": 29,
+          "id": "10088",
+          "name": "mice"
+        },
+        {
+          "depth": 29,
+          "id": "10088",
+          "name": "mouse"
+        },
+        {
+          "depth": 30,
+          "id": "862507",
+          "name": "Mus"
+        },
+        {
+          "depth": 31,
+          "id": "10090",
+          "name": "Mus musculus"
+        },
+        {
+          "depth": 31,
+          "id": "10090",
+          "name": "house mouse"
+        },
+        {
+          "depth": 31,
+          "id": "10090",
+          "name": "mouse"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "Izumo1"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 27.194,
+    "pdbx_description": "Izumo sperm-egg fusion protein 1",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Izumo sperm-egg fusion protein 1",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "Oocyte binding/fusion factor",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Sperm-specific protein izumo",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Izumo sperm-egg fusion protein 1"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "Q9D9J7",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF16706",
+      "assignment_version": "34.0",
+      "name": "Izumo-like Immunoglobulin domain (Izumo-Ig)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "PF15005",
+      "assignment_version": "34.0",
+      "name": "Izumo sperm-egg fusion, N-terminal domain (IZUMO)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0005102",
+      "name": "signaling receptor binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0005102",
+          "name": "signaling receptor binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0007342",
+      "name": "fusion of sperm to egg plasma membrane involved in single fertilization",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0007342",
+          "name": "fusion of sperm to egg plasma membrane involved in single fertilization"
+        },
+        {
+          "id": "GO:0019953",
+          "name": "sexual reproduction"
+        },
+        {
+          "id": "GO:0022414",
+          "name": "reproductive process"
+        },
+        {
+          "id": "GO:0009566",
+          "name": "fertilization"
+        },
+        {
+          "id": "GO:0048609",
+          "name": "multicellular organismal reproductive process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0022412",
+          "name": "cellular process involved in reproduction in multicellular organism"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007338",
+          "name": "single fertilization"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0035036",
+      "name": "sperm-egg recognition",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0035036",
+          "name": "sperm-egg recognition"
+        },
+        {
+          "id": "GO:0019953",
+          "name": "sexual reproduction"
+        },
+        {
+          "id": "GO:0009988",
+          "name": "cell-cell recognition"
+        },
+        {
+          "id": "GO:0022414",
+          "name": "reproductive process"
+        },
+        {
+          "id": "GO:0009566",
+          "name": "fertilization"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008037",
+          "name": "cell recognition"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007338",
+          "name": "single fertilization"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000768",
+      "name": "syncytium formation by plasma membrane fusion",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0140253",
+          "name": "cell-cell fusion"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0000768",
+          "name": "syncytium formation by cell-cell fusion"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016020",
+      "name": "membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036179",
+      "name": "Immunoglobulin-like domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036179",
+          "name": "Immunoglobulin-like domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042803",
+      "name": "protein homodimerization activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042802",
+          "name": "identical protein binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0042803",
+          "name": "protein homodimerization activity"
+        },
+        {
+          "id": "GO:0046983",
+          "name": "protein dimerization activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR032699",
+      "name": "Izumo protein, immunoglobulin domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR032699",
+          "name": "Izumo protein, immunoglobulin domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0048018",
+      "name": "receptor ligand activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0140677",
+          "name": "molecular function activator activity"
+        },
+        {
+          "id": "GO:0098772",
+          "name": "molecular function regulator activity"
+        },
+        {
+          "id": "GO:0030545",
+          "name": "signaling receptor regulator activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0048018",
+          "name": "receptor ligand activity"
+        },
+        {
+          "id": "GO:0030546",
+          "name": "signaling receptor activator activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0007155",
+      "name": "cell adhesion",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0007155",
+          "name": "cell adhesion"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0098635",
+      "name": "protein complex involved in cell-cell adhesion",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0098635",
+          "name": "protein complex involved in cell-cell adhesion"
+        },
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0098636",
+          "name": "protein complex involved in cell adhesion"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR032700",
+      "name": "Izumo sperm-egg fusion protein 1",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR032700",
+          "name": "Izumo sperm-egg fusion protein 1"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005886",
+      "name": "plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0002080",
+      "name": "acrosomal membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0001669",
+          "name": "acrosomal vesicle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0002080",
+          "name": "acrosomal membrane"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0030659",
+          "name": "cytoplasmic vesicle membrane"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0098588",
+          "name": "bounding membrane of organelle"
+        },
+        {
+          "id": "GO:0012506",
+          "name": "vesicle membrane"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0030141",
+          "name": "secretory granule"
+        },
+        {
+          "id": "GO:0099503",
+          "name": "secretory vesicle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0031090",
+          "name": "organelle membrane"
+        },
+        {
+          "id": "GO:0030667",
+          "name": "secretory granule membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0086080",
+      "name": "protein binding involved in heterotypic cell-cell adhesion",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050839",
+          "name": "cell adhesion molecule binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0098631",
+          "name": "cell adhesion mediator activity"
+        },
+        {
+          "id": "GO:0098632",
+          "name": "cell-cell adhesion mediator activity"
+        },
+        {
+          "id": "GO:0086080",
+          "name": "protein binding involved in heterotypic cell-cell adhesion"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR029389",
+      "name": "Izumo sperm-egg fusion protein",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR029389",
+          "name": "Izumo sperm-egg fusion protein"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0007339",
+      "name": "binding of sperm to zona pellucida",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0035036",
+          "name": "sperm-egg recognition"
+        },
+        {
+          "id": "GO:0019953",
+          "name": "sexual reproduction"
+        },
+        {
+          "id": "GO:0009988",
+          "name": "cell-cell recognition"
+        },
+        {
+          "id": "GO:0022414",
+          "name": "reproductive process"
+        },
+        {
+          "id": "GO:0009566",
+          "name": "fertilization"
+        },
+        {
+          "id": "GO:0007339",
+          "name": "binding of sperm to zona pellucida"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008037",
+          "name": "cell recognition"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007338",
+          "name": "single fertilization"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042802",
+      "name": "identical protein binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042802",
+          "name": "identical protein binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0001669",
+      "name": "acrosomal vesicle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0001669",
+          "name": "acrosomal vesicle"
+        },
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0030141",
+          "name": "secretory granule"
+        },
+        {
+          "id": "GO:0099503",
+          "name": "secretory vesicle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005789",
+      "name": "endoplasmic reticulum membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0031984",
+          "name": "organelle subcompartment"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0098827",
+          "name": "endoplasmic reticulum subcompartment"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0042175",
+          "name": "nuclear outer membrane-endoplasmic reticulum membrane network"
+        },
+        {
+          "id": "GO:0005783",
+          "name": "endoplasmic reticulum"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031090",
+          "name": "organelle membrane"
+        },
+        {
+          "id": "GO:0005789",
+          "name": "endoplasmic reticulum membrane"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "9MYM",
+    "rcsb_id": "9MYM_1",
+    "uniprot_ids": [
+      "Q9D9J7"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "Q9D9J7",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.5919395465994962
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF15005",
+      "name": "Izumo sperm-egg fusion, N-terminal domain (IZUMO)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 144
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF16706",
+      "name": "Izumo-like Immunoglobulin domain (Izumo-Ig)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 147,
+          "end_seq_id": 234
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            0.54,
+            -0.12,
+            -0.42,
+            0.43,
+            -0.28,
+            0.03,
+            0.73,
+            0.03,
+            -0.82,
+            -0.82,
+            -0.58,
+            -0.36,
+            -1.17,
+            -1.12,
+            -1.4,
+            -1.29,
+            -1.08,
+            -1.04,
+            -1.36,
+            -0.71,
+            -1.49,
+            -1.53,
+            -1.53,
+            -0.71,
+            -0.92,
+            -1.24,
+            -0.68,
+            0.18,
+            -0.71,
+            -0.71,
+            -0.67,
+            0.19,
+            -0.37,
+            -0.67,
+            0.14,
+            -0.11,
+            -0.11,
+            0.74,
+            1.02,
+            1.32,
+            1.06,
+            0.76,
+            0.46,
+            0.06,
+            -0.04,
+            -0.09,
+            -0.6,
+            -0.32,
+            0.23,
+            -0.36,
+            -0.36,
+            -0.36,
+            -0.34,
+            0.22,
+            -0.59,
+            -0.93,
+            -0.93,
+            -1.48,
+            -1.19,
+            -0.89,
+            -0.19,
+            0.31,
+            -0.54,
+            -0.54,
+            0.27,
+            -0.37,
+            -0.79,
+            -0.19,
+            -0.18,
+            -0.88,
+            -1.39,
+            -1.34,
+            -0.53,
+            -1.39,
+            -1.0,
+            -0.89,
+            -0.97,
+            -0.58,
+            0.31,
+            -0.03,
+            -0.03,
+            -0.03,
+            0.82,
+            0.77,
+            1.37,
+            1.37,
+            0.56,
+            -0.3,
+            -0.26,
+            -0.3,
+            -1.11,
+            -1.03,
+            -0.62,
+            -1.22,
+            -2.03,
+            -1.11,
+            -0.56,
+            -0.67,
+            -0.62,
+            0.08,
+            -0.81,
+            -1.56,
+            -1.56,
+            -0.7,
+            -0.7,
+            -0.62,
+            -0.3,
+            -0.3,
+            -1.04,
+            -0.38,
+            0.01,
+            0.87,
+            0.61,
+            0.1,
+            -0.57,
+            -0.47,
+            0.34,
+            1.28,
+            0.9,
+            1.22,
+            1.18,
+            0.53,
+            0.9,
+            0.9,
+            0.54,
+            -0.27,
+            -0.34,
+            -0.6,
+            -0.38,
+            -0.52,
+            -0.59,
+            -1.3,
+            -1.0,
+            -0.14,
+            -0.14,
+            -0.29,
+            0.02,
+            -0.87,
+            -1.64,
+            -1.5,
+            -0.57,
+            -0.87,
+            -0.82,
+            -0.79,
+            -1.57,
+            -1.61,
+            -1.61,
+            -1.5,
+            -0.72,
+            -0.76,
+            0.06,
+            -0.8,
+            -0.17,
+            0.76,
+            1.27,
+            1.57,
+            1.86,
+            1.08,
+            0.11,
+            -0.11,
+            0.19,
+            -0.52,
+            -0.99,
+            -0.99,
+            -0.98,
+            -1.27,
+            -1.06,
+            -0.64,
+            -0.53,
+            -0.59,
+            -0.66,
+            -0.14,
+            -0.67,
+            -0.98,
+            -0.98,
+            -0.92,
+            -0.92,
+            -1.62,
+            -1.56,
+            -0.63,
+            -0.6,
+            -0.3,
+            -0.34,
+            0.0,
+            -0.34,
+            -0.64,
+            -0.43,
+            -0.5,
+            -0.5,
+            -1.08,
+            -1.71,
+            -1.37,
+            -1.11,
+            -0.21,
+            0.13,
+            0.13,
+            -0.11,
+            -0.92,
+            -0.64,
+            -0.26,
+            -0.56,
+            -0.91,
+            -1.88,
+            -1.56,
+            -0.91,
+            -0.1,
+            -0.1,
+            -0.38,
+            0.17,
+            0.17,
+            -0.08,
+            0.38,
+            -0.26,
+            -0.52,
+            -1.02,
+            -0.17,
+            0.41,
+            -0.59,
+            -0.34,
+            -0.34,
+            0.17,
+            0.44,
+            0.71,
+            1.21,
+            0.57,
+            -0.11,
+            -0.04
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.57,
+            0.45,
+            0.41,
+            0.36,
+            0.22,
+            0.19,
+            0.16,
+            0.12,
+            0.06,
+            0.03,
+            0.02,
+            0.05,
+            0.07,
+            0.05,
+            0.13,
+            0.13,
+            0.12,
+            0.13,
+            0.17,
+            0.17,
+            0.18,
+            0.16,
+            0.19,
+            0.18,
+            0.16,
+            0.2,
+            0.2,
+            0.2,
+            0.22,
+            0.24,
+            0.32,
+            0.33,
+            0.23,
+            0.24,
+            0.27,
+            0.19,
+            0.2,
+            0.2,
+            0.24,
+            0.26,
+            0.27,
+            0.26,
+            0.24,
+            0.21,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.24,
+            0.23,
+            0.27,
+            0.19,
+            0.2,
+            0.3,
+            0.27,
+            0.31,
+            0.28,
+            0.29,
+            0.2,
+            0.15,
+            0.13,
+            0.13,
+            0.08,
+            0.12,
+            0.16,
+            0.09,
+            0.1,
+            0.14,
+            0.14,
+            0.13,
+            0.07,
+            0.07,
+            0.12,
+            0.12,
+            0.06,
+            0.05,
+            0.03,
+            0.04,
+            0.05,
+            0.04,
+            0.04,
+            0.03,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.04,
+            0.05,
+            0.05,
+            0.03,
+            0.01,
+            0.03,
+            0.03,
+            0.01,
+            0.01,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.05,
+            0.05,
+            0.05,
+            0.02,
+            0.05,
+            0.05,
+            0.05,
+            0.02,
+            0.02,
+            0.01,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.0,
+            0.01,
+            0.01,
+            0.0,
+            0.0,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.03,
+            0.02,
+            0.03,
+            0.06,
+            0.06,
+            0.03,
+            0.02,
+            0.02,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.03,
+            0.05,
+            0.05,
+            0.04,
+            0.05,
+            0.05,
+            0.03,
+            0.03,
+            0.02,
+            0.02,
+            0.02,
+            0.03,
+            0.01,
+            0.03,
+            0.05,
+            0.08,
+            0.08,
+            0.14,
+            0.15,
+            0.12,
+            0.1,
+            0.09,
+            0.09,
+            0.08,
+            0.13,
+            0.14,
+            0.16,
+            0.17,
+            0.12,
+            0.19,
+            0.26,
+            0.26,
+            0.29,
+            0.32,
+            0.31,
+            0.34,
+            0.35,
+            0.36,
+            0.32,
+            0.32,
+            0.38,
+            0.37,
+            0.4,
+            0.35,
+            0.3,
+            0.24,
+            0.24,
+            0.21,
+            0.21,
+            0.28,
+            0.29,
+            0.3,
+            0.3,
+            0.29,
+            0.35,
+            0.3,
+            0.21,
+            0.2,
+            0.14,
+            0.17,
+            0.13,
+            0.13,
+            0.13,
+            0.09,
+            0.15,
+            0.22,
+            0.27,
+            0.31,
+            0.35,
+            0.47,
+            0.5,
+            0.53,
+            0.58,
+            0.63,
+            0.69,
+            0.73,
+            0.82
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.09,
+            0.11,
+            0.12,
+            0.13,
+            0.14,
+            0.15,
+            0.18,
+            0.2,
+            0.22,
+            0.24,
+            0.27,
+            0.29,
+            0.29,
+            0.31,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.35,
+            0.34,
+            0.34,
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.38,
+            0.38,
+            0.37,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.34,
+            0.34,
+            0.33,
+            0.32,
+            0.32,
+            0.32,
+            0.31,
+            0.31,
+            0.31,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.3,
+            0.29,
+            0.29,
+            0.28,
+            0.27,
+            0.26,
+            0.25,
+            0.24,
+            0.22,
+            0.2,
+            0.18,
+            0.16,
+            0.15,
+            0.14,
+            0.13,
+            0.13,
+            0.13,
+            0.13,
+            0.14,
+            0.14,
+            0.16,
+            0.18,
+            0.21,
+            0.25,
+            0.27,
+            0.28,
+            0.29,
+            0.3,
+            0.31,
+            0.33,
+            0.33,
+            0.3,
+            0.26,
+            0.22,
+            0.18,
+            0.15,
+            0.13,
+            0.12,
+            0.11,
+            0.09,
+            0.08,
+            0.07,
+            0.06,
+            0.05,
+            0.05,
+            0.04,
+            0.04,
+            0.03,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.01,
+            0.01,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.02,
+            0.03,
+            0.03,
+            0.04,
+            0.05,
+            0.06,
+            0.07,
+            0.1,
+            0.11,
+            0.13,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.16,
+            0.18,
+            0.19,
+            0.2,
+            0.2,
+            0.21,
+            0.22,
+            0.24,
+            0.26,
+            0.3,
+            0.34,
+            0.35,
+            0.37,
+            0.39,
+            0.4,
+            0.42,
+            0.43,
+            0.42,
+            0.43,
+            0.41,
+            0.39,
+            0.36,
+            0.34,
+            0.32,
+            0.31,
+            0.3,
+            0.3,
+            0.29,
+            0.28,
+            0.27,
+            0.27,
+            0.28,
+            0.3,
+            0.31,
+            0.32,
+            0.32,
+            0.31,
+            0.3,
+            0.31,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.33,
+            0.34,
+            0.35,
+            0.37,
+            0.38,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.41,
+            0.39,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.32,
+            0.32,
+            0.33,
+            0.34,
+            0.36
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 2,
+      "coverage": 0.98723,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "49363_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "15241_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "Q9D9J7",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "53102_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "58018_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "16163_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "44818_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 235,
+          "ref_beg_seq_id": 22
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "Oocyte binding/fusion factor,OBF,Sperm-specific protein izumo"
+    }
+  ],
+  "rcsb_id": "9MYM_1"
+}

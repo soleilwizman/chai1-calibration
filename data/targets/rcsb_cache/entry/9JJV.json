@@ -1,0 +1,526 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0005-3121-2828",
+      "name": "Zhong, Y.T.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0009-0008-4383-6058",
+      "name": "Huang, L.L.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-7427-6681",
+      "name": "Gao, S.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 91.567,
+    "length_b": 148.057,
+    "length_c": 71.315
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+      "journal_id_ASTM": "PNASA6",
+      "journal_id_CSD": "0040",
+      "journal_id_ISSN": "1091-6490",
+      "journal_volume": "122",
+      "page_first": "e2419449122",
+      "page_last": "e2419449122",
+      "pdbx_database_id_DOI": "10.1073/pnas.2419449122",
+      "pdbx_database_id_PubMed": 40198702,
+      "rcsb_authors": [
+        "Zhong, Y.T.",
+        "Huang, L.L.",
+        "Li, K.",
+        "Yang, B.",
+        "Ye, X.",
+        "Zhong, H.R.",
+        "Yu, B.",
+        "Ma, M.",
+        "Yuan, Y.",
+        "Meng, Y.",
+        "Pan, R.",
+        "Zhang, H.",
+        "Shi, L.",
+        "Wang, Y.",
+        "Tian, R.",
+        "Gao, S.",
+        "Bian, X."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+      "title": "Structural and functional characterization of the brain-specific dynamin superfamily member RNF112.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9JJV",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9jjv/pdb",
+      "pdbx_database_accession": "pdb_00009jjv"
+    },
+    {
+      "database_code": "D_1300051404",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-08-21T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 S 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "M",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL02U1",
+      "pdbx_synchrotron_site": "SSRF",
+      "pdbx_wavelength_list": "0.97918",
+      "source": "SYNCHROTRON",
+      "type": "SSRF BEAMLINE BL02U1"
+    }
+  ],
+  "entry": {
+    "id": "9JJV"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.63,
+      "density_percent_sol": 53.18,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "PEG 3350, Tacsimate pH 7.0,",
+      "temp": 291.15
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-04-23T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "grant_number": "32320103002",
+      "ordinal": 1
+    },
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "grant_number": "82173098",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2024-09-14T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "the GDP-bound form 1 structure of RNF112",
+      "id": 1,
+      "source_name": "Other",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-18T07:59:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1874,
+      "DCC_Rfree": 0.2247,
+      "EDS_R": 0.1936,
+      "EDS_res_high": 1.88,
+      "EDS_res_low": 37.01,
+      "Fo_Fc_correlation": 0.962,
+      "I_over_sigma": "1.29(1.88A)",
+      "Padilla_Yeates_L2_mean": 0.313,
+      "Padilla_Yeates_L_mean": 0.483,
+      "Wilson_B_aniso": "[26.363,25.314,34.983,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 28.734,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 36.398,
+      "bulk_solvent_k": 0.346,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.335,
+      "data_completeness": 99.0,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 39404,
+      "number_reflns_R_free": 1956,
+      "percent_RSRZ_outliers": 3.05,
+      "percent_free_reflections": 4.91,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.30% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.61,
+      "bonds_RMSZ": 0.39,
+      "clashscore": 4.68,
+      "num_H_reduce": 3175,
+      "num_angles_RMSZ": 4411,
+      "num_bonds_RMSZ": 3274,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-09-14T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-04-23T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-04-23T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9JJV",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40198702,
+    "rcsb_id": "9JJV"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3533,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 394,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 399,
+    "deposited_solvent_atom_count": 293,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 0.9792,
+    "diffrn_radiation_wavelength_minimum": 0.9792,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 11,
+    "molecular_weight": 46.8,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "GDP",
+      "MG"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.44,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 46.21,
+    "polymer_molecular_weight_minimum": 46.21,
+    "polymer_monomer_count_maximum": 399,
+    "polymer_monomer_count_minimum": 399,
+    "resolution_combined": [
+      1.88
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DIALS",
+      "PDB_EXTRACT",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.88
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+    "journal_id_ASTM": "PNASA6",
+    "journal_id_CSD": "0040",
+    "journal_id_ISSN": "1091-6490",
+    "journal_volume": "122",
+    "page_first": "e2419449122",
+    "page_last": "e2419449122",
+    "pdbx_database_id_DOI": "10.1073/pnas.2419449122",
+    "pdbx_database_id_PubMed": 40198702,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0009-0006-3631-1902",
+      "0009-0000-9947-8810",
+      "?",
+      "0000-0001-9521-5124",
+      "?",
+      "0000-0002-5501-0471"
+    ],
+    "rcsb_authors": [
+      "Zhong, Y.T.",
+      "Huang, L.L.",
+      "Li, K.",
+      "Yang, B.",
+      "Ye, X.",
+      "Zhong, H.R.",
+      "Yu, B.",
+      "Ma, M.",
+      "Yuan, Y.",
+      "Meng, Y.",
+      "Pan, R.",
+      "Zhang, H.",
+      "Shi, L.",
+      "Wang, Y.",
+      "Tian, R.",
+      "Gao, S.",
+      "Bian, X."
+    ],
+    "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+    "title": "Structural and functional characterization of the brain-specific dynamin superfamily member RNF112.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2235,
+      "ls_R_factor_R_work": 0.1863,
+      "ls_R_factor_obs": 0.1882,
+      "ls_d_res_high": 1.88,
+      "ls_d_res_low": 37.01,
+      "ls_number_reflns_R_free": 1954,
+      "ls_number_reflns_obs": 39404,
+      "ls_percent_reflns_R_free": 4.96,
+      "ls_percent_reflns_obs": 99.02,
+      "overall_SU_ML": 0.17,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 23.03,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.88,
+      "d_res_low": 37.01,
+      "number_atoms_solvent": 293,
+      "number_atoms_total": 3523,
+      "pdbx_number_atoms_ligand": 35,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 3195,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "number": 3309,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.088,
+      "number": 4467,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 10.394,
+      "number": 434,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.058,
+      "number": 482,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.01,
+      "number": 567,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.88,
+      "d_resolution_low": 77.88,
+      "number_obs": 39475,
+      "pdbx_CC_half": 0.999,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 14.5,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 11.5,
+      "percent_possible_obs": 99.2
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.88,
+      "d_res_low": 1.93,
+      "meanI_over_sigI_obs": 2.0,
+      "number_unique_obs": 2689,
+      "pdbx_CC_half": 0.609,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.1,
+      "percent_possible_all": 92.8
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.19_4092: 000)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "DIALS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "DIALS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4,
+      "version": "(1.19_4092: 000)"
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Truncated RNF112, transition-like state"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "RNF112, GTPase, Dynamin, E3 ligase, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 20,
+    "space_group_name_H_M": "C 2 2 21"
+  },
+  "rcsb_id": "9JJV"
+}

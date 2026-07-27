@@ -1,0 +1,95 @@
+{
+  "query_id": "a72aba09-4cff-4b6b-9c48-29b4e04b1ec1",
+  "result_type": "polymer_entity",
+  "total_count": 2,
+  "result_set": [
+    {
+      "identifier": "5BVL_1",
+      "score": 0.532394366197183,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 1089,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 8069,
+              "original_score": 79.0,
+              "norm_score": 0.0647887323943662,
+              "match_context": [
+                {
+                  "sequence_identity": 0.38,
+                  "evalue": 1.999e-15,
+                  "bitscore": 79,
+                  "alignment_length": 197,
+                  "mismatches": 90,
+                  "gaps_opened": 1,
+                  "query_beg": 2,
+                  "query_end": 198,
+                  "subject_beg": 17,
+                  "subject_end": 181,
+                  "query_length": 223,
+                  "subject_length": 194,
+                  "query_aligned_seq": "GSGEIAYASGDADHLLAAREAGADILDVVDVDPARALAQVRRLRAAGARRILYASLRVDDLLAALEAGADILAVPDLDHDAALAQIRALKAAGAREIAYGSPDADHLLEAREAGADILGVAADTPAVRELWLRNLRQVFSEEEAREILDRRIHLPDPATAIEQVRRLRAAGAKRIMFASDDVDHLAAAKRAGADILL",
+                  "subject_aligned_seq": "GATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDA--------------------------------TDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILI"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "6WVS_1",
+      "score": 0.5,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 1089,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 8069,
+              "original_score": 56.0,
+              "norm_score": 0.0,
+              "match_context": [
+                {
+                  "sequence_identity": 0.348,
+                  "evalue": 8.173e-08,
+                  "bitscore": 56,
+                  "alignment_length": 175,
+                  "mismatches": 82,
+                  "gaps_opened": 1,
+                  "query_beg": 25,
+                  "query_end": 199,
+                  "subject_beg": 2,
+                  "subject_end": 144,
+                  "query_length": 223,
+                  "subject_length": 193,
+                  "query_aligned_seq": "DILDVVDVDPARALAQVRRLRAAGARRILYASLRVDDLLAALEAGADILAVPDLDHDAALAQIRALKAAGAREIAYGSPDADHLLEAREAGADILGVAADTPAVRELWLRNLRQVFSEEEAREILDRRIHLPDPATAIEQVRRLRAAGAKRIMFASDDVDHLAAAKRAGADILLV",
+                  "subject_aligned_seq": "DILIVNATDVDEMLKQVEILRRLGAKQIAVVSDDWRILQEALKKGGDILIVNATDVDEMLKQVEILRRLGAKQIAVVSDDWRILQEALKKGGDILIVNA--------------------------------TDVDEMLKQVEILRRLGAKQIAVVSDDWRILQEALKKGGDILIV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

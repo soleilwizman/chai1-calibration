@@ -1,0 +1,4844 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "AQILPIRFQEHLQLQNLGINPANIGFSTLTMESDKFICIREKVGEQAQVVIIDMNDPSNPIRRPISADSAIMNPASKVIALKAGKTLQIFNIEMKSKMKAHTMTDDVTFWKWISLNTVALVTDNAVYHWSMEGESQPVKMFDRHSSLAGCQIINYRTDAKQKWLLLTGISAQQNRVVGAMQLYSVDRKVSQPIEGHAASFAQFKMEGNAEESTLFCFAVRGQAGGKLHIIEVGTPPTGNQPFPKKAVDVFFPPEAQNDFPVAMQISEKHDVVFLITKYGYIHLYDLETGTCIYMNRISGETIFVTAPHEATAGIIGVNRKGQVLSVCVEEENIIPYITNVLQNPDLALRMAVRNNLAGAEELF",
+    "pdbx_seq_one_letter_code_can": "AQILPIRFQEHLQLQNLGINPANIGFSTLTMESDKFICIREKVGEQAQVVIIDMNDPSNPIRRPISADSAIMNPASKVIALKAGKTLQIFNIEMKSKMKAHTMTDDVTFWKWISLNTVALVTDNAVYHWSMEGESQPVKMFDRHSSLAGCQIINYRTDAKQKWLLLTGISAQQNRVVGAMQLYSVDRKVSQPIEGHAASFAQFKMEGNAEESTLFCFAVRGQAGGKLHIIEVGTPPTGNQPFPKKAVDVFFPPEAQNDFPVAMQISEKHDVVFLITKYGYIHLYDLETGTCIYMNRISGETIFVTAPHEATAGIIGVNRKGQVLSVCVEEENIIPYITNVLQNPDLALRMAVRNNLAGAEELF",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 363,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "human",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 363,
+      "pdbx_gene_src_gene": "CLTC, CLH17, CLTCL2, KIAA0034",
+      "pdbx_gene_src_ncbi_taxonomy_id": "9606",
+      "pdbx_gene_src_scientific_name": "Homo sapiens",
+      "pdbx_host_org_ncbi_taxonomy_id": "562",
+      "pdbx_host_org_scientific_name": "Escherichia coli",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 2796,
+      "identity": 100
+    },
+    {
+      "cluster_id": 2028,
+      "identity": 95
+    },
+    {
+      "cluster_id": 2131,
+      "identity": 90
+    },
+    {
+      "cluster_id": 1982,
+      "identity": 70
+    },
+    {
+      "cluster_id": 1640,
+      "identity": 50
+    },
+    {
+      "cluster_id": 1821,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 363,
+      "ncbi_common_names": [
+        "Bacillus coli",
+        "Bacterium coli",
+        "Bacterium coli commune",
+        "E. coli",
+        "Enterococcus coli",
+        "Escherichia/Shigella coli"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli",
+      "ncbi_taxonomy_id": 562,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "human",
+      "end_seq_num": 363,
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "CLTC"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "CLH17"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "CLTCL2"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "KIAA0034"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 40.412,
+    "pdbx_description": "Clathrin heavy chain 1",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Clathrin heavy chain 1",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "Clathrin heavy chain on chromosome 17",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "CLH-17",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Clathrin heavy chain 1"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "Q00610",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 363,
+          "ref_beg_seq_id": 2
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF01394",
+      "assignment_version": "34.0",
+      "name": "Clathrin propeller repeat (Clathrin_propel)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "PF09268",
+      "assignment_version": "34.0",
+      "name": "Clathrin, heavy-chain linker (Clathrin-link)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "IPR016341",
+      "name": "Clathrin, heavy chain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016341",
+          "name": "Clathrin, heavy chain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR015348",
+      "name": "Clathrin, heavy chain, linker, core motif",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR015348",
+          "name": "Clathrin, heavy chain, linker, core motif"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032051",
+      "name": "clathrin light chain binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0030276",
+          "name": "clathrin binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0032051",
+          "name": "clathrin light chain binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016020",
+      "name": "membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016024",
+      "name": "Armadillo-type fold",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016024",
+          "name": "Armadillo-type fold"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0031623",
+      "name": "receptor internalization",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0098657",
+          "name": "import into cell"
+        },
+        {
+          "id": "GO:0031623",
+          "name": "receptor internalization"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0006898",
+          "name": "receptor-mediated endocytosis"
+        },
+        {
+          "id": "GO:0006897",
+          "name": "endocytosis"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0016192",
+          "name": "vesicle-mediated transport"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003725",
+      "name": "double-stranded RNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003723",
+          "name": "RNA binding"
+        },
+        {
+          "id": "GO:0003725",
+          "name": "double-stranded RNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030669",
+      "name": "clathrin-coated endocytic vesicle membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0098588",
+          "name": "bounding membrane of organelle"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0012506",
+          "name": "vesicle membrane"
+        },
+        {
+          "id": "GO:0030136",
+          "name": "clathrin-coated vesicle"
+        },
+        {
+          "id": "GO:0030666",
+          "name": "endocytic vesicle membrane"
+        },
+        {
+          "id": "GO:0030135",
+          "name": "coated vesicle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0030139",
+          "name": "endocytic vesicle"
+        },
+        {
+          "id": "GO:0030665",
+          "name": "clathrin-coated vesicle membrane"
+        },
+        {
+          "id": "GO:0030669",
+          "name": "clathrin-coated endocytic vesicle membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0045334",
+          "name": "clathrin-coated endocytic vesicle"
+        },
+        {
+          "id": "GO:0030659",
+          "name": "cytoplasmic vesicle membrane"
+        },
+        {
+          "id": "GO:0030662",
+          "name": "coated vesicle membrane"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031090",
+          "name": "organelle membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0070062",
+      "name": "extracellular exosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0070062",
+          "name": "extracellular exosome"
+        },
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:1903561",
+          "name": "extracellular vesicle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0043230",
+          "name": "extracellular organelle"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0065010",
+          "name": "extracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0051301",
+      "name": "cell division",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0051301",
+          "name": "cell division"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006914",
+      "name": "autophagy",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0006914",
+          "name": "autophagy"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0061919",
+          "name": "process utilizing autophagic mechanism"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016025",
+      "name": "Clathrin heavy chain, N-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016025",
+          "name": "Clathrin heavy chain, N-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0072318",
+      "name": "clathrin coat disassembly",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0022411",
+          "name": "cellular component disassembly"
+        },
+        {
+          "id": "GO:0072318",
+          "name": "clathrin coat disassembly"
+        },
+        {
+          "id": "GO:0098657",
+          "name": "import into cell"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0043933",
+          "name": "protein-containing complex organization"
+        },
+        {
+          "id": "GO:0032984",
+          "name": "protein-containing complex disassembly"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0016192",
+          "name": "vesicle-mediated transport"
+        },
+        {
+          "id": "GO:0072319",
+          "name": "vesicle uncoating"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0072583",
+          "name": "clathrin-dependent endocytosis"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0006898",
+          "name": "receptor-mediated endocytosis"
+        },
+        {
+          "id": "GO:0006897",
+          "name": "endocytosis"
+        },
+        {
+          "id": "GO:0051261",
+          "name": "protein depolymerization"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1990381",
+      "name": "ubiquitin-specific protease binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:1990381",
+          "name": "ubiquitin-specific protease binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0019899",
+          "name": "enzyme binding"
+        },
+        {
+          "id": "GO:0002020",
+          "name": "protease binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000547",
+      "name": "Clathrin, heavy chain/VPS, 7-fold repeat",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR000547",
+          "name": "Clathrin, heavy chain/VPS, 7-fold repeat"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR022365",
+      "name": "Clathrin, heavy chain, propeller repeat",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR022365",
+          "name": "Clathrin, heavy chain, propeller repeat"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042147",
+      "name": "retrograde transport, endosome to Golgi",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051641",
+          "name": "cellular localization"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0046907",
+          "name": "intracellular transport"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0016192",
+          "name": "vesicle-mediated transport"
+        },
+        {
+          "id": "GO:0016197",
+          "name": "endosomal transport"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0010496",
+          "name": "intercellular transport"
+        },
+        {
+          "id": "GO:0016482",
+          "name": "cytosolic transport"
+        },
+        {
+          "id": "GO:0042147",
+          "name": "retrograde transport, endosome to Golgi"
+        },
+        {
+          "id": "GO:0051649",
+          "name": "establishment of localization in cell"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1903561",
+      "name": "extracellular vesicle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:1903561",
+          "name": "extracellular vesicle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0043230",
+          "name": "extracellular organelle"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0065010",
+          "name": "extracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005819",
+      "name": "spindle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005856",
+          "name": "cytoskeleton"
+        },
+        {
+          "id": "GO:0005819",
+          "name": "spindle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0015630",
+          "name": "microtubule cytoskeleton"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0033572",
+      "name": "transferrin transport",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0045184",
+          "name": "establishment of protein localization"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0006826",
+          "name": "iron ion transport"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0030001",
+          "name": "metal ion transport"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0015031",
+          "name": "protein transport"
+        },
+        {
+          "id": "GO:0033036",
+          "name": "macromolecule localization"
+        },
+        {
+          "id": "GO:0033572",
+          "name": "transferrin transport"
+        },
+        {
+          "id": "GO:0000041",
+          "name": "transition metal ion transport"
+        },
+        {
+          "id": "GO:0006811",
+          "name": "monoatomic ion transport"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008104",
+          "name": "intracellular protein localization"
+        },
+        {
+          "id": "GO:0006812",
+          "name": "monoatomic cation transport"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1990498",
+      "name": "mitotic spindle microtubule",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0099513",
+          "name": "polymeric cytoskeletal fiber"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0072686",
+          "name": "mitotic spindle"
+        },
+        {
+          "id": "GO:0005819",
+          "name": "spindle"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0005876",
+          "name": "spindle microtubule"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:1990498",
+          "name": "mitotic spindle microtubule"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005856",
+          "name": "cytoskeleton"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0099512",
+          "name": "supramolecular fiber"
+        },
+        {
+          "id": "GO:0005874",
+          "name": "microtubule"
+        },
+        {
+          "id": "GO:0099081",
+          "name": "supramolecular polymer"
+        },
+        {
+          "id": "GO:0099080",
+          "name": "supramolecular complex"
+        },
+        {
+          "id": "GO:0015630",
+          "name": "microtubule cytoskeleton"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006898",
+      "name": "receptor-mediated endocytosis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0098657",
+          "name": "import into cell"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0006898",
+          "name": "receptor-mediated endocytosis"
+        },
+        {
+          "id": "GO:0006897",
+          "name": "endocytosis"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0016192",
+          "name": "vesicle-mediated transport"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000278",
+      "name": "mitotic cell cycle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007049",
+          "name": "cell cycle"
+        },
+        {
+          "id": "GO:0000278",
+          "name": "mitotic cell cycle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030132",
+      "name": "clathrin coat of coated pit",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0098797",
+          "name": "plasma membrane protein complex"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0098796",
+          "name": "membrane protein complex"
+        },
+        {
+          "id": "GO:0048475",
+          "name": "coated membrane"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0030118",
+          "name": "clathrin coat"
+        },
+        {
+          "id": "GO:0030117",
+          "name": "membrane coat"
+        },
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005905",
+          "name": "clathrin-coated pit"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0030132",
+          "name": "clathrin coat of coated pit"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005925",
+      "name": "focal adhesion",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0070161",
+          "name": "anchoring junction"
+        },
+        {
+          "id": "GO:0030054",
+          "name": "cell junction"
+        },
+        {
+          "id": "GO:0005925",
+          "name": "focal adhesion"
+        },
+        {
+          "id": "GO:0030055",
+          "name": "cell-substrate junction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0001649",
+      "name": "osteoblast differentiation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0001503",
+          "name": "ossification"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0001649",
+          "name": "osteoblast differentiation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042470",
+      "name": "melanosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0048770",
+          "name": "pigment granule"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0042470",
+          "name": "melanosome"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR011990",
+      "name": "Tetratricopeptide-like helical domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR011990",
+          "name": "Tetratricopeptide-like helical domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1903077",
+      "name": "negative regulation of protein localization to plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032879",
+          "name": "regulation of localization"
+        },
+        {
+          "id": "GO:0051641",
+          "name": "cellular localization"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0032880",
+          "name": "regulation of protein localization"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:1903077",
+          "name": "negative regulation of protein localization to plasma membrane"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008104",
+          "name": "intracellular protein localization"
+        },
+        {
+          "id": "GO:1905475",
+          "name": "regulation of protein localization to membrane"
+        },
+        {
+          "id": "GO:1903828",
+          "name": "negative regulation of protein localization"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:1990778",
+          "name": "protein localization to cell periphery"
+        },
+        {
+          "id": "GO:0072659",
+          "name": "protein localization to plasma membrane"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:1904375",
+          "name": "regulation of protein localization to cell periphery"
+        },
+        {
+          "id": "GO:0051668",
+          "name": "localization within membrane"
+        },
+        {
+          "id": "GO:0072657",
+          "name": "protein localization to membrane"
+        },
+        {
+          "id": "GO:1905476",
+          "name": "negative regulation of protein localization to membrane"
+        },
+        {
+          "id": "GO:0060341",
+          "name": "regulation of cellular localization"
+        },
+        {
+          "id": "GO:0033036",
+          "name": "macromolecule localization"
+        },
+        {
+          "id": "GO:1904376",
+          "name": "negative regulation of protein localization to cell periphery"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:1903076",
+          "name": "regulation of protein localization to plasma membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030136",
+      "name": "clathrin-coated vesicle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0030136",
+          "name": "clathrin-coated vesicle"
+        },
+        {
+          "id": "GO:0030135",
+          "name": "coated vesicle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0036020",
+      "name": "endolysosome membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0010008",
+          "name": "endosome membrane"
+        },
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0036020",
+          "name": "endolysosome membrane"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0000323",
+          "name": "lytic vacuole"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0098588",
+          "name": "bounding membrane of organelle"
+        },
+        {
+          "id": "GO:0036019",
+          "name": "endolysosome"
+        },
+        {
+          "id": "GO:0012506",
+          "name": "vesicle membrane"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0005764",
+          "name": "lysosome"
+        },
+        {
+          "id": "GO:0005774",
+          "name": "vacuolar membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0005768",
+          "name": "endosome"
+        },
+        {
+          "id": "GO:0005773",
+          "name": "vacuole"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0098852",
+          "name": "lytic vacuole membrane"
+        },
+        {
+          "id": "GO:0030659",
+          "name": "cytoplasmic vesicle membrane"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005765",
+          "name": "lysosomal membrane"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031090",
+          "name": "organelle membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005886",
+      "name": "plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0072686",
+      "name": "mitotic spindle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0072686",
+          "name": "mitotic spindle"
+        },
+        {
+          "id": "GO:0005856",
+          "name": "cytoskeleton"
+        },
+        {
+          "id": "GO:0005819",
+          "name": "spindle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0015630",
+          "name": "microtubule cytoskeleton"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003723",
+      "name": "RNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003723",
+          "name": "RNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0072583",
+      "name": "clathrin-dependent endocytosis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0098657",
+          "name": "import into cell"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0072583",
+          "name": "clathrin-dependent endocytosis"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0006898",
+          "name": "receptor-mediated endocytosis"
+        },
+        {
+          "id": "GO:0006897",
+          "name": "endocytosis"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0016192",
+          "name": "vesicle-mediated transport"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005764",
+      "name": "lysosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0000323",
+          "name": "lytic vacuole"
+        },
+        {
+          "id": "GO:0005773",
+          "name": "vacuole"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005764",
+          "name": "lysosome"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032991",
+      "name": "protein-containing complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0060236",
+      "name": "regulation of mitotic spindle organization",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051493",
+          "name": "regulation of cytoskeleton organization"
+        },
+        {
+          "id": "GO:0051128",
+          "name": "regulation of cellular component organization"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0000226",
+          "name": "microtubule cytoskeleton organization"
+        },
+        {
+          "id": "GO:0060236",
+          "name": "regulation of mitotic spindle organization"
+        },
+        {
+          "id": "GO:0000278",
+          "name": "mitotic cell cycle"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0007049",
+          "name": "cell cycle"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0051726",
+          "name": "regulation of cell cycle"
+        },
+        {
+          "id": "GO:1902850",
+          "name": "microtubule cytoskeleton organization involved in mitosis"
+        },
+        {
+          "id": "GO:0007051",
+          "name": "spindle organization"
+        },
+        {
+          "id": "GO:0022402",
+          "name": "cell cycle process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0010564",
+          "name": "regulation of cell cycle process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0032886",
+          "name": "regulation of microtubule-based process"
+        },
+        {
+          "id": "GO:0090224",
+          "name": "regulation of spindle organization"
+        },
+        {
+          "id": "GO:0033043",
+          "name": "regulation of organelle organization"
+        },
+        {
+          "id": "GO:0007052",
+          "name": "mitotic spindle organization"
+        },
+        {
+          "id": "GO:0006996",
+          "name": "organelle organization"
+        },
+        {
+          "id": "GO:1903047",
+          "name": "mitotic cell cycle process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007017",
+          "name": "microtubule-based process"
+        },
+        {
+          "id": "GO:0007010",
+          "name": "cytoskeleton organization"
+        },
+        {
+          "id": "GO:0070507",
+          "name": "regulation of microtubule cytoskeleton organization"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0071439",
+      "name": "clathrin complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0030118",
+          "name": "clathrin coat"
+        },
+        {
+          "id": "GO:0030117",
+          "name": "membrane coat"
+        },
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0098796",
+          "name": "membrane protein complex"
+        },
+        {
+          "id": "GO:0071439",
+          "name": "clathrin complex"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0048475",
+          "name": "coated membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006886",
+      "name": "intracellular protein transport",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051641",
+          "name": "cellular localization"
+        },
+        {
+          "id": "GO:0045184",
+          "name": "establishment of protein localization"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0046907",
+          "name": "intracellular transport"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0015031",
+          "name": "protein transport"
+        },
+        {
+          "id": "GO:0051649",
+          "name": "establishment of localization in cell"
+        },
+        {
+          "id": "GO:0033036",
+          "name": "macromolecule localization"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008104",
+          "name": "intracellular protein localization"
+        },
+        {
+          "id": "GO:0006886",
+          "name": "intracellular protein transport"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0019901",
+      "name": "protein kinase binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0019900",
+          "name": "kinase binding"
+        },
+        {
+          "id": "GO:0019899",
+          "name": "enzyme binding"
+        },
+        {
+          "id": "GO:0019901",
+          "name": "protein kinase binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005768",
+      "name": "endosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005768",
+          "name": "endosome"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0048268",
+      "name": "clathrin coat assembly",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0048268",
+          "name": "clathrin coat assembly"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0044085",
+          "name": "cellular component biogenesis"
+        },
+        {
+          "id": "GO:0022607",
+          "name": "cellular component assembly"
+        },
+        {
+          "id": "GO:0043933",
+          "name": "protein-containing complex organization"
+        },
+        {
+          "id": "GO:0065003",
+          "name": "protein-containing complex assembly"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR055358",
+      "name": "Clathrin heavy-chain repeat",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR055358",
+          "name": "Clathrin heavy-chain repeat"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032588",
+      "name": "trans-Golgi network membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0098791",
+          "name": "Golgi apparatus subcompartment"
+        },
+        {
+          "id": "GO:0005794",
+          "name": "Golgi apparatus"
+        },
+        {
+          "id": "GO:0031984",
+          "name": "organelle subcompartment"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0032588",
+          "name": "trans-Golgi network membrane"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005802",
+          "name": "trans-Golgi network"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031090",
+          "name": "organelle membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0150093",
+      "name": "amyloid-beta clearance by transcytosis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0051179",
+          "name": "localization"
+        },
+        {
+          "id": "GO:0006810",
+          "name": "transport"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0097242",
+          "name": "amyloid-beta clearance"
+        },
+        {
+          "id": "GO:0051234",
+          "name": "establishment of localization"
+        },
+        {
+          "id": "GO:0150093",
+          "name": "amyloid-beta clearance by transcytosis"
+        },
+        {
+          "id": "GO:0045056",
+          "name": "transcytosis"
+        },
+        {
+          "id": "GO:0016192",
+          "name": "vesicle-mediated transport"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030118",
+      "name": "clathrin coat",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0030118",
+          "name": "clathrin coat"
+        },
+        {
+          "id": "GO:0030117",
+          "name": "membrane coat"
+        },
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0098796",
+          "name": "membrane protein complex"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0048475",
+          "name": "coated membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0045334",
+      "name": "clathrin-coated endocytic vesicle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0045334",
+          "name": "clathrin-coated endocytic vesicle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0030136",
+          "name": "clathrin-coated vesicle"
+        },
+        {
+          "id": "GO:0030135",
+          "name": "coated vesicle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0030139",
+          "name": "endocytic vesicle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0050750",
+      "name": "low-density lipoprotein particle receptor binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050750",
+          "name": "low-density lipoprotein particle receptor binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0005102",
+          "name": "signaling receptor binding"
+        },
+        {
+          "id": "GO:0070325",
+          "name": "lipoprotein particle receptor binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005198",
+      "name": "structural molecule activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005198",
+          "name": "structural molecule activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1900126",
+      "name": "negative regulation of hyaluronan biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0030203",
+          "name": "glycosaminoglycan metabolic process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:1900125",
+          "name": "regulation of hyaluronan biosynthetic process"
+        },
+        {
+          "id": "GO:1901135",
+          "name": "carbohydrate derivative metabolic process"
+        },
+        {
+          "id": "GO:0032881",
+          "name": "regulation of polysaccharide metabolic process"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:1900126",
+          "name": "negative regulation of hyaluronan biosynthetic process"
+        },
+        {
+          "id": "GO:0030212",
+          "name": "hyaluronan metabolic process"
+        },
+        {
+          "id": "GO:0005976",
+          "name": "polysaccharide metabolic process"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0006024",
+          "name": "glycosaminoglycan biosynthetic process"
+        },
+        {
+          "id": "GO:0006109",
+          "name": "regulation of carbohydrate metabolic process"
+        },
+        {
+          "id": "GO:0045912",
+          "name": "negative regulation of carbohydrate metabolic process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:1901137",
+          "name": "carbohydrate derivative biosynthetic process"
+        },
+        {
+          "id": "GO:0005975",
+          "name": "carbohydrate metabolic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0000271",
+          "name": "polysaccharide biosynthetic process"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0016051",
+          "name": "carbohydrate biosynthetic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0030213",
+          "name": "hyaluronan biosynthetic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0032885",
+          "name": "regulation of polysaccharide biosynthetic process"
+        },
+        {
+          "id": "GO:0006022",
+          "name": "aminoglycan metabolic process"
+        },
+        {
+          "id": "GO:0006023",
+          "name": "aminoglycan biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0043255",
+          "name": "regulation of carbohydrate biosynthetic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030130",
+      "name": "clathrin coat of trans-Golgi network vesicle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0030120",
+          "name": "vesicle coat"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0098796",
+          "name": "membrane protein complex"
+        },
+        {
+          "id": "GO:0030658",
+          "name": "transport vesicle membrane"
+        },
+        {
+          "id": "GO:0030130",
+          "name": "clathrin coat of trans-Golgi network vesicle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0030117",
+          "name": "membrane coat"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0098588",
+          "name": "bounding membrane of organelle"
+        },
+        {
+          "id": "GO:0012510",
+          "name": "trans-Golgi network transport vesicle membrane"
+        },
+        {
+          "id": "GO:0030140",
+          "name": "trans-Golgi network transport vesicle"
+        },
+        {
+          "id": "GO:0012506",
+          "name": "vesicle membrane"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0030136",
+          "name": "clathrin-coated vesicle"
+        },
+        {
+          "id": "GO:0030125",
+          "name": "clathrin vesicle coat"
+        },
+        {
+          "id": "GO:0030135",
+          "name": "coated vesicle"
+        },
+        {
+          "id": "GO:0005798",
+          "name": "Golgi-associated vesicle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0030665",
+          "name": "clathrin-coated vesicle membrane"
+        },
+        {
+          "id": "GO:0030133",
+          "name": "transport vesicle"
+        },
+        {
+          "id": "GO:0005794",
+          "name": "Golgi apparatus"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0048475",
+          "name": "coated membrane"
+        },
+        {
+          "id": "GO:0030118",
+          "name": "clathrin coat"
+        },
+        {
+          "id": "GO:0030662",
+          "name": "coated vesicle membrane"
+        },
+        {
+          "id": "GO:0030659",
+          "name": "cytoplasmic vesicle membrane"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0030660",
+          "name": "Golgi-associated vesicle membrane"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031090",
+          "name": "organelle membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0097718",
+      "name": "disordered domain specific binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0097718",
+          "name": "disordered domain specific binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0019904",
+          "name": "protein domain specific binding"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "9C0Z",
+    "rcsb_id": "9C0Z_1",
+    "uniprot_ids": [
+      "Q00610"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "Q00610",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.21671641791044777
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF01394",
+      "name": "Clathrin propeller repeat (Clathrin_propel)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 295,
+          "end_seq_id": 329
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF09268",
+      "name": "Clathrin, heavy-chain linker (Clathrin-link)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 330,
+          "end_seq_id": 353
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF01394",
+      "name": "Clathrin propeller repeat (Clathrin_propel)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 18,
+          "end_seq_id": 55
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF01394",
+      "name": "Clathrin propeller repeat (Clathrin_propel)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 197,
+          "end_seq_id": 233
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF01394",
+      "name": "Clathrin propeller repeat (Clathrin_propel)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 252,
+          "end_seq_id": 287
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF01394",
+      "name": "Clathrin propeller repeat (Clathrin_propel)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 147,
+          "end_seq_id": 186
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            0.48,
+            -0.11,
+            -0.08,
+            -0.16,
+            -0.97,
+            -0.37,
+            -1.26,
+            -1.14,
+            -1.03,
+            -0.69,
+            0.2,
+            0.17,
+            -0.43,
+            0.16,
+            -0.66,
+            0.23,
+            0.58,
+            0.47,
+            0.42,
+            -0.16,
+            0.66,
+            0.76,
+            0.77,
+            0.77,
+            0.18,
+            -0.17,
+            -0.91,
+            -0.51,
+            0.07,
+            -0.08,
+            0.5,
+            -0.21,
+            -0.21,
+            -0.56,
+            0.3,
+            0.69,
+            -0.01,
+            -0.9,
+            -0.98,
+            -1.87,
+            -0.9,
+            -0.04,
+            0.89,
+            0.92,
+            0.58,
+            1.18,
+            1.18,
+            0.59,
+            0.8,
+            0.24,
+            -0.61,
+            -1.29,
+            -1.29,
+            -1.4,
+            -2.11,
+            -1.9,
+            -1.01,
+            -0.92,
+            -0.63,
+            -0.63,
+            -0.54,
+            -0.84,
+            0.16,
+            0.87,
+            0.66,
+            -0.02,
+            0.27,
+            -0.02,
+            -0.07,
+            0.49,
+            0.79,
+            0.49,
+            0.7,
+            0.66,
+            1.03,
+            0.79,
+            0.44,
+            0.8,
+            0.76,
+            -0.13,
+            0.17,
+            0.06,
+            0.1,
+            0.4,
+            0.06,
+            0.7,
+            0.34,
+            -0.17,
+            -0.21,
+            -0.5,
+            -1.24,
+            -0.66,
+            -1.51,
+            -1.2,
+            -1.2,
+            -0.84,
+            -1.14,
+            -1.1,
+            -0.84,
+            -0.49,
+            -0.38,
+            -0.12,
+            -0.48,
+            -0.79,
+            -0.21,
+            0.09,
+            0.9,
+            0.04,
+            0.04,
+            0.2,
+            0.5,
+            1.36,
+            1.92,
+            1.34,
+            1.04,
+            0.23,
+            0.82,
+            1.37,
+            0.76,
+            0.2,
+            -0.32,
+            -0.88,
+            -0.59,
+            -0.59,
+            -0.24,
+            -0.83,
+            -1.39,
+            -1.63,
+            -1.46,
+            -0.89,
+            -1.23,
+            -1.23,
+            -0.53,
+            -0.88,
+            -0.99,
+            -1.26,
+            -0.96,
+            -0.87,
+            -0.91,
+            -0.28,
+            -0.53,
+            -0.57,
+            -0.57,
+            0.43,
+            1.29,
+            0.99,
+            0.93,
+            0.01,
+            -0.27,
+            -0.61,
+            -0.69,
+            -0.73,
+            -1.62,
+            -2.56,
+            -2.27,
+            -1.7,
+            -0.78,
+            -0.28,
+            0.03,
+            -0.21,
+            0.72,
+            1.02,
+            1.66,
+            1.37,
+            0.56,
+            -0.26,
+            -1.18,
+            -0.63,
+            -0.12,
+            -0.67,
+            -0.38,
+            -0.37,
+            -0.37,
+            0.44,
+            0.69,
+            1.1,
+            1.1,
+            0.24,
+            -0.21,
+            -0.84,
+            -0.59,
+            -0.29,
+            -1.1,
+            -1.13,
+            -0.54,
+            -1.4,
+            -1.06,
+            -0.91,
+            -0.28,
+            -0.54,
+            -0.54,
+            0.16,
+            0.53,
+            -0.36,
+            0.34,
+            -0.04,
+            0.52,
+            -0.07,
+            -0.31,
+            -0.61,
+            -0.72,
+            -1.31,
+            -1.31,
+            -1.71,
+            -1.36,
+            -1.14,
+            -0.44,
+            -0.12,
+            0.58,
+            0.58,
+            1.43,
+            1.32,
+            1.37,
+            1.06,
+            0.83,
+            0.48,
+            0.16,
+            -0.59,
+            -0.37,
+            -1.19,
+            -0.19,
+            0.36,
+            0.36,
+            0.62,
+            0.62,
+            0.59,
+            0.84,
+            0.24,
+            0.52,
+            -0.02,
+            -0.91,
+            -0.91,
+            -1.56,
+            -1.2,
+            -1.3,
+            -1.56,
+            -1.81,
+            -1.53,
+            -1.02,
+            -1.02,
+            -0.17,
+            0.32,
+            0.32,
+            0.32,
+            0.58,
+            0.62,
+            0.62,
+            -0.23,
+            -0.23,
+            -1.09,
+            -1.09,
+            -1.58,
+            -0.93,
+            -0.56,
+            0.04,
+            -0.54,
+            0.34,
+            0.64,
+            0.64,
+            -0.1,
+            -0.28,
+            -1.13,
+            -0.87,
+            -0.61,
+            0.09,
+            0.01,
+            0.6,
+            0.91,
+            0.91,
+            1.12,
+            1.47,
+            0.86,
+            0.89,
+            0.22,
+            0.22,
+            -0.42,
+            -0.73,
+            0.12,
+            -0.12,
+            -0.16,
+            -0.06,
+            -0.63,
+            0.0,
+            0.08,
+            0.08,
+            0.68,
+            -0.13,
+            -0.24,
+            0.33,
+            0.29,
+            0.32,
+            -0.34,
+            -0.92,
+            -0.28,
+            -0.18,
+            0.68,
+            1.1,
+            0.8,
+            0.71,
+            0.4,
+            0.4,
+            0.68,
+            0.1,
+            -0.01,
+            -0.52,
+            0.06,
+            0.36,
+            0.49,
+            1.31,
+            1.31,
+            0.61,
+            0.26,
+            0.01,
+            -0.33,
+            -0.37,
+            -0.44,
+            -0.49,
+            -0.49,
+            0.18,
+            1.14,
+            1.19,
+            0.84,
+            0.84,
+            -0.01,
+            0.07,
+            0.66,
+            0.01,
+            -0.41,
+            -0.38,
+            -0.07,
+            -0.07,
+            0.79,
+            1.6,
+            0.71,
+            -0.18,
+            -0.18,
+            -0.42,
+            -0.5,
+            -0.22,
+            0.59,
+            -0.38,
+            -0.59,
+            0.0,
+            0.86,
+            0.53,
+            0.53,
+            -0.28,
+            -0.06,
+            -0.28,
+            0.18,
+            0.17,
+            -0.42,
+            -1.28,
+            -0.36,
+            0.34
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.26,
+            0.25,
+            0.25,
+            0.23,
+            0.22,
+            0.21,
+            0.19,
+            0.18,
+            0.17,
+            0.16,
+            0.17,
+            0.18,
+            0.19,
+            0.21,
+            0.23,
+            0.26,
+            0.29,
+            0.32,
+            0.36,
+            0.39,
+            0.43,
+            0.41,
+            0.39,
+            0.37,
+            0.36,
+            0.34,
+            0.34,
+            0.34,
+            0.34,
+            0.35,
+            0.35,
+            0.38,
+            0.39,
+            0.41,
+            0.43,
+            0.41,
+            0.39,
+            0.37,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.35,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.39,
+            0.38,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.31,
+            0.31,
+            0.32,
+            0.31,
+            0.31,
+            0.31,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.3,
+            0.31,
+            0.33,
+            0.34,
+            0.36,
+            0.37,
+            0.39,
+            0.4,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.39,
+            0.37,
+            0.36,
+            0.34,
+            0.32,
+            0.31,
+            0.3,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.29,
+            0.29,
+            0.3,
+            0.31,
+            0.32,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.4,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.4,
+            0.39,
+            0.37,
+            0.36,
+            0.34,
+            0.33,
+            0.31,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.29,
+            0.31,
+            0.33,
+            0.35,
+            0.37,
+            0.4,
+            0.43,
+            0.42,
+            0.4,
+            0.38,
+            0.39,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.38,
+            0.37,
+            0.36,
+            0.35,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.37,
+            0.37,
+            0.36,
+            0.37,
+            0.37,
+            0.39,
+            0.4,
+            0.41,
+            0.43,
+            0.42,
+            0.4,
+            0.38,
+            0.36,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.33,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.39,
+            0.37,
+            0.35,
+            0.33,
+            0.31,
+            0.3,
+            0.28,
+            0.26,
+            0.25,
+            0.24,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.21,
+            0.21,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.19,
+            0.18,
+            0.17,
+            0.16,
+            0.15,
+            0.14,
+            0.13,
+            0.12,
+            0.11,
+            0.1,
+            0.09,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.09,
+            0.09,
+            0.09,
+            0.1,
+            0.11,
+            0.12,
+            0.14,
+            0.15,
+            0.16,
+            0.17,
+            0.18,
+            0.2,
+            0.21,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.24,
+            0.25,
+            0.25,
+            0.26,
+            0.25,
+            0.24,
+            0.23,
+            0.22,
+            0.21,
+            0.2,
+            0.18,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.18,
+            0.19,
+            0.19,
+            0.2,
+            0.2,
+            0.22,
+            0.24
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.76,
+            0.64,
+            0.61,
+            0.47,
+            0.43,
+            0.38,
+            0.24,
+            0.21,
+            0.11,
+            0.08,
+            0.08,
+            0.08,
+            0.07,
+            0.08,
+            0.14,
+            0.06,
+            0.13,
+            0.12,
+            0.12,
+            0.11,
+            0.08,
+            0.09,
+            0.15,
+            0.16,
+            0.25,
+            0.17,
+            0.12,
+            0.14,
+            0.09,
+            0.15,
+            0.16,
+            0.13,
+            0.11,
+            0.12,
+            0.19,
+            0.2,
+            0.25,
+            0.26,
+            0.2,
+            0.23,
+            0.18,
+            0.16,
+            0.16,
+            0.14,
+            0.13,
+            0.13,
+            0.23,
+            0.31,
+            0.37,
+            0.47,
+            0.39,
+            0.38,
+            0.39,
+            0.48,
+            0.4,
+            0.39,
+            0.35,
+            0.39,
+            0.38,
+            0.41,
+            0.4,
+            0.43,
+            0.49,
+            0.5,
+            0.49,
+            0.5,
+            0.5,
+            0.41,
+            0.35,
+            0.33,
+            0.24,
+            0.32,
+            0.29,
+            0.28,
+            0.26,
+            0.33,
+            0.25,
+            0.3,
+            0.21,
+            0.13,
+            0.15,
+            0.15,
+            0.18,
+            0.15,
+            0.13,
+            0.15,
+            0.15,
+            0.12,
+            0.16,
+            0.18,
+            0.19,
+            0.24,
+            0.19,
+            0.21,
+            0.2,
+            0.19,
+            0.15,
+            0.2,
+            0.12,
+            0.12,
+            0.18,
+            0.13,
+            0.13,
+            0.12,
+            0.1,
+            0.1,
+            0.1,
+            0.07,
+            0.08,
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.07,
+            0.06,
+            0.05,
+            0.03,
+            0.04,
+            0.02,
+            0.04,
+            0.05,
+            0.05,
+            0.09,
+            0.14,
+            0.14,
+            0.21,
+            0.23,
+            0.18,
+            0.23,
+            0.21,
+            0.19,
+            0.24,
+            0.24,
+            0.23,
+            0.23,
+            0.25,
+            0.23,
+            0.3,
+            0.31,
+            0.32,
+            0.34,
+            0.31,
+            0.24,
+            0.24,
+            0.16,
+            0.16,
+            0.16,
+            0.15,
+            0.16,
+            0.17,
+            0.2,
+            0.3,
+            0.2,
+            0.14,
+            0.1,
+            0.06,
+            0.06,
+            0.09,
+            0.06,
+            0.06,
+            0.07,
+            0.07,
+            0.11,
+            0.16,
+            0.16,
+            0.17,
+            0.12,
+            0.12,
+            0.1,
+            0.1,
+            0.1,
+            0.06,
+            0.04,
+            0.06,
+            0.07,
+            0.12,
+            0.18,
+            0.18,
+            0.13,
+            0.19,
+            0.19,
+            0.26,
+            0.18,
+            0.2,
+            0.19,
+            0.2,
+            0.23,
+            0.27,
+            0.27,
+            0.21,
+            0.21,
+            0.22,
+            0.2,
+            0.28,
+            0.24,
+            0.32,
+            0.31,
+            0.3,
+            0.27,
+            0.35,
+            0.37,
+            0.37,
+            0.34,
+            0.35,
+            0.28,
+            0.2,
+            0.15,
+            0.15,
+            0.13,
+            0.13,
+            0.2,
+            0.25,
+            0.21,
+            0.3,
+            0.31,
+            0.34,
+            0.26,
+            0.26,
+            0.2,
+            0.18,
+            0.19,
+            0.13,
+            0.13,
+            0.13,
+            0.2,
+            0.29,
+            0.36,
+            0.43,
+            0.46,
+            0.53,
+            0.54,
+            0.47,
+            0.49,
+            0.52,
+            0.51,
+            0.49,
+            0.43,
+            0.52,
+            0.46,
+            0.44,
+            0.41,
+            0.43,
+            0.52,
+            0.53,
+            0.5,
+            0.49,
+            0.47,
+            0.49,
+            0.39,
+            0.42,
+            0.33,
+            0.27,
+            0.3,
+            0.29,
+            0.21,
+            0.21,
+            0.25,
+            0.3,
+            0.27,
+            0.35,
+            0.34,
+            0.35,
+            0.23,
+            0.13,
+            0.07,
+            0.09,
+            0.07,
+            0.04,
+            0.04,
+            0.04,
+            0.02,
+            0.03,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.02,
+            0.01,
+            0.01,
+            0.02,
+            0.02,
+            0.04,
+            0.04,
+            0.03,
+            0.03,
+            0.05,
+            0.04,
+            0.08,
+            0.07,
+            0.08,
+            0.07,
+            0.07,
+            0.08,
+            0.14,
+            0.15,
+            0.12,
+            0.12,
+            0.08,
+            0.13,
+            0.13,
+            0.12,
+            0.12,
+            0.12,
+            0.13,
+            0.14,
+            0.2,
+            0.14,
+            0.13,
+            0.07,
+            0.08,
+            0.07,
+            0.1,
+            0.1,
+            0.07,
+            0.04,
+            0.08,
+            0.08,
+            0.05,
+            0.08,
+            0.08,
+            0.05,
+            0.03,
+            0.03,
+            0.03,
+            0.06,
+            0.11,
+            0.06,
+            0.08,
+            0.06,
+            0.09,
+            0.07,
+            0.05,
+            0.03,
+            0.03,
+            0.05,
+            0.09,
+            0.04,
+            0.05,
+            0.09,
+            0.07,
+            0.08,
+            0.13,
+            0.12,
+            0.07,
+            0.1,
+            0.1,
+            0.12,
+            0.23,
+            0.31,
+            0.45,
+            0.5,
+            0.58,
+            0.66,
+            0.75
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 2,
+      "coverage": 0.57851,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1640_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 46,
+          "ref_beg_seq_id": 7
+        },
+        {
+          "entity_beg_seq_id": 47,
+          "length": 38,
+          "ref_beg_seq_id": 55
+        },
+        {
+          "entity_beg_seq_id": 85,
+          "length": 50,
+          "ref_beg_seq_id": 99
+        },
+        {
+          "entity_beg_seq_id": 135,
+          "length": 38,
+          "ref_beg_seq_id": 159
+        },
+        {
+          "entity_beg_seq_id": 173,
+          "length": 37,
+          "ref_beg_seq_id": 201
+        },
+        {
+          "entity_beg_seq_id": 210,
+          "length": 17,
+          "ref_beg_seq_id": 239
+        },
+        {
+          "entity_beg_seq_id": 227,
+          "length": 30,
+          "ref_beg_seq_id": 293
+        },
+        {
+          "entity_beg_seq_id": 257,
+          "length": 8,
+          "ref_beg_seq_id": 325
+        },
+        {
+          "entity_beg_seq_id": 265,
+          "length": 99,
+          "ref_beg_seq_id": 345
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2796_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 363,
+          "ref_beg_seq_id": 7
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2131_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 363,
+          "ref_beg_seq_id": 7
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1982_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 226,
+          "ref_beg_seq_id": 7
+        },
+        {
+          "entity_beg_seq_id": 227,
+          "length": 38,
+          "ref_beg_seq_id": 270
+        },
+        {
+          "entity_beg_seq_id": 265,
+          "length": 99,
+          "ref_beg_seq_id": 320
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1821_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 17,
+          "ref_beg_seq_id": 7
+        },
+        {
+          "entity_beg_seq_id": 18,
+          "length": 29,
+          "ref_beg_seq_id": 26
+        },
+        {
+          "entity_beg_seq_id": 47,
+          "length": 38,
+          "ref_beg_seq_id": 57
+        },
+        {
+          "entity_beg_seq_id": 85,
+          "length": 53,
+          "ref_beg_seq_id": 101
+        },
+        {
+          "entity_beg_seq_id": 138,
+          "length": 8,
+          "ref_beg_seq_id": 182
+        },
+        {
+          "entity_beg_seq_id": 146,
+          "length": 3,
+          "ref_beg_seq_id": 192
+        },
+        {
+          "entity_beg_seq_id": 149,
+          "length": 25,
+          "ref_beg_seq_id": 196
+        },
+        {
+          "entity_beg_seq_id": 174,
+          "length": 35,
+          "ref_beg_seq_id": 225
+        },
+        {
+          "entity_beg_seq_id": 209,
+          "length": 18,
+          "ref_beg_seq_id": 261
+        },
+        {
+          "entity_beg_seq_id": 227,
+          "length": 30,
+          "ref_beg_seq_id": 316
+        },
+        {
+          "entity_beg_seq_id": 257,
+          "length": 8,
+          "ref_beg_seq_id": 348
+        },
+        {
+          "entity_beg_seq_id": 265,
+          "length": 83,
+          "ref_beg_seq_id": 368
+        },
+        {
+          "entity_beg_seq_id": 348,
+          "length": 16,
+          "ref_beg_seq_id": 455
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "Q00610",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 363,
+          "ref_beg_seq_id": 2
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2028_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 363,
+          "ref_beg_seq_id": 7
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "Clathrin heavy chain on chromosome 17,CLH-17"
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL3108634",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 362,
+          "target_beg_seq_id": 2
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "13874",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 362,
+          "target_beg_seq_id": 2
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 3.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "HDCOMYDEBQXCDR-UHFFFAOYSA-M",
+      "cofactor_SMILES": "CN(C)c1ccc(CN2C(=O)c3cccc4cc(S(=O)(=O)[O-])cc(c34)C2=O)cc1.[K+]",
+      "cofactor_resource_id": "CHEMBL3110185",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3108634"
+    },
+    {
+      "binding_assay_value": 2.92,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "LRXPOIKUYBIHIA-UHFFFAOYSA-M",
+      "cofactor_SMILES": "CCCN1C(=O)c2cccc3c(N)c(S(=O)(=O)[O-])cc(c23)C1=O.[K+]",
+      "cofactor_resource_id": "CHEMBL3110159",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3108634"
+    }
+  ],
+  "rcsb_id": "9C0Z_1"
+}

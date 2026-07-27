@@ -1,0 +1,461 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-3448-9559",
+      "name": "Rabe, P.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0290-6565",
+      "name": "Schofield, C.J.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 41.114,
+    "length_b": 74.143,
+    "length_c": 100.962,
+    "volume": 307761.512
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Rabe, P.",
+        "Schofield, C.J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "IPNS variant N252D in complex with Fe and IPN after O2 exposure"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8P46",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8p46/pdb",
+      "pdbx_database_accession": "pdb_00008p46"
+    },
+    {
+      "database_code": "D_1292129148",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "ambient_temp_details": "cryogenic",
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-03-09T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I03",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.9763",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I03"
+    }
+  ],
+  "entry": {
+    "id": "8P46"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.05,
+      "density_percent_sol": 39.95,
+      "description": "needle morphology, 4 um x 4 um x 150 um",
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "BATCH MODE",
+      "pH": 8.3,
+      "pdbx_details": "1.7 M Li2SO4, 0.1 M Tris pH 8.3",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-06-05T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United Kingdom",
+      "funding_organization": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+      "grant_number": "BB/V001892/1",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "6ZAQ",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-05-19T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "6ZAQ",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T05:54:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1908,
+      "DCC_Rfree": 0.2255,
+      "EDS_R": 0.1931,
+      "EDS_res_high": 1.77,
+      "EDS_res_low": 50.48,
+      "Fo_Fc_correlation": 0.962,
+      "I_over_sigma": "1.07(1.77A)",
+      "Padilla_Yeates_L2_mean": 0.326,
+      "Padilla_Yeates_L_mean": 0.491,
+      "Wilson_B_aniso": "[27.408,21.835,16.677,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 21.791,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 41.166,
+      "bulk_solvent_k": 0.399,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.488,
+      "data_completeness": 99.85,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 30817,
+      "number_reflns_R_free": 1565,
+      "percent_RSRZ_outliers": 1.82,
+      "percent_free_reflections": 5.07,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.75% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.37,
+      "bonds_RMSZ": 0.16,
+      "clashscore": 2.54,
+      "num_H_reduce": 2445,
+      "num_angles_RMSZ": 3742,
+      "num_bonds_RMSZ": 2744,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-05-19T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-06-05T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-06-05T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8P46",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8P46"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 2963,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1332,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 329,
+    "deposited_nonpolymer_entity_instance_count": 6,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 331,
+    "deposited_solvent_atom_count": 297,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9763,
+    "diffrn_radiation_wavelength_minimum": 0.9763,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 4,
+    "molecular_weight": 38.36,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "FE"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.36,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 37.56,
+    "polymer_molecular_weight_minimum": 37.56,
+    "polymer_monomer_count_maximum": 331,
+    "polymer_monomer_count_minimum": 331,
+    "resolution_combined": [
+      1.77
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DIALS",
+      "PHASER",
+      "PHENIX",
+      "XIA2"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.77
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-3448-9559",
+      "0000-0002-0290-6565"
+    ],
+    "rcsb_authors": [
+      "Rabe, P.",
+      "Schofield, C.J."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "IPNS variant N252D in complex with Fe and IPN after O2 exposure"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 24.16,
+      "ls_R_factor_R_free": 0.2275,
+      "ls_R_factor_R_work": 0.191,
+      "ls_R_factor_obs": 0.1928,
+      "ls_d_res_high": 1.77,
+      "ls_d_res_low": 50.48,
+      "ls_number_reflns_R_free": 1564,
+      "ls_number_reflns_R_work": 29253,
+      "ls_number_reflns_obs": 30817,
+      "ls_percent_reflns_R_free": 5.08,
+      "ls_percent_reflns_obs": 99.86,
+      "overall_SU_ML": 0.2619,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 23.3036,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.77,
+      "d_res_low": 50.48,
+      "number_atoms_solvent": 297,
+      "number_atoms_total": 2932,
+      "pdbx_number_atoms_ligand": 45,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2590,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0036,
+      "number": 2741,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.631,
+      "number": 3752,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0464,
+      "number": 395,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0052,
+      "number": 494,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 12.4672,
+      "number": 980,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 21.79,
+      "d_resolution_high": 1.77,
+      "d_resolution_low": 50.48,
+      "number_obs": 30908,
+      "pdbx_CC_half": 0.995,
+      "pdbx_Rrim_I_all": 0.285,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 5.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 13.3,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.77,
+      "d_res_low": 1.8,
+      "meanI_over_sigI_obs": 0.6,
+      "number_unique_obs": 1506,
+      "pdbx_CC_half": 0.448,
+      "pdbx_Rrim_I_all": 2.892,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 13.5,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.19.2_4158"
+    },
+    {
+      "classification": "data reduction",
+      "name": "xia2",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "DIALS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "IPNS variant N252D in complex with Fe and IPN after O2 exposure"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "Isopenicillin N synthase, penicillins, biosynthesis, 2OG oxygenases, antibiotic, OXIDOREDUCTASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21",
+    "space_group_name_Hall": "P 2ac 2ab"
+  },
+  "rcsb_id": "8P46"
+}

@@ -1,0 +1,762 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-0157-532X",
+      "name": "Bukhdruker, S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-2229-181X",
+      "name": "Kovalev, K.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-9065-8225",
+      "name": "Astashkin, R.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0001-5782-5896",
+      "name": "Gordeliy, V.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 101.22,
+    "angle_gamma": 90.0,
+    "length_a": 50.608,
+    "length_b": 40.174,
+    "length_c": 60.307,
+    "volume": 120268.276
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Sci Adv",
+      "journal_id_ISSN": "2375-2548",
+      "journal_volume": "11",
+      "page_first": "eadu5303",
+      "page_last": "eadu5303",
+      "pdbx_database_id_DOI": "10.1126/sciadv.adu5303",
+      "pdbx_database_id_PubMed": 40238873,
+      "rcsb_authors": [
+        "Bukhdruker, S.",
+        "Gushchin, I.",
+        "Shevchenko, V.",
+        "Kovalev, K.",
+        "Polovinkin, V.",
+        "Tsybrov, F.",
+        "Astashkin, R.",
+        "Alekseev, A.",
+        "Mikhaylov, A.",
+        "Bukhalovich, S.",
+        "Bratanov, D.",
+        "Ryzhykau, Y.",
+        "Kuklina, D.",
+        "Caramello, N.",
+        "Rokitskaya, T.",
+        "Antonenko, Y.",
+        "Rulev, M.",
+        "Stoev, C.",
+        "Zabelskii, D.",
+        "Round, E.",
+        "Rogachev, A.",
+        "Borshchevskiy, V.",
+        "Ghai, R.",
+        "Bourenkov, G.",
+        "Zeghouf, M.",
+        "Cherfils, J.",
+        "Engelhard, M.",
+        "Chizhov, I.",
+        "Rodriguez-Valera, F.",
+        "Bamberg, E.",
+        "Gordeliy, V."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Sci Adv",
+      "title": "Proteorhodopsin insights into the molecular mechanism of vectorial proton transport.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8RSS",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8rss/pdb",
+      "pdbx_database_accession": "pdb_00008rss"
+    },
+    {
+      "database_code": "D_1292135963",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-01-20T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "ID23-1",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.8856",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE ID23-1"
+    }
+  ],
+  "entry": {
+    "id": "8RSS"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.45,
+      "density_percent_sol": 49.8,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "LIPIDIC CUBIC PHASE",
+      "pH": 8.4,
+      "pdbx_details": "2.6 M Ammonium Phosphate buffer",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "struct_keywords",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "entity",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "entity_src_gen",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "struct_ref",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "struct_ref_seq",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Source and taxonomy",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-04-02T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-04-23T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2025-07-02T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_keywords.text",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_entity.pdbx_description",
+      "ordinal": 8,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_entity_src_gen.pdbx_gene_src_ncbi_taxonomy_id",
+      "ordinal": 9,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_entity_src_gen.pdbx_gene_src_scientific_name",
+      "ordinal": 10,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref.db_code",
+      "ordinal": 11,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref.db_name",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref.pdbx_db_accession",
+      "ordinal": 13,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref.pdbx_seq_one_letter_code",
+      "ordinal": 14,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_ref_seq.pdbx_db_accession",
+      "ordinal": 15,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "France",
+      "funding_organization": "Agence Nationale de la Recherche (ANR)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-01-25T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5JSI",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T15:59:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1594,
+      "DCC_Rfree": 0.1984,
+      "EDS_R": 0.1688,
+      "EDS_res_high": 1.41,
+      "EDS_res_low": 40.17,
+      "Fo_Fc_correlation": 0.96,
+      "I_over_sigma": "1.23(1.42A)",
+      "Padilla_Yeates_L2_mean": 0.346,
+      "Padilla_Yeates_L_mean": 0.51,
+      "Wilson_B_aniso": "[13.808,14.928,15.955,0.000,-0.890,0.000]",
+      "Wilson_B_estimate": 14.118,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 66.53,
+      "bulk_solvent_k": 0.363,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.144,
+      "data_completeness": 60.14,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 27486,
+      "number_reflns_R_free": 1347,
+      "percent_RSRZ_outliers": 3.21,
+      "percent_free_reflections": 1.91,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 13.71% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.31,
+      "bonds_RMSZ": 0.14,
+      "clashscore": 4.24,
+      "num_H_reduce": 2133,
+      "num_angles_RMSZ": 2661,
+      "num_bonds_RMSZ": 1962,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-01-25T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-04-02T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2025-07-02T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8RSS",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40238873,
+    "rcsb_id": "8RSS"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2224,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 218,
+    "deposited_nonpolymer_entity_instance_count": 15,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 220,
+    "deposited_solvent_atom_count": 157,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.8856,
+    "diffrn_radiation_wavelength_minimum": 0.8856,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 1,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 28.52,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "RET"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.28,
+    "nonpolymer_molecular_weight_minimum": 0.28,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 2,
+    "polymer_molecular_weight_maximum": 24.28,
+    "polymer_molecular_weight_minimum": 24.28,
+    "polymer_monomer_count_maximum": 220,
+    "polymer_monomer_count_minimum": 220,
+    "resolution_combined": [
+      1.41
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "STARANISO",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.41
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Sci Adv",
+    "journal_id_ISSN": "2375-2548",
+    "journal_volume": "11",
+    "page_first": "eadu5303",
+    "page_last": "eadu5303",
+    "pdbx_database_id_DOI": "10.1126/sciadv.adu5303",
+    "pdbx_database_id_PubMed": 40238873,
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-0157-532X",
+      "0000-0002-5348-6070",
+      "0000-0001-8478-3839",
+      "0000-0002-2229-181X",
+      "0000-0002-3630-5565",
+      "0000-0001-7422-0899",
+      "0000-0001-9065-8225",
+      "0000-0001-8990-1662",
+      "0000-0002-4697-0577",
+      "0000-0002-0770-6597",
+      "?",
+      "0000-0003-3719-1464",
+      "0000-0002-9614-5137",
+      "0000-0003-0025-0213",
+      "0000-0002-7719-1875",
+      "0000-0002-0244-855X",
+      "0000-0001-6103-320X",
+      "0009-0000-6708-8922",
+      "0000-0001-6906-975X",
+      "?",
+      "0000-0003-2872-7976",
+      "0000-0003-4398-9712",
+      "0000-0002-0591-6152",
+      "0000-0002-2617-5920",
+      "0000-0003-3686-2510",
+      "0000-0002-8966-3067",
+      "?",
+      "0000-0001-7744-9365",
+      "0000-0002-9809-2059",
+      "0000-0002-5411-6207",
+      "0000-0001-5782-5896"
+    ],
+    "rcsb_authors": [
+      "Bukhdruker, S.",
+      "Gushchin, I.",
+      "Shevchenko, V.",
+      "Kovalev, K.",
+      "Polovinkin, V.",
+      "Tsybrov, F.",
+      "Astashkin, R.",
+      "Alekseev, A.",
+      "Mikhaylov, A.",
+      "Bukhalovich, S.",
+      "Bratanov, D.",
+      "Ryzhykau, Y.",
+      "Kuklina, D.",
+      "Caramello, N.",
+      "Rokitskaya, T.",
+      "Antonenko, Y.",
+      "Rulev, M.",
+      "Stoev, C.",
+      "Zabelskii, D.",
+      "Round, E.",
+      "Rogachev, A.",
+      "Borshchevskiy, V.",
+      "Ghai, R.",
+      "Bourenkov, G.",
+      "Zeghouf, M.",
+      "Cherfils, J.",
+      "Engelhard, M.",
+      "Chizhov, I.",
+      "Rodriguez-Valera, F.",
+      "Bamberg, E.",
+      "Gordeliy, V."
+    ],
+    "rcsb_journal_abbrev": "Sci Adv",
+    "title": "Proteorhodopsin insights into the molecular mechanism of vectorial proton transport.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 20.08,
+      "ls_R_factor_R_free": 0.1979,
+      "ls_R_factor_R_work": 0.1594,
+      "ls_R_factor_obs": 0.1612,
+      "ls_d_res_high": 1.41,
+      "ls_d_res_low": 40.17,
+      "ls_number_reflns_R_free": 1347,
+      "ls_number_reflns_R_work": 26139,
+      "ls_number_reflns_obs": 27486,
+      "ls_percent_reflns_R_free": 4.9,
+      "ls_percent_reflns_obs": 60.17,
+      "overall_SU_ML": 0.1103,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.36,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 24.4139,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.41,
+      "d_res_low": 40.17,
+      "number_atoms_solvent": 147,
+      "number_atoms_total": 1980,
+      "pdbx_number_atoms_ligand": 137,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1696,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0028,
+      "number": 2116,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.5791,
+      "number": 2852,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0558,
+      "number": 301,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.004,
+      "number": 352,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 13.5717,
+      "number": 812,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 14.12,
+      "d_resolution_high": 1.41,
+      "d_resolution_low": 40.17,
+      "number_obs": 27492,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.047,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 7.0,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.5,
+      "percent_possible_obs": 88.8
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 4.5,
+      "d_res_low": 40.17,
+      "meanI_over_sigI_obs": 19.7,
+      "number_unique_obs": 1374,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.019,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.4,
+      "percent_possible_all": 92.4
+    },
+    {
+      "d_res_high": 1.41,
+      "d_res_low": 1.55,
+      "meanI_over_sigI_obs": 1.3,
+      "number_unique_obs": 1375,
+      "pdbx_CC_half": 0.709,
+      "pdbx_Rpim_I_all": 0.344,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 1.7,
+      "percent_possible_all": 46.5
+    }
+  ],
+  "software": [
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 1,
+      "version": "20220110"
+    },
+    {
+      "classification": "data scaling",
+      "name": "STARANISO",
+      "pdbx_ordinal": 2,
+      "version": "2.3.94"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3,
+      "version": "2.8.4"
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4,
+      "version": "1.20.1_4487"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of marine actinobacteria clade rhodopsin (MAR) in the O* state"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "MEMBRANE PROTEIN",
+    "text": "Mac, MacR, MAR, proteorhodopsin, PR, xanthorodopsin, XR, MEMBRANE PROTEIN, xanthorhodopsin"
+  },
+  "symmetry": {
+    "Int_Tables_number": 3,
+    "space_group_name_H_M": "P 1 2 1",
+    "space_group_name_Hall": "P 2y"
+  },
+  "rcsb_id": "8RSS"
+}

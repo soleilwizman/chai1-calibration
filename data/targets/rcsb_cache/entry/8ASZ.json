@@ -1,0 +1,546 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-8486-7485",
+      "name": "Kroeger, P.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-2614-6046",
+      "name": "Shanmugaratnam, S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-8250-9462",
+      "name": "Hocker, B.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 37.26,
+    "length_b": 79.07,
+    "length_c": 113.34,
+    "volume": 333916.437
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Kroeger, P.",
+        "Stiel, A.C.",
+        "Stueven, B.",
+        "Shanmugaratnam, S.",
+        "Schoch, S.",
+        "Wachten, D.",
+        "Hocker, B."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "A fluorescent biosensor for the visualization of Agmatine"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8ASZ",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8asz/pdb",
+      "pdbx_database_accession": "pdb_00008asz"
+    },
+    {
+      "database_code": "D_1292125038",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2021-10-07T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "DCM Si(111)",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "14.1",
+      "pdbx_synchrotron_site": "BESSY",
+      "pdbx_wavelength_list": "0.918400",
+      "source": "SYNCHROTRON",
+      "type": "BESSY BEAMLINE 14.1"
+    }
+  ],
+  "entry": {
+    "id": "8ASZ"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.11,
+      "density_percent_sol": 41.81,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 4.6,
+      "pdbx_details": "0.17 M AmAcetate, 0.085 M NaAcetate pH 4.6, 30% PEG 4000, 15% Glycerol",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_initial_refinement_model",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-03-06T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-10-09T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2026-03-04T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Germany",
+      "funding_organization": "German Research Foundation (DFG)",
+      "grant_number": "HO4022/2-3",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2022-08-22T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1A99",
+      "details": "1A99",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T04:52:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.2043,
+      "EDS_R": 0.1814,
+      "EDS_res_high": 1.28,
+      "EDS_res_low": 37.33,
+      "Fo_Fc_correlation": 0.977,
+      "I_over_sigma": "0.99(1.28A)",
+      "Padilla_Yeates_L2_mean": 0.323,
+      "Padilla_Yeates_L_mean": 0.491,
+      "Wilson_B_aniso": "[16.031,20.147,17.697,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 17.888,
+      "acentric_outliers": 2,
+      "bulk_solvent_b": 44.494,
+      "bulk_solvent_k": 0.392,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.229,
+      "data_completeness": 98.97,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 86307,
+      "number_reflns_R_free": 2099,
+      "percent_RSRZ_outliers": 2.62,
+      "percent_free_reflections": 2.41,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.93% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.77,
+      "bonds_RMSZ": 0.71,
+      "clashscore": 4.12,
+      "num_H_reduce": 2940,
+      "num_angles_RMSZ": 4048,
+      "num_bonds_RMSZ": 2974,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.03
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2022-08-22T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-03-06T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2026-03-04T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "entry_id": "8ASZ",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8ASZ"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3305,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2917,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 343,
+    "deposited_nonpolymer_entity_instance_count": 16,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 352,
+    "deposited_solvent_atom_count": 378,
+    "deposited_unmodeled_polymer_monomer_count": 9,
+    "diffrn_radiation_wavelength_maximum": 0.9184,
+    "diffrn_radiation_wavelength_minimum": 0.9184,
+    "disulfide_bond_count": 1,
+    "entity_count": 7,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 2,
+    "molecular_weight": 40.68,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA"
+    ],
+    "nonpolymer_entity_count": 5,
+    "nonpolymer_molecular_weight_maximum": 0.13,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 39.49,
+    "polymer_molecular_weight_minimum": 39.49,
+    "polymer_monomer_count_maximum": 352,
+    "polymer_monomer_count_minimum": 352,
+    "resolution_combined": [
+      1.28
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "COOT",
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.28
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-8486-7485",
+      "0000-0001-8675-6797",
+      "?",
+      "0000-0002-2614-6046",
+      "0000-0002-2046-2670",
+      "0000-0003-4800-6332",
+      "0000-0002-8250-9462"
+    ],
+    "rcsb_authors": [
+      "Kroeger, P.",
+      "Stiel, A.C.",
+      "Stueven, B.",
+      "Shanmugaratnam, S.",
+      "Schoch, S.",
+      "Wachten, D.",
+      "Hocker, B."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "A fluorescent biosensor for the visualization of Agmatine"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 30.53,
+      "ls_R_factor_R_free": 0.2087,
+      "ls_R_factor_R_work": 0.1787,
+      "ls_R_factor_obs": 0.1801,
+      "ls_d_res_high": 1.28,
+      "ls_d_res_low": 37.33,
+      "ls_number_reflns_R_free": 2099,
+      "ls_number_reflns_R_work": 84193,
+      "ls_number_reflns_obs": 86267,
+      "ls_percent_reflns_R_free": 2.43,
+      "ls_percent_reflns_obs": 98.93,
+      "overall_SU_ML": 0.1768,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 23.5132,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "1A99",
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.28,
+      "d_res_low": 37.33,
+      "number_atoms_solvent": 355,
+      "number_atoms_total": 3134,
+      "pdbx_number_atoms_ligand": 76,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2703,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0155,
+      "number": 3010,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.3852,
+      "number": 4102,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.098,
+      "number": 442,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0147,
+      "number": 533,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 13.1019,
+      "number": 1131,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 17.9,
+      "d_resolution_high": 1.28,
+      "d_resolution_low": 37.33,
+      "number_obs": 86290,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.065,
+      "pdbx_Rpim_I_all": 0.026,
+      "pdbx_Rrim_I_all": 0.07,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 14.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.3,
+      "percent_possible_obs": 99.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 2.904,
+      "d_res_high": 1.28,
+      "d_res_low": 1.33,
+      "meanI_over_sigI_obs": 0.6,
+      "number_unique_obs": 8427,
+      "pdbx_CC_half": 0.28,
+      "pdbx_Rpim_I_all": 1.122,
+      "pdbx_Rrim_I_all": 3.118,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.4,
+      "percent_possible_all": 98.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2,
+      "version": "20210323"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3,
+      "version": "2.8.3"
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 4,
+      "version": "0.9.6"
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 5,
+      "version": "20210323"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "PotF with mutations S87Y and A182D in complex with Agmatine"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSPORT PROTEIN",
+    "text": "Periplasmic-binding protein, Agmatine, TRANSPORT PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21",
+    "space_group_name_Hall": "P 2ac 2ab"
+  },
+  "rcsb_id": "8ASZ"
+}

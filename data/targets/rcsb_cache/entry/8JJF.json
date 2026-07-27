@@ -1,0 +1,464 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0005-4065-0408",
+      "name": "Kang, J.M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Han, B.W.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 97.88,
+    "angle_gamma": 90.0,
+    "length_a": 40.611,
+    "length_b": 64.337,
+    "length_c": 45.14,
+    "volume": 116827.661
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Protein Sci.",
+      "journal_id_ASTM": "PRCIEI",
+      "journal_id_CSD": "0795",
+      "journal_id_ISSN": "1469-896X",
+      "journal_volume": "33",
+      "page_first": "e5067",
+      "page_last": "e5067",
+      "pdbx_database_id_DOI": "10.1002/pro.5067",
+      "pdbx_database_id_PubMed": 38864716,
+      "rcsb_authors": [
+        "Kang, J.M.",
+        "Park, J.S.",
+        "Lee, J.S.",
+        "Jang, J.Y.",
+        "Han, B.W."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Protein Sci",
+      "title": "Structural study for substrate recognition of human N-terminal glutamine amidohydrolase 1 in the arginine N-degron pathway.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8JJF",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8jjf/pdb",
+      "pdbx_database_accession": "pdb_00008jjf"
+    },
+    {
+      "database_code": "D_1300038031",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-07-20T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "5C (4A)",
+      "pdbx_synchrotron_site": "PAL/PLS",
+      "pdbx_wavelength_list": "0.9794",
+      "source": "SYNCHROTRON",
+      "type": "PAL/PLS BEAMLINE 5C (4A)"
+    }
+  ],
+  "entry": {
+    "id": "8JJF"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.49,
+      "density_percent_sol": 50.57,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "0.2 M Magnesium chloride hexahydrate, 0.1 M Tris pH 8.5, and 25 % (w/v) Polyethylene glycol (PEG) 3350",
+      "temp": 295.15
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-06-26T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Korea, Republic Of",
+      "funding_organization": "National Research Foundation (NRF, Korea)",
+      "grant_number": "NRF-2019R1A2C109025",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2023-05-30T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "4W79",
+      "entity_id_list": [
+        "1"
+      ],
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-02T04:08:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1732,
+      "DCC_Rfree": 0.1912,
+      "EDS_R": 0.1798,
+      "EDS_res_high": 1.51,
+      "EDS_res_low": 34.11,
+      "Fo_Fc_correlation": 0.961,
+      "I_over_sigma": "3.18(1.51A)",
+      "Padilla_Yeates_L2_mean": 0.319,
+      "Padilla_Yeates_L_mean": 0.486,
+      "Wilson_B_aniso": "[14.179,12.835,15.747,0.000,1.132,0.000]",
+      "Wilson_B_estimate": 13.677,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 32.887,
+      "bulk_solvent_k": 0.349,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.204,
+      "data_completeness": 90.59,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 32819,
+      "number_reflns_R_free": 1641,
+      "percent_RSRZ_outliers": 2.97,
+      "percent_free_reflections": 4.52,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.54% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.45,
+      "bonds_RMSZ": 0.2,
+      "clashscore": 1.86,
+      "num_H_reduce": 1572,
+      "num_angles_RMSZ": 2342,
+      "num_bonds_RMSZ": 1723,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-05-30T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-06-26T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-06-26T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "8JJF",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38864716,
+    "rcsb_id": "8JJF"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1958,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 202,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 204,
+    "deposited_solvent_atom_count": 301,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9794,
+    "diffrn_radiation_wavelength_minimum": 0.9794,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 23.47,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 23.47,
+    "polymer_molecular_weight_minimum": 23.47,
+    "polymer_monomer_count_maximum": 204,
+    "polymer_monomer_count_minimum": 204,
+    "resolution_combined": [
+      1.51
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-2000",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.51
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Protein Sci.",
+    "journal_id_ASTM": "PRCIEI",
+    "journal_id_CSD": "0795",
+    "journal_id_ISSN": "1469-896X",
+    "journal_volume": "33",
+    "page_first": "e5067",
+    "page_last": "e5067",
+    "pdbx_database_id_DOI": "10.1002/pro.5067",
+    "pdbx_database_id_PubMed": 38864716,
+    "rcsb_ORCID_identifiers": [
+      "0009-0005-4065-0408",
+      "?",
+      "?",
+      "?",
+      "0000-0001-7571-3791"
+    ],
+    "rcsb_authors": [
+      "Kang, J.M.",
+      "Park, J.S.",
+      "Lee, J.S.",
+      "Jang, J.Y.",
+      "Han, B.W."
+    ],
+    "rcsb_journal_abbrev": "Protein Sci",
+    "title": "Structural study for substrate recognition of human N-terminal glutamine amidohydrolase 1 in the arginine N-degron pathway.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 18.9,
+      "ls_R_factor_R_free": 0.1899,
+      "ls_R_factor_R_work": 0.1728,
+      "ls_R_factor_obs": 0.1737,
+      "ls_d_res_high": 1.51,
+      "ls_d_res_low": 34.11,
+      "ls_number_reflns_R_free": 1641,
+      "ls_number_reflns_R_work": 31178,
+      "ls_number_reflns_obs": 32819,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 90.39,
+      "overall_SU_ML": 0.1273,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.8666,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.51,
+      "d_res_low": 34.11,
+      "number_atoms_solvent": 301,
+      "number_atoms_total": 1941,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1640,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0045,
+      "number": 1715,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.7591,
+      "number": 2340,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0555,
+      "number": 238,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0064,
+      "number": 307,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 21.2033,
+      "number": 230,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 13.68,
+      "d_resolution_high": 1.51,
+      "d_resolution_low": 50.0,
+      "number_obs": 36172,
+      "pdbx_CC_half": 0.994,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 15.96,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.6,
+      "percent_possible_obs": 99.6
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.51,
+      "d_res_low": 1.54,
+      "number_unique_obs": 1744,
+      "pdbx_CC_half": 0.574,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.2,
+      "percent_possible_all": 98.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of QE-hNTAQ1 C28S"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "Hydrolase"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1",
+    "space_group_name_Hall": "P 2yb"
+  },
+  "rcsb_id": "8JJF"
+}

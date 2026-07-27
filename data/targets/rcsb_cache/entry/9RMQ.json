@@ -1,0 +1,642 @@
+{
+  "audit_author": [
+    {
+      "name": "D'Ambrosio, K.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "De Simone, G.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 9,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 63.24,
+    "length_b": 63.24,
+    "length_c": 116.55
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "to be published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "D'Ambrosio, K.",
+        "De Simone, G.",
+        "Vivenzio, V.M.",
+        "Monti, S.M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of gamma Carbonic \nAnhydrase from Pseudomonas aeruginosa (PA3753)"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9RMQ",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9rmq/pdb",
+      "pdbx_database_accession": "pdb_00009rmq"
+    },
+    {
+      "database_code": "D_1292148528",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-02-15T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "11.2C",
+      "pdbx_synchrotron_site": "ELETTRA",
+      "pdbx_wavelength_list": "1.0",
+      "source": "SYNCHROTRON",
+      "type": "ELETTRA BEAMLINE 11.2C"
+    }
+  ],
+  "entry": {
+    "id": "9RMQ"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.28,
+      "density_percent_sol": 46.08,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "0.02 M Magnesium chloride hexahydrate,\n22% w/v Poly(acrylic acid sodium salt) 5,100, 0.1 M HEPES pH 7.5",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-07-08T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2025-06-18T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "4N27",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-06-29T10:20:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.015 (Gargrove)",
+      "DCC_R": 0.1166,
+      "DCC_Rfree": 0.1496,
+      "EDS_R": 0.1375,
+      "EDS_res_high": 1.45,
+      "EDS_res_low": 39.94,
+      "Fo_Fc_correlation": 0.975,
+      "I_over_sigma": "3.54(1.45A)",
+      "Padilla_Yeates_L2_mean": 0.324,
+      "Padilla_Yeates_L_mean": 0.494,
+      "Wilson_B_aniso": "[11.345,11.345,9.256,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 10.541,
+      "acentric_outliers": 25,
+      "bulk_solvent_b": 36.278,
+      "bulk_solvent_k": 0.367,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.196,
+      "data_completeness": 99.56,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 30826,
+      "number_reflns_R_free": 1016,
+      "percent_RSRZ_outliers": 0.0,
+      "percent_free_reflections": 3.28,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 11.69% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-h-k,-l:0.035"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.0,
+      "bonds_RMSZ": 0.97,
+      "clashscore": 2.27,
+      "num_H_reduce": 1312,
+      "num_angles_RMSZ": 1815,
+      "num_bonds_RMSZ": 1340,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.75
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-06-18T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-07-08T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-07-08T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9RMQ",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9RMQ"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1467,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 173,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 183,
+    "deposited_solvent_atom_count": 148,
+    "deposited_unmodeled_polymer_monomer_count": 10,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 6,
+    "molecular_weight": 19.81,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "BME",
+      "ZN"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.08,
+    "nonpolymer_molecular_weight_minimum": 0.07,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 19.66,
+    "polymer_molecular_weight_minimum": 19.66,
+    "polymer_monomer_count_maximum": 183,
+    "polymer_monomer_count_minimum": 183,
+    "resolution_combined": [
+      1.45
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-3000",
+      "REFMAC",
+      "SCALEPACK"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.45
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "to be published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "D'Ambrosio, K.",
+      "De Simone, G.",
+      "Vivenzio, V.M.",
+      "Monti, S.M."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of gamma Carbonic \nAnhydrase from Pseudomonas aeruginosa (PA3753)"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 13.016,
+      "aniso_B_1_1": 0.18,
+      "aniso_B_1_2": 0.09,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": 0.18,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": -0.6,
+      "correlation_coeff_Fo_to_Fc": 0.981,
+      "correlation_coeff_Fo_to_Fc_free": 0.972,
+      "details": "HYDROGENS HAVE BEEN ADDED IN THE RIDING POSITIONS",
+      "ls_R_factor_R_free": 0.1506,
+      "ls_R_factor_R_work": 0.11647,
+      "ls_R_factor_obs": 0.11761,
+      "ls_d_res_high": 1.45,
+      "ls_d_res_low": 39.94,
+      "ls_number_reflns_R_free": 1016,
+      "ls_number_reflns_obs": 29810,
+      "ls_percent_reflns_R_free": 3.3,
+      "ls_percent_reflns_obs": 99.51,
+      "overall_SU_B": 1.547,
+      "overall_SU_ML": 0.029,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.05,
+      "pdbx_overall_ESU_R_Free": 0.049,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "1",
+      "d_res_high": 1.45,
+      "d_res_low": 39.94,
+      "number_atoms_solvent": 148,
+      "number_atoms_total": 1443,
+      "pdbx_number_atoms_ligand": 5,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1290,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "dev_ideal_target": 0.013,
+      "number": 1350,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.017,
+      "number": 1265,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.757,
+      "dev_ideal_target": 1.624,
+      "number": 1831,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 1.531,
+      "dev_ideal_target": 1.584,
+      "number": 2935,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 7.051,
+      "dev_ideal_target": 5.0,
+      "number": 180,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 30.064,
+      "dev_ideal_target": 21.967,
+      "number": 61,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 13.29,
+      "dev_ideal_target": 15.0,
+      "number": 219,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 11.196,
+      "dev_ideal_target": 15.0,
+      "number": 8,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.096,
+      "dev_ideal_target": 0.2,
+      "number": 171,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.01,
+      "dev_ideal_target": 0.02,
+      "number": 1551,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.002,
+      "dev_ideal_target": 0.02,
+      "number": 269,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_other"
+    },
+    {
+      "dev_ideal": 1.209,
+      "dev_ideal_target": 1.053,
+      "number": 711,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.203,
+      "dev_ideal_target": 1.049,
+      "number": 710,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 1.404,
+      "dev_ideal_target": 1.59,
+      "number": 894,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 1.408,
+      "dev_ideal_target": 1.594,
+      "number": 895,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 2.724,
+      "dev_ideal_target": 1.706,
+      "number": 639,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 2.734,
+      "dev_ideal_target": 1.707,
+      "number": 640,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 2.799,
+      "dev_ideal_target": 2.032,
+      "number": 938,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 2.546,
+      "number": 1462,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "dev_ideal": 2.343,
+      "number": 1430,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    },
+    {
+      "dev_ideal": 2.576,
+      "dev_ideal_target": 3.0,
+      "number": 2614,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_free"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_bonded"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.45,
+      "d_resolution_low": 39.94,
+      "number_obs": 30826,
+      "pdbx_Rmerge_I_obs": 0.09,
+      "pdbx_Rpim_I_all": 0.031,
+      "pdbx_Rrim_I_all": 0.095,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 25.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 9.4,
+      "percent_possible_obs": 99.6
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.7,
+      "d_res_high": 1.45,
+      "d_res_low": 1.48,
+      "number_unique_obs": 1566,
+      "pdbx_Rpim_I_all": 0.243,
+      "pdbx_Rrim_I_all": 0.741,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0425"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALEPACK",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "REFMAC",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of gamma Carbonic Anhydrase from Pseudomonas aeruginosa (PA3753)"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "LYASE",
+    "text": "gamma carbonic anhydrase, Pseudomonas aeruginosa, bacterial target, LYASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 146,
+    "space_group_name_H_M": "H 3"
+  },
+  "rcsb_id": "9RMQ"
+}

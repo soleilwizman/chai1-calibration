@@ -1,0 +1,613 @@
+{
+  "audit_author": [
+    {
+      "name": "Kim, Y.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Marples, P.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Fearon, D.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "von Delft, F.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Knapp, S.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Kraemer, A.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Structural Genomics Consortium (SGC)",
+      "pdbx_ordinal": 7
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 95.716,
+    "length_b": 95.716,
+    "length_c": 45.745
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Kim, Y.",
+        "Marples, P.",
+        "Fearon, D.",
+        "von Delft, F.",
+        "Knapp, S.",
+        "Kraemer, A.",
+        "Structural Genomics Consortium (SGC)"
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "PanDDA analysis group deposition"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "7HLA",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb7hla/pdb",
+      "pdbx_database_accession": "pdb_00007hla"
+    },
+    {
+      "database_code": "D_1001407616",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-05-21T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I04-1",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.92124",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I04-1"
+    }
+  ],
+  "entry": {
+    "id": "7HLA"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.43,
+      "density_percent_sol": 49.29,
+      "id": "1",
+      "pdbx_mosaicity": 0.0
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 8.0,
+      "pdbx_details": "4 % PEG 400, 2 M AmmSO4, 0.1 M HEPES pH 8",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-11-27T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "European Union",
+      "funding_organization": "European Union (EU)",
+      "grant_number": "875510",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "N",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-11-04T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_deposit_group": [
+    {
+      "group_description": "PRYSPRY domain of murine TRIM21 screened against the DSI-poised Fragment Library by X-ray Crystallography at the XChem facility of Diamon Light Source",
+      "group_id": "G_1002320",
+      "group_title": "PanDDA analysis group deposition",
+      "group_type": "changed state"
+    }
+  ],
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2VOK",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T09:16:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1885,
+      "DCC_Rfree": 0.198,
+      "EDS_R": 0.2056,
+      "EDS_res_high": 1.23,
+      "EDS_res_low": 31.28,
+      "Fo_Fc_correlation": 0.959,
+      "I_over_sigma": "1.06(1.23A)",
+      "Padilla_Yeates_L2_mean": 0.324,
+      "Padilla_Yeates_L_mean": 0.493,
+      "Wilson_B_aniso": "[14.327,14.327,15.147,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 14.62,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 31.791,
+      "bulk_solvent_k": 0.372,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.056,
+      "data_completeness": 92.22,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 55493,
+      "number_reflns_R_free": 2930,
+      "percent_RSRZ_outliers": 12.97,
+      "percent_free_reflections": 4.87,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.67% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-k,-h,-l:0.026"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.09,
+      "bonds_RMSZ": 1.11,
+      "clashscore": 2.87,
+      "num_H_reduce": 1497,
+      "num_angles_RMSZ": 2192,
+      "num_bonds_RMSZ": 1614,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.85
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-11-04T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-11-27T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-11-27T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "7HLA",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "7HLA"
+  },
+  "rcsb_entry_group_membership": [
+    {
+      "aggregation_method": "matching_deposit_group_id",
+      "group_id": "G_1002320"
+    }
+  ],
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1762,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 185,
+    "deposited_nonpolymer_entity_instance_count": 6,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 188,
+    "deposited_solvent_atom_count": 140,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 0.9212,
+    "diffrn_radiation_wavelength_minimum": 0.9212,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 22.44,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 4,
+    "nonpolymer_molecular_weight_maximum": 0.24,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 21.6,
+    "polymer_molecular_weight_minimum": 21.6,
+    "polymer_monomer_count_maximum": 188,
+    "polymer_monomer_count_minimum": 188,
+    "resolution_combined": [
+      1.23
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.23
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Kim, Y.",
+      "Marples, P.",
+      "Fearon, D.",
+      "von Delft, F.",
+      "Knapp, S.",
+      "Kraemer, A.",
+      "Structural Genomics Consortium (SGC)"
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "PanDDA analysis group deposition"
+  },
+  "refine": [
+    {
+      "B_iso_max": 119.02,
+      "B_iso_mean": 17.531,
+      "B_iso_min": 8.7,
+      "aniso_B_1_1": 0.2,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": 0.2,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": -0.41,
+      "correlation_coeff_Fo_to_Fc": 0.97,
+      "correlation_coeff_Fo_to_Fc_free": 0.966,
+      "details": "HYDROGENS HAVE BEEN ADDED IN THE RIDING POSITIONS U VALUES      : REFINED INDIVIDUALLY",
+      "ls_R_factor_R_free": 0.1902,
+      "ls_R_factor_R_work": 0.173,
+      "ls_R_factor_obs": 0.1738,
+      "ls_d_res_high": 1.23,
+      "ls_d_res_low": 31.28,
+      "ls_number_reflns_R_free": 2671,
+      "ls_number_reflns_obs": 52822,
+      "ls_percent_reflns_R_free": 4.8,
+      "ls_percent_reflns_obs": 92.15,
+      "overall_SU_B": 0.903,
+      "overall_SU_ML": 0.037,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 0.0,
+      "pdbx_method_to_determine_struct": "FOURIER SYNTHESIS",
+      "pdbx_overall_ESU_R": 0.047,
+      "pdbx_overall_ESU_R_Free": 0.047,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "final",
+      "d_res_high": 1.23,
+      "d_res_low": 31.28,
+      "number_atoms_solvent": 140,
+      "number_atoms_total": 1689,
+      "pdbx_B_iso_mean_ligand": 25.37,
+      "pdbx_B_iso_mean_solvent": 28.58,
+      "pdbx_number_atoms_ligand": 56,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1493,
+      "pdbx_number_residues_total": 185,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.012,
+      "dev_ideal_target": 0.013,
+      "number": 2130,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.015,
+      "number": 1684,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 2.001,
+      "dev_ideal_target": 1.656,
+      "number": 2639,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 1.405,
+      "dev_ideal_target": 1.587,
+      "number": 3886,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 7.288,
+      "dev_ideal_target": 5.0,
+      "number": 241,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 27.437,
+      "dev_ideal_target": 21.455,
+      "number": 110,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 12.428,
+      "dev_ideal_target": 15.0,
+      "number": 291,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 23.44,
+      "dev_ideal_target": 15.0,
+      "number": 15,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.089,
+      "dev_ideal_target": 0.2,
+      "number": 224,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.011,
+      "dev_ideal_target": 0.02,
+      "number": 2308,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.002,
+      "dev_ideal_target": 0.02,
+      "number": 506,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 1.768,
+      "dev_ideal_target": 1.564,
+      "number": 975,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.755,
+      "dev_ideal_target": 1.552,
+      "number": 965,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 2.942,
+      "dev_ideal_target": 2.338,
+      "number": 1153,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.23,
+      "d_resolution_low": 31.25,
+      "number_obs": 55780,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.064,
+      "pdbx_Rpim_I_all": 0.019,
+      "pdbx_Rrim_I_all": 0.067,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.1,
+      "pdbx_number_measured_all": 583818,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 10.5,
+      "pdbx_scaling_rejects": 0,
+      "percent_possible_obs": 92.6
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.182,
+      "d_res_high": 1.23,
+      "d_res_low": 1.25,
+      "number_measured_all": 4322,
+      "number_unique_obs": 1658,
+      "pdbx_CC_half": 0.313,
+      "pdbx_Rpim_I_all": 0.84,
+      "pdbx_Rrim_I_all": 1.463,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 0.5,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.6,
+      "percent_possible_all": 55.9
+    },
+    {
+      "Rmerge_I_obs": 0.049,
+      "d_res_high": 6.73,
+      "d_res_low": 31.25,
+      "number_measured_all": 5047,
+      "number_unique_obs": 403,
+      "pdbx_CC_half": 0.966,
+      "pdbx_Rpim_I_all": 0.016,
+      "pdbx_Rrim_I_all": 0.051,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 65.2,
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 12.5,
+      "percent_possible_all": 99.2
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "contact_author": "Garib N. Murshudov",
+      "contact_author_email": "garib@ysbl.york.ac.uk",
+      "language": "Fortran_77",
+      "location": "http://www.ccp4.ac.uk/dist/html/refmac5.html",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "type": "program",
+      "version": "5.8.0267"
+    },
+    {
+      "classification": "data scaling",
+      "contact_author": "Phil Evans",
+      "date": "23/04/21",
+      "location": "http://www.mrc-lmb.cam.ac.uk/harry/pre/aimless.html",
+      "name": "Aimless",
+      "pdbx_ordinal": 2,
+      "type": "program",
+      "version": "0.7.7"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3,
+      "type": "program"
+    },
+    {
+      "classification": "phasing",
+      "name": "REFMAC",
+      "pdbx_ordinal": 4,
+      "type": "program"
+    }
+  ],
+  "struct": {
+    "title": "PanDDA analysis group deposition -- Crystal Structure of TRIM21 in complex with Z111634612"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "LIGASE",
+    "text": "SGC - Diamond I04-1 fragment screening, PanDDA, XChemExplorer, TRIM21, LIGASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 79,
+    "space_group_name_H_M": "I 4"
+  },
+  "rcsb_id": "7HLA"
+}

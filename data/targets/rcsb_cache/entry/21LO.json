@@ -1,0 +1,570 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0000-0827-4485",
+      "name": "Suzuki, T.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-4545-9195",
+      "name": "Hishikawa, Y.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-9347-881X",
+      "name": "Maity, B.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0002-7308-9670",
+      "name": "Abe, S.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0001-9219-0726",
+      "name": "Ueno, T.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 96,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 180.22,
+    "length_b": 180.22,
+    "length_c": 180.22
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Chem.Commun.(Camb.)",
+      "journal_id_ISSN": "1364-548X",
+      "journal_volume": "62",
+      "page_first": "11702",
+      "page_last": "11706",
+      "pdbx_database_id_DOI": "10.1039/d6cc02237e",
+      "pdbx_database_id_PubMed": 42210797,
+      "rcsb_authors": [
+        "Suzuki, T.",
+        "Hishikawa, Y.",
+        "Maity, B.",
+        "Nishiyama, Y.",
+        "Motai, K.",
+        "Hayamizu, Y.",
+        "Abe, S.",
+        "Ueno, T."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Chem Commun (Camb)",
+      "title": "Design of a flexible aromatic gate to immobilize C 60 in a ferritin cage.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "21LO",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb21lo/pdb",
+      "pdbx_database_accession": "pdb_000021lo"
+    },
+    {
+      "database_code": "D_1300067494",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 93.0,
+      "ambient_temp_details": "Liquid N2 vapour",
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-10-05T00:00:00.000+00:00",
+      "type": "RIGAKU HyPix-6000HE"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "1.54184",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU FR-E DW"
+    }
+  ],
+  "entry": {
+    "id": "21LO"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.09,
+      "density_percent_sol": 60.18,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 8.0,
+      "pdbx_details": "Ammonium sulfate, Cadmium sulfate",
+      "temp": 293.0,
+      "temp_details": "Incubation"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-06-24T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-07-01T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2025-12-17T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1DAT",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-06-15T03:08:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1791,
+      "DCC_Rfree": 0.2203,
+      "EDS_R": 0.1796,
+      "EDS_res_high": 1.99,
+      "EDS_res_low": 24.08,
+      "Fo_Fc_correlation": 0.954,
+      "I_over_sigma": "2.61(1.99A)",
+      "Padilla_Yeates_L2_mean": 0.342,
+      "Padilla_Yeates_L_mean": 0.506,
+      "Wilson_B_aniso": "[20.654,20.654,20.654,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 20.654,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 46.774,
+      "bulk_solvent_k": 0.375,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.0,
+      "data_completeness": 99.86,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 17755,
+      "number_reflns_R_free": 853,
+      "percent_RSRZ_outliers": 6.32,
+      "percent_free_reflections": 4.8,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.39% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.65,
+      "bonds_RMSZ": 0.48,
+      "clashscore": 4.14,
+      "num_H_reduce": 1408,
+      "num_angles_RMSZ": 1948,
+      "num_bonds_RMSZ": 1447,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.71
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-12-17T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-06-24T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2026-07-01T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "21LO",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 42210797,
+    "rcsb_id": "21LO"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1642,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 174,
+    "deposited_nonpolymer_entity_instance_count": 8,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 174,
+    "deposited_solvent_atom_count": 154,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 21.08,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CD"
+    ],
+    "nonpolymer_entity_count": 4,
+    "nonpolymer_molecular_weight_maximum": 0.72,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 19.74,
+    "polymer_molecular_weight_minimum": 19.74,
+    "polymer_monomer_count_maximum": 174,
+    "polymer_monomer_count_minimum": 174,
+    "resolution_combined": [
+      1.99
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "COOT",
+      "CRYSALISPRO",
+      "MOLREP",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.99
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Chem.Commun.(Camb.)",
+    "journal_id_ISSN": "1364-548X",
+    "journal_volume": "62",
+    "page_first": "11702",
+    "page_last": "11706",
+    "pdbx_database_id_DOI": "10.1039/d6cc02237e",
+    "pdbx_database_id_PubMed": 42210797,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Suzuki, T.",
+      "Hishikawa, Y.",
+      "Maity, B.",
+      "Nishiyama, Y.",
+      "Motai, K.",
+      "Hayamizu, Y.",
+      "Abe, S.",
+      "Ueno, T."
+    ],
+    "rcsb_journal_abbrev": "Chem Commun (Camb)",
+    "title": "Design of a flexible aromatic gate to immobilize C 60 in a ferritin cage.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.2209,
+      "ls_R_factor_R_work": 0.1793,
+      "ls_R_factor_obs": 0.1812,
+      "ls_d_res_high": 1.99,
+      "ls_d_res_low": 24.08,
+      "ls_number_reflns_R_free": 853,
+      "ls_number_reflns_obs": 17753,
+      "ls_percent_reflns_R_free": 4.8,
+      "ls_percent_reflns_obs": 99.97,
+      "overall_SU_ML": 0.18,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 20.39,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.99,
+      "d_res_low": 24.08,
+      "number_atoms_solvent": 154,
+      "number_atoms_total": 1608,
+      "pdbx_number_atoms_ligand": 80,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1374,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.008,
+      "number": 1543,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.995,
+      "number": 2139,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 15.148,
+      "number": 537,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.056,
+      "number": 210,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.011,
+      "number": 289,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.99,
+      "d_resolution_low": 24.08,
+      "number_obs": 17758,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.106,
+      "pdbx_Rpim_I_all": 0.03,
+      "pdbx_Rrim_I_all": 0.111,
+      "pdbx_chi_squared": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 22.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.9,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.92,
+      "d_res_high": 1.99,
+      "d_res_low": 2.04,
+      "meanI_over_sigI_obs": 2.6,
+      "number_unique_obs": 1270,
+      "pdbx_CC_half": 0.821,
+      "pdbx_Rpim_I_all": 0.314,
+      "pdbx_Rrim_I_all": 0.974,
+      "pdbx_chi_squared": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 9.4,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "data collection",
+      "name": "CrysalisPro",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data reduction",
+      "name": "CrysalisPro",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 5,
+      "version": "(1.20.1_4487: ???)"
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of Horse spleen L-ferritin mutant (L24G/S27G/E56F/R59G/E60F/E63F) with unsubstituted C60 Fullerene"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "METAL BINDING PROTEIN",
+    "text": "24mer cage, Phenylalanine mutant, Glycine mutant, Unsubstituted C60 Fullerene, METAL BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 209,
+    "space_group_name_H_M": "F 4 3 2"
+  },
+  "rcsb_id": "21LO"
+}

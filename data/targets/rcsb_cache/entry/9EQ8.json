@@ -1,0 +1,602 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0008-4847-7322",
+      "name": "Bugg, Z.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0003-1635-4455",
+      "name": "Bradley, J.M.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-9780-4061",
+      "name": "Le Brun, N.E.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0003-3053-3134",
+      "name": "Hemmings, A.M.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 96,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 182.77,
+    "length_b": 182.77,
+    "length_c": 182.77,
+    "volume": 6105408.62
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "J.Am.Chem.Soc.",
+      "journal_id_ASTM": "JACSAT",
+      "journal_id_ISSN": "1520-5126",
+      "journal_volume": "147",
+      "page_first": "13699",
+      "page_last": "13710",
+      "pdbx_database_id_DOI": "10.1021/jacs.5c01337",
+      "pdbx_database_id_PubMed": 40223208,
+      "rcsb_authors": [
+        "Bradley, J.M.",
+        "Bugg, Z.",
+        "Moore, G.R.",
+        "Hemmings, A.M.",
+        "Le Brun, N.E."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Am Chem Soc",
+      "title": "Observation of the Assembly of the Nascent Mineral Core at the Nucleation Site of Human Mitochondrial Ferritin.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9EQ8",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9eq8/pdb",
+      "pdbx_database_accession": "pdb_00009eq8"
+    },
+    {
+      "database_code": "D_1292135403",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-06-07T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I03",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.975",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I03"
+    }
+  ],
+  "entry": {
+    "id": "9EQ8"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.15,
+      "density_percent_sol": 60.91,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 9.0,
+      "pdbx_details": "0.1 M bicine\n2.0 M magnesium chloride\n100 mM sodium chloride\n60 mM ferrous chloride\n3 mM sodium azide\npH 9.0",
+      "pdbx_pH_range": "8.9-9.0",
+      "temp": 289.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-04-16T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-10-29T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ASTM",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 11,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 12,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 13,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 14,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United Kingdom",
+      "funding_organization": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+      "grant_number": "BB/R002363/1",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-03-21T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1R03",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-05T13:40:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1656,
+      "DCC_Rfree": 0.1823,
+      "EDS_R": 0.1676,
+      "EDS_res_high": 1.48,
+      "EDS_res_low": 40.87,
+      "Fo_Fc_correlation": 0.97,
+      "I_over_sigma": "0.70(1.48A)",
+      "Padilla_Yeates_L2_mean": 0.318,
+      "Padilla_Yeates_L_mean": 0.487,
+      "Wilson_B_aniso": "[17.222,17.222,17.222,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 17.222,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 33.476,
+      "bulk_solvent_k": 0.412,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.0,
+      "data_completeness": 93.71,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 43961,
+      "number_reflns_R_free": 2107,
+      "percent_RSRZ_outliers": 2.98,
+      "percent_free_reflections": 4.79,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 2.95% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.63,
+      "bonds_RMSZ": 0.39,
+      "clashscore": 4.79,
+      "num_H_reduce": 1310,
+      "num_angles_RMSZ": 1925,
+      "num_bonds_RMSZ": 1425,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-03-21T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-04-16T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2025-10-29T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "9EQ8",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40223208,
+    "rcsb_id": "9EQ8"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1587,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1313,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 168,
+    "deposited_nonpolymer_entity_instance_count": 23,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 174,
+    "deposited_solvent_atom_count": 184,
+    "deposited_unmodeled_polymer_monomer_count": 6,
+    "diffrn_radiation_wavelength_maximum": 0.975,
+    "diffrn_radiation_wavelength_minimum": 0.975,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 64,
+    "molecular_weight": 21.0,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "FE",
+      "MG",
+      "PEO"
+    ],
+    "nonpolymer_entity_count": 4,
+    "nonpolymer_molecular_weight_maximum": 0.06,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 20.21,
+    "polymer_molecular_weight_minimum": 20.21,
+    "polymer_monomer_count_maximum": 174,
+    "polymer_monomer_count_minimum": 174,
+    "resolution_combined": [
+      1.48
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHENIX",
+      "XIA2"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.48
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "J.Am.Chem.Soc.",
+    "journal_id_ASTM": "JACSAT",
+    "journal_id_ISSN": "1520-5126",
+    "journal_volume": "147",
+    "page_first": "13699",
+    "page_last": "13710",
+    "pdbx_database_id_DOI": "10.1021/jacs.5c01337",
+    "pdbx_database_id_PubMed": 40223208,
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-1635-4455",
+      "?",
+      "?",
+      "0000-0003-3053-3134",
+      "0000-0001-9780-4061"
+    ],
+    "rcsb_authors": [
+      "Bradley, J.M.",
+      "Bugg, Z.",
+      "Moore, G.R.",
+      "Hemmings, A.M.",
+      "Le Brun, N.E."
+    ],
+    "rcsb_journal_abbrev": "J Am Chem Soc",
+    "title": "Observation of the Assembly of the Nascent Mineral Core at the Nucleation Site of Human Mitochondrial Ferritin.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 25.03,
+      "ls_R_factor_R_free": 0.182,
+      "ls_R_factor_R_work": 0.1652,
+      "ls_R_factor_obs": 0.1661,
+      "ls_d_res_high": 1.48,
+      "ls_d_res_low": 40.87,
+      "ls_number_reflns_R_free": 2107,
+      "ls_number_reflns_R_work": 41848,
+      "ls_number_reflns_obs": 43955,
+      "ls_percent_reflns_R_free": 4.79,
+      "ls_percent_reflns_obs": 99.93,
+      "overall_SU_ML": 0.1421,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 18.9977,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.48,
+      "d_res_low": 40.87,
+      "number_atoms_solvent": 184,
+      "number_atoms_total": 1574,
+      "pdbx_number_atoms_ligand": 24,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1366,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0082,
+      "number": 1412,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.1068,
+      "number": 1909,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0867,
+      "number": 201,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0075,
+      "number": 254,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 4.928,
+      "number": 187,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 19.33,
+      "d_resolution_high": 1.48,
+      "d_resolution_low": 40.87,
+      "number_obs": 43961,
+      "pdbx_CC_half": 0.999,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 1.17,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 16.83,
+      "percent_possible_obs": 99.91
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.48,
+      "d_res_low": 1.533,
+      "number_unique_obs": 4285,
+      "pdbx_CC_half": 0.391,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "xia2",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Iron loaded mitochondrial ferritin exposed to oxygen for 2 minutes"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "METAL BINDING PROTEIN",
+    "text": "Ferritin, mitochondrial, iron, METAL BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 209,
+    "space_group_name_H_M": "F 4 3 2",
+    "space_group_name_Hall": "F 4 2 3"
+  },
+  "rcsb_id": "9EQ8"
+}

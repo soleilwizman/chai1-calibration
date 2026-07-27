@@ -1,0 +1,1988 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "SSPIIKLRNFNNAIKYMLIDKYTKPGDVVLELGCGKGGDLRKYGAAGISQFIGIDISNASIQEAHKRYRSMRNLDYQVVLITGDCFGESLGVAVEPFPDCRFPCDIVSTQFCLHYAFETEEKARRALLNVAKSLKIGGHFFGTIPDSEFIRYKLNKFPKEVEKPSWGNSIYKVTFENNSYQKNDYEFTSPYGQMYTYWLEDAIDNVPEYVVPFETLRSLADEYGLELVSQMPFNKFFVQEIPKWIERFSPKMREGLQRSDGRYGVEGDEKEAASYFYTMFAFRKVKQYIEPESVKPN",
+    "pdbx_seq_one_letter_code_can": "SSPIIKLRNFNNAIKYMLIDKYTKPGDVVLELGCGKGGDLRKYGAAGISQFIGIDISNASIQEAHKRYRSMRNLDYQVVLITGDCFGESLGVAVEPFPDCRFPCDIVSTQFCLHYAFETEEKARRALLNVAKSLKIGGHFFGTIPDSEFIRYKLNKFPKEVEKPSWGNSIYKVTFENNSYQKNDYEFTSPYGQMYTYWLEDAIDNVPEYVVPFETLRSLADEYGLELVSQMPFNKFFVQEIPKWIERFSPKMREGLQRSDGRYGVEGDEKEAASYFYTMFAFRKVKQYIEPESVKPN",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 297,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 297,
+      "pdbx_gene_src_gene": "ABD1, SCY_0445",
+      "pdbx_gene_src_ncbi_taxonomy_id": "307796",
+      "pdbx_gene_src_scientific_name": "Saccharomyces cerevisiae YJM789",
+      "pdbx_host_org_ncbi_taxonomy_id": "469008",
+      "pdbx_host_org_scientific_name": "Escherichia coli BL21(DE3)",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 38966,
+      "identity": 100
+    },
+    {
+      "cluster_id": 36413,
+      "identity": 95
+    },
+    {
+      "cluster_id": 39944,
+      "identity": 90
+    },
+    {
+      "cluster_id": 16207,
+      "identity": 70
+    },
+    {
+      "cluster_id": 18835,
+      "identity": 50
+    },
+    {
+      "cluster_id": 19497,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 297,
+      "ncbi_common_names": [
+        "Escherichia coli str. BL21(DE3)",
+        "Escherichia coli strain BL21(DE3)"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli BL21(DE3)",
+      "ncbi_taxonomy_id": 469008,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli BL21(DE3)",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli str. BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli strain BL21(DE3)"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 297,
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Saccharomyces cerevisiae YJM789",
+      "ncbi_taxonomy_id": 307796,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Saccharomyces cerevisiae YJM789",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "4751",
+          "name": "Fungi"
+        },
+        {
+          "depth": 4,
+          "id": "4751",
+          "name": "Mycota"
+        },
+        {
+          "depth": 5,
+          "id": "451864",
+          "name": "Dikarya"
+        },
+        {
+          "depth": 6,
+          "id": "4890",
+          "name": "Ascomycota"
+        },
+        {
+          "depth": 6,
+          "id": "4890",
+          "name": "ascomycete fungi"
+        },
+        {
+          "depth": 6,
+          "id": "4890",
+          "name": "sac fungi"
+        },
+        {
+          "depth": 7,
+          "id": "716545",
+          "name": "saccharomyceta"
+        },
+        {
+          "depth": 8,
+          "id": "147537",
+          "name": "Saccharomycotina"
+        },
+        {
+          "depth": 8,
+          "id": "147537",
+          "name": "budding yeasts & allies"
+        },
+        {
+          "depth": 8,
+          "id": "147537",
+          "name": "true yeasts"
+        },
+        {
+          "depth": 9,
+          "id": "4891",
+          "name": "Saccharomycetes"
+        },
+        {
+          "depth": 9,
+          "id": "4891",
+          "name": "Hemiascomycetes"
+        },
+        {
+          "depth": 10,
+          "id": "4892",
+          "name": "Saccharomycetales"
+        },
+        {
+          "depth": 10,
+          "id": "4892",
+          "name": "Endomycetales"
+        },
+        {
+          "depth": 11,
+          "id": "4893",
+          "name": "Saccharomycetaceae"
+        },
+        {
+          "depth": 12,
+          "id": "4930",
+          "name": "Saccharomyces"
+        },
+        {
+          "depth": 12,
+          "id": "4930",
+          "name": "Pachytichospora"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces cerevisiae"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Candida robusta"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Mycoderma cerevisiae"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces boulardii"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces boulardii (nom. inval.)"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces capensis"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces cerevisiae 'var. diastaticus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces cerevisiae (Desm.) Meyen ex E.C. Hansen, 1883"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces diastaticus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces italicus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces oviformis"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces uvarum var. melibiosus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "baker's yeast"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "brewer's yeast"
+        },
+        {
+          "depth": 14,
+          "id": "307796",
+          "name": "Saccharomyces cerevisiae YJM789"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "ABD1"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "SCY_0445"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 34.302,
+    "pdbx_description": "mRNA cap guanine-N7 methyltransferase",
+    "pdbx_ec": "2.1.1.56",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "2",
+        "name": "Transferases"
+      },
+      {
+        "depth": 2,
+        "id": "2.1",
+        "name": "Transferring one-carbon groups"
+      },
+      {
+        "depth": 3,
+        "id": "2.1.1",
+        "name": "Methyltransferases"
+      },
+      {
+        "depth": 4,
+        "id": "2.1.1.56",
+        "name": "mRNA (guanine-N7)-methyltransferase"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "mRNA cap guanine-N7 methyltransferase",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "2.1.1.56",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "mRNA cap guanine-N(7) methyltransferase"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P32783",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 296,
+          "ref_beg_seq_id": 141
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF03291",
+      "assignment_version": "34.0",
+      "name": "mRNA (guanine-N(7))-methyltransferase domain (mRNA_G-N7_MeTrfase)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR039753",
+      "name": "mRNA cap guanine-N7 methyltransferase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR039753",
+          "name": "mRNA cap guanine-N7 methyltransferase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006370",
+      "name": "7-methylguanosine mRNA capping",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006370",
+          "name": "7-methylguanosine mRNA capping"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0009452",
+          "name": "7-methylguanosine RNA capping"
+        },
+        {
+          "id": "GO:0036260",
+          "name": "RNA capping"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0006397",
+          "name": "mRNA processing"
+        },
+        {
+          "id": "GO:0016071",
+          "name": "mRNA metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0000966",
+          "name": "RNA 5'-end processing"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0006396",
+          "name": "RNA processing"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR029063",
+      "name": "S-adenosyl-L-methionine-dependent methyltransferase superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR029063",
+          "name": "S-adenosyl-L-methionine-dependent methyltransferase superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003723",
+      "name": "RNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003723",
+          "name": "RNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004482",
+      "name": "mRNA 5'-cap (guanine-N7-)-methyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008173",
+          "name": "RNA methyltransferase activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0016741",
+          "name": "transferase activity, transferring one-carbon groups"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0008757",
+          "name": "S-adenosylmethionine-dependent methyltransferase activity"
+        },
+        {
+          "id": "GO:0004482",
+          "name": "mRNA 5'-cap (guanine-N7-)-methyltransferase activity"
+        },
+        {
+          "id": "GO:0008170",
+          "name": "N-methyltransferase activity"
+        },
+        {
+          "id": "GO:0008168",
+          "name": "methyltransferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0008174",
+          "name": "mRNA methyltransferase activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005634",
+      "name": "nucleus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR004971",
+      "name": "mRNA (guanine-N(7))-methyltransferase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR004971",
+          "name": "mRNA (guanine-N(7))-methyltransferase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016899",
+      "name": "mRNA cap guanine-N7 methyltransferase, eukaryotes",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR016899",
+          "name": "mRNA cap guanine-N7 methyltransferase, eukaryotes"
+        },
+        {
+          "depth": 1,
+          "id": "IPR039753",
+          "name": "mRNA cap guanine-N7 methyltransferase"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "9MG4",
+    "rcsb_id": "9MG4_1",
+    "uniprot_ids": [
+      "P32783"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P32783",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.9966329966329966,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.6788990825688074
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF03291",
+      "name": "mRNA (guanine-N(7))-methyltransferase domain (mRNA_G-N7_MeTrfase)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 2,
+          "end_seq_id": 285
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "expression tag",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.26,
+            0.14,
+            -0.16,
+            -0.37,
+            -0.67,
+            -0.67,
+            -0.67,
+            -1.23,
+            -0.52,
+            0.29,
+            0.48,
+            0.48,
+            0.43,
+            0.09,
+            -0.49,
+            -0.49,
+            -0.52,
+            -0.78,
+            -1.59,
+            -1.62,
+            -0.77,
+            0.09,
+            -0.16,
+            0.34,
+            0.73,
+            1.19,
+            1.19,
+            1.14,
+            0.63,
+            0.12,
+            -0.69,
+            0.12,
+            -0.8,
+            -1.19,
+            -1.61,
+            -1.61,
+            -0.98,
+            -0.73,
+            -0.73,
+            0.16,
+            -0.36,
+            -0.24,
+            0.5,
+            1.14,
+            1.14,
+            1.44,
+            0.86,
+            1.4,
+            0.81,
+            0.51,
+            1.1,
+            0.7,
+            0.7,
+            0.36,
+            -0.53,
+            0.06,
+            -0.8,
+            -1.14,
+            -1.26,
+            -1.6,
+            -2.01,
+            -2.6,
+            -2.0,
+            -2.11,
+            -2.7,
+            -1.92,
+            -1.88,
+            -1.52,
+            -1.77,
+            -0.8,
+            -0.24,
+            -0.03,
+            0.97,
+            1.28,
+            0.81,
+            0.81,
+            1.23,
+            1.93,
+            1.42,
+            0.57,
+            0.06,
+            -0.02,
+            0.01,
+            0.52,
+            1.11,
+            1.3,
+            0.6,
+            0.47,
+            1.17,
+            1.08,
+            0.27,
+            0.59,
+            -0.38,
+            -0.27,
+            -0.91,
+            -0.24,
+            -0.46,
+            -0.27,
+            0.38,
+            0.68,
+            0.32,
+            0.43,
+            0.43,
+            0.89,
+            1.03,
+            1.07,
+            0.42,
+            0.16,
+            0.56,
+            0.24,
+            0.56,
+            -0.14,
+            -0.81,
+            -1.67,
+            -1.11,
+            -1.47,
+            -2.17,
+            -2.28,
+            -1.47,
+            -0.97,
+            -0.97,
+            -0.11,
+            0.52,
+            -0.11,
+            0.3,
+            1.22,
+            0.59,
+            0.67,
+            0.2,
+            0.54,
+            -0.28,
+            -0.17,
+            0.58,
+            0.62,
+            0.12,
+            1.06,
+            0.38,
+            0.03,
+            -0.01,
+            -0.04,
+            -0.04,
+            0.14,
+            -0.31,
+            -0.38,
+            -1.31,
+            -0.71,
+            -0.71,
+            -1.06,
+            -0.36,
+            -0.84,
+            -1.78,
+            -1.67,
+            -1.06,
+            -1.01,
+            -1.87,
+            -1.66,
+            -1.31,
+            -1.72,
+            -1.59,
+            -1.54,
+            -1.24,
+            -1.21,
+            -0.97,
+            -0.97,
+            -0.32,
+            -0.31,
+            0.1,
+            -0.24,
+            -0.24,
+            -0.54,
+            -1.13,
+            -1.13,
+            -1.09,
+            -1.99,
+            -2.3,
+            -3.0,
+            -2.76,
+            -2.76,
+            -2.06,
+            -2.04,
+            -1.99,
+            -1.78,
+            -1.49,
+            -1.14,
+            -1.14,
+            -0.79,
+            -0.54,
+            -0.93,
+            -1.0,
+            -1.01,
+            -0.41,
+            -0.66,
+            -1.0,
+            -0.41,
+            -0.12,
+            -0.37,
+            -0.68,
+            -0.07,
+            -0.14,
+            -0.96,
+            -0.71,
+            0.14,
+            0.41,
+            -0.27,
+            0.43,
+            0.43,
+            -0.11,
+            0.49,
+            0.38,
+            0.43,
+            0.39,
+            0.12,
+            -0.09,
+            -0.79,
+            -0.54,
+            -0.51,
+            -0.51,
+            -0.4,
+            0.11,
+            0.16,
+            -0.13,
+            -0.13,
+            0.47,
+            0.43,
+            0.79,
+            -0.02,
+            -0.07,
+            -0.18,
+            -0.33,
+            0.22,
+            0.22,
+            -0.38,
+            0.3,
+            -0.19,
+            -0.23,
+            0.1,
+            0.29,
+            -0.41,
+            -1.38,
+            -0.68,
+            -0.38,
+            -1.06,
+            -1.31,
+            -0.67,
+            -1.07,
+            -1.96,
+            -1.61,
+            -0.69,
+            -1.39,
+            -1.8,
+            -1.71,
+            -1.67,
+            -1.92,
+            -1.92,
+            -1.68,
+            -1.68,
+            -1.63,
+            -1.63,
+            -1.18,
+            -1.48,
+            -1.48,
+            -1.87,
+            -1.76,
+            -1.41,
+            -1.17,
+            -1.72,
+            -1.48,
+            -1.12,
+            -0.88,
+            -0.57,
+            0.08,
+            0.78,
+            0.78,
+            0.89,
+            0.48,
+            0.19,
+            0.34,
+            0.06,
+            -0.26,
+            -0.61,
+            -0.42,
+            -1.01,
+            -1.5,
+            -1.39,
+            -1.04,
+            -1.04,
+            -1.04,
+            -0.83,
+            -1.08
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.75,
+            0.7,
+            0.63,
+            0.51,
+            0.47,
+            0.35,
+            0.29,
+            0.18,
+            0.09,
+            0.07,
+            0.06,
+            0.03,
+            0.03,
+            0.03,
+            0.06,
+            0.1,
+            0.1,
+            0.12,
+            0.07,
+            0.04,
+            0.08,
+            0.05,
+            0.05,
+            0.04,
+            0.06,
+            0.06,
+            0.09,
+            0.1,
+            0.16,
+            0.16,
+            0.16,
+            0.15,
+            0.15,
+            0.15,
+            0.13,
+            0.09,
+            0.09,
+            0.06,
+            0.09,
+            0.15,
+            0.15,
+            0.09,
+            0.15,
+            0.1,
+            0.15,
+            0.09,
+            0.1,
+            0.1,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.09,
+            0.12,
+            0.11,
+            0.13,
+            0.16,
+            0.1,
+            0.15,
+            0.14,
+            0.11,
+            0.16,
+            0.23,
+            0.16,
+            0.25,
+            0.17,
+            0.26,
+            0.19,
+            0.15,
+            0.12,
+            0.08,
+            0.13,
+            0.12,
+            0.12,
+            0.08,
+            0.05,
+            0.05,
+            0.05,
+            0.09,
+            0.05,
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.07,
+            0.04,
+            0.06,
+            0.05,
+            0.06,
+            0.03,
+            0.03,
+            0.03,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.03,
+            0.03,
+            0.04,
+            0.03,
+            0.08,
+            0.06,
+            0.05,
+            0.05,
+            0.05,
+            0.03,
+            0.02,
+            0.04,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.1,
+            0.17,
+            0.16,
+            0.11,
+            0.06,
+            0.06,
+            0.06,
+            0.05,
+            0.06,
+            0.07,
+            0.08,
+            0.13,
+            0.13,
+            0.08,
+            0.13,
+            0.1,
+            0.1,
+            0.06,
+            0.11,
+            0.11,
+            0.11,
+            0.13,
+            0.12,
+            0.12,
+            0.13,
+            0.2,
+            0.19,
+            0.22,
+            0.28,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.2,
+            0.21,
+            0.2,
+            0.23,
+            0.23,
+            0.22,
+            0.22,
+            0.23,
+            0.31,
+            0.28,
+            0.21,
+            0.22,
+            0.27,
+            0.26,
+            0.28,
+            0.19,
+            0.2,
+            0.22,
+            0.21,
+            0.2,
+            0.23,
+            0.2,
+            0.27,
+            0.29,
+            0.3,
+            0.23,
+            0.31,
+            0.24,
+            0.15,
+            0.1,
+            0.12,
+            0.18,
+            0.15,
+            0.1,
+            0.11,
+            0.1,
+            0.11,
+            0.12,
+            0.2,
+            0.13,
+            0.1,
+            0.05,
+            0.11,
+            0.06,
+            0.06,
+            0.08,
+            0.07,
+            0.06,
+            0.1,
+            0.1,
+            0.12,
+            0.12,
+            0.12,
+            0.08,
+            0.14,
+            0.07,
+            0.08,
+            0.07,
+            0.04,
+            0.03,
+            0.06,
+            0.07,
+            0.12,
+            0.06,
+            0.12,
+            0.1,
+            0.06,
+            0.07,
+            0.05,
+            0.06,
+            0.11,
+            0.08,
+            0.09,
+            0.08,
+            0.08,
+            0.05,
+            0.09,
+            0.08,
+            0.09,
+            0.13,
+            0.16,
+            0.14,
+            0.14,
+            0.12,
+            0.19,
+            0.19,
+            0.14,
+            0.23,
+            0.28,
+            0.35,
+            0.34,
+            0.34,
+            0.4,
+            0.3,
+            0.31,
+            0.34,
+            0.4,
+            0.39,
+            0.41,
+            0.49,
+            0.48,
+            0.46,
+            0.44,
+            0.46,
+            0.47,
+            0.39,
+            0.33,
+            0.33,
+            0.31,
+            0.29,
+            0.23,
+            0.2,
+            0.14,
+            0.14,
+            0.19,
+            0.14,
+            0.18,
+            0.2,
+            0.13,
+            0.09,
+            0.09,
+            0.11,
+            0.11,
+            0.12,
+            0.1,
+            0.09,
+            0.15,
+            0.2,
+            0.31,
+            0.35,
+            0.42,
+            0.53,
+            0.6,
+            0.7,
+            0.74,
+            0.8,
+            0.88,
+            0.91
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.22,
+            0.21,
+            0.21,
+            0.2,
+            0.19,
+            0.18,
+            0.18,
+            0.18,
+            0.17,
+            0.16,
+            0.16,
+            0.15,
+            0.15,
+            0.16,
+            0.17,
+            0.18,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.2,
+            0.19,
+            0.19,
+            0.18,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.15,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.13,
+            0.13,
+            0.12,
+            0.12,
+            0.12,
+            0.11,
+            0.12,
+            0.12,
+            0.12,
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.12,
+            0.12,
+            0.13,
+            0.13,
+            0.13,
+            0.13,
+            0.13,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.15,
+            0.15,
+            0.15,
+            0.16,
+            0.16,
+            0.15,
+            0.16,
+            0.15,
+            0.15,
+            0.15,
+            0.14,
+            0.13,
+            0.13,
+            0.12,
+            0.11,
+            0.1,
+            0.1,
+            0.09,
+            0.09,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.09,
+            0.09,
+            0.08,
+            0.07,
+            0.07,
+            0.06,
+            0.05,
+            0.05,
+            0.05,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.05,
+            0.04,
+            0.05,
+            0.05,
+            0.06,
+            0.06,
+            0.07,
+            0.07,
+            0.08,
+            0.09,
+            0.1,
+            0.11,
+            0.12,
+            0.12,
+            0.13,
+            0.14,
+            0.15,
+            0.15,
+            0.14,
+            0.15,
+            0.15,
+            0.16,
+            0.17,
+            0.19,
+            0.2,
+            0.22,
+            0.22,
+            0.23,
+            0.24,
+            0.26,
+            0.27,
+            0.28,
+            0.28,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.3,
+            0.3,
+            0.29,
+            0.28,
+            0.27,
+            0.26,
+            0.25,
+            0.24,
+            0.23,
+            0.22,
+            0.2,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.2,
+            0.21,
+            0.21,
+            0.22,
+            0.23,
+            0.23,
+            0.23,
+            0.22,
+            0.22,
+            0.23,
+            0.23,
+            0.22,
+            0.23,
+            0.23,
+            0.23,
+            0.24,
+            0.24,
+            0.25,
+            0.27,
+            0.28,
+            0.29,
+            0.3,
+            0.3,
+            0.32,
+            0.33,
+            0.36,
+            0.37,
+            0.39,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.43,
+            0.41,
+            0.39,
+            0.36,
+            0.33,
+            0.3,
+            0.28,
+            0.26,
+            0.25,
+            0.24,
+            0.23,
+            0.23,
+            0.24,
+            0.24,
+            0.25,
+            0.26,
+            0.27,
+            0.29,
+            0.31,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.35,
+            0.34,
+            0.35,
+            0.35,
+            0.34,
+            0.34,
+            0.33,
+            0.34,
+            0.34,
+            0.33,
+            0.32,
+            0.32,
+            0.31,
+            0.29,
+            0.28,
+            0.27,
+            0.26,
+            0.26,
+            0.25,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.25,
+            0.26,
+            0.26,
+            0.26,
+            0.26,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.29,
+            0.31,
+            0.32,
+            0.35,
+            0.38,
+            0.43,
+            0.4,
+            0.37,
+            0.34,
+            0.32,
+            0.31,
+            0.3,
+            0.29,
+            0.28,
+            0.29,
+            0.3,
+            0.33,
+            0.35,
+            0.37,
+            0.4,
+            0.42,
+            0.43,
+            0.41,
+            0.37,
+            0.34,
+            0.31,
+            0.3,
+            0.29,
+            0.28,
+            0.26,
+            0.25
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00337,
+      "maximum_length": 1,
+      "minimum_length": 1,
+      "type": "artifact"
+    },
+    {
+      "count": 1,
+      "coverage": 0.95623,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "18835_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 297,
+          "ref_beg_seq_id": 140
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "38966_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 297,
+          "ref_beg_seq_id": 140
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "39944_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 297,
+          "ref_beg_seq_id": 140
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "19497_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 297,
+          "ref_beg_seq_id": 140
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "P32783",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 296,
+          "ref_beg_seq_id": 141
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "36413_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 297,
+          "ref_beg_seq_id": 140
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "16207_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 297,
+          "ref_beg_seq_id": 140
+        }
+      ]
+    }
+  ],
+  "rcsb_id": "9MG4_1"
+}

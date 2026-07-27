@@ -1,0 +1,632 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-5420-6184",
+      "name": "Friedrich, F.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Mousavizadeh, F.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Greschik, H.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0001-5431-5006",
+      "name": "Zhang, L.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0001-8147-634X",
+      "name": "Schuele, R.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "identifier_ORCID": "0000-0002-2514-3898",
+      "name": "Breit, B.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "identifier_ORCID": "0000-0001-8722-2893",
+      "name": "Einsle, O.",
+      "pdbx_ordinal": 7
+    },
+    {
+      "identifier_ORCID": "0000-0002-6361-7716",
+      "name": "Jung, M.",
+      "pdbx_ordinal": 8
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 44.73,
+    "length_b": 46.096,
+    "length_c": 110.012
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "J.Med.Chem.",
+      "journal_id_ASTM": "JMCMAR",
+      "journal_id_CSD": "0151",
+      "journal_id_ISSN": "0022-2623",
+      "journal_volume": "69",
+      "page_first": "12020",
+      "page_last": "12047",
+      "pdbx_database_id_DOI": "10.1021/acs.jmedchem.5c03690",
+      "pdbx_database_id_PubMed": 42085696,
+      "rcsb_authors": [
+        "Greschik, H.",
+        "Friedrich, F.",
+        "Seifert, L.",
+        "Mousavizadeh, F.",
+        "Fiorentino, F.",
+        "Walz, J.",
+        "Zhang, L.",
+        "Li, J.",
+        "Fabbrizi, E.",
+        "Tomassi, S.",
+        "Panahi, F.",
+        "Papenkordt, N.",
+        "Wurnig, S.L.",
+        "Osterroth, J.",
+        "Strasser, A.M.",
+        "Ruprecht, J.",
+        "Moumbock, A.F.A.",
+        "Hugle, M.",
+        "Sum, M.",
+        "Peng, L.",
+        "Wang, S.",
+        "Baniahmad, A.A.",
+        "Pulido-Cortes, L.",
+        "Timmers, H.T.M.",
+        "Flaig, R.",
+        "Metzger, E.",
+        "Breit, B.",
+        "Einsle, O.",
+        "Gunther, S.",
+        "Rotili, D.",
+        "Mai, A.",
+        "Schule, R.",
+        "Jung, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Med Chem",
+      "title": "Development of High-Affinity CHD1 Chromodomain Inhibitors.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9T9E",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9t9e/pdb",
+      "pdbx_database_accession": "pdb_00009t9e"
+    },
+    {
+      "database_code": "D_1292144317",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-02-01T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BM07",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.9795",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE BM07"
+    }
+  ],
+  "entry": {
+    "id": "9T9E"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.77,
+      "density_percent_sol": 55.57,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "12 % (w/v) PEG 3350, 0.2 M L-Proline, 0.1 M HEPES, pH 7.5. The ligand (final conc. of 20 mM, 10% (v/v) DMSO) has been soaked in this condition for 24 h.",
+      "temp": 281.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-05-20T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-06-03T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Germany",
+      "funding_organization": "German Research Foundation (DFG)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2025-11-14T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5AFW",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-05-11T21:19:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2074,
+      "DCC_Rfree": 0.227,
+      "EDS_R": 0.2182,
+      "EDS_res_high": 1.7,
+      "EDS_res_low": 28.7,
+      "Fo_Fc_correlation": 0.961,
+      "I_over_sigma": "1.79(1.70A)",
+      "Padilla_Yeates_L2_mean": 0.318,
+      "Padilla_Yeates_L_mean": 0.485,
+      "Wilson_B_aniso": "[41.200,34.887,25.344,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 32.721,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 33.007,
+      "bulk_solvent_k": 0.298,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.469,
+      "data_completeness": 99.64,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 25709,
+      "number_reflns_R_free": 1242,
+      "percent_RSRZ_outliers": 6.98,
+      "percent_free_reflections": 4.81,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 10.68% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "k,h,-l:0.032"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.44,
+      "bonds_RMSZ": 0.27,
+      "clashscore": 0.71,
+      "num_H_reduce": 1361,
+      "num_angles_RMSZ": 1982,
+      "num_bonds_RMSZ": 1471,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-11-14T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-05-20T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2026-06-03T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9T9E",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 42085696,
+    "rcsb_id": "9T9E"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1617,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 172,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 174,
+    "deposited_solvent_atom_count": 149,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9795,
+    "diffrn_radiation_wavelength_minimum": 0.9795,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 21.02,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.46,
+    "nonpolymer_molecular_weight_minimum": 0.08,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 20.48,
+    "polymer_molecular_weight_minimum": 20.48,
+    "polymer_monomer_count_maximum": 174,
+    "polymer_monomer_count_minimum": 174,
+    "resolution_combined": [
+      1.7
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "AUTOPROC",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.7
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "J.Med.Chem.",
+    "journal_id_ASTM": "JMCMAR",
+    "journal_id_CSD": "0151",
+    "journal_id_ISSN": "0022-2623",
+    "journal_volume": "69",
+    "page_first": "12020",
+    "page_last": "12047",
+    "pdbx_database_id_DOI": "10.1021/acs.jmedchem.5c03690",
+    "pdbx_database_id_PubMed": 42085696,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "0000-0001-5420-6184",
+      "?",
+      "?",
+      "0000-0003-3550-1860",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0003-3152-4467",
+      "0000-0003-0420-4409",
+      "0000-0003-3420-0695",
+      "?",
+      "?",
+      "0009-0003-7659-7077",
+      "0009-0003-2949-0250",
+      "0000-0002-6034-2016",
+      "?",
+      "?",
+      "?",
+      "0000-0002-2813-9878",
+      "?",
+      "0009-0008-5829-2161",
+      "0000-0001-7062-1417",
+      "?",
+      "?",
+      "0000-0002-2514-3898",
+      "?",
+      "0000-0003-3744-189X",
+      "0000-0002-8428-8763",
+      "0000-0001-9176-2382",
+      "?",
+      "0000-0002-6361-7716"
+    ],
+    "rcsb_authors": [
+      "Greschik, H.",
+      "Friedrich, F.",
+      "Seifert, L.",
+      "Mousavizadeh, F.",
+      "Fiorentino, F.",
+      "Walz, J.",
+      "Zhang, L.",
+      "Li, J.",
+      "Fabbrizi, E.",
+      "Tomassi, S.",
+      "Panahi, F.",
+      "Papenkordt, N.",
+      "Wurnig, S.L.",
+      "Osterroth, J.",
+      "Strasser, A.M.",
+      "Ruprecht, J.",
+      "Moumbock, A.F.A.",
+      "Hugle, M.",
+      "Sum, M.",
+      "Peng, L.",
+      "Wang, S.",
+      "Baniahmad, A.A.",
+      "Pulido-Cortes, L.",
+      "Timmers, H.T.M.",
+      "Flaig, R.",
+      "Metzger, E.",
+      "Breit, B.",
+      "Einsle, O.",
+      "Gunther, S.",
+      "Rotili, D.",
+      "Mai, A.",
+      "Schule, R.",
+      "Jung, M."
+    ],
+    "rcsb_journal_abbrev": "J Med Chem",
+    "title": "Development of High-Affinity CHD1 Chromodomain Inhibitors.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2208,
+      "ls_R_factor_R_work": 0.2027,
+      "ls_R_factor_obs": 0.2037,
+      "ls_d_res_high": 1.7,
+      "ls_d_res_low": 28.7,
+      "ls_number_reflns_R_free": 1240,
+      "ls_number_reflns_obs": 25691,
+      "ls_percent_reflns_R_free": 4.83,
+      "ls_percent_reflns_obs": 99.62,
+      "overall_SU_ML": 0.22,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 26.68,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.7,
+      "d_res_low": 28.7,
+      "number_atoms_solvent": 149,
+      "number_atoms_total": 1611,
+      "pdbx_number_atoms_ligand": 38,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1424,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.006,
+      "number": 1507,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.73,
+      "number": 2032,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 12.489,
+      "number": 585,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.049,
+      "number": 196,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.006,
+      "number": 268,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.7,
+      "d_resolution_low": 55.01,
+      "number_obs": 25755,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.051,
+      "pdbx_Rpim_I_all": 0.015,
+      "pdbx_Rrim_I_all": 0.053,
+      "pdbx_chi_squared": 1.03,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 24.5,
+      "pdbx_number_measured_all": 331177,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.9,
+      "percent_possible_obs": 99.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 2.687,
+      "d_res_high": 1.7,
+      "d_res_low": 1.73,
+      "number_measured_all": 17556,
+      "number_unique_obs": 1347,
+      "pdbx_CC_half": 0.638,
+      "pdbx_Rpim_I_all": 0.763,
+      "pdbx_Rrim_I_all": 2.795,
+      "pdbx_chi_squared": 1.01,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 1.1,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 13.0,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.20.1_4487: ???)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of human CHD1 tandem chromodomain in complex with the ethoxyquinoline-based inhibitor 2b"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "PEPTIDE BINDING PROTEIN",
+    "text": "Chromatin Remodeler, Chromodomain, Epigenetic Reader, Inhibitor, Prostate Cancer, PEPTIDE BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 18,
+    "space_group_name_H_M": "P 21 2 21"
+  },
+  "rcsb_id": "9T9E"
+}

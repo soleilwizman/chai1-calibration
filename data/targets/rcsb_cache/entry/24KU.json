@@ -1,0 +1,514 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-3411-7608",
+      "name": "Oyama, T.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Ishino, Y.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 68.927,
+    "length_b": 68.927,
+    "length_c": 120.165,
+    "volume": 570895.663
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Acta Crystallogr.,Sect.F",
+      "journal_id_ASTM": "ACSFEN",
+      "journal_id_ISSN": "2053-230X",
+      "journal_volume": "82",
+      "page_first": "216",
+      "page_last": "221",
+      "pdbx_database_id_DOI": "10.1107/S2053230X26003687",
+      "pdbx_database_id_PubMed": 42153239,
+      "rcsb_authors": [
+        "Wang, T.",
+        "Ishino, S.",
+        "Ishino, Y.",
+        "Oyama, T."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Acta Crystallogr F Struct Biol Commun",
+      "title": "Crystal structures of PCNA1 and PCNA2 from Aeropyrum pernix: implications for a distorted heterotrimeric sliding clamp.",
+      "year": 2026
+    },
+    {
+      "country": "US",
+      "id": "1",
+      "journal_abbrev": "J.Bacteriol.",
+      "journal_id_ASTM": "JOBAAY",
+      "journal_id_CSD": "0353",
+      "journal_id_ISSN": "1098-5530",
+      "pdbx_database_id_DOI": "10.1128/JB.184.3.687-694.2002",
+      "pdbx_database_id_PubMed": 11790738,
+      "rcsb_authors": [
+        "Daimon, K.",
+        "Kawarabayasi, Y.",
+        "Kikuchi, H.",
+        "Sako, Y.",
+        "Ishino, Y."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "J Bacteriol",
+      "title": "Three proliferating cell nuclear antigen-like proteins found in the hyperthermophilic archaeon Aeropyrum pernix: interactions with the two DNA polymerases.",
+      "year": 2002
+    },
+    {
+      "country": "UK",
+      "id": "2",
+      "journal_abbrev": "Mol.Microbiol.",
+      "journal_id_ASTM": "MOMIEE",
+      "journal_id_CSD": "0353",
+      "journal_id_ISSN": "1365-2958",
+      "pdbx_database_id_DOI": "10.1111/j.1365-2958.2007.05645.x",
+      "pdbx_database_id_PubMed": 17493121,
+      "rcsb_authors": [
+        "Imamura, K.",
+        "Fukunaga, K.",
+        "Kawarabayasi, Y.",
+        "Ishino, Y."
+      ],
+      "rcsb_is_primary": "N",
+      "rcsb_journal_abbrev": "Mol Microbiol",
+      "title": "Specific interactions of three proliferating cell nuclear antigens with replication-related proteins in Aeropyrum pernix.",
+      "year": 2007
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "24KU",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb24ku/pdb",
+      "pdbx_database_accession": "pdb_000024ku"
+    },
+    {
+      "database_code": "D_1300071341",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "CCD",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2006-10-13T00:00:00.000+00:00",
+      "type": "RIGAKU JUPITER 210"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "FIXED EXIT SI 111 DOUBLE CRYSTAL",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL38B1",
+      "pdbx_synchrotron_site": "SPring-8",
+      "pdbx_wavelength_list": "1.00000",
+      "source": "SYNCHROTRON",
+      "type": "SPRING-8 BEAMLINE BL38B1"
+    }
+  ],
+  "entry": {
+    "id": "24KU"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.42,
+      "density_percent_sol": 49.19,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 4.5,
+      "pdbx_details": "0.1 M citrate (pH 4.5), 1.8 M ammonium sulfate",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-06-10T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Science and Technology",
+      "grant_number": "07050930",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "24JD",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2026-03-09T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1GE8",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-06-02T03:07:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2033,
+      "DCC_Rfree": 0.2208,
+      "EDS_R": 0.2134,
+      "EDS_res_high": 1.6,
+      "EDS_res_low": 34.63,
+      "Fo_Fc_correlation": 0.946,
+      "I_over_sigma": "3.25(1.60A)",
+      "Padilla_Yeates_L2_mean": 0.291,
+      "Padilla_Yeates_L_mean": 0.462,
+      "Wilson_B_aniso": "[14.332,14.332,23.904,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 16.776,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 32.326,
+      "bulk_solvent_k": 0.379,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.546,
+      "data_completeness": 99.68,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 38871,
+      "number_reflns_R_free": 1914,
+      "percent_RSRZ_outliers": 8.66,
+      "percent_free_reflections": 4.91,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.52% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.52,
+      "bonds_RMSZ": 0.31,
+      "clashscore": 2.95,
+      "num_H_reduce": 2065,
+      "num_angles_RMSZ": 2755,
+      "num_bonds_RMSZ": 2040,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 2.27
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2026-03-09T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-06-10T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-06-10T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "24KU",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 42153239,
+    "rcsb_id": "24KU"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 2093,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 254,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 263,
+    "deposited_solvent_atom_count": 89,
+    "deposited_unmodeled_polymer_monomer_count": 9,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 29.48,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 29.48,
+    "polymer_molecular_weight_minimum": 29.48,
+    "polymer_monomer_count_maximum": 263,
+    "polymer_monomer_count_minimum": 263,
+    "resolution_combined": [
+      1.6
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.6
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Acta Crystallogr.,Sect.F",
+    "journal_id_ASTM": "ACSFEN",
+    "journal_id_ISSN": "2053-230X",
+    "journal_volume": "82",
+    "page_first": "216",
+    "page_last": "221",
+    "pdbx_database_id_DOI": "10.1107/S2053230X26003687",
+    "pdbx_database_id_PubMed": 42153239,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "0000-0001-9419-0826",
+      "0000-0002-3411-7608"
+    ],
+    "rcsb_authors": [
+      "Wang, T.",
+      "Ishino, S.",
+      "Ishino, Y.",
+      "Oyama, T."
+    ],
+    "rcsb_journal_abbrev": "Acta Crystallogr F Struct Biol Commun",
+    "title": "Crystal structures of PCNA1 and PCNA2 from Aeropyrum pernix: implications for a distorted heterotrimeric sliding clamp.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "B_iso_mean": 22.98,
+      "ls_R_factor_R_free": 0.2175,
+      "ls_R_factor_R_work": 0.1979,
+      "ls_R_factor_obs": 0.1989,
+      "ls_d_res_high": 1.6,
+      "ls_d_res_low": 34.63,
+      "ls_number_reflns_R_free": 1913,
+      "ls_number_reflns_R_work": 68988,
+      "ls_number_reflns_obs": 72556,
+      "ls_percent_reflns_R_free": 4.92,
+      "ls_percent_reflns_obs": 99.41,
+      "overall_SU_ML": 0.1842,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 0.07,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 22.7005,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.6,
+      "d_res_low": 34.63,
+      "number_atoms_solvent": 89,
+      "number_atoms_total": 2083,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1994,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0072,
+      "number": 2035,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.8823,
+      "number": 2754,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0583,
+      "number": 329,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0079,
+      "number": 352,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 21.3622,
+      "number": 782,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 16.49,
+      "d_resolution_high": 1.6,
+      "d_resolution_low": 45.3,
+      "number_obs": 72556,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.067,
+      "pdbx_Rpim_I_all": 0.031,
+      "pdbx_Rrim_I_all": 0.074,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 20.1,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 10.6,
+      "percent_possible_obs": 99.8
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.368,
+      "d_res_high": 1.6,
+      "d_res_low": 1.63,
+      "meanI_over_sigI_obs": 3.4,
+      "number_unique_obs": 3706,
+      "pdbx_CC_half": 0.916,
+      "pdbx_Rpim_I_all": 0.195,
+      "pdbx_Rrim_I_all": 0.429,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.8,
+      "percent_possible_all": 97.7
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of the Aeropyrum pernix PCNA1 monomer"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DNA BINDING PROTEIN",
+    "text": "Sliding clamp, PCNA, Aeropyrum pernix, DNA BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 96,
+    "space_group_name_H_M": "P 43 21 2",
+    "space_group_name_Hall": "P 4nw 2abw"
+  },
+  "rcsb_id": "24KU"
+}

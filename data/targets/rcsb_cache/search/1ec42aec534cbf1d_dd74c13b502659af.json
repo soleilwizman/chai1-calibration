@@ -1,0 +1,51 @@
+{
+  "query_id": "63fb035a-27f4-4307-83f3-3f1f825759f1",
+  "result_type": "polymer_entity",
+  "total_count": 1,
+  "result_set": [
+    {
+      "identifier": "6BBK_1",
+      "score": 0.5,
+      "services": [
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 15181,
+              "original_score": 235.0,
+              "norm_score": 0.0,
+              "match_context": [
+                {
+                  "sequence_identity": 0.991,
+                  "evalue": 7.465e-71,
+                  "bitscore": 235,
+                  "alignment_length": 120,
+                  "mismatches": 1,
+                  "gaps_opened": 0,
+                  "query_beg": 5,
+                  "query_end": 124,
+                  "subject_beg": 7,
+                  "subject_end": 126,
+                  "query_length": 124,
+                  "subject_length": 126,
+                  "query_aligned_seq": "ARTQVTRAVSEVSALKTAAESAILEGKEIVSSATPKDTQYDIGFTESTLLDGSGKSQIQVTDNKDGTVELVATLGKSSGSAIKGAVITVSRKNDGVWNCKITKTPTAWKPNYAPANCPKS",
+                  "subject_aligned_seq": "ARTQVTRAVSEVSALKTAAESAILEGKEIVSSATPKDTQYDIGFTESTLLDGSGKSQIQVTDNQDGTVELVATLGKSSGSAIKGAVITVSRKNDGVWNCKITKTPTAWKPNYAPANCPKS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 7010,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

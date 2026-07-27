@@ -1,0 +1,771 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-8478-4751",
+      "name": "Roujeinikova, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-9660-6637",
+      "name": "Zhou, X.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 85.792,
+    "length_b": 85.792,
+    "length_c": 55.194
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Plos Pathog.",
+      "journal_id_ISSN": "1553-7374",
+      "journal_volume": "22",
+      "page_first": "e1013951",
+      "page_last": "e1013951",
+      "pdbx_database_id_DOI": "10.1371/journal.ppat.1013951",
+      "pdbx_database_id_PubMed": 41686872,
+      "rcsb_authors": [
+        "Luk, C.Y.M.",
+        "Rahman, M.M.",
+        "Zhou, X.",
+        "Munier, C.M.L.",
+        "Liu, F.",
+        "Riordan, S.M.",
+        "Roujeinikova, A.",
+        "Zhang, L."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "PLoS Pathog",
+      "title": "Csep1P protein from Campylobacter concisus induces a chemokine-dominant inflammatory state in macrophages and enhances proinflammatory response to gut bacteria.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8V4W",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8v4w/pdb",
+      "pdbx_database_accession": "pdb_00008v4w"
+    },
+    {
+      "database_code": "D_1000279433",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 293.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2018-08-23T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "MX2",
+      "pdbx_synchrotron_site": "Australian Synchrotron",
+      "pdbx_wavelength_list": "1.07",
+      "source": "SYNCHROTRON",
+      "type": "AUSTRALIAN SYNCHROTRON BEAMLINE MX2"
+    }
+  ],
+  "entry": {
+    "id": "8V4W"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.4,
+      "density_percent_sol": 48.84,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "25% w/v PEG 4000, 100 mM ammonium acetate, 80 mM sodium acetate trihydrate (pH 4.6)",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "audit_author",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-01-08T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-07-15T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_audit_author.name",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 11,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 12,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Australia",
+      "funding_organization": "Other government",
+      "grant_number": "PS46772",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2023-11-29T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-07-08T10:04:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.015 (Gargrove)",
+      "DCC_R": 0.1263,
+      "DCC_Rfree": 0.1666,
+      "EDS_R": 0.1484,
+      "EDS_res_high": 1.4,
+      "EDS_res_low": 25.0,
+      "Fo_Fc_correlation": 0.98,
+      "I_over_sigma": "1.07(1.40A)",
+      "Padilla_Yeates_L2_mean": 0.322,
+      "Padilla_Yeates_L_mean": 0.491,
+      "Wilson_B_aniso": "[21.404,21.404,27.024,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 22.792,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 51.156,
+      "bulk_solvent_k": 0.403,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.241,
+      "data_completeness": 94.35,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 43056,
+      "number_reflns_R_free": 2218,
+      "percent_RSRZ_outliers": 0.48,
+      "percent_free_reflections": 4.85,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.32% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-h-k,-l:0.042"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.02,
+      "bonds_RMSZ": 0.66,
+      "clashscore": 5.89,
+      "num_H_reduce": 1680,
+      "num_angles_RMSZ": 2360,
+      "num_bonds_RMSZ": 1756,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-11-29T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-01-08T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2026-07-15T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "8V4W",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 41686872,
+    "rcsb_id": "8V4W"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1943,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 207,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 207,
+    "deposited_solvent_atom_count": 225,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.07,
+    "diffrn_radiation_wavelength_minimum": 1.07,
+    "disulfide_bond_count": 3,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 24.45,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.06,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 24.39,
+    "polymer_molecular_weight_minimum": 24.39,
+    "polymer_monomer_count_maximum": 207,
+    "polymer_monomer_count_minimum": 207,
+    "resolution_combined": [
+      1.4
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "POINTLESS",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.4
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Plos Pathog.",
+    "journal_id_ISSN": "1553-7374",
+    "journal_volume": "22",
+    "page_first": "e1013951",
+    "page_last": "e1013951",
+    "pdbx_database_id_DOI": "10.1371/journal.ppat.1013951",
+    "pdbx_database_id_PubMed": 41686872,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0001-7506-8278"
+    ],
+    "rcsb_authors": [
+      "Luk, C.Y.M.",
+      "Rahman, M.M.",
+      "Zhou, X.",
+      "Munier, C.M.L.",
+      "Liu, F.",
+      "Riordan, S.M.",
+      "Roujeinikova, A.",
+      "Zhang, L."
+    ],
+    "rcsb_journal_abbrev": "PLoS Pathog",
+    "title": "Csep1P protein from Campylobacter concisus induces a chemokine-dominant inflammatory state in macrophages and enhances proinflammatory response to gut bacteria.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "B_iso_mean": 27.505,
+      "aniso_B_1_1": 0.18,
+      "aniso_B_1_2": 0.09,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": 0.18,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": -0.58,
+      "correlation_coeff_Fo_to_Fc": 0.982,
+      "correlation_coeff_Fo_to_Fc_free": 0.971,
+      "details": "HYDROGENS HAVE BEEN ADDED IN THE RIDING POSITIONS",
+      "ls_R_factor_R_free": 0.16679,
+      "ls_R_factor_R_work": 0.12639,
+      "ls_R_factor_obs": 0.12852,
+      "ls_d_res_high": 1.4,
+      "ls_d_res_low": 25.0,
+      "ls_number_reflns_R_free": 2218,
+      "ls_number_reflns_obs": 40838,
+      "ls_percent_reflns_R_free": 5.2,
+      "ls_percent_reflns_obs": 94.18,
+      "overall_SU_B": 1.971,
+      "overall_SU_ML": 0.034,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "AB INITIO PHASING",
+      "pdbx_overall_ESU_R": 0.053,
+      "pdbx_overall_ESU_R_Free": 0.053,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "1",
+      "d_res_high": 1.4,
+      "d_res_low": 25.0,
+      "number_atoms_solvent": 225,
+      "number_atoms_total": 1943,
+      "pdbx_number_atoms_ligand": 4,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1714,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.012,
+      "dev_ideal_target": 0.012,
+      "number": 1762,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.016,
+      "number": 1641,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.769,
+      "dev_ideal_target": 1.853,
+      "number": 2369,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 0.618,
+      "dev_ideal_target": 1.813,
+      "number": 3817,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 5.683,
+      "dev_ideal_target": 5.0,
+      "number": 206,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 3.337,
+      "dev_ideal_target": 5.0,
+      "number": 5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 11.264,
+      "dev_ideal_target": 10.0,
+      "number": 337,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.098,
+      "dev_ideal_target": 0.2,
+      "number": 238,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.01,
+      "dev_ideal_target": 0.02,
+      "number": 2003,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 391,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_other"
+    },
+    {
+      "dev_ideal": 7.457,
+      "dev_ideal_target": 2.649,
+      "number": 828,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 7.385,
+      "dev_ideal_target": 2.645,
+      "number": 827,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 9.972,
+      "dev_ideal_target": 4.77,
+      "number": 1032,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 9.979,
+      "dev_ideal_target": 4.777,
+      "number": 1033,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 10.471,
+      "dev_ideal_target": 3.084,
+      "number": 934,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 10.467,
+      "dev_ideal_target": 3.086,
+      "number": 935,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 14.408,
+      "dev_ideal_target": 5.447,
+      "number": 1338,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 19.535,
+      "dev_ideal_target": 32.08,
+      "number": 2181,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "dev_ideal": 18.521,
+      "dev_ideal_target": 29.3,
+      "number": 2130,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    },
+    {
+      "dev_ideal": 4.165,
+      "dev_ideal_target": 3.0,
+      "number": 3403,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_free"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_bonded"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.4,
+      "d_resolution_low": 25.0,
+      "number_obs": 43067,
+      "pdbx_CC_half": 0.99,
+      "pdbx_Rmerge_I_obs": 0.03,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 15.1,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 1.0,
+      "percent_possible_obs": 94.3
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.4,
+      "d_res_low": 1.42,
+      "number_unique_obs": 43067,
+      "pdbx_CC_half": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "pointless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 4,
+      "version": "5.8.0419"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of Campylobacter concisus Csep1"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "UNKNOWN FUNCTION",
+    "text": "cysteine rich protein, UNKNOWN FUNCTION"
+  },
+  "symmetry": {
+    "Int_Tables_number": 172,
+    "space_group_name_H_M": "P 64"
+  },
+  "rcsb_id": "8V4W"
+}

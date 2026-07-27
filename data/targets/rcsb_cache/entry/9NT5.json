@@ -1,0 +1,476 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-1841-1479",
+      "name": "Georgelin, R.L.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0003-0071-9018",
+      "name": "Frkic, R.L.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0003-0606-4446",
+      "name": "Tan, L.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0001-8549-0122",
+      "name": "Kaczmarski, J.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0001-6150-3822",
+      "name": "Jackson, C.J.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 104.821,
+    "length_b": 104.821,
+    "length_c": 50.126
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Georgelin, R.",
+        "Frkic, R.L.",
+        "Tan, L.",
+        "Kaczmarski, J.",
+        "Jackson, C.J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of ecLacI transcription factor ancestor 1 bound to glycerol"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9NT5",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9nt5/pdb",
+      "pdbx_database_accession": "pdb_00009nt5"
+    },
+    {
+      "database_code": "D_1000294172",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-10-01T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "MX2",
+      "pdbx_synchrotron_site": "Australian Synchrotron",
+      "pdbx_wavelength_list": "0.9537",
+      "source": "SYNCHROTRON",
+      "type": "AUSTRALIAN SYNCHROTRON BEAMLINE MX2"
+    }
+  ],
+  "entry": {
+    "id": "9NT5"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.59,
+      "density_percent_sol": 52.5,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "14.4% PEG 8000, 0.08 M sodium cacodylate pH 6.2, 0.16 M calcium acetate, 20 % glycerol",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-06-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Australia",
+      "funding_organization": "Australian Research Council (ARC)",
+      "grant_number": "CE200100012",
+      "ordinal": 1
+    },
+    {
+      "country": "Australia",
+      "funding_organization": "Australian Research Council (ARC)",
+      "grant_number": "CE200100029",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2025-03-18T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2P9H",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-20T01:43:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1882,
+      "DCC_Rfree": 0.2116,
+      "EDS_R": 0.2048,
+      "EDS_res_high": 1.67,
+      "EDS_res_low": 34.31,
+      "Fo_Fc_correlation": 0.967,
+      "I_over_sigma": "1.17(1.67A)",
+      "Padilla_Yeates_L2_mean": 0.336,
+      "Padilla_Yeates_L_mean": 0.502,
+      "Wilson_B_aniso": "[37.713,37.713,35.788,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 37.058,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 61.08,
+      "bulk_solvent_k": 0.348,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.052,
+      "data_completeness": 99.95,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 37010,
+      "number_reflns_R_free": 1881,
+      "percent_RSRZ_outliers": 27.41,
+      "percent_free_reflections": 5.08,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.44% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.025"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.4,
+      "bonds_RMSZ": 0.16,
+      "clashscore": 6.01,
+      "num_H_reduce": 2053,
+      "num_angles_RMSZ": 2940,
+      "num_bonds_RMSZ": 2148,
+      "percent_ramachandran_outliers": 0.75,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-03-18T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-06-18T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-06-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "9NT5",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9NT5"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 2,
+    "deposited_atom_count": 2244,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 270,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 280,
+    "deposited_solvent_atom_count": 140,
+    "deposited_unmodeled_polymer_monomer_count": 10,
+    "diffrn_radiation_wavelength_maximum": 0.9537,
+    "diffrn_radiation_wavelength_minimum": 0.9537,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 30.79,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.09,
+    "nonpolymer_molecular_weight_minimum": 0.09,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 30.7,
+    "polymer_molecular_weight_minimum": 30.7,
+    "polymer_monomer_count_maximum": 280,
+    "polymer_monomer_count_minimum": 280,
+    "resolution_combined": [
+      1.67
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.67
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-1841-1479",
+      "0000-0003-0071-9018",
+      "0000-0003-0606-4446",
+      "0000-0001-8549-0122",
+      "0000-0001-6150-3822"
+    ],
+    "rcsb_authors": [
+      "Georgelin, R.",
+      "Frkic, R.L.",
+      "Tan, L.",
+      "Kaczmarski, J.",
+      "Jackson, C.J."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of ecLacI transcription factor ancestor 1 bound to glycerol"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2121,
+      "ls_R_factor_R_work": 0.1887,
+      "ls_R_factor_obs": 0.1899,
+      "ls_d_res_high": 1.67,
+      "ls_d_res_low": 34.31,
+      "ls_number_reflns_R_free": 1881,
+      "ls_number_reflns_obs": 37010,
+      "ls_percent_reflns_R_free": 5.08,
+      "ls_percent_reflns_obs": 99.96,
+      "overall_SU_ML": 0.21,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 24.76,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.67,
+      "d_res_low": 34.31,
+      "number_atoms_solvent": 140,
+      "number_atoms_total": 2224,
+      "pdbx_number_atoms_ligand": 6,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2078,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.004,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.719,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 5.969,
+      "number": 299,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.05,
+      "number": 330,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.008,
+      "number": 403,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.67,
+      "d_resolution_low": 45.39,
+      "number_obs": 37043,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.062,
+      "pdbx_Rpim_I_all": 0.014,
+      "pdbx_Rrim_I_all": 0.064,
+      "pdbx_chi_squared": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 22.5,
+      "pdbx_number_measured_all": 762570,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 20.6,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 5.031,
+      "d_res_high": 1.67,
+      "d_res_low": 1.7,
+      "number_measured_all": 39051,
+      "number_unique_obs": 1862,
+      "pdbx_CC_half": 0.362,
+      "pdbx_Rpim_I_all": 1.122,
+      "pdbx_Rrim_I_all": 5.156,
+      "pdbx_chi_squared": 0.97,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 0.7,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 21.0,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.20.1_4487: ???)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of ecLacI transcription factor ancestor 1 bound to glycerol"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSCRIPTION",
+    "text": "Ancestral sequence reconstruction, transcription factor, LacI, glycerol, TRANSCRIPTION"
+  },
+  "symmetry": {
+    "Int_Tables_number": 152,
+    "space_group_name_H_M": "P 31 2 1"
+  },
+  "rcsb_id": "9NT5"
+}

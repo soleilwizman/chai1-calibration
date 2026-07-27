@@ -1,0 +1,893 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-5182-6027",
+      "name": "Guarnaccia, A.M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0227-4529",
+      "name": "Capodagli, G.C.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-7039-4469",
+      "name": "Neiditch, M.B.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 16,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 121.811,
+    "length_b": 121.811,
+    "length_c": 70.711
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Plos Pathog.",
+      "journal_id_ISSN": "1553-7374",
+      "journal_volume": "21",
+      "page_first": "e1013447",
+      "page_last": "e1013447",
+      "pdbx_database_id_DOI": "10.1371/journal.ppat.1013447",
+      "pdbx_database_id_PubMed": 40906767,
+      "rcsb_authors": [
+        "Guarnaccia, A.M.",
+        "Steenhaut, A.D.",
+        "Olenic, S.D.",
+        "Na, J.",
+        "Perez, L.J.",
+        "Ng, W.L.",
+        "Neiditch, M.B."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "PLoS Pathog",
+      "title": "Structure-function studies of Vibrio cholerae quorum-sensing receptor CqsR signal recognition.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9NIA",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9nia/pdb",
+      "pdbx_database_accession": "pdb_00009nia"
+    },
+    {
+      "database_code": "D_1000293369",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-02-15T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL9-2",
+      "pdbx_synchrotron_site": "SSRL",
+      "pdbx_wavelength_list": "0.97946",
+      "source": "SYNCHROTRON",
+      "type": "SSRL BEAMLINE BL9-2"
+    }
+  ],
+  "entry": {
+    "id": "9NIA"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.69,
+      "density_percent_sol": 54.2,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 9.0,
+      "pdbx_details": "1.8 M lithium chloride, 0.1 M bicine pH 9.0, 10% PEG 6000",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-07-02T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-09-17T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 11,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 12,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)",
+      "grant_number": "AI121337",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Center for Advancing Translational Sciences (NIH/NCATS)",
+      "grant_number": "TL1TR003019",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2025-02-25T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-15T13:56:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1831,
+      "DCC_Rfree": 0.2075,
+      "EDS_R": 0.1899,
+      "EDS_res_high": 1.55,
+      "EDS_res_low": 38.52,
+      "Fo_Fc_correlation": 0.968,
+      "I_over_sigma": "0.67(1.55A)",
+      "Padilla_Yeates_L2_mean": 0.322,
+      "Padilla_Yeates_L_mean": 0.489,
+      "Wilson_B_aniso": "[24.545,24.545,21.259,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 23.359,
+      "acentric_outliers": 2,
+      "bulk_solvent_b": 36.886,
+      "bulk_solvent_k": 0.382,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.14,
+      "data_completeness": 95.19,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 38738,
+      "number_reflns_R_free": 2000,
+      "percent_RSRZ_outliers": 7.48,
+      "percent_free_reflections": 5.16,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.09% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.55,
+      "bonds_RMSZ": 0.51,
+      "clashscore": 3.24,
+      "num_H_reduce": 1665,
+      "num_angles_RMSZ": 2470,
+      "num_bonds_RMSZ": 1815,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.1
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-02-25T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-07-02T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2025-09-17T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9NIA",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40906767,
+    "rcsb_id": "9NIA"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1864,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1666,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 214,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 217,
+    "deposited_solvent_atom_count": 137,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 0.9795,
+    "diffrn_radiation_wavelength_minimum": 0.9795,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 24.3,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.06,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 24.21,
+    "polymer_molecular_weight_minimum": 24.21,
+    "polymer_monomer_count_maximum": 217,
+    "polymer_monomer_count_minimum": 217,
+    "resolution_combined": [
+      1.55
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-3000",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.55
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Plos Pathog.",
+    "journal_id_ISSN": "1553-7374",
+    "journal_volume": "21",
+    "page_first": "e1013447",
+    "page_last": "e1013447",
+    "pdbx_database_id_DOI": "10.1371/journal.ppat.1013447",
+    "pdbx_database_id_PubMed": 40906767,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-8966-6604",
+      "0000-0002-7039-4469"
+    ],
+    "rcsb_authors": [
+      "Guarnaccia, A.M.",
+      "Steenhaut, A.D.",
+      "Olenic, S.D.",
+      "Na, J.",
+      "Perez, L.J.",
+      "Ng, W.L.",
+      "Neiditch, M.B."
+    ],
+    "rcsb_journal_abbrev": "PLoS Pathog",
+    "title": "Structure-function studies of Vibrio cholerae quorum-sensing receptor CqsR signal recognition.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2075,
+      "ls_R_factor_R_work": 0.1831,
+      "ls_R_factor_obs": 0.1843,
+      "ls_d_res_high": 1.55,
+      "ls_d_res_low": 38.52,
+      "ls_number_reflns_R_free": 1999,
+      "ls_number_reflns_obs": 38730,
+      "ls_percent_reflns_R_free": 5.16,
+      "ls_percent_reflns_obs": 99.91,
+      "overall_SU_ML": 0.17,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 20.11,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.55,
+      "d_res_low": 38.52,
+      "number_atoms_solvent": 137,
+      "number_atoms_total": 1836,
+      "pdbx_number_atoms_ligand": 5,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1694,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.01,
+      "number": 1770,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.933,
+      "number": 2419,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 15.608,
+      "number": 638,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.062,
+      "number": 265,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.01,
+      "number": 318,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.55,
+      "d_resolution_low": 50.0,
+      "number_obs": 38762,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rmerge_I_obs": 0.085,
+      "pdbx_Rpim_I_all": 0.025,
+      "pdbx_Rrim_I_all": 0.089,
+      "pdbx_chi_squared": 1.066,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 5.8,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.6,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.403,
+      "d_res_high": 1.55,
+      "d_res_low": 1.58,
+      "number_unique_obs": 1899,
+      "pdbx_CC_half": 0.56,
+      "pdbx_Rpim_I_all": 0.515,
+      "pdbx_Rrim_I_all": 1.498,
+      "pdbx_chi_squared": 0.432,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 8.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 1.27,
+      "d_res_high": 1.58,
+      "d_res_low": 1.61,
+      "number_unique_obs": 1926,
+      "pdbx_CC_half": 0.711,
+      "pdbx_Rpim_I_all": 0.395,
+      "pdbx_Rrim_I_all": 1.331,
+      "pdbx_chi_squared": 0.453,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 11.2,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 1.091,
+      "d_res_high": 1.61,
+      "d_res_low": 1.64,
+      "number_unique_obs": 1889,
+      "pdbx_CC_half": 0.762,
+      "pdbx_Rpim_I_all": 0.318,
+      "pdbx_Rrim_I_all": 1.137,
+      "pdbx_chi_squared": 0.469,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 3,
+      "pdbx_redundancy": 12.6,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.942,
+      "d_res_high": 1.64,
+      "d_res_low": 1.67,
+      "number_unique_obs": 1917,
+      "pdbx_CC_half": 0.83,
+      "pdbx_Rpim_I_all": 0.269,
+      "pdbx_Rrim_I_all": 0.98,
+      "pdbx_chi_squared": 0.472,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 4,
+      "pdbx_redundancy": 13.0,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.82,
+      "d_res_high": 1.67,
+      "d_res_low": 1.71,
+      "number_unique_obs": 1908,
+      "pdbx_CC_half": 0.873,
+      "pdbx_Rpim_I_all": 0.234,
+      "pdbx_Rrim_I_all": 0.853,
+      "pdbx_chi_squared": 0.505,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 5,
+      "pdbx_redundancy": 13.1,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.683,
+      "d_res_high": 1.71,
+      "d_res_low": 1.75,
+      "number_unique_obs": 1920,
+      "pdbx_CC_half": 0.909,
+      "pdbx_Rpim_I_all": 0.195,
+      "pdbx_Rrim_I_all": 0.71,
+      "pdbx_chi_squared": 0.543,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 6,
+      "pdbx_redundancy": 13.0,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.527,
+      "d_res_high": 1.75,
+      "d_res_low": 1.79,
+      "number_unique_obs": 1913,
+      "pdbx_CC_half": 0.941,
+      "pdbx_Rpim_I_all": 0.153,
+      "pdbx_Rrim_I_all": 0.549,
+      "pdbx_chi_squared": 0.59,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 7,
+      "pdbx_redundancy": 12.7,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.43,
+      "d_res_high": 1.79,
+      "d_res_low": 1.84,
+      "number_unique_obs": 1905,
+      "pdbx_CC_half": 0.956,
+      "pdbx_Rpim_I_all": 0.129,
+      "pdbx_Rrim_I_all": 0.45,
+      "pdbx_chi_squared": 0.665,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 8,
+      "pdbx_redundancy": 11.9,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.365,
+      "d_res_high": 1.84,
+      "d_res_low": 1.89,
+      "number_unique_obs": 1930,
+      "pdbx_CC_half": 0.971,
+      "pdbx_Rpim_I_all": 0.102,
+      "pdbx_Rrim_I_all": 0.379,
+      "pdbx_chi_squared": 0.754,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 9,
+      "pdbx_redundancy": 13.6,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.279,
+      "d_res_high": 1.89,
+      "d_res_low": 1.95,
+      "number_unique_obs": 1928,
+      "pdbx_CC_half": 0.98,
+      "pdbx_Rpim_I_all": 0.078,
+      "pdbx_Rrim_I_all": 0.29,
+      "pdbx_chi_squared": 0.879,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 10,
+      "pdbx_redundancy": 13.5,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.224,
+      "d_res_high": 1.95,
+      "d_res_low": 2.02,
+      "number_unique_obs": 1933,
+      "pdbx_CC_half": 0.989,
+      "pdbx_Rpim_I_all": 0.063,
+      "pdbx_Rrim_I_all": 0.233,
+      "pdbx_chi_squared": 1.02,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 11,
+      "pdbx_redundancy": 13.2,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.192,
+      "d_res_high": 2.02,
+      "d_res_low": 2.1,
+      "number_unique_obs": 1928,
+      "pdbx_CC_half": 0.991,
+      "pdbx_Rpim_I_all": 0.055,
+      "pdbx_Rrim_I_all": 0.2,
+      "pdbx_chi_squared": 1.142,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 12,
+      "pdbx_redundancy": 12.9,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.162,
+      "d_res_high": 2.1,
+      "d_res_low": 2.2,
+      "number_unique_obs": 1925,
+      "pdbx_CC_half": 0.991,
+      "pdbx_Rpim_I_all": 0.048,
+      "pdbx_Rrim_I_all": 0.169,
+      "pdbx_chi_squared": 1.364,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 13,
+      "pdbx_redundancy": 11.9,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.149,
+      "d_res_high": 2.2,
+      "d_res_low": 2.32,
+      "number_unique_obs": 1929,
+      "pdbx_CC_half": 0.993,
+      "pdbx_Rpim_I_all": 0.042,
+      "pdbx_Rrim_I_all": 0.155,
+      "pdbx_chi_squared": 1.516,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 14,
+      "pdbx_redundancy": 13.5,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.128,
+      "d_res_high": 2.32,
+      "d_res_low": 2.46,
+      "number_unique_obs": 1938,
+      "pdbx_CC_half": 0.994,
+      "pdbx_Rpim_I_all": 0.036,
+      "pdbx_Rrim_I_all": 0.133,
+      "pdbx_chi_squared": 1.566,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 15,
+      "pdbx_redundancy": 13.4,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.109,
+      "d_res_high": 2.46,
+      "d_res_low": 2.65,
+      "number_unique_obs": 1959,
+      "pdbx_CC_half": 0.996,
+      "pdbx_Rpim_I_all": 0.031,
+      "pdbx_Rrim_I_all": 0.114,
+      "pdbx_chi_squared": 1.713,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 16,
+      "pdbx_redundancy": 13.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.095,
+      "d_res_high": 2.65,
+      "d_res_low": 2.92,
+      "number_unique_obs": 1951,
+      "pdbx_CC_half": 0.996,
+      "pdbx_Rpim_I_all": 0.028,
+      "pdbx_Rrim_I_all": 0.099,
+      "pdbx_chi_squared": 1.854,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 17,
+      "pdbx_redundancy": 12.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.078,
+      "d_res_high": 2.92,
+      "d_res_low": 3.34,
+      "number_unique_obs": 1977,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rpim_I_all": 0.022,
+      "pdbx_Rrim_I_all": 0.081,
+      "pdbx_chi_squared": 1.916,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 18,
+      "pdbx_redundancy": 13.7,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.06,
+      "d_res_high": 3.34,
+      "d_res_low": 4.21,
+      "number_unique_obs": 1991,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.018,
+      "pdbx_Rrim_I_all": 0.063,
+      "pdbx_chi_squared": 1.824,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 19,
+      "pdbx_redundancy": 12.5,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.042,
+      "d_res_high": 4.21,
+      "d_res_low": 50.0,
+      "number_unique_obs": 2096,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.012,
+      "pdbx_Rrim_I_all": 0.044,
+      "pdbx_chi_squared": 1.127,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 20,
+      "pdbx_redundancy": 12.7,
+      "percent_possible_all": 99.8
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.21.2_5419"
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of Vibrio cholerae CqsR bound to ethanolamine"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "SIGNALING PROTEIN",
+    "text": "Quorum-sensing receptor, Double Cache domain, Periplasmic ligand-binding receptor, 2-amino alcohol receptor, SIGNALING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 98,
+    "space_group_name_H_M": "I 41 2 2"
+  },
+  "rcsb_id": "9NIA"
+}

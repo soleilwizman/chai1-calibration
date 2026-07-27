@@ -1,0 +1,95 @@
+{
+  "query_id": "1503a649-0821-403c-b2f3-4a1bb17437d0",
+  "result_type": "polymer_entity",
+  "total_count": 2,
+  "result_set": [
+    {
+      "identifier": "1L0Q_1",
+      "score": 0.50078125,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 9508,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 19216,
+              "original_score": 58.0,
+              "norm_score": 0.0015625,
+              "match_context": [
+                {
+                  "sequence_identity": 0.262,
+                  "evalue": 9.169e-08,
+                  "bitscore": 58,
+                  "alignment_length": 255,
+                  "mismatches": 148,
+                  "gaps_opened": 10,
+                  "query_beg": 63,
+                  "query_end": 306,
+                  "subject_beg": 43,
+                  "subject_end": 268,
+                  "query_length": 343,
+                  "subject_length": 391,
+                  "query_aligned_seq": "GNKIYVVVNVSSTVEVIDFPTGKSIRQISMLRDNGSSRQPRAIAFDKDKAYICSY-DGTVARIDTTSLEIEEIVTVGRNAEDICV--QNGKLYVSNSGGLDYSGPGVDTTVSVIDITTFKETKKIEVGPNPGKILPGLEEAVYVVTRGTDIEAGDYHLVK---IDSRTDAVAITYDEKVLSFAI----DGPIAYLYTYDYQTKDSANKVFDLNAGTVIRDNFITDGTAI-QTPFSIQLNPFSGNIYITEAYNYTV",
+                  "subject_aligned_seq": "GTKVYVANAHSNDVSIIDTATNNVIATVPA----GSSPQGVAVSPDGKQVYVTNMASSTLSVIDTTSNTVAGTVKTGKSPLGLALSPDGKKLYVTNNG---------DKTVSVINTVTKAVINTVSVGRSP--------KGIAVTPDGTKVYVANFDSMSISVIDTVTNSVIDTVKVEAAPSGIAVNPEGTKAYVTNVD----KYFNTVSMIDTGT----NKITARIPVGPDPAGIAVTPDGKKVYVALSFCNTV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "3DSM_1",
+      "score": 0.5,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 9508,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 19216,
+              "original_score": 57.0,
+              "norm_score": 0.0,
+              "match_context": [
+                {
+                  "sequence_identity": 0.232,
+                  "evalue": 1.218e-07,
+                  "bitscore": 57,
+                  "alignment_length": 327,
+                  "mismatches": 204,
+                  "gaps_opened": 12,
+                  "query_beg": 14,
+                  "query_end": 319,
+                  "subject_beg": 4,
+                  "subject_end": 304,
+                  "query_length": 343,
+                  "subject_length": 328,
+                  "query_aligned_seq": "MYILSEGLFNQNNSSLARYSFNRQRCTNNYFSANNQRGLGDTANDIAIYGNKIYVVVNVSSTVEVIDFPTGKSIRQISMLRDNGSSRQPRAIAFDKD-KAYICS-YDGTVARIDTTSLEIEEIV-----TVGRNAEDICVQNGKLYVSNSGGLDYSGPGVDTTVSVIDITTFKETKKIEVGPNPGKILPGLEEAVYVVTRGTDIEAGDY-----HLVKIDSRTDAVAITYDEKVLSFAIDGPIAYLYTYDYQTKDSANKVFDLNAGTVIRDNFITDGTAIQTPF---------SIQLNPFSGNIYITEAYNYTVKGDVLCFNQQGQL",
+                  "subject_aligned_seq": "LFITNEGNFQYSNATLSYYDPATCEVENEVFYRANGFKLGDVAQSMVIRDGIGWIVVNNSHVIFAIDINTFKEVGRIT------GFTSPRYIHFLSDEKAYVTQIWDYRIFIINPKTYEITGYIECPDMDMESGSTEQMVQYGKYVYVNCW-------SYQNRILKIDTETDKVVDELTIGIQPTSLVMDKYNKMWTITDG-GYEGSPYGYEAPSLYRIDAETFTV-----EKQFKFKLGD-----WPSEVQLNGTRDTLYWIN-NDIWRMPVEADRVPVR-PFLEFRDTKYYGLTVNPNNGEVYVADAIDYQQQGIVYRYSPQGKL"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

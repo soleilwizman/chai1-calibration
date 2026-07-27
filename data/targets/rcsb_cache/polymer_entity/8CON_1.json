@@ -1,0 +1,3302 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "MSTTGQIIRCKAAVAWEAGKPLVIEEVEVAPPQKHEVRIKILFTSLCHTDVYFWEAKGQTPLFPRIFGHEAGGIVESVGEGVTDLQPGDHVLPIFTGECGECRHCHSEESNMCDLLRINTERGGMIHDGESRFSINGKPIYHFLGTSTFSEYTVVHSGQVAKINPDAPLDKVCIVSCGLSTGLGATLNVAKPKKGQSVAIFGLGAVGLGAAEGARIAGASRIIGVDFNSKRFDQAKEFGVTECVNPKDHDKPIQQVIAEMTDGGVDRSVECTGSVQAMIQAFECVHDGWGVAVLVGVPSKDDAFKTHPMNFLNERTLKGTFFGNYKPKTDIPGVVEKYMNKELELEKFITHTVPFSEINKAFDYMLKGESIRCIITMGA",
+    "pdbx_seq_one_letter_code_can": "MSTTGQIIRCKAAVAWEAGKPLVIEEVEVAPPQKHEVRIKILFTSLCHTDVYFWEAKGQTPLFPRIFGHEAGGIVESVGEGVTDLQPGDHVLPIFTGECGECRHCHSEESNMCDLLRINTERGGMIHDGESRFSINGKPIYHFLGTSTFSEYTVVHSGQVAKINPDAPLDKVCIVSCGLSTGLGATLNVAKPKKGQSVAIFGLGAVGLGAAEGARIAGASRIIGVDFNSKRFDQAKEFGVTECVNPKDHDKPIQQVIAEMTDGGVDRSVECTGSVQAMIQAFECVHDGWGVAVLVGVPSKDDAFKTHPMNFLNERTLKGTFFGNYKPKTDIPGVVEKYMNKELELEKFITHTVPFSEINKAFDYMLKGESIRCIITMGA",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 379,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "thale cress",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 379,
+      "pdbx_gene_src_gene": "ADH1, ADH, At1g77120, F22K20.19",
+      "pdbx_gene_src_ncbi_taxonomy_id": "3702",
+      "pdbx_gene_src_scientific_name": "Arabidopsis thaliana",
+      "pdbx_host_org_ncbi_taxonomy_id": "562",
+      "pdbx_host_org_scientific_name": "Escherichia coli",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1,
+      "plasmid_name": "pET-28a"
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 30448,
+      "identity": 100
+    },
+    {
+      "cluster_id": 40172,
+      "identity": 95
+    },
+    {
+      "cluster_id": 44162,
+      "identity": 90
+    },
+    {
+      "cluster_id": 4522,
+      "identity": 70
+    },
+    {
+      "cluster_id": 349,
+      "identity": 50
+    },
+    {
+      "cluster_id": 435,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 379,
+      "ncbi_common_names": [
+        "Bacillus coli",
+        "Bacterium coli",
+        "Bacterium coli commune",
+        "E. coli",
+        "Enterococcus coli",
+        "Escherichia/Shigella coli"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli",
+      "ncbi_taxonomy_id": 562,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "thale cress",
+      "end_seq_num": 379,
+      "ncbi_common_names": [
+        "Arabis thaliana",
+        "mouse-ear cress",
+        "thale cress",
+        "thale-cress"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Arabidopsis thaliana",
+      "ncbi_taxonomy_id": 3702,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Arabidopsis thaliana",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Viridiplantae"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Chlorobionta"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Chlorophyta/Embryophyta group"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Chloroplastida"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "chlorophyte/embryophyte group"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "green plants"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "plants"
+        },
+        {
+          "depth": 4,
+          "id": "35493",
+          "name": "Streptophyta"
+        },
+        {
+          "depth": 5,
+          "id": "131221",
+          "name": "Streptophytina"
+        },
+        {
+          "depth": 5,
+          "id": "131221",
+          "name": "Charophyta/Embryophyta group"
+        },
+        {
+          "depth": 5,
+          "id": "131221",
+          "name": "charophyte/embryophyte group"
+        },
+        {
+          "depth": 6,
+          "id": "3193",
+          "name": "Embryophyta"
+        },
+        {
+          "depth": 6,
+          "id": "3193",
+          "name": "higher plants"
+        },
+        {
+          "depth": 6,
+          "id": "3193",
+          "name": "land plants"
+        },
+        {
+          "depth": 7,
+          "id": "58023",
+          "name": "Tracheophyta"
+        },
+        {
+          "depth": 7,
+          "id": "58023",
+          "name": "vascular plants"
+        },
+        {
+          "depth": 8,
+          "id": "78536",
+          "name": "Euphyllophyta"
+        },
+        {
+          "depth": 8,
+          "id": "78536",
+          "name": "euphyllophytes"
+        },
+        {
+          "depth": 9,
+          "id": "58024",
+          "name": "Spermatophyta"
+        },
+        {
+          "depth": 9,
+          "id": "58024",
+          "name": "seed plants"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "Magnoliopsida"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "Angiospermae"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "Magnoliophyta"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "angiosperms"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "flowering plants"
+        },
+        {
+          "depth": 11,
+          "id": "1437183",
+          "name": "Mesangiospermae"
+        },
+        {
+          "depth": 12,
+          "id": "71240",
+          "name": "eudicotyledons"
+        },
+        {
+          "depth": 12,
+          "id": "71240",
+          "name": "eudicots"
+        },
+        {
+          "depth": 13,
+          "id": "91827",
+          "name": "Gunneridae"
+        },
+        {
+          "depth": 13,
+          "id": "91827",
+          "name": "core eudicots"
+        },
+        {
+          "depth": 13,
+          "id": "91827",
+          "name": "core eudicotyledons"
+        },
+        {
+          "depth": 14,
+          "id": "1437201",
+          "name": "Pentapetalae"
+        },
+        {
+          "depth": 15,
+          "id": "71275",
+          "name": "rosids"
+        },
+        {
+          "depth": 16,
+          "id": "91836",
+          "name": "malvids"
+        },
+        {
+          "depth": 17,
+          "id": "3699",
+          "name": "Brassicales"
+        },
+        {
+          "depth": 17,
+          "id": "3699",
+          "name": "Capparales"
+        },
+        {
+          "depth": 18,
+          "id": "3700",
+          "name": "Brassicaceae"
+        },
+        {
+          "depth": 18,
+          "id": "3700",
+          "name": "Cruciferae"
+        },
+        {
+          "depth": 18,
+          "id": "3700",
+          "name": "mustard family"
+        },
+        {
+          "depth": 19,
+          "id": "980083",
+          "name": "Camelineae"
+        },
+        {
+          "depth": 20,
+          "id": "3701",
+          "name": "Arabidopsis"
+        },
+        {
+          "depth": 20,
+          "id": "3701",
+          "name": "Cardaminopsis"
+        },
+        {
+          "depth": 21,
+          "id": "3702",
+          "name": "Arabidopsis thaliana"
+        },
+        {
+          "depth": 21,
+          "id": "3702",
+          "name": "Arabis thaliana"
+        },
+        {
+          "depth": 21,
+          "id": "3702",
+          "name": "mouse-ear cress"
+        },
+        {
+          "depth": 21,
+          "id": "3702",
+          "name": "thale cress"
+        },
+        {
+          "depth": 21,
+          "id": "3702",
+          "name": "thale-cress"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "ADH1"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "ADH"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "At1g77120"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "F22K20.19"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 41.229,
+    "pdbx_description": "Alcohol dehydrogenase class-P",
+    "pdbx_ec": "1.1.1.1",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "1",
+        "name": "Oxidoreductases"
+      },
+      {
+        "depth": 2,
+        "id": "1.1",
+        "name": "Acting on the CH-OH group of donors"
+      },
+      {
+        "depth": 3,
+        "id": "1.1.1",
+        "name": "With NAD+ or NADP+ as acceptor"
+      },
+      {
+        "depth": 4,
+        "id": "1.1.1.1",
+        "name": "alcohol dehydrogenase"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Alcohol dehydrogenase class-P",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "AtADH",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "1.1.1.1",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Alcohol dehydrogenase class-P"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P06525",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 379,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF00107",
+      "assignment_version": "34.0",
+      "name": "Zinc-binding dehydrogenase (ADH_zinc_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "PF08240",
+      "assignment_version": "34.0",
+      "name": "Alcohol dehydrogenase GroES-like domain (ADH_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0009414",
+      "name": "response to water deprivation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0001101",
+          "name": "response to acid chemical"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        },
+        {
+          "id": "GO:0009415",
+          "name": "response to water"
+        },
+        {
+          "id": "GO:0009414",
+          "name": "response to water deprivation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013154",
+      "name": "Alcohol dehydrogenase-like, N-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013154",
+          "name": "Alcohol dehydrogenase-like, N-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009409",
+      "name": "response to cold",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        },
+        {
+          "id": "GO:0009409",
+          "name": "response to cold"
+        },
+        {
+          "id": "GO:0009266",
+          "name": "response to temperature stimulus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000166",
+      "name": "nucleotide binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:1901265",
+          "name": "nucleoside phosphate binding"
+        },
+        {
+          "id": "GO:0000166",
+          "name": "nucleotide binding"
+        },
+        {
+          "id": "GO:1901363",
+          "name": "heterocyclic compound binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009413",
+      "name": "response to flooding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0001101",
+          "name": "response to acid chemical"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0009413",
+          "name": "response to flooding"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        },
+        {
+          "id": "GO:0009415",
+          "name": "response to water"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0051903",
+      "name": "S-(hydroxymethyl)glutathione dehydrogenase [NAD(P)+] activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051903",
+          "name": "S-(hydroxymethyl)glutathione dehydrogenase [NAD(P)+] activity"
+        },
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0016616",
+          "name": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"
+        },
+        {
+          "id": "GO:0016614",
+          "name": "oxidoreductase activity, acting on CH-OH group of donors"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0071456",
+      "name": "cellular response to hypoxia",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0036293",
+          "name": "response to decreased oxygen levels"
+        },
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0071453",
+          "name": "cellular response to oxygen levels"
+        },
+        {
+          "id": "GO:0071456",
+          "name": "cellular response to hypoxia"
+        },
+        {
+          "id": "GO:0036294",
+          "name": "cellular response to decreased oxygen levels"
+        },
+        {
+          "id": "GO:0070887",
+          "name": "cellular response to chemical stimulus"
+        },
+        {
+          "id": "GO:0033554",
+          "name": "cellular response to stress"
+        },
+        {
+          "id": "GO:0001666",
+          "name": "response to hypoxia"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0070482",
+          "name": "response to oxygen levels"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1900039",
+      "name": "positive regulation of cellular response to hypoxia",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:1900037",
+          "name": "regulation of cellular response to hypoxia"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0071453",
+          "name": "cellular response to oxygen levels"
+        },
+        {
+          "id": "GO:0071456",
+          "name": "cellular response to hypoxia"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0080135",
+          "name": "regulation of cellular response to stress"
+        },
+        {
+          "id": "GO:0036294",
+          "name": "cellular response to decreased oxygen levels"
+        },
+        {
+          "id": "GO:0048584",
+          "name": "positive regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0033554",
+          "name": "cellular response to stress"
+        },
+        {
+          "id": "GO:0080134",
+          "name": "regulation of response to stress"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:1900039",
+          "name": "positive regulation of cellular response to hypoxia"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0036293",
+          "name": "response to decreased oxygen levels"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0070887",
+          "name": "cellular response to chemical stimulus"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0001666",
+          "name": "response to hypoxia"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0070482",
+          "name": "response to oxygen levels"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR002328",
+      "name": "Alcohol dehydrogenase, zinc-type, conserved site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR002328",
+          "name": "Alcohol dehydrogenase, zinc-type, conserved site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005886",
+      "name": "plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0031000",
+      "name": "response to caffeine",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:1901698",
+          "name": "response to nitrogen compound"
+        },
+        {
+          "id": "GO:0014074",
+          "name": "response to purine-containing compound"
+        },
+        {
+          "id": "GO:0031000",
+          "name": "response to caffeine"
+        },
+        {
+          "id": "GO:0043279",
+          "name": "response to alkaloid"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0046294",
+      "name": "formaldehyde catabolic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:1990748",
+          "name": "cellular detoxification"
+        },
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0046294",
+          "name": "formaldehyde catabolic process"
+        },
+        {
+          "id": "GO:0098754",
+          "name": "detoxification"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:1901701",
+          "name": "cellular response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0006081",
+          "name": "aldehyde metabolic process"
+        },
+        {
+          "id": "GO:0009636",
+          "name": "response to toxic substance"
+        },
+        {
+          "id": "GO:0110095",
+          "name": "cellular detoxification of aldehyde"
+        },
+        {
+          "id": "GO:0070887",
+          "name": "cellular response to chemical stimulus"
+        },
+        {
+          "id": "GO:0110096",
+          "name": "cellular response to aldehyde"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0044281",
+          "name": "small molecule metabolic process"
+        },
+        {
+          "id": "GO:0046292",
+          "name": "formaldehyde metabolic process"
+        },
+        {
+          "id": "GO:0046185",
+          "name": "aldehyde catabolic process"
+        },
+        {
+          "id": "GO:0044282",
+          "name": "small molecule catabolic process"
+        },
+        {
+          "id": "GO:0097237",
+          "name": "cellular response to toxic substance"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004022",
+      "name": "alcohol dehydrogenase (NAD+) activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0018455",
+          "name": "alcohol dehydrogenase [NAD(P)+] activity"
+        },
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0016616",
+          "name": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"
+        },
+        {
+          "id": "GO:0016614",
+          "name": "oxidoreductase activity, acting on CH-OH group of donors"
+        },
+        {
+          "id": "GO:0004022",
+          "name": "alcohol dehydrogenase (NAD+) activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005737",
+      "name": "cytoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009744",
+      "name": "response to sucrose",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0009743",
+          "name": "response to carbohydrate"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0009744",
+          "name": "response to sucrose"
+        },
+        {
+          "id": "GO:0034285",
+          "name": "response to disaccharide"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR011032",
+      "name": "GroES-like superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR011032",
+          "name": "GroES-like superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042803",
+      "name": "protein homodimerization activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042802",
+          "name": "identical protein binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0042803",
+          "name": "protein homodimerization activity"
+        },
+        {
+          "id": "GO:0046983",
+          "name": "protein dimerization activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0120542",
+      "name": "ethanol dehydrogenase (NAD+) activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0018455",
+          "name": "alcohol dehydrogenase [NAD(P)+] activity"
+        },
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0016616",
+          "name": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"
+        },
+        {
+          "id": "GO:0016614",
+          "name": "oxidoreductase activity, acting on CH-OH group of donors"
+        },
+        {
+          "id": "GO:0120542",
+          "name": "ethanol dehydrogenase (NAD+) activity"
+        },
+        {
+          "id": "GO:0004022",
+          "name": "alcohol dehydrogenase (NAD+) activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0001666",
+      "name": "response to hypoxia",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0036293",
+          "name": "response to decreased oxygen levels"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0001666",
+          "name": "response to hypoxia"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0070482",
+          "name": "response to oxygen levels"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009737",
+      "name": "response to abscisic acid",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0009737",
+          "name": "response to abscisic acid"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0033993",
+          "name": "response to lipid"
+        },
+        {
+          "id": "GO:0009725",
+          "name": "response to hormone"
+        },
+        {
+          "id": "GO:0097305",
+          "name": "response to alcohol"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0009719",
+          "name": "response to endogenous stimulus"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036291",
+      "name": "NAD(P)-binding domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036291",
+          "name": "NAD(P)-binding domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013149",
+      "name": "Alcohol dehydrogenase-like, C-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013149",
+          "name": "Alcohol dehydrogenase-like, C-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042542",
+      "name": "response to hydrogen peroxide",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042542",
+          "name": "response to hydrogen peroxide"
+        },
+        {
+          "id": "GO:0006979",
+          "name": "response to oxidative stress"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0000302",
+          "name": "response to reactive oxygen species"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008270",
+      "name": "zinc ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0046914",
+          "name": "transition metal ion binding"
+        },
+        {
+          "id": "GO:0008270",
+          "name": "zinc ion binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006970",
+      "name": "response to osmotic stress",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006970",
+          "name": "response to osmotic stress"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009651",
+      "name": "response to salt stress",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006970",
+          "name": "response to osmotic stress"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009628",
+          "name": "response to abiotic stimulus"
+        },
+        {
+          "id": "GO:0009651",
+          "name": "response to salt stress"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032355",
+      "name": "response to estradiol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0033993",
+          "name": "response to lipid"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0032355",
+          "name": "response to estradiol"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "8CON",
+    "rcsb_id": "8CON_1",
+    "uniprot_ids": [
+      "P06525"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P06525",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 1.0
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF08240",
+      "name": "Alcohol dehydrogenase GroES-like domain (ADH_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 33,
+          "end_seq_id": 165
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF00107",
+      "name": "Zinc-binding dehydrogenase (ADH_zinc_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 205,
+          "end_seq_id": 340
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            0.03,
+            0.1,
+            -0.24,
+            0.03,
+            0.31,
+            0.82,
+            1.41,
+            0.81,
+            -0.08,
+            0.62,
+            0.3,
+            0.3,
+            -0.08,
+            0.14,
+            0.14,
+            0.44,
+            0.16,
+            0.16,
+            0.42,
+            0.08,
+            0.98,
+            1.36,
+            0.76,
+            0.11,
+            -0.78,
+            -0.82,
+            -0.79,
+            -1.64,
+            -0.79,
+            -1.76,
+            -1.46,
+            -1.71,
+            -1.03,
+            -0.22,
+            0.52,
+            0.8,
+            1.1,
+            1.06,
+            1.83,
+            0.98,
+            1.33,
+            0.44,
+            0.49,
+            0.03,
+            0.42,
+            0.41,
+            -0.4,
+            -0.48,
+            -0.56,
+            -0.52,
+            -0.52,
+            -1.07,
+            -1.1,
+            -0.99,
+            -0.58,
+            -0.37,
+            -1.07,
+            -0.13,
+            0.22,
+            0.57,
+            0.29,
+            0.08,
+            -0.14,
+            -0.5,
+            -0.37,
+            0.63,
+            0.6,
+            -0.1,
+            -0.14,
+            0.68,
+            1.02,
+            0.43,
+            0.43,
+            0.94,
+            0.37,
+            -0.49,
+            0.32,
+            0.02,
+            -0.62,
+            -0.62,
+            -0.62,
+            -0.93,
+            -0.93,
+            -0.43,
+            -0.22,
+            -0.14,
+            0.56,
+            0.66,
+            0.66,
+            0.66,
+            1.29,
+            0.78,
+            -0.03,
+            0.42,
+            -0.58,
+            -1.24,
+            -0.89,
+            -1.2,
+            -0.9,
+            -1.57,
+            -1.91,
+            -1.61,
+            -2.28,
+            -1.57,
+            -0.93,
+            -1.6,
+            -0.82,
+            -0.31,
+            -0.42,
+            0.47,
+            0.17,
+            0.48,
+            -0.12,
+            -0.9,
+            -0.56,
+            -1.02,
+            -1.23,
+            -0.23,
+            -1.09,
+            -1.09,
+            -1.06,
+            -1.06,
+            -0.64,
+            -1.1,
+            -0.74,
+            -1.04,
+            -1.04,
+            -1.08,
+            -0.73,
+            -1.12,
+            -0.91,
+            -0.32,
+            0.03,
+            -0.63,
+            -0.23,
+            -0.31,
+            0.03,
+            0.0,
+            0.34,
+            0.44,
+            0.26,
+            0.31,
+            0.28,
+            -0.18,
+            -0.68,
+            -0.17,
+            0.38,
+            0.11,
+            0.1,
+            -0.26,
+            -0.56,
+            0.3,
+            0.64,
+            0.29,
+            0.32,
+            -0.53,
+            -0.36,
+            -0.66,
+            -0.41,
+            -0.2,
+            -0.24,
+            -0.83,
+            -0.83,
+            -0.87,
+            -0.2,
+            0.48,
+            1.33,
+            1.04,
+            1.5,
+            1.03,
+            1.84,
+            2.19,
+            1.64,
+            1.32,
+            1.24,
+            0.73,
+            1.02,
+            0.67,
+            1.13,
+            0.32,
+            0.88,
+            1.16,
+            0.77,
+            0.17,
+            -0.22,
+            -0.86,
+            -0.82,
+            -1.63,
+            -1.33,
+            -1.33,
+            -1.33,
+            -0.4,
+            0.09,
+            0.48,
+            1.33,
+            1.33,
+            1.92,
+            2.48,
+            1.97,
+            2.19,
+            1.64,
+            1.53,
+            1.78,
+            0.97,
+            0.97,
+            0.97,
+            0.0,
+            0.54,
+            0.32,
+            0.32,
+            0.32,
+            0.03,
+            -0.08,
+            0.47,
+            0.77,
+            1.22,
+            1.19,
+            0.6,
+            0.96,
+            0.37,
+            0.37,
+            0.43,
+            -0.57,
+            -0.76,
+            -1.1,
+            -1.96,
+            -1.37,
+            -2.11,
+            -2.11,
+            -1.71,
+            -1.32,
+            -0.36,
+            -0.74,
+            -0.74,
+            -0.08,
+            0.19,
+            0.23,
+            0.44,
+            -0.3,
+            -0.64,
+            -1.47,
+            -1.78,
+            -1.82,
+            -2.28,
+            -2.24,
+            -2.24,
+            -2.46,
+            -1.56,
+            -0.67,
+            -0.11,
+            -0.11,
+            0.53,
+            0.63,
+            -0.26,
+            0.09,
+            0.43,
+            0.43,
+            -0.46,
+            -1.16,
+            -0.86,
+            -0.6,
+            -0.91,
+            -0.24,
+            -0.28,
+            -0.28,
+            -0.83,
+            0.02,
+            0.13,
+            0.42,
+            0.17,
+            1.06,
+            0.39,
+            0.67,
+            1.02,
+            0.72,
+            0.53,
+            1.39,
+            0.83,
+            0.23,
+            -0.31,
+            -0.02,
+            -0.27,
+            -0.11,
+            0.48,
+            0.67,
+            0.62,
+            1.44,
+            1.79,
+            2.3,
+            2.22,
+            2.18,
+            1.28,
+            0.69,
+            -0.17,
+            -0.39,
+            -0.54,
+            -0.93,
+            -1.48,
+            -1.66,
+            -1.74,
+            -1.1,
+            -1.1,
+            -0.4,
+            -0.18,
+            -0.88,
+            -0.83,
+            -1.26,
+            -0.98,
+            -0.38,
+            -1.02,
+            -0.68,
+            -1.07,
+            -1.18,
+            -0.48,
+            -0.13,
+            -0.02,
+            -0.09,
+            -0.94,
+            -0.69,
+            -1.08,
+            -1.08,
+            -1.78,
+            -1.59,
+            -1.72,
+            -1.38,
+            -0.77,
+            0.13,
+            -0.08,
+            -0.08,
+            -0.14,
+            0.46,
+            -0.43,
+            -0.69,
+            -1.03,
+            -1.08,
+            -1.93,
+            -1.12,
+            -1.08,
+            -1.37,
+            -1.27,
+            -0.38,
+            -0.02,
+            0.01,
+            -0.49,
+            0.37,
+            -0.23,
+            0.47,
+            0.81,
+            0.11,
+            0.11,
+            -0.2,
+            -0.28,
+            0.0,
+            -0.16,
+            -0.37,
+            -0.82,
+            -0.52,
+            0.29,
+            -0.64,
+            -0.3,
+            -0.26,
+            -0.54,
+            -0.36,
+            -0.47,
+            -0.04,
+            0.24,
+            0.32,
+            0.68,
+            0.93,
+            1.28,
+            1.57
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.85,
+            0.79,
+            0.73,
+            0.64,
+            0.58,
+            0.48,
+            0.44,
+            0.36,
+            0.33,
+            0.28,
+            0.26,
+            0.21,
+            0.16,
+            0.1,
+            0.11,
+            0.12,
+            0.07,
+            0.12,
+            0.11,
+            0.09,
+            0.14,
+            0.17,
+            0.18,
+            0.2,
+            0.25,
+            0.28,
+            0.27,
+            0.26,
+            0.21,
+            0.2,
+            0.14,
+            0.08,
+            0.08,
+            0.12,
+            0.17,
+            0.1,
+            0.06,
+            0.1,
+            0.1,
+            0.16,
+            0.13,
+            0.07,
+            0.04,
+            0.02,
+            0.03,
+            0.02,
+            0.02,
+            0.03,
+            0.04,
+            0.06,
+            0.07,
+            0.07,
+            0.06,
+            0.13,
+            0.13,
+            0.08,
+            0.08,
+            0.12,
+            0.12,
+            0.13,
+            0.1,
+            0.15,
+            0.23,
+            0.25,
+            0.27,
+            0.28,
+            0.31,
+            0.26,
+            0.26,
+            0.27,
+            0.27,
+            0.19,
+            0.27,
+            0.37,
+            0.28,
+            0.3,
+            0.4,
+            0.48,
+            0.5,
+            0.49,
+            0.42,
+            0.39,
+            0.41,
+            0.35,
+            0.35,
+            0.41,
+            0.38,
+            0.4,
+            0.33,
+            0.32,
+            0.32,
+            0.19,
+            0.23,
+            0.21,
+            0.1,
+            0.13,
+            0.13,
+            0.12,
+            0.13,
+            0.12,
+            0.13,
+            0.15,
+            0.1,
+            0.09,
+            0.08,
+            0.09,
+            0.09,
+            0.06,
+            0.05,
+            0.12,
+            0.13,
+            0.12,
+            0.23,
+            0.23,
+            0.23,
+            0.31,
+            0.3,
+            0.3,
+            0.28,
+            0.28,
+            0.27,
+            0.27,
+            0.21,
+            0.35,
+            0.28,
+            0.34,
+            0.4,
+            0.4,
+            0.48,
+            0.41,
+            0.35,
+            0.34,
+            0.28,
+            0.22,
+            0.23,
+            0.24,
+            0.3,
+            0.31,
+            0.22,
+            0.22,
+            0.22,
+            0.15,
+            0.15,
+            0.17,
+            0.12,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.1,
+            0.12,
+            0.17,
+            0.11,
+            0.15,
+            0.23,
+            0.23,
+            0.2,
+            0.22,
+            0.16,
+            0.25,
+            0.25,
+            0.18,
+            0.17,
+            0.12,
+            0.13,
+            0.17,
+            0.11,
+            0.11,
+            0.07,
+            0.07,
+            0.1,
+            0.12,
+            0.07,
+            0.11,
+            0.09,
+            0.07,
+            0.04,
+            0.05,
+            0.03,
+            0.04,
+            0.03,
+            0.04,
+            0.06,
+            0.1,
+            0.13,
+            0.18,
+            0.18,
+            0.2,
+            0.16,
+            0.16,
+            0.1,
+            0.1,
+            0.06,
+            0.1,
+            0.08,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.08,
+            0.08,
+            0.09,
+            0.07,
+            0.06,
+            0.06,
+            0.04,
+            0.03,
+            0.03,
+            0.04,
+            0.05,
+            0.09,
+            0.09,
+            0.06,
+            0.1,
+            0.07,
+            0.09,
+            0.09,
+            0.09,
+            0.15,
+            0.14,
+            0.17,
+            0.15,
+            0.15,
+            0.16,
+            0.17,
+            0.16,
+            0.24,
+            0.2,
+            0.21,
+            0.19,
+            0.18,
+            0.2,
+            0.21,
+            0.23,
+            0.24,
+            0.34,
+            0.32,
+            0.41,
+            0.41,
+            0.42,
+            0.41,
+            0.45,
+            0.47,
+            0.47,
+            0.47,
+            0.45,
+            0.4,
+            0.36,
+            0.45,
+            0.42,
+            0.47,
+            0.5,
+            0.49,
+            0.55,
+            0.55,
+            0.56,
+            0.52,
+            0.54,
+            0.47,
+            0.49,
+            0.38,
+            0.39,
+            0.36,
+            0.41,
+            0.35,
+            0.34,
+            0.35,
+            0.38,
+            0.33,
+            0.32,
+            0.31,
+            0.23,
+            0.23,
+            0.15,
+            0.12,
+            0.14,
+            0.14,
+            0.15,
+            0.1,
+            0.13,
+            0.09,
+            0.12,
+            0.09,
+            0.06,
+            0.04,
+            0.06,
+            0.04,
+            0.05,
+            0.07,
+            0.1,
+            0.1,
+            0.13,
+            0.17,
+            0.1,
+            0.16,
+            0.19,
+            0.19,
+            0.2,
+            0.17,
+            0.23,
+            0.17,
+            0.16,
+            0.19,
+            0.25,
+            0.33,
+            0.38,
+            0.32,
+            0.38,
+            0.35,
+            0.35,
+            0.29,
+            0.21,
+            0.21,
+            0.24,
+            0.26,
+            0.25,
+            0.29,
+            0.3,
+            0.27,
+            0.31,
+            0.23,
+            0.34,
+            0.4,
+            0.33,
+            0.26,
+            0.26,
+            0.26,
+            0.26,
+            0.23,
+            0.23,
+            0.22,
+            0.3,
+            0.3,
+            0.31,
+            0.23,
+            0.31,
+            0.31,
+            0.21,
+            0.15,
+            0.15,
+            0.15,
+            0.2,
+            0.13,
+            0.15,
+            0.12,
+            0.17,
+            0.17,
+            0.12,
+            0.16,
+            0.18,
+            0.15,
+            0.1,
+            0.09,
+            0.08,
+            0.06,
+            0.06,
+            0.05,
+            0.05,
+            0.09,
+            0.14,
+            0.09,
+            0.09,
+            0.06,
+            0.06,
+            0.03,
+            0.06,
+            0.05,
+            0.04,
+            0.05,
+            0.07,
+            0.1,
+            0.15,
+            0.27,
+            0.31,
+            0.44,
+            0.51,
+            0.64,
+            0.69,
+            0.73
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.39,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.34,
+            0.35,
+            0.34,
+            0.32,
+            0.31,
+            0.29,
+            0.29,
+            0.28,
+            0.27,
+            0.25,
+            0.24,
+            0.22,
+            0.21,
+            0.2,
+            0.2,
+            0.2,
+            0.19,
+            0.19,
+            0.2,
+            0.2,
+            0.22,
+            0.23,
+            0.25,
+            0.27,
+            0.29,
+            0.31,
+            0.34,
+            0.36,
+            0.39,
+            0.41,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.39,
+            0.39,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.4,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.42,
+            0.43,
+            0.42,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.41,
+            0.43,
+            0.39,
+            0.35,
+            0.32,
+            0.29,
+            0.28,
+            0.26,
+            0.24,
+            0.24,
+            0.23,
+            0.22,
+            0.23,
+            0.25,
+            0.27,
+            0.29,
+            0.3,
+            0.31,
+            0.33,
+            0.34,
+            0.36,
+            0.39,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.39,
+            0.38,
+            0.39,
+            0.4,
+            0.41,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.41,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.35,
+            0.34,
+            0.32,
+            0.31,
+            0.3,
+            0.29,
+            0.27,
+            0.26,
+            0.25,
+            0.24,
+            0.23,
+            0.22,
+            0.22,
+            0.21,
+            0.2,
+            0.19,
+            0.18,
+            0.18,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.18,
+            0.19,
+            0.19,
+            0.2,
+            0.2,
+            0.21,
+            0.21,
+            0.22,
+            0.22,
+            0.23,
+            0.24,
+            0.23,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.23,
+            0.23,
+            0.24,
+            0.26,
+            0.27,
+            0.29,
+            0.31,
+            0.32,
+            0.34,
+            0.36,
+            0.38,
+            0.39,
+            0.41,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.43,
+            0.43,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.41,
+            0.42,
+            0.43,
+            0.42,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.38,
+            0.39,
+            0.42,
+            0.43,
+            0.41,
+            0.39,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.33,
+            0.31,
+            0.3,
+            0.29,
+            0.28,
+            0.27,
+            0.27,
+            0.26,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.29,
+            0.3,
+            0.3,
+            0.31,
+            0.32,
+            0.32,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.35,
+            0.35,
+            0.35,
+            0.36,
+            0.35,
+            0.34,
+            0.32,
+            0.31,
+            0.3,
+            0.29,
+            0.29,
+            0.28,
+            0.27,
+            0.26,
+            0.25,
+            0.25,
+            0.25,
+            0.26,
+            0.27,
+            0.27,
+            0.28,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.28,
+            0.27,
+            0.27,
+            0.25,
+            0.24,
+            0.23,
+            0.23,
+            0.23,
+            0.22
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 2,
+      "coverage": 0.70976,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "349_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 10,
+          "ref_beg_seq_id": 137
+        },
+        {
+          "entity_beg_seq_id": 11,
+          "length": 30,
+          "ref_beg_seq_id": 152
+        },
+        {
+          "entity_beg_seq_id": 41,
+          "length": 14,
+          "ref_beg_seq_id": 186
+        },
+        {
+          "entity_beg_seq_id": 55,
+          "length": 4,
+          "ref_beg_seq_id": 203
+        },
+        {
+          "entity_beg_seq_id": 59,
+          "length": 61,
+          "ref_beg_seq_id": 208
+        },
+        {
+          "entity_beg_seq_id": 120,
+          "length": 13,
+          "ref_beg_seq_id": 273
+        },
+        {
+          "entity_beg_seq_id": 133,
+          "length": 1,
+          "ref_beg_seq_id": 287
+        },
+        {
+          "entity_beg_seq_id": 134,
+          "length": 2,
+          "ref_beg_seq_id": 289
+        },
+        {
+          "entity_beg_seq_id": 136,
+          "length": 1,
+          "ref_beg_seq_id": 292
+        },
+        {
+          "entity_beg_seq_id": 137,
+          "length": 28,
+          "ref_beg_seq_id": 300
+        },
+        {
+          "entity_beg_seq_id": 165,
+          "length": 27,
+          "ref_beg_seq_id": 335
+        },
+        {
+          "entity_beg_seq_id": 192,
+          "length": 24,
+          "ref_beg_seq_id": 363
+        },
+        {
+          "entity_beg_seq_id": 216,
+          "length": 21,
+          "ref_beg_seq_id": 388
+        },
+        {
+          "entity_beg_seq_id": 237,
+          "length": 13,
+          "ref_beg_seq_id": 410
+        },
+        {
+          "entity_beg_seq_id": 250,
+          "length": 7,
+          "ref_beg_seq_id": 427
+        },
+        {
+          "entity_beg_seq_id": 257,
+          "length": 5,
+          "ref_beg_seq_id": 435
+        },
+        {
+          "entity_beg_seq_id": 262,
+          "length": 1,
+          "ref_beg_seq_id": 446
+        },
+        {
+          "entity_beg_seq_id": 263,
+          "length": 40,
+          "ref_beg_seq_id": 448
+        },
+        {
+          "entity_beg_seq_id": 303,
+          "length": 10,
+          "ref_beg_seq_id": 489
+        },
+        {
+          "entity_beg_seq_id": 313,
+          "length": 12,
+          "ref_beg_seq_id": 500
+        },
+        {
+          "entity_beg_seq_id": 325,
+          "length": 19,
+          "ref_beg_seq_id": 514
+        },
+        {
+          "entity_beg_seq_id": 344,
+          "length": 36,
+          "ref_beg_seq_id": 535
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "44162_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 379,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "P06525",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 379,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "40172_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 379,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "4522_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 3
+        },
+        {
+          "entity_beg_seq_id": 136,
+          "length": 114,
+          "ref_beg_seq_id": 139
+        },
+        {
+          "entity_beg_seq_id": 250,
+          "length": 130,
+          "ref_beg_seq_id": 254
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "30448_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 379,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "435_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 10,
+          "ref_beg_seq_id": 137
+        },
+        {
+          "entity_beg_seq_id": 11,
+          "length": 10,
+          "ref_beg_seq_id": 152
+        },
+        {
+          "entity_beg_seq_id": 21,
+          "length": 20,
+          "ref_beg_seq_id": 169
+        },
+        {
+          "entity_beg_seq_id": 41,
+          "length": 14,
+          "ref_beg_seq_id": 193
+        },
+        {
+          "entity_beg_seq_id": 55,
+          "length": 4,
+          "ref_beg_seq_id": 210
+        },
+        {
+          "entity_beg_seq_id": 59,
+          "length": 23,
+          "ref_beg_seq_id": 219
+        },
+        {
+          "entity_beg_seq_id": 82,
+          "length": 2,
+          "ref_beg_seq_id": 247
+        },
+        {
+          "entity_beg_seq_id": 84,
+          "length": 35,
+          "ref_beg_seq_id": 250
+        },
+        {
+          "entity_beg_seq_id": 119,
+          "length": 2,
+          "ref_beg_seq_id": 286
+        },
+        {
+          "entity_beg_seq_id": 121,
+          "length": 9,
+          "ref_beg_seq_id": 292
+        },
+        {
+          "entity_beg_seq_id": 130,
+          "length": 6,
+          "ref_beg_seq_id": 302
+        },
+        {
+          "entity_beg_seq_id": 136,
+          "length": 1,
+          "ref_beg_seq_id": 309
+        },
+        {
+          "entity_beg_seq_id": 137,
+          "length": 28,
+          "ref_beg_seq_id": 318
+        },
+        {
+          "entity_beg_seq_id": 165,
+          "length": 27,
+          "ref_beg_seq_id": 353
+        },
+        {
+          "entity_beg_seq_id": 192,
+          "length": 5,
+          "ref_beg_seq_id": 381
+        },
+        {
+          "entity_beg_seq_id": 197,
+          "length": 19,
+          "ref_beg_seq_id": 387
+        },
+        {
+          "entity_beg_seq_id": 216,
+          "length": 21,
+          "ref_beg_seq_id": 407
+        },
+        {
+          "entity_beg_seq_id": 237,
+          "length": 13,
+          "ref_beg_seq_id": 429
+        },
+        {
+          "entity_beg_seq_id": 250,
+          "length": 7,
+          "ref_beg_seq_id": 446
+        },
+        {
+          "entity_beg_seq_id": 257,
+          "length": 5,
+          "ref_beg_seq_id": 454
+        },
+        {
+          "entity_beg_seq_id": 262,
+          "length": 1,
+          "ref_beg_seq_id": 465
+        },
+        {
+          "entity_beg_seq_id": 263,
+          "length": 14,
+          "ref_beg_seq_id": 467
+        },
+        {
+          "entity_beg_seq_id": 277,
+          "length": 26,
+          "ref_beg_seq_id": 483
+        },
+        {
+          "entity_beg_seq_id": 303,
+          "length": 10,
+          "ref_beg_seq_id": 510
+        },
+        {
+          "entity_beg_seq_id": 313,
+          "length": 12,
+          "ref_beg_seq_id": 521
+        },
+        {
+          "entity_beg_seq_id": 325,
+          "length": 19,
+          "ref_beg_seq_id": 535
+        },
+        {
+          "entity_beg_seq_id": 344,
+          "length": 1,
+          "ref_beg_seq_id": 556
+        },
+        {
+          "entity_beg_seq_id": 345,
+          "length": 9,
+          "ref_beg_seq_id": 558
+        },
+        {
+          "entity_beg_seq_id": 354,
+          "length": 26,
+          "ref_beg_seq_id": 580
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "AtADH"
+    }
+  ],
+  "rcsb_id": "8CON_1"
+}

@@ -1,0 +1,475 @@
+{
+  "audit_author": [
+    {
+      "name": "Seattle Structural Genomics Center for Infectious Disease",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Seattle Structural Genomics Center for Infectious Disease (SSGCID)",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 18,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 93.107,
+    "length_b": 93.107,
+    "length_c": 131.836
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To be published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Lovell, S.",
+        "Liu, L.",
+        "Battaile, K.P."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of Purine nucleoside phosphorylase from Trichomonas vaginalis (adenosine and phosphate bound)"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9MFC",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9mfc/pdb",
+      "pdbx_database_accession": "pdb_00009mfc"
+    },
+    {
+      "database_code": "D_1000290865",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-10-20T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "Double Crystal Si 111",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "19-ID",
+      "pdbx_synchrotron_site": "NSLS-II",
+      "pdbx_wavelength_list": "0.9786",
+      "source": "SYNCHROTRON",
+      "type": "NSLS-II BEAMLINE 19-ID"
+    }
+  ],
+  "entry": {
+    "id": "9MFC"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.06,
+      "density_percent_sol": 40.4,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 4.2,
+      "pdbx_details": "JCSG+ C1: 20% (w/v) PEG 8000, 100 mM potassium phosphate citriate pH 4.2, 20 mM NaCl. TrvaA.01033.d.B1.PW39308 at 17.4 mg/mL. 2 mM adenosine added prior to crystallization. plate 14430 well C1 drop 1, Puck: PSL1001, Cryo: 80% crystallant + 20% PEG glycerol.",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_SG_project": [
+    {
+      "full_name_of_center": "Seattle Structural Genomics Center for Infectious Disease",
+      "id": 1,
+      "initial_of_center": "SSGCID",
+      "project_name": "NIAID, National Institute of Allergy and Infectious Diseases"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-12-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)",
+      "grant_number": "75N93022C00036",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/Office of the Director",
+      "grant_number": "S10OD030394",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "Y",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-12-09T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "AF-A2EU62-F1",
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-15T14:03:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1406,
+      "DCC_Rfree": 0.158,
+      "EDS_R": 0.1468,
+      "EDS_res_high": 1.24,
+      "EDS_res_low": 46.55,
+      "Fo_Fc_correlation": 0.978,
+      "I_over_sigma": "2.42(1.24A)",
+      "Padilla_Yeates_L2_mean": 0.343,
+      "Padilla_Yeates_L_mean": 0.506,
+      "Wilson_B_aniso": "[8.404,8.404,18.872,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 10.505,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 36.109,
+      "bulk_solvent_k": 0.351,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.88,
+      "data_completeness": 98.85,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 61500,
+      "number_reflns_R_free": 3091,
+      "percent_RSRZ_outliers": 0.83,
+      "percent_free_reflections": 4.97,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.22% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.52,
+      "bonds_RMSZ": 0.28,
+      "clashscore": 4.61,
+      "num_H_reduce": 1958,
+      "num_angles_RMSZ": 2708,
+      "num_bonds_RMSZ": 2001,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.51
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-12-09T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-12-18T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-12-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9MFC",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9MFC"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2208,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 240,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 244,
+    "deposited_solvent_atom_count": 263,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9786,
+    "diffrn_radiation_wavelength_minimum": 0.9786,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 27.08,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.27,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 26.64,
+    "polymer_molecular_weight_minimum": 26.64,
+    "polymer_monomer_count_maximum": 244,
+    "polymer_monomer_count_minimum": 244,
+    "resolution_combined": [
+      1.24
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.24
+    }
+  },
+  "rcsb_external_references": [
+    {
+      "id": "10.18430/M39MFC",
+      "link": "https://dx.doi.org/10.18430/M39MFC",
+      "type": "PROTEIN DIFFRACTION"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To be published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-3215-4472",
+      "0000-0003-0514-281X",
+      "0000-0003-0833-3259"
+    ],
+    "rcsb_authors": [
+      "Lovell, S.",
+      "Liu, L.",
+      "Battaile, K.P."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of Purine nucleoside phosphorylase from Trichomonas vaginalis (adenosine and phosphate bound)"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1477,
+      "ls_R_factor_R_work": 0.1293,
+      "ls_R_factor_obs": 0.1303,
+      "ls_d_res_high": 1.24,
+      "ls_d_res_low": 46.55,
+      "ls_number_reflns_R_free": 3090,
+      "ls_number_reflns_obs": 61463,
+      "ls_percent_reflns_R_free": 5.03,
+      "ls_percent_reflns_obs": 98.8,
+      "overall_SU_ML": 0.12,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 17.42,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.24,
+      "d_res_low": 46.55,
+      "number_atoms_solvent": 261,
+      "number_atoms_total": 2120,
+      "pdbx_number_atoms_ligand": 26,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1833,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.006,
+      "number": 1998,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.98,
+      "number": 2738,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 13.894,
+      "number": 766,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.083,
+      "number": 316,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.008,
+      "number": 353,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.24,
+      "d_resolution_low": 46.55,
+      "number_obs": 61524,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.096,
+      "pdbx_Rpim_I_all": 0.022,
+      "pdbx_Rrim_I_all": 0.099,
+      "pdbx_chi_squared": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 15.5,
+      "pdbx_number_measured_all": 1072439,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 17.4,
+      "percent_possible_obs": 99.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.635,
+      "d_res_high": 1.24,
+      "d_res_low": 1.26,
+      "number_measured_all": 16466,
+      "number_unique_obs": 2649,
+      "pdbx_CC_half": 0.894,
+      "pdbx_Rpim_I_all": 0.272,
+      "pdbx_Rrim_I_all": 0.694,
+      "pdbx_chi_squared": 1.02,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 2.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.2,
+      "percent_possible_obs": 87.7
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "dev_5493"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of Purine nucleoside phosphorylase from Trichomonas vaginalis (adenosine and phosphate bound)"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "SSGCID, STRUCTURAL GENOMICS, SEATTLE STRUCTURAL GENOMICS CENTER FOR INFECTIOUS DISEASE, Purine nucleoside phosphorylase, Trichomonas vaginalis, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 155,
+    "space_group_name_H_M": "H 3 2"
+  },
+  "rcsb_id": "9MFC"
+}

@@ -1,0 +1,550 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-0306-3288",
+      "name": "Schwartze, T.A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0003-3320-8054",
+      "name": "Hinck, A.P.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 16,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 71.863,
+    "length_b": 71.863,
+    "length_c": 144.606,
+    "volume": 746787.431
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_ASTM": "JMOBAK",
+      "journal_id_CSD": "0070",
+      "journal_id_ISSN": "1089-8638",
+      "journal_volume": "437",
+      "page_first": "168935",
+      "page_last": "168935",
+      "pdbx_database_id_DOI": "10.1016/j.jmb.2025.168935",
+      "pdbx_database_id_PubMed": 39793884,
+      "rcsb_authors": [
+        "Schwartze, T.A.",
+        "Morosky, S.A.",
+        "Rosato, T.L.",
+        "Henrickson, A.",
+        "Lin, G.",
+        "Hinck, C.S.",
+        "Taylor, A.B.",
+        "Olsen, S.K.",
+        "Calero, G.",
+        "Demeler, B.",
+        "Roman, B.L.",
+        "Hinck, A.P."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Molecular Basis of Interchain Disulfide Bond Formation in BMP-9 and BMP-10.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9DPM",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9dpm/pdb",
+      "pdbx_database_accession": "pdb_00009dpm"
+    },
+    {
+      "database_code": "D_1000287267",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2021-01-17T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL12-2",
+      "pdbx_synchrotron_site": "SSRL",
+      "pdbx_wavelength_list": "0.9798",
+      "source": "SYNCHROTRON",
+      "type": "SSRL BEAMLINE BL12-2"
+    }
+  ],
+  "entry": {
+    "id": "9DPM"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.95,
+      "density_percent_sol": 68.86,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 7.0,
+      "pdbx_details": "0.9 M sodium chloride, 133 mM HEPES, 166 mM MES",
+      "temp": 289.15
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-01-22T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-01-29T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+      "grant_number": "GM58670",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Department of Defense (DOD, United States)",
+      "grant_number": "W81XWH-17-1-0429",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-09-22T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1ZKZ",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-06T09:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2045,
+      "DCC_Rfree": 0.2411,
+      "EDS_R": 0.2076,
+      "EDS_res_high": 1.9,
+      "EDS_res_low": 29.46,
+      "Fo_Fc_correlation": 0.962,
+      "I_over_sigma": "1.09(1.89A)",
+      "Padilla_Yeates_L2_mean": 0.336,
+      "Padilla_Yeates_L_mean": 0.499,
+      "Wilson_B_aniso": "[46.623,46.623,30.084,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 39.215,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 78.32,
+      "bulk_solvent_k": 0.429,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.402,
+      "data_completeness": 99.92,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 15375,
+      "number_reflns_R_free": 740,
+      "percent_RSRZ_outliers": 18.87,
+      "percent_free_reflections": 4.81,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 9.24% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.44,
+      "bonds_RMSZ": 0.22,
+      "clashscore": 0.0,
+      "num_H_reduce": 828,
+      "num_angles_RMSZ": 1169,
+      "num_bonds_RMSZ": 864,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.08
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-09-22T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-01-22T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2025-01-29T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9DPM",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39793884,
+    "rcsb_id": "9DPM"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 2,
+    "deposited_atom_count": 936,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 831,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 106,
+    "deposited_nonpolymer_entity_instance_count": 7,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 110,
+    "deposited_solvent_atom_count": 88,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9798,
+    "diffrn_radiation_wavelength_minimum": 0.9798,
+    "disulfide_bond_count": 4,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 4,
+    "molecular_weight": 12.42,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "NA"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.12,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 12.12,
+    "polymer_molecular_weight_minimum": 12.12,
+    "polymer_monomer_count_maximum": 110,
+    "polymer_monomer_count_minimum": 110,
+    "resolution_combined": [
+      1.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "HKL-3000",
+      "MOLREP",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "J.Mol.Biol.",
+    "journal_id_ASTM": "JMOBAK",
+    "journal_id_CSD": "0070",
+    "journal_id_ISSN": "1089-8638",
+    "journal_volume": "437",
+    "page_first": "168935",
+    "page_last": "168935",
+    "pdbx_database_id_DOI": "10.1016/j.jmb.2025.168935",
+    "pdbx_database_id_PubMed": 39793884,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Schwartze, T.A.",
+      "Morosky, S.A.",
+      "Rosato, T.L.",
+      "Henrickson, A.",
+      "Lin, G.",
+      "Hinck, C.S.",
+      "Taylor, A.B.",
+      "Olsen, S.K.",
+      "Calero, G.",
+      "Demeler, B.",
+      "Roman, B.L.",
+      "Hinck, A.P."
+    ],
+    "rcsb_journal_abbrev": "J Mol Biol",
+    "title": "Molecular Basis of Interchain Disulfide Bond Formation in BMP-9 and BMP-10.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 65.32,
+      "ls_R_factor_R_free": 0.2417,
+      "ls_R_factor_R_work": 0.2046,
+      "ls_R_factor_obs": 0.2064,
+      "ls_d_res_high": 1.9,
+      "ls_d_res_low": 29.46,
+      "ls_number_reflns_R_free": 740,
+      "ls_number_reflns_R_work": 14599,
+      "ls_number_reflns_obs": 15339,
+      "ls_percent_reflns_R_free": 4.82,
+      "ls_percent_reflns_obs": 99.73,
+      "overall_SU_ML": 0.3435,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.36,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 32.4101,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.9,
+      "d_res_low": 29.46,
+      "number_atoms_solvent": 88,
+      "number_atoms_total": 927,
+      "pdbx_number_atoms_ligand": 13,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 826,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0046,
+      "number": 866,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.7703,
+      "number": 1176,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0454,
+      "number": 129,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0043,
+      "number": 148,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 11.7633,
+      "number": 320,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 40.09,
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 50.0,
+      "number_obs": 15387,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.136,
+      "pdbx_Rpim_I_all": 0.028,
+      "pdbx_Rrim_I_all": 0.139,
+      "pdbx_chi_squared": 0.687,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_av_sigmaI": 24.625,
+      "pdbx_netI_over_sigmaI": 11.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 23.78,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 3.025,
+      "d_res_high": 1.9,
+      "d_res_low": 1.94,
+      "meanI_over_sigI_obs": 0.7,
+      "number_unique_obs": 962,
+      "pdbx_CC_half": 0.598,
+      "pdbx_Rpim_I_all": 0.643,
+      "pdbx_Rrim_I_all": 3.093,
+      "pdbx_chi_squared": 0.544,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 99.9
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "BMP-9 Monomer Growth Factor with Cysteinylation"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "SIGNALING PROTEIN",
+    "text": "SIGNALING PROTEIN, BMP, bone morphogenetic protein, TGF-beta family"
+  },
+  "symmetry": {
+    "Int_Tables_number": 98,
+    "space_group_name_H_M": "I 41 2 2",
+    "space_group_name_Hall": "I 4bw 2bw"
+  },
+  "rcsb_id": "9DPM"
+}

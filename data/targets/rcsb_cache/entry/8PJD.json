@@ -1,0 +1,575 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-2586-510X",
+      "name": "Cura, V.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Troffer-Charlier, N.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Marechal, N.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Bonnefond, L.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0001-8620-8723",
+      "name": "Cavarelli, J.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 65.052,
+    "length_b": 115.98,
+    "length_c": 133.718
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Cura, V.",
+        "Troffer-Charlier, N.",
+        "Marechal, N.",
+        "Bonnefond, L.",
+        "Cavarelli, J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal Structure of Mus musculus Protein Arginine Methyltransferase 2 94-445"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8PJD",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8pjd/pdb",
+      "pdbx_database_accession": "pdb_00008pjd"
+    },
+    {
+      "database_code": "D_1292131357",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2021-05-04T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER R 4M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "MASSIF-1",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.9677",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE MASSIF-1"
+    }
+  ],
+  "entry": {
+    "id": "8PJD"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.11,
+      "density_percent_sol": 60.4,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 5.3,
+      "pdbx_details": "1.3M AcONa pH5.3",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "atom_site",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "chem_comp",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Atomic model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-07-10T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 2,
+      "minor_revision": 0,
+      "ordinal": 2,
+      "revision_date": "2025-12-10T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.B_iso_or_equiv",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.Cartn_x",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.Cartn_y",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.Cartn_z",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.auth_atom_id",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.label_atom_id",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp.mon_nstd_flag",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp.type",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-06-23T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5ful",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-13T23:13:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1714,
+      "DCC_Rfree": 0.1891,
+      "EDS_R": 0.1802,
+      "EDS_res_high": 1.6,
+      "EDS_res_low": 29.25,
+      "Fo_Fc_correlation": 0.971,
+      "I_over_sigma": "1.20(1.60A)",
+      "Padilla_Yeates_L2_mean": 0.331,
+      "Padilla_Yeates_L_mean": 0.497,
+      "Wilson_B_aniso": "[24.574,27.327,26.650,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 26.065,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 38.907,
+      "bulk_solvent_k": 0.393,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.105,
+      "data_completeness": 97.48,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 65240,
+      "number_reflns_R_free": 3304,
+      "percent_RSRZ_outliers": 3.17,
+      "percent_free_reflections": 4.94,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.36% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "1/2*h-1/2*k,-3/2*h-1/2*k,-l:0.007;1/2*h+1/2*k,3/2*h-1/2*k,-l:0.021"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.54,
+      "bonds_RMSZ": 0.34,
+      "clashscore": 5.56,
+      "num_H_reduce": 2754,
+      "num_angles_RMSZ": 3887,
+      "num_bonds_RMSZ": 2856,
+      "percent_ramachandran_outliers": 0.29,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-06-23T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-07-10T00:00:00.000+00:00",
+    "major_revision": 2,
+    "minor_revision": 0,
+    "revision_date": "2025-12-10T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8PJD",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8PJD"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 2,
+    "deposited_atom_count": 3230,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2752,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 347,
+    "deposited_nonpolymer_entity_instance_count": 7,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 356,
+    "deposited_solvent_atom_count": 405,
+    "deposited_unmodeled_polymer_monomer_count": 9,
+    "diffrn_radiation_wavelength_maximum": 0.9677,
+    "diffrn_radiation_wavelength_minimum": 0.9677,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 8,
+    "molecular_weight": 41.29,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "ACT",
+      "NA"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.38,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 40.62,
+    "polymer_molecular_weight_minimum": 40.62,
+    "polymer_monomer_count_maximum": 356,
+    "polymer_monomer_count_minimum": 356,
+    "resolution_combined": [
+      1.6
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.6
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-2586-510X",
+      "?",
+      "?",
+      "?",
+      "0000-0001-8620-8723"
+    ],
+    "rcsb_authors": [
+      "Cura, V.",
+      "Troffer-Charlier, N.",
+      "Marechal, N.",
+      "Bonnefond, L.",
+      "Cavarelli, J."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal Structure of Mus musculus Protein Arginine Methyltransferase 2 94-445"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1891,
+      "ls_R_factor_R_work": 0.1714,
+      "ls_R_factor_obs": 0.1723,
+      "ls_d_res_high": 1.6,
+      "ls_d_res_low": 29.25,
+      "ls_number_reflns_R_free": 3303,
+      "ls_number_reflns_obs": 65234,
+      "ls_percent_reflns_R_free": 5.06,
+      "ls_percent_reflns_obs": 97.5,
+      "overall_SU_ML": 0.19,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.36,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.42,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.6,
+      "d_res_low": 29.25,
+      "number_atoms_solvent": 405,
+      "number_atoms_total": 3230,
+      "pdbx_number_atoms_ligand": 44,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2781,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.008,
+      "number": 2896,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.005,
+      "number": 3941,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 15.291,
+      "number": 1034,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.055,
+      "number": 441,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.009,
+      "number": 500,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 22.5,
+      "d_resolution_high": 1.6,
+      "d_resolution_low": 29.25,
+      "number_obs": 65279,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.075,
+      "pdbx_Rpim_I_all": 0.021,
+      "pdbx_Rrim_I_all": 0.07845,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 17.7,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.0,
+      "percent_possible_obs": 97.5
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 2.384,
+      "d_res_high": 1.6,
+      "d_res_low": 1.63,
+      "meanI_over_sigI_obs": 0.8,
+      "number_unique_obs": 2584,
+      "pdbx_CC_half": 0.38,
+      "pdbx_Rpim_I_all": 0.808,
+      "pdbx_Rrim_I_all": 2.527,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 9.2,
+      "percent_possible_all": 77.85
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.21rc1_4958: ???)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of Mus musculus Protein Arginine Methyltransferase 2 94-445"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "protein arginine N-methyltransferase, PRMT, SH3, methylation, transcription, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 20,
+    "space_group_name_H_M": "C 2 2 21"
+  },
+  "rcsb_id": "8PJD"
+}

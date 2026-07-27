@@ -1,0 +1,577 @@
+{
+  "audit_author": [
+    {
+      "name": "Lin, Q.M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Chen, X.J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Chen, Y.H.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 97.82,
+    "angle_gamma": 90.0,
+    "length_a": 42.141,
+    "length_b": 61.457,
+    "length_c": 60.417
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "J.Med.Chem.",
+      "journal_id_ASTM": "JMCMAR",
+      "journal_id_CSD": "0151",
+      "journal_id_ISSN": "0022-2623",
+      "journal_volume": "67",
+      "page_first": "2667",
+      "page_last": "2689",
+      "pdbx_database_id_DOI": "10.1021/acs.jmedchem.3c01810",
+      "pdbx_database_id_PubMed": 38348819,
+      "rcsb_authors": [
+        "Yang, F.",
+        "Lin, Q.",
+        "Song, X.",
+        "Huang, H.",
+        "Chen, X.",
+        "Tan, J.",
+        "Li, Y.",
+        "Zhou, Y.",
+        "Tu, Z.",
+        "Du, H.",
+        "Zhang, Z.M.",
+        "Ortega, R.",
+        "Lin, X.",
+        "Patterson, A.V.",
+        "Smaill, J.B.",
+        "Chen, Y.",
+        "Lu, X."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Med Chem",
+      "title": "Discovery of 6-Formylpyridyl Urea Derivatives as Potent Reversible-Covalent Fibroblast Growth Factor Receptor 4 Inhibitors with Improved Anti-Hepatocellular Carcinoma Activity.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8KH8",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8kh8/pdb",
+      "pdbx_database_accession": "pdb_00008kh8"
+    },
+    {
+      "database_code": "D_1300039142",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 277.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "CCD",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-04-20T00:00:00.000+00:00",
+      "type": "ADSC QUANTUM 315r"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL17U1",
+      "pdbx_synchrotron_site": "SSRF",
+      "pdbx_wavelength_list": "0.9792",
+      "source": "SYNCHROTRON",
+      "type": "SSRF BEAMLINE BL17U1"
+    }
+  ],
+  "entry": {
+    "id": "8KH8"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.25,
+      "density_percent_sol": 45.21,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "0.1 M Bis-Tris (pH 4.5), 0.2 M Li2SO4, 16-19% PEG3350",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-07-31T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-11-20T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2023-08-21T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "7WCW",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-06T02:09:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1693,
+      "DCC_Rfree": 0.1972,
+      "EDS_R": 0.177,
+      "EDS_res_high": 1.49,
+      "EDS_res_low": 36.66,
+      "Fo_Fc_correlation": 0.961,
+      "I_over_sigma": "1.63(1.49A)",
+      "Padilla_Yeates_L2_mean": 0.337,
+      "Padilla_Yeates_L_mean": 0.504,
+      "Wilson_B_aniso": "[13.444,12.192,10.001,0.000,-4.146,0.000]",
+      "Wilson_B_estimate": 11.376,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 48.352,
+      "bulk_solvent_k": 0.409,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.29,
+      "data_completeness": 99.78,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 49829,
+      "number_reflns_R_free": 2537,
+      "percent_RSRZ_outliers": 5.69,
+      "percent_free_reflections": 5.08,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.96% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.56,
+      "bonds_RMSZ": 0.36,
+      "clashscore": 1.49,
+      "num_H_reduce": 2310,
+      "num_angles_RMSZ": 3252,
+      "num_bonds_RMSZ": 2391,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-08-21T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-07-31T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2024-11-20T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_binding_affinity": [
+    {
+      "comp_id": "VVW",
+      "link": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pdbids.jsp?pdbids_submit=Search&pdbids=8KH8",
+      "provenance_code": "BindingDB",
+      "reference_sequence_identity": 99,
+      "type": "IC50",
+      "unit": "nM",
+      "value": 13.0
+    },
+    {
+      "comp_id": "VVW",
+      "link": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pdbids.jsp?pdbids_submit=Search&pdbids=8KH8",
+      "provenance_code": "BindingDB",
+      "reference_sequence_identity": 99,
+      "type": "IC50",
+      "unit": "nM",
+      "value": 57.0
+    },
+    {
+      "comp_id": "VVW",
+      "link": "https://www.bindingdb.org/rwd/jsp/dbsearch/PrimarySearch_pdbids.jsp?pdbids_submit=Search&pdbids=8KH8",
+      "provenance_code": "BindingDB",
+      "reference_sequence_identity": 99,
+      "type": "IC50",
+      "unit": "nM",
+      "value": 16.0
+    }
+  ],
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8KH8",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38348819,
+    "rcsb_id": "8KH8"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2728,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 299,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 309,
+    "deposited_solvent_atom_count": 340,
+    "deposited_unmodeled_polymer_monomer_count": 10,
+    "diffrn_radiation_wavelength_maximum": 0.9792,
+    "diffrn_radiation_wavelength_minimum": 0.9792,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 1,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 35.39,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "VVW"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.71,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 34.52,
+    "polymer_molecular_weight_minimum": 34.52,
+    "polymer_monomer_count_maximum": 309,
+    "polymer_monomer_count_minimum": 309,
+    "resolution_combined": [
+      1.49
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DIALS",
+      "PDB_EXTRACT",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.49
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "J.Med.Chem.",
+    "journal_id_ASTM": "JMCMAR",
+    "journal_id_CSD": "0151",
+    "journal_id_ISSN": "0022-2623",
+    "journal_volume": "67",
+    "page_first": "2667",
+    "page_last": "2689",
+    "pdbx_database_id_DOI": "10.1021/acs.jmedchem.3c01810",
+    "pdbx_database_id_PubMed": 38348819,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0003-4167-6413",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0001-8139-6892",
+      "0000-0001-7931-6873"
+    ],
+    "rcsb_authors": [
+      "Yang, F.",
+      "Lin, Q.",
+      "Song, X.",
+      "Huang, H.",
+      "Chen, X.",
+      "Tan, J.",
+      "Li, Y.",
+      "Zhou, Y.",
+      "Tu, Z.",
+      "Du, H.",
+      "Zhang, Z.M.",
+      "Ortega, R.",
+      "Lin, X.",
+      "Patterson, A.V.",
+      "Smaill, J.B.",
+      "Chen, Y.",
+      "Lu, X."
+    ],
+    "rcsb_journal_abbrev": "J Med Chem",
+    "title": "Discovery of 6-Formylpyridyl Urea Derivatives as Potent Reversible-Covalent Fibroblast Growth Factor Receptor 4 Inhibitors with Improved Anti-Hepatocellular Carcinoma Activity.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1965,
+      "ls_R_factor_R_work": 0.1679,
+      "ls_R_factor_obs": 0.1693,
+      "ls_d_res_high": 1.49,
+      "ls_d_res_low": 36.66,
+      "ls_number_reflns_R_free": 2537,
+      "ls_number_reflns_obs": 49829,
+      "ls_percent_reflns_R_free": 5.09,
+      "ls_percent_reflns_obs": 99.79,
+      "overall_SU_ML": 0.15,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 1.33,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.92,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "7WCW",
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.49,
+      "d_res_low": 36.66,
+      "number_atoms_solvent": 340,
+      "number_atoms_total": 2728,
+      "pdbx_number_atoms_ligand": 58,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2330,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.008,
+      "number": 2451,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.035,
+      "number": 3333,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 17.494,
+      "number": 345,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.095,
+      "number": 355,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.012,
+      "number": 433,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.49,
+      "d_resolution_low": 61.46,
+      "number_obs": 49894,
+      "pdbx_CC_half": 0.993,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 7.8,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.49,
+      "d_res_low": 1.53,
+      "number_unique_obs": 3623,
+      "pdbx_CC_half": 0.43,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.19.2_4158: ???)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "DIALS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "DIALS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of FGFR4(V550L) kinase domain with 8z"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE/INHIBITOR",
+    "text": "FGFR4 kinase domain, TRANSFERASE, TRANSFERASE-INHIBITOR complex"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1"
+  },
+  "rcsb_id": "8KH8"
+}

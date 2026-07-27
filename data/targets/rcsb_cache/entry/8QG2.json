@@ -1,0 +1,474 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-1320-8663",
+      "name": "Gelin, M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-6861-3300",
+      "name": "Labesse, G.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-6348-5311",
+      "name": "Lionne, C.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 62.691,
+    "length_b": 75.017,
+    "length_c": 118.304
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Gelin, M.",
+        "Labesse, G.",
+        "Clement, D.",
+        "Pochet, S.",
+        "Lionne, C.",
+        "Leseigneur, C.",
+        "Huteau, V."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of NAD kinase 1 from Listeria monocytogenes in complex with a di-adenosine derivative"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8QG2",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8qg2/pdb",
+      "pdbx_database_accession": "pdb_00008qg2"
+    },
+    {
+      "database_code": "D_1292132948",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2014-02-16T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "ID29",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.96863",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE ID29"
+    }
+  ],
+  "entry": {
+    "id": "8QG2"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.24,
+      "density_percent_sol": 45.09,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "30 mM NaBr, 220 mM Kcitrate, glycerol 6%, 15-16% w/v PEG400",
+      "pdbx_pH_range": "4.8-5.1",
+      "temp": 291.15
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-03-19T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "France",
+      "funding_organization": "Agence Nationale de la Recherche (ANR)",
+      "grant_number": "ANR-17-CE18-0011-02",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "8A9V",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-09-05T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "8A9V",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T12:33:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1835,
+      "DCC_Rfree": 0.2138,
+      "EDS_R": 0.1926,
+      "EDS_res_high": 1.83,
+      "EDS_res_low": 48.1,
+      "Fo_Fc_correlation": 0.962,
+      "I_over_sigma": "1.62(1.83A)",
+      "Padilla_Yeates_L2_mean": 0.312,
+      "Padilla_Yeates_L_mean": 0.48,
+      "Wilson_B_aniso": "[33.130,39.160,18.903,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 28.798,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 49.197,
+      "bulk_solvent_k": 0.339,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.666,
+      "data_completeness": 99.18,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 24792,
+      "number_reflns_R_free": 1265,
+      "percent_RSRZ_outliers": 7.98,
+      "percent_free_reflections": 5.06,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.40% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.66,
+      "bonds_RMSZ": 0.46,
+      "clashscore": 2.59,
+      "num_H_reduce": 2078,
+      "num_angles_RMSZ": 2945,
+      "num_bonds_RMSZ": 2180,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 2.22
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-09-05T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-03-19T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-03-19T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8QG2",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8QG2"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2275,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 263,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 272,
+    "deposited_solvent_atom_count": 101,
+    "deposited_unmodeled_polymer_monomer_count": 9,
+    "diffrn_radiation_wavelength_maximum": 0.9686,
+    "diffrn_radiation_wavelength_minimum": 0.9686,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 31.97,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.73,
+    "nonpolymer_molecular_weight_minimum": 0.19,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 31.05,
+    "polymer_molecular_weight_minimum": 31.05,
+    "polymer_monomer_count_maximum": 272,
+    "polymer_monomer_count_minimum": 272,
+    "resolution_combined": [
+      1.83
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PDB_EXTRACT",
+      "PHENIX",
+      "SCALA",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.83
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Gelin, M.",
+      "Labesse, G.",
+      "Clement, D.",
+      "Pochet, S.",
+      "Lionne, C.",
+      "Leseigneur, C.",
+      "Huteau, V."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of NAD kinase 1 from Listeria monocytogenes in complex with a di-adenosine derivative"
+  },
+  "refine": [
+    {
+      "B_iso_max": 97.79,
+      "B_iso_mean": 39.4835,
+      "B_iso_min": 18.71,
+      "ls_R_factor_R_free": 0.2133,
+      "ls_R_factor_R_work": 0.1828,
+      "ls_R_factor_obs": 0.1843,
+      "ls_d_res_high": 1.83,
+      "ls_d_res_low": 48.105,
+      "ls_number_reflns_R_free": 1265,
+      "ls_number_reflns_R_work": 23527,
+      "ls_number_reflns_obs": 24792,
+      "ls_percent_reflns_R_free": 5.1,
+      "ls_percent_reflns_obs": 99.2,
+      "overall_SU_ML": 0.2,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 1.33,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 23.52,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "final",
+      "d_res_high": 1.83,
+      "d_res_low": 48.105,
+      "number_atoms_solvent": 101,
+      "number_atoms_total": 2256,
+      "pdbx_B_iso_mean_ligand": 33.25,
+      "pdbx_B_iso_mean_solvent": 42.42,
+      "pdbx_number_atoms_ligand": 66,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2089,
+      "pdbx_number_residues_total": 263,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 28.8,
+      "d_resolution_high": 1.83,
+      "d_resolution_low": 48.105,
+      "number_obs": 24799,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.053,
+      "pdbx_Rpim_I_all": 0.026,
+      "pdbx_Rrim_I_all": 0.059,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 14.5,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.7,
+      "percent_possible_obs": 99.3
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.665,
+      "d_res_high": 1.83,
+      "d_res_low": 1.89,
+      "number_measured_all": 6773,
+      "number_unique_obs": 2346,
+      "pdbx_CC_half": 0.76,
+      "pdbx_Rpim_I_all": 0.453,
+      "pdbx_Rrim_I_all": 0.809,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 1.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.9,
+      "percent_possible_all": 98.0
+    },
+    {
+      "Rmerge_I_obs": 0.025,
+      "d_res_high": 7.09,
+      "d_res_low": 48.1,
+      "number_measured_all": 2128,
+      "number_unique_obs": 481,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.013,
+      "pdbx_Rrim_I_all": 0.028,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 46.3,
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 4.4,
+      "percent_possible_all": 98.3
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.13_2998"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALA",
+      "pdbx_ordinal": 3,
+      "version": "0.2.14"
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 4,
+      "version": "3.28"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of NAD kinase 1 from Listeria monocytogenes in complex with a di-adenosine derivative"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "tetrameric NAD-kinase, Transferase"
+  },
+  "symmetry": {
+    "Int_Tables_number": 23,
+    "space_group_name_H_M": "I 2 2 2"
+  },
+  "rcsb_id": "8QG2"
+}

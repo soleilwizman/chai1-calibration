@@ -1,0 +1,465 @@
+{
+  "audit_author": [
+    {
+      "name": "Roy, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Khanppnavar, B.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Dolui, S.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Chakraborty, B.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Datta, S.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Maiti, N.C.",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 78.064,
+    "length_b": 78.064,
+    "length_c": 37.013
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Roy, A.",
+        "Khanppnavar, B.",
+        "Dolui, S.",
+        "Chakraborty, B.",
+        "Datta, S.",
+        "Maiti, N.C."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Hen Egg-White Lysozyme (HEWL) complexed with Trans-Ferulic Acid"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "23SI",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb23si/pdb",
+      "pdbx_database_accession": "pdb_000023si"
+    },
+    {
+      "database_code": "D_1300070366",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2019-04-06T00:00:00.000+00:00",
+      "type": "Bruker PHOTON III"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "1.54",
+      "source": "ROTATING ANODE",
+      "type": "BRUKER X8 PROTEUM"
+    }
+  ],
+  "entry": {
+    "id": "23SI"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 1.97,
+      "density_percent_sol": 37.48,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "0.1M Na-acetate pH 4.5, 6.5% (w/v) NaCl",
+      "temp": 293.15
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-03-11T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "India",
+      "funding_organization": "Department of Biotechnology (DBT, India)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2026-02-15T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1BVX",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-04-05T03:51:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1977,
+      "DCC_Rfree": 0.2257,
+      "EDS_R": 0.2162,
+      "EDS_res_high": 1.5,
+      "EDS_res_low": 22.13,
+      "Fo_Fc_correlation": 0.955,
+      "I_over_sigma": "1.20(1.50A)",
+      "Padilla_Yeates_L2_mean": 0.295,
+      "Padilla_Yeates_L_mean": 0.464,
+      "Wilson_B_aniso": "[19.245,19.245,17.297,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 18.6,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 40.48,
+      "bulk_solvent_k": 0.39,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.105,
+      "data_completeness": 98.57,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 18615,
+      "number_reflns_R_free": 1888,
+      "percent_RSRZ_outliers": 0.0,
+      "percent_free_reflections": 10.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.29% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.7,
+      "bonds_RMSZ": 0.67,
+      "clashscore": 4.84,
+      "num_H_reduce": 999,
+      "num_angles_RMSZ": 1387,
+      "num_bonds_RMSZ": 1027,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.95
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2026-02-15T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-03-11T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-03-11T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "23SI",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "23SI"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1202,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 129,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 129,
+    "deposited_solvent_atom_count": 139,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.54,
+    "diffrn_radiation_wavelength_minimum": 1.54,
+    "disulfide_bond_count": 4,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 14.91,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.19,
+    "nonpolymer_molecular_weight_minimum": 0.19,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 14.33,
+    "polymer_molecular_weight_minimum": 14.33,
+    "polymer_monomer_count_maximum": 129,
+    "polymer_monomer_count_minimum": 129,
+    "resolution_combined": [
+      1.5
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PDB_EXTRACT",
+      "PHENIX",
+      "PROTEUM PLUS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.5
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Roy, A.",
+      "Khanppnavar, B.",
+      "Dolui, S.",
+      "Chakraborty, B.",
+      "Datta, S.",
+      "Maiti, N.C."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Hen Egg-White Lysozyme (HEWL) complexed with Trans-Ferulic Acid"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2252,
+      "ls_R_factor_R_work": 0.1962,
+      "ls_R_factor_obs": 0.199,
+      "ls_d_res_high": 1.5,
+      "ls_d_res_low": 22.126,
+      "ls_number_reflns_R_free": 3461,
+      "ls_number_reflns_obs": 34623,
+      "ls_percent_reflns_R_free": 10.0,
+      "ls_percent_reflns_obs": 98.88,
+      "overall_SU_ML": 0.25,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.33,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 25.36,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.5,
+      "d_res_low": 22.126,
+      "number_atoms_solvent": 139,
+      "number_atoms_total": 1182,
+      "pdbx_number_atoms_ligand": 42,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1001,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "number": 1088,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.02,
+      "number": 1472,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 24.336,
+      "number": 388,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.066,
+      "number": 145,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "number": 195,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 18.6,
+      "d_resolution_high": 1.5,
+      "d_resolution_low": 22.32,
+      "number_obs": 35068,
+      "pdbx_Rmerge_I_obs": 0.178,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 9.14,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 18.92,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.0069,
+      "d_res_high": 1.5,
+      "d_res_low": 1.6,
+      "number_unique_obs": 6203,
+      "pdbx_CC_half": 0.577,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 14.25,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.14_3260: ???)"
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "PROTEUM PLUS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "PROTEUM PLUS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Hen Egg-White Lysozyme (HEWL) complexed with Trans-Ferulic Acid"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "ANTIMICROBIAL PROTEIN",
+    "text": "Hydrolase, ANTIMICROBIAL PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 96,
+    "space_group_name_H_M": "P 43 21 2"
+  },
+  "rcsb_id": "23SI"
+}

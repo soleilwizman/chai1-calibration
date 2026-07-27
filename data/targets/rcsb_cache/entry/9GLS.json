@@ -1,0 +1,653 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-7083-5690",
+      "name": "Kumar, M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0009-0002-9409-6797",
+      "name": "Banerjee, S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-4219-550X",
+      "name": "Wiener, R.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 47.916,
+    "length_b": 49.401,
+    "length_c": 63.228
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "16",
+      "page_first": "3912",
+      "page_last": "3912",
+      "pdbx_database_id_DOI": "10.1038/s41467-025-58826-y",
+      "pdbx_database_id_PubMed": 40280917,
+      "rcsb_authors": [
+        "Kumar, M.",
+        "Banerjee, S.",
+        "Cohen-Kfir, E.",
+        "Mitelberg, M.B.",
+        "Tiwari, S.",
+        "Isupov, M.N.",
+        "Dessau, M.",
+        "Wiener, R."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "UFC1 reveals the multifactorial and plastic nature of oxyanion holes in E2 conjugating enzymes.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9GLS",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9gls/pdb",
+      "pdbx_database_accession": "pdb_00009gls"
+    },
+    {
+      "database_code": "D_1292141300",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 298.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-02-21T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 X 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "ID30B",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.87313",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE ID30B"
+    }
+  ],
+  "entry": {
+    "id": "9GLS"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.22,
+      "density_percent_sol": 44.65,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 9.0,
+      "pdbx_details": "10% PEG 200, 0.1 M Bis-Tris propane, pH 9, 15% PEG 8000",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-05-07T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Israel",
+      "funding_organization": "Israel Science Foundation",
+      "grant_number": "491/2021",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "3TGD",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-08-28T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2Z6O",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-05T21:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.2537,
+      "EDS_R": 0.2002,
+      "EDS_res_high": 1.25,
+      "EDS_res_low": 38.93,
+      "Fo_Fc_correlation": 0.97,
+      "I_over_sigma": "1.64(1.25A)",
+      "Padilla_Yeates_L2_mean": 0.325,
+      "Padilla_Yeates_L_mean": 0.492,
+      "Wilson_B_aniso": "[21.011,18.943,20.782,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 20.188,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 29.234,
+      "bulk_solvent_k": 0.38,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.102,
+      "data_completeness": 98.75,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 41717,
+      "number_reflns_R_free": 2054,
+      "percent_RSRZ_outliers": 9.46,
+      "percent_free_reflections": 4.86,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 9.98% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "k,h,-l:0.017"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.12,
+      "bonds_RMSZ": 1.11,
+      "clashscore": 5.58,
+      "num_H_reduce": 1225,
+      "num_angles_RMSZ": 1799,
+      "num_bonds_RMSZ": 1321,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-08-28T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-05-07T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-05-07T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "9GLS",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40280917,
+    "rcsb_id": "9GLS"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1387,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 148,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 148,
+    "deposited_solvent_atom_count": 120,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.8731,
+    "diffrn_radiation_wavelength_minimum": 0.8731,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 16.84,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 16.84,
+    "polymer_molecular_weight_minimum": 16.84,
+    "polymer_monomer_count_maximum": 148,
+    "polymer_monomer_count_minimum": 148,
+    "resolution_combined": [
+      1.25
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "COOT",
+      "REFMAC"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.25
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "16",
+    "page_first": "3912",
+    "page_last": "3912",
+    "pdbx_database_id_DOI": "10.1038/s41467-025-58826-y",
+    "pdbx_database_id_PubMed": 40280917,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0001-6842-4289",
+      "0000-0002-1954-3625",
+      "0000-0002-4219-550X"
+    ],
+    "rcsb_authors": [
+      "Kumar, M.",
+      "Banerjee, S.",
+      "Cohen-Kfir, E.",
+      "Mitelberg, M.B.",
+      "Tiwari, S.",
+      "Isupov, M.N.",
+      "Dessau, M.",
+      "Wiener, R."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "UFC1 reveals the multifactorial and plastic nature of oxyanion holes in E2 conjugating enzymes.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 21.687,
+      "aniso_B_1_1": 0.134,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": -0.315,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 0.181,
+      "correlation_coeff_Fo_to_Fc": 0.973,
+      "correlation_coeff_Fo_to_Fc_free": 0.966,
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.2112,
+      "ls_R_factor_R_work": 0.1885,
+      "ls_R_factor_all": 0.189,
+      "ls_d_res_high": 1.25,
+      "ls_d_res_low": 38.928,
+      "ls_number_reflns_R_free": 2054,
+      "ls_number_reflns_R_work": 39663,
+      "ls_number_reflns_obs": 41717,
+      "ls_percent_reflns_R_free": 4.924,
+      "ls_percent_reflns_obs": 98.752,
+      "overall_SU_B": 0.933,
+      "overall_SU_ML": 0.04,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.049,
+      "pdbx_overall_ESU_R_Free": 0.05,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "solvent_model_details": "MASK BULK SOLVENT"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.25,
+      "d_res_low": 38.928,
+      "number_atoms_solvent": 120,
+      "number_atoms_total": 1288,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1168,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.015,
+      "dev_ideal_target": 0.013,
+      "number": 1319,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.008,
+      "dev_ideal_target": 0.015,
+      "number": 1194,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.842,
+      "dev_ideal_target": 1.651,
+      "number": 1820,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 1.667,
+      "dev_ideal_target": 1.577,
+      "number": 2781,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.637,
+      "dev_ideal_target": 5.0,
+      "number": 174,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 29.0,
+      "dev_ideal_target": 22.319,
+      "number": 69,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 12.456,
+      "dev_ideal_target": 15.0,
+      "number": 208,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 14.236,
+      "dev_ideal_target": 15.0,
+      "number": 8,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.1,
+      "dev_ideal_target": 0.2,
+      "number": 175,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.011,
+      "dev_ideal_target": 0.02,
+      "number": 1560,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.004,
+      "dev_ideal_target": 0.02,
+      "number": 308,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 0.221,
+      "dev_ideal_target": 0.2,
+      "number": 263,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.191,
+      "dev_ideal_target": 0.2,
+      "number": 1043,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_other"
+    },
+    {
+      "dev_ideal": 0.18,
+      "dev_ideal_target": 0.2,
+      "number": 631,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "dev_ideal": 0.088,
+      "dev_ideal_target": 0.2,
+      "number": 532,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbtor_other"
+    },
+    {
+      "dev_ideal": 0.129,
+      "dev_ideal_target": 0.2,
+      "number": 84,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.173,
+      "dev_ideal_target": 0.2,
+      "number": 11,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.276,
+      "dev_ideal_target": 0.2,
+      "number": 52,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "dev_ideal": 0.181,
+      "dev_ideal_target": 0.2,
+      "number": 17,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 1.715,
+      "dev_ideal_target": 2.006,
+      "number": 645,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.693,
+      "dev_ideal_target": 2.004,
+      "number": 644,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 2.414,
+      "dev_ideal_target": 3.013,
+      "number": 821,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 2.424,
+      "dev_ideal_target": 3.015,
+      "number": 822,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 3.43,
+      "dev_ideal_target": 2.379,
+      "number": 674,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 3.416,
+      "dev_ideal_target": 2.378,
+      "number": 674,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 4.788,
+      "dev_ideal_target": 3.431,
+      "number": 994,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 4.782,
+      "dev_ideal_target": 3.431,
+      "number": 994,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 5.646,
+      "dev_ideal_target": 25.618,
+      "number": 1504,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_it"
+    },
+    {
+      "dev_ideal": 5.601,
+      "dev_ideal_target": 25.163,
+      "number": 1481,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_other"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 20.24,
+      "d_resolution_high": 1.25,
+      "d_resolution_low": 38.93,
+      "number_obs": 41718,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rrim_I_all": 0.04743,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 12.33,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.7,
+      "percent_possible_obs": 98.75
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.25,
+      "d_res_low": 1.295,
+      "meanI_over_sigI_obs": 1.35,
+      "number_unique_obs": 4119,
+      "pdbx_CC_half": 0.586,
+      "pdbx_Rrim_I_all": 0.9445,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.8,
+      "percent_possible_all": 98.59
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0267"
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 2,
+      "version": "WinCoot 0.9.6 EL"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of Human UBCH5B C85E"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "LIGASE",
+    "text": "Ubiquitin conjugating protein, E2~UB thioester mimic, LIGASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "9GLS"
+}

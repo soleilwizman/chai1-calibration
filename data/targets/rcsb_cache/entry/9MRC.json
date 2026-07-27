@@ -1,0 +1,439 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-0128-3714",
+      "name": "Rogers, C.M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-9592-3075",
+      "name": "Langelaan, D.N.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 84.29,
+    "length_b": 96.93,
+    "length_c": 65.75,
+    "volume": 537192.603
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Rogers, C.M.",
+        "Langelaan, D.N.",
+        "Dellaire, G."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Insights into Innate Immunity Through Evolutionarily Conserved DEDDh Exonucleases"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9MRC",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9mrc/pdb",
+      "pdbx_database_accession": "pdb_00009mrc"
+    },
+    {
+      "database_code": "D_1000291514",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-11-18T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "08ID-1",
+      "pdbx_synchrotron_site": "CLSI",
+      "pdbx_wavelength_list": "0.95371",
+      "source": "SYNCHROTRON",
+      "type": "CLSI BEAMLINE 08ID-1"
+    }
+  ],
+  "entry": {
+    "id": "9MRC"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.96,
+      "density_percent_sol": 58.42,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "MICROBATCH",
+      "pdbx_details": "2.0M ammonium sulfate, 1.2M tri-sodium citrate pH",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-01-15T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Canada",
+      "funding_organization": "Natural Sciences and Engineering Research Council (NSERC, Canada)",
+      "grant_number": "RGPIN-2024-06440",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2025-01-07T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2IOC",
+      "details": "TREX1",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-06T18:40:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1717,
+      "DCC_Rfree": 0.21,
+      "EDS_R": 0.1765,
+      "EDS_res_high": 1.8,
+      "EDS_res_low": 48.46,
+      "Fo_Fc_correlation": 0.954,
+      "I_over_sigma": "0.37(1.44A)",
+      "Padilla_Yeates_L2_mean": 0.325,
+      "Padilla_Yeates_L_mean": 0.493,
+      "Wilson_B_aniso": "[20.850,14.159,15.698,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 16.493,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 48.194,
+      "bulk_solvent_k": 0.427,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.396,
+      "data_completeness": 96.79,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 48973,
+      "number_reflns_R_free": 2449,
+      "percent_RSRZ_outliers": 1.59,
+      "percent_free_reflections": 5.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.11% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.62,
+      "bonds_RMSZ": 0.46,
+      "clashscore": 1.29,
+      "num_H_reduce": 1538,
+      "num_angles_RMSZ": 2165,
+      "num_bonds_RMSZ": 1601,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-01-07T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-01-15T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-01-15T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "9MRC",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9MRC"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1839,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1533,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 189,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 195,
+    "deposited_solvent_atom_count": 279,
+    "deposited_unmodeled_polymer_monomer_count": 6,
+    "diffrn_radiation_wavelength_maximum": 0.9537,
+    "diffrn_radiation_wavelength_minimum": 0.9537,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 22.7,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 22.7,
+    "polymer_molecular_weight_minimum": 22.7,
+    "polymer_monomer_count_maximum": 195,
+    "polymer_monomer_count_minimum": 195,
+    "resolution_combined": [
+      1.8
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.44
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-0128-3714",
+      "0000-0001-9592-3075",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Rogers, C.M.",
+      "Langelaan, D.N.",
+      "Dellaire, G."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Insights into Innate Immunity Through Evolutionarily Conserved DEDDh Exonucleases"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 24.17,
+      "ls_R_factor_R_free": 0.2099,
+      "ls_R_factor_R_work": 0.1717,
+      "ls_R_factor_obs": 0.1736,
+      "ls_d_res_high": 1.8,
+      "ls_d_res_low": 48.46,
+      "ls_number_reflns_R_free": 1265,
+      "ls_number_reflns_R_work": 24036,
+      "ls_number_reflns_obs": 25301,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 99.85,
+      "overall_SU_ML": 0.1655,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.2662,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.8,
+      "d_res_low": 48.46,
+      "number_atoms_solvent": 279,
+      "number_atoms_total": 1823,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1544,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0095,
+      "number": 1595,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.0333,
+      "number": 2164,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0605,
+      "number": 242,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0109,
+      "number": 284,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 5.7499,
+      "number": 215,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.44,
+      "d_resolution_low": 48.47,
+      "number_obs": 25307,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rmerge_I_obs": 0.121,
+      "pdbx_Rpim_I_all": 0.051,
+      "pdbx_Rrim_I_all": 0.131,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 7.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.7,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.44,
+      "d_res_low": 1.48,
+      "number_unique_obs": 4837,
+      "pdbx_CC_half": 0.204,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 99.8
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of TREX1 Homolog Plex9.1"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DNA BINDING PROTEIN",
+    "text": "Exonuclease, TREX1 homolog, DEDDh motif, Apoprotein, DNA BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 20,
+    "space_group_name_H_M": "C 2 2 21",
+    "space_group_name_Hall": "C 2c 2"
+  },
+  "rcsb_id": "9MRC"
+}

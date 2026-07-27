@@ -1,0 +1,541 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-3186-4760",
+      "name": "Azzolino, V.N.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-6994-2416",
+      "name": "Shaqra, A.M.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0003-2270-6613",
+      "name": "Schiffer, C.A.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 56.431,
+    "length_b": 56.431,
+    "length_c": 170.482,
+    "volume": 470158.894
+  },
+  "citation": [
+    {
+      "country": "CH",
+      "id": "primary",
+      "journal_abbrev": "Viruses",
+      "journal_id_ISSN": "1999-4915",
+      "journal_volume": "17",
+      "pdbx_database_id_DOI": "10.3390/v17010075",
+      "pdbx_database_id_PubMed": 39861864,
+      "rcsb_authors": [
+        "Azzolino, V.N.",
+        "Shaqra, A.M.",
+        "Ali, A.",
+        "Kurt Yilmaz, N.",
+        "Schiffer, C.A."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Viruses",
+      "title": "Structural Analysis of Inhibitor Binding to Enterovirus-D68 3C Protease.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8W3C",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8w3c/pdb",
+      "pdbx_database_accession": "pdb_00008w3c"
+    },
+    {
+      "database_code": "D_1000281795",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-01-24T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "17-ID-2",
+      "pdbx_synchrotron_site": "NSLS-II",
+      "pdbx_wavelength_list": "0.9",
+      "source": "SYNCHROTRON",
+      "type": "NSLS-II BEAMLINE 17-ID-2"
+    }
+  ],
+  "entry": {
+    "id": "8W3C"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.7,
+      "density_percent_sol": 66.78,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 4.6,
+      "pdbx_details": "0.07M Sodium Acetate, 6-15% PEG4000, Glycerol 10-35%",
+      "temp": 293.15
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-01-15T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-02-05T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)",
+      "grant_number": "1F30AI181515-01",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-02-22T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "3ZVE",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-02T04:12:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2085,
+      "DCC_Rfree": 0.2306,
+      "EDS_R": 0.2066,
+      "EDS_res_high": 1.97,
+      "EDS_res_low": 32.12,
+      "Fo_Fc_correlation": 0.964,
+      "I_over_sigma": "0.63(1.66A)",
+      "Padilla_Yeates_L2_mean": 0.325,
+      "Padilla_Yeates_L_mean": 0.492,
+      "Wilson_B_aniso": "[33.310,33.310,12.971,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 23.849,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 41.117,
+      "bulk_solvent_k": 0.334,
+      "centric_outliers": 6,
+      "data_anisotropy": 0.767,
+      "data_completeness": 90.84,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 35361,
+      "number_reflns_R_free": 1156,
+      "percent_RSRZ_outliers": 3.21,
+      "percent_free_reflections": 3.27,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.38% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.046"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.74,
+      "bonds_RMSZ": 0.59,
+      "clashscore": 3.38,
+      "num_H_reduce": 1462,
+      "num_angles_RMSZ": 2024,
+      "num_bonds_RMSZ": 1492,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.65
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-02-22T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-01-15T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2025-02-05T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "8W3C",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39861864,
+    "rcsb_id": "8W3C"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1629,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 40,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 187,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 190,
+    "deposited_solvent_atom_count": 130,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 0.9,
+    "diffrn_radiation_wavelength_minimum": 0.9,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 1,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 21.76,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "AG7"
+    ],
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.6,
+    "nonpolymer_molecular_weight_minimum": 0.6,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 21.16,
+    "polymer_molecular_weight_minimum": 21.16,
+    "polymer_monomer_count_maximum": 190,
+    "polymer_monomer_count_minimum": 190,
+    "resolution_combined": [
+      1.97
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "COOT",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.97
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "CH",
+    "id": "primary",
+    "journal_abbrev": "Viruses",
+    "journal_id_ISSN": "1999-4915",
+    "journal_volume": "17",
+    "pdbx_database_id_DOI": "10.3390/v17010075",
+    "pdbx_database_id_PubMed": 39861864,
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-3186-4760",
+      "?",
+      "0000-0003-3491-791X",
+      "0000-0002-5036-676X",
+      "0000-0003-2270-6613"
+    ],
+    "rcsb_authors": [
+      "Azzolino, V.N.",
+      "Shaqra, A.M.",
+      "Ali, A.",
+      "Kurt Yilmaz, N.",
+      "Schiffer, C.A."
+    ],
+    "rcsb_journal_abbrev": "Viruses",
+    "title": "Structural Analysis of Inhibitor Binding to Enterovirus-D68 3C Protease.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 48.63,
+      "ls_R_factor_R_free": 0.2306,
+      "ls_R_factor_R_work": 0.2085,
+      "ls_R_factor_obs": 0.2097,
+      "ls_d_res_high": 1.97,
+      "ls_d_res_low": 32.12,
+      "ls_number_reflns_R_free": 1155,
+      "ls_number_reflns_R_work": 21808,
+      "ls_number_reflns_obs": 22963,
+      "ls_percent_reflns_R_free": 5.03,
+      "ls_percent_reflns_obs": 99.29,
+      "overall_SU_ML": 0.1973,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 35.4774,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.97,
+      "d_res_low": 32.12,
+      "number_atoms_solvent": 130,
+      "number_atoms_total": 1626,
+      "pdbx_number_atoms_ligand": 43,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1453,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0133,
+      "number": 1535,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.2578,
+      "number": 2084,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0812,
+      "number": 233,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0146,
+      "number": 270,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 7.8328,
+      "number": 211,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 36.98,
+      "d_resolution_high": 1.97,
+      "d_resolution_low": 32.12,
+      "number_obs": 22963,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.023,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 11.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.0,
+      "percent_possible_obs": 99.29
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.31,
+      "d_res_high": 1.97,
+      "d_res_low": 2.04,
+      "meanI_over_sigI_obs": 1.4,
+      "number_unique_obs": 2280,
+      "pdbx_CC_half": 0.956,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.0,
+      "percent_possible_all": 99.9
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 3,
+      "version": "0.9.8.6"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of Enterovirus 68 3C Protease with AG7088 at 1.97 Angstroms"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "VIRAL PROTEIN,HYDROLASE/INHIBITOR",
+    "text": "PROTEASE, HYDROLASE, ENTEROVIRUS, 3C PROTEIN, EV68, INHIBITOR, VIRAL PROTEIN, HYDROLASE-INHIBITOR complex"
+  },
+  "symmetry": {
+    "Int_Tables_number": 152,
+    "space_group_name_H_M": "P 31 2 1",
+    "space_group_name_Hall": "P 31 2\""
+  },
+  "rcsb_id": "8W3C"
+}

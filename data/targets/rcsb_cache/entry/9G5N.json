@@ -1,0 +1,669 @@
+{
+  "audit_author": [
+    {
+      "name": "Schulz, E.C.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Prester, A.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Stetten, D.V.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Gore, G.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Hatton, C.E.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Bartels, K.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Leimkohl, J.P.",
+      "pdbx_ordinal": 7
+    },
+    {
+      "name": "Schikora, H.",
+      "pdbx_ordinal": 8
+    },
+    {
+      "name": "Ginn, H.M.",
+      "pdbx_ordinal": 9
+    },
+    {
+      "name": "Tellkamp, F.",
+      "pdbx_ordinal": 10
+    },
+    {
+      "name": "Mehrabi, P.",
+      "pdbx_ordinal": 11
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 94.2,
+    "length_b": 103.05,
+    "length_c": 99.25,
+    "volume": 963450.517
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "16",
+      "page_first": "6553",
+      "page_last": "6553",
+      "pdbx_database_id_DOI": "10.1038/s41467-025-61631-2",
+      "pdbx_database_id_PubMed": 40670369,
+      "rcsb_authors": [
+        "Schulz, E.C.",
+        "Prester, A.",
+        "von Stetten, D.",
+        "Gore, G.",
+        "Hatton, C.E.",
+        "Bartels, K.",
+        "Leimkohl, J.P.",
+        "Schikora, H.",
+        "Ginn, H.M.",
+        "Tellkamp, F.",
+        "Mehrabi, P."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "Probing the modulation of enzyme kinetics by multi-temperature, time-resolved serial crystallography.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9G5N",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9g5n/pdb",
+      "pdbx_database_accession": "pdb_00009g5n"
+    },
+    {
+      "database_code": "D_1292140385",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 293.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "Y"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-09-26T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER R 4M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "P14 (MX2)",
+      "pdbx_synchrotron_site": "PETRA III, EMBL c/o DESY",
+      "pdbx_wavelength_list": "0.9763",
+      "source": "SYNCHROTRON",
+      "type": "PETRA III, EMBL c/o DESY BEAMLINE P14 (MX2)"
+    }
+  ],
+  "entry": {
+    "id": "9G5N"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.78,
+      "density_percent_sol": 55.79,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "BATCH MODE",
+      "pdbx_details": "(35% (w/v) PEG 3350, 200 mM LiSO4 and 10 mM Hepes/NaOH, pH 7.5)",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-07-30T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-02-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 11,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 12,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 13,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Germany",
+      "funding_organization": "German Research Foundation (DFG)",
+      "grant_number": "451079909",
+      "ordinal": 1
+    },
+    {
+      "country": "Germany",
+      "funding_organization": "German Research Foundation (DFG)",
+      "grant_number": "458246365",
+      "ordinal": 2
+    },
+    {
+      "country": "European Union",
+      "funding_organization": "European Research Council (ERC)",
+      "grant_number": "101071843",
+      "ordinal": 3
+    },
+    {
+      "country": "Germany",
+      "funding_organization": "German Research Foundation (DFG)",
+      "grant_number": "194651731",
+      "ordinal": 4
+    },
+    {
+      "country": "Germany",
+      "funding_organization": "German Federal Ministry for Education and Research",
+      "grant_number": "05K16GU1",
+      "ordinal": 5
+    },
+    {
+      "country": "Germany",
+      "funding_organization": "German Federal Ministry for Education and Research",
+      "grant_number": "05K19GU1",
+      "ordinal": 6
+    },
+    {
+      "country": "Germany",
+      "funding_organization": "German Federal Ministry for Education and Research",
+      "grant_number": "05K22GU6",
+      "ordinal": 7
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-07-17T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "6RNF",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_serial_crystallography_sample_delivery": [
+    {
+      "diffrn_id": "1",
+      "method": "fixed target"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-05T17:37:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.163,
+      "DCC_Rfree": 0.1904,
+      "EDS_R": 0.1751,
+      "EDS_res_high": 1.7,
+      "EDS_res_low": 71.49,
+      "Fo_Fc_correlation": 0.951,
+      "I_over_sigma": "2.91(1.70A)",
+      "Padilla_Yeates_L2_mean": 0.321,
+      "Padilla_Yeates_L_mean": 0.487,
+      "Wilson_B_aniso": "[15.199,13.708,17.104,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 15.264,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 42.992,
+      "bulk_solvent_k": 0.35,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.221,
+      "data_completeness": 99.95,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 53349,
+      "number_reflns_R_free": 2607,
+      "percent_RSRZ_outliers": 1.3,
+      "percent_free_reflections": 4.88,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.21% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-l,-k:0.016"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.46,
+      "bonds_RMSZ": 0.27,
+      "clashscore": 2.65,
+      "num_H_reduce": 3138,
+      "num_angles_RMSZ": 4492,
+      "num_bonds_RMSZ": 3327,
+      "percent_ramachandran_outliers": 0.26,
+      "percent_rotamer_outliers": 1.32
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-07-17T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-07-30T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2026-02-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "9G5N",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40670369,
+    "rcsb_id": "9G5N"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 3618,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 386,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 388,
+    "deposited_solvent_atom_count": 360,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9763,
+    "diffrn_radiation_wavelength_minimum": 0.9763,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 10,
+    "molecular_weight": 43.33,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "MG"
+    ],
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.02,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 43.28,
+    "polymer_molecular_weight_minimum": 43.28,
+    "polymer_monomer_count_maximum": 388,
+    "polymer_monomer_count_minimum": 388,
+    "resolution_combined": [
+      1.7
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "CRYSTFEL",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.7
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "16",
+    "page_first": "6553",
+    "page_last": "6553",
+    "pdbx_database_id_DOI": "10.1038/s41467-025-61631-2",
+    "pdbx_database_id_PubMed": 40670369,
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-1685-8605",
+      "0000-0003-2738-7682",
+      "0000-0001-7906-9788",
+      "0009-0003-0585-7038",
+      "0000-0002-8446-0711",
+      "?",
+      "0009-0008-8944-4244",
+      "?",
+      "?",
+      "0000-0002-5670-3544",
+      "0000-0003-3211-6959"
+    ],
+    "rcsb_authors": [
+      "Schulz, E.C.",
+      "Prester, A.",
+      "von Stetten, D.",
+      "Gore, G.",
+      "Hatton, C.E.",
+      "Bartels, K.",
+      "Leimkohl, J.P.",
+      "Schikora, H.",
+      "Ginn, H.M.",
+      "Tellkamp, F.",
+      "Mehrabi, P."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "Probing the modulation of enzyme kinetics by multi-temperature, time-resolved serial crystallography.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 17.69,
+      "ls_R_factor_R_free": 0.1906,
+      "ls_R_factor_R_work": 0.1624,
+      "ls_R_factor_obs": 0.1637,
+      "ls_d_res_high": 1.7,
+      "ls_d_res_low": 71.49,
+      "ls_number_reflns_R_free": 2607,
+      "ls_number_reflns_R_work": 50742,
+      "ls_number_reflns_obs": 53349,
+      "ls_percent_reflns_R_free": 4.89,
+      "ls_percent_reflns_obs": 99.96,
+      "overall_SU_ML": 0.2027,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 15.9087,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.7,
+      "d_res_low": 71.49,
+      "number_atoms_solvent": 360,
+      "number_atoms_total": 3403,
+      "pdbx_number_atoms_ligand": 2,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 3041,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0059,
+      "number": 3367,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.8021,
+      "number": 4581,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0504,
+      "number": 462,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0102,
+      "number": 639,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 13.6378,
+      "number": 1283,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 15.26,
+      "d_resolution_high": 1.7,
+      "d_resolution_low": 71.49,
+      "number_obs": 53351,
+      "pdbx_CC_half": 0.9276,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 5.55,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 380.3,
+      "percent_possible_obs": 99.96
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.7,
+      "d_res_low": 1.761,
+      "number_unique_obs": 5284,
+      "pdbx_CC_half": 0.7623,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "CrystFEL",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "CrystFEL",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Xylose Isomerase collected at 20C using serial fixed-target crystallography"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "ISOMERASE",
+    "text": "Isomerase, Sugar, Serial crystallography, Temperature"
+  },
+  "symmetry": {
+    "Int_Tables_number": 23,
+    "space_group_name_H_M": "I 2 2 2",
+    "space_group_name_Hall": "I 2 2"
+  },
+  "rcsb_id": "9G5N"
+}

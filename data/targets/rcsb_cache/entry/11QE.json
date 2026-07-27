@@ -1,0 +1,651 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-1342-7620",
+      "name": "Tran, T.H.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-7630-3962",
+      "name": "Dharmaiah, S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-9717-4618",
+      "name": "Simanshu, D.K.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 78.68,
+    "length_b": 78.68,
+    "length_c": 56.146
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Biorxiv",
+      "journal_id_ISSN": "2692-8205",
+      "pdbx_database_id_DOI": "10.1101/2024.10.22.618529",
+      "pdbx_database_id_PubMed": 39484452,
+      "rcsb_authors": [
+        "Kwon, J.J.",
+        "Dilly, J.",
+        "Liu, S.",
+        "Kim, E.",
+        "Bian, Y.",
+        "Dharmaiah, S.",
+        "Tran, T.H.",
+        "Kapner, K.S.",
+        "Ly, S.H.",
+        "Yang, X.",
+        "Rabara, D.",
+        "Waybright, T.J.",
+        "Giacomelli, A.O.",
+        "Hong, A.L.",
+        "Misek, S.",
+        "Wang, B.",
+        "Ravi, A.",
+        "Doench, J.G.",
+        "Beroukhim, R.",
+        "Lemke, C.T.",
+        "Haigis, K.M.",
+        "Esposito, D.",
+        "Root, D.E.",
+        "Nissley, D.V.",
+        "Stephen, A.G.",
+        "McCormick, F.",
+        "Simanshu, D.K.",
+        "Hahn, W.C.",
+        "Aguirre, A.J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "bioRxiv",
+      "title": "Comprehensive structure-function analysis reveals gain- and loss-of-function mechanisms impacting oncogenic KRAS activity.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "11QE",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb11qe/pdb",
+      "pdbx_database_accession": "pdb_000011qe"
+    },
+    {
+      "database_code": "D_1000305812",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-07-14T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "24-ID-C",
+      "pdbx_synchrotron_site": "APS",
+      "pdbx_wavelength_list": "0.9791",
+      "source": "SYNCHROTRON",
+      "type": "APS BEAMLINE 24-ID-C"
+    }
+  ],
+  "entry": {
+    "id": "11QE"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.59,
+      "density_percent_sol": 52.43,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "2.2 M (NH4)2SO4; 0.2 K Acetate",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-03-25T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Cancer Institute (NIH/NCI)",
+      "grant_number": "75N91019D00024",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_PDB_obs_spr": [
+    {
+      "date": "2026-03-25T00:00:00.000+00:00",
+      "id": "SPRSDE",
+      "pdb_id": "11QE",
+      "replace_pdb_id": "9C3L"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2026-03-10T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5US4",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-04-05T01:51:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1872,
+      "DCC_Rfree": 0.2046,
+      "EDS_R": 0.1925,
+      "EDS_res_high": 1.23,
+      "EDS_res_low": 43.33,
+      "Fo_Fc_correlation": 0.972,
+      "I_over_sigma": "1.34(1.23A)",
+      "Padilla_Yeates_L2_mean": 0.319,
+      "Padilla_Yeates_L_mean": 0.488,
+      "Wilson_B_aniso": "[21.416,21.416,16.023,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 19.263,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 35.189,
+      "bulk_solvent_k": 0.333,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.275,
+      "data_completeness": 98.66,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 57699,
+      "number_reflns_R_free": 2885,
+      "percent_RSRZ_outliers": 10.12,
+      "percent_free_reflections": 5.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 8.01% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.028"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.52,
+      "bonds_RMSZ": 0.35,
+      "clashscore": 2.16,
+      "num_H_reduce": 1367,
+      "num_angles_RMSZ": 1925,
+      "num_bonds_RMSZ": 1426,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2026-03-10T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-03-25T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-03-25T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "11QE",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39484452,
+    "rcsb_id": "11QE"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1563,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 168,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 170,
+    "deposited_solvent_atom_count": 148,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9791,
+    "diffrn_radiation_wavelength_minimum": 0.9791,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 12,
+    "molecular_weight": 19.93,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "GDP",
+      "MG"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.44,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 19.4,
+    "polymer_molecular_weight_minimum": 19.4,
+    "polymer_monomer_count_maximum": 170,
+    "polymer_monomer_count_minimum": 170,
+    "resolution_combined": [
+      1.23
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.23
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Biorxiv",
+    "journal_id_ISSN": "2692-8205",
+    "pdbx_database_id_DOI": "10.1101/2024.10.22.618529",
+    "pdbx_database_id_PubMed": 39484452,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0003-1922-4509",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-9717-4618",
+      "?",
+      "0000-0002-0701-6203"
+    ],
+    "rcsb_authors": [
+      "Kwon, J.J.",
+      "Dilly, J.",
+      "Liu, S.",
+      "Kim, E.",
+      "Bian, Y.",
+      "Dharmaiah, S.",
+      "Tran, T.H.",
+      "Kapner, K.S.",
+      "Ly, S.H.",
+      "Yang, X.",
+      "Rabara, D.",
+      "Waybright, T.J.",
+      "Giacomelli, A.O.",
+      "Hong, A.L.",
+      "Misek, S.",
+      "Wang, B.",
+      "Ravi, A.",
+      "Doench, J.G.",
+      "Beroukhim, R.",
+      "Lemke, C.T.",
+      "Haigis, K.M.",
+      "Esposito, D.",
+      "Root, D.E.",
+      "Nissley, D.V.",
+      "Stephen, A.G.",
+      "McCormick, F.",
+      "Simanshu, D.K.",
+      "Hahn, W.C.",
+      "Aguirre, A.J."
+    ],
+    "rcsb_journal_abbrev": "bioRxiv",
+    "title": "Comprehensive structure-function analysis reveals gain- and loss-of-function mechanisms impacting oncogenic KRAS activity.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2027,
+      "ls_R_factor_R_work": 0.1853,
+      "ls_R_factor_obs": 0.1862,
+      "ls_d_res_high": 1.23,
+      "ls_d_res_low": 43.33,
+      "ls_number_reflns_R_free": 2881,
+      "ls_number_reflns_obs": 57664,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 98.6,
+      "overall_SU_ML": 0.16,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 20.65,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.23,
+      "d_res_low": 43.33,
+      "number_atoms_solvent": 148,
+      "number_atoms_total": 1515,
+      "pdbx_number_atoms_ligand": 31,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1336,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.005,
+      "number": 1445,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.92,
+      "number": 1969,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 15.351,
+      "number": 554,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.08,
+      "number": 217,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "number": 255,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.23,
+      "d_resolution_low": 56.16,
+      "number_obs": 57669,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.066,
+      "pdbx_Rrim_I_all": 0.068,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 20.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 18.8,
+      "percent_possible_obs": 98.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.766,
+      "d_res_high": 1.23,
+      "d_res_low": 1.3,
+      "number_unique_obs": 6656,
+      "pdbx_CC_half": 0.559,
+      "pdbx_Rrim_I_all": 0.988,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    },
+    {
+      "Rmerge_I_obs": 0.529,
+      "d_res_high": 1.3,
+      "d_res_low": 1.39,
+      "number_unique_obs": 7905,
+      "pdbx_CC_half": 0.755,
+      "pdbx_Rrim_I_all": 0.664,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2
+    },
+    {
+      "Rmerge_I_obs": 0.249,
+      "d_res_high": 1.39,
+      "d_res_low": 1.51,
+      "number_unique_obs": 7643,
+      "pdbx_CC_half": 0.925,
+      "pdbx_Rrim_I_all": 0.315,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 3
+    },
+    {
+      "Rmerge_I_obs": 0.116,
+      "d_res_high": 1.51,
+      "d_res_low": 1.65,
+      "number_unique_obs": 7151,
+      "pdbx_CC_half": 0.977,
+      "pdbx_Rrim_I_all": 0.148,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 4
+    },
+    {
+      "Rmerge_I_obs": 0.072,
+      "d_res_high": 1.65,
+      "d_res_low": 1.84,
+      "number_unique_obs": 6600,
+      "pdbx_CC_half": 0.989,
+      "pdbx_Rrim_I_all": 0.093,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 5
+    },
+    {
+      "Rmerge_I_obs": 0.048,
+      "d_res_high": 1.84,
+      "d_res_low": 2.13,
+      "number_unique_obs": 5768,
+      "pdbx_CC_half": 0.993,
+      "pdbx_Rrim_I_all": 0.062,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 6
+    },
+    {
+      "Rmerge_I_obs": 0.04,
+      "d_res_high": 2.13,
+      "d_res_low": 2.61,
+      "number_unique_obs": 4669,
+      "pdbx_CC_half": 0.994,
+      "pdbx_Rrim_I_all": 0.05,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 7
+    },
+    {
+      "Rmerge_I_obs": 0.038,
+      "d_res_high": 2.61,
+      "d_res_low": 3.68,
+      "number_unique_obs": 3412,
+      "pdbx_CC_half": 0.995,
+      "pdbx_Rrim_I_all": 0.048,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 8
+    },
+    {
+      "Rmerge_I_obs": 0.039,
+      "d_res_high": 3.68,
+      "d_res_low": 56.16,
+      "number_unique_obs": 1693,
+      "pdbx_CC_half": 0.993,
+      "pdbx_Rrim_I_all": 0.048,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 9
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "2.0-5936"
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of GDP-bound KRAS G12D/I55E: Suppressing G12D oncogenicity via second-site I55E mutation"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "ONCOPROTEIN",
+    "text": "KRAS, RAS, nucleotide-binding protein, signaling protein, G12D, I55E, ONCOPROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 150,
+    "space_group_name_H_M": "P 3 2 1"
+  },
+  "rcsb_id": "11QE"
+}

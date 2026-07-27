@@ -1,0 +1,51 @@
+{
+  "query_id": "f4296c94-caa3-4769-a11e-3273539962ea",
+  "result_type": "polymer_entity",
+  "total_count": 1,
+  "result_set": [
+    {
+      "identifier": "4OK7_1",
+      "score": 0.5249307479224377,
+      "services": [
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 21980,
+              "original_score": 66.0,
+              "norm_score": 0.04986149584487535,
+              "match_context": [
+                {
+                  "sequence_identity": 0.279,
+                  "evalue": 3.213e-11,
+                  "bitscore": 66,
+                  "alignment_length": 211,
+                  "mismatches": 103,
+                  "gaps_opened": 6,
+                  "query_beg": 11,
+                  "query_end": 184,
+                  "subject_beg": 23,
+                  "subject_end": 221,
+                  "query_length": 194,
+                  "subject_length": 223,
+                  "query_aligned_seq": "RATGLAYNRAVALLPAVRDGLIQADCTNPNRIAMWLAQIGHQSDDF---------------------KATAEYASG---DAYDTRTDLGNTPEV-------------DGDGRLYKGRSWIMITGKDNYRDFSRWAHGRGLVPTPDYFVVHPLELSELRWAGIGAAWYWTVERPDINALSDRRDLETVTRRINGGLTNLDDRRRRYNLALAV",
+                  "subject_aligned_seq": "RASGINEQLAARWFPHITTAMNEFGITKPDDQAMFIAQVGHESGGFTRLQENFNYSVNGLSGFIRAGRITPDQANALGRKTYEKSLPLERQRAIANLVYSKRMGNNGPGDGWNYRGRGLIQITGLNNYRDC-----GNGLKVD---LVAQPELLAQDEYAARSAAWFFSSK----GCMKYTGDLVRVTQIINGGQNGIDDRRTRYAAARKV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 8173,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

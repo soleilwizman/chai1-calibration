@@ -1,0 +1,709 @@
+{
+  "audit_author": [
+    {
+      "name": "Wang, L.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Ruan, K.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 96.362,
+    "length_b": 96.362,
+    "length_c": 45.566
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "16",
+      "page_first": "6859",
+      "page_last": "6859",
+      "pdbx_database_id_DOI": "10.1038/s41467-025-61732-y",
+      "pdbx_database_id_PubMed": 40715061,
+      "rcsb_authors": [
+        "Wang, L.",
+        "Li, Z.",
+        "Xuan, Y.",
+        "Qin, J.",
+        "Li, S.",
+        "Zhong, F.",
+        "Song, Y.",
+        "Yang, K.",
+        "Lv, M.",
+        "Li, F.",
+        "Jiahai, Z.",
+        "Pan, Y.",
+        "Guang, S.",
+        "Zhao, Y.",
+        "Shi, Y.",
+        "Liu, X.",
+        "Du, Y.",
+        "Gao, J.",
+        "Ruan, K."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "Comprehensive profiling of the catalytic conformations of human Guanylate kinase.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9JAC",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9jac/pdb",
+      "pdbx_database_accession": "pdb_00009jac"
+    },
+    {
+      "database_code": "D_1300050595",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-05-20T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL19U1",
+      "pdbx_synchrotron_site": "SSRF",
+      "pdbx_wavelength_list": "0.97853",
+      "source": "SYNCHROTRON",
+      "type": "SSRF BEAMLINE BL19U1"
+    }
+  ],
+  "entry": {
+    "id": "9JAC"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.79,
+      "density_percent_sol": 55.91,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "35% PEG4000, 0.1 M Ammonium acetate, 0.1 M Trisodium citrate, pH 6.0",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "atom_site",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "atom_site_anisotrop",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Atomic model",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-09-03T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-09-10T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 2,
+      "minor_revision": 0,
+      "ordinal": 3,
+      "revision_date": "2026-07-01T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 11,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.auth_atom_id",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.label_atom_id",
+      "ordinal": 13,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site_anisotrop.pdbx_auth_atom_id",
+      "ordinal": 14,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site_anisotrop.pdbx_label_atom_id",
+      "ordinal": 15,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_atom.atom_id",
+      "ordinal": 16,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_bond.atom_id_1",
+      "ordinal": 17,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_bond.atom_id_2",
+      "ordinal": 18,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "Ministry of Science and Technology (MoST, China)",
+      "grant_number": "2019YFA0508400",
+      "ordinal": 1
+    },
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "grant_number": "22377119",
+      "ordinal": 2
+    },
+    {
+      "country": "China",
+      "funding_organization": "Other private",
+      "grant_number": "YD9100002028",
+      "ordinal": 3
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2024-08-24T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1LVG",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-06T08:45:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1647,
+      "DCC_Rfree": 0.2008,
+      "EDS_R": 0.1803,
+      "EDS_res_high": 1.47,
+      "EDS_res_low": 30.77,
+      "Fo_Fc_correlation": 0.967,
+      "I_over_sigma": "5.39(1.47A)",
+      "Padilla_Yeates_L2_mean": 0.318,
+      "Padilla_Yeates_L_mean": 0.486,
+      "Wilson_B_aniso": "[18.228,18.228,16.531,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 17.647,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 40.289,
+      "bulk_solvent_k": 0.337,
+      "centric_outliers": 2,
+      "data_anisotropy": 0.096,
+      "data_completeness": 97.74,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 40314,
+      "number_reflns_R_free": 2061,
+      "percent_RSRZ_outliers": 2.06,
+      "percent_free_reflections": 5.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.82% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-h-k,-l:0.043"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.5,
+      "bonds_RMSZ": 0.33,
+      "clashscore": 1.65,
+      "num_H_reduce": 1506,
+      "num_angles_RMSZ": 2070,
+      "num_bonds_RMSZ": 1528,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.64
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-08-24T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-09-03T00:00:00.000+00:00",
+    "major_revision": 2,
+    "minor_revision": 0,
+    "revision_date": "2026-07-01T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9JAC",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40715061,
+    "rcsb_id": "9JAC"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1808,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 194,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 198,
+    "deposited_solvent_atom_count": 283,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9785,
+    "diffrn_radiation_wavelength_minimum": 0.9785,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 22.35,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.36,
+    "nonpolymer_molecular_weight_minimum": 0.09,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 21.89,
+    "polymer_molecular_weight_minimum": 21.89,
+    "polymer_monomer_count_maximum": 198,
+    "polymer_monomer_count_minimum": 198,
+    "resolution_combined": [
+      1.47
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "MOLREP",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.47
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "16",
+    "page_first": "6859",
+    "page_last": "6859",
+    "pdbx_database_id_DOI": "10.1038/s41467-025-61732-y",
+    "pdbx_database_id_PubMed": 40715061,
+    "rcsb_ORCID_identifiers": [
+      "0009-0004-9687-7866",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-9434-3762",
+      "?",
+      "0000-0003-0532-5368",
+      "0000-0001-7700-9634",
+      "0000-0001-5400-0135",
+      "0000-0002-1348-4759",
+      "0000-0002-7480-5085",
+      "0000-0002-6318-9256",
+      "0000-0001-9377-7553",
+      "0000-0001-9358-0451"
+    ],
+    "rcsb_authors": [
+      "Wang, L.",
+      "Li, Z.",
+      "Xuan, Y.",
+      "Qin, J.",
+      "Li, S.",
+      "Zhong, F.",
+      "Song, Y.",
+      "Yang, K.",
+      "Lv, M.",
+      "Li, F.",
+      "Jiahai, Z.",
+      "Pan, Y.",
+      "Guang, S.",
+      "Zhao, Y.",
+      "Shi, Y.",
+      "Liu, X.",
+      "Du, Y.",
+      "Gao, J.",
+      "Ruan, K."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "Comprehensive profiling of the catalytic conformations of human Guanylate kinase.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2006,
+      "ls_R_factor_R_work": 0.1639,
+      "ls_R_factor_obs": 0.1658,
+      "ls_d_res_high": 1.47,
+      "ls_d_res_low": 30.77,
+      "ls_number_reflns_R_free": 2049,
+      "ls_number_reflns_obs": 40314,
+      "ls_percent_reflns_R_free": 5.08,
+      "ls_percent_reflns_obs": 97.76,
+      "overall_SU_ML": 0.18,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.33,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 23.26,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "1LVG",
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.47,
+      "d_res_low": 30.77,
+      "number_atoms_solvent": 283,
+      "number_atoms_total": 1793,
+      "pdbx_number_atoms_ligand": 30,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1480,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "number": 1553,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.929,
+      "number": 2112,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 14.204,
+      "number": 584,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.077,
+      "number": 243,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "number": 275,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.47,
+      "d_resolution_low": 48.18,
+      "number_obs": 40564,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.046,
+      "pdbx_Rpim_I_all": 0.016,
+      "pdbx_Rrim_I_all": 0.049,
+      "pdbx_chi_squared": 1.08,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 26.7,
+      "pdbx_number_measured_all": 371908,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 9.2,
+      "percent_possible_obs": 98.3
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.503,
+      "d_res_high": 1.47,
+      "d_res_low": 1.5,
+      "number_measured_all": 9157,
+      "number_unique_obs": 1965,
+      "pdbx_CC_half": 0.798,
+      "pdbx_Rpim_I_all": 0.259,
+      "pdbx_Rrim_I_all": 0.571,
+      "pdbx_chi_squared": 1.36,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 3.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.7,
+      "percent_possible_obs": 98.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.19_4092: ???)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "GMPK in complex with GMP"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "guanylate kinase, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 170,
+    "space_group_name_H_M": "P 65"
+  },
+  "rcsb_id": "9JAC"
+}

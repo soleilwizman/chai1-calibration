@@ -1,0 +1,576 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-9142-9093",
+      "name": "Nilson, D.J.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Fedorov, E.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-7753-0240",
+      "name": "Ghosh, A.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 18,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 95.16,
+    "length_b": 95.16,
+    "length_c": 248.942
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nucleic Acids Res.",
+      "journal_id_ASTM": "NARHAD",
+      "journal_id_CSD": "0389",
+      "journal_id_ISSN": "1362-4962",
+      "journal_volume": "53",
+      "pdbx_database_id_DOI": "10.1093/nar/gkaf538",
+      "pdbx_database_id_PubMed": 40682821,
+      "rcsb_authors": [
+        "Nilson, D.J.",
+        "Schwer, B.",
+        "Almo, S.C.",
+        "Shuman, S.",
+        "Ghosh, A."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nucleic Acids Res",
+      "title": "Structural basis for sensitivity and acquired resistance of fungal cap guanine-N7 methyltransferases to the antifungal antibiotic sinefungin.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9MG4",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9mg4/pdb",
+      "pdbx_database_accession": "pdb_00009mg4"
+    },
+    {
+      "database_code": "D_1000290233",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "CCD",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2015-10-14T00:00:00.000+00:00",
+      "type": "ADSC QUANTUM 315"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X29A",
+      "pdbx_synchrotron_site": "NSLS",
+      "pdbx_wavelength_list": "0.98",
+      "source": "SYNCHROTRON",
+      "type": "NSLS BEAMLINE X29A"
+    }
+  ],
+  "entry": {
+    "id": "9MG4"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.16,
+      "density_percent_sol": 61.1,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 4.5,
+      "pdbx_details": "0.8 M Sodium Phosphate, 1.2 M Potassium Phosphate, and 0.1 M Sodium Acetate",
+      "temp": 292.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-07-09T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-07-16T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2025-08-06T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+      "grant_number": "5T32GM007491",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+      "grant_number": "S10 OD020068",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "9MG5",
+      "db_name": "PDB"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "9MG6",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-12-10T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "9MG0",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-12T20:55:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.164,
+      "DCC_Rfree": 0.1867,
+      "EDS_R": 0.1703,
+      "EDS_res_high": 1.75,
+      "EDS_res_low": 24.83,
+      "Fo_Fc_correlation": 0.959,
+      "I_over_sigma": "3.05(1.76A)",
+      "Padilla_Yeates_L2_mean": 0.305,
+      "Padilla_Yeates_L_mean": 0.474,
+      "Wilson_B_aniso": "[13.425,13.425,20.625,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 15.427,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 42.329,
+      "bulk_solvent_k": 0.381,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.455,
+      "data_completeness": 99.93,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 43914,
+      "number_reflns_R_free": 2279,
+      "percent_RSRZ_outliers": 3.38,
+      "percent_free_reflections": 5.19,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.06% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.47,
+      "bonds_RMSZ": 0.25,
+      "clashscore": 2.62,
+      "num_H_reduce": 2460,
+      "num_angles_RMSZ": 3443,
+      "num_bonds_RMSZ": 2551,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.38
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-12-10T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-07-09T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2025-08-06T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9MG4",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40682821,
+    "rcsb_id": "9MG4"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 2812,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 296,
+    "deposited_nonpolymer_entity_instance_count": 5,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 297,
+    "deposited_solvent_atom_count": 313,
+    "deposited_unmodeled_polymer_monomer_count": 1,
+    "diffrn_radiation_wavelength_maximum": 0.98,
+    "diffrn_radiation_wavelength_minimum": 0.98,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 34.93,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.38,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 34.3,
+    "polymer_molecular_weight_minimum": 34.3,
+    "polymer_monomer_count_maximum": 297,
+    "polymer_monomer_count_minimum": 297,
+    "resolution_combined": [
+      1.75
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "IMOSFLM",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.75
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nucleic Acids Res.",
+    "journal_id_ASTM": "NARHAD",
+    "journal_id_CSD": "0389",
+    "journal_id_ISSN": "1362-4962",
+    "journal_volume": "53",
+    "pdbx_database_id_DOI": "10.1093/nar/gkaf538",
+    "pdbx_database_id_PubMed": 40682821,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Nilson, D.J.",
+      "Schwer, B.",
+      "Almo, S.C.",
+      "Shuman, S.",
+      "Ghosh, A."
+    ],
+    "rcsb_journal_abbrev": "Nucleic Acids Res",
+    "title": "Structural basis for sensitivity and acquired resistance of fungal cap guanine-N7 methyltransferases to the antifungal antibiotic sinefungin.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1863,
+      "ls_R_factor_R_work": 0.1637,
+      "ls_R_factor_obs": 0.1648,
+      "ls_d_res_high": 1.75,
+      "ls_d_res_low": 24.83,
+      "ls_number_reflns_R_free": 2279,
+      "ls_number_reflns_obs": 43909,
+      "ls_percent_reflns_R_free": 5.19,
+      "ls_percent_reflns_obs": 99.98,
+      "overall_SU_ML": 0.15,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 17.16,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.75,
+      "d_res_low": 24.83,
+      "number_atoms_solvent": 313,
+      "number_atoms_total": 2766,
+      "pdbx_number_atoms_ligand": 42,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2411,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.006,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.811,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 18.278,
+      "number": 978,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.054,
+      "number": 360,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "number": 452,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.75,
+      "d_resolution_low": 24.83,
+      "number_obs": 43915,
+      "pdbx_CC_half": 0.989,
+      "pdbx_Rmerge_I_obs": 0.186,
+      "pdbx_Rpim_I_all": 0.057,
+      "pdbx_Rrim_I_all": 0.194,
+      "pdbx_chi_squared": 0.82,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 9.0,
+      "pdbx_number_measured_all": 494627,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 11.3,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.606,
+      "d_res_high": 1.75,
+      "d_res_low": 1.79,
+      "number_measured_all": 25862,
+      "number_unique_obs": 2478,
+      "pdbx_CC_half": 0.897,
+      "pdbx_Rpim_I_all": 0.196,
+      "pdbx_Rrim_I_all": 0.637,
+      "pdbx_chi_squared": 0.62,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 3.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 10.4,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.21rc1_5156)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "iMOSFLM",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Structure of Saccharomyces cerevisiae mRNA cap (guanine-N7) methyltransferase, Abd1, in complex with SAH"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "METHYLTRANSFERASE, MRNA, CAP, SAH, TRANSFERASE, Abd1, S. cerevisiae"
+  },
+  "symmetry": {
+    "Int_Tables_number": 155,
+    "space_group_name_H_M": "H 3 2"
+  },
+  "rcsb_id": "9MG4"
+}

@@ -1,0 +1,623 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-9804-6346",
+      "name": "Novakova, Z.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0003-2751-3060",
+      "name": "Barinka, C.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-5581-8737",
+      "name": "Motlova, L.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 99.86,
+    "angle_gamma": 90.0,
+    "length_a": 48.265,
+    "length_b": 61.744,
+    "length_c": 49.481
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Novakova, Z.",
+        "Barinka, C.",
+        "Motlova, L."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "X-ray structure of Leptospira interrogans Histone deacetylase 11 (HDAC11) in complex with cis-5-dodecenoic acid."
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9GZ5",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9gz5/pdb",
+      "pdbx_database_accession": "pdb_00009gz5"
+    },
+    {
+      "database_code": "D_1292141710",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-05-10T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 S 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "14.1",
+      "pdbx_synchrotron_site": "BESSY",
+      "pdbx_wavelength_list": "0.9184",
+      "source": "SYNCHROTRON",
+      "type": "BESSY BEAMLINE 14.1"
+    }
+  ],
+  "entry": {
+    "id": "9GZ5"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.07,
+      "density_percent_sol": 40.61,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 7.4,
+      "pdbx_details": "1 protein:2 precipitant\n100 mM HEPES pH 7.4, \n200 mM MgCl2, \n23% PEG3350",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-10-15T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-10-03T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T08:38:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1729,
+      "DCC_Rfree": 0.2006,
+      "EDS_R": 0.1734,
+      "EDS_res_high": 1.55,
+      "EDS_res_low": 48.75,
+      "Fo_Fc_correlation": 0.971,
+      "I_over_sigma": "1.15(1.55A)",
+      "Padilla_Yeates_L2_mean": 0.323,
+      "Padilla_Yeates_L_mean": 0.492,
+      "Wilson_B_aniso": "[21.267,16.059,19.392,0.000,-2.251,0.000]",
+      "Wilson_B_estimate": 18.594,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 30.499,
+      "bulk_solvent_k": 0.379,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.275,
+      "data_completeness": 98.64,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 40678,
+      "number_reflns_R_free": 2020,
+      "percent_RSRZ_outliers": 2.0,
+      "percent_free_reflections": 4.9,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 8.62% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "l,-k,h:0.025"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.91,
+      "bonds_RMSZ": 0.77,
+      "clashscore": 2.17,
+      "num_H_reduce": 2491,
+      "num_angles_RMSZ": 3485,
+      "num_bonds_RMSZ": 2581,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.75
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-10-03T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-10-15T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-10-15T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "entry_id": "9GZ5",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9GZ5"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 2705,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 300,
+    "deposited_nonpolymer_entity_instance_count": 7,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 305,
+    "deposited_solvent_atom_count": 149,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 0.9184,
+    "diffrn_radiation_wavelength_minimum": 0.9184,
+    "disulfide_bond_count": 0,
+    "entity_count": 7,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 12,
+    "molecular_weight": 35.68,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "A1IRB",
+      "K",
+      "ZN"
+    ],
+    "nonpolymer_entity_count": 5,
+    "nonpolymer_molecular_weight_maximum": 0.2,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 35.07,
+    "polymer_molecular_weight_minimum": 35.07,
+    "polymer_monomer_count_maximum": 305,
+    "polymer_monomer_count_minimum": 305,
+    "resolution_combined": [
+      1.55
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "AUTO-RICKSHAW",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.55
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-9804-6346",
+      "0000-0003-2751-3060",
+      "0000-0002-5581-8737"
+    ],
+    "rcsb_authors": [
+      "Novakova, Z.",
+      "Barinka, C.",
+      "Motlova, L."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "X-ray structure of Leptospira interrogans Histone deacetylase 11 (HDAC11) in complex with cis-5-dodecenoic acid."
+  },
+  "refine": [
+    {
+      "B_iso_mean": 21.427,
+      "aniso_B_1_1": 0.65,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": -0.58,
+      "aniso_B_2_2": -0.74,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": 0.28,
+      "correlation_coeff_Fo_to_Fc": 0.97,
+      "correlation_coeff_Fo_to_Fc_free": 0.96,
+      "ls_R_factor_R_free": 0.20071,
+      "ls_R_factor_R_work": 0.17295,
+      "ls_R_factor_obs": 0.17438,
+      "ls_d_res_high": 1.55,
+      "ls_d_res_low": 48.75,
+      "ls_number_reflns_R_free": 2020,
+      "ls_number_reflns_obs": 38658,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 98.58,
+      "overall_SU_B": 1.665,
+      "overall_SU_ML": 0.059,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.086,
+      "pdbx_overall_ESU_R_Free": 0.084,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "1",
+      "d_res_high": 1.55,
+      "d_res_low": 48.75,
+      "number_atoms_solvent": 149,
+      "number_atoms_total": 2635,
+      "pdbx_number_atoms_ligand": 36,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2450,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.012,
+      "dev_ideal_target": 0.019,
+      "number": 2619,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.474,
+      "dev_ideal_target": 1.971,
+      "number": 3540,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.404,
+      "dev_ideal_target": 5.0,
+      "number": 317,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 38.25,
+      "dev_ideal_target": 24.462,
+      "number": 130,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 13.928,
+      "dev_ideal_target": 15.0,
+      "number": 455,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 10.342,
+      "dev_ideal_target": 15.0,
+      "number": 11,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.109,
+      "dev_ideal_target": 0.2,
+      "number": 377,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.008,
+      "dev_ideal_target": 0.021,
+      "number": 2009,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_other"
+    },
+    {
+      "dev_ideal": 1.269,
+      "dev_ideal_target": 1.902,
+      "number": 1244,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 1.824,
+      "dev_ideal_target": 2.848,
+      "number": 1569,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 2.304,
+      "dev_ideal_target": 2.197,
+      "number": 1375,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 4.829,
+      "dev_ideal_target": 16.802,
+      "number": 4211,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_free"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_bonded"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.55,
+      "d_resolution_low": 48.75,
+      "number_obs": 40698,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rmerge_I_obs": 0.116,
+      "pdbx_Rpim_I_all": 0.048,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.0,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.6,
+      "percent_possible_obs": 98.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.681,
+      "d_res_high": 1.55,
+      "d_res_low": 1.58,
+      "meanI_over_sigI_obs": 1.1,
+      "number_unique_obs": 1844,
+      "pdbx_CC_half": 0.451,
+      "pdbx_Rpim_I_all": 0.621,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 91.2
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0135"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "Auto-Rickshaw",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "X-ray structure of Leptospira interrogans Histone deacetylase 11 (HDAC11) in complex with cis-5-dodecenoic acid."
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "Histone deacetylase 11, Leptospira interrogans, class IV HDAC, zinc binding group, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1"
+  },
+  "rcsb_id": "9GZ5"
+}

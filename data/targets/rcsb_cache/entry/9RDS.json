@@ -1,0 +1,646 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-6157-2860",
+      "name": "Mozajew, M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0757-5179",
+      "name": "Kluza, A.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-4117-9225",
+      "name": "Sikorska, J.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0003-2452-0724",
+      "name": "Sulkowska, J.I.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 57.69,
+    "length_b": 57.69,
+    "length_c": 70.49,
+    "volume": 203169.831
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+      "journal_id_ASTM": "PNASA6",
+      "journal_id_CSD": "0040",
+      "journal_id_ISSN": "1091-6490",
+      "journal_volume": "123",
+      "page_first": "e2525920123",
+      "page_last": "e2525920123",
+      "pdbx_database_id_DOI": "10.1073/pnas.2525920123",
+      "pdbx_database_id_PubMed": 42018416,
+      "rcsb_authors": [
+        "Sikora, M.",
+        "Mozajew, M.",
+        "Sikorska, J.A.",
+        "da Silva, F.B.",
+        "Perlinska, A.P.",
+        "Kluza, A.",
+        "Niewieczerzal, S.",
+        "Lukaszewicz, M.",
+        "Wielgus-Kutrowska, B.",
+        "Stachurska-Korzeniowska, K.",
+        "Jackson, S.E.",
+        "Sulkowska, J.I."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+      "title": "Novel Knotted Solenoid fold with order-shifted coil arrangement leads to nontrivial 3 1 topology.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9RDS",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9rds/pdb",
+      "pdbx_database_accession": "pdb_00009rds"
+    },
+    {
+      "database_code": "D_1292147911",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-06-20T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "P13 (MX1)",
+      "pdbx_synchrotron_site": "PETRA III, EMBL c/o DESY",
+      "pdbx_wavelength_list": "0.97624",
+      "source": "SYNCHROTRON",
+      "type": "PETRA III, EMBL c/o DESY BEAMLINE P13 (MX1)"
+    }
+  ],
+  "entry": {
+    "id": "9RDS"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.17,
+      "density_percent_sol": 43.2,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "0.1M Sodium acetate (pH 4.5),\n0.2M Li2SO4, 30%w/v PEG8000,\nprotein solution 10 mg/ml in 50 mM Tris, 200 mM NaCl, 5% glycerol, ph 8 (at 277 K)",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-04-22T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-05-06T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ASTM",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 10,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 11,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 12,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 13,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 14,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Poland",
+      "funding_organization": "Polish National Science Centre",
+      "grant_number": "2021/43/I/NZ1/03341",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "9QIX",
+      "db_name": "PDB",
+      "details": "The same knot type."
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2025-06-03T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-04-16T15:06:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1299,
+      "DCC_Rfree": 0.1285,
+      "EDS_R": 0.1299,
+      "EDS_res_high": 1.22,
+      "EDS_res_low": 28.85,
+      "Fo_Fc_correlation": 0.984,
+      "I_over_sigma": "1.03(1.22A)",
+      "Padilla_Yeates_L2_mean": 0.342,
+      "Padilla_Yeates_L_mean": 0.508,
+      "Wilson_B_aniso": "[12.430,12.430,13.589,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 12.785,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 50.587,
+      "bulk_solvent_k": 0.434,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.09,
+      "data_completeness": 91.26,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 40919,
+      "number_reflns_R_free": 2046,
+      "percent_RSRZ_outliers": 1.53,
+      "percent_free_reflections": 5.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.99% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.026"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.6,
+      "bonds_RMSZ": 0.47,
+      "clashscore": 1.38,
+      "num_H_reduce": 1080,
+      "num_angles_RMSZ": 1424,
+      "num_bonds_RMSZ": 1050,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-06-03T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-04-22T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2026-05-06T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9RDS",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 42018416,
+    "rcsb_id": "9RDS"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 2,
+    "deposited_atom_count": 1229,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1086,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 131,
+    "deposited_nonpolymer_entity_instance_count": 12,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 139,
+    "deposited_solvent_atom_count": 146,
+    "deposited_unmodeled_polymer_monomer_count": 8,
+    "diffrn_radiation_wavelength_maximum": 0.9762,
+    "diffrn_radiation_wavelength_minimum": 0.9762,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 15.74,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.1,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 14.97,
+    "polymer_molecular_weight_minimum": 14.97,
+    "polymer_monomer_count_maximum": 139,
+    "polymer_monomer_count_minimum": 139,
+    "resolution_combined": [
+      1.22
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "COOT",
+      "MXCUBE",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.22
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+    "journal_id_ASTM": "PNASA6",
+    "journal_id_CSD": "0040",
+    "journal_id_ISSN": "1091-6490",
+    "journal_volume": "123",
+    "page_first": "e2525920123",
+    "page_last": "e2525920123",
+    "pdbx_database_id_DOI": "10.1073/pnas.2525920123",
+    "pdbx_database_id_PubMed": 42018416,
+    "rcsb_ORCID_identifiers": [
+      "0009-0003-0289-276X",
+      "0000-0001-6157-2860",
+      "0000-0002-4117-9225",
+      "0000-0002-0285-8700",
+      "?",
+      "?",
+      "0000-0002-7563-7212",
+      "?",
+      "0000-0002-5049-864X",
+      "?",
+      "0000-0002-7470-9800",
+      "0000-0003-2452-0724"
+    ],
+    "rcsb_authors": [
+      "Sikora, M.",
+      "Mozajew, M.",
+      "Sikorska, J.A.",
+      "da Silva, F.B.",
+      "Perlinska, A.P.",
+      "Kluza, A.",
+      "Niewieczerzal, S.",
+      "Lukaszewicz, M.",
+      "Wielgus-Kutrowska, B.",
+      "Stachurska-Korzeniowska, K.",
+      "Jackson, S.E.",
+      "Sulkowska, J.I."
+    ],
+    "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+    "title": "Novel Knotted Solenoid fold with order-shifted coil arrangement leads to nontrivial 3 1 topology.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "B_iso_mean": 20.66,
+      "ls_R_factor_R_free": 0.1562,
+      "ls_R_factor_R_work": 0.1299,
+      "ls_R_factor_obs": 0.1312,
+      "ls_d_res_high": 1.22,
+      "ls_d_res_low": 28.85,
+      "ls_number_reflns_R_free": 1996,
+      "ls_number_reflns_R_work": 38919,
+      "ls_number_reflns_obs": 40915,
+      "ls_percent_reflns_R_free": 4.88,
+      "ls_percent_reflns_obs": 99.97,
+      "overall_SU_ML": 0.1282,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 17.3269,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.22,
+      "d_res_low": 28.85,
+      "number_atoms_solvent": 146,
+      "number_atoms_total": 1181,
+      "pdbx_number_atoms_ligand": 49,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 986,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0106,
+      "number": 1093,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.1074,
+      "number": 1469,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0874,
+      "number": 163,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0176,
+      "number": 197,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 11.9588,
+      "number": 396,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 19.32,
+      "d_resolution_high": 1.22,
+      "d_resolution_low": 40.76,
+      "number_obs": 40919,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rrim_I_all": 0.082,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.78,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 9.86,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.22,
+      "d_res_low": 1.29,
+      "meanI_over_sigI_obs": 1.22,
+      "number_unique_obs": 6516,
+      "pdbx_CC_half": 0.567,
+      "pdbx_Rrim_I_all": 1.583,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 9.54,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "data collection",
+      "name": "MxCuBE",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 5,
+      "version": "1.21.2_5419"
+    },
+    {
+      "classification": "model building",
+      "name": "PHENIX",
+      "pdbx_ordinal": 6
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 7
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Protein with novel 3_1 knotted solenoid fold"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "UNKNOWN FUNCTION",
+    "text": "3_1 Knot, Novel Fold, Solenoid, Brevundimonas sp., UNKNOWN FUNCTION"
+  },
+  "symmetry": {
+    "Int_Tables_number": 152,
+    "space_group_name_H_M": "P 31 2 1",
+    "space_group_name_Hall": "P 31 2\""
+  },
+  "rcsb_id": "9RDS"
+}

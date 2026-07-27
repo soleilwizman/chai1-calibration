@@ -1,0 +1,690 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-2456-1147",
+      "name": "Iizuka, Y.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-8809-7262",
+      "name": "Kikuchi, M.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-6013-6346",
+      "name": "Yamauchi, T.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0002-3128-7695",
+      "name": "Tsunoda, M.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 18,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 77.646,
+    "length_b": 77.646,
+    "length_c": 230.39
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Iizuka, Y.",
+        "Kikuchi, M.",
+        "Yamauchi, T.",
+        "Tsunoda, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal Structure of 5'-Deoxy-5'-methylthioadenosine phosphorylase from Aeropyrum pernix complex with 5'-Deoxy-5'-methylthioadenosine"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8WS2",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8ws2/pdb",
+      "pdbx_database_accession": "pdb_00008ws2"
+    },
+    {
+      "database_code": "D_1300040704",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-06-24T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL-17A",
+      "pdbx_synchrotron_site": "Photon Factory",
+      "pdbx_wavelength_list": "1.0",
+      "source": "SYNCHROTRON",
+      "type": "PHOTON FACTORY BEAMLINE BL-17A"
+    }
+  ],
+  "entry": {
+    "id": "8WS2"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.16,
+      "density_percent_sol": 43.05,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "COUNTER-DIFFUSION",
+      "pH": 5.4,
+      "pdbx_details": "The mixture of protein solution and agarose was filled into a glass capillary, and the capillary was immersed in the reservoir solution for crystallization. The composition of the reservoir solution was as follows.15%(v/v)PEG#200,0.1 M phosphate citrate pH 5.4, 5 mM MTA",
+      "temp": 293.2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-10-09T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2023-10-16T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "1WTA",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T23:07:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1424,
+      "DCC_Rfree": 0.1644,
+      "EDS_R": 0.1662,
+      "EDS_res_high": 1.22,
+      "EDS_res_low": 38.85,
+      "Fo_Fc_correlation": 0.972,
+      "I_over_sigma": "1.32(1.22A)",
+      "Padilla_Yeates_L2_mean": 0.328,
+      "Padilla_Yeates_L_mean": 0.495,
+      "Wilson_B_aniso": "[12.494,12.494,10.278,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 11.694,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 42.472,
+      "bulk_solvent_k": 0.374,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.189,
+      "data_completeness": 99.97,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 79807,
+      "number_reflns_R_free": 4025,
+      "percent_RSRZ_outliers": 2.56,
+      "percent_free_reflections": 5.04,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.10% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.03,
+      "bonds_RMSZ": 0.69,
+      "clashscore": 7.53,
+      "num_H_reduce": 2319,
+      "num_angles_RMSZ": 3189,
+      "num_bonds_RMSZ": 2347,
+      "percent_ramachandran_outliers": 0.74,
+      "percent_rotamer_outliers": 1.3
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-10-16T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-10-09T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-10-09T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "8WS2",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8WS2"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 4,
+    "deposited_atom_count": 2474,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 273,
+    "deposited_nonpolymer_entity_instance_count": 5,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 275,
+    "deposited_solvent_atom_count": 150,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 3,
+    "entity_count": 6,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 31.53,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 4,
+    "nonpolymer_molecular_weight_maximum": 0.3,
+    "nonpolymer_molecular_weight_minimum": 0.09,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 30.78,
+    "polymer_molecular_weight_minimum": 30.78,
+    "polymer_monomer_count_maximum": 275,
+    "polymer_monomer_count_minimum": 275,
+    "resolution_combined": [
+      1.22
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "COOT",
+      "MOLREP",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.22
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-2456-1147",
+      "0000-0001-8809-7262",
+      "0000-0001-6013-6346",
+      "0000-0002-3128-7695"
+    ],
+    "rcsb_authors": [
+      "Iizuka, Y.",
+      "Kikuchi, M.",
+      "Yamauchi, T.",
+      "Tsunoda, M."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal Structure of 5'-Deoxy-5'-methylthioadenosine phosphorylase from Aeropyrum pernix complex with 5'-Deoxy-5'-methylthioadenosine"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 15.772,
+      "aniso_B_1_1": 0.006,
+      "aniso_B_1_2": 0.003,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": 0.006,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": -0.02,
+      "correlation_coeff_Fo_to_Fc": 0.976,
+      "correlation_coeff_Fo_to_Fc_free": 0.975,
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.166,
+      "ls_R_factor_R_work": 0.1422,
+      "ls_R_factor_all": 0.143,
+      "ls_d_res_high": 1.22,
+      "ls_d_res_low": 38.853,
+      "ls_number_reflns_R_free": 4025,
+      "ls_number_reflns_R_work": 75785,
+      "ls_number_reflns_obs": 79810,
+      "ls_percent_reflns_R_free": 5.043,
+      "ls_percent_reflns_obs": 99.98,
+      "overall_SU_B": 1.585,
+      "overall_SU_ML": 0.029,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.038,
+      "pdbx_overall_ESU_R_Free": 0.037,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_starting_model": "1WTA",
+      "solvent_model_details": "MASK BULK SOLVENT"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.22,
+      "d_res_low": 38.853,
+      "number_atoms_solvent": 150,
+      "number_atoms_total": 2341,
+      "pdbx_number_atoms_ligand": 49,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2142,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.011,
+      "dev_ideal_target": 0.012,
+      "number": 2389,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.016,
+      "number": 2272,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.93,
+      "dev_ideal_target": 1.818,
+      "number": 3259,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 0.665,
+      "dev_ideal_target": 1.754,
+      "number": 5217,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.92,
+      "dev_ideal_target": 5.0,
+      "number": 301,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 10.009,
+      "dev_ideal_target": 5.0,
+      "number": 28,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 0.153,
+      "dev_ideal_target": 5.0,
+      "number": 1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_other_2_deg"
+    },
+    {
+      "dev_ideal": 12.682,
+      "dev_ideal_target": 10.0,
+      "number": 378,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 16.06,
+      "dev_ideal_target": 10.0,
+      "number": 106,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_6_deg"
+    },
+    {
+      "dev_ideal": 0.101,
+      "dev_ideal_target": 0.2,
+      "number": 356,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.011,
+      "dev_ideal_target": 0.02,
+      "number": 2886,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 571,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 0.224,
+      "dev_ideal_target": 0.2,
+      "number": 444,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.205,
+      "dev_ideal_target": 0.2,
+      "number": 2116,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_other"
+    },
+    {
+      "dev_ideal": 0.18,
+      "dev_ideal_target": 0.2,
+      "number": 1174,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "dev_ideal": 0.084,
+      "dev_ideal_target": 0.2,
+      "number": 1216,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbtor_other"
+    },
+    {
+      "dev_ideal": 0.119,
+      "dev_ideal_target": 0.2,
+      "number": 113,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.162,
+      "dev_ideal_target": 0.2,
+      "number": 46,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.209,
+      "dev_ideal_target": 0.2,
+      "number": 164,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "dev_ideal": 0.136,
+      "dev_ideal_target": 0.2,
+      "number": 36,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.064,
+      "dev_ideal_target": 0.2,
+      "number": 1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "dev_ideal": 3.987,
+      "dev_ideal_target": 1.351,
+      "number": 1163,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 3.983,
+      "dev_ideal_target": 1.351,
+      "number": 1163,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 5.739,
+      "dev_ideal_target": 2.434,
+      "number": 1462,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 5.737,
+      "dev_ideal_target": 2.434,
+      "number": 1463,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 6.352,
+      "dev_ideal_target": 1.637,
+      "number": 1226,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 6.353,
+      "dev_ideal_target": 1.638,
+      "number": 1227,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 8.795,
+      "dev_ideal_target": 2.877,
+      "number": 1791,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 8.792,
+      "dev_ideal_target": 2.878,
+      "number": 1792,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 11.891,
+      "dev_ideal_target": 15.62,
+      "number": 2658,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_it"
+    },
+    {
+      "dev_ideal": 11.89,
+      "dev_ideal_target": 15.624,
+      "number": 2659,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_other"
+    },
+    {
+      "dev_ideal": 3.908,
+      "dev_ideal_target": 3.0,
+      "number": 4661,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.22,
+      "d_resolution_low": 43.74,
+      "number_obs": 79813,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.107,
+      "pdbx_Rpim_I_all": 0.053,
+      "pdbx_Rrim_I_all": 0.12,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 10.0,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 2.221,
+      "d_res_high": 1.22,
+      "d_res_low": 1.24,
+      "number_unique_obs": 3895,
+      "pdbx_CC_half": 0.382,
+      "pdbx_Rpim_I_all": 1.092,
+      "pdbx_Rrim_I_all": 2.48,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 10.0
+    },
+    {
+      "Rmerge_I_obs": 0.023,
+      "d_res_high": 6.68,
+      "d_res_low": 43.74,
+      "number_unique_obs": 5046,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.011,
+      "pdbx_Rrim_I_all": 0.025,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 9.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0430 (refmacat 0.4.77)"
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 2,
+      "version": "0.9.8.95"
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of 5'-Deoxy-5'-methylthioadenosine phosphorylase from Aeropyrum pernix complex with 5'-Deoxy-5'-methylthioadenosine"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "MTAP, complex, phosphorylase, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 155,
+    "space_group_name_H_M": "H 3 2"
+  },
+  "rcsb_id": "8WS2"
+}

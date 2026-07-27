@@ -1,0 +1,664 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-5762-4901",
+      "name": "Scaillet, T.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-4920-6857",
+      "name": "Wouters, J.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 24,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 143.1,
+    "length_b": 143.1,
+    "length_c": 143.1,
+    "volume": 2930345.991
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Proteins",
+      "journal_id_ASTM": "PSFGEY",
+      "journal_id_CSD": "0867",
+      "journal_id_ISSN": "1097-0134",
+      "journal_volume": "94",
+      "page_first": "502",
+      "page_last": "514",
+      "pdbx_database_id_DOI": "10.1002/prot.70027",
+      "pdbx_database_id_PubMed": 40719280,
+      "rcsb_authors": [
+        "Scaillet, T.",
+        "Pierson, E.",
+        "Fillet, M.",
+        "Wouters, J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Proteins",
+      "title": "Structural and Enzymological Characterization of Phosphoserine Phosphatase From Brucella melitensis.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9FQ5",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9fq5/pdb",
+      "pdbx_database_accession": "pdb_00009fq5"
+    },
+    {
+      "database_code": "D_1292139433",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-07-14T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "PROXIMA 1",
+      "pdbx_synchrotron_site": "SOLEIL",
+      "pdbx_wavelength_list": "0.97857",
+      "source": "SYNCHROTRON",
+      "type": "SOLEIL BEAMLINE PROXIMA 1"
+    }
+  ],
+  "entry": {
+    "id": "9FQ5"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.54,
+      "density_percent_sol": 65.3,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 8.0,
+      "pdbx_details": "PEG 3350, sodium malonate, Bis-Tris propane",
+      "pdbx_pH_range": "6.5-8.0",
+      "temp": 293.0,
+      "temp_details": "Room Temperature"
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-06-25T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-08-06T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2026-01-21T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ASTM",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 10,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 11,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 13,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 14,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 15,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "7QPL",
+      "db_name": "PDB",
+      "details": "7QPL contains the same protein complexed with phosphate"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "8QOB",
+      "db_name": "PDB",
+      "details": "8QOB contains the same protein complexed with AP3"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "8Q4S",
+      "db_name": "PDB",
+      "details": "8Q4S contains the same protein complexed with AP4"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-06-14T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "7QPL",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-02-28T18:33:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1885,
+      "DCC_Rfree": 0.2286,
+      "EDS_R": 0.2014,
+      "EDS_res_high": 1.9,
+      "EDS_res_low": 45.25,
+      "Fo_Fc_correlation": 0.967,
+      "I_over_sigma": "1.46(1.89A)",
+      "Padilla_Yeates_L2_mean": 0.338,
+      "Padilla_Yeates_L_mean": 0.503,
+      "Wilson_B_aniso": "[40.838,40.838,40.838,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 40.838,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 52.378,
+      "bulk_solvent_k": 0.366,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.0,
+      "data_completeness": 99.97,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 38642,
+      "number_reflns_R_free": 1933,
+      "percent_RSRZ_outliers": 6.89,
+      "percent_free_reflections": 5.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 2.86% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-l,-k,-h:0.018"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.53,
+      "bonds_RMSZ": 0.31,
+      "clashscore": 3.83,
+      "num_H_reduce": 2400,
+      "num_angles_RMSZ": 3137,
+      "num_bonds_RMSZ": 2317,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-06-14T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-06-25T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2026-01-21T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "entry_id": "9FQ5",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40719280,
+    "rcsb_id": "9FQ5"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 2576,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 305,
+    "deposited_nonpolymer_entity_instance_count": 8,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 307,
+    "deposited_solvent_atom_count": 261,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9786,
+    "diffrn_radiation_wavelength_minimum": 0.9786,
+    "disulfide_bond_count": 0,
+    "entity_count": 7,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 6,
+    "molecular_weight": 33.06,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "MG"
+    ],
+    "nonpolymer_entity_count": 5,
+    "nonpolymer_molecular_weight_maximum": 0.11,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 32.55,
+    "polymer_molecular_weight_minimum": 32.55,
+    "polymer_monomer_count_maximum": 307,
+    "polymer_monomer_count_minimum": 307,
+    "resolution_combined": [
+      1.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "COOT",
+      "MXCUBE",
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Proteins",
+    "journal_id_ASTM": "PSFGEY",
+    "journal_id_CSD": "0867",
+    "journal_id_ISSN": "1097-0134",
+    "journal_volume": "94",
+    "page_first": "502",
+    "page_last": "514",
+    "pdbx_database_id_DOI": "10.1002/prot.70027",
+    "pdbx_database_id_PubMed": 40719280,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Scaillet, T.",
+      "Pierson, E.",
+      "Fillet, M.",
+      "Wouters, J."
+    ],
+    "rcsb_journal_abbrev": "Proteins",
+    "title": "Structural and Enzymological Characterization of Phosphoserine Phosphatase From Brucella melitensis.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "B_iso_mean": 46.64,
+      "ls_R_factor_R_free": 0.2241,
+      "ls_R_factor_R_work": 0.1873,
+      "ls_R_factor_obs": 0.1891,
+      "ls_d_res_high": 1.9,
+      "ls_d_res_low": 45.25,
+      "ls_number_reflns_R_free": 1933,
+      "ls_number_reflns_R_work": 36709,
+      "ls_number_reflns_obs": 38642,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 99.88,
+      "overall_SU_ML": 0.2364,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 26.3378,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.9,
+      "d_res_low": 45.25,
+      "number_atoms_solvent": 261,
+      "number_atoms_total": 2556,
+      "pdbx_number_atoms_ligand": 30,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2265,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0074,
+      "number": 2336,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.9175,
+      "number": 3156,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0577,
+      "number": 377,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0074,
+      "number": 411,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 6.7524,
+      "number": 344,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 40.84,
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 45.25,
+      "number_obs": 38642,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.07031,
+      "pdbx_Rpim_I_all": 0.01101,
+      "pdbx_Rrim_I_all": 0.07117,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 36.54,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 41.7,
+      "percent_possible_obs": 99.97
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.388,
+      "d_res_high": 1.9,
+      "d_res_low": 1.967,
+      "meanI_over_sigI_obs": 2.32,
+      "number_unique_obs": 3834,
+      "pdbx_CC_half": 0.862,
+      "pdbx_Rpim_I_all": 0.2151,
+      "pdbx_Rrim_I_all": 1.405,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 42.4,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data collection",
+      "name": "MxCuBE",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of phosphoserine phosphatase (SerB) from Brucella melitensis"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "Complex, Serine biosynthesis, Magnesium cofactor, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 199,
+    "space_group_name_H_M": "I 21 3",
+    "space_group_name_Hall": "I 2b 2c 3"
+  },
+  "rcsb_id": "9FQ5"
+}

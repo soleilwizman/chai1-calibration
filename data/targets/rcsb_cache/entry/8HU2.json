@@ -1,0 +1,461 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-2233-4306",
+      "name": "Heo, Y.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-8801-2011",
+      "name": "Lee, J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-7570-369X",
+      "name": "Yun, J.H.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0003-2347-1262",
+      "name": "Lee, W.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 71.098,
+    "length_b": 71.098,
+    "length_c": 73.072,
+    "volume": 319886.855
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Heo, Y.",
+        "Lee, J.",
+        "Yun, J.H.",
+        "Lee, W."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of STNPDZ with inhibitor at 1.60 Angstroms resolution."
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8HU2",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8hu2/pdb",
+      "pdbx_database_accession": "pdb_00008hu2"
+    },
+    {
+      "database_code": "D_1300034235",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "CCD",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-04-29T00:00:00.000+00:00",
+      "type": "ADSC QUANTUM 315r"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "5C (4A)",
+      "pdbx_synchrotron_site": "PAL/PLS",
+      "pdbx_wavelength_list": "0.9794",
+      "source": "SYNCHROTRON",
+      "type": "PAL/PLS BEAMLINE 5C (4A)"
+    }
+  ],
+  "entry": {
+    "id": "8HU2"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.04,
+      "density_percent_sol": 59.54,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 7.5,
+      "pdbx_details": "1.2 M sodium phosphate monobasic, 0.8 M potassium phosphate dibasic, 0.1 M CAPS/sodium hydroxide (pH 10.5), 0.2 M lithium sulfate",
+      "temp": 289.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-01-17T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2022-12-22T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5G1E",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-10T09:15:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.2319,
+      "EDS_R": 0.2028,
+      "EDS_res_high": 1.6,
+      "EDS_res_low": 47.09,
+      "Fo_Fc_correlation": 0.954,
+      "I_over_sigma": "1.91(1.60A)",
+      "Padilla_Yeates_L2_mean": 0.303,
+      "Padilla_Yeates_L_mean": 0.474,
+      "Wilson_B_aniso": "[24.189,24.189,15.389,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 20.748,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 39.822,
+      "bulk_solvent_k": 0.385,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.414,
+      "data_completeness": 99.81,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 28703,
+      "number_reflns_R_free": 2018,
+      "percent_RSRZ_outliers": 4.32,
+      "percent_free_reflections": 7.02,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.60% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.037"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.47,
+      "bonds_RMSZ": 0.24,
+      "clashscore": 1.64,
+      "num_H_reduce": 1257,
+      "num_angles_RMSZ": 1667,
+      "num_bonds_RMSZ": 1238,
+      "percent_ramachandran_outliers": 0.62,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2022-12-22T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-01-17T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-01-17T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "8HU2",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8HU2"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1431,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 162,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 163,
+    "deposited_solvent_atom_count": 178,
+    "deposited_unmodeled_polymer_monomer_count": 1,
+    "diffrn_radiation_wavelength_maximum": 0.9794,
+    "diffrn_radiation_wavelength_minimum": 0.9794,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 17.94,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.41,
+    "nonpolymer_molecular_weight_minimum": 0.41,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 17.54,
+    "polymer_molecular_weight_minimum": 17.54,
+    "polymer_monomer_count_maximum": 163,
+    "polymer_monomer_count_minimum": 163,
+    "resolution_combined": [
+      1.6
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-2000",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.6
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-2233-4306",
+      "0000-0001-8801-2011",
+      "0000-0001-7570-369X",
+      "0000-0003-2347-1262"
+    ],
+    "rcsb_authors": [
+      "Heo, Y.",
+      "Lee, J.",
+      "Yun, J.H.",
+      "Lee, W."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of STNPDZ with inhibitor at 1.60 Angstroms resolution."
+  },
+  "refine": [
+    {
+      "B_iso_mean": 25.01,
+      "ls_R_factor_R_free": 0.2336,
+      "ls_R_factor_R_work": 0.2002,
+      "ls_R_factor_obs": 0.2025,
+      "ls_d_res_high": 1.6,
+      "ls_d_res_low": 47.09,
+      "ls_number_reflns_R_free": 2018,
+      "ls_number_reflns_R_work": 26685,
+      "ls_number_reflns_obs": 28703,
+      "ls_percent_reflns_R_free": 7.03,
+      "ls_percent_reflns_obs": 99.79,
+      "overall_SU_ML": 0.1816,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.47,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 21.3885,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "5G1E",
+      "pdbx_stereochemistry_target_values": "CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.6,
+      "d_res_low": 47.09,
+      "number_atoms_solvent": 178,
+      "number_atoms_total": 1431,
+      "pdbx_number_atoms_ligand": 30,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1223,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0052,
+      "number": 1271,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.7723,
+      "number": 1713,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0588,
+      "number": 200,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0044,
+      "number": 218,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 7.6036,
+      "number": 755,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 20.75,
+      "d_resolution_high": 1.6,
+      "d_resolution_low": 47.09,
+      "number_obs": 28703,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.081,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 34.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 14.6,
+      "percent_possible_obs": 99.81
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.449,
+      "d_res_high": 1.6,
+      "d_res_low": 1.657,
+      "meanI_over_sigI_obs": 4.93,
+      "number_unique_obs": 1867,
+      "pdbx_CC_half": 0.9943,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.14_3260"
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "model building",
+      "name": "PHENIX",
+      "pdbx_ordinal": 3,
+      "version": "1.14_3260"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Rattus Syntenin-1 PDZ domain with inhibitor"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "SIGNALING PROTEIN/INHIBITOR",
+    "text": "Inhibitor, Complex, SIGNALING PROTEIN-INHIBITOR complex"
+  },
+  "symmetry": {
+    "Int_Tables_number": 152,
+    "space_group_name_H_M": "P 31 2 1",
+    "space_group_name_Hall": "P 31 2\""
+  },
+  "rcsb_id": "8HU2"
+}

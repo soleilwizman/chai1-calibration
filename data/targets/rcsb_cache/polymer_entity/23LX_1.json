@@ -1,0 +1,4871 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQ",
+    "pdbx_seq_one_letter_code_can": "SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQ",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 305,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 305,
+      "pdbx_gene_src_gene": "rep, 1a-1b",
+      "pdbx_gene_src_ncbi_taxonomy_id": "2697049",
+      "pdbx_gene_src_scientific_name": "Severe acute respiratory syndrome coronavirus 2",
+      "pdbx_host_org_ncbi_taxonomy_id": "469008",
+      "pdbx_host_org_scientific_name": "Escherichia coli BL21(DE3)",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 13829,
+      "identity": 100
+    },
+    {
+      "cluster_id": 1,
+      "identity": 95
+    },
+    {
+      "cluster_id": 2,
+      "identity": 90
+    },
+    {
+      "cluster_id": 2,
+      "identity": 70
+    },
+    {
+      "cluster_id": 8,
+      "identity": 50
+    },
+    {
+      "cluster_id": 10,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 305,
+      "ncbi_common_names": [
+        "Escherichia coli str. BL21(DE3)",
+        "Escherichia coli strain BL21(DE3)"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli BL21(DE3)",
+      "ncbi_taxonomy_id": 469008,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli BL21(DE3)",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli str. BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli strain BL21(DE3)"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 305,
+      "ncbi_common_names": [
+        "2019-nCoV",
+        "COVID-19 virus",
+        "HCoV-19",
+        "Human coronavirus 2019",
+        "SARS-2",
+        "SARS-CoV-2",
+        "SARS-CoV2",
+        "SARS2"
+      ],
+      "ncbi_parent_scientific_name": "Riboviria",
+      "ncbi_scientific_name": "Severe acute respiratory syndrome coronavirus 2",
+      "ncbi_taxonomy_id": 2697049,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Severe acute respiratory syndrome coronavirus 2",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "10239",
+          "name": "Viruses"
+        },
+        {
+          "depth": 1,
+          "id": "10239",
+          "name": "Vira"
+        },
+        {
+          "depth": 1,
+          "id": "10239",
+          "name": "Viridae"
+        },
+        {
+          "depth": 2,
+          "id": "2559587",
+          "name": "Riboviria"
+        },
+        {
+          "depth": 2,
+          "id": "2559587",
+          "name": "RNA viruses"
+        },
+        {
+          "depth": 2,
+          "id": "2559587",
+          "name": "RNA viruses and retroviruses"
+        },
+        {
+          "depth": 2,
+          "id": "2559587",
+          "name": "RNA viruses and viroids"
+        },
+        {
+          "depth": 3,
+          "id": "2732396",
+          "name": "Orthornavirae"
+        },
+        {
+          "depth": 4,
+          "id": "2732408",
+          "name": "Pisuviricota"
+        },
+        {
+          "depth": 5,
+          "id": "2732506",
+          "name": "Pisoniviricetes"
+        },
+        {
+          "depth": 6,
+          "id": "76804",
+          "name": "Nidovirales"
+        },
+        {
+          "depth": 7,
+          "id": "2499399",
+          "name": "Cornidovirineae"
+        },
+        {
+          "depth": 8,
+          "id": "11118",
+          "name": "Coronaviridae"
+        },
+        {
+          "depth": 9,
+          "id": "2501931",
+          "name": "Orthocoronavirinae"
+        },
+        {
+          "depth": 9,
+          "id": "2501931",
+          "name": "Coronavirinae"
+        },
+        {
+          "depth": 10,
+          "id": "694002",
+          "name": "Betacoronavirus"
+        },
+        {
+          "depth": 10,
+          "id": "694002",
+          "name": "Coronavirus group 2"
+        },
+        {
+          "depth": 10,
+          "id": "694002",
+          "name": "Group 2 species"
+        },
+        {
+          "depth": 11,
+          "id": "2509511",
+          "name": "Sarbecovirus"
+        },
+        {
+          "depth": 12,
+          "id": "3418604",
+          "name": "Betacoronavirus pandemicum"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "Severe acute respiratory syndrome coronavirus 2"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "2019-nCoV"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "COVID-19 virus"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "HCoV-19"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "Human coronavirus 2019"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "SARS-2"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "SARS-CoV-2"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "SARS-CoV2"
+        },
+        {
+          "depth": 13,
+          "id": "2697049",
+          "name": "SARS2"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "rep"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "1a-1b"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 33.728,
+    "pdbx_description": "3C-like proteinase nsp5",
+    "pdbx_ec": "3.4.22.69",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "3",
+        "name": "Hydrolases"
+      },
+      {
+        "depth": 2,
+        "id": "3.4",
+        "name": "Acting on peptide bonds (peptidases)"
+      },
+      {
+        "depth": 3,
+        "id": "3.4.22",
+        "name": "Cysteine endopeptidases"
+      },
+      {
+        "depth": 4,
+        "id": "3.4.22.69",
+        "name": "SARS coronavirus main proteinase"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "3C-like proteinase nsp5",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "3CL-PRO",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "3CLp",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Main protease",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Mpro",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Non-structural protein 5",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "nsp5",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "SARS coronavirus main proteinase",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "3.4.22.69",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Replicase polyprotein 1ab"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P0DTD1",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 305,
+          "ref_beg_seq_id": 3264
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF05409",
+      "assignment_version": "34.0",
+      "name": "Coronavirus endopeptidase C30 (Peptidase_C30)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "IPR022733",
+      "name": "DPUP/SUD, C-terminal, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR022733",
+          "name": "DPUP/SUD, C-terminal, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR042515",
+      "name": "Non-structural protein NSP15, N-terminal domain superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR042515",
+          "name": "Non-structural protein NSP15, N-terminal domain superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039694",
+      "name": "viral RNA genome replication",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0019058",
+          "name": "viral life cycle"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0019079",
+          "name": "viral genome replication"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0039694",
+          "name": "viral RNA genome replication"
+        },
+        {
+          "id": "GO:0016032",
+          "name": "viral process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004483",
+      "name": "methyltransferase cap1 activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008173",
+          "name": "RNA methyltransferase activity"
+        },
+        {
+          "id": "GO:0008171",
+          "name": "O-methyltransferase activity"
+        },
+        {
+          "id": "GO:0004483",
+          "name": "methyltransferase cap1 activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0016741",
+          "name": "transferase activity, transferring one-carbon groups"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0008168",
+          "name": "methyltransferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043174",
+      "name": "Non-structural protein NSP15, middle domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043174",
+          "name": "Non-structural protein NSP15, middle domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044600",
+      "name": "protein guanylyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044600",
+          "name": "protein guanylyltransferase activity"
+        },
+        {
+          "id": "GO:0070568",
+          "name": "guanylyltransferase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0016779",
+          "name": "nucleotidyltransferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044315",
+      "name": "Nonstructural protein 14, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR044315",
+          "name": "Nonstructural protein 14, betacoronavirus"
+        },
+        {
+          "depth": 1,
+          "id": "IPR009466",
+          "name": "Non-structural protein 14, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0085034",
+      "name": "symbiont-mediated suppression of host NF-kappaB cascade",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0052029",
+          "name": "symbiont-mediated suppression of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0085032",
+          "name": "symbiont-mediated perturbation of host NF-kappaB cascade"
+        },
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0052027",
+          "name": "symbiont-mediated perturbation of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0085034",
+          "name": "symbiont-mediated suppression of host NF-kappaB cascade"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR050534",
+      "name": "Replicase polyprotein 1ab-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR050534",
+          "name": "Replicase polyprotein 1ab-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039579",
+      "name": "symbiont-mediated suppression of host ISG15-protein conjugation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0052031",
+          "name": "symbiont-mediated perturbation of host defense response"
+        },
+        {
+          "id": "GO:0039579",
+          "name": "symbiont-mediated suppression of host ISG15-protein conjugation"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0052553",
+          "name": "symbiont-mediated perturbation of host immune response"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        },
+        {
+          "id": "GO:0052562",
+          "name": "symbiont-mediated suppression of host immune response"
+        },
+        {
+          "id": "GO:0052170",
+          "name": "symbiont-mediated suppression of host innate immune response"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0052167",
+          "name": "symbiont-mediated perturbation of host innate immune response"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR038123",
+      "name": "Non-structural protein NSP4, C-terminal superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR038123",
+          "name": "Non-structural protein NSP4, C-terminal superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003968",
+      "name": "RNA-directed RNA polymerase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003968",
+          "name": "RNA-directed RNA polymerase activity"
+        },
+        {
+          "id": "GO:0034062",
+          "name": "5'-3' RNA polymerase activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0097747",
+          "name": "RNA polymerase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0016779",
+          "name": "nucleotidyltransferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR042570",
+      "name": "Non-structural protein NSP3, nucleic acid-binding domain superfamily, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR042570",
+          "name": "Non-structural protein NSP3, nucleic acid-binding domain superfamily, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000175",
+      "name": "3'-5'-RNA exonuclease activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0000175",
+          "name": "3'-5'-RNA exonuclease activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016896",
+          "name": "RNA exonuclease activity, producing 5'-phosphomonoesters"
+        },
+        {
+          "id": "GO:0008408",
+          "name": "3'-5' exonuclease activity"
+        },
+        {
+          "id": "GO:0004532",
+          "name": "RNA exonuclease activity"
+        },
+        {
+          "id": "GO:0004540",
+          "name": "RNA nuclease activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004518",
+          "name": "nuclease activity"
+        },
+        {
+          "id": "GO:0004527",
+          "name": "exonuclease activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043178",
+      "name": "Papain-like protease, thumb domain superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043178",
+          "name": "Papain-like protease, thumb domain superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0019082",
+      "name": "viral protein processing",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019080",
+          "name": "viral gene expression"
+        },
+        {
+          "id": "GO:0019082",
+          "name": "viral protein processing"
+        },
+        {
+          "id": "GO:0016032",
+          "name": "viral process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR046441",
+      "name": "RNA-dependent RNA polymerase, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR046441",
+          "name": "RNA-dependent RNA polymerase, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039723",
+      "name": "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TBK1 activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0052031",
+          "name": "symbiont-mediated perturbation of host defense response"
+        },
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0052078",
+          "name": "symbiont-mediated suppression of host pathogen-associated molecular pattern receptor signaling pathway"
+        },
+        {
+          "id": "GO:0052553",
+          "name": "symbiont-mediated perturbation of host immune response"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        },
+        {
+          "id": "GO:0052029",
+          "name": "symbiont-mediated suppression of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0052562",
+          "name": "symbiont-mediated suppression of host immune response"
+        },
+        {
+          "id": "GO:0039723",
+          "name": "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TBK1 activity"
+        },
+        {
+          "id": "GO:0052170",
+          "name": "symbiont-mediated suppression of host innate immune response"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0052167",
+          "name": "symbiont-mediated perturbation of host innate immune response"
+        },
+        {
+          "id": "GO:0052027",
+          "name": "symbiont-mediated perturbation of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0039537",
+          "name": "symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044863",
+      "name": "Nidovirus RdRp-associated nucleotidyl transferase (NiRAN) domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR044863",
+          "name": "Nidovirus RdRp-associated nucleotidyl transferase (NiRAN) domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044343",
+      "name": "Nonstructural protein 13, 1B domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR044343",
+          "name": "Nonstructural protein 13, 1B domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005524",
+      "name": "ATP binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0032559",
+          "name": "adenyl ribonucleotide binding"
+        },
+        {
+          "id": "GO:0000166",
+          "name": "nucleotide binding"
+        },
+        {
+          "id": "GO:0032555",
+          "name": "purine ribonucleotide binding"
+        },
+        {
+          "id": "GO:0035639",
+          "name": "purine ribonucleoside triphosphate binding"
+        },
+        {
+          "id": "GO:1901265",
+          "name": "nucleoside phosphate binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0017076",
+          "name": "purine nucleotide binding"
+        },
+        {
+          "id": "GO:0043168",
+          "name": "anion binding"
+        },
+        {
+          "id": "GO:0030554",
+          "name": "adenyl nucleotide binding"
+        },
+        {
+          "id": "GO:0005524",
+          "name": "ATP binding"
+        },
+        {
+          "id": "GO:1901363",
+          "name": "heterocyclic compound binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0097367",
+          "name": "carbohydrate derivative binding"
+        },
+        {
+          "id": "GO:0032553",
+          "name": "ribonucleotide binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR038166",
+      "name": "Polyprotein cleavage domain PL2pro superfamily, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR038166",
+          "name": "Polyprotein cleavage domain PL2pro superfamily, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR037227",
+      "name": "Endoribonuclease EndoU-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR037227",
+          "name": "Endoribonuclease EndoU-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR027352",
+      "name": "Nonstructural protein 13, zinc-binding domain, coronavirus-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR027352",
+          "name": "Nonstructural protein 13, zinc-binding domain, coronavirus-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR009003",
+      "name": "Peptidase S1, PA clan",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR009003",
+          "name": "Peptidase S1, PA clan"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013016",
+      "name": "Peptidase C16, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR013016",
+          "name": "Peptidase C16, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR009466",
+      "name": "Non-structural protein 14, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR009466",
+          "name": "Non-structural protein 14, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044357",
+      "name": "NSP3, first ubiquitin-like (Ubl) domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR044357",
+          "name": "NSP3, first ubiquitin-like (Ubl) domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR046436",
+      "name": "Nidovirus 3'-5' exoribonuclease domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR046436",
+          "name": "Nidovirus 3'-5' exoribonuclease domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR047570",
+      "name": "NSP12, interface domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR047570",
+          "name": "NSP12, interface domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039502",
+      "name": "symbiont-mediated suppression of host type I interferon-mediated signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0052029",
+          "name": "symbiont-mediated suppression of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0140886",
+          "name": "symbiont-mediated suppression of host interferon-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0039502",
+          "name": "symbiont-mediated suppression of host type I interferon-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0052027",
+          "name": "symbiont-mediated perturbation of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR018995",
+      "name": "RNA synthesis protein NSP10, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR018995",
+          "name": "RNA synthesis protein NSP10, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0043139",
+      "name": "5'-3' DNA helicase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0120545",
+          "name": "nucleic acid conformation isomerase activity"
+        },
+        {
+          "id": "GO:0016853",
+          "name": "isomerase activity"
+        },
+        {
+          "id": "GO:0003678",
+          "name": "DNA helicase activity"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0004386",
+          "name": "helicase activity"
+        },
+        {
+          "id": "GO:0140657",
+          "name": "ATP-dependent activity"
+        },
+        {
+          "id": "GO:0008094",
+          "name": "ATP-dependent activity, acting on DNA"
+        },
+        {
+          "id": "GO:0140097",
+          "name": "catalytic activity, acting on DNA"
+        },
+        {
+          "id": "GO:0043139",
+          "name": "5'-3' DNA helicase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0120543",
+          "name": "macromolecular conformation isomerase activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043615",
+      "name": "Nonstructural protein 2, N-terminal domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043615",
+          "name": "Nonstructural protein 2, N-terminal domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043177",
+      "name": "Papain-like protease, N-terminal domain superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043177",
+          "name": "Papain-like protease, N-terminal domain superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044172",
+      "name": "host cell endoplasmic reticulum-Golgi intermediate compartment",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0033648",
+          "name": "host intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0018995",
+          "name": "host cellular component"
+        },
+        {
+          "id": "GO:0033646",
+          "name": "host intracellular part"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0044217",
+          "name": "other organism part"
+        },
+        {
+          "id": "GO:0033655",
+          "name": "host cell cytoplasm part"
+        },
+        {
+          "id": "GO:0033647",
+          "name": "host intracellular organelle"
+        },
+        {
+          "id": "GO:0044172",
+          "name": "host cell endoplasmic reticulum-Golgi intermediate compartment"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0030430",
+          "name": "host cell cytoplasm"
+        },
+        {
+          "id": "GO:0033643",
+          "name": "host cell part"
+        },
+        {
+          "id": "GO:0043656",
+          "name": "host intracellular region"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043606",
+      "name": "Coronavirus replicase NSP15, N-terminal oligomerization",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR043606",
+          "name": "Coronavirus replicase NSP15, N-terminal oligomerization"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044330",
+      "name": "Nonstructural protein 15, N-terminal domain, alpha/beta-coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR043606",
+          "name": "Coronavirus replicase NSP15, N-terminal oligomerization"
+        },
+        {
+          "depth": 2,
+          "id": "IPR044330",
+          "name": "Nonstructural protein 15, N-terminal domain, alpha/beta-coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004482",
+      "name": "mRNA 5'-cap (guanine-N7-)-methyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008173",
+          "name": "RNA methyltransferase activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0016741",
+          "name": "transferase activity, transferring one-carbon groups"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0008757",
+          "name": "S-adenosylmethionine-dependent methyltransferase activity"
+        },
+        {
+          "id": "GO:0004482",
+          "name": "mRNA 5'-cap (guanine-N7-)-methyltransferase activity"
+        },
+        {
+          "id": "GO:0008170",
+          "name": "N-methyltransferase activity"
+        },
+        {
+          "id": "GO:0008168",
+          "name": "methyltransferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0008174",
+          "name": "mRNA methyltransferase activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR041679",
+      "name": "DNA2/NAM7 helicase-like, C-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR041679",
+          "name": "DNA2/NAM7 helicase-like, C-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0062243",
+      "name": "double membrane vesicle viral factory outer membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0033648",
+          "name": "host intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0018995",
+          "name": "host cellular component"
+        },
+        {
+          "id": "GO:0039714",
+          "name": "cytoplasmic viral factory"
+        },
+        {
+          "id": "GO:0033646",
+          "name": "host intracellular part"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0062242",
+          "name": "double membrane vesicle viral factory membrane"
+        },
+        {
+          "id": "GO:0033644",
+          "name": "host cell membrane"
+        },
+        {
+          "id": "GO:0044162",
+          "name": "host cell cytoplasmic vesicle membrane"
+        },
+        {
+          "id": "GO:0044217",
+          "name": "other organism part"
+        },
+        {
+          "id": "GO:0033655",
+          "name": "host cell cytoplasm part"
+        },
+        {
+          "id": "GO:0033647",
+          "name": "host intracellular organelle"
+        },
+        {
+          "id": "GO:0044161",
+          "name": "host cell cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0030430",
+          "name": "host cell cytoplasm"
+        },
+        {
+          "id": "GO:0039713",
+          "name": "viral factory"
+        },
+        {
+          "id": "GO:0033643",
+          "name": "host cell part"
+        },
+        {
+          "id": "GO:0043656",
+          "name": "host intracellular region"
+        },
+        {
+          "id": "GO:0062243",
+          "name": "double membrane vesicle viral factory outer membrane"
+        },
+        {
+          "id": "GO:0039718",
+          "name": "double membrane vesicle viral factory"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR024375",
+      "name": "Non-structural protein NSP3, SUD-M domain, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR024375",
+          "name": "Non-structural protein NSP3, SUD-M domain, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR014828",
+      "name": "Non-structural protein NSP7, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR014828",
+          "name": "Non-structural protein NSP7, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043503",
+      "name": "Papain-like viral protease, palm and finger domains, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043503",
+          "name": "Papain-like viral protease, palm and finger domains, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044220",
+      "name": "host cell perinuclear region of cytoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0018995",
+          "name": "host cellular component"
+        },
+        {
+          "id": "GO:0033646",
+          "name": "host intracellular part"
+        },
+        {
+          "id": "GO:0044220",
+          "name": "host cell perinuclear region of cytoplasm"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0030430",
+          "name": "host cell cytoplasm"
+        },
+        {
+          "id": "GO:0033643",
+          "name": "host cell part"
+        },
+        {
+          "id": "GO:0043656",
+          "name": "host intracellular region"
+        },
+        {
+          "id": "GO:0044217",
+          "name": "other organism part"
+        },
+        {
+          "id": "GO:0033655",
+          "name": "host cell cytoplasm part"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR014829",
+      "name": "Non-structural protein NSP8, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR014829",
+          "name": "Non-structural protein NSP8, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043504",
+      "name": "Peptidase_S1_PA_chymotrypsin",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043504",
+          "name": "Peptidase_S1_PA_chymotrypsin"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036499",
+      "name": "Non-structural protein NSP9 superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036499",
+          "name": "Non-structural protein NSP9 superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR029063",
+      "name": "S-adenosyl-L-methionine-dependent methyltransferase superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR029063",
+          "name": "S-adenosyl-L-methionine-dependent methyltransferase superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044389",
+      "name": "Non-structural protein 2, SARS-CoV-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR044389",
+          "name": "Non-structural protein 2, SARS-CoV-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008289",
+      "name": "lipid binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0008289",
+          "name": "lipid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043502",
+      "name": "DNA/RNA polymerase superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043502",
+          "name": "DNA/RNA polymerase superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR008740",
+      "name": "Peptidase C30, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR008740",
+          "name": "Peptidase C30, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036333",
+      "name": "RNA synthesis protein NSP10 superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036333",
+          "name": "RNA synthesis protein NSP10 superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR047573",
+      "name": "Non-structural protein 2, middle domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR047573",
+          "name": "Non-structural protein 2, middle domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR049894",
+      "name": "Coronavirus NSP3, 3Ecto domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR049894",
+          "name": "Coronavirus NSP3, 3Ecto domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044174",
+      "name": "host cell endosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0033648",
+          "name": "host intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0018995",
+          "name": "host cellular component"
+        },
+        {
+          "id": "GO:0033646",
+          "name": "host intracellular part"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0044217",
+          "name": "other organism part"
+        },
+        {
+          "id": "GO:0033655",
+          "name": "host cell cytoplasm part"
+        },
+        {
+          "id": "GO:0033647",
+          "name": "host intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0030430",
+          "name": "host cell cytoplasm"
+        },
+        {
+          "id": "GO:0033643",
+          "name": "host cell part"
+        },
+        {
+          "id": "GO:0044174",
+          "name": "host cell endosome"
+        },
+        {
+          "id": "GO:0043656",
+          "name": "host intracellular region"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043472",
+      "name": "Macro domain-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043472",
+          "name": "Macro domain-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016887",
+      "name": "ATP hydrolysis activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016462",
+          "name": "pyrophosphatase activity"
+        },
+        {
+          "id": "GO:0016887",
+          "name": "ATP hydrolysis activity"
+        },
+        {
+          "id": "GO:0017111",
+          "name": "ribonucleoside triphosphate phosphatase activity"
+        },
+        {
+          "id": "GO:0016818",
+          "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016817",
+          "name": "hydrolase activity, acting on acid anhydrides"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0140657",
+          "name": "ATP-dependent activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042025",
+      "name": "host cell nucleus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0033648",
+          "name": "host intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0018995",
+          "name": "host cellular component"
+        },
+        {
+          "id": "GO:0033646",
+          "name": "host intracellular part"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0033643",
+          "name": "host cell part"
+        },
+        {
+          "id": "GO:0043656",
+          "name": "host intracellular region"
+        },
+        {
+          "id": "GO:0042025",
+          "name": "host cell nucleus"
+        },
+        {
+          "id": "GO:0044217",
+          "name": "other organism part"
+        },
+        {
+          "id": "GO:0033647",
+          "name": "host intracellular organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043609",
+      "name": "NendoU domain, nidovirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR043609",
+          "name": "NendoU domain, nidovirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR032592",
+      "name": "Non-structural protein NSP3, nucleic acid-binding domain, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR032592",
+          "name": "Non-structural protein NSP3, nucleic acid-binding domain, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043613",
+      "name": "Non-structural protein 2, C-terminal domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043613",
+          "name": "Non-structural protein 2, C-terminal domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR038083",
+      "name": "Non-structural protein NSP3A domain-like superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR038083",
+          "name": "Non-structural protein NSP3A domain-like superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044351",
+      "name": "RNA-dependent RNA polymerase, SARS-CoV-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR046441",
+          "name": "RNA-dependent RNA polymerase, coronavirus"
+        },
+        {
+          "depth": 2,
+          "id": "IPR044351",
+          "name": "RNA-dependent RNA polymerase, SARS-CoV-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR024358",
+      "name": "Non-structural protein NSP3, N-terminal, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR024358",
+          "name": "Non-structural protein NSP3, N-terminal, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR048673",
+      "name": "Nonstructural protein 13, stalk domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR048673",
+          "name": "Nonstructural protein 13, stalk domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016892",
+      "name": "RNA endonuclease activity producing 3'-phosphomonoesters, hydrolytic mechanism",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016892",
+          "name": "RNA endonuclease activity producing 3'-phosphomonoesters, hydrolytic mechanism"
+        },
+        {
+          "id": "GO:0004519",
+          "name": "endonuclease activity"
+        },
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004518",
+          "name": "nuclease activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0004521",
+          "name": "RNA endonuclease activity"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0004540",
+          "name": "RNA nuclease activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR046435",
+      "name": "NSP14, guanine-N7-methyltransferase domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR046435",
+          "name": "NSP14, guanine-N7-methyltransferase domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039657",
+      "name": "symbiont-mediated suppression of host gene expression",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0039657",
+          "name": "symbiont-mediated suppression of host gene expression"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0039656",
+          "name": "symbiont-mediated perturbation of host gene expression"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008242",
+      "name": "omega peptidase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008233",
+          "name": "peptidase activity"
+        },
+        {
+          "id": "GO:0008242",
+          "name": "omega peptidase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039548",
+      "name": "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of IRF3 activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0052031",
+          "name": "symbiont-mediated perturbation of host defense response"
+        },
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0052078",
+          "name": "symbiont-mediated suppression of host pathogen-associated molecular pattern receptor signaling pathway"
+        },
+        {
+          "id": "GO:0052553",
+          "name": "symbiont-mediated perturbation of host immune response"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0039548",
+          "name": "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of IRF3 activity"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        },
+        {
+          "id": "GO:0052029",
+          "name": "symbiont-mediated suppression of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0052562",
+          "name": "symbiont-mediated suppression of host immune response"
+        },
+        {
+          "id": "GO:0052170",
+          "name": "symbiont-mediated suppression of host innate immune response"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0052167",
+          "name": "symbiont-mediated perturbation of host innate immune response"
+        },
+        {
+          "id": "GO:0052027",
+          "name": "symbiont-mediated perturbation of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0039537",
+          "name": "symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR009469",
+      "name": "RNA-dependent RNA polymerase, N-terminal, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR009469",
+          "name": "RNA-dependent RNA polymerase, N-terminal, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043611",
+      "name": "Coronavirus replicase NSP3, C-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043611",
+          "name": "Coronavirus replicase NSP3, C-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044864",
+      "name": "Non-structural protein NSP3, SUD-N (Mac2) domain, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR044864",
+          "name": "Non-structural protein NSP3, SUD-N (Mac2) domain, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR047566",
+      "name": "Coronavirus replicase NSP3, Y domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR047566",
+          "name": "Coronavirus replicase NSP3, Y domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005507",
+      "name": "copper ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0046914",
+          "name": "transition metal ion binding"
+        },
+        {
+          "id": "GO:0005507",
+          "name": "copper ion binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR048672",
+      "name": "Nonstructural protein 13, zinc-binding domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR048672",
+          "name": "Nonstructural protein 13, zinc-binding domain, coronavirus"
+        },
+        {
+          "depth": 1,
+          "id": "IPR027352",
+          "name": "Nonstructural protein 13, zinc-binding domain, coronavirus-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006351",
+      "name": "DNA-templated transcription",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0006351",
+          "name": "DNA-templated transcription"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043612",
+      "name": "Non-structural protein NSP4, N-terminal, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043612",
+          "name": "Non-structural protein NSP4, N-terminal, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR027417",
+      "name": "P-loop containing nucleoside triphosphate hydrolase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR027417",
+          "name": "P-loop containing nucleoside triphosphate hydrolase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043608",
+      "name": "Nonstructural protein 15, middle domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR043608",
+          "name": "Nonstructural protein 15, middle domain, coronavirus"
+        },
+        {
+          "depth": 1,
+          "id": "IPR046440",
+          "name": "Arterivirus Nsp11 N-terminal/Coronavirus NSP15 middle domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039595",
+      "name": "symbiont-mediated degradation of host mRNA",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0039595",
+          "name": "symbiont-mediated degradation of host mRNA"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0039656",
+          "name": "symbiont-mediated perturbation of host gene expression"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044353",
+      "name": "NSP3, second ubiquitin-like (Ubl) domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR044353",
+          "name": "NSP3, second ubiquitin-like (Ubl) domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039648",
+      "name": "symbiont-mediated perturbation of host ubiquitin-like protein modification",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0039648",
+          "name": "symbiont-mediated perturbation of host ubiquitin-like protein modification"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR037204",
+      "name": "Non-structural protein NSP7 superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR037204",
+          "name": "Non-structural protein NSP7 superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039520",
+      "name": "symbiont-mediated activation of host autophagy",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0075071",
+          "name": "symbiont-mediated perturbation of host autophagy"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0039520",
+          "name": "symbiont-mediated activation of host autophagy"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044167",
+      "name": "host cell endoplasmic reticulum membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0033648",
+          "name": "host intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0018995",
+          "name": "host cellular component"
+        },
+        {
+          "id": "GO:0033646",
+          "name": "host intracellular part"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0044165",
+          "name": "host cell endoplasmic reticulum"
+        },
+        {
+          "id": "GO:0033644",
+          "name": "host cell membrane"
+        },
+        {
+          "id": "GO:0044217",
+          "name": "other organism part"
+        },
+        {
+          "id": "GO:0033655",
+          "name": "host cell cytoplasm part"
+        },
+        {
+          "id": "GO:0033647",
+          "name": "host intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0030430",
+          "name": "host cell cytoplasm"
+        },
+        {
+          "id": "GO:0033643",
+          "name": "host cell part"
+        },
+        {
+          "id": "GO:0033645",
+          "name": "host cell endomembrane system"
+        },
+        {
+          "id": "GO:0043656",
+          "name": "host intracellular region"
+        },
+        {
+          "id": "GO:0044167",
+          "name": "host cell endoplasmic reticulum membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR046443",
+      "name": "NSP1, globular domain, alpha/betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR046443",
+          "name": "NSP1, globular domain, alpha/betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043610",
+      "name": "Non-structural protein 6, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR043610",
+          "name": "Non-structural protein 6, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR027351",
+      "name": "(+) RNA virus helicase core domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR027351",
+          "name": "(+) RNA virus helicase core domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044322",
+      "name": "Nonstructural protein 15, middle domain, alpha/betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR043608",
+          "name": "Nonstructural protein 15, middle domain, coronavirus"
+        },
+        {
+          "depth": 1,
+          "id": "IPR046440",
+          "name": "Arterivirus Nsp11 N-terminal/Coronavirus NSP15 middle domain"
+        },
+        {
+          "depth": 3,
+          "id": "IPR044322",
+          "name": "Nonstructural protein 15, middle domain, alpha/betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR009461",
+      "name": "Non-structural protein NSP16, coronavirus-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR009461",
+          "name": "Non-structural protein NSP16, coronavirus-like"
+        },
+        {
+          "depth": 1,
+          "id": "IPR046438",
+          "name": "Nidovirus 2-O-methyltransferase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043477",
+      "name": "Peptidase C30, domain 3, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043477",
+          "name": "Peptidase C30, domain 3, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043478",
+      "name": "Non-structural protein NSP3, SUD-N (Mac2) domain superfamily, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043478",
+          "name": "Non-structural protein NSP3, SUD-N (Mac2) domain superfamily, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR038400",
+      "name": "Non-structural protein NSP3, SUD-M domain superfamily, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR038400",
+          "name": "Non-structural protein NSP3, SUD-M domain superfamily, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR046442",
+      "name": "NSP1, C-terminal domain, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR046442",
+          "name": "NSP1, C-terminal domain, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004484",
+      "name": "mRNA guanylyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0070568",
+          "name": "guanylyltransferase activity"
+        },
+        {
+          "id": "GO:0004484",
+          "name": "mRNA guanylyltransferase activity"
+        },
+        {
+          "id": "GO:0008192",
+          "name": "RNA guanylyltransferase activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016779",
+          "name": "nucleotidyltransferase activity"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001205",
+      "name": "RNA-directed RNA polymerase, C-terminal domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR001205",
+          "name": "RNA-directed RNA polymerase, C-terminal domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0019785",
+      "name": "ISG15-specific peptidase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008234",
+          "name": "cysteine-type peptidase activity"
+        },
+        {
+          "id": "GO:0019783",
+          "name": "ubiquitin-like protein peptidase activity"
+        },
+        {
+          "id": "GO:0008233",
+          "name": "peptidase activity"
+        },
+        {
+          "id": "GO:0019785",
+          "name": "ISG15-specific peptidase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044401",
+      "name": "NSP15, NendoU domain, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR043609",
+          "name": "NendoU domain, nidovirus"
+        },
+        {
+          "depth": 2,
+          "id": "IPR044401",
+          "name": "NSP15, NendoU domain, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR014822",
+      "name": "Non-structural protein NSP9, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR014822",
+          "name": "Non-structural protein NSP9, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0039722",
+      "name": "symbiont-mediated suppression of host toll-like receptor signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0052029",
+          "name": "symbiont-mediated suppression of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0044068",
+          "name": "symbiont-mediated perturbation of host cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0044003",
+          "name": "symbiont-mediated perturbation of host process"
+        },
+        {
+          "id": "GO:0039722",
+          "name": "symbiont-mediated suppression of host toll-like receptor signaling pathway"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0052027",
+          "name": "symbiont-mediated perturbation of host signal transduction pathway"
+        },
+        {
+          "id": "GO:0035821",
+          "name": "modulation of process of another organism"
+        },
+        {
+          "id": "GO:0051701",
+          "name": "biological process involved in interaction with host"
+        },
+        {
+          "id": "GO:0044403",
+          "name": "biological process involved in symbiotic interaction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR038030",
+      "name": "NSP1 globular domain superfamily, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR038030",
+          "name": "NSP1 globular domain superfamily, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0075523",
+      "name": "viral translational frameshifting",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019080",
+          "name": "viral gene expression"
+        },
+        {
+          "id": "GO:0016032",
+          "name": "viral process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0075523",
+          "name": "viral translational frameshifting"
+        },
+        {
+          "id": "GO:0019081",
+          "name": "viral translation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004197",
+      "name": "cysteine-type endopeptidase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008234",
+          "name": "cysteine-type peptidase activity"
+        },
+        {
+          "id": "GO:0008233",
+          "name": "peptidase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0004197",
+          "name": "cysteine-type endopeptidase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0004175",
+          "name": "endopeptidase activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR021590",
+      "name": "NSP1, globular domain, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR021590",
+          "name": "NSP1, globular domain, betacoronavirus"
+        },
+        {
+          "depth": 1,
+          "id": "IPR046443",
+          "name": "NSP1, globular domain, alpha/betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016829",
+      "name": "lyase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016829",
+          "name": "lyase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003727",
+      "name": "single-stranded RNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003723",
+          "name": "RNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0003727",
+          "name": "single-stranded RNA binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044367",
+      "name": "Non-structural protein 6, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR044367",
+          "name": "Non-structural protein 6, betacoronavirus"
+        },
+        {
+          "depth": 1,
+          "id": "IPR043610",
+          "name": "Non-structural protein 6, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR037230",
+      "name": "Non-structural protein NSP8 superfamily, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR037230",
+          "name": "Non-structural protein NSP8 superfamily, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR046440",
+      "name": "Arterivirus Nsp11 N-terminal/Coronavirus NSP15 middle domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR046440",
+          "name": "Arterivirus Nsp11 N-terminal/Coronavirus NSP15 middle domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR032505",
+      "name": "Non-structural protein NSP4, C-terminal, coronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR032505",
+          "name": "Non-structural protein NSP4, C-terminal, coronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003723",
+      "name": "RNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003723",
+          "name": "RNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR046438",
+      "name": "Nidovirus 2-O-methyltransferase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR046438",
+          "name": "Nidovirus 2-O-methyltransferase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004843",
+      "name": "cysteine-type deubiquitinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008234",
+          "name": "cysteine-type peptidase activity"
+        },
+        {
+          "id": "GO:0019783",
+          "name": "ubiquitin-like protein peptidase activity"
+        },
+        {
+          "id": "GO:0008233",
+          "name": "peptidase activity"
+        },
+        {
+          "id": "GO:0004843",
+          "name": "cysteine-type deubiquitinase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0101005",
+          "name": "deubiquitinase activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR002589",
+      "name": "Macro domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR002589",
+          "name": "Macro domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR047567",
+      "name": "Non-structural protein NSP3, group 2-specific marker domain, betacoronavirus",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR047567",
+          "name": "Non-structural protein NSP3, group 2-specific marker domain, betacoronavirus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0002151",
+      "name": "G-quadruplex RNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0002151",
+          "name": "G-quadruplex RNA binding"
+        },
+        {
+          "id": "GO:0003723",
+          "name": "RNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044177",
+      "name": "host cell Golgi apparatus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0018995",
+          "name": "host cellular component"
+        },
+        {
+          "id": "GO:0033646",
+          "name": "host intracellular part"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0030430",
+          "name": "host cell cytoplasm"
+        },
+        {
+          "id": "GO:0033643",
+          "name": "host cell part"
+        },
+        {
+          "id": "GO:0044177",
+          "name": "host cell Golgi apparatus"
+        },
+        {
+          "id": "GO:0043656",
+          "name": "host intracellular region"
+        },
+        {
+          "id": "GO:0044217",
+          "name": "other organism part"
+        },
+        {
+          "id": "GO:0033655",
+          "name": "host cell cytoplasm part"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032574",
+      "name": "5'-3' RNA helicase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0120545",
+          "name": "nucleic acid conformation isomerase activity"
+        },
+        {
+          "id": "GO:0016853",
+          "name": "isomerase activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0004386",
+          "name": "helicase activity"
+        },
+        {
+          "id": "GO:0003724",
+          "name": "RNA helicase activity"
+        },
+        {
+          "id": "GO:0008186",
+          "name": "ATP-dependent activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140657",
+          "name": "ATP-dependent activity"
+        },
+        {
+          "id": "GO:0032574",
+          "name": "5'-3' RNA helicase activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0120543",
+          "name": "macromolecular conformation isomerase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044371",
+      "name": "Non-structural protein 3, X-domain-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR044371",
+          "name": "Non-structural protein 3, X-domain-like"
+        },
+        {
+          "depth": 1,
+          "id": "IPR002589",
+          "name": "Macro domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008270",
+      "name": "zinc ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0046914",
+          "name": "transition metal ion binding"
+        },
+        {
+          "id": "GO:0008270",
+          "name": "zinc ion binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006508",
+      "name": "proteolysis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006508",
+          "name": "proteolysis"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0019538",
+          "name": "protein metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR007094",
+      "name": "RNA-directed RNA polymerase, catalytic domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR007094",
+          "name": "RNA-directed RNA polymerase, catalytic domain"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "23LX",
+    "rcsb_id": "23LX_1",
+    "uniprot_ids": [
+      "P0DTD1"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P0DTD1",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.04298196166854566
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.21,
+            -0.21,
+            -0.21,
+            -0.96,
+            0.01,
+            0.06,
+            -0.2,
+            -0.12,
+            -0.22,
+            0.42,
+            0.12,
+            0.63,
+            0.99,
+            0.8,
+            1.14,
+            1.11,
+            0.76,
+            0.47,
+            0.42,
+            0.42,
+            -0.09,
+            0.41,
+            0.03,
+            0.5,
+            0.19,
+            -0.12,
+            0.42,
+            0.47,
+            0.71,
+            1.03,
+            0.43,
+            0.03,
+            -0.74,
+            0.11,
+            1.0,
+            0.81,
+            0.27,
+            0.32,
+            -0.34,
+            -0.56,
+            0.16,
+            0.93,
+            0.08,
+            -0.6,
+            -1.27,
+            -1.33,
+            -1.63,
+            -1.63,
+            -0.82,
+            -0.61,
+            -0.53,
+            -0.64,
+            -0.9,
+            -0.6,
+            -0.84,
+            -0.81,
+            -0.81,
+            -0.92,
+            -0.92,
+            -0.96,
+            -0.84,
+            -0.21,
+            -0.17,
+            -0.17,
+            0.66,
+            0.66,
+            0.77,
+            -0.16,
+            -0.16,
+            0.73,
+            0.49,
+            0.18,
+            0.48,
+            0.22,
+            0.22,
+            -0.59,
+            0.19,
+            0.19,
+            0.11,
+            -0.28,
+            0.5,
+            0.16,
+            0.41,
+            0.41,
+            0.72,
+            0.64,
+            -0.21,
+            -0.81,
+            -0.81,
+            -1.31,
+            -1.06,
+            -1.96,
+            -1.71,
+            -2.07,
+            -1.96,
+            -1.1,
+            -1.42,
+            -0.49,
+            -0.8,
+            -0.8,
+            -0.41,
+            -0.66,
+            -0.3,
+            -0.3,
+            -0.86,
+            0.11,
+            0.03,
+            0.62,
+            1.08,
+            0.98,
+            0.98,
+            1.01,
+            0.61,
+            0.52,
+            -0.03,
+            -0.5,
+            -0.23,
+            -0.66,
+            -0.9,
+            -0.23,
+            0.01,
+            0.31,
+            -0.01,
+            -0.1,
+            -0.44,
+            -0.6,
+            -0.53,
+            0.36,
+            -0.36,
+            -0.6,
+            -0.9,
+            -0.09,
+            0.51,
+            0.51,
+            0.16,
+            0.14,
+            -0.08,
+            0.31,
+            0.27,
+            0.82,
+            0.47,
+            0.36,
+            0.36,
+            0.9,
+            0.6,
+            0.18,
+            -0.17,
+            0.2,
+            0.2,
+            0.16,
+            0.16,
+            0.82,
+            0.18,
+            0.78,
+            0.57,
+            0.6,
+            0.53,
+            -0.32,
+            0.19,
+            -0.2,
+            -0.52,
+            0.09,
+            -0.48,
+            0.08,
+            0.39,
+            0.1,
+            0.1,
+            0.1,
+            -0.21,
+            -0.21,
+            -1.07,
+            -0.4,
+            -0.74,
+            -0.74,
+            -0.84,
+            -0.14,
+            -0.1,
+            -0.1,
+            -0.56,
+            -0.56,
+            -0.94,
+            -0.6,
+            -0.94,
+            -0.57,
+            -0.68,
+            -1.19,
+            -0.88,
+            -0.77,
+            -0.46,
+            -0.46,
+            -0.16,
+            0.16,
+            0.42,
+            -0.17,
+            0.34,
+            0.84,
+            1.43,
+            1.41,
+            1.91,
+            1.27,
+            1.54,
+            1.28,
+            2.13,
+            2.17,
+            1.36,
+            1.11,
+            0.82,
+            -0.1,
+            -0.06,
+            0.06,
+            0.28,
+            -0.58,
+            -1.58,
+            -0.88,
+            -0.91,
+            -0.6,
+            -0.18,
+            0.34,
+            -0.36,
+            -1.17,
+            -0.47,
+            -0.36,
+            -0.24,
+            0.3,
+            0.58,
+            0.87,
+            0.01,
+            0.26,
+            0.26,
+            -0.2,
+            -0.2,
+            -0.8,
+            -0.84,
+            -1.12,
+            -1.72,
+            -1.68,
+            -1.89,
+            -1.03,
+            -1.28,
+            -0.39,
+            0.21,
+            -0.26,
+            -0.36,
+            0.46,
+            0.76,
+            1.31,
+            0.46,
+            0.77,
+            0.22,
+            0.3,
+            0.54,
+            1.19,
+            1.19,
+            0.89,
+            0.9,
+            1.57,
+            1.84,
+            1.8,
+            1.72,
+            1.09,
+            0.23,
+            0.23,
+            1.04,
+            0.44,
+            -0.22,
+            -0.47,
+            -0.17,
+            -0.98,
+            -0.59,
+            -0.7,
+            -1.2,
+            -1.12,
+            -0.31,
+            0.03,
+            -0.01,
+            -0.02,
+            0.79,
+            1.26,
+            1.37,
+            1.06,
+            0.17,
+            0.06,
+            0.02,
+            -0.07,
+            0.04,
+            -0.77,
+            -0.72,
+            0.13,
+            0.02,
+            0.02,
+            -0.01,
+            -0.02,
+            0.11,
+            0.27,
+            0.58,
+            0.42,
+            -0.43
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.27,
+            0.26,
+            0.27,
+            0.27,
+            0.27,
+            0.25,
+            0.24,
+            0.22,
+            0.2,
+            0.18,
+            0.16,
+            0.14,
+            0.13,
+            0.1,
+            0.08,
+            0.07,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.06,
+            0.07,
+            0.08,
+            0.1,
+            0.13,
+            0.17,
+            0.22,
+            0.24,
+            0.27,
+            0.31,
+            0.35,
+            0.36,
+            0.36,
+            0.33,
+            0.29,
+            0.24,
+            0.2,
+            0.16,
+            0.14,
+            0.13,
+            0.12,
+            0.11,
+            0.1,
+            0.09,
+            0.1,
+            0.11,
+            0.13,
+            0.15,
+            0.18,
+            0.2,
+            0.21,
+            0.23,
+            0.24,
+            0.27,
+            0.3,
+            0.31,
+            0.33,
+            0.34,
+            0.34,
+            0.33,
+            0.32,
+            0.31,
+            0.31,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.29,
+            0.27,
+            0.28,
+            0.28,
+            0.29,
+            0.3,
+            0.31,
+            0.3,
+            0.3,
+            0.29,
+            0.28,
+            0.28,
+            0.29,
+            0.29,
+            0.29,
+            0.28,
+            0.27,
+            0.26,
+            0.27,
+            0.28,
+            0.28,
+            0.29,
+            0.28,
+            0.28,
+            0.27,
+            0.27,
+            0.28,
+            0.29,
+            0.31,
+            0.31,
+            0.31,
+            0.32,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.34,
+            0.33,
+            0.31,
+            0.27,
+            0.24,
+            0.21,
+            0.18,
+            0.16,
+            0.14,
+            0.12,
+            0.09,
+            0.08,
+            0.06,
+            0.05,
+            0.05,
+            0.04,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.04,
+            0.04,
+            0.05,
+            0.06,
+            0.07,
+            0.08,
+            0.08,
+            0.08,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.05,
+            0.04,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.05,
+            0.05,
+            0.05,
+            0.06,
+            0.06,
+            0.07,
+            0.07,
+            0.08,
+            0.09,
+            0.1,
+            0.1,
+            0.11,
+            0.12,
+            0.13,
+            0.12,
+            0.12,
+            0.12,
+            0.12,
+            0.11,
+            0.1,
+            0.11,
+            0.11,
+            0.12,
+            0.12,
+            0.12,
+            0.13,
+            0.13,
+            0.13,
+            0.14,
+            0.14,
+            0.15,
+            0.14,
+            0.13,
+            0.13,
+            0.12,
+            0.11,
+            0.11,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.11,
+            0.13,
+            0.14,
+            0.16,
+            0.19,
+            0.22,
+            0.24,
+            0.27,
+            0.29,
+            0.31,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.32,
+            0.31,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.28,
+            0.27,
+            0.25,
+            0.23,
+            0.21,
+            0.2,
+            0.18,
+            0.16,
+            0.14,
+            0.13,
+            0.11,
+            0.1,
+            0.1,
+            0.1,
+            0.09,
+            0.09,
+            0.09,
+            0.09,
+            0.09,
+            0.1,
+            0.1,
+            0.1,
+            0.11,
+            0.11,
+            0.11,
+            0.12,
+            0.12,
+            0.13,
+            0.13,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.15,
+            0.16,
+            0.16,
+            0.17,
+            0.17,
+            0.18,
+            0.18,
+            0.18,
+            0.2,
+            0.21,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.22,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.22,
+            0.21,
+            0.2,
+            0.2,
+            0.21,
+            0.2,
+            0.2,
+            0.21,
+            0.22,
+            0.23,
+            0.25,
+            0.27,
+            0.3,
+            0.33,
+            0.36,
+            0.38,
+            0.4,
+            0.41,
+            0.41,
+            0.39,
+            0.37,
+            0.35,
+            0.32,
+            0.29,
+            0.25,
+            0.21,
+            0.18,
+            0.16,
+            0.14,
+            0.13,
+            0.13,
+            0.12,
+            0.11,
+            0.11,
+            0.11
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.86,
+            0.82,
+            0.72,
+            0.69,
+            0.65,
+            0.49,
+            0.41,
+            0.31,
+            0.27,
+            0.17,
+            0.13,
+            0.06,
+            0.06,
+            0.09,
+            0.08,
+            0.08,
+            0.06,
+            0.07,
+            0.12,
+            0.07,
+            0.05,
+            0.03,
+            0.04,
+            0.06,
+            0.04,
+            0.03,
+            0.04,
+            0.02,
+            0.03,
+            0.03,
+            0.04,
+            0.03,
+            0.04,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.04,
+            0.03,
+            0.02,
+            0.03,
+            0.05,
+            0.08,
+            0.04,
+            0.04,
+            0.06,
+            0.05,
+            0.06,
+            0.08,
+            0.06,
+            0.07,
+            0.09,
+            0.12,
+            0.18,
+            0.3,
+            0.2,
+            0.14,
+            0.09,
+            0.09,
+            0.1,
+            0.16,
+            0.16,
+            0.1,
+            0.11,
+            0.11,
+            0.12,
+            0.08,
+            0.08,
+            0.12,
+            0.18,
+            0.19,
+            0.16,
+            0.16,
+            0.17,
+            0.12,
+            0.08,
+            0.1,
+            0.16,
+            0.14,
+            0.14,
+            0.11,
+            0.12,
+            0.1,
+            0.12,
+            0.12,
+            0.19,
+            0.19,
+            0.23,
+            0.34,
+            0.35,
+            0.27,
+            0.27,
+            0.22,
+            0.17,
+            0.17,
+            0.18,
+            0.23,
+            0.33,
+            0.31,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.31,
+            0.29,
+            0.26,
+            0.15,
+            0.1,
+            0.1,
+            0.08,
+            0.08,
+            0.14,
+            0.13,
+            0.19,
+            0.18,
+            0.11,
+            0.16,
+            0.09,
+            0.06,
+            0.05,
+            0.05,
+            0.06,
+            0.1,
+            0.05,
+            0.07,
+            0.06,
+            0.07,
+            0.12,
+            0.17,
+            0.1,
+            0.06,
+            0.06,
+            0.05,
+            0.05,
+            0.02,
+            0.03,
+            0.05,
+            0.03,
+            0.06,
+            0.04,
+            0.05,
+            0.03,
+            0.03,
+            0.02,
+            0.03,
+            0.01,
+            0.02,
+            0.02,
+            0.01,
+            0.0,
+            0.0,
+            0.01,
+            0.0,
+            0.0,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.03,
+            0.01,
+            0.04,
+            0.06,
+            0.06,
+            0.06,
+            0.08,
+            0.13,
+            0.18,
+            0.13,
+            0.11,
+            0.15,
+            0.13,
+            0.2,
+            0.21,
+            0.18,
+            0.25,
+            0.23,
+            0.23,
+            0.24,
+            0.24,
+            0.24,
+            0.31,
+            0.28,
+            0.2,
+            0.2,
+            0.21,
+            0.3,
+            0.23,
+            0.13,
+            0.18,
+            0.16,
+            0.1,
+            0.06,
+            0.04,
+            0.04,
+            0.03,
+            0.01,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.01,
+            0.01,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
+            0.01,
+            0.01,
+            0.01,
+            0.03,
+            0.06,
+            0.03,
+            0.03,
+            0.07,
+            0.07,
+            0.07,
+            0.05,
+            0.09,
+            0.05,
+            0.03,
+            0.06,
+            0.07,
+            0.08,
+            0.12,
+            0.12,
+            0.15,
+            0.16,
+            0.23,
+            0.15,
+            0.2,
+            0.13,
+            0.06,
+            0.13,
+            0.11,
+            0.07,
+            0.05,
+            0.06,
+            0.06,
+            0.05,
+            0.1,
+            0.1,
+            0.06,
+            0.05,
+            0.09,
+            0.08,
+            0.09,
+            0.08,
+            0.08,
+            0.09,
+            0.13,
+            0.11,
+            0.1,
+            0.15,
+            0.14,
+            0.14,
+            0.13,
+            0.1,
+            0.11,
+            0.17,
+            0.19,
+            0.1,
+            0.16,
+            0.28,
+            0.19,
+            0.2,
+            0.14,
+            0.12,
+            0.12,
+            0.12,
+            0.09,
+            0.09,
+            0.14,
+            0.15,
+            0.14,
+            0.08,
+            0.1,
+            0.19,
+            0.31,
+            0.34,
+            0.37,
+            0.4,
+            0.53,
+            0.57,
+            0.58,
+            0.7,
+            0.72
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "P0DTD1",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 305,
+          "ref_beg_seq_id": 3264
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 167,
+          "ref_beg_seq_id": 246
+        },
+        {
+          "entity_beg_seq_id": 168,
+          "length": 138,
+          "ref_beg_seq_id": 414
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 167,
+          "ref_beg_seq_id": 246
+        },
+        {
+          "entity_beg_seq_id": 168,
+          "length": 138,
+          "ref_beg_seq_id": 414
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "10_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 70,
+          "ref_beg_seq_id": 240
+        },
+        {
+          "entity_beg_seq_id": 71,
+          "length": 84,
+          "ref_beg_seq_id": 313
+        },
+        {
+          "entity_beg_seq_id": 155,
+          "length": 13,
+          "ref_beg_seq_id": 398
+        },
+        {
+          "entity_beg_seq_id": 168,
+          "length": 50,
+          "ref_beg_seq_id": 412
+        },
+        {
+          "entity_beg_seq_id": 218,
+          "length": 29,
+          "ref_beg_seq_id": 468
+        },
+        {
+          "entity_beg_seq_id": 247,
+          "length": 59,
+          "ref_beg_seq_id": 499
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "8_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 70,
+          "ref_beg_seq_id": 240
+        },
+        {
+          "entity_beg_seq_id": 71,
+          "length": 97,
+          "ref_beg_seq_id": 313
+        },
+        {
+          "entity_beg_seq_id": 168,
+          "length": 138,
+          "ref_beg_seq_id": 411
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 167,
+          "ref_beg_seq_id": 246
+        },
+        {
+          "entity_beg_seq_id": 168,
+          "length": 138,
+          "ref_beg_seq_id": 414
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "13829_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 305,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "3CL-PRO,3CLp,Main protease,Mpro,Non-structural protein 5,nsp5,SARS coronavirus main proteinase"
+    }
+  ],
+  "rcsb_id": "23LX_1"
+}

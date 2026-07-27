@@ -1,0 +1,454 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-1949-1896",
+      "name": "Zhou, D.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-5163-4308",
+      "name": "Chen, L.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-7341-2108",
+      "name": "Rose, J.P.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0002-1575-4476",
+      "name": "Wang, B.C.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 18,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 75.329,
+    "length_b": 75.329,
+    "length_c": 139.392
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Zhou, D.",
+        "Chen, L.",
+        "Rose, J.P.",
+        "Wang, B.C."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Structure of the Rid protein PA5083 from Pseudomonas aeruginosa (Apo form) solved by Sulfur SAD"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9BJV",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9bjv/pdb",
+      "pdbx_database_accession": "pdb_00009bjv"
+    },
+    {
+      "database_code": "D_1000283500",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2019-07-16T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 200K"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "1.5418",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU MICROMAX-002"
+    }
+  ],
+  "entry": {
+    "id": "9BJV"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.03,
+      "density_percent_sol": 59.37,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "0.1 M BIS-TRIS pH 5.5, 2.0 M Ammonium sulfate",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-09-04T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "9BJW",
+      "db_name": "PDB",
+      "details": "Crystal structure of RidA family protein PA5083 from Pseudomonas aeruginosa"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "9BJY",
+      "db_name": "PDB",
+      "details": "Crystal structure of RidA family protein PA5083 from Pseudomonas aeruginosa with TMAO bound"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-04-25T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-14T19:21:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1744,
+      "DCC_Rfree": 0.1839,
+      "EDS_R": 0.1779,
+      "EDS_res_high": 1.8,
+      "EDS_res_low": 37.66,
+      "Fo_Fc_correlation": 0.949,
+      "I_over_sigma": "4.77(1.80A)",
+      "Padilla_Yeates_L2_mean": 0.378,
+      "Padilla_Yeates_L_mean": 0.534,
+      "Wilson_B_aniso": "[15.772,15.772,15.584,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 15.69,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 40.528,
+      "bulk_solvent_k": 0.36,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.012,
+      "data_completeness": 70.59,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 10155,
+      "number_reflns_R_free": 1011,
+      "percent_RSRZ_outliers": 3.45,
+      "percent_free_reflections": 7.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.77% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.47,
+      "bonds_RMSZ": 0.28,
+      "clashscore": 6.72,
+      "num_H_reduce": 902,
+      "num_angles_RMSZ": 1220,
+      "num_bonds_RMSZ": 896,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-04-25T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-09-04T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-09-04T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "9BJV",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9BJV"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1019,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 116,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 116,
+    "deposited_solvent_atom_count": 136,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 12.57,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 12.57,
+    "polymer_molecular_weight_minimum": 12.57,
+    "polymer_monomer_count_maximum": 116,
+    "polymer_monomer_count_minimum": 116,
+    "resolution_combined": [
+      1.8
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOSOL",
+      "HKL-3000",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.8
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-1949-1896",
+      "0000-0002-5163-4308",
+      "0000-0002-7341-2108",
+      "0000-0002-1575-4476"
+    ],
+    "rcsb_authors": [
+      "Zhou, D.",
+      "Chen, L.",
+      "Rose, J.P.",
+      "Wang, B.C."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Structure of the Rid protein PA5083 from Pseudomonas aeruginosa (Apo form) solved by Sulfur SAD"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1916,
+      "ls_R_factor_R_work": 0.1722,
+      "ls_R_factor_obs": 0.1741,
+      "ls_d_res_high": 1.8,
+      "ls_d_res_low": 37.66,
+      "ls_number_reflns_R_free": 2257,
+      "ls_number_reflns_obs": 22679,
+      "ls_percent_reflns_R_free": 9.95,
+      "ls_percent_reflns_obs": 82.79,
+      "overall_SU_ML": 0.18,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "SAD",
+      "pdbx_overall_phase_error": 19.64,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.8,
+      "d_res_low": 37.66,
+      "number_atoms_solvent": 136,
+      "number_atoms_total": 1019,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 883,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "number": 896,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.821,
+      "number": 1220,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 17.764,
+      "number": 327,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.053,
+      "number": 148,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "number": 158,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.8,
+      "d_resolution_low": 50.0,
+      "number_obs": 22679,
+      "pdbx_Rmerge_I_obs": 0.033,
+      "pdbx_Rpim_I_all": 0.008,
+      "pdbx_Rrim_I_all": 0.034,
+      "pdbx_chi_squared": 0.988,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 87.179,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 16.6,
+      "percent_possible_obs": 97.3
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.316,
+      "d_res_high": 1.8,
+      "d_res_low": 1.83,
+      "meanI_over_sigI_obs": 4.378,
+      "number_unique_obs": 686,
+      "pdbx_CC_half": 0.947,
+      "pdbx_Rrim_I_all": 0.35,
+      "pdbx_chi_squared": 0.925,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 5.2,
+      "percent_possible_all": 77.3
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.21"
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-3000",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "AutoSol",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of hypothetical protein PA5083 from Pseudomonas aeruginosa Sulfur SAD phased"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "Sulfur SAD, Rid protein, deamination, stress, Hydrolase"
+  },
+  "symmetry": {
+    "Int_Tables_number": 155,
+    "space_group_name_H_M": "H 3 2"
+  },
+  "rcsb_id": "9BJV"
+}

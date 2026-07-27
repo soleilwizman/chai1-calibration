@@ -1,0 +1,642 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-5278-0668",
+      "name": "Arold, S.T.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0552-7149",
+      "name": "Hameed, U.F.S.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 113.9,
+    "angle_gamma": 90.0,
+    "length_a": 73.7,
+    "length_b": 54.84,
+    "length_c": 51.7
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Arold, S.T.",
+        "Hameed, U.F.S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal Structure of Arabidopsis N-amino acetyltransferase 2 (AtNATA2)"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8XJ9",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8xj9/pdb",
+      "pdbx_database_accession": "pdb_00008xj9"
+    },
+    {
+      "database_code": "D_1300043645",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-12-18T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "PROXIMA 1",
+      "pdbx_synchrotron_site": "SOLEIL",
+      "pdbx_wavelength_list": "0.978",
+      "source": "SYNCHROTRON",
+      "type": "SOLEIL BEAMLINE PROXIMA 1"
+    }
+  ],
+  "entry": {
+    "id": "8XJ9"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.06,
+      "density_percent_sol": 40.16,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 7.0,
+      "pdbx_details": "0.2 M Sodium malonate pH 7.0, 20% w/v Polyethylene glycol 3,350",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-12-25T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Saudi Arabia",
+      "funding_organization": "Other private",
+      "grant_number": "KIng Abdullah University of Science and Technology",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "8XBN",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2023-12-21T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "3bj8",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T08:37:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1632,
+      "DCC_Rfree": 0.1979,
+      "EDS_R": 0.1842,
+      "EDS_res_high": 1.1,
+      "EDS_res_low": 36.64,
+      "Fo_Fc_correlation": 0.972,
+      "I_over_sigma": "0.97(1.10A)",
+      "Padilla_Yeates_L2_mean": 0.333,
+      "Padilla_Yeates_L_mean": 0.501,
+      "Wilson_B_aniso": "[18.496,26.642,10.194,0.000,-5.366,0.000]",
+      "Wilson_B_estimate": 13.848,
+      "acentric_outliers": 2,
+      "bulk_solvent_b": 38.813,
+      "bulk_solvent_k": 0.395,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.892,
+      "data_completeness": 99.5,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 75933,
+      "number_reflns_R_free": 2000,
+      "percent_RSRZ_outliers": 11.76,
+      "percent_free_reflections": 2.62,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.37% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.01,
+      "bonds_RMSZ": 1.05,
+      "clashscore": 1.48,
+      "num_H_reduce": 1666,
+      "num_angles_RMSZ": 2360,
+      "num_bonds_RMSZ": 1739,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.55
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-12-21T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-12-25T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-12-25T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8XJ9",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8XJ9"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1841,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 10,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 204,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 212,
+    "deposited_solvent_atom_count": 134,
+    "deposited_unmodeled_polymer_monomer_count": 8,
+    "diffrn_radiation_wavelength_maximum": 0.978,
+    "diffrn_radiation_wavelength_minimum": 0.978,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 24.33,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.15,
+    "nonpolymer_molecular_weight_minimum": 0.11,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 24.08,
+    "polymer_molecular_weight_minimum": 24.08,
+    "polymer_monomer_count_maximum": 212,
+    "polymer_monomer_count_minimum": 212,
+    "resolution_combined": [
+      1.1
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.1
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-5278-0668",
+      "0000-0002-0552-7149"
+    ],
+    "rcsb_authors": [
+      "Arold, S.T.",
+      "Hameed, U.F.S."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal Structure of Arabidopsis N-amino acetyltransferase 2 (AtNATA2)"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 20.933,
+      "aniso_B_1_1": 0.8,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": 0.05,
+      "aniso_B_2_2": -0.53,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": -0.22,
+      "correlation_coeff_Fo_to_Fc": 0.979,
+      "correlation_coeff_Fo_to_Fc_free": 0.965,
+      "details": "HYDROGENS HAVE BEEN ADDED IN THE RIDING POSITIONS",
+      "ls_R_factor_R_free": 0.19549,
+      "ls_R_factor_R_work": 0.15301,
+      "ls_R_factor_obs": 0.1541,
+      "ls_d_res_high": 1.1,
+      "ls_d_res_low": 36.64,
+      "ls_number_reflns_R_free": 2000,
+      "ls_number_reflns_obs": 73933,
+      "ls_percent_reflns_R_free": 2.6,
+      "ls_percent_reflns_obs": 99.5,
+      "overall_SU_B": 1.81,
+      "overall_SU_ML": 0.035,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.03,
+      "pdbx_overall_ESU_R_Free": 0.034,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.7,
+      "pdbx_solvent_shrinkage_radii": 0.7,
+      "pdbx_solvent_vdw_probe_radii": 1.4,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.1,
+      "d_res_low": 36.64,
+      "number_atoms_solvent": 134,
+      "number_atoms_total": 1800,
+      "pdbx_number_atoms_ligand": 17,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1649,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.017,
+      "dev_ideal_target": 0.017,
+      "number": 1749,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.002,
+      "dev_ideal_target": 0.019,
+      "number": 1630,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.796,
+      "dev_ideal_target": 1.847,
+      "number": 2378,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 1.267,
+      "dev_ideal_target": 2.67,
+      "number": 3750,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.564,
+      "dev_ideal_target": 5.0,
+      "number": 214,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 29.201,
+      "dev_ideal_target": 20.753,
+      "number": 93,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 11.764,
+      "dev_ideal_target": 15.0,
+      "number": 277,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 15.03,
+      "dev_ideal_target": 15.0,
+      "number": 13,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.138,
+      "dev_ideal_target": 0.2,
+      "number": 258,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.011,
+      "dev_ideal_target": 0.02,
+      "number": 1984,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.002,
+      "dev_ideal_target": 0.02,
+      "number": 450,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_other"
+    },
+    {
+      "dev_ideal": 1.958,
+      "dev_ideal_target": 1.841,
+      "number": 844,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.808,
+      "dev_ideal_target": 1.84,
+      "number": 843,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 2.292,
+      "dev_ideal_target": 2.77,
+      "number": 1062,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 2.335,
+      "dev_ideal_target": 2.771,
+      "number": 1063,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 2.691,
+      "dev_ideal_target": 2.204,
+      "number": 905,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 2.69,
+      "dev_ideal_target": 2.207,
+      "number": 906,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 3.139,
+      "dev_ideal_target": 3.183,
+      "number": 1317,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 3.357,
+      "dev_ideal_target": 22.207,
+      "number": 1910,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "dev_ideal": 3.236,
+      "dev_ideal_target": 21.921,
+      "number": 1888,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    },
+    {
+      "dev_ideal": 2.975,
+      "dev_ideal_target": 3.0,
+      "number": 3379,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_free"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_bonded"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.1,
+      "d_resolution_low": 47.27,
+      "number_obs": 75934,
+      "pdbx_CC_half": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 8.3,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.7,
+      "percent_possible_obs": 99.5
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.1,
+      "d_res_low": 1.12,
+      "meanI_over_sigI_obs": 0.8,
+      "number_unique_obs": 3489,
+      "pdbx_CC_half": 0.35,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0267"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of Arabidopsis N-amino acetyltransferase 2 (AtNATA2)"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "Acetyltransferase, polyamine acetylation, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 5,
+    "space_group_name_H_M": "C 1 2 1"
+  },
+  "rcsb_id": "8XJ9"
+}

@@ -1,0 +1,736 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0009-2039-7002",
+      "name": "Calderari, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-5828-5526",
+      "name": "Gruez, A.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-3012-2960",
+      "name": "Weissman, K.J.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 98.11,
+    "angle_gamma": 90.0,
+    "length_a": 48.83,
+    "length_b": 68.54,
+    "length_c": 75.48
+  },
+  "citation": [
+    {
+      "country": "GE",
+      "id": "primary",
+      "journal_abbrev": "Angew.Chem.Int.Ed.Engl.",
+      "journal_id_ASTM": "ACIEAY",
+      "journal_id_CSD": "0179",
+      "journal_id_ISSN": "1521-3773",
+      "journal_volume": "63",
+      "page_first": "e202411258",
+      "page_last": "e202411258",
+      "pdbx_database_id_DOI": "10.1002/anie.202411258",
+      "pdbx_database_id_PubMed": 39428351,
+      "rcsb_authors": [
+        "Effert, J.",
+        "Westphalen, M.",
+        "Calderari, A.",
+        "Shi, Y.M.",
+        "Elamri, I.",
+        "Najah, S.",
+        "Grun, P.",
+        "Li, Y.",
+        "Gruez, A.",
+        "Weissman, K.J.",
+        "Bode, H.B."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Angew Chem Int Ed Engl",
+      "title": "Pyrrolizwilline, a Unique Bacterial Alkaloid Assembled by a Nonribosomal Peptide Synthetase and non-Enzymatic Dimerization.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8QZU",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8qzu/pdb",
+      "pdbx_database_accession": "pdb_00008qzu"
+    },
+    {
+      "database_code": "D_1292134218",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-04-28T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "channel-cut",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "PROXIMA 2",
+      "pdbx_synchrotron_site": "SOLEIL",
+      "pdbx_wavelength_list": "0.82656",
+      "source": "SYNCHROTRON",
+      "type": "SOLEIL BEAMLINE PROXIMA 2"
+    }
+  ],
+  "entry": {
+    "id": "8QZU"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.13,
+      "density_percent_sol": 42.24,
+      "description": "prismatic",
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 6.5,
+      "pdbx_details": "20% PEG 8K, 200mM Magnesium acetate, 100mM sodium Cacodylate",
+      "pdbx_pH_range": "5.5-7.5",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "entity_poly",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Polymer sequence",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-11-06T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 2,
+      "minor_revision": 0,
+      "ordinal": 2,
+      "revision_date": "2024-12-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_entity_poly.pdbx_target_identifier",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "France",
+      "funding_organization": "Agence Nationale de la Recherche (ANR)",
+      "grant_number": "ANR-20-CE92-0038",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-10-30T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-04-27T22:30:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "I_over_sigma": "1.19(1.18A)",
+      "Padilla_Yeates_L2_mean": 0.329,
+      "Padilla_Yeates_L_mean": 0.496,
+      "Wilson_B_aniso": "[21.547,18.248,14.621,0.000,-1.163,0.000]",
+      "Wilson_B_estimate": 17.631,
+      "acentric_outliers": 0,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.382,
+      "exp_method": "x-ray",
+      "num_miller_indices": 78408,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.19% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-10-30T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-11-06T00:00:00.000+00:00",
+    "major_revision": 2,
+    "minor_revision": 0,
+    "revision_date": "2024-12-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "8QZU",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39428351,
+    "rcsb_id": "8QZU"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 2282,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 265,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 270,
+    "deposited_solvent_atom_count": 228,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 0.8266,
+    "diffrn_radiation_wavelength_minimum": 0.8266,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 29.42,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.06,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 29.36,
+    "polymer_molecular_weight_minimum": 29.36,
+    "polymer_monomer_count_maximum": 270,
+    "polymer_monomer_count_minimum": 270,
+    "resolution_combined": [
+      1.18
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "MOLREP",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.18
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "GE",
+    "id": "primary",
+    "journal_abbrev": "Angew.Chem.Int.Ed.Engl.",
+    "journal_id_ASTM": "ACIEAY",
+    "journal_id_CSD": "0179",
+    "journal_id_ISSN": "1521-3773",
+    "journal_volume": "63",
+    "page_first": "e202411258",
+    "page_last": "e202411258",
+    "pdbx_database_id_DOI": "10.1002/anie.202411258",
+    "pdbx_database_id_PubMed": 39428351,
+    "rcsb_ORCID_identifiers": [
+      "0009-0004-6415-4305",
+      "?",
+      "0009-0009-2039-7002",
+      "0000-0001-6933-4971",
+      "?",
+      "?",
+      "?",
+      "0000-0002-3156-391X",
+      "?",
+      "0000-0002-3012-2960",
+      "0000-0001-6048-5909"
+    ],
+    "rcsb_authors": [
+      "Effert, J.",
+      "Westphalen, M.",
+      "Calderari, A.",
+      "Shi, Y.M.",
+      "Elamri, I.",
+      "Najah, S.",
+      "Grun, P.",
+      "Li, Y.",
+      "Gruez, A.",
+      "Weissman, K.J.",
+      "Bode, H.B."
+    ],
+    "rcsb_journal_abbrev": "Angew Chem Int Ed Engl",
+    "title": "Pyrrolizwilline, a Unique Bacterial Alkaloid Assembled by a Nonribosomal Peptide Synthetase and non-Enzymatic Dimerization.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 19.582,
+      "aniso_B_1_1": -0.94,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": -1.18,
+      "aniso_B_2_2": -0.89,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": 2.09,
+      "correlation_coeff_Fo_to_Fc": 0.978,
+      "correlation_coeff_Fo_to_Fc_free": 0.968,
+      "details": "HYDROGENS HAVE BEEN USED IF PRESENT IN THE INPUT",
+      "ls_R_factor_R_free": 0.19625,
+      "ls_R_factor_R_work": 0.1663,
+      "ls_R_factor_obs": 0.16778,
+      "ls_d_res_high": 1.18,
+      "ls_d_res_low": 20.0,
+      "ls_number_reflns_R_free": 3920,
+      "ls_number_reflns_obs": 74471,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 97.87,
+      "overall_SU_B": 2.186,
+      "overall_SU_ML": 0.041,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.042,
+      "pdbx_overall_ESU_R_Free": 0.042,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "1",
+      "d_res_high": 1.18,
+      "d_res_low": 20.0,
+      "number_atoms_solvent": 231,
+      "number_atoms_total": 2270,
+      "pdbx_number_atoms_ligand": 4,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2035,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.012,
+      "dev_ideal_target": 0.012,
+      "number": 2081,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.016,
+      "number": 1890,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.737,
+      "dev_ideal_target": 1.634,
+      "number": 2822,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 0.584,
+      "dev_ideal_target": 1.557,
+      "number": 4364,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.271,
+      "dev_ideal_target": 5.0,
+      "number": 269,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 10.673,
+      "dev_ideal_target": 5.0,
+      "number": 16,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 11.716,
+      "dev_ideal_target": 10.0,
+      "number": 326,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.091,
+      "dev_ideal_target": 0.2,
+      "number": 331,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.01,
+      "dev_ideal_target": 0.02,
+      "number": 2353,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 393,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_other"
+    },
+    {
+      "dev_ideal": 1.842,
+      "dev_ideal_target": 1.781,
+      "number": 1071,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.848,
+      "dev_ideal_target": 1.781,
+      "number": 1070,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 2.207,
+      "dev_ideal_target": 3.204,
+      "number": 1338,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 2.338,
+      "dev_ideal_target": 3.211,
+      "number": 1339,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 3.151,
+      "dev_ideal_target": 2.115,
+      "number": 1010,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 3.15,
+      "dev_ideal_target": 2.116,
+      "number": 1011,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 3.735,
+      "dev_ideal_target": 3.714,
+      "number": 1484,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 3.495,
+      "dev_ideal_target": 19.72,
+      "number": 2381,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "dev_ideal": 3.435,
+      "dev_ideal_target": 18.53,
+      "number": 2321,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    },
+    {
+      "dev_ideal": 9.532,
+      "dev_ideal_target": 3.0,
+      "number": 3971,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_free"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_bonded"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.18,
+      "d_resolution_low": 39.5,
+      "number_obs": 78411,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.041,
+      "pdbx_Rpim_I_all": 0.017,
+      "pdbx_Rrim_I_all": 0.044,
+      "pdbx_chi_squared": 0.95,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 17.9,
+      "pdbx_number_measured_all": 541333,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.9,
+      "percent_possible_obs": 98.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.48,
+      "d_res_high": 1.18,
+      "d_res_low": 1.21,
+      "number_measured_all": 34900,
+      "number_unique_obs": 5480,
+      "pdbx_CC_half": 0.674,
+      "pdbx_Rpim_I_all": 0.625,
+      "pdbx_Rrim_I_all": 1.611,
+      "pdbx_chi_squared": 0.9,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 1.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.4,
+      "percent_possible_obs": 92.7
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0405"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "XhpG hydrolase mutant S98A of Xenorhabdus hominickii"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "BIOSYNTHETIC PROTEIN",
+    "text": "alpha/beta hydrolase, post-NRPS enzyme, tailoring enzyme, oxopyrrolizidinacetamide hydrolase, BIOSYNTHETIC PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 5,
+    "space_group_name_H_M": "C 1 2 1"
+  },
+  "rcsb_id": "8QZU"
+}

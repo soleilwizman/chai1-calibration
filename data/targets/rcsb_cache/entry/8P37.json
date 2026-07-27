@@ -1,0 +1,950 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-1396-4549",
+      "name": "Hernandez-Gomez, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-5728-2756",
+      "name": "Fernandez-Justel, D.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0003-1263-0221",
+      "name": "Buey, R.M.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 112.867,
+    "length_b": 112.867,
+    "length_c": 54.119
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Structure",
+      "journal_id_ASTM": "STRUE6",
+      "journal_id_CSD": "2005",
+      "journal_id_ISSN": "0969-2126",
+      "journal_volume": "31",
+      "page_first": "1526",
+      "page_last": "1534.e4",
+      "pdbx_database_id_DOI": "10.1016/j.str.2023.09.014",
+      "pdbx_database_id_PubMed": 37875114,
+      "rcsb_authors": [
+        "Hernandez-Gomez, A.",
+        "Irisarri, I.",
+        "Fernandez-Justel, D.",
+        "Pelaez, R.",
+        "Jimenez, A.",
+        "Revuelta, J.L.",
+        "Balsera, M.",
+        "Buey, R.M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Structure",
+      "title": "GuaB3, an overlooked enzyme in cyanobacteria's toolbox that sheds light on IMP dehydrogenase evolution.",
+      "year": 2023
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8P37",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8p37/pdb",
+      "pdbx_database_accession": "pdb_00008p37"
+    },
+    {
+      "database_code": "D_1292130567",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-10-18T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "XALOC",
+      "pdbx_synchrotron_site": "ALBA",
+      "pdbx_wavelength_list": "0.979181423454",
+      "source": "SYNCHROTRON",
+      "type": "ALBA BEAMLINE XALOC"
+    }
+  ],
+  "entry": {
+    "id": "8P37"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.13,
+      "density_percent_sol": 42.14,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "SynGUAB3-C222S crystals were grown in the presence of IMP and NAD+ in mother liquor from the condition 2-48 of the commercial screen Morpheus (Molecular Dimensions), which consists of an amino acid mixture (0.02M DL-Glutamic acid monohydrate, 0.02M DL-Alanine, 0.02M Glycine, 0.02M DL-Lysine monohydrochloride, and 0.02M DL-Serine, a precipitant mix (25% (v/v) PEG 500 MME and 12.5 % (w/v) PEG 20000), and 0.1M of a buffer system (Tris-base, Bicine) adjusted at pH 8.5.\nInitial conditions: \nBuffer: 10 mM TrisHCl, pH 8.0\nProtein concentration = 15 mg/mL\nSubstrate concentration: 3 mM NAD + 3 mM IMP",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "atom_site",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Atomic model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-03-27T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 2,
+      "minor_revision": 0,
+      "ordinal": 2,
+      "revision_date": "2026-06-24T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.auth_atom_id",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.label_atom_id",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_atom.atom_id",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_bond.atom_id_1",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_bond.atom_id_2",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Spain",
+      "funding_organization": "Ministerio de Ciencia e Innovacion (MCIN)",
+      "grant_number": "PID2019-109671GB-I00",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-05-17T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2QR6",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-06-21T08:12:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1673,
+      "DCC_Rfree": 0.1828,
+      "EDS_R": 0.1424,
+      "EDS_res_high": 1.22,
+      "EDS_res_low": 39.91,
+      "Fo_Fc_correlation": 0.98,
+      "I_over_sigma": "1.47(1.22A)",
+      "Padilla_Yeates_L2_mean": 0.294,
+      "Padilla_Yeates_L_mean": 0.465,
+      "Wilson_B_aniso": "[13.147,13.147,13.321,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 13.16,
+      "acentric_outliers": 3,
+      "bulk_solvent_b": 44.383,
+      "bulk_solvent_k": 0.404,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.013,
+      "data_completeness": 76.72,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 77746,
+      "number_reflns_R_free": 3882,
+      "percent_RSRZ_outliers": 0.0,
+      "percent_free_reflections": 4.99,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.37% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-k,-h,-l:0.127"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.97,
+      "bonds_RMSZ": 0.86,
+      "clashscore": 0.88,
+      "num_H_reduce": 2880,
+      "num_angles_RMSZ": 3831,
+      "num_bonds_RMSZ": 2813,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.35
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-05-17T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-03-27T00:00:00.000+00:00",
+    "major_revision": 2,
+    "minor_revision": 0,
+    "revision_date": "2026-06-24T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8P37",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 37875114,
+    "rcsb_id": "8P37"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 2,
+    "deposited_atom_count": 3164,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2876,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 385,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 390,
+    "deposited_solvent_atom_count": 331,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 0.9792,
+    "diffrn_radiation_wavelength_minimum": 0.9792,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 41.57,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.66,
+    "nonpolymer_molecular_weight_minimum": 0.37,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 40.54,
+    "polymer_molecular_weight_minimum": 40.54,
+    "polymer_monomer_count_maximum": 390,
+    "polymer_monomer_count_minimum": 390,
+    "resolution_combined": [
+      1.219
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "AUTOPROC",
+      "BUSTER",
+      "PHASER",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.22
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Structure",
+    "journal_id_ASTM": "STRUE6",
+    "journal_id_CSD": "2005",
+    "journal_id_ISSN": "0969-2126",
+    "journal_volume": "31",
+    "page_first": "1526",
+    "page_last": "1534.e4",
+    "pdbx_database_id_DOI": "10.1016/j.str.2023.09.014",
+    "pdbx_database_id_PubMed": 37875114,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Hernandez-Gomez, A.",
+      "Irisarri, I.",
+      "Fernandez-Justel, D.",
+      "Pelaez, R.",
+      "Jimenez, A.",
+      "Revuelta, J.L.",
+      "Balsera, M.",
+      "Buey, R.M."
+    ],
+    "rcsb_journal_abbrev": "Structure",
+    "title": "GuaB3, an overlooked enzyme in cyanobacteria's toolbox that sheds light on IMP dehydrogenase evolution.",
+    "year": 2023
+  },
+  "refine": [
+    {
+      "B_iso_mean": 16.64,
+      "aniso_B_1_1": 0.2698,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": 0.2698,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": -0.5396,
+      "correlation_coeff_Fo_to_Fc": 0.95,
+      "correlation_coeff_Fo_to_Fc_free": 0.953,
+      "ls_R_factor_R_free": 0.1876,
+      "ls_R_factor_R_work": 0.1749,
+      "ls_R_factor_obs": 0.1755,
+      "ls_d_res_high": 1.219,
+      "ls_d_res_low": 39.91,
+      "ls_number_reflns_R_free": 3882,
+      "ls_number_reflns_obs": 77746,
+      "ls_percent_reflns_obs": 76.7,
+      "overall_SU_R_Cruickshank_DPI": 0.056,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_SU_R_Blow_DPI": 0.053,
+      "pdbx_overall_SU_R_free_Blow_DPI": 0.052,
+      "pdbx_overall_SU_R_free_Cruickshank_DPI": 0.05,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_analyze": [
+    {
+      "Luzzati_coordinate_error_obs": 0.15,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.219,
+      "d_res_low": 39.91,
+      "number_atoms_solvent": 331,
+      "number_atoms_total": 3152,
+      "pdbx_number_atoms_ligand": 68,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2753,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "number": 5759,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_bond_d",
+      "weight": 2.0
+    },
+    {
+      "dev_ideal": 1.29,
+      "number": 10490,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_angle_deg",
+      "weight": 2.0
+    },
+    {
+      "number": 1737,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SINUSOIDAL",
+      "type": "t_dihedral_angle_d",
+      "weight": 2.0
+    },
+    {
+      "number": 891,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_gen_planes",
+      "weight": 5.0
+    },
+    {
+      "number": 5759,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_it",
+      "weight": 10.0
+    },
+    {
+      "number": 412,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_chiral_improper_torsion",
+      "weight": 5.0
+    },
+    {
+      "number": 6667,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_ideal_dist_contact",
+      "weight": 4.0
+    },
+    {
+      "dev_ideal": 4.9,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_omega_torsion"
+    },
+    {
+      "dev_ideal": 13.46,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_other_torsion"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.219,
+      "d_resolution_low": 39.905,
+      "details": "Some remarks regarding the mmCIF items written, the PDB Exchange Dictionary (PDBx/mmCIF) Version 5.0 supporting the data files in the current PDB archive (dictionary version 5.325, last updated 2020-04-13: http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Index/) and the actual quantities provided by MRFANA (https://github.com/githubgphl/MRFANA) from the autoPROC package (https://www.globalphasing.com/autoproc/). In general, the mmCIF categories here should provide items that are currently used in the PDB archive. If there are alternatives, the one recommended by the PDB developers has been selected.\n\nThe distinction between *_all and *_obs quantities is not always clear: often only one version is actively used within the PDB archive (or is the one recommended by PDB developers). The intention of distinguishing between classes of reflections before and after some kind of observation criterion was applied, can in principle be useful - but such criteria change in various ways throughout the data processing steps (rejection of overloaded or too partial reflections, outlier/misfit rejections during scaling etc) and there is no retrospect computation of data scaling/merging statistics for the reflections used in the final refinement (where another observation criterion might have been applied). Typical data processing will usually only provide one version of statistics at various stages and these are given in the recommended item here, irrespective of the \"_all\" and \"_obs\" connotation, see e.g. the use of _reflns.pdbx_Rmerge_I_obs, _reflns.pdbx_Rrim_I_all and _reflns.pdbx_Rpim_I_all.\n\nPlease note that all statistics related to \"merged intensities\" (or \"merging\") are based on inverse-variance weighting of the individual measurements making up a symmetry-unique reflection. This is standard for several decades now, even if some of the dictionary definitions seem to suggest that a simple \"mean\" or \"average\" intensity is being used instead.\n\nR-values are always given for all symmetry-equivalent reflections following Friedel's law, i.e. Bijvoet pairs are not treated separately (since we want to describe the overall mean intensity and not the mean I(+) and I(-) here).\n\nThe Rrim metric is identical to the Rmeas R-value and only differs in name.\n\n_reflns.pdbx_number_measured_all is the number of measured intensities just before the final merging step (at which point no additional rejection takes place).\n\n_reflns.number_obs is the number of symmetry-unique observations, i.e. the result of merging those measurements via inverse-variance weighting.\n\n_reflns.pdbx_netI_over_sigmaI is based on the merged intensities (_reflns.number_obs) as expected.\n\n_reflns.pdbx_redundancy is synonymous with \"multiplicity\".\n\nThe per-shell item _reflns_shell.number_measured_all corresponds to the overall value _reflns.pdbx_number_measured_all.\n\nThe per-shell item _reflns_shell.number_unique_all corresponds to the overall value _reflns.number_obs.\n\nThe per-shell item _reflns_shell.percent_possible_all corresponds to the overall value _reflns.percent_possible_obs.\n\nThe per-shell item _reflns_shell.meanI_over_sigI_obs corresponds to the overall value given as _reflns.pdbx_netI_over_sigmaI. But be aware of the incorrect definition of the former in the current dictionary!",
+      "number_obs": 77746,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.0877,
+      "pdbx_Rpim_I_all": 0.0254,
+      "pdbx_Rrim_I_all": 0.0914,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 14.54,
+      "pdbx_number_measured_all": 996816,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.82,
+      "percent_possible_obs": 94.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.0428,
+      "d_res_high": 3.652,
+      "d_res_low": 39.905,
+      "meanI_over_sigI_obs": 53.3,
+      "number_measured_all": 48957,
+      "number_measured_obs": 48957,
+      "number_unique_all": 3883,
+      "number_unique_obs": 3883,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.0124,
+      "pdbx_Rrim_I_all": 0.0446,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.61,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.0473,
+      "d_res_high": 2.889,
+      "d_res_low": 3.652,
+      "meanI_over_sigI_obs": 45.21,
+      "number_measured_all": 46953,
+      "number_measured_obs": 46953,
+      "number_unique_all": 3890,
+      "number_unique_obs": 3890,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.0139,
+      "pdbx_Rrim_I_all": 0.0493,
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 12.07,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.0608,
+      "d_res_high": 2.521,
+      "d_res_low": 2.889,
+      "meanI_over_sigI_obs": 36.95,
+      "number_measured_all": 49648,
+      "number_measured_obs": 49648,
+      "number_unique_all": 3888,
+      "number_unique_obs": 3888,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.0177,
+      "pdbx_Rrim_I_all": 0.0633,
+      "pdbx_ordinal": 3,
+      "pdbx_redundancy": 12.77,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.076,
+      "d_res_high": 2.286,
+      "d_res_low": 2.521,
+      "meanI_over_sigI_obs": 31.11,
+      "number_measured_all": 52725,
+      "number_measured_obs": 52725,
+      "number_unique_all": 3887,
+      "number_unique_obs": 3887,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.0214,
+      "pdbx_Rrim_I_all": 0.079,
+      "pdbx_ordinal": 4,
+      "pdbx_redundancy": 13.56,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.0941,
+      "d_res_high": 2.121,
+      "d_res_low": 2.286,
+      "meanI_over_sigI_obs": 26.34,
+      "number_measured_all": 54023,
+      "number_measured_obs": 54023,
+      "number_unique_all": 3888,
+      "number_unique_obs": 3888,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.0263,
+      "pdbx_Rrim_I_all": 0.0978,
+      "pdbx_ordinal": 5,
+      "pdbx_redundancy": 13.89,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.1237,
+      "d_res_high": 1.995,
+      "d_res_low": 2.121,
+      "meanI_over_sigI_obs": 20.4,
+      "number_measured_all": 49296,
+      "number_measured_obs": 49296,
+      "number_unique_all": 3888,
+      "number_unique_obs": 3888,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rpim_I_all": 0.036,
+      "pdbx_Rrim_I_all": 0.1289,
+      "pdbx_ordinal": 6,
+      "pdbx_redundancy": 12.68,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.1699,
+      "d_res_high": 1.895,
+      "d_res_low": 1.995,
+      "meanI_over_sigI_obs": 15.67,
+      "number_measured_all": 51332,
+      "number_measured_obs": 51332,
+      "number_unique_all": 3887,
+      "number_unique_obs": 3887,
+      "pdbx_CC_half": 0.995,
+      "pdbx_Rpim_I_all": 0.0485,
+      "pdbx_Rrim_I_all": 0.1767,
+      "pdbx_ordinal": 7,
+      "pdbx_redundancy": 13.21,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.2234,
+      "d_res_high": 1.812,
+      "d_res_low": 1.895,
+      "meanI_over_sigI_obs": 12.07,
+      "number_measured_all": 51414,
+      "number_measured_obs": 51414,
+      "number_unique_all": 3883,
+      "number_unique_obs": 3883,
+      "pdbx_CC_half": 0.992,
+      "pdbx_Rpim_I_all": 0.0638,
+      "pdbx_Rrim_I_all": 0.2324,
+      "pdbx_ordinal": 8,
+      "pdbx_redundancy": 13.24,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.2875,
+      "d_res_high": 1.741,
+      "d_res_low": 1.812,
+      "meanI_over_sigI_obs": 9.31,
+      "number_measured_all": 48063,
+      "number_measured_obs": 48063,
+      "number_unique_all": 3891,
+      "number_unique_obs": 3891,
+      "pdbx_CC_half": 0.987,
+      "pdbx_Rpim_I_all": 0.0851,
+      "pdbx_Rrim_I_all": 0.3,
+      "pdbx_ordinal": 9,
+      "pdbx_redundancy": 12.35,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.4,
+      "d_res_high": 1.681,
+      "d_res_low": 1.741,
+      "meanI_over_sigI_obs": 7.03,
+      "number_measured_all": 50899,
+      "number_measured_obs": 50899,
+      "number_unique_all": 3889,
+      "number_unique_obs": 3889,
+      "pdbx_CC_half": 0.976,
+      "pdbx_Rpim_I_all": 0.1148,
+      "pdbx_Rrim_I_all": 0.4164,
+      "pdbx_ordinal": 10,
+      "pdbx_redundancy": 13.09,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.4538,
+      "d_res_high": 1.628,
+      "d_res_low": 1.681,
+      "meanI_over_sigI_obs": 6.28,
+      "number_measured_all": 52288,
+      "number_measured_obs": 52288,
+      "number_unique_all": 3887,
+      "number_unique_obs": 3887,
+      "pdbx_CC_half": 0.971,
+      "pdbx_Rpim_I_all": 0.1286,
+      "pdbx_Rrim_I_all": 0.4719,
+      "pdbx_ordinal": 11,
+      "pdbx_redundancy": 13.45,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.527,
+      "d_res_high": 1.581,
+      "d_res_low": 1.628,
+      "meanI_over_sigI_obs": 5.32,
+      "number_measured_all": 52427,
+      "number_measured_obs": 52427,
+      "number_unique_all": 3888,
+      "number_unique_obs": 3888,
+      "pdbx_CC_half": 0.96,
+      "pdbx_Rpim_I_all": 0.1492,
+      "pdbx_Rrim_I_all": 0.5479,
+      "pdbx_ordinal": 12,
+      "pdbx_redundancy": 13.48,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.6281,
+      "d_res_high": 1.539,
+      "d_res_low": 1.581,
+      "meanI_over_sigI_obs": 4.48,
+      "number_measured_all": 52311,
+      "number_measured_obs": 52311,
+      "number_unique_all": 3883,
+      "number_unique_obs": 3883,
+      "pdbx_CC_half": 0.947,
+      "pdbx_Rpim_I_all": 0.1779,
+      "pdbx_Rrim_I_all": 0.653,
+      "pdbx_ordinal": 13,
+      "pdbx_redundancy": 13.47,
+      "percent_possible_all": 99.2
+    },
+    {
+      "Rmerge_I_obs": 0.7257,
+      "d_res_high": 1.5,
+      "d_res_low": 1.539,
+      "meanI_over_sigI_obs": 3.82,
+      "number_measured_all": 52021,
+      "number_measured_obs": 52021,
+      "number_unique_all": 3889,
+      "number_unique_obs": 3889,
+      "pdbx_CC_half": 0.931,
+      "pdbx_Rpim_I_all": 0.2063,
+      "pdbx_Rrim_I_all": 0.7547,
+      "pdbx_ordinal": 14,
+      "pdbx_redundancy": 13.38,
+      "percent_possible_all": 96.3
+    },
+    {
+      "Rmerge_I_obs": 0.8629,
+      "d_res_high": 1.462,
+      "d_res_low": 1.5,
+      "meanI_over_sigI_obs": 3.02,
+      "number_measured_all": 47368,
+      "number_measured_obs": 47368,
+      "number_unique_all": 3885,
+      "number_unique_obs": 3885,
+      "pdbx_CC_half": 0.895,
+      "pdbx_Rpim_I_all": 0.2572,
+      "pdbx_Rrim_I_all": 0.9009,
+      "pdbx_ordinal": 15,
+      "pdbx_redundancy": 12.19,
+      "percent_possible_all": 95.5
+    },
+    {
+      "Rmerge_I_obs": 0.9862,
+      "d_res_high": 1.423,
+      "d_res_low": 1.462,
+      "meanI_over_sigI_obs": 2.59,
+      "number_measured_all": 47121,
+      "number_measured_obs": 47121,
+      "number_unique_all": 3888,
+      "number_unique_obs": 3888,
+      "pdbx_CC_half": 0.847,
+      "pdbx_Rpim_I_all": 0.2947,
+      "pdbx_Rrim_I_all": 1.0299,
+      "pdbx_ordinal": 16,
+      "pdbx_redundancy": 12.12,
+      "percent_possible_all": 89.4
+    },
+    {
+      "Rmerge_I_obs": 1.0071,
+      "d_res_high": 1.379,
+      "d_res_low": 1.423,
+      "meanI_over_sigI_obs": 2.58,
+      "number_measured_all": 50120,
+      "number_measured_obs": 50120,
+      "number_unique_all": 3890,
+      "number_unique_obs": 3890,
+      "pdbx_CC_half": 0.854,
+      "pdbx_Rpim_I_all": 0.2912,
+      "pdbx_Rrim_I_all": 1.0488,
+      "pdbx_ordinal": 17,
+      "pdbx_redundancy": 12.88,
+      "percent_possible_all": 79.5
+    },
+    {
+      "Rmerge_I_obs": 1.2432,
+      "d_res_high": 1.333,
+      "d_res_low": 1.379,
+      "meanI_over_sigI_obs": 1.97,
+      "number_measured_all": 45713,
+      "number_measured_obs": 45713,
+      "number_unique_all": 3886,
+      "number_unique_obs": 3886,
+      "pdbx_CC_half": 0.784,
+      "pdbx_Rpim_I_all": 0.3766,
+      "pdbx_Rrim_I_all": 1.2999,
+      "pdbx_ordinal": 18,
+      "pdbx_redundancy": 11.76,
+      "percent_possible_all": 76.2
+    },
+    {
+      "Rmerge_I_obs": 1.3047,
+      "d_res_high": 1.284,
+      "d_res_low": 1.333,
+      "meanI_over_sigI_obs": 1.87,
+      "number_measured_all": 47822,
+      "number_measured_obs": 47822,
+      "number_unique_all": 3890,
+      "number_unique_obs": 3890,
+      "pdbx_CC_half": 0.757,
+      "pdbx_Rpim_I_all": 0.385,
+      "pdbx_Rrim_I_all": 1.3613,
+      "pdbx_ordinal": 19,
+      "pdbx_redundancy": 12.29,
+      "percent_possible_all": 79.3
+    },
+    {
+      "Rmerge_I_obs": 1.558,
+      "d_res_high": 1.219,
+      "d_res_low": 1.284,
+      "meanI_over_sigI_obs": 1.51,
+      "number_measured_all": 46315,
+      "number_measured_obs": 46315,
+      "number_unique_all": 3886,
+      "number_unique_obs": 3886,
+      "pdbx_CC_half": 0.68,
+      "pdbx_Rpim_I_all": 0.4665,
+      "pdbx_Rrim_I_all": 1.6279,
+      "pdbx_ordinal": 20,
+      "pdbx_redundancy": 11.92,
+      "percent_possible_all": 80.1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "BUSTER",
+      "pdbx_ordinal": 1,
+      "version": "2.10.4"
+    },
+    {
+      "classification": "data processing",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2,
+      "version": "1.0.5 20220608"
+    },
+    {
+      "classification": "data processing",
+      "name": "autoPROC",
+      "pdbx_ordinal": 3,
+      "version": "Jan 10, 2022"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 4,
+      "version": "0.7.9"
+    },
+    {
+      "classification": "data processing",
+      "name": "autoPROC",
+      "pdbx_ordinal": 5,
+      "version": "2.3.87"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 6,
+      "version": "20220820"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 7,
+      "version": "2.8.3"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Structure a catalytically inactive mutant of the IMP dehydrogenase related protein GUAB3 from Synechocystis PCC 6803"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "BIOSYNTHETIC PROTEIN",
+    "text": "Complex of the enzyme with cofactor and product, BIOSYNTHETIC PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 79,
+    "space_group_name_H_M": "I 4"
+  },
+  "rcsb_id": "8P37"
+}

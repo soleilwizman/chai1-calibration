@@ -1,0 +1,51 @@
+{
+  "query_id": "ee4d91be-d1ba-49f8-b604-9bdcc3bea3b9",
+  "result_type": "polymer_entity",
+  "total_count": 1,
+  "result_set": [
+    {
+      "identifier": "6OM5_1",
+      "score": 0.5104712041884817,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 23422,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 30181,
+              "original_score": 92.0,
+              "norm_score": 0.020942408376963352,
+              "match_context": [
+                {
+                  "sequence_identity": 0.415,
+                  "evalue": 1.468e-19,
+                  "bitscore": 92,
+                  "alignment_length": 166,
+                  "mismatches": 82,
+                  "gaps_opened": 7,
+                  "query_beg": 86,
+                  "query_end": 246,
+                  "subject_beg": 99,
+                  "subject_end": 254,
+                  "query_length": 246,
+                  "subject_length": 254,
+                  "query_aligned_seq": "PSHSALGNFNFGQVGTQEVYFGEWWKA-GDTPASASHTVYYAGDNTNTTVPTAGTATYTVAGINGSG---SNLLSGTFTANYGAGTLEGTLTGTGTAVSSLSLDGVAFNPGTAAFAGLATANGTAGIDNSGVVQGQFFGANASALAGIAQF-DNVSYNTAFGGAKN",
+                  "subject_aligned_seq": "PDHRGLGRLSFKQVGNQDTYFGEWENVDAATSAAKNVSVYYAGSDPTKTLP-SGKATYTVEGINKYGNFNSRLMKGTFDVDFERASISGYLSKPNL---SLSIES-KIDKTNATFEGIAKAEGVIGKS-----EGRFYGAKAEGLAGMATFASKPEYNTAFGGTKN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "audit_author": [
+    {
+      "name": "Seattle Structural Genomics Center for Infectious Disease",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Seattle Structural Genomics Center for Infectious Disease (SSGCID)",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 42.801,
+    "length_b": 49.228,
+    "length_c": 94.916
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To be published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Liu, L.",
+        "Lovell, S.",
+        "Battaile, K.P."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal Structure of Dephospho-CoA kinase from Klebsiella aerogenes (Sulfate bound)"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9DUG",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9dug/pdb",
+      "pdbx_database_accession": "pdb_00009dug"
+    },
+    {
+      "database_code": "D_1000288856",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-08-03T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "Double Crystal Si 111",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "19-ID",
+      "pdbx_synchrotron_site": "NSLS-II",
+      "pdbx_wavelength_list": "0.9786",
+      "source": "SYNCHROTRON",
+      "type": "NSLS-II BEAMLINE 19-ID"
+    }
+  ],
+  "entry": {
+    "id": "9DUG"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.1,
+      "density_percent_sol": 41.33,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 7.5,
+      "pdbx_details": "Crystal Screen D3: 2.0 M ammonium sulfate, 0.1 M HEPES pH 7.5, 2% (v/v) PEG 400. KlaeA.00139.a.B1.PW39166 at 24.8 mg/mL. plate 13976 well D3 drop 2, Puck: PSL-2011, Cryo: 2.5 M ammonium sulfate",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_SG_project": [
+    {
+      "full_name_of_center": "Seattle Structural Genomics Center for Infectious Disease",
+      "id": 1,
+      "initial_of_center": "SSGCID",
+      "project_name": "NIAID, National Institute of Allergy and Infectious Diseases"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-10-16T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)",
+      "grant_number": "75N93022C00036",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/Office of the Director",
+      "grant_number": "S10OD030394",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "Y",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-10-02T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "8SBO",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T08:59:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.1979,
+      "EDS_R": 0.1675,
+      "EDS_res_high": 1.5,
+      "EDS_res_low": 47.46,
+      "Fo_Fc_correlation": 0.971,
+      "I_over_sigma": "1.81(1.50A)",
+      "Padilla_Yeates_L2_mean": 0.331,
+      "Padilla_Yeates_L_mean": 0.497,
+      "Wilson_B_aniso": "[21.840,18.914,16.586,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 18.916,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 37.87,
+      "bulk_solvent_k": 0.357,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.275,
+      "data_completeness": 99.93,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 32886,
+      "number_reflns_R_free": 1588,
+      "percent_RSRZ_outliers": 5.71,
+      "percent_free_reflections": 4.82,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 9.68% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.52,
+      "bonds_RMSZ": 0.37,
+      "clashscore": 3.28,
+      "num_H_reduce": 1668,
+      "num_angles_RMSZ": 2307,
+      "num_bonds_RMSZ": 1700,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.58
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-10-02T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-10-16T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-10-16T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "9DUG",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9DUG"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1907,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 210,
+    "deposited_nonpolymer_entity_instance_count": 6,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 214,
+    "deposited_solvent_atom_count": 218,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9786,
+    "diffrn_radiation_wavelength_minimum": 0.9786,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 24.43,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.1,
+    "nonpolymer_molecular_weight_minimum": 0.1,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 23.85,
+    "polymer_molecular_weight_minimum": 23.85,
+    "polymer_monomer_count_maximum": 214,
+    "polymer_monomer_count_minimum": 214,
+    "resolution_combined": [
+      1.5
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.5
+    }
+  },
+  "rcsb_external_references": [
+    {
+      "id": "10.18430/M39DUG",
+      "link": "https://dx.doi.org/10.18430/M39DUG",
+      "type": "PROTEIN DIFFRACTION"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To be published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-0514-281X",
+      "0000-0002-3215-4472",
+      "0000-0003-0833-3259"
+    ],
+    "rcsb_authors": [
+      "Liu, L.",
+      "Lovell, S.",
+      "Battaile, K.P."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal Structure of Dephospho-CoA kinase from Klebsiella aerogenes (Sulfate bound)"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1971,
+      "ls_R_factor_R_work": 0.1551,
+      "ls_R_factor_obs": 0.1572,
+      "ls_d_res_high": 1.5,
+      "ls_d_res_low": 47.46,
+      "ls_number_reflns_R_free": 1588,
+      "ls_number_reflns_obs": 32885,
+      "ls_percent_reflns_R_free": 4.83,
+      "ls_percent_reflns_obs": 99.93,
+      "overall_SU_ML": 0.16,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.33,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.58,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.5,
+      "d_res_low": 47.46,
+      "number_atoms_solvent": 218,
+      "number_atoms_total": 1885,
+      "pdbx_number_atoms_ligand": 30,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1637,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.008,
+      "number": 1717,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.871,
+      "number": 2341,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 12.992,
+      "number": 630,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.051,
+      "number": 269,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.012,
+      "number": 303,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.5,
+      "d_resolution_low": 94.92,
+      "number_obs": 32947,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.071,
+      "pdbx_Rpim_I_all": 0.026,
+      "pdbx_Rrim_I_all": 0.076,
+      "pdbx_chi_squared": 1.01,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 15.8,
+      "pdbx_number_measured_all": 271397,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 8.2,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.208,
+      "d_res_high": 1.5,
+      "d_res_low": 1.54,
+      "number_measured_all": 20852,
+      "number_unique_obs": 2422,
+      "pdbx_CC_half": 0.691,
+      "pdbx_Rpim_I_all": 0.431,
+      "pdbx_Rrim_I_all": 1.284,
+      "pdbx_chi_squared": 1.02,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI_obs": 1.8,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 8.6,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(dev_5462: ???)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of Dephospho-CoA kinase from Klebsiella aerogenes (Sulfate bound)"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "SSGCID, STRUCTURAL GENOMICS, SEATTLE STRUCTURAL GENOMICS CENTER FOR INFECTIOUS DISEASE, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "9DUG"
+}

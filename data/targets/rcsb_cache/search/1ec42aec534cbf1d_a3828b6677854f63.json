@@ -1,0 +1,51 @@
+{
+  "query_id": "5115f2f9-d9cf-4347-bf2f-2b80dfd0d392",
+  "result_type": "polymer_entity",
+  "total_count": 1,
+  "result_set": [
+    {
+      "identifier": "2MU3_1",
+      "score": 0.5,
+      "services": [
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 4019,
+              "original_score": 73.0,
+              "norm_score": 0.0,
+              "match_context": [
+                {
+                  "sequence_identity": 0.322,
+                  "evalue": 3.472e-14,
+                  "bitscore": 73,
+                  "alignment_length": 149,
+                  "mismatches": 94,
+                  "gaps_opened": 2,
+                  "query_beg": 2,
+                  "query_end": 150,
+                  "subject_beg": 11,
+                  "subject_end": 152,
+                  "query_length": 151,
+                  "subject_length": 199,
+                  "query_aligned_seq": "GDATAKLLQALVPALLKSDVFRAIYKRGTRKQVVQYVTNSALQQAASSLGLDASTISQLQTKATQALSSVSADSDSTAYAKAFGLAIAQVLGTSGQVNDANVNQIGAKLATGILRGSSAVAPRLGIDLSGINVDSDIGSVTSLILSGST",
+                  "subject_aligned_seq": "GGASAGLISRVANALANTSTLRTVLRTGVSQQIASSVVQRAAQSLASTLGVDGNNLARF---AVQAVSRLPAGSDTSAYAQAF----SSALFNAGVLNASNIDTLGSRVLSALLNGVSSAAQGLGINVDSGSVQSDISSSSSFLSTSSS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 27206,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-0069-9408",
+      "name": "Goldstone, D.C.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Walsham, L.J.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 90.902,
+    "length_b": 90.902,
+    "length_c": 56.468
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "J.Med.Chem.",
+      "journal_id_ASTM": "JMCMAR",
+      "journal_id_CSD": "0151",
+      "journal_id_ISSN": "0022-2623",
+      "journal_volume": "67",
+      "page_first": "19057",
+      "page_last": "19076",
+      "pdbx_database_id_DOI": "10.1021/acs.jmedchem.4c01544",
+      "pdbx_database_id_PubMed": 39418501,
+      "rcsb_authors": [
+        "Xu, S.",
+        "Wang, S.",
+        "Zhou, Y.",
+        "Foley, N.",
+        "Sun, L.",
+        "Walsham, L.",
+        "Tang, K.",
+        "Shi, D.",
+        "Shi, X.",
+        "Zhang, Z.",
+        "Jiang, X.",
+        "Gao, S.",
+        "Liu, X.",
+        "Pannecouque, C.",
+        "Goldstone, D.C.",
+        "Dick, A.",
+        "Zhan, P."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Med Chem",
+      "title": "\"Pseudosubstrate Envelope\"/Free Energy Perturbation-Guided Design and Mechanistic Investigations of Benzothiazole HIV Capsid Modulators with High Ligand Efficiency.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8V17",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8v17/pdb",
+      "pdbx_database_accession": "pdb_00008v17"
+    },
+    {
+      "database_code": "D_1000279325",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-04-21T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "MX2",
+      "pdbx_synchrotron_site": "Australian Synchrotron",
+      "pdbx_wavelength_list": "0.95372",
+      "source": "SYNCHROTRON",
+      "type": "AUSTRALIAN SYNCHROTRON BEAMLINE MX2"
+    }
+  ],
+  "entry": {
+    "id": "8V17"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.67,
+      "density_percent_sol": 53.89,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "Morpheus Condition D11",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-12-11T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2023-11-19T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "8TOV",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T16:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.142,
+      "DCC_Rfree": 0.1715,
+      "EDS_R": 0.1631,
+      "EDS_res_high": 1.5,
+      "EDS_res_low": 45.93,
+      "Fo_Fc_correlation": 0.971,
+      "I_over_sigma": "1.73(1.50A)",
+      "Padilla_Yeates_L2_mean": 0.331,
+      "Padilla_Yeates_L_mean": 0.497,
+      "Wilson_B_aniso": "[23.235,23.235,18.921,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 21.424,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 40.675,
+      "bulk_solvent_k": 0.376,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.198,
+      "data_completeness": 99.99,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 42669,
+      "number_reflns_R_free": 2080,
+      "percent_RSRZ_outliers": 8.68,
+      "percent_free_reflections": 4.87,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.41% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-h-k,-l:0.036"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.08,
+      "bonds_RMSZ": 0.7,
+      "clashscore": 7.01,
+      "num_H_reduce": 1778,
+      "num_angles_RMSZ": 2450,
+      "num_bonds_RMSZ": 1804,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.12
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-11-19T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-12-11T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-12-11T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8V17",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39418501,
+    "rcsb_id": "8V17"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1921,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 219,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 229,
+    "deposited_solvent_atom_count": 131,
+    "deposited_unmodeled_polymer_monomer_count": 10,
+    "diffrn_radiation_wavelength_maximum": 0.9537,
+    "diffrn_radiation_wavelength_minimum": 0.9537,
+    "disulfide_bond_count": 2,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 26.05,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.52,
+    "nonpolymer_molecular_weight_minimum": 0.09,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 25.25,
+    "polymer_molecular_weight_minimum": 25.25,
+    "polymer_monomer_count_maximum": 229,
+    "polymer_monomer_count_minimum": 229,
+    "resolution_combined": [
+      1.5
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHASER",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.5
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "J.Med.Chem.",
+    "journal_id_ASTM": "JMCMAR",
+    "journal_id_CSD": "0151",
+    "journal_id_ISSN": "0022-2623",
+    "journal_volume": "67",
+    "page_first": "19057",
+    "page_last": "19076",
+    "pdbx_database_id_DOI": "10.1021/acs.jmedchem.4c01544",
+    "pdbx_database_id_PubMed": 39418501,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-8395-5886",
+      "0009-0005-0503-6090",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-7302-2214",
+      "?",
+      "0000-0003-0069-9408",
+      "?",
+      "0000-0002-9675-6026"
+    ],
+    "rcsb_authors": [
+      "Xu, S.",
+      "Wang, S.",
+      "Zhou, Y.",
+      "Foley, N.",
+      "Sun, L.",
+      "Walsham, L.",
+      "Tang, K.",
+      "Shi, D.",
+      "Shi, X.",
+      "Zhang, Z.",
+      "Jiang, X.",
+      "Gao, S.",
+      "Liu, X.",
+      "Pannecouque, C.",
+      "Goldstone, D.C.",
+      "Dick, A.",
+      "Zhan, P."
+    ],
+    "rcsb_journal_abbrev": "J Med Chem",
+    "title": "\"Pseudosubstrate Envelope\"/Free Energy Perturbation-Guided Design and Mechanistic Investigations of Benzothiazole HIV Capsid Modulators with High Ligand Efficiency.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 27.094,
+      "aniso_B_1_1": -0.106,
+      "aniso_B_1_2": -0.053,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": -0.106,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": 0.342,
+      "correlation_coeff_Fo_to_Fc": 0.974,
+      "correlation_coeff_Fo_to_Fc_free": 0.971,
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.1714,
+      "ls_R_factor_R_work": 0.142,
+      "ls_R_factor_all": 0.144,
+      "ls_d_res_high": 1.5,
+      "ls_d_res_low": 45.927,
+      "ls_number_reflns_R_free": 2080,
+      "ls_number_reflns_R_work": 40585,
+      "ls_number_reflns_obs": 42665,
+      "ls_percent_reflns_R_free": 4.875,
+      "ls_percent_reflns_obs": 99.986,
+      "ls_wR_factor_R_free": 0.179,
+      "ls_wR_factor_R_work": 0.143,
+      "overall_SU_B": 2.637,
+      "overall_SU_ML": 0.042,
+      "pdbx_average_fsc_free": 0.9762,
+      "pdbx_average_fsc_work": 0.9858,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.062,
+      "pdbx_overall_ESU_R_Free": 0.057,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "solvent_model_details": "MASK BULK SOLVENT"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.5,
+      "d_res_low": 45.927,
+      "number_atoms_solvent": 131,
+      "number_atoms_total": 1862,
+      "pdbx_number_atoms_ligand": 55,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1676,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.011,
+      "dev_ideal_target": 0.012,
+      "number": 1840,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.016,
+      "number": 1748,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.871,
+      "dev_ideal_target": 1.814,
+      "number": 2513,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 0.672,
+      "dev_ideal_target": 1.741,
+      "number": 4043,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 5.903,
+      "dev_ideal_target": 5.0,
+      "number": 237,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 14.547,
+      "dev_ideal_target": 5.0,
+      "number": 13,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 13.012,
+      "dev_ideal_target": 10.0,
+      "number": 310,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 16.471,
+      "dev_ideal_target": 10.0,
+      "number": 75,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_6_deg"
+    },
+    {
+      "dev_ideal": 0.108,
+      "dev_ideal_target": 0.2,
+      "number": 279,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "dev_ideal_target": 0.2,
+      "number": 1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr_other"
+    },
+    {
+      "dev_ideal": 0.009,
+      "dev_ideal_target": 0.02,
+      "number": 2175,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 407,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 0.234,
+      "dev_ideal_target": 0.2,
+      "number": 428,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.195,
+      "dev_ideal_target": 0.2,
+      "number": 1588,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_other"
+    },
+    {
+      "dev_ideal": 0.184,
+      "dev_ideal_target": 0.2,
+      "number": 920,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "dev_ideal": 0.08,
+      "dev_ideal_target": 0.2,
+      "number": 945,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbtor_other"
+    },
+    {
+      "dev_ideal": 0.181,
+      "dev_ideal_target": 0.2,
+      "number": 98,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.037,
+      "dev_ideal_target": 0.2,
+      "number": 1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_other"
+    },
+    {
+      "dev_ideal": 0.216,
+      "dev_ideal_target": 0.2,
+      "number": 12,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.167,
+      "dev_ideal_target": 0.2,
+      "number": 63,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "dev_ideal": 0.356,
+      "dev_ideal_target": 0.2,
+      "number": 14,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 8.709,
+      "dev_ideal_target": 2.691,
+      "number": 895,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 8.662,
+      "dev_ideal_target": 2.689,
+      "number": 895,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 12.617,
+      "dev_ideal_target": 4.84,
+      "number": 1122,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 12.619,
+      "dev_ideal_target": 4.842,
+      "number": 1123,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 10.727,
+      "dev_ideal_target": 3.001,
+      "number": 945,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 10.722,
+      "dev_ideal_target": 3.001,
+      "number": 946,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 14.859,
+      "dev_ideal_target": 5.345,
+      "number": 1381,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 14.854,
+      "dev_ideal_target": 5.345,
+      "number": 1382,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 19.509,
+      "dev_ideal_target": 30.339,
+      "number": 2193,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_it"
+    },
+    {
+      "dev_ideal": 19.123,
+      "dev_ideal_target": 29.496,
+      "number": 2169,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_other"
+    },
+    {
+      "dev_ideal": 4.788,
+      "dev_ideal_target": 3.0,
+      "number": 3588,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.5,
+      "d_resolution_low": 45.927,
+      "number_obs": 42672,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.041,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 14.8,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 41.7,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.5,
+      "d_res_low": 1.53,
+      "meanI_over_sigI_obs": 1.4,
+      "number_unique_obs": 2134,
+      "pdbx_CC_half": 0.615,
+      "pdbx_Rpim_I_all": 1.184,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 42.3,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0419"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "HIV-CA Disulfide linked Hexamer with inhibitor bound - exploration of a benzothiazole"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "VIRAL PROTEIN/INHIBITOR",
+    "text": "HIV-1, Human Immunodeficiency Virus, Capsid, HIV-CA, Capsid Inhibitor, HIV Restriction, VIRAL PROTEIN, VIRAL PROTEIN-INHIBITOR complex"
+  },
+  "symmetry": {
+    "Int_Tables_number": 168,
+    "space_group_name_H_M": "P 6"
+  },
+  "rcsb_id": "8V17"
+}

@@ -1,0 +1,470 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-0460-9863",
+      "name": "Towell, H.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0913-1467",
+      "name": "Steegborn, C.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 3,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 47.772,
+    "length_b": 47.772,
+    "length_c": 64.686,
+    "volume": 127846.186
+  },
+  "citation": [
+    {
+      "country": "CH",
+      "id": "primary",
+      "journal_abbrev": "Biomolecules",
+      "journal_id_ISSN": "2218-273X",
+      "journal_volume": "14",
+      "pdbx_database_id_DOI": "10.3390/biom14111373",
+      "pdbx_database_id_PubMed": 39595550,
+      "rcsb_authors": [
+        "Towell, H.",
+        "Braun, D.",
+        "Brol, A.",
+        "di Fonzo, A.",
+        "Rijntjes, E.",
+        "Kohrle, J.",
+        "Schweizer, U.",
+        "Steegborn, C."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Biomolecules",
+      "title": "Structural Insights into the Iodothyronine Deiodinase 2 Catalytic Core and Deiodinase Catalysis and Dimerization.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9H48",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9h48/pdb",
+      "pdbx_database_accession": "pdb_00009h48"
+    },
+    {
+      "database_code": "D_1292142520",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-02-27T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "14.1",
+      "pdbx_synchrotron_site": "BESSY",
+      "pdbx_wavelength_list": "0.9184",
+      "source": "SYNCHROTRON",
+      "type": "BESSY BEAMLINE 14.1"
+    }
+  ],
+  "entry": {
+    "id": "9H48"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.0,
+      "density_percent_sol": 38.38,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "0.1M SPG buffer pH 7.0, 25% (w/v) PEG 1500",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-12-11T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Germany",
+      "funding_organization": "German Research Foundation (DFG)",
+      "grant_number": "1701/16-1 (SPP 1629)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "4TR4",
+      "db_name": "PDB",
+      "details": "4TR4 is another isoform of deiodinase enzymes"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-10-17T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "4TR3",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-08T16:20:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1447,
+      "DCC_Rfree": 0.1691,
+      "EDS_R": 0.1524,
+      "EDS_res_high": 1.09,
+      "EDS_res_low": 34.85,
+      "Fo_Fc_correlation": 0.981,
+      "I_over_sigma": "1.01(1.09A)",
+      "Padilla_Yeates_L2_mean": 0.333,
+      "Padilla_Yeates_L_mean": 0.5,
+      "Wilson_B_aniso": "[14.546,14.546,13.655,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 14.232,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 40.738,
+      "bulk_solvent_k": 0.409,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.062,
+      "data_completeness": 95.06,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 65559,
+      "number_reflns_R_free": 2099,
+      "percent_RSRZ_outliers": 8.74,
+      "percent_free_reflections": 3.04,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.18% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.010;h,-h-k,-l:0.043;-k,-h,-l:0.018"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.83,
+      "bonds_RMSZ": 0.7,
+      "clashscore": 1.73,
+      "num_H_reduce": 1413,
+      "num_angles_RMSZ": 2080,
+      "num_bonds_RMSZ": 1532,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.66
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-10-17T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-12-11T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-12-11T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "9H48",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39595550,
+    "rcsb_id": "9H48"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1657,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 1415,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 183,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 193,
+    "deposited_solvent_atom_count": 192,
+    "deposited_unmodeled_polymer_monomer_count": 10,
+    "diffrn_radiation_wavelength_maximum": 0.9184,
+    "diffrn_radiation_wavelength_minimum": 0.9184,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 21.35,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 21.35,
+    "polymer_molecular_weight_minimum": 21.35,
+    "polymer_monomer_count_maximum": 193,
+    "polymer_monomer_count_minimum": 193,
+    "resolution_combined": [
+      1.09
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.09
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "CH",
+    "id": "primary",
+    "journal_abbrev": "Biomolecules",
+    "journal_id_ISSN": "2218-273X",
+    "journal_volume": "14",
+    "pdbx_database_id_DOI": "10.3390/biom14111373",
+    "pdbx_database_id_PubMed": 39595550,
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-0460-9863",
+      "0000-0001-5953-331X",
+      "?",
+      "0009-0001-0495-9978",
+      "0000-0001-8870-8545",
+      "0000-0002-9187-9078",
+      "0000-0003-1380-4780",
+      "0000-0002-0913-1467"
+    ],
+    "rcsb_authors": [
+      "Towell, H.",
+      "Braun, D.",
+      "Brol, A.",
+      "di Fonzo, A.",
+      "Rijntjes, E.",
+      "Kohrle, J.",
+      "Schweizer, U.",
+      "Steegborn, C."
+    ],
+    "rcsb_journal_abbrev": "Biomolecules",
+    "title": "Structural Insights into the Iodothyronine Deiodinase 2 Catalytic Core and Deiodinase Catalysis and Dimerization.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 21.19,
+      "ls_R_factor_R_free": 0.1694,
+      "ls_R_factor_R_work": 0.1451,
+      "ls_R_factor_obs": 0.1459,
+      "ls_d_res_high": 1.09,
+      "ls_d_res_low": 34.85,
+      "ls_number_reflns_R_free": 2098,
+      "ls_number_reflns_R_work": 63458,
+      "ls_number_reflns_obs": 65556,
+      "ls_percent_reflns_R_free": 3.2,
+      "ls_percent_reflns_obs": 94.85,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_starting_model": "4TR3",
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.09,
+      "d_res_low": 34.85,
+      "number_atoms_solvent": 192,
+      "number_atoms_total": 1617,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1425,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0148,
+      "number": 1507,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.4495,
+      "number": 2058,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.1071,
+      "number": 221,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0131,
+      "number": 279,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 5.4665,
+      "number": 212,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 14.23,
+      "d_resolution_high": 1.089,
+      "d_resolution_low": 34.85,
+      "number_obs": 65565,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.0694,
+      "pdbx_Rrim_I_all": 0.07659,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 9.45,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 5.4,
+      "percent_possible_obs": 94.85
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.089,
+      "d_res_low": 1.128,
+      "meanI_over_sigI_obs": 0.39,
+      "number_unique_obs": 4435,
+      "pdbx_CC_half": 0.117,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.6,
+      "percent_possible_all": 64.62
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.19.2_4158"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Mouse Iodothyronine deiodinase 2 catalytic core, mutant - LysLys180AlaAla, Secys-> Cys"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "Thioredoxin-fold, iodothyronine deiodinase, OXIDOREDUCTASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 145,
+    "space_group_name_H_M": "P 32",
+    "space_group_name_Hall": "P 32"
+  },
+  "rcsb_id": "9H48"
+}

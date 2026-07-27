@@ -1,0 +1,713 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-0406-922X",
+      "name": "Collie, G.W.",
+      "pdbx_ordinal": 1
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 51.782,
+    "length_b": 82.305,
+    "length_c": 52.445
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "17",
+      "pdbx_database_id_DOI": "10.1038/s41467-026-70663-1",
+      "pdbx_database_id_PubMed": 41876537,
+      "rcsb_authors": [
+        "Rodrigo-Brenni, M.C.",
+        "Komen, J.C.",
+        "Hamza, G.M.",
+        "Bohin, N.",
+        "Adomavicius, T.",
+        "Andres, A.",
+        "Blaho, S.",
+        "Borjesson, U.",
+        "Collie, G.W.",
+        "De Donatis, G.M.",
+        "Eisele, F.",
+        "Gao, N.",
+        "Gohlke, A.",
+        "Grebner, C.",
+        "Gustafsson, F.",
+        "Hock, A.",
+        "Kankkonen, C.",
+        "Kumar, P.",
+        "Leonard, E.",
+        "Li, X.",
+        "Macdonald, R.",
+        "Madeyski-Bengtson, K.",
+        "Miele, E.",
+        "Nevin, P.",
+        "Overman, J.",
+        "Pachl, F.",
+        "Pathe, C.",
+        "Perry, M.W.D.",
+        "Phillips, C.",
+        "Pike, A.",
+        "Purvis, I.",
+        "Rasmusson, T.",
+        "Regan, S.",
+        "Reilly, L.",
+        "Rose, J.",
+        "Storer, R.I.",
+        "Wang, J.",
+        "Zhai, X.",
+        "Michaelides, I.N.",
+        "Moreau, K."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "A dihydrouracil CRBN ligand mitigates IMiD associated safety liabilities in heterobifunctional targeted protein degrader.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9GJQ",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9gjq/pdb",
+      "pdbx_database_accession": "pdb_00009gjq"
+    },
+    {
+      "database_code": "D_1292141014",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-08-05T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I04",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.95380",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I04"
+    }
+  ],
+  "entry": {
+    "id": "9GJQ"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.32,
+      "density_percent_sol": 46.98,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "10 % PEG8000, 8 % ethylene glycol and 100 mM Na-HEPES buffer (pH 7.5)",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-09-03T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-04-01T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2026-06-03T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 9,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 10,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-08-22T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "non-public structure",
+      "id": 1,
+      "source_name": "Other",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-08T14:20:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.2032,
+      "EDS_R": 0.1971,
+      "EDS_res_high": 1.39,
+      "EDS_res_low": 43.83,
+      "Fo_Fc_correlation": 0.953,
+      "I_over_sigma": "1.34(1.39A)",
+      "Padilla_Yeates_L2_mean": 0.335,
+      "Padilla_Yeates_L_mean": 0.501,
+      "Wilson_B_aniso": "[12.252,13.196,12.534,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 12.467,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 24.426,
+      "bulk_solvent_k": 0.315,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.075,
+      "data_completeness": 82.41,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 18772,
+      "number_reflns_R_free": 997,
+      "percent_RSRZ_outliers": 8.49,
+      "percent_free_reflections": 4.38,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 9.14% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.05,
+      "bonds_RMSZ": 0.9,
+      "clashscore": 0.0,
+      "num_H_reduce": 788,
+      "num_angles_RMSZ": 1151,
+      "num_bonds_RMSZ": 851,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-08-22T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-09-03T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2026-06-03T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9GJQ",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 41876537,
+    "rcsb_id": "9GJQ"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 981,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 109,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 109,
+    "deposited_solvent_atom_count": 116,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.9538,
+    "diffrn_radiation_wavelength_minimum": 0.9538,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 4,
+    "molecular_weight": 12.34,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "ZN"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.23,
+    "nonpolymer_molecular_weight_minimum": 0.07,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 12.04,
+    "polymer_molecular_weight_minimum": 12.04,
+    "polymer_monomer_count_maximum": 109,
+    "polymer_monomer_count_minimum": 109,
+    "resolution_combined": [
+      1.393
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOPROC",
+      "BUSTER",
+      "PHASER"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.39
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "17",
+    "pdbx_database_id_DOI": "10.1038/s41467-026-70663-1",
+    "pdbx_database_id_PubMed": 41876537,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Rodrigo-Brenni, M.C.",
+      "Komen, J.C.",
+      "Hamza, G.M.",
+      "Bohin, N.",
+      "Adomavicius, T.",
+      "Andres, A.",
+      "Blaho, S.",
+      "Borjesson, U.",
+      "Collie, G.W.",
+      "De Donatis, G.M.",
+      "Eisele, F.",
+      "Gao, N.",
+      "Gohlke, A.",
+      "Grebner, C.",
+      "Gustafsson, F.",
+      "Hock, A.",
+      "Kankkonen, C.",
+      "Kumar, P.",
+      "Leonard, E.",
+      "Li, X.",
+      "Macdonald, R.",
+      "Madeyski-Bengtson, K.",
+      "Miele, E.",
+      "Nevin, P.",
+      "Overman, J.",
+      "Pachl, F.",
+      "Pathe, C.",
+      "Perry, M.W.D.",
+      "Phillips, C.",
+      "Pike, A.",
+      "Purvis, I.",
+      "Rasmusson, T.",
+      "Regan, S.",
+      "Reilly, L.",
+      "Rose, J.",
+      "Storer, R.I.",
+      "Wang, J.",
+      "Zhai, X.",
+      "Michaelides, I.N.",
+      "Moreau, K."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "A dihydrouracil CRBN ligand mitigates IMiD associated safety liabilities in heterobifunctional targeted protein degrader.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "B_iso_mean": 16.93,
+      "aniso_B_1_1": 0.4398,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": -0.7256,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 0.2859,
+      "correlation_coeff_Fo_to_Fc": 0.947,
+      "correlation_coeff_Fo_to_Fc_free": 0.954,
+      "ls_R_factor_R_free": 0.2087,
+      "ls_R_factor_R_work": 0.1999,
+      "ls_R_factor_obs": 0.2004,
+      "ls_d_res_high": 1.393,
+      "ls_d_res_low": 43.83,
+      "ls_number_reflns_R_free": 997,
+      "ls_number_reflns_obs": 18772,
+      "ls_percent_reflns_obs": 82.4,
+      "overall_SU_R_Cruickshank_DPI": 0.076,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_SU_R_Blow_DPI": 0.081,
+      "pdbx_overall_SU_R_free_Blow_DPI": 0.074,
+      "pdbx_overall_SU_R_free_Cruickshank_DPI": 0.071,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_analyze": [
+    {
+      "Luzzati_coordinate_error_obs": 0.2,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.393,
+      "d_res_low": 43.83,
+      "number_atoms_solvent": 116,
+      "number_atoms_total": 970,
+      "pdbx_number_atoms_ligand": 18,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 836,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.011,
+      "number": 898,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_bond_d",
+      "weight": 2.0
+    },
+    {
+      "dev_ideal": 1.07,
+      "number": 1221,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_angle_deg",
+      "weight": 2.0
+    },
+    {
+      "number": 291,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SINUSOIDAL",
+      "type": "t_dihedral_angle_d",
+      "weight": 2.0
+    },
+    {
+      "number": 155,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_gen_planes",
+      "weight": 5.0
+    },
+    {
+      "number": 898,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_it",
+      "weight": 10.0
+    },
+    {
+      "number": 102,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_chiral_improper_torsion",
+      "weight": 5.0
+    },
+    {
+      "number": 857,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_ideal_dist_contact",
+      "weight": 4.0
+    },
+    {
+      "dev_ideal": 4.26,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_omega_torsion"
+    },
+    {
+      "dev_ideal": 15.04,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_other_torsion"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.393,
+      "d_resolution_low": 43.829,
+      "number_obs": 18772,
+      "pdbx_CC_half": 0.999,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 12.6,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.5,
+      "percent_possible_obs": 94.2
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.393,
+      "d_res_low": 1.467,
+      "number_unique_obs": 939,
+      "pdbx_CC_half": 0.738,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "BUSTER",
+      "pdbx_ordinal": 1,
+      "version": "2.11.8"
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "autoPROC",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of humanised cereblon from Magnetospirillum gryphiswaldense bound by dihydrouracil-indole compound [1-(1H-indol-6-yl)dihydro-2,4(1H,3H)-pyrimidinedione]."
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "LIGASE",
+    "text": "Cereblon, crbn, inhibitor, dihydrouracil, LIGASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 20,
+    "space_group_name_H_M": "C 2 2 21"
+  },
+  "rcsb_id": "9GJQ"
+}

@@ -1,0 +1,633 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-2244-9688",
+      "name": "Werten, S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-7557-8964",
+      "name": "Hudspeth, J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-3300-6965",
+      "name": "Rupp, B.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 49.234,
+    "length_b": 78.266,
+    "length_c": 83.766
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "15",
+      "page_first": "2709",
+      "page_last": "2709",
+      "pdbx_database_id_DOI": "10.1038/s41467-024-46997-z",
+      "pdbx_database_id_PubMed": 38548735,
+      "rcsb_authors": [
+        "Hudspeth, J.",
+        "Rogge, K.",
+        "Dorner, S.",
+        "Mull, M.",
+        "Hoffmeister, D.",
+        "Rupp, B.",
+        "Werten, S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "Methyl transfer in psilocybin biosynthesis.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8PB4",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8pb4/pdb",
+      "pdbx_database_accession": "pdb_00008pb4"
+    },
+    {
+      "database_code": "D_1292130985",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "details": "Toroidal mirror",
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-02-04T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 X CdTe 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "Si(111)",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "ID23-1",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.6888",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE ID23-1"
+    }
+  ],
+  "entry": {
+    "id": "8PB4"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.25,
+      "density_percent_sol": 45.4,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 8.5,
+      "pdbx_details": "100 mM Tris/HCl pH 8.5, 20% PEG 8000, 200 mM MgCl2",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "atom_site",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "chem_comp",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Atomic model",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-04-03T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-04-10T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 2,
+      "minor_revision": 0,
+      "ordinal": 3,
+      "revision_date": "2025-12-10T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.B_iso_or_equiv",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.Cartn_x",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.Cartn_y",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.Cartn_z",
+      "ordinal": 7,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.auth_atom_id",
+      "ordinal": 8,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.label_atom_id",
+      "ordinal": 9,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp.mon_nstd_flag",
+      "ordinal": 10,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp.type",
+      "ordinal": 11,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Austria",
+      "funding_organization": "Austrian Science Fund",
+      "grant_number": "I-5192",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-06-08T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "6B92",
+      "details": "PolyA",
+      "entity_id_list": [
+        "A"
+      ],
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T03:37:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1443,
+      "DCC_Rfree": 0.1558,
+      "EDS_R": 0.1586,
+      "EDS_res_high": 0.91,
+      "EDS_res_low": 15.39,
+      "Fo_Fc_correlation": 0.98,
+      "I_over_sigma": "0.98(0.91A)",
+      "Padilla_Yeates_L2_mean": 0.342,
+      "Padilla_Yeates_L_mean": 0.506,
+      "Wilson_B_aniso": "[12.631,9.078,11.874,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 11.015,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 58.374,
+      "bulk_solvent_k": 0.506,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.317,
+      "data_completeness": 99.08,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 228996,
+      "number_reflns_R_free": 3441,
+      "percent_RSRZ_outliers": 5.0,
+      "percent_free_reflections": 1.5,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.72% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.68,
+      "bonds_RMSZ": 0.56,
+      "clashscore": 2.33,
+      "num_H_reduce": 2739,
+      "num_angles_RMSZ": 4026,
+      "num_bonds_RMSZ": 2964,
+      "percent_ramachandran_outliers": 0.31,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-06-08T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-04-03T00:00:00.000+00:00",
+    "major_revision": 2,
+    "minor_revision": 0,
+    "revision_date": "2025-12-10T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8PB4",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38548735,
+    "rcsb_id": "8PB4"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3253,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2783,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 320,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 322,
+    "deposited_solvent_atom_count": 443,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.6888,
+    "diffrn_radiation_wavelength_minimum": 0.6888,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 36.6,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.38,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 35.89,
+    "polymer_molecular_weight_minimum": 35.89,
+    "polymer_monomer_count_maximum": 322,
+    "polymer_monomer_count_minimum": 322,
+    "resolution_combined": [
+      0.91
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "XIA2"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 0.91
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "15",
+    "page_first": "2709",
+    "page_last": "2709",
+    "pdbx_database_id_DOI": "10.1038/s41467-024-46997-z",
+    "pdbx_database_id_PubMed": 38548735,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Hudspeth, J.",
+      "Rogge, K.",
+      "Dorner, S.",
+      "Mull, M.",
+      "Hoffmeister, D.",
+      "Rupp, B.",
+      "Werten, S."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "Methyl transfer in psilocybin biosynthesis.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 17.17,
+      "ls_R_factor_R_free": 0.1558,
+      "ls_R_factor_R_work": 0.1443,
+      "ls_R_factor_obs": 0.1444,
+      "ls_d_res_high": 0.91,
+      "ls_d_res_low": 15.39,
+      "ls_number_reflns_R_free": 3439,
+      "ls_number_reflns_obs": 228792,
+      "ls_percent_reflns_R_free": 1.5,
+      "ls_percent_reflns_obs": 99.08,
+      "overall_SU_ML": 0.16,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.33,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.8,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 0.91,
+      "d_res_low": 15.39,
+      "number_atoms_solvent": 443,
+      "number_atoms_total": 2985,
+      "pdbx_number_atoms_ligand": 45,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2497,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.011,
+      "number": 2901,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.268,
+      "number": 3993,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 14.006,
+      "number": 1117,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.099,
+      "number": 436,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.019,
+      "number": 530,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 11.02,
+      "d_resolution_high": 0.91,
+      "d_resolution_low": 15.39,
+      "number_obs": 230836,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rmerge_I_obs": 0.08633,
+      "pdbx_Rpim_I_all": 0.02445,
+      "pdbx_Rrim_I_all": 0.08979,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 10.37,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 13.4,
+      "percent_possible_obs": 99.06
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 3.04,
+      "d_res_high": 0.91,
+      "d_res_low": 0.9427,
+      "meanI_over_sigI_obs": 0.31,
+      "number_unique_obs": 20907,
+      "pdbx_CC_half": 0.383,
+      "pdbx_Rpim_I_all": 0.857,
+      "pdbx_Rrim_I_all": 3.16,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 13.6,
+      "percent_possible_all": 91.5
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data scaling",
+      "name": "xia2",
+      "pdbx_ordinal": 2,
+      "version": "3.12.0"
+    },
+    {
+      "classification": "data reduction",
+      "name": "xia2",
+      "pdbx_ordinal": 3,
+      "version": "3.12.0"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4,
+      "version": "2.8.2"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "PsiM in complex with SAH and norbaeocystin, orthorhombic crystal form"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "Methyltransferase, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "8PB4"
+}

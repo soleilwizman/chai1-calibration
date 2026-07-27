@@ -1,0 +1,3845 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "GATGDERFYAEHLMPTLQGLLDPESAHRLAVRFTSLGLLPRARFQDSDMLEVRVLGHKFRNPVGIAAGFDKHGEAVDGLYKMGFGFVEIGSVTPKPQEGNPRPRVFRLPEDQAVINRYGFNSHGLSVVEHRLRARQQKQAKLTEDGLPLGVNLGKNKTSVDAAEDYAEGVRVLGPLADYLVVNVSSPNTAGLRSLQGKAELRRLLTKVLQERDGLRRVHRPAVLVKIAPDLTSQDKEDIASVVKELGIDGLIVTNTTVSRPAGLQGALRSETGGLSGKPLRDLSTQTIREMYALTQGRVPIIGVGGVSSGQDALEKIRAGASLVQLYTALTFWGPPVVGKVKRELEALLKEQGFGGVTDAIGADHRR",
+    "pdbx_seq_one_letter_code_can": "GATGDERFYAEHLMPTLQGLLDPESAHRLAVRFTSLGLLPRARFQDSDMLEVRVLGHKFRNPVGIAAGFDKHGEAVDGLYKMGFGFVEIGSVTPKPQEGNPRPRVFRLPEDQAVINRYGFNSHGLSVVEHRLRARQQKQAKLTEDGLPLGVNLGKNKTSVDAAEDYAEGVRVLGPLADYLVVNVSSPNTAGLRSLQGKAELRRLLTKVLQERDGLRRVHRPAVLVKIAPDLTSQDKEDIASVVKELGIDGLIVTNTTVSRPAGLQGALRSETGGLSGKPLRDLSTQTIREMYALTQGRVPIIGVGGVSSGQDALEKIRAGASLVQLYTALTFWGPPVVGKVKRELEALLKEQGFGGVTDAIGADHRR",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 367,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "human",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 367,
+      "pdbx_gene_src_gene": "DHODH",
+      "pdbx_gene_src_ncbi_taxonomy_id": "9606",
+      "pdbx_gene_src_scientific_name": "Homo sapiens",
+      "pdbx_host_org_ncbi_taxonomy_id": "562",
+      "pdbx_host_org_scientific_name": "Escherichia coli",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 532,
+      "identity": 100
+    },
+    {
+      "cluster_id": 622,
+      "identity": 95
+    },
+    {
+      "cluster_id": 683,
+      "identity": 90
+    },
+    {
+      "cluster_id": 941,
+      "identity": 70
+    },
+    {
+      "cluster_id": 1179,
+      "identity": 50
+    },
+    {
+      "cluster_id": 789,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 367,
+      "ncbi_common_names": [
+        "Bacillus coli",
+        "Bacterium coli",
+        "Bacterium coli commune",
+        "E. coli",
+        "Enterococcus coli",
+        "Escherichia/Shigella coli"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli",
+      "ncbi_taxonomy_id": 562,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "human",
+      "end_seq_num": 367,
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "DHODH"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 39.782,
+    "pdbx_description": "Dihydroorotate dehydrogenase (quinone), mitochondrial",
+    "pdbx_ec": "1.3.5.2",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "1",
+        "name": "Oxidoreductases"
+      },
+      {
+        "depth": 2,
+        "id": "1.3",
+        "name": "Acting on the CH-CH group of donors"
+      },
+      {
+        "depth": 3,
+        "id": "1.3.5",
+        "name": "With a quinone or related compound as acceptor"
+      },
+      {
+        "depth": 4,
+        "id": "1.3.5.2",
+        "name": "dihydroorotate dehydrogenase (quinone)"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Dihydroorotate dehydrogenase (quinone)",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "mitochondrial",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "DHOdehase",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Dihydroorotate oxidase",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "1.3.5.2",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Dihydroorotate dehydrogenase (quinone), mitochondrial"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "Q02127",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 366,
+          "ref_beg_seq_id": 30
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF01180",
+      "assignment_version": "34.0",
+      "name": "Dihydroorotate dehydrogenase (DHO_dh)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0005739",
+      "name": "mitochondrion",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005739",
+          "name": "mitochondrion"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005743",
+      "name": "mitochondrial inner membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0031966",
+          "name": "mitochondrial membrane"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0019866",
+          "name": "organelle inner membrane"
+        },
+        {
+          "id": "GO:0005739",
+          "name": "mitochondrion"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005743",
+          "name": "mitochondrial inner membrane"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0031967",
+          "name": "organelle envelope"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005740",
+          "name": "mitochondrial envelope"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031090",
+          "name": "organelle membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004151",
+      "name": "dihydroorotase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0004151",
+          "name": "dihydroorotase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0016812",
+          "name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016810",
+          "name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0106430",
+      "name": "dihydroorotate dehydrogenase (quinone) activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0106430",
+          "name": "dihydroorotate dehydrogenase (quinone) activity"
+        },
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0004152",
+          "name": "dihydroorotate dehydrogenase activity"
+        },
+        {
+          "id": "GO:0016627",
+          "name": "oxidoreductase activity, acting on the CH-CH group of donors"
+        },
+        {
+          "id": "GO:0016635",
+          "name": "oxidoreductase activity, acting on the CH-CH group of donors, quinone or related compound as acceptor"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006225",
+      "name": "UDP biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019693",
+          "name": "ribose phosphate metabolic process"
+        },
+        {
+          "id": "GO:0009138",
+          "name": "pyrimidine nucleoside diphosphate metabolic process"
+        },
+        {
+          "id": "GO:0009165",
+          "name": "nucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:1901135",
+          "name": "carbohydrate derivative metabolic process"
+        },
+        {
+          "id": "GO:0006220",
+          "name": "pyrimidine nucleotide metabolic process"
+        },
+        {
+          "id": "GO:0046048",
+          "name": "UDP metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0009133",
+          "name": "nucleoside diphosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009260",
+          "name": "ribonucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:0009259",
+          "name": "ribonucleotide metabolic process"
+        },
+        {
+          "id": "GO:0055086",
+          "name": "nucleobase-containing small molecule metabolic process"
+        },
+        {
+          "id": "GO:0009193",
+          "name": "pyrimidine ribonucleoside diphosphate metabolic process"
+        },
+        {
+          "id": "GO:0009185",
+          "name": "ribonucleoside diphosphate metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0044281",
+          "name": "small molecule metabolic process"
+        },
+        {
+          "id": "GO:0072528",
+          "name": "pyrimidine-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0006793",
+          "name": "phosphorus metabolic process"
+        },
+        {
+          "id": "GO:0046390",
+          "name": "ribose phosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009218",
+          "name": "pyrimidine ribonucleotide metabolic process"
+        },
+        {
+          "id": "GO:0006753",
+          "name": "nucleoside phosphate metabolic process"
+        },
+        {
+          "id": "GO:1901137",
+          "name": "carbohydrate derivative biosynthetic process"
+        },
+        {
+          "id": "GO:0072527",
+          "name": "pyrimidine-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0009194",
+          "name": "pyrimidine ribonucleoside diphosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0009117",
+          "name": "nucleotide metabolic process"
+        },
+        {
+          "id": "GO:0009132",
+          "name": "nucleoside diphosphate metabolic process"
+        },
+        {
+          "id": "GO:0006225",
+          "name": "UDP biosynthetic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0019637",
+          "name": "organophosphate metabolic process"
+        },
+        {
+          "id": "GO:0090407",
+          "name": "organophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009139",
+          "name": "pyrimidine nucleoside diphosphate biosynthetic process"
+        },
+        {
+          "id": "GO:1901293",
+          "name": "nucleoside phosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0006221",
+          "name": "pyrimidine nucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:0009188",
+          "name": "ribonucleoside diphosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009220",
+          "name": "pyrimidine ribonucleotide biosynthetic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009220",
+      "name": "pyrimidine ribonucleotide biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019693",
+          "name": "ribose phosphate metabolic process"
+        },
+        {
+          "id": "GO:0009165",
+          "name": "nucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:1901135",
+          "name": "carbohydrate derivative metabolic process"
+        },
+        {
+          "id": "GO:0006220",
+          "name": "pyrimidine nucleotide metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0009260",
+          "name": "ribonucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:0009259",
+          "name": "ribonucleotide metabolic process"
+        },
+        {
+          "id": "GO:0055086",
+          "name": "nucleobase-containing small molecule metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0044281",
+          "name": "small molecule metabolic process"
+        },
+        {
+          "id": "GO:0072528",
+          "name": "pyrimidine-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0006793",
+          "name": "phosphorus metabolic process"
+        },
+        {
+          "id": "GO:0046390",
+          "name": "ribose phosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009218",
+          "name": "pyrimidine ribonucleotide metabolic process"
+        },
+        {
+          "id": "GO:0006753",
+          "name": "nucleoside phosphate metabolic process"
+        },
+        {
+          "id": "GO:1901137",
+          "name": "carbohydrate derivative biosynthetic process"
+        },
+        {
+          "id": "GO:0072527",
+          "name": "pyrimidine-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0009117",
+          "name": "nucleotide metabolic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0019637",
+          "name": "organophosphate metabolic process"
+        },
+        {
+          "id": "GO:0090407",
+          "name": "organophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:1901293",
+          "name": "nucleoside phosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0006221",
+          "name": "pyrimidine nucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:0009220",
+          "name": "pyrimidine ribonucleotide biosynthetic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013785",
+      "name": "Aldolase-type TIM barrel",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013785",
+          "name": "Aldolase-type TIM barrel"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR005719",
+      "name": "Dihydroorotate dehydrogenase, class 2",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR005719",
+          "name": "Dihydroorotate dehydrogenase, class 2"
+        },
+        {
+          "depth": 1,
+          "id": "IPR012135",
+          "name": "Dihydroorotate dehydrogenase, class 1/ 2"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR005720",
+      "name": "Dihydroorotate dehydrogenase, catalytic",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR005720",
+          "name": "Dihydroorotate dehydrogenase, catalytic"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001295",
+      "name": "Dihydroorotate dehydrogenase, conserved site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR001295",
+          "name": "Dihydroorotate dehydrogenase, conserved site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR050074",
+      "name": "Dihydroorotate dehydrogenase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR050074",
+          "name": "Dihydroorotate dehydrogenase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006207",
+      "name": "'de novo' pyrimidine nucleobase biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0072527",
+          "name": "pyrimidine-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0046112",
+          "name": "nucleobase biosynthetic process"
+        },
+        {
+          "id": "GO:0019856",
+          "name": "pyrimidine nucleobase biosynthetic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0006206",
+          "name": "pyrimidine nucleobase metabolic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0055086",
+          "name": "nucleobase-containing small molecule metabolic process"
+        },
+        {
+          "id": "GO:0009112",
+          "name": "nucleobase metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0006207",
+          "name": "'de novo' pyrimidine nucleobase biosynthetic process"
+        },
+        {
+          "id": "GO:0044281",
+          "name": "small molecule metabolic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0072528",
+          "name": "pyrimidine-containing compound biosynthetic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004152",
+      "name": "dihydroorotate dehydrogenase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0004152",
+          "name": "dihydroorotate dehydrogenase activity"
+        },
+        {
+          "id": "GO:0016627",
+          "name": "oxidoreductase activity, acting on the CH-CH group of donors"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044205",
+      "name": "'de novo' UMP biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019693",
+          "name": "ribose phosphate metabolic process"
+        },
+        {
+          "id": "GO:0009165",
+          "name": "nucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:1901135",
+          "name": "carbohydrate derivative metabolic process"
+        },
+        {
+          "id": "GO:0006220",
+          "name": "pyrimidine nucleotide metabolic process"
+        },
+        {
+          "id": "GO:0044205",
+          "name": "'de novo' UMP biosynthetic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0009260",
+          "name": "ribonucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:0006222",
+          "name": "UMP biosynthetic process"
+        },
+        {
+          "id": "GO:0009259",
+          "name": "ribonucleotide metabolic process"
+        },
+        {
+          "id": "GO:0055086",
+          "name": "nucleobase-containing small molecule metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0046049",
+          "name": "UMP metabolic process"
+        },
+        {
+          "id": "GO:0044281",
+          "name": "small molecule metabolic process"
+        },
+        {
+          "id": "GO:0072528",
+          "name": "pyrimidine-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0006793",
+          "name": "phosphorus metabolic process"
+        },
+        {
+          "id": "GO:0009123",
+          "name": "nucleoside monophosphate metabolic process"
+        },
+        {
+          "id": "GO:0046390",
+          "name": "ribose phosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009218",
+          "name": "pyrimidine ribonucleotide metabolic process"
+        },
+        {
+          "id": "GO:0006753",
+          "name": "nucleoside phosphate metabolic process"
+        },
+        {
+          "id": "GO:1901137",
+          "name": "carbohydrate derivative biosynthetic process"
+        },
+        {
+          "id": "GO:0009129",
+          "name": "pyrimidine nucleoside monophosphate metabolic process"
+        },
+        {
+          "id": "GO:0009173",
+          "name": "pyrimidine ribonucleoside monophosphate metabolic process"
+        },
+        {
+          "id": "GO:0072527",
+          "name": "pyrimidine-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0009117",
+          "name": "nucleotide metabolic process"
+        },
+        {
+          "id": "GO:0009124",
+          "name": "nucleoside monophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009174",
+          "name": "pyrimidine ribonucleoside monophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0019637",
+          "name": "organophosphate metabolic process"
+        },
+        {
+          "id": "GO:0090407",
+          "name": "organophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:1901293",
+          "name": "nucleoside phosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0009130",
+          "name": "pyrimidine nucleoside monophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0009156",
+          "name": "ribonucleoside monophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0006221",
+          "name": "pyrimidine nucleotide biosynthetic process"
+        },
+        {
+          "id": "GO:0009220",
+          "name": "pyrimidine ribonucleotide biosynthetic process"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "9BKN",
+    "rcsb_id": "9BKN_1",
+    "uniprot_ids": [
+      "Q02127"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "Q02127",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.997275204359673,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.9265822784810127
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF01180",
+      "name": "Dihydroorotate dehydrogenase (DHO_dh)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 49,
+          "end_seq_id": 349
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "expression tag",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -1.08,
+            -0.83,
+            -1.42,
+            -1.7,
+            -1.23,
+            -0.63,
+            -0.42,
+            0.0,
+            0.11,
+            -0.13,
+            -0.38,
+            0.43,
+            1.21,
+            0.4,
+            0.01,
+            -0.2,
+            -0.21,
+            -0.43,
+            -0.4,
+            -0.86,
+            -0.86,
+            -1.08,
+            -0.22,
+            -0.54,
+            0.16,
+            0.17,
+            -0.12,
+            0.66,
+            1.11,
+            1.11,
+            1.33,
+            0.69,
+            0.69,
+            0.58,
+            0.16,
+            0.56,
+            -0.26,
+            -0.6,
+            -1.11,
+            -1.92,
+            -1.53,
+            -0.61,
+            -1.2,
+            -0.23,
+            -1.04,
+            -0.19,
+            0.62,
+            0.67,
+            0.7,
+            0.06,
+            -0.06,
+            -0.17,
+            -1.02,
+            -0.7,
+            -0.7,
+            -1.17,
+            -0.62,
+            -0.07,
+            0.57,
+            0.21,
+            1.02,
+            1.02,
+            0.77,
+            -0.06,
+            -0.06,
+            -0.94,
+            -0.94,
+            -0.68,
+            -1.02,
+            -1.38,
+            -0.57,
+            -0.28,
+            -0.36,
+            -0.1,
+            0.24,
+            0.36,
+            -0.16,
+            0.54,
+            1.06,
+            0.24,
+            0.89,
+            1.28,
+            0.98,
+            1.49,
+            1.1,
+            0.97,
+            0.22,
+            -0.42,
+            -0.42,
+            -1.31,
+            -1.31,
+            -1.61,
+            -2.26,
+            -2.68,
+            -2.68,
+            -2.74,
+            -2.1,
+            -1.4,
+            -1.51,
+            -1.04,
+            -0.83,
+            -1.04,
+            -0.93,
+            -1.14,
+            -0.44,
+            -0.44,
+            -0.26,
+            -0.14,
+            -1.07,
+            -1.03,
+            -0.69,
+            0.01,
+            0.01,
+            -0.28,
+            -1.1,
+            -1.64,
+            -0.83,
+            -0.42,
+            0.19,
+            0.7,
+            0.0,
+            0.03,
+            -0.38,
+            0.4,
+            -0.06,
+            -0.28,
+            -0.69,
+            -1.54,
+            -2.4,
+            -2.44,
+            -2.48,
+            -1.78,
+            -2.63,
+            -1.71,
+            -1.99,
+            -1.88,
+            -1.88,
+            -1.53,
+            -0.68,
+            -0.47,
+            -0.24,
+            0.14,
+            0.19,
+            -0.12,
+            0.69,
+            1.03,
+            0.64,
+            -0.17,
+            -0.42,
+            -0.92,
+            -0.97,
+            -0.97,
+            -0.97,
+            -1.19,
+            -0.94,
+            -0.9,
+            -0.9,
+            -0.61,
+            -0.33,
+            -0.63,
+            -1.14,
+            -0.29,
+            -0.99,
+            -0.72,
+            0.09,
+            0.43,
+            0.4,
+            0.62,
+            1.21,
+            0.87,
+            0.26,
+            1.18,
+            1.18,
+            1.22,
+            0.88,
+            1.52,
+            1.01,
+            0.72,
+            0.93,
+            0.69,
+            0.19,
+            -0.08,
+            -0.59,
+            0.22,
+            -0.74,
+            -0.74,
+            -0.23,
+            -0.44,
+            -0.1,
+            -0.46,
+            -0.46,
+            -0.8,
+            -0.8,
+            -0.8,
+            -1.21,
+            -1.21,
+            -0.4,
+            -0.43,
+            -0.43,
+            -0.17,
+            0.64,
+            -0.17,
+            -0.06,
+            -0.06,
+            -0.87,
+            -1.33,
+            -0.83,
+            -0.9,
+            -1.87,
+            -1.82,
+            -1.79,
+            -1.9,
+            -1.58,
+            -0.99,
+            -0.48,
+            -0.48,
+            0.49,
+            0.56,
+            0.59,
+            1.14,
+            1.47,
+            1.26,
+            1.48,
+            0.93,
+            0.42,
+            -0.43,
+            -0.39,
+            -1.32,
+            -1.91,
+            -2.12,
+            -1.23,
+            -1.46,
+            -1.47,
+            -0.91,
+            -0.06,
+            -0.1,
+            -0.06,
+            0.76,
+            1.1,
+            1.1,
+            0.51,
+            0.56,
+            0.51,
+            0.54,
+            1.44,
+            1.76,
+            0.94,
+            0.91,
+            0.33,
+            1.19,
+            1.14,
+            0.22,
+            -0.46,
+            -0.72,
+            -0.69,
+            0.12,
+            -0.19,
+            -0.16,
+            -0.42,
+            0.09,
+            0.09,
+            0.18,
+            -0.41,
+            -0.44,
+            -0.91,
+            -0.57,
+            -0.1,
+            -0.39,
+            -0.86,
+            -0.79,
+            -0.88,
+            -0.07,
+            -0.49,
+            -0.83,
+            -0.37,
+            -0.88,
+            -0.87,
+            -1.21,
+            -0.86,
+            -0.18,
+            -1.1,
+            -0.99,
+            -0.39,
+            -0.96,
+            -0.67,
+            -0.17,
+            0.14,
+            -0.17,
+            -0.71,
+            -0.71,
+            0.14,
+            -0.24,
+            0.4,
+            0.7,
+            0.23,
+            0.78,
+            1.12,
+            1.12,
+            2.09,
+            1.53,
+            1.62,
+            1.08,
+            0.19,
+            -0.16,
+            -0.42,
+            0.04,
+            -0.3,
+            -1.2,
+            -0.61,
+            -1.02,
+            -0.78,
+            -0.43,
+            0.16,
+            -0.13,
+            -0.13,
+            0.72,
+            0.77,
+            0.69,
+            1.04,
+            0.77,
+            1.01,
+            1.23,
+            1.24,
+            1.13,
+            0.57,
+            0.91,
+            0.31,
+            0.28,
+            0.82,
+            1.09,
+            0.62,
+            0.27,
+            0.42,
+            0.09,
+            -0.37,
+            -0.58,
+            0.02,
+            -0.83,
+            -1.1,
+            -0.63,
+            0.22,
+            -0.68,
+            -0.63,
+            -0.52,
+            -0.18,
+            -0.29,
+            0.06,
+            -0.19,
+            -0.14,
+            -0.64,
+            -0.6,
+            -0.01,
+            0.88,
+            0.88,
+            0.77,
+            0.42,
+            0.11,
+            -0.86,
+            -1.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.34,
+            0.34,
+            0.34,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.44,
+            0.44,
+            0.44,
+            0.45,
+            0.45,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.45,
+            0.45,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.37,
+            0.36,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.32,
+            0.32,
+            0.31,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.29,
+            0.3,
+            0.31,
+            0.33,
+            0.34,
+            0.37,
+            0.4,
+            0.42,
+            0.42,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.37,
+            0.39,
+            0.41,
+            0.43,
+            0.41,
+            0.39,
+            0.38,
+            0.36,
+            0.35,
+            0.33,
+            0.33,
+            0.32,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.35,
+            0.34,
+            0.34,
+            0.34,
+            0.34,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.34,
+            0.35,
+            0.35
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.92,
+            0.89,
+            0.8,
+            0.73,
+            0.72,
+            0.69,
+            0.58,
+            0.56,
+            0.52,
+            0.41,
+            0.29,
+            0.29,
+            0.35,
+            0.36,
+            0.36,
+            0.32,
+            0.29,
+            0.28,
+            0.28,
+            0.33,
+            0.28,
+            0.26,
+            0.17,
+            0.24,
+            0.28,
+            0.17,
+            0.17,
+            0.17,
+            0.1,
+            0.12,
+            0.17,
+            0.2,
+            0.2,
+            0.1,
+            0.1,
+            0.1,
+            0.12,
+            0.12,
+            0.1,
+            0.1,
+            0.12,
+            0.13,
+            0.13,
+            0.16,
+            0.1,
+            0.09,
+            0.15,
+            0.14,
+            0.13,
+            0.19,
+            0.16,
+            0.19,
+            0.16,
+            0.16,
+            0.18,
+            0.14,
+            0.12,
+            0.12,
+            0.06,
+            0.08,
+            0.13,
+            0.13,
+            0.18,
+            0.19,
+            0.23,
+            0.25,
+            0.26,
+            0.26,
+            0.2,
+            0.23,
+            0.23,
+            0.19,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.15,
+            0.19,
+            0.14,
+            0.23,
+            0.22,
+            0.17,
+            0.17,
+            0.19,
+            0.18,
+            0.23,
+            0.31,
+            0.31,
+            0.31,
+            0.37,
+            0.47,
+            0.47,
+            0.53,
+            0.53,
+            0.55,
+            0.47,
+            0.54,
+            0.52,
+            0.53,
+            0.59,
+            0.6,
+            0.62,
+            0.66,
+            0.61,
+            0.53,
+            0.55,
+            0.53,
+            0.45,
+            0.46,
+            0.38,
+            0.39,
+            0.38,
+            0.38,
+            0.37,
+            0.31,
+            0.37,
+            0.38,
+            0.32,
+            0.39,
+            0.38,
+            0.38,
+            0.3,
+            0.29,
+            0.28,
+            0.34,
+            0.4,
+            0.4,
+            0.4,
+            0.47,
+            0.43,
+            0.5,
+            0.43,
+            0.41,
+            0.41,
+            0.41,
+            0.48,
+            0.41,
+            0.5,
+            0.5,
+            0.5,
+            0.43,
+            0.44,
+            0.44,
+            0.44,
+            0.46,
+            0.46,
+            0.45,
+            0.43,
+            0.43,
+            0.36,
+            0.4,
+            0.37,
+            0.4,
+            0.41,
+            0.42,
+            0.35,
+            0.31,
+            0.39,
+            0.35,
+            0.36,
+            0.36,
+            0.36,
+            0.29,
+            0.35,
+            0.37,
+            0.3,
+            0.26,
+            0.27,
+            0.21,
+            0.15,
+            0.16,
+            0.1,
+            0.13,
+            0.1,
+            0.1,
+            0.09,
+            0.16,
+            0.19,
+            0.18,
+            0.16,
+            0.21,
+            0.14,
+            0.18,
+            0.25,
+            0.18,
+            0.17,
+            0.23,
+            0.27,
+            0.23,
+            0.3,
+            0.28,
+            0.34,
+            0.4,
+            0.31,
+            0.31,
+            0.31,
+            0.32,
+            0.23,
+            0.16,
+            0.17,
+            0.2,
+            0.2,
+            0.28,
+            0.29,
+            0.21,
+            0.29,
+            0.28,
+            0.21,
+            0.22,
+            0.24,
+            0.28,
+            0.34,
+            0.27,
+            0.2,
+            0.22,
+            0.29,
+            0.2,
+            0.16,
+            0.25,
+            0.32,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.31,
+            0.31,
+            0.32,
+            0.3,
+            0.26,
+            0.27,
+            0.17,
+            0.14,
+            0.19,
+            0.28,
+            0.26,
+            0.27,
+            0.27,
+            0.31,
+            0.28,
+            0.21,
+            0.23,
+            0.18,
+            0.18,
+            0.17,
+            0.17,
+            0.17,
+            0.12,
+            0.12,
+            0.19,
+            0.25,
+            0.22,
+            0.28,
+            0.27,
+            0.28,
+            0.27,
+            0.32,
+            0.25,
+            0.34,
+            0.33,
+            0.35,
+            0.41,
+            0.48,
+            0.53,
+            0.47,
+            0.47,
+            0.48,
+            0.48,
+            0.56,
+            0.5,
+            0.51,
+            0.49,
+            0.45,
+            0.45,
+            0.52,
+            0.53,
+            0.53,
+            0.48,
+            0.55,
+            0.56,
+            0.55,
+            0.47,
+            0.44,
+            0.38,
+            0.37,
+            0.44,
+            0.44,
+            0.44,
+            0.38,
+            0.38,
+            0.37,
+            0.27,
+            0.26,
+            0.26,
+            0.26,
+            0.25,
+            0.17,
+            0.17,
+            0.24,
+            0.23,
+            0.21,
+            0.24,
+            0.27,
+            0.21,
+            0.29,
+            0.29,
+            0.19,
+            0.19,
+            0.16,
+            0.21,
+            0.15,
+            0.22,
+            0.22,
+            0.16,
+            0.22,
+            0.15,
+            0.09,
+            0.14,
+            0.12,
+            0.07,
+            0.07,
+            0.04,
+            0.02,
+            0.03,
+            0.06,
+            0.07,
+            0.05,
+            0.05,
+            0.05,
+            0.06,
+            0.04,
+            0.05,
+            0.05,
+            0.09,
+            0.08,
+            0.08,
+            0.12,
+            0.12,
+            0.07,
+            0.09,
+            0.15,
+            0.16,
+            0.24,
+            0.23,
+            0.23,
+            0.21,
+            0.13,
+            0.19,
+            0.27,
+            0.25,
+            0.18,
+            0.26,
+            0.23,
+            0.24,
+            0.24,
+            0.31,
+            0.3,
+            0.37,
+            0.49,
+            0.61,
+            0.65,
+            0.67,
+            0.7,
+            0.73,
+            0.85,
+            0.87,
+            0.9
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00272,
+      "maximum_length": 1,
+      "minimum_length": 1,
+      "type": "artifact"
+    },
+    {
+      "count": 1,
+      "coverage": 0.82016,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "683_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 367,
+          "ref_beg_seq_id": 29
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "789_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 19,
+          "ref_beg_seq_id": 190
+        },
+        {
+          "entity_beg_seq_id": 20,
+          "length": 21,
+          "ref_beg_seq_id": 212
+        },
+        {
+          "entity_beg_seq_id": 41,
+          "length": 1,
+          "ref_beg_seq_id": 234
+        },
+        {
+          "entity_beg_seq_id": 42,
+          "length": 3,
+          "ref_beg_seq_id": 248
+        },
+        {
+          "entity_beg_seq_id": 45,
+          "length": 6,
+          "ref_beg_seq_id": 256
+        },
+        {
+          "entity_beg_seq_id": 51,
+          "length": 29,
+          "ref_beg_seq_id": 267
+        },
+        {
+          "entity_beg_seq_id": 80,
+          "length": 60,
+          "ref_beg_seq_id": 297
+        },
+        {
+          "entity_beg_seq_id": 140,
+          "length": 22,
+          "ref_beg_seq_id": 384
+        },
+        {
+          "entity_beg_seq_id": 162,
+          "length": 1,
+          "ref_beg_seq_id": 408
+        },
+        {
+          "entity_beg_seq_id": 163,
+          "length": 51,
+          "ref_beg_seq_id": 412
+        },
+        {
+          "entity_beg_seq_id": 214,
+          "length": 2,
+          "ref_beg_seq_id": 469
+        },
+        {
+          "entity_beg_seq_id": 216,
+          "length": 30,
+          "ref_beg_seq_id": 473
+        },
+        {
+          "entity_beg_seq_id": 246,
+          "length": 20,
+          "ref_beg_seq_id": 505
+        },
+        {
+          "entity_beg_seq_id": 266,
+          "length": 32,
+          "ref_beg_seq_id": 535
+        },
+        {
+          "entity_beg_seq_id": 298,
+          "length": 70,
+          "ref_beg_seq_id": 568
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1179_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 38,
+          "ref_beg_seq_id": 167
+        },
+        {
+          "entity_beg_seq_id": 39,
+          "length": 2,
+          "ref_beg_seq_id": 209
+        },
+        {
+          "entity_beg_seq_id": 41,
+          "length": 2,
+          "ref_beg_seq_id": 218
+        },
+        {
+          "entity_beg_seq_id": 43,
+          "length": 15,
+          "ref_beg_seq_id": 222
+        },
+        {
+          "entity_beg_seq_id": 58,
+          "length": 22,
+          "ref_beg_seq_id": 242
+        },
+        {
+          "entity_beg_seq_id": 80,
+          "length": 61,
+          "ref_beg_seq_id": 265
+        },
+        {
+          "entity_beg_seq_id": 141,
+          "length": 19,
+          "ref_beg_seq_id": 343
+        },
+        {
+          "entity_beg_seq_id": 160,
+          "length": 57,
+          "ref_beg_seq_id": 364
+        },
+        {
+          "entity_beg_seq_id": 217,
+          "length": 29,
+          "ref_beg_seq_id": 424
+        },
+        {
+          "entity_beg_seq_id": 246,
+          "length": 19,
+          "ref_beg_seq_id": 455
+        },
+        {
+          "entity_beg_seq_id": 265,
+          "length": 103,
+          "ref_beg_seq_id": 475
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "532_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 367,
+          "ref_beg_seq_id": 29
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "622_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 1,
+          "ref_beg_seq_id": 24
+        },
+        {
+          "entity_beg_seq_id": 2,
+          "length": 366,
+          "ref_beg_seq_id": 30
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "941_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 1,
+          "ref_beg_seq_id": 24
+        },
+        {
+          "entity_beg_seq_id": 2,
+          "length": 366,
+          "ref_beg_seq_id": 30
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "Q02127",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 366,
+          "ref_beg_seq_id": 30
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "DHOdehase,Dihydroorotate oxidase"
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL1966",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 365,
+          "target_beg_seq_id": 30
+        }
+      ]
+    },
+    {
+      "related_resource_name": "DrugBank",
+      "related_resource_version": "5.1",
+      "related_target_id": "Q02127",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 365,
+          "target_beg_seq_id": 30
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "3349",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 365,
+          "target_beg_seq_id": 30
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 1.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "KMTRWOYNTFHCTF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCO.NCCO.O=C(O)c1[nH]c(=O)[nH]c(=O)c1CCc1ccc2c(C(=O)O)cccc2c1",
+      "cofactor_resource_id": "CHEMBL3959702",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value": 1.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "GGBMSRUMDAYMKN-UHFFFAOYSA-N",
+      "cofactor_SMILES": "N#CCc1ccc(CCc2c(C(=O)O)[nH]c(=O)[nH]c2=O)cc1.NCCO",
+      "cofactor_resource_id": "CHEMBL3915927",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value": 1.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "RPNIGNWDCBUWBK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COc1ccccc1CCc1c(C(=O)O)[nH]c(=O)[nH]c1=O.NCCO",
+      "cofactor_resource_id": "CHEMBL3908568",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value": 1.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "XPCKSWMCTMDNMW-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCO.O=C(O)c1[nH]c(=O)[nH]c(=O)c1CCc1ccccc1",
+      "cofactor_resource_id": "CHEMBL3934806",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value": 1.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "SQXXHDFBPFICHS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)c1ccc2cc(CCc3c(C(=O)O)[nH]c(=O)[nH]c3=O)ccc2c1.NCCO",
+      "cofactor_resource_id": "CHEMBL3979926",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value": 1.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "LPRMUOYGPGIEKX-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCO.O=C(O)c1[nH]c(=O)[nH]c(=O)c1CCc1ccccc1C(F)(F)F",
+      "cofactor_resource_id": "CHEMBL3925433",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "DLRKWTKJHPRPPF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cc1ccc(-c2ccc(-c3cc(C(N)=O)cc(C(=O)O)c3)cc2)cc1",
+      "cofactor_resource_id": "CHEMBL382342",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "PVVBEDAOEJVXBQ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC(C)(C)c1ccc(-c2ccc(-c3cc(C(N)=O)cc(C(=O)O)c3)cc2)cc1",
+      "cofactor_resource_id": "CHEMBL206240",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "UUWHWNKLBZDMLC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)c1cc(C(=O)O)cc(-c2cc(-c3ccccc3)cc(-c3ccccc3)c2)c1",
+      "cofactor_resource_id": "CHEMBL378734",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "VALODBNNMHVQKP-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)c1cc(C(=O)O)cc(-c2ccc(-c3ccc(C(F)(F)F)cc3)cc2)c1",
+      "cofactor_resource_id": "CHEMBL206157",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1966"
+    },
+    {
+      "cofactor_InChIKey": "VHOGYURTWQBHIL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=C(C=NO1)C(=O)NC1=CC=C(C=C1)C(F)(F)F",
+      "cofactor_name": "Leflunomide",
+      "cofactor_resource_id": "DB01097",
+      "mechanism_of_action": "Leflunomide is a prodrug that is rapidly and almost completely metabolized following oral administration to its pharmacologically active metabolite, A77 1726. This metabolite is responsible for essentially all of the drug's activity in-vivo. The mechanism of action of leflunomide has not been fully determined, but appears to primarily involve regulation of autoimmune lymphocytes. It has been suggested that leflunomide exerts its immunomodulating effects by preventing the expansion of activated autoimmune lymphocytes via interferences with cell cycle progression. In-vitro data indicates that leflunomide interferes with cell cycle progression by inhibiting dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine ribonucleotide uridine monophosphate (rUMP)synthesis) and has antiproliferative activity. Human dihydroorotate dehydrogenase consists of 2 domains: an \u03b1/\u03b2-barrel domain containing the active site and an \u03b1-helical domain that forms a tunnel leading to the active site. A77 1726 binds to the hydrophobic tunnel at a site near the flavin mononucleotide. Inhibition of dihydroorotate dehydrogenase by A77 1726 prevents production of rUMP by the de novo pathway; such inhibition leads to decreased rUMP levels, decreased DNA and RNA synthesis, inhibition of cell proliferation, and G1 cell cycle arrest. It is through this action that leflunomide inhibits autoimmune T-cell proliferation and production of autoantibodies by B cells. Since salvage pathways are expected to sustain cells arrested in the G1 phase, the activity of leflunomide is cytostatic rather than cytotoxic. Other effects that result from reduced rUMP levels include interference with adhesion of activated lymphocytes to the synovial vascular endothelial cells, and increased synthesis of immunosuppressive cytokines such as transforming growth factor-\u03b2 (TGF-\u03b2). Leflunomide is also a tyrosine kinase inhibitor. Tyrosine kinases activate signalling pathways leading to DNA repair, apoptosis and cell proliferation. Inhibition of tyrosine kinases can help to treating cancer by preventing repair of tumor cells. ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        11752352,
+        10890256,
+        10651393,
+        15189743,
+        12063741,
+        12003373,
+        11053058,
+        1060033,
+        10878294,
+        10878295,
+        9666414,
+        17604599
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "KUCQYCKVKVOKAY-CTYIDZIISA-N",
+      "cofactor_SMILES": "OC1=C([C@H]2CC[C@@H](CC2)C2=CC=C(Cl)C=C2)C(=O)C2=CC=CC=C2C1=O",
+      "cofactor_chem_comp_id": "AOQ",
+      "cofactor_name": "Atovaquone",
+      "cofactor_resource_id": "DB01117",
+      "mechanism_of_action": "The mechanism of action against <i>Pneumocystis carinii</i> has not been fully elucidated. In Plasmodium species, the site of action appears to be the cytochrome bc1 complex (Complex III). Several metabolic enzymes are linked to the mitochondrial electron transport chain via ubiquinone. Inhibition of electron transport by atovaquone will result in indirect inhibition of these enzymes. The ultimate metabolic effects of such blockade may include inhibition of nucleic acid and ATP synthesis. Atovaquone also has been shown to have good <i>in vitro</i> activity against <i>Toxoplasma gondii</i>.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10658902,
+        15044733,
+        7726490,
+        7909690,
+        9425362,
+        11752352
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "PXQPEWDEAKTCGB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC(=O)C1=CC(=O)NC(=O)N1",
+      "cofactor_chem_comp_id": "ORO",
+      "cofactor_name": "Orotic acid",
+      "cofactor_resource_id": "DB02262",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "ZRKZFNZPJKEWPC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCCCCCCCCC[N+](C)(C)[O-]",
+      "cofactor_chem_comp_id": "DDQ",
+      "cofactor_name": "Capric dimethyl amine oxide",
+      "cofactor_resource_id": "DB02613",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "FVTCRASFADXXNN-SCRDCRAPSA-N",
+      "cofactor_SMILES": "CC1=CC2=C(C=C1C)N(C[C@H](O)[C@H](O)[C@H](O)COP(O)(O)=O)C1=NC(=O)NC(=O)C1=N2",
+      "cofactor_chem_comp_id": "FMN",
+      "cofactor_name": "Flavin mononucleotide",
+      "cofactor_resource_id": "DB03247",
+      "mechanism_of_action": "Flavin mononucleotide (FMN) is a precursor to flavin adenine dinucleotide (FAD) which is involved in metabolic redox reactions critical to a variety of functions, including ATP production, DNA repair, apoptosis, and protein folding.[L54221,L54241] Administered systemically, FMN serves to supplement endogenous supply in patients who may otherwise be deficient.[A274616]\r\n\r\nFor its indicated use in corneal collagen cross-linking, FMN acts as a photoenhancer. When used with a system delivering UV-A light, FMN generates singlet oxygen which is responsible for inducing the formation of cross-links within the corneal collagen.[L54221]",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "WYKKHJQZENLZID-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=C(N=C2C=CC(F)=CC2=C1C(O)=O)C1=CC=C(C=C1)C1=CC=CC=C1",
+      "cofactor_chem_comp_id": "BRE",
+      "cofactor_name": "Brequinar Analog",
+      "cofactor_resource_id": "DB03480",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17201408,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "PHEZJEYUWHETKO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=C(N=C2C=CC(F)=CC2=C1C(O)=O)C1=CC=C(C=C1)C1=CC=CC=C1F",
+      "cofactor_chem_comp_id": "BRF",
+      "cofactor_name": "Brequinar",
+      "cofactor_resource_id": "DB03523",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        16246558,
+        39574417,
+        33007394
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "UOWZUVNAGUAEQC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC(=O)CC1=CC(I)=C(OC2=CC=C(O)C(I)=C2)C(I)=C1",
+      "cofactor_chem_comp_id": "4HY",
+      "cofactor_name": "Tiratricol",
+      "cofactor_resource_id": "DB03604",
+      "mechanism_of_action": "Monocarboxylate transporter 8 (MCT8) is involved in the transport of triiodothyronine (T3) and thyroxine (T4).[A274073] Mutations in the SLC16A2 gene leading to MCT8 deficiency lead to impaired thyroid hormone uptake into the brain and elevated serum concentrations of T3.[A274073] Tiratricol is biologically active, binds with high affinity to the thyroid hormone receptors TR\u03b1 and TR\u03b2 and exerts similar biological effects to T3, although with different tissue specificity. Unlike T3 and T4, tiratricol enters MCT8 dependent cells without a functioning MCT8 transporter. Tiratricol can thereby replace T3 in MCT8 dependent tissues and restore normal thyroid hormone activity across tissues.[L53383]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37088711
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "SYELZBGXAIXKHU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCCCCCCCCCCC[N+](C)(C)[O-]",
+      "cofactor_chem_comp_id": "LDA",
+      "cofactor_name": "Dodecyldimethylamine N-oxide",
+      "cofactor_resource_id": "DB04147",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "HKIDMHSZRQSXJE-XEMYWUMJSA-N",
+      "cofactor_SMILES": "[H]C1(CCC(CC1)=C1C(O)=C(O)C2=CC=CC=C2C1=O)C1=CC=C(Cl)C=C1",
+      "cofactor_chem_comp_id": "AFI",
+      "cofactor_name": "2-[4-(4-Chlorophenyl)Cyclohexylidene]-3,4-Dihydroxy-1(2h)-Naphthalenone",
+      "cofactor_resource_id": "DB04281",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "LAZPCGBRHLARSI-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)C1=CC(=CC(=C1)C1=CC=C(C=C1)C1=CC=CC=C1)C(O)=O",
+      "cofactor_chem_comp_id": "201",
+      "cofactor_name": "5-Carbamoyl-1,1':4',1''-terphenyl-3-carboxylic acid",
+      "cofactor_resource_id": "DB04583",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        16406782,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_name": "SC12267",
+      "cofactor_resource_id": "DB05125",
+      "mechanism_of_action": "SC12267, a novel, selective and orally available, small molecule inhibitor of dihydroorotate dehydrogenase\r\n(DHODH), interferes with cell proliferation through blocking the synthesis pathway of pyrimidines. Its mode-of-\r\naction is of therapeutic relevance for the treatment of autoimmune disorders such as rheumatoid arthritis and\r\nmultiple sclerosis.",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "IRELROQHIPLASX-SEYXRHQNSA-N",
+      "cofactor_SMILES": "O\\C(CCC#C)=C(\\C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F",
+      "cofactor_name": "Manitimus",
+      "cofactor_resource_id": "DB06481",
+      "mechanism_of_action": "FK778 exerts its immunosuppressive activity at the molecular level via the suppression of de-novo pyrimidine biosynthesis, inhibiting the action of dihydroorotate dehydrogenase, an enzyme critical in the process, and consequently inhibiting cell proliferation.",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "MUVPBAIVOHJDOC-VBKFSLOCSA-N",
+      "cofactor_SMILES": "C\\C(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C1=CC=CC=C1",
+      "cofactor_chem_comp_id": "BCE",
+      "cofactor_name": "(2Z)-N-biphenyl-4-yl-2-cyano-3-hydroxybut-2-enamide",
+      "cofactor_resource_id": "DB07443",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "DDSLONVJHZPSBB-UVTDQMKNSA-N",
+      "cofactor_SMILES": "C\\C(O)=C(/C#N)C(=O)NC1=CC(Cl)=C(C=C1)C1=CC=CC=C1Cl",
+      "cofactor_chem_comp_id": "CIH",
+      "cofactor_name": "(2Z)-2-cyano-N-(2,2'-dichlorobiphenyl-4-yl)-3-hydroxybut-2-enamide",
+      "cofactor_resource_id": "DB07559",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "RPILZQUCBKIPAZ-AQTBWJFISA-N",
+      "cofactor_SMILES": "CCOC1=CC(=CC=C1)C1=CC=C(NC(=O)C(\\C#N)=C(\\C)O)C=C1",
+      "cofactor_chem_comp_id": "CJH",
+      "cofactor_name": "(2Z)-2-cyano-N-(3'-ethoxybiphenyl-4-yl)-3-hydroxybut-2-enamide",
+      "cofactor_resource_id": "DB07561",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "OZHBUVQCJMARBN-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCCCCCCCCCC[N+](C)(C)[O-]",
+      "cofactor_chem_comp_id": "DET",
+      "cofactor_name": "UNDECYLAMINE-N,N-DIMETHYL-N-OXIDE",
+      "cofactor_resource_id": "DB07646",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "VTGXLCZUWFYELR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC(=O)C1=C(CCC1)C(=O)NC1=C(F)C=C(C=C1F)C1=CC=CC(OC(F)(F)F)=C1",
+      "cofactor_chem_comp_id": "ILB",
+      "cofactor_name": "2-({[3,5-DIFLUORO-3'-(TRIFLUOROMETHOXY)BIPHENYL-4-YL]AMINO}CARBONYL)CYCLOPENT-1-ENE-1-CARBOXYLIC ACID",
+      "cofactor_resource_id": "DB07975",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        16143532,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "GIUMGVUBDBDTDX-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC=CC(=C1)C1=CC=C(NC(=O)C2=C(SC=C2)C(O)=O)C(F)=C1",
+      "cofactor_chem_comp_id": "ILC",
+      "cofactor_name": "3-{[(3-FLUORO-3'-METHOXYBIPHENYL-4-YL)AMINO]CARBONYL}THIOPHENE-2-CARBOXYLIC ACID",
+      "cofactor_resource_id": "DB07976",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        16480261,
+        39574417,
+        16246558
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "CGNHUSCKOHDSMR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC(=O)C1=C(C=CS1)C(=O)NC1=C(F)C=C(C=C1F)C1=CC(OC(F)(F)F)=CC=C1",
+      "cofactor_chem_comp_id": "ILF",
+      "cofactor_name": "3-({[3,5-DIFLUORO-3'-(TRIFLUOROMETHOXY)BIPHENYL-4-YL]AMINO}CARBONYL)THIOPHENE-2-CARBOXYLIC ACID",
+      "cofactor_resource_id": "DB07977",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        16480261,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "ULMUPVXFUDHRGH-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OC(=O)C1=C(C=CC1)C(=O)NC1=C(F)C(F)=C(C(F)=C1F)C1=CC(OC(F)(F)F)=CC=C1",
+      "cofactor_chem_comp_id": "ILH",
+      "cofactor_name": "2-({[2,3,5,6-TETRAFLUORO-3'-(TRIFLUOROMETHOXY)BIPHENYL-4-YL]AMINO}CARBONYL)CYCLOPENTA-1,3-DIENE-1-CARBOXYLIC ACID",
+      "cofactor_resource_id": "DB07978",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "OXYDLVAOXASTMW-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=NC2=NC=NN2C(NC2=CC3=CC4=CC=CC=C4C=C3C=C2)=C1",
+      "cofactor_chem_comp_id": "J4Z",
+      "cofactor_name": "N-anthracen-2-yl-5-methyl[1,2,4]triazolo[1,5-a]pyrimidin-7-amine",
+      "cofactor_resource_id": "DB08006",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        19296651,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "LRHHXKBKRNNFRV-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=NC2=NC=NN2C(NC2=CC=C(C=C2)C(F)(F)F)=C1",
+      "cofactor_chem_comp_id": "J5Z",
+      "cofactor_name": "5-methyl-N-[4-(trifluoromethyl)phenyl][1,2,4]triazolo[1,5-a]pyrimidin-7-amine",
+      "cofactor_resource_id": "DB08008",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        19296651,
+        39574417,
+        24782313
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "CAGGGMPTWTUYHZ-ZCXUNETKSA-N",
+      "cofactor_SMILES": "O\\C(C1CC1)=C(\\C#N)C(=O)NC1=CC=C(C=C1)C1=CC=CC=C1",
+      "cofactor_chem_comp_id": "MD7",
+      "cofactor_name": "(2Z)-N-biphenyl-4-yl-2-cyano-3-cyclopropyl-3-hydroxyprop-2-enamide",
+      "cofactor_resource_id": "DB08169",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "YUDQXOMZBLEWBH-KAMYIIQDSA-N",
+      "cofactor_SMILES": "COC1=CC=CC=C1C1=CC(Cl)=C(NC(=O)C(\\C#N)=C(\\C)O)C=C1",
+      "cofactor_chem_comp_id": "MDY",
+      "cofactor_name": "(2Z)-N-(3-chloro-2'-methoxybiphenyl-4-yl)-2-cyano-3-hydroxybut-2-enamide",
+      "cofactor_resource_id": "DB08172",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "MJELOWOAIAAUJT-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCCCCCCCOCCOCCOCCOCCOCCO",
+      "cofactor_chem_comp_id": "N8E",
+      "cofactor_name": "3,6,9,12,15-PENTAOXATRICOSAN-1-OL",
+      "cofactor_resource_id": "DB08249",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "UTNUDOFZCWSZMS-YFHOEESVSA-N",
+      "cofactor_SMILES": "C\\C(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F",
+      "cofactor_chem_comp_id": "A26",
+      "cofactor_name": "Teriflunomide",
+      "cofactor_resource_id": "DB08880",
+      "mechanism_of_action": "The exact mechanism by which teriflunomide acts in MS is not known. What is known is that teriflunomide prevents pyrimidine synthesis by inhibiting the mitochondrial enzyme dihydroorotate dehydrogenase, and this may be involved in its immunomodulatory effect in MS.",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21157651,
+        8573583,
+        25626527,
+        39574417,
+        31740051
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "XPRDUGXOWVXZLL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC(=CC=C1)C1=CC=C(NC(=O)C2=C(CCC2)C(O)=O)C(F)=C1",
+      "cofactor_chem_comp_id": "D5H",
+      "cofactor_name": "Vidofludimus",
+      "cofactor_resource_id": "DB15446",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        16246558,
+        39574417,
+        31740051,
+        35151222
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "cofactor_InChIKey": "KNVJMHHAXCPZHF-JTQLQIEISA-N",
+      "cofactor_SMILES": "CCN1C(CO)=NN(C1=O)C1=C(F)C=C(C(=O)NC2=C(F)C=CC=C2Cl)C(O[C@@H](C)C(F)(F)F)=C1",
+      "cofactor_chem_comp_id": "JJE",
+      "cofactor_name": "Orludodstat",
+      "cofactor_resource_id": "DB21498",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02127"
+    },
+    {
+      "binding_assay_value": 9.65,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CCn1c(CO)nn(-c2cc3c(C(C)C)cn(-c4c(F)cccc4Cl)c(=O)c3cc2F)c1=O",
+      "cofactor_chem_comp_id": "A1AQM",
+      "cofactor_resource_id": "CHEMBL4791380",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        33603957
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 9.4,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CCn1c(CO)nn(-c2cc3c(C(C)C)cn(-c4ccccc4C)c(=O)c3cc2F)c1=O",
+      "cofactor_chem_comp_id": "A1AQK",
+      "cofactor_resource_id": "CHEMBL4751399",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        33603957
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 9.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1cc(Oc2ccccc2)c(C(C)C)cc1-c1cc(C(=O)O)c2cc(F)ccc2n1",
+      "cofactor_chem_comp_id": "1EA",
+      "cofactor_resource_id": "CHEMBL2385512",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        23930152
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 8.92,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(Nc1c(F)c(F)c(-c2ccccc2)c(F)c1F)c1c(O)nn2ccccc12",
+      "cofactor_chem_comp_id": "DUH",
+      "cofactor_resource_id": "CHEMBL4173846",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29939742
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 8.7,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(Nc1c(F)cc(-c2cccc(OC(F)(F)F)c2)cc1F)c1ccsc1C(=O)O",
+      "cofactor_chem_comp_id": "ILF",
+      "cofactor_resource_id": "CHEMBL202431",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16480261
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 8.15,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1c(-c2ccc(-c3ccccc3)cc2)nc2ccc(F)cc2c1C(=O)O",
+      "cofactor_chem_comp_id": "BRE",
+      "cofactor_resource_id": "CHEMBL220467",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17201408
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 8.1,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN(/N=C/c1ccccc1C(=O)O)c1nc(-c2ccccc2Cl)cs1",
+      "cofactor_chem_comp_id": "EZO",
+      "cofactor_resource_id": "CHEMBL3980486",
+      "neighbor_flag": "Y",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.6,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1c(Oc2c(F)cccc2F)c(OC(C)C)nn1-c1ncc(C2CC2)cc1F",
+      "cofactor_chem_comp_id": "M0B",
+      "cofactor_resource_id": "CHEMBL3589752",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        26079043
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.58,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1ccc(-c2ccc(-c3nc4ccc(F)cc4c(C(=O)O)c3C)cc2)c(Cl)n1",
+      "cofactor_chem_comp_id": "F54",
+      "cofactor_resource_id": "CHEMBL4228971",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29727569
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.55,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1c(-c2ccc(-c3ccccc3)cc2)nc2cnccc2c1C(=O)O",
+      "cofactor_chem_comp_id": "F51",
+      "cofactor_resource_id": "CHEMBL4227722",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29727569
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.54,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(O)c1ccccc1/C=N/Nc1nc(-c2ccccc2Cl)cs1",
+      "cofactor_chem_comp_id": "3X2",
+      "cofactor_resource_id": "CHEMBL3896992",
+      "neighbor_flag": "Y",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.48,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(O)C1=C(C(=O)Nc2c(F)cc(-c3cccc(OC(F)(F)F)c3)cc2F)CCC1",
+      "cofactor_chem_comp_id": "ILB",
+      "cofactor_resource_id": "CHEMBL157105",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        14684297
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.46,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CCOC(=O)c1sc(Nc2ccc(C)c(Cl)c2)nc1-c1ccccc1",
+      "cofactor_chem_comp_id": "3SH",
+      "cofactor_resource_id": "CHEMBL3410596",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        25580811
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.36,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1cccc(-c2ccc(NC(=O)c3ccsc3C(=O)O)c(F)c2)c1",
+      "cofactor_chem_comp_id": "ILC",
+      "cofactor_resource_id": "CHEMBL371732",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16246558
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.35,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cn1nc(O)c(C(=O)Nc2c(F)c(F)c(-c3ccccc3)c(F)c2F)n1",
+      "cofactor_chem_comp_id": "HYT",
+      "cofactor_resource_id": "CHEMBL4062046",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29939742
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 7.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN(Cc1cccnc1)c1ccc(NC(=O)C2CC2)c(C(=O)O)c1",
+      "cofactor_chem_comp_id": "1X5",
+      "cofactor_resource_id": "CHEMBL1084928",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20153645
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 6.96,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=Cc1ccccc1/C=N/Nc1nc(-c2ccccc2)cs1",
+      "cofactor_chem_comp_id": "B3B",
+      "cofactor_resource_id": "CHEMBL2178104",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        22984987
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 6.55,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(O)C1=C(C(=O)Nc2ccc(-c3cccc(OC(F)(F)F)c3)cc2F)CCC1",
+      "cofactor_chem_comp_id": "3FT",
+      "cofactor_resource_id": "CHEMBL154493",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        14684297
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 6.3,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(O)c1ccccc1N/N=C/c1ccc(-c2ccccc2Cl)o1",
+      "cofactor_chem_comp_id": "951",
+      "cofactor_resource_id": "CHEMBL1088743",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20153645
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 6.25,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CC(=O)c1sc(Nc2ccc3ccccc3c2)nc1C",
+      "cofactor_chem_comp_id": "4JG",
+      "cofactor_resource_id": "CHEMBL3410576",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        25580811
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 6.25,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(CCNC(=O)c1ccc(OC(F)(F)F)cc1)N[C@@H]1CCCc2ccccc21",
+      "cofactor_chem_comp_id": "MLJ",
+      "cofactor_resource_id": "CHEMBL3184132",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        27994748
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    },
+    {
+      "binding_assay_value": 6.16,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(Nc1cc(Cl)cc(Cl)c1)Nc1ccccc1C(=O)O",
+      "cofactor_chem_comp_id": "6X1",
+      "cofactor_resource_id": "CHEMBL1088742",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20153645
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3349"
+    }
+  ],
+  "rcsb_id": "9BKN_1"
+}

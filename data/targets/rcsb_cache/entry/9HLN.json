@@ -1,0 +1,789 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-5238-1018",
+      "name": "Gervason, S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0396-699X",
+      "name": "Pecqueur, L.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-8248-4704",
+      "name": "Golinelli-Pimpaneau, B.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 93.452,
+    "length_b": 93.452,
+    "length_c": 159.02,
+    "volume": 1202706.288
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Golinelli-Pimpaneau, B."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "A [4Fe-4S] cluster, coordinated by two conserved cysteines and one aspartate, is essential for tRNA thiolation by MnmA enzymes from two Gram positive bacteria"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9HLN",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9hln/pdb",
+      "pdbx_database_accession": "pdb_00009hln"
+    },
+    {
+      "database_code": "D_1292143635",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-03-08T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "PROXIMA 2",
+      "pdbx_synchrotron_site": "SOLEIL",
+      "pdbx_wavelength_list": "0.980",
+      "source": "SYNCHROTRON",
+      "type": "SOLEIL BEAMLINE PROXIMA 2"
+    }
+  ],
+  "entry": {
+    "id": "9HLN"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 7.0,
+      "pdbx_details": "ANAEROBY (<1.5 ppm O2)\n3.5M Sodium formate 0.1M Bis-tris propane pH 7.0",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-06-17T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "France",
+      "funding_organization": "Agence Nationale de la Recherche (ANR)",
+      "grant_number": "ANR-11-labx-0011",
+      "ordinal": 1
+    },
+    {
+      "country": "France",
+      "funding_organization": "Agence Nationale de la Recherche (ANR)",
+      "grant_number": "ANR-22-CE44-0012",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "2HMA",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-12-05T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2HMA",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-06-08T12:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1629,
+      "DCC_Rfree": 0.1896,
+      "EDS_R": 0.1738,
+      "EDS_res_high": 1.92,
+      "EDS_res_low": 19.81,
+      "Fo_Fc_correlation": 0.96,
+      "I_over_sigma": "1.72(1.92A)",
+      "Padilla_Yeates_L2_mean": 0.344,
+      "Padilla_Yeates_L_mean": 0.509,
+      "Wilson_B_aniso": "[27.641,27.641,25.235,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 25.861,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 58.62,
+      "bulk_solvent_k": 0.397,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.09,
+      "data_completeness": 64.52,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 39900,
+      "number_reflns_R_free": 2012,
+      "percent_RSRZ_outliers": 5.98,
+      "percent_free_reflections": 3.25,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.89% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.024"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.48,
+      "bonds_RMSZ": 0.29,
+      "clashscore": 3.26,
+      "num_H_reduce": 2839,
+      "num_angles_RMSZ": 4021,
+      "num_bonds_RMSZ": 2979,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-12-05T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-06-17T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-06-17T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "9HLN",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9HLN"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 3391,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 368,
+    "deposited_nonpolymer_entity_instance_count": 17,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 375,
+    "deposited_solvent_atom_count": 414,
+    "deposited_unmodeled_polymer_monomer_count": 7,
+    "diffrn_radiation_wavelength_maximum": 0.98,
+    "diffrn_radiation_wavelength_minimum": 0.98,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 43.07,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "FMT",
+      "NA",
+      "SF4"
+    ],
+    "nonpolymer_entity_count": 4,
+    "nonpolymer_molecular_weight_maximum": 0.35,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 41.87,
+    "polymer_molecular_weight_minimum": 41.87,
+    "polymer_monomer_count_maximum": 375,
+    "polymer_monomer_count_minimum": 375,
+    "resolution_combined": [
+      1.92
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOPROC",
+      "COOT",
+      "PHASER",
+      "PHENIX",
+      "STARANISO",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.92
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_authors": [
+      "Golinelli-Pimpaneau, B."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "A [4Fe-4S] cluster, coordinated by two conserved cysteines and one aspartate, is essential for tRNA thiolation by MnmA enzymes from two Gram positive bacteria"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 35.61,
+      "ls_R_factor_R_free": 0.1896,
+      "ls_R_factor_R_work": 0.1622,
+      "ls_R_factor_obs": 0.1636,
+      "ls_d_res_high": 1.92,
+      "ls_d_res_low": 19.81,
+      "ls_number_reflns_R_free": 2012,
+      "ls_number_reflns_R_work": 37878,
+      "ls_number_reflns_obs": 39890,
+      "ls_percent_reflns_R_free": 5.04,
+      "ls_percent_reflns_obs": 64.61,
+      "overall_SU_ML": 0.1894,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 23.4284,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.92,
+      "d_res_low": 19.81,
+      "number_atoms_solvent": 414,
+      "number_atoms_total": 3371,
+      "pdbx_number_atoms_ligand": 63,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2894,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0064,
+      "number": 3030,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.8312,
+      "number": 4079,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0487,
+      "number": 430,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0057,
+      "number": 532,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 17.0925,
+      "number": 1101,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.92,
+      "d_resolution_low": 19.81,
+      "number_obs": 39900,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.2149,
+      "pdbx_Rpim_I_all": 0.0485,
+      "pdbx_Rrim_I_all": 0.2204,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 10.73,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 20.45,
+      "percent_possible_obs": 94.8
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.0838,
+      "d_res_high": 6.137,
+      "d_res_low": 19.809,
+      "meanI_over_sigI_obs": 28.53,
+      "number_measured_all": 40103,
+      "number_measured_obs": 40103,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.019,
+      "pdbx_Rrim_I_all": 0.086,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 20.1,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.1124,
+      "d_res_high": 4.863,
+      "d_res_low": 6.137,
+      "meanI_over_sigI_obs": 23.92,
+      "number_measured_all": 39759,
+      "number_measured_obs": 39759,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.0258,
+      "pdbx_Rrim_I_all": 0.1154,
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 19.93,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.1014,
+      "d_res_high": 4.24,
+      "d_res_low": 4.863,
+      "meanI_over_sigI_obs": 26.23,
+      "number_measured_all": 40114,
+      "number_measured_obs": 40114,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.023,
+      "pdbx_Rrim_I_all": 0.104,
+      "pdbx_ordinal": 3,
+      "pdbx_redundancy": 20.11,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.1209,
+      "d_res_high": 3.845,
+      "d_res_low": 4.24,
+      "meanI_over_sigI_obs": 23.15,
+      "number_measured_all": 42062,
+      "number_measured_obs": 42062,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.0268,
+      "pdbx_Rrim_I_all": 0.1239,
+      "pdbx_ordinal": 4,
+      "pdbx_redundancy": 21.08,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.1398,
+      "d_res_high": 3.565,
+      "d_res_low": 3.845,
+      "meanI_over_sigI_obs": 19.11,
+      "number_measured_all": 38702,
+      "number_measured_obs": 38702,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rpim_I_all": 0.0323,
+      "pdbx_Rrim_I_all": 0.1435,
+      "pdbx_ordinal": 5,
+      "pdbx_redundancy": 19.4,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.1723,
+      "d_res_high": 3.351,
+      "d_res_low": 3.565,
+      "meanI_over_sigI_obs": 16.55,
+      "number_measured_all": 38629,
+      "number_measured_obs": 38629,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.995,
+      "pdbx_Rpim_I_all": 0.0401,
+      "pdbx_Rrim_I_all": 0.177,
+      "pdbx_ordinal": 6,
+      "pdbx_redundancy": 19.36,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.2121,
+      "d_res_high": 3.181,
+      "d_res_low": 3.351,
+      "meanI_over_sigI_obs": 13.97,
+      "number_measured_all": 40680,
+      "number_measured_obs": 40680,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.993,
+      "pdbx_Rpim_I_all": 0.048,
+      "pdbx_Rrim_I_all": 0.2175,
+      "pdbx_ordinal": 7,
+      "pdbx_redundancy": 20.39,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.2685,
+      "d_res_high": 3.04,
+      "d_res_low": 3.181,
+      "meanI_over_sigI_obs": 11.21,
+      "number_measured_all": 41736,
+      "number_measured_obs": 41736,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.99,
+      "pdbx_Rpim_I_all": 0.0597,
+      "pdbx_Rrim_I_all": 0.2751,
+      "pdbx_ordinal": 8,
+      "pdbx_redundancy": 20.92,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.337,
+      "d_res_high": 2.92,
+      "d_res_low": 3.04,
+      "meanI_over_sigI_obs": 9.14,
+      "number_measured_all": 41884,
+      "number_measured_obs": 41884,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.986,
+      "pdbx_Rpim_I_all": 0.075,
+      "pdbx_Rrim_I_all": 0.3453,
+      "pdbx_ordinal": 9,
+      "pdbx_redundancy": 20.99,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.4244,
+      "d_res_high": 2.818,
+      "d_res_low": 2.92,
+      "meanI_over_sigI_obs": 7.28,
+      "number_measured_all": 42358,
+      "number_measured_obs": 42358,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.983,
+      "pdbx_Rpim_I_all": 0.0941,
+      "pdbx_Rrim_I_all": 0.4348,
+      "pdbx_ordinal": 10,
+      "pdbx_redundancy": 21.23,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.5424,
+      "d_res_high": 2.729,
+      "d_res_low": 2.818,
+      "meanI_over_sigI_obs": 5.85,
+      "number_measured_all": 42508,
+      "number_measured_obs": 42508,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.97,
+      "pdbx_Rpim_I_all": 0.1197,
+      "pdbx_Rrim_I_all": 0.5556,
+      "pdbx_ordinal": 11,
+      "pdbx_redundancy": 21.31,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.6221,
+      "d_res_high": 2.649,
+      "d_res_low": 2.729,
+      "meanI_over_sigI_obs": 5.02,
+      "number_measured_all": 42934,
+      "number_measured_obs": 42934,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.966,
+      "pdbx_Rpim_I_all": 0.1368,
+      "pdbx_Rrim_I_all": 0.6371,
+      "pdbx_ordinal": 12,
+      "pdbx_redundancy": 21.52,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.7696,
+      "d_res_high": 2.578,
+      "d_res_low": 2.649,
+      "meanI_over_sigI_obs": 4.1,
+      "number_measured_all": 42886,
+      "number_measured_obs": 42886,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.956,
+      "pdbx_Rpim_I_all": 0.1695,
+      "pdbx_Rrim_I_all": 0.7883,
+      "pdbx_ordinal": 13,
+      "pdbx_redundancy": 21.5,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.8532,
+      "d_res_high": 2.514,
+      "d_res_low": 2.578,
+      "meanI_over_sigI_obs": 3.66,
+      "number_measured_all": 43108,
+      "number_measured_obs": 43108,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.952,
+      "pdbx_Rpim_I_all": 0.187,
+      "pdbx_Rrim_I_all": 0.8736,
+      "pdbx_ordinal": 14,
+      "pdbx_redundancy": 21.61,
+      "percent_possible_all": 99.8
+    },
+    {
+      "Rmerge_I_obs": 0.9404,
+      "d_res_high": 2.454,
+      "d_res_low": 2.514,
+      "meanI_over_sigI_obs": 3.23,
+      "number_measured_all": 41744,
+      "number_measured_obs": 41744,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.95,
+      "pdbx_Rpim_I_all": 0.2096,
+      "pdbx_Rrim_I_all": 0.9637,
+      "pdbx_ordinal": 15,
+      "pdbx_redundancy": 20.92,
+      "percent_possible_all": 98.5
+    },
+    {
+      "Rmerge_I_obs": 0.9286,
+      "d_res_high": 2.396,
+      "d_res_low": 2.454,
+      "meanI_over_sigI_obs": 3.07,
+      "number_measured_all": 37819,
+      "number_measured_obs": 37819,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.946,
+      "pdbx_Rpim_I_all": 0.2178,
+      "pdbx_Rrim_I_all": 0.9541,
+      "pdbx_ordinal": 16,
+      "pdbx_redundancy": 18.96,
+      "percent_possible_all": 89.1
+    },
+    {
+      "Rmerge_I_obs": 1.0209,
+      "d_res_high": 2.326,
+      "d_res_low": 2.396,
+      "meanI_over_sigI_obs": 2.92,
+      "number_measured_all": 39735,
+      "number_measured_obs": 39735,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.937,
+      "pdbx_Rpim_I_all": 0.2334,
+      "pdbx_Rrim_I_all": 1.0476,
+      "pdbx_ordinal": 17,
+      "pdbx_redundancy": 19.92,
+      "percent_possible_all": 78.5
+    },
+    {
+      "Rmerge_I_obs": 1.061,
+      "d_res_high": 2.238,
+      "d_res_low": 2.326,
+      "meanI_over_sigI_obs": 2.89,
+      "number_measured_all": 39996,
+      "number_measured_obs": 39996,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.922,
+      "pdbx_Rpim_I_all": 0.2422,
+      "pdbx_Rrim_I_all": 1.0887,
+      "pdbx_ordinal": 18,
+      "pdbx_redundancy": 20.05,
+      "percent_possible_all": 83.7
+    },
+    {
+      "Rmerge_I_obs": 1.1241,
+      "d_res_high": 2.133,
+      "d_res_low": 2.238,
+      "meanI_over_sigI_obs": 2.66,
+      "number_measured_all": 39404,
+      "number_measured_obs": 39404,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.906,
+      "pdbx_Rpim_I_all": 0.2577,
+      "pdbx_Rrim_I_all": 1.1537,
+      "pdbx_ordinal": 19,
+      "pdbx_redundancy": 19.75,
+      "percent_possible_all": 83.5
+    },
+    {
+      "Rmerge_I_obs": 1.4187,
+      "d_res_high": 1.922,
+      "d_res_low": 2.133,
+      "meanI_over_sigI_obs": 2.12,
+      "number_measured_all": 39866,
+      "number_measured_obs": 39866,
+      "number_unique_all": 1995,
+      "number_unique_obs": 1995,
+      "pdbx_CC_half": 0.888,
+      "pdbx_Rpim_I_all": 0.3247,
+      "pdbx_Rrim_I_all": 1.4561,
+      "pdbx_ordinal": 20,
+      "pdbx_redundancy": 19.98,
+      "percent_possible_all": 75.8
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.21.2_5419"
+    },
+    {
+      "classification": "data processing",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2,
+      "version": "1.0.5"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3,
+      "version": "Jun 30, 2024"
+    },
+    {
+      "classification": "data scaling",
+      "name": "STARANISO",
+      "pdbx_ordinal": 4,
+      "version": "2.4.16"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of MnmA D100C mutant from Streptococcus pneumoniae with [4Fe-4S] cluster in complex with formate"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "iron-sulfur cluster, tRNA thiolation, sulfur, sulfuration, transferase, thiouridylase"
+  },
+  "symmetry": {
+    "Int_Tables_number": 154,
+    "space_group_name_H_M": "P 32 2 1",
+    "space_group_name_Hall": "P 32 2\""
+  },
+  "rcsb_id": "9HLN"
+}

@@ -1,0 +1,479 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-0791-1811",
+      "name": "Engelin, M.K.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Delbart, F.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-7459-1363",
+      "name": "Maier, T.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0001-5414-2088",
+      "name": "Basler, M.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 45.146,
+    "length_b": 74.909,
+    "length_c": 85.5
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Engelin, M.K.",
+        "Prakash, P.",
+        "Lin, L.",
+        "Muehlethaler, T.",
+        "Pereira, J.",
+        "Kuhn, E.",
+        "Delbart, F.",
+        "Maier, T.",
+        "Basler, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Spike-loading checkpoint controlling Type VI Secretion System assembly"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9T0N",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9t0n/pdb",
+      "pdbx_database_accession": "pdb_00009t0n"
+    },
+    {
+      "database_code": "D_1292151481",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2021-03-20T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 2M-F"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X06DA",
+      "pdbx_synchrotron_site": "SLS",
+      "pdbx_wavelength_list": "1.000009",
+      "source": "SYNCHROTRON",
+      "type": "SLS BEAMLINE X06DA"
+    }
+  ],
+  "entry": {
+    "id": "9T0N"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 1.93,
+      "density_percent_sol": 36.16,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 8.0,
+      "pdbx_details": "0.162 M CdSO4, 0.1 M Hepes 7.5 pH, 0.5 M NaOAc pH 8",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-11-12T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "European Union",
+      "funding_organization": "European Research Council (ERC)",
+      "grant_number": "865105",
+      "ordinal": 1
+    },
+    {
+      "country": "Switzerland",
+      "funding_organization": "Swiss National Science Foundation",
+      "grant_number": "320030-227860",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2025-10-17T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-05T19:41:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2157,
+      "DCC_Rfree": 0.2513,
+      "EDS_R": 0.2252,
+      "EDS_res_high": 1.8,
+      "EDS_res_low": 56.34,
+      "Fo_Fc_correlation": 0.953,
+      "I_over_sigma": "1.15(1.80A)",
+      "Padilla_Yeates_L2_mean": 0.32,
+      "Padilla_Yeates_L_mean": 0.484,
+      "Wilson_B_aniso": "[37.100,30.692,24.790,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 30.574,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 45.183,
+      "bulk_solvent_k": 0.447,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.399,
+      "data_completeness": 100.0,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 27574,
+      "number_reflns_R_free": 1385,
+      "percent_RSRZ_outliers": 8.95,
+      "percent_free_reflections": 5.02,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.66% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.41,
+      "bonds_RMSZ": 0.18,
+      "clashscore": 2.28,
+      "num_H_reduce": 2633,
+      "num_angles_RMSZ": 3626,
+      "num_bonds_RMSZ": 2673,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.34
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-10-17T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-11-12T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-11-12T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9T0N",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9T0N"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2702,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2633,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 324,
+    "deposited_nonpolymer_entity_instance_count": 12,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 327,
+    "deposited_solvent_atom_count": 73,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 36,
+    "molecular_weight": 38.81,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CD"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.11,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 37.52,
+    "polymer_molecular_weight_minimum": 37.52,
+    "polymer_monomer_count_maximum": 327,
+    "polymer_monomer_count_minimum": 327,
+    "resolution_combined": [
+      1.8
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "CRANK2",
+      "DIALS",
+      "PDB_EXTRACT",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.8
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Engelin, M.K.",
+      "Prakash, P.",
+      "Lin, L.",
+      "Muehlethaler, T.",
+      "Pereira, J.",
+      "Kuhn, E.",
+      "Delbart, F.",
+      "Maier, T.",
+      "Basler, M."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Spike-loading checkpoint controlling Type VI Secretion System assembly"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2452,
+      "ls_R_factor_R_work": 0.2095,
+      "ls_R_factor_obs": 0.2113,
+      "ls_d_res_high": 1.8,
+      "ls_d_res_low": 56.34,
+      "ls_number_reflns_R_free": 2606,
+      "ls_number_reflns_obs": 51891,
+      "ls_percent_reflns_R_free": 5.02,
+      "ls_percent_reflns_obs": 99.99,
+      "overall_SU_ML": 0.24,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 0.06,
+      "pdbx_method_to_determine_struct": "SAD",
+      "pdbx_overall_phase_error": 27.75,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.8,
+      "d_res_low": 56.34,
+      "number_atoms_solvent": 73,
+      "number_atoms_total": 2702,
+      "pdbx_number_atoms_ligand": 15,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2614,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.004,
+      "number": 2676,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.705,
+      "number": 3629,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 12.979,
+      "number": 988,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.04,
+      "number": 411,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.005,
+      "number": 464,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.8,
+      "d_resolution_low": 85.5,
+      "number_obs": 51891,
+      "pdbx_CC_half": 0.998,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 7.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.1,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.8,
+      "d_res_low": 1.84,
+      "meanI_over_sigI_obs": 0.5,
+      "number_unique_obs": 1591,
+      "pdbx_CC_half": 0.575,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 12.3,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "data reduction",
+      "name": "DIALS",
+      "pdbx_ordinal": 1,
+      "version": "2.2"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2,
+      "version": "0.5.21"
+    },
+    {
+      "classification": "phasing",
+      "name": "CRANK2",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4,
+      "version": "(2.0_5716)"
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of TagF (ACIAD2683) from Acinetobacter baylyi ADP1"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "PROTEIN BINDING",
+    "text": "Assembly checkpoint protein, Type VI secretion-associated protein, post-translational regulator, cytosolic protein, PROTEIN BINDING"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "9T0N"
+}

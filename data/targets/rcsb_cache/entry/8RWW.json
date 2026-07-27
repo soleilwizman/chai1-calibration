@@ -1,0 +1,613 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-9098-8475",
+      "name": "Gerhardt, S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-8238-5749",
+      "name": "Andexer, J.N.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 67.278,
+    "length_b": 67.278,
+    "length_c": 182.967
+  },
+  "citation": [
+    {
+      "country": "GE",
+      "id": "primary",
+      "journal_abbrev": "Chembiochem",
+      "journal_id_ISSN": "1439-7633",
+      "journal_volume": "25",
+      "page_first": "e202400258",
+      "page_last": "e202400258",
+      "pdbx_database_id_DOI": "10.1002/cbic.202400258",
+      "pdbx_database_id_PubMed": 38887142,
+      "rcsb_authors": [
+        "Sommer-Kamann, C.",
+        "Breiltgens, J.",
+        "Zou, Z.",
+        "Gerhardt, S.",
+        "Saleem-Batcha, R.",
+        "Kemper, F.",
+        "Einsle, O.",
+        "Andexer, J.N.",
+        "Muller, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Chembiochem",
+      "title": "Structures and Protein Engineering of the alpha-Keto Acid C-Methyltransferases SgvM and MrsA for Rational Substrate Transfer.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8RWW",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8rww/pdb",
+      "pdbx_database_accession": "pdb_00008rww"
+    },
+    {
+      "database_code": "D_1292136400",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2017-07-18T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X06DA",
+      "pdbx_synchrotron_site": "SLS",
+      "pdbx_wavelength_list": "1.000",
+      "source": "SYNCHROTRON",
+      "type": "SLS BEAMLINE X06DA"
+    }
+  ],
+  "entry": {
+    "id": "8RWW"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.8,
+      "density_percent_sol": 56.14,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 8.5,
+      "pdbx_details": "20% PEG 3350, 250 mM Li2SO4, and 100 mM Tris/HCl pH 8.5",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-07-03T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-07-24T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2024-10-16T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-02-05T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "inhouse model",
+      "id": 1,
+      "source_name": "Other",
+      "type": "other"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T11:59:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.1714,
+      "EDS_R": 0.1747,
+      "EDS_res_high": 1.95,
+      "EDS_res_low": 20.09,
+      "Fo_Fc_correlation": 0.966,
+      "I_over_sigma": "1.33(1.94A)",
+      "Padilla_Yeates_L2_mean": 0.314,
+      "Padilla_Yeates_L_mean": 0.483,
+      "Wilson_B_aniso": "[36.830,36.830,22.787,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 31.058,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 51.988,
+      "bulk_solvent_k": 0.362,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.437,
+      "data_completeness": 99.83,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 31560,
+      "number_reflns_R_free": 1612,
+      "percent_RSRZ_outliers": 2.69,
+      "percent_free_reflections": 3.71,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.36% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.99,
+      "bonds_RMSZ": 0.83,
+      "clashscore": 1.17,
+      "num_H_reduce": 2522,
+      "num_angles_RMSZ": 3596,
+      "num_bonds_RMSZ": 2643,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.57
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-02-05T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-07-03T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2024-10-16T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8RWW",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38887142,
+    "rcsb_id": "8RWW"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 2932,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2526,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 334,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 339,
+    "deposited_solvent_atom_count": 332,
+    "deposited_unmodeled_polymer_monomer_count": 5,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 6,
+    "molecular_weight": 37.14,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "COI",
+      "ZN"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.13,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 36.91,
+    "polymer_molecular_weight_minimum": 36.91,
+    "polymer_monomer_count_maximum": 339,
+    "polymer_monomer_count_minimum": 339,
+    "resolution_combined": [
+      1.95
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOPROC",
+      "BUSTER",
+      "PHASER"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.95
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "GE",
+    "id": "primary",
+    "journal_abbrev": "Chembiochem",
+    "journal_id_ISSN": "1439-7633",
+    "journal_volume": "25",
+    "page_first": "e202400258",
+    "page_last": "e202400258",
+    "pdbx_database_id_DOI": "10.1002/cbic.202400258",
+    "pdbx_database_id_PubMed": 38887142,
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-7406-0880",
+      "0009-0007-9458-8122",
+      "0009-0003-2274-4529",
+      "0000-0002-9098-8475",
+      "?",
+      "?",
+      "0000-0001-8722-2893",
+      "0000-0001-8238-5749",
+      "0000-0002-2742-4992"
+    ],
+    "rcsb_authors": [
+      "Sommer-Kamann, C.",
+      "Breiltgens, J.",
+      "Zou, Z.",
+      "Gerhardt, S.",
+      "Saleem-Batcha, R.",
+      "Kemper, F.",
+      "Einsle, O.",
+      "Andexer, J.N.",
+      "Muller, M."
+    ],
+    "rcsb_journal_abbrev": "Chembiochem",
+    "title": "Structures and Protein Engineering of the alpha-Keto Acid C-Methyltransferases SgvM and MrsA for Rational Substrate Transfer.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 49.52,
+      "aniso_B_1_1": -4.1748,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": -4.1748,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 8.3496,
+      "correlation_coeff_Fo_to_Fc": 0.951,
+      "correlation_coeff_Fo_to_Fc_free": 0.947,
+      "ls_R_factor_R_free": 0.2123,
+      "ls_R_factor_R_work": 0.1822,
+      "ls_R_factor_obs": 0.1837,
+      "ls_d_res_high": 1.95,
+      "ls_d_res_low": 20.09,
+      "ls_number_reflns_R_free": 1598,
+      "ls_number_reflns_obs": 31509,
+      "ls_percent_reflns_obs": 99.8,
+      "overall_SU_R_Cruickshank_DPI": 0.195,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_SU_R_Blow_DPI": 0.152,
+      "pdbx_overall_SU_R_free_Blow_DPI": 0.134,
+      "pdbx_overall_SU_R_free_Cruickshank_DPI": 0.126,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_analyze": [
+    {
+      "Luzzati_coordinate_error_obs": 0.25,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.95,
+      "d_res_low": 20.09,
+      "number_atoms_solvent": 332,
+      "number_atoms_total": 2900,
+      "pdbx_number_atoms_ligand": 11,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2557,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.01,
+      "number": 5181,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_bond_d",
+      "weight": 2.0
+    },
+    {
+      "dev_ideal": 0.97,
+      "number": 9331,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_angle_deg",
+      "weight": 2.0
+    },
+    {
+      "number": 1557,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SINUSOIDAL",
+      "type": "t_dihedral_angle_d",
+      "weight": 2.0
+    },
+    {
+      "number": 869,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_gen_planes",
+      "weight": 5.0
+    },
+    {
+      "number": 5181,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_it",
+      "weight": 10.0
+    },
+    {
+      "number": 343,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_chiral_improper_torsion",
+      "weight": 5.0
+    },
+    {
+      "number": 4,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_sum_occupancies",
+      "weight": 1.0
+    },
+    {
+      "number": 4823,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_ideal_dist_contact",
+      "weight": 4.0
+    },
+    {
+      "dev_ideal": 3.35,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_omega_torsion"
+    },
+    {
+      "dev_ideal": 14.26,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_other_torsion"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.95,
+      "d_resolution_low": 20.09,
+      "number_obs": 31639,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.252,
+      "pdbx_Rpim_I_all": 0.05,
+      "pdbx_Rrim_I_all": 0.257,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 25.8,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.95,
+      "d_res_low": 2.0,
+      "number_unique_obs": 2168,
+      "pdbx_CC_half": 0.463,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "BUSTER",
+      "pdbx_ordinal": 1,
+      "version": "2.10.4"
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "autoPROC",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of native alpha-keto C-methyl transferase SgvM bound to ketoleucine"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "S adenosylmethionine-dependent methyltransferases, biocatalysis, C-alkylation, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 96,
+    "space_group_name_H_M": "P 43 21 2"
+  },
+  "rcsb_id": "8RWW"
+}

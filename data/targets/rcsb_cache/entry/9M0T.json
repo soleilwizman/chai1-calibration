@@ -1,0 +1,485 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-2619-4942",
+      "name": "Nguyen, T.Q.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-6517-3533",
+      "name": "Kang, W.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 99.89,
+    "angle_gamma": 90.0,
+    "length_a": 93.168,
+    "length_b": 59.668,
+    "length_c": 59.912,
+    "volume": 328110.194
+  },
+  "citation": [
+    {
+      "country": "CH",
+      "id": "primary",
+      "journal_abbrev": "Crystals",
+      "journal_id_ISSN": "2073-4352",
+      "journal_volume": "15",
+      "page_first": "298",
+      "pdbx_database_id_DOI": "10.3390/cryst15040298",
+      "rcsb_authors": [
+        "Nguyen, T.Q.",
+        "Duong, T.H.",
+        "Yang, J.K.",
+        "Kang, W."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Crystals (Basel)",
+      "title": "Biochemical and Structural Characterization of Glyoxylate Reductase/Hydroxypyruvate Reductase from Bacillus subtilis",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9M0T",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9m0t/pdb",
+      "pdbx_database_accession": "pdb_00009m0t"
+    },
+    {
+      "database_code": "D_1300056965",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2019-01-18T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "11C",
+      "pdbx_synchrotron_site": "PAL/PLS",
+      "pdbx_wavelength_list": "0.979",
+      "source": "SYNCHROTRON",
+      "type": "PAL/PLS BEAMLINE 11C"
+    }
+  ],
+  "entry": {
+    "id": "9M0T"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.17,
+      "density_percent_sol": 43.42,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 6.5,
+      "pdbx_details": "0.2M magnesium formate, 20% (w/v) PEG (polyethylene glycol) 3350, 0.1M HEPES (pH 6.5), 5% (v/v) glycerol",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-01-21T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Korea, Republic Of",
+      "funding_organization": "National Research Foundation (NRF, Korea)",
+      "grant_number": "RS-2022-NR071729",
+      "ordinal": 1
+    },
+    {
+      "country": "Korea, Republic Of",
+      "funding_organization": "National Research Foundation (NRF, Korea)",
+      "grant_number": "RS-2023-00217189",
+      "ordinal": 2
+    },
+    {
+      "country": "Korea, Republic Of",
+      "funding_organization": "National Research Foundation (NRF, Korea)",
+      "grant_number": "RS-2021-NR060140",
+      "ordinal": 3
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "9M0V",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2025-02-25T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5AOV",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T09:58:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1644,
+      "DCC_Rfree": 0.1834,
+      "EDS_R": 0.1744,
+      "EDS_res_high": 1.2,
+      "EDS_res_low": 29.51,
+      "Fo_Fc_correlation": 0.974,
+      "I_over_sigma": "1.90(1.20A)",
+      "Padilla_Yeates_L2_mean": 0.325,
+      "Padilla_Yeates_L_mean": 0.493,
+      "Wilson_B_aniso": "[13.070,15.662,11.182,0.000,1.461,0.000]",
+      "Wilson_B_estimate": 13.008,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 33.659,
+      "bulk_solvent_k": 0.368,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.337,
+      "data_completeness": 94.4,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 95255,
+      "number_reflns_R_free": 2000,
+      "percent_RSRZ_outliers": 4.86,
+      "percent_free_reflections": 1.98,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.24% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.51,
+      "bonds_RMSZ": 0.24,
+      "clashscore": 1.3,
+      "num_H_reduce": 2683,
+      "num_angles_RMSZ": 3722,
+      "num_bonds_RMSZ": 2755,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-02-25T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-01-21T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-01-21T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9M0T",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9M0T"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 2,
+    "deposited_atom_count": 3105,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 329,
+    "deposited_nonpolymer_entity_instance_count": 7,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 332,
+    "deposited_solvent_atom_count": 421,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 0.979,
+    "diffrn_radiation_wavelength_minimum": 0.979,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 24,
+    "molecular_weight": 37.9,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "FMT",
+      "MG"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.09,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 37.62,
+    "polymer_molecular_weight_minimum": 37.62,
+    "polymer_monomer_count_maximum": 332,
+    "polymer_monomer_count_minimum": 332,
+    "resolution_combined": [
+      1.2
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-2000",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.2
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "CH",
+    "id": "primary",
+    "journal_abbrev": "Crystals",
+    "journal_id_ISSN": "2073-4352",
+    "journal_volume": "15",
+    "page_first": "298",
+    "pdbx_database_id_DOI": "10.3390/cryst15040298",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Nguyen, T.Q.",
+      "Duong, T.H.",
+      "Yang, J.K.",
+      "Kang, W."
+    ],
+    "rcsb_journal_abbrev": "Crystals (Basel)",
+    "title": "Biochemical and Structural Characterization of Glyoxylate Reductase/Hydroxypyruvate Reductase from Bacillus subtilis",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 19.39,
+      "ls_R_factor_R_free": 0.1838,
+      "ls_R_factor_R_work": 0.1646,
+      "ls_R_factor_obs": 0.165,
+      "ls_d_res_high": 1.2,
+      "ls_d_res_low": 29.51,
+      "ls_number_reflns_R_free": 2000,
+      "ls_number_reflns_R_work": 93255,
+      "ls_number_reflns_obs": 95255,
+      "ls_percent_reflns_R_free": 2.1,
+      "ls_percent_reflns_obs": 94.41,
+      "overall_SU_ML": 0.1209,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.9005,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.2,
+      "d_res_low": 29.51,
+      "number_atoms_solvent": 421,
+      "number_atoms_total": 3053,
+      "pdbx_number_atoms_ligand": 16,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2616,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0052,
+      "number": 2740,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.8739,
+      "number": 3717,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0794,
+      "number": 416,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0096,
+      "number": 487,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 5.8776,
+      "number": 379,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 13.01,
+      "d_resolution_high": 1.2,
+      "d_resolution_low": 29.8,
+      "number_obs": 95288,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.022,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.8,
+      "percent_possible_obs": 94.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.2,
+      "d_res_low": 1.22,
+      "meanI_over_sigI_obs": 1.8,
+      "number_unique_obs": 4200,
+      "pdbx_CC_half": 0.715,
+      "pdbx_Rpim_I_all": 0.422,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of Glyoxylate/Hydroxypyruvate Reductase in complex from Bacillus subtilis with formate at near-atomic resolution"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "glyoxylate reductase, hydroxypyruvate reductase, Bacillus subtilis, OXIDOREDUCTASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 5,
+    "space_group_name_H_M": "C 1 2 1",
+    "space_group_name_Hall": "C 2y"
+  },
+  "rcsb_id": "9M0T"
+}

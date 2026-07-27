@@ -1,0 +1,497 @@
+{
+  "audit_author": [
+    {
+      "name": "Ceballos-Zuniga, F.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Perez-Dorado, I.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 102.99,
+    "angle_gamma": 90.0,
+    "length_a": 70.114,
+    "length_b": 44.871,
+    "length_c": 76.625,
+    "volume": 234899.669
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Int.J.Biol.Macromol.",
+      "journal_id_ASTM": "IJBMDR",
+      "journal_id_CSD": "0708",
+      "journal_id_ISSN": "0141-8130",
+      "journal_volume": "334",
+      "page_first": "148896",
+      "page_last": "148896",
+      "pdbx_database_id_DOI": "10.1016/j.ijbiomac.2025.148896",
+      "pdbx_database_id_PubMed": 41207583,
+      "rcsb_authors": [
+        "Ceballos-Zuniga, F.",
+        "Galvez-Larrosa, L.",
+        "Munoz, I.G.",
+        "Infantes, L.",
+        "Fernandez-Carrillo, J.",
+        "Perez-Dorado, I."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Int J Biol Macromol",
+      "title": "Dissecting the molecular basis underlying mycobacterial cell-wall hydrolysis by the catalytic domains of D29LysA and DS6ALysA phage endolysins.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9HNU",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9hnu/pdb",
+      "pdbx_database_accession": "pdb_00009hnu"
+    },
+    {
+      "database_code": "D_1292143893",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-03-10T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "XALOC",
+      "pdbx_synchrotron_site": "ALBA",
+      "pdbx_wavelength_list": "0.9792",
+      "source": "SYNCHROTRON",
+      "type": "ALBA BEAMLINE XALOC"
+    }
+  ],
+  "entry": {
+    "id": "9HNU"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.67,
+      "density_percent_sol": 53.95,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "Condition H5 of Morpheus crystal screening:\n\n- 0.1M amino acids\n- 0.1M Buffer system 2 pH 7.5\n- 30% Precipitant mix 1",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-04-22T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Spain",
+      "funding_organization": "Comunidad de Madrid",
+      "grant_number": "2019-T1/BMD-14774",
+      "ordinal": 1
+    },
+    {
+      "country": "Spain",
+      "funding_organization": "Spanish National Research Council",
+      "grant_number": "202380E208",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-12-11T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "Crystal structure not published",
+      "id": 1,
+      "source_name": "Other",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-04-16T09:06:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1592,
+      "DCC_Rfree": 0.1881,
+      "EDS_R": 0.1714,
+      "EDS_res_high": 1.45,
+      "EDS_res_low": 45.56,
+      "Fo_Fc_correlation": 0.971,
+      "I_over_sigma": "3.16(1.45A)",
+      "Padilla_Yeates_L2_mean": 0.327,
+      "Padilla_Yeates_L_mean": 0.493,
+      "Wilson_B_aniso": "[17.547,25.851,16.022,0.000,-6.303,0.000]",
+      "Wilson_B_estimate": 17.173,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 40.364,
+      "bulk_solvent_k": 0.339,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.496,
+      "data_completeness": 99.26,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 41012,
+      "number_reflns_R_free": 2056,
+      "percent_RSRZ_outliers": 3.65,
+      "percent_free_reflections": 4.98,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 9.10% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.4,
+      "bonds_RMSZ": 0.16,
+      "clashscore": 1.95,
+      "num_H_reduce": 1523,
+      "num_angles_RMSZ": 2156,
+      "num_bonds_RMSZ": 1587,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-12-11T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-04-22T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-04-22T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "9HNU",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 41207583,
+    "rcsb_id": "9HNU"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1768,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 192,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 194,
+    "deposited_solvent_atom_count": 212,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9792,
+    "diffrn_radiation_wavelength_minimum": 0.9792,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 21.89,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.11,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 21.64,
+    "polymer_molecular_weight_minimum": 21.64,
+    "polymer_monomer_count_maximum": 194,
+    "polymer_monomer_count_minimum": 194,
+    "resolution_combined": [
+      1.45
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "AUTOPROC",
+      "BUSTER",
+      "COOT",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.45
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Int.J.Biol.Macromol.",
+    "journal_id_ASTM": "IJBMDR",
+    "journal_id_CSD": "0708",
+    "journal_id_ISSN": "0141-8130",
+    "journal_volume": "334",
+    "page_first": "148896",
+    "page_last": "148896",
+    "pdbx_database_id_DOI": "10.1016/j.ijbiomac.2025.148896",
+    "pdbx_database_id_PubMed": 41207583,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Ceballos-Zuniga, F.",
+      "Galvez-Larrosa, L.",
+      "Munoz, I.G.",
+      "Infantes, L.",
+      "Fernandez-Carrillo, J.",
+      "Perez-Dorado, I."
+    ],
+    "rcsb_journal_abbrev": "Int J Biol Macromol",
+    "title": "Dissecting the molecular basis underlying mycobacterial cell-wall hydrolysis by the catalytic domains of D29LysA and DS6ALysA phage endolysins.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 27.02,
+      "ls_R_factor_R_free": 0.1858,
+      "ls_R_factor_R_work": 0.1557,
+      "ls_R_factor_obs": 0.1572,
+      "ls_d_res_high": 1.45,
+      "ls_d_res_low": 45.56,
+      "ls_number_reflns_R_free": 2053,
+      "ls_number_reflns_R_work": 38893,
+      "ls_number_reflns_obs": 40946,
+      "ls_percent_reflns_R_free": 5.01,
+      "ls_percent_reflns_obs": 99.1,
+      "overall_SU_ML": 0.1503,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.7877,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.45,
+      "d_res_low": 45.56,
+      "number_atoms_solvent": 212,
+      "number_atoms_total": 1743,
+      "pdbx_number_atoms_ligand": 15,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1516,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0032,
+      "number": 1587,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.6873,
+      "number": 2158,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0686,
+      "number": 234,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0066,
+      "number": 285,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 6.415,
+      "number": 231,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 17.54,
+      "d_resolution_high": 1.45,
+      "d_resolution_low": 45.56,
+      "number_obs": 41013,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.047,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.8,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 5.8,
+      "percent_possible_obs": 99.3
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.312,
+      "d_res_high": 1.45,
+      "d_res_low": 1.47,
+      "number_unique_obs": 1973,
+      "pdbx_CC_half": 0.97,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 97.6
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "BUSTER",
+      "pdbx_ordinal": 1,
+      "version": "1.20.4"
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2,
+      "version": "1.20_4459"
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data processing",
+      "name": "autoPROC",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of GH19 E228Q domain of D29-LysA"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "D29-LysA, glycosil hydrolase, GH19, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 5,
+    "space_group_name_H_M": "I 1 2 1",
+    "space_group_name_Hall": "C 2y (x,y,-x+z)"
+  },
+  "rcsb_id": "9HNU"
+}

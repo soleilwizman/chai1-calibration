@@ -1,0 +1,705 @@
+{
+  "audit_author": [
+    {
+      "name": "Prajapati, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Palva, A.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "von Ossowski, I.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Krishnan, V.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 41.903,
+    "length_b": 50.898,
+    "length_c": 125.623
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "journal_id_ISSN": "2059-7983",
+      "journal_volume": "80",
+      "page_first": "474",
+      "page_last": "492",
+      "pdbx_database_id_DOI": "10.1107/S2059798324005114",
+      "pdbx_database_id_PubMed": 38935340,
+      "rcsb_authors": [
+        "Prajapati, A.",
+        "Palva, A.",
+        "von Ossowski, I.",
+        "Krishnan, V."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Acta Crystallogr D Struct Biol",
+      "title": "The crystal structure of the N-terminal domain of the backbone pilin LrpA reveals a new closure-and-twist motion for assembling dynamic pili in Ligilactobacillus ruminis.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8KB2",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8kb2/pdb",
+      "pdbx_database_accession": "pdb_00008kb2"
+    },
+    {
+      "database_code": "D_1300040006",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2019-09-06T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "11.2C",
+      "pdbx_synchrotron_site": "ELETTRA",
+      "pdbx_wavelength_list": "1.54980",
+      "source": "SYNCHROTRON",
+      "type": "ELETTRA BEAMLINE 11.2C"
+    }
+  ],
+  "entry": {
+    "id": "8KB2"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.33,
+      "density_percent_sol": 47.22,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 4.6,
+      "pdbx_details": "0.1 M sodium acetate pH 4.6, 25% PEG 4000",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-07-10T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-07-17T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "India",
+      "funding_organization": "Department of Biotechnology (DBT, India)",
+      "grant_number": "BT/PR22343/BRB/10/1570/2016",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2023-08-03T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T06:48:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1894,
+      "DCC_Rfree": 0.2155,
+      "EDS_R": 0.1906,
+      "EDS_res_high": 1.91,
+      "EDS_res_low": 39.58,
+      "Fo_Fc_correlation": 0.947,
+      "I_over_sigma": "3.41(1.91A)",
+      "Padilla_Yeates_L2_mean": 0.32,
+      "Padilla_Yeates_L_mean": 0.486,
+      "Wilson_B_aniso": "[21.102,20.019,19.082,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 19.896,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 39.062,
+      "bulk_solvent_k": 0.375,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.101,
+      "data_completeness": 97.51,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 21167,
+      "number_reflns_R_free": 1052,
+      "percent_RSRZ_outliers": 1.89,
+      "percent_free_reflections": 4.97,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.94% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.93,
+      "bonds_RMSZ": 0.63,
+      "clashscore": 0.73,
+      "num_H_reduce": 2030,
+      "num_angles_RMSZ": 2780,
+      "num_bonds_RMSZ": 2057,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-08-03T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-07-10T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2024-07-17T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "entry_id": "8KB2",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38935340,
+    "rcsb_id": "8KB2"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2202,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 265,
+    "deposited_nonpolymer_entity_instance_count": 19,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 265,
+    "deposited_solvent_atom_count": 147,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.5498,
+    "diffrn_radiation_wavelength_minimum": 1.5498,
+    "disulfide_bond_count": 0,
+    "entity_count": 7,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 6,
+    "molecular_weight": 30.72,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "NA"
+    ],
+    "nonpolymer_entity_count": 5,
+    "nonpolymer_molecular_weight_maximum": 0.13,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 28.74,
+    "polymer_molecular_weight_minimum": 28.74,
+    "polymer_monomer_count_maximum": 265,
+    "polymer_monomer_count_minimum": 265,
+    "resolution_combined": [
+      1.91
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOPROC",
+      "CRANK2",
+      "REFMAC"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.91
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "Acta Crystallogr D Struct Biol",
+    "journal_id_ISSN": "2059-7983",
+    "journal_volume": "80",
+    "page_first": "474",
+    "page_last": "492",
+    "pdbx_database_id_DOI": "10.1107/S2059798324005114",
+    "pdbx_database_id_PubMed": 38935340,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Prajapati, A.",
+      "Palva, A.",
+      "von Ossowski, I.",
+      "Krishnan, V."
+    ],
+    "rcsb_journal_abbrev": "Acta Crystallogr D Struct Biol",
+    "title": "The crystal structure of the N-terminal domain of the backbone pilin LrpA reveals a new closure-and-twist motion for assembling dynamic pili in Ligilactobacillus ruminis.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 20.742,
+      "aniso_B_1_1": -0.56,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": 0.08,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 0.48,
+      "correlation_coeff_Fo_to_Fc": 0.951,
+      "correlation_coeff_Fo_to_Fc_free": 0.939,
+      "details": "HYDROGENS HAVE BEEN ADDED IN THE RIDING POSITIONS",
+      "ls_R_factor_R_free": 0.21149,
+      "ls_R_factor_R_work": 0.17949,
+      "ls_R_factor_obs": 0.1811,
+      "ls_d_res_high": 1.91,
+      "ls_d_res_low": 39.58,
+      "ls_number_reflns_R_free": 1052,
+      "ls_number_reflns_obs": 20115,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 97.35,
+      "overall_SU_B": 4.982,
+      "overall_SU_ML": 0.08,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "SAD",
+      "pdbx_overall_ESU_R": 0.155,
+      "pdbx_overall_ESU_R_Free": 0.137,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "1",
+      "d_res_high": 1.91,
+      "d_res_low": 39.58,
+      "number_atoms_solvent": 147,
+      "number_atoms_total": 2202,
+      "pdbx_number_atoms_ligand": 32,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2023,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "dev_ideal_target": 0.012,
+      "number": 2073,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.016,
+      "number": 1972,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.433,
+      "dev_ideal_target": 1.664,
+      "number": 2800,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 0.466,
+      "dev_ideal_target": 1.585,
+      "number": 4572,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 7.022,
+      "dev_ideal_target": 5.0,
+      "number": 264,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 4.748,
+      "dev_ideal_target": 5.0,
+      "number": 1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 10.917,
+      "dev_ideal_target": 10.0,
+      "number": 364,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.063,
+      "dev_ideal_target": 0.2,
+      "number": 324,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.008,
+      "dev_ideal_target": 0.02,
+      "number": 2359,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 423,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_other"
+    },
+    {
+      "dev_ideal": 1.259,
+      "dev_ideal_target": 1.169,
+      "number": 1059,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.259,
+      "dev_ideal_target": 1.169,
+      "number": 1059,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 1.961,
+      "dev_ideal_target": 2.09,
+      "number": 1322,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 1.96,
+      "dev_ideal_target": 2.089,
+      "number": 1323,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 2.617,
+      "dev_ideal_target": 1.579,
+      "number": 1014,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 2.616,
+      "dev_ideal_target": 1.58,
+      "number": 1015,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 4.272,
+      "dev_ideal_target": 2.688,
+      "number": 1479,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 5.812,
+      "dev_ideal_target": 14.4,
+      "number": 2190,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "dev_ideal": 5.811,
+      "dev_ideal_target": 14.41,
+      "number": 2191,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_free"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_bonded"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.905,
+      "d_resolution_low": 39.58,
+      "number_obs": 21167,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.129,
+      "pdbx_Rpim_I_all": 0.018,
+      "pdbx_Rrim_I_all": 0.13,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 24.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 48.4,
+      "percent_possible_obs": 97.6
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.97,
+      "d_res_high": 1.905,
+      "d_res_low": 1.945,
+      "meanI_over_sigI_obs": 4.8,
+      "number_unique_obs": 1058,
+      "pdbx_CC_half": 0.969,
+      "pdbx_Rpim_I_all": 0.141,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 45.5,
+      "percent_possible_all": 85.5
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0419"
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "autoPROC",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "CRANK2",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of M- and C-Domains of the shaft pilin LrpA from Ligilactobacillus ruminis - iodide derivative"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "CELL ADHESION",
+    "text": "Backbone pilin, isopeptide bond, pili, gut bacteria, probiotic, CELL ADHESION"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "8KB2"
+}

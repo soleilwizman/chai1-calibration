@@ -1,0 +1,95 @@
+{
+  "query_id": "192708ec-4353-4cf9-a69d-9d29fd25641a",
+  "result_type": "polymer_entity",
+  "total_count": 2,
+  "result_set": [
+    {
+      "identifier": "4QMA_1",
+      "score": 0.5014044943820225,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 30741,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 23023,
+              "original_score": 46.0,
+              "norm_score": 0.0028089887640449437,
+              "match_context": [
+                {
+                  "sequence_identity": 0.307,
+                  "evalue": 0.0001628,
+                  "bitscore": 46,
+                  "alignment_length": 130,
+                  "mismatches": 80,
+                  "gaps_opened": 6,
+                  "query_beg": 40,
+                  "query_end": 166,
+                  "subject_beg": 44,
+                  "subject_end": 166,
+                  "query_length": 196,
+                  "subject_length": 208,
+                  "query_aligned_seq": "LQGLAARTDYWGAADFPAPEAGEHQARYLIAEDPDQSYALYLNVMRPGKKIVPHNHTTWACIAAVEGTEHNRVYERRDDGSMPGVGKLEETALVVVAPGKGIALMPE--DIHSV-EIQGEQVIRHLHMYG",
+                  "subject_aligned_seq": "LARLVARDD-WLPDAFAQPHP-EYYQQMLLHCDSAERFSIVSFVWGPGQRTPIHDHTVWGLIGMLRGAEYSQPFVL--DGSGRPVLHGEPTRL---EPGHVEAVSPTVGDIHRVHNAYDDRVSISIHVYG"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "4WVZ_1",
+      "score": 0.5,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 30741,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 23023,
+              "original_score": 45.0,
+              "norm_score": 0.0,
+              "match_context": [
+                {
+                  "sequence_identity": 0.27,
+                  "evalue": 0.0002947,
+                  "bitscore": 45,
+                  "alignment_length": 122,
+                  "mismatches": 80,
+                  "gaps_opened": 5,
+                  "query_beg": 48,
+                  "query_end": 166,
+                  "subject_beg": 45,
+                  "subject_end": 160,
+                  "query_length": 196,
+                  "subject_length": 211,
+                  "query_aligned_seq": "DYWGAADFPAPEAGEHQARYLIAEDPDQSYALYLNVMRPGKKIVPHNHTTWACIAAVEGTEHNRVYERRDDGSMPGVGKLEETALVVVAPGKGIALMPE--DIHSV-EIQGEQVIRHLHMYG",
+                  "subject_aligned_seq": "DDWLPEDCARPDPQRYQ-QYLLHVDSRQRFSVVSFVWGPGQITPVHDHRVWCLIGMLRGAEYSQPY-AFDAGGRPHPSGARRR----LEPGEVEALSPRIGDVHQVSNAFSDRTSISIHVYG"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

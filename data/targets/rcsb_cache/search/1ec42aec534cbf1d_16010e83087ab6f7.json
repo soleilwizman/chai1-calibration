@@ -1,0 +1,139 @@
+{
+  "query_id": "274cce55-ab1e-4c70-9aa2-040ad80bc097",
+  "result_type": "polymer_entity",
+  "total_count": 3,
+  "result_set": [
+    {
+      "identifier": "4IVN_1",
+      "score": 0.545271629778672,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 31797,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 18582,
+              "original_score": 90.0,
+              "norm_score": 0.09054325955734406,
+              "match_context": [
+                {
+                  "sequence_identity": 0.268,
+                  "evalue": 1.476e-18,
+                  "bitscore": 90,
+                  "alignment_length": 250,
+                  "mismatches": 177,
+                  "gaps_opened": 3,
+                  "query_beg": 2,
+                  "query_end": 250,
+                  "subject_beg": 6,
+                  "subject_end": 250,
+                  "query_length": 280,
+                  "subject_length": 278,
+                  "query_aligned_seq": "NLLQHIAQSRQQLRKSELKVADHVLNDPASVMHSSMAELAHGVGVSEPTIVRFCRAIGCSGFQDLKLKLAQSLAAGASFGQFSIHESDSVADFSLKIFDTTLHSLMEVREHLDTHALERAIAAIAHAQRVEFYGFGASGAVASDAQHKFFRLLLSAAAYSDPHMQAMSAVTLKPSDVAICISQSGRSKDLLITANLVREAGATLITLCP-SQTPLADLATVNLAIDVHEDTDIYTPLTSRIAHLVVIDVL",
+                  "subject_aligned_seq": "NLLVRLRSNMEPFSKKLRVVADYILENAHDVQFQTITDLARNTQTSEATVVRLCRDMGYKGYSDFRMALAVDLSQTESRQQ--NHIEGDICDVSAQ---SAVDSLQDTAKLIDRKSLARIVERVHQAEFIGCIGVGASSIVGRYLAYRLIRIGKKAIMFEDTHLAAMSASRSSQGDLWFAVSSSGSTKEVIHAAGLAYKRDIPVVSLTNINHSPLSSLSTEMLVAARPEGPLTGGAFASKVGALLLVDVL"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "2O3F_1",
+      "score": 0.5080482897384306,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 31797,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 18582,
+              "original_score": 53.0,
+              "norm_score": 0.01609657947686117,
+              "match_context": [
+                {
+                  "sequence_identity": 0.347,
+                  "evalue": 2.306e-06,
+                  "bitscore": 53,
+                  "alignment_length": 69,
+                  "mismatches": 45,
+                  "gaps_opened": 0,
+                  "query_beg": 7,
+                  "query_end": 75,
+                  "subject_beg": 12,
+                  "subject_end": 80,
+                  "query_length": 280,
+                  "subject_length": 111,
+                  "query_aligned_seq": "IAQSRQQLRKSELKVADHVLNDPASVMHSSMAELAHGVGVSEPTIVRFCRAIGCSGFQDLKLKLAQSLA",
+                  "subject_aligned_seq": "IQSMKHKLPPSERKLADYILAHPHKAIESTVNEISALANSSDAAVIRLCKSLGLKGFQDLKMRVAGDLA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "3IWF_1",
+      "score": 0.5010060362173038,
+      "services": [
+        {
+          "service_type": "text",
+          "nodes": [
+            {
+              "node_id": 31797,
+              "original_score": 1.0,
+              "norm_score": 1.0
+            }
+          ]
+        },
+        {
+          "service_type": "sequence",
+          "nodes": [
+            {
+              "node_id": 18582,
+              "original_score": 46.0,
+              "norm_score": 0.002012072434607646,
+              "match_context": [
+                {
+                  "sequence_identity": 0.288,
+                  "evalue": 0.0002269,
+                  "bitscore": 46,
+                  "alignment_length": 104,
+                  "mismatches": 69,
+                  "gaps_opened": 2,
+                  "query_beg": 2,
+                  "query_end": 105,
+                  "subject_beg": 3,
+                  "subject_end": 101,
+                  "query_length": 280,
+                  "subject_length": 107,
+                  "query_aligned_seq": "NLLQHIAQSRQQLRKSELKVADHVLNDPASVMHSSMAELAHGVGVSEPTIVRFCRAIGCSGFQDLKLKLAQSLAAGASFGQFSIHESDSVADFSLKIFDTTLHS",
+                  "subject_aligned_seq": "NILYKIDNQYPYFTKNEKKIAQFILNYPHKVVNMTSQEIANQLETSSTSIIRLSKKVTPGGFNELKTRLSKFLPKEVT--QYNVELVDNESTISLK---NKLHS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-1456-7310",
+      "name": "Guttler, T.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0096-0111",
+      "name": "Colom, M.S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-4343-5210",
+      "name": "Gorlich, D.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 99.968,
+    "length_b": 99.968,
+    "length_c": 30.707,
+    "volume": 265760.253
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Embo J.",
+      "journal_id_ASTM": "EMJODG",
+      "journal_id_CSD": "0897",
+      "journal_id_ISSN": "1460-2075",
+      "journal_volume": "43",
+      "page_first": "2198",
+      "page_last": "2232",
+      "pdbx_database_id_DOI": "10.1038/s44318-024-00081-w",
+      "pdbx_database_id_PubMed": 38649536,
+      "rcsb_authors": [
+        "Sola Colom, M.",
+        "Fu, Z.",
+        "Gunkel, P.",
+        "Guttler, T.",
+        "Trakhanov, S.",
+        "Srinivasan, V.",
+        "Gregor, K.",
+        "Pleiner, T.",
+        "Gorlich, D."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "EMBO J",
+      "title": "A checkpoint function for Nup98 in nuclear pore formation suggested by novel inhibitory nanobodies.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8CDT",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8cdt/pdb",
+      "pdbx_database_accession": "pdb_00008cdt"
+    },
+    {
+      "database_code": "D_1292128340",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2021-03-21T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X10SA",
+      "pdbx_synchrotron_site": "SLS",
+      "pdbx_wavelength_list": "1",
+      "source": "SYNCHROTRON",
+      "type": "SLS BEAMLINE X10SA"
+    }
+  ],
+  "entry": {
+    "id": "8CDT"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.43,
+      "density_percent_sol": 64.17,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 10.5,
+      "pdbx_details": "0.1 M CAPS (pH 10.5), 1.2 M sodium phosphate, 0.8 M potassium phosphate, 0.2 M lithium sulfate",
+      "temp": 293.15
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "pdbx_modification_feature",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-02-21T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-05-22T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2024-06-12T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2024-10-23T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ASTM",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 10,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 11,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 13,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Germany",
+      "funding_organization": "Max Planck Society",
+      "ordinal": 1
+    },
+    {
+      "country": "Germany",
+      "funding_organization": "Boehringer Ingelheim Fonds (BIF)",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-02-01T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "7ON5",
+      "details": "prepared with Sculptor",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-06T23:21:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1605,
+      "DCC_Rfree": 0.1905,
+      "EDS_R": 0.1804,
+      "EDS_res_high": 1.41,
+      "EDS_res_low": 32.72,
+      "Fo_Fc_correlation": 0.972,
+      "I_over_sigma": "0.98(1.33A)",
+      "Padilla_Yeates_L2_mean": 0.324,
+      "Padilla_Yeates_L_mean": 0.492,
+      "Wilson_B_aniso": "[20.345,20.345,31.667,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 22.819,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 57.238,
+      "bulk_solvent_k": 0.383,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.469,
+      "data_completeness": 99.94,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 40725,
+      "number_reflns_R_free": 2010,
+      "percent_RSRZ_outliers": 2.48,
+      "percent_free_reflections": 4.9,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.60% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-h-k,-l:0.032"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.79,
+      "bonds_RMSZ": 0.71,
+      "clashscore": 3.56,
+      "num_H_reduce": 984,
+      "num_angles_RMSZ": 1328,
+      "num_bonds_RMSZ": 987,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-02-01T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-02-21T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 3,
+    "revision_date": "2024-10-23T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "8CDT",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38649536,
+    "rcsb_id": "8CDT"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1098,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 121,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 123,
+    "deposited_solvent_atom_count": 125,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 2,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 13.11,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.09,
+    "nonpolymer_molecular_weight_minimum": 0.09,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 12.92,
+    "polymer_molecular_weight_minimum": 12.92,
+    "polymer_monomer_count_maximum": 123,
+    "polymer_monomer_count_minimum": 123,
+    "resolution_combined": [
+      1.41
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.33
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Embo J.",
+    "journal_id_ASTM": "EMJODG",
+    "journal_id_CSD": "0897",
+    "journal_id_ISSN": "1460-2075",
+    "journal_volume": "43",
+    "page_first": "2198",
+    "page_last": "2232",
+    "pdbx_database_id_DOI": "10.1038/s44318-024-00081-w",
+    "pdbx_database_id_PubMed": 38649536,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "0000-0002-2574-3412",
+      "0000-0003-4287-9482",
+      "0000-0002-1456-7310",
+      "?",
+      "0000-0002-8895-5885",
+      "0009-0009-7178-3747",
+      "0000-0002-5104-0315",
+      "0000-0002-4343-5210"
+    ],
+    "rcsb_authors": [
+      "Sola Colom, M.",
+      "Fu, Z.",
+      "Gunkel, P.",
+      "Guttler, T.",
+      "Trakhanov, S.",
+      "Srinivasan, V.",
+      "Gregor, K.",
+      "Pleiner, T.",
+      "Gorlich, D."
+    ],
+    "rcsb_journal_abbrev": "EMBO J",
+    "title": "A checkpoint function for Nup98 in nuclear pore formation suggested by novel inhibitory nanobodies.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 25.24,
+      "ls_R_factor_R_free": 0.1882,
+      "ls_R_factor_R_work": 0.1579,
+      "ls_R_factor_obs": 0.1593,
+      "ls_d_res_high": 1.41,
+      "ls_d_res_low": 32.72,
+      "ls_number_reflns_R_free": 1674,
+      "ls_number_reflns_R_work": 32542,
+      "ls_number_reflns_obs": 34216,
+      "ls_percent_reflns_R_free": 4.89,
+      "ls_percent_reflns_obs": 99.95,
+      "overall_SU_ML": 0.1684,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.38,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 17.7705,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.41,
+      "d_res_low": 32.72,
+      "number_atoms_solvent": 125,
+      "number_atoms_total": 1029,
+      "pdbx_number_atoms_ligand": 6,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 898,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0191,
+      "number": 996,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.5347,
+      "number": 1353,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.113,
+      "number": 147,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0096,
+      "number": 177,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 12.4346,
+      "number": 384,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 20.56,
+      "d_resolution_high": 1.33,
+      "d_resolution_low": 43.29,
+      "number_obs": 79377,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.045,
+      "pdbx_Rrim_I_all": 0.047,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 22.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 19.8,
+      "percent_possible_obs": 99.5
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.818,
+      "d_res_high": 1.33,
+      "d_res_low": 1.41,
+      "number_unique_obs": 12488,
+      "pdbx_CC_half": 0.715,
+      "pdbx_Rrim_I_all": 1.919,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    },
+    {
+      "Rmerge_I_obs": 0.5870000000000001,
+      "d_res_high": 1.41,
+      "d_res_low": 1.5,
+      "number_unique_obs": 12096,
+      "pdbx_CC_half": 0.956,
+      "pdbx_Rrim_I_all": 0.619,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2
+    },
+    {
+      "Rmerge_I_obs": 0.24600000000000002,
+      "d_res_high": 1.5,
+      "d_res_low": 1.62,
+      "number_unique_obs": 11318,
+      "pdbx_CC_half": 0.99,
+      "pdbx_Rrim_I_all": 0.259,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 3
+    },
+    {
+      "Rmerge_I_obs": 0.121,
+      "d_res_high": 1.62,
+      "d_res_low": 1.78,
+      "number_unique_obs": 10388,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rrim_I_all": 0.127,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 4
+    },
+    {
+      "Rmerge_I_obs": 0.064,
+      "d_res_high": 1.78,
+      "d_res_low": 1.99,
+      "number_unique_obs": 9370,
+      "pdbx_CC_half": 0.9990000000000001,
+      "pdbx_Rrim_I_all": 0.068,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 5
+    },
+    {
+      "Rmerge_I_obs": 0.047,
+      "d_res_high": 1.99,
+      "d_res_low": 2.29,
+      "number_unique_obs": 8290,
+      "pdbx_CC_half": 0.9990000000000001,
+      "pdbx_Rrim_I_all": 0.049,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 6
+    },
+    {
+      "Rmerge_I_obs": 0.042,
+      "d_res_high": 2.29,
+      "d_res_low": 2.81,
+      "number_unique_obs": 7019,
+      "pdbx_CC_half": 0.9990000000000001,
+      "pdbx_Rrim_I_all": 0.044000000000000004,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 7
+    },
+    {
+      "Rmerge_I_obs": 0.036000000000000004,
+      "d_res_high": 2.81,
+      "d_res_low": 3.96,
+      "number_unique_obs": 5406,
+      "pdbx_CC_half": 0.9990000000000001,
+      "pdbx_Rrim_I_all": 0.038,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 8
+    },
+    {
+      "Rmerge_I_obs": 0.034,
+      "d_res_high": 3.96,
+      "d_res_low": 43.29,
+      "number_unique_obs": 3001,
+      "pdbx_CC_half": 0.9990000000000001,
+      "pdbx_Rrim_I_all": 0.036000000000000004,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 9
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.14-3260"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 2,
+      "version": "2.8.2"
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 3,
+      "version": "Jan 31, 2020  BUILT=20200417"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 4,
+      "version": "Jan 31, 2020  BUILT=20200417"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of the xNup93-Nb2t VHH antibody"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "IMMUNE SYSTEM",
+    "text": "VHH antibody, nanobody, IMMUNE SYSTEM"
+  },
+  "symmetry": {
+    "Int_Tables_number": 173,
+    "space_group_name_H_M": "P 63",
+    "space_group_name_Hall": "P 6c"
+  },
+  "rcsb_id": "8CDT"
+}

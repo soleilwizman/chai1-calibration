@@ -1,0 +1,590 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-7594-3810",
+      "name": "Amann, M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-2830-7130",
+      "name": "Huegle, M.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-8722-2893",
+      "name": "Einsle, O.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0003-3744-189X",
+      "name": "Guenther, S.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 38.12,
+    "length_b": 88.215,
+    "length_c": 108.493,
+    "volume": 364835.465
+  },
+  "citation": [
+    {
+      "country": "DE",
+      "id": "primary",
+      "journal_abbrev": "Chemmedchem",
+      "journal_id_ISSN": "1860-7187",
+      "journal_volume": "20",
+      "page_first": "e202500024",
+      "page_last": "e202500024",
+      "pdbx_database_id_DOI": "10.1002/cmdc.202500024",
+      "pdbx_database_id_PubMed": 40099623,
+      "rcsb_authors": [
+        "Amann, M.",
+        "Warstat, R.",
+        "Rechten, K.K.",
+        "Theuer, P.",
+        "Schustereder, M.",
+        "Clavey, S.",
+        "Breit, B.",
+        "Einsle, O.",
+        "Hugle, M.",
+        "Petter, M.",
+        "Gunther, S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "ChemMedChem",
+      "title": "A Novel Inhibitor against the Bromodomain Protein 1 of the Malaria Pathogen Plasmodium Falciparum.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9HH7",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9hh7/pdb",
+      "pdbx_database_accession": "pdb_00009hh7"
+    },
+    {
+      "database_code": "D_1292143326",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-02-15T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 X CdTe 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "ID23-1",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.88560",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE ID23-1"
+    }
+  ],
+  "entry": {
+    "id": "9HH7"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.88,
+      "density_percent_sol": 57.31,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "20% PEG MMW (PEG 2K, 3350, 4K and 5K MME ;each 12.5 %) ,7% (v/v) Tacsimate, 0.1 M HEPES pH 7.2",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-04-02T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-04-16T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2025-06-11T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 7,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Germany",
+      "funding_organization": "German Research Foundation (DFG)",
+      "grant_number": "RTG2202",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "9HGF",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-11-21T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T19:22:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2116,
+      "DCC_Rfree": 0.2447,
+      "EDS_R": 0.2165,
+      "EDS_res_high": 1.79,
+      "EDS_res_low": 35.96,
+      "Fo_Fc_correlation": 0.952,
+      "I_over_sigma": "1.53(1.78A)",
+      "Padilla_Yeates_L2_mean": 0.328,
+      "Padilla_Yeates_L_mean": 0.491,
+      "Wilson_B_aniso": "[34.162,39.105,34.441,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 34.016,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 46.995,
+      "bulk_solvent_k": 0.314,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.138,
+      "data_completeness": 53.01,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 9398,
+      "number_reflns_R_free": 434,
+      "percent_RSRZ_outliers": 8.4,
+      "percent_free_reflections": 2.44,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 11.91% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.23,
+      "bonds_RMSZ": 0.09,
+      "clashscore": 2.37,
+      "num_H_reduce": 1012,
+      "num_angles_RMSZ": 1456,
+      "num_bonds_RMSZ": 1076,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.89
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-11-21T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-04-02T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2025-06-11T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "9HH7",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 40099623,
+    "rcsb_id": "9HH7"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1175,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 131,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 137,
+    "deposited_solvent_atom_count": 77,
+    "deposited_unmodeled_polymer_monomer_count": 6,
+    "diffrn_radiation_wavelength_maximum": 0.8856,
+    "diffrn_radiation_wavelength_minimum": 0.8856,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 16.12,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.3,
+    "nonpolymer_molecular_weight_minimum": 0.3,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 15.83,
+    "polymer_molecular_weight_minimum": 15.83,
+    "polymer_monomer_count_maximum": 137,
+    "polymer_monomer_count_minimum": 137,
+    "resolution_combined": [
+      1.79
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "STARANISO",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.79
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "DE",
+    "id": "primary",
+    "journal_abbrev": "Chemmedchem",
+    "journal_id_ISSN": "1860-7187",
+    "journal_volume": "20",
+    "page_first": "e202500024",
+    "page_last": "e202500024",
+    "pdbx_database_id_DOI": "10.1002/cmdc.202500024",
+    "pdbx_database_id_PubMed": 40099623,
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-7594-3810",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0002-2514-3898",
+      "0000-0001-8722-2893",
+      "0000-0002-2830-7130",
+      "0000-0002-1837-2756",
+      "0000-0003-3744-189X"
+    ],
+    "rcsb_authors": [
+      "Amann, M.",
+      "Warstat, R.",
+      "Rechten, K.K.",
+      "Theuer, P.",
+      "Schustereder, M.",
+      "Clavey, S.",
+      "Breit, B.",
+      "Einsle, O.",
+      "Hugle, M.",
+      "Petter, M.",
+      "Gunther, S."
+    ],
+    "rcsb_journal_abbrev": "ChemMedChem",
+    "title": "A Novel Inhibitor against the Bromodomain Protein 1 of the Malaria Pathogen Plasmodium Falciparum.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 49.69,
+      "ls_R_factor_R_free": 0.2432,
+      "ls_R_factor_R_work": 0.2089,
+      "ls_R_factor_obs": 0.2105,
+      "ls_d_res_high": 1.79,
+      "ls_d_res_low": 35.96,
+      "ls_number_reflns_R_free": 433,
+      "ls_number_reflns_R_work": 8965,
+      "ls_number_reflns_obs": 9398,
+      "ls_percent_reflns_R_free": 4.61,
+      "ls_percent_reflns_obs": 52.79,
+      "overall_SU_ML": 0.2075,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 35.3742,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.79,
+      "d_res_low": 35.96,
+      "number_atoms_solvent": 77,
+      "number_atoms_total": 1137,
+      "pdbx_number_atoms_ligand": 22,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1038,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0021,
+      "number": 1126,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.3931,
+      "number": 1532,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0349,
+      "number": 161,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0027,
+      "number": 228,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 10.6619,
+      "number": 431,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.787,
+      "d_resolution_low": 35.965,
+      "number_obs": 9402,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.07,
+      "pdbx_Rrim_I_all": 0.076,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_obs": 91.8
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.787,
+      "d_res_low": 1.944,
+      "number_unique_obs": 1146,
+      "pdbx_CC_half": 0.612,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.21_5207"
+    },
+    {
+      "classification": "data scaling",
+      "name": "STARANISO",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of the Plasmodium falciparum Bromodomain PfBDP1 in complex with RMM23"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSCRIPTION",
+    "text": "plasmodium, bromodomain, inhibitor, complex, TRANSCRIPTION"
+  },
+  "symmetry": {
+    "Int_Tables_number": 23,
+    "space_group_name_H_M": "I 2 2 2",
+    "space_group_name_Hall": "I 2 2"
+  },
+  "rcsb_id": "9HH7"
+}

@@ -1,0 +1,633 @@
+{
+  "audit_author": [
+    {
+      "name": "Salah, E.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Huber, K.V.M.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Elkins, J.M.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 36.739,
+    "length_b": 60.85,
+    "length_c": 67.53
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To be published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Salah, E.",
+        "Huber, K.V.M.",
+        "Elkins, J.M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "NUDT1 with medetomidine"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9FL6",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9fl6/pdb",
+      "pdbx_database_accession": "pdb_00009fl6"
+    },
+    {
+      "database_code": "D_1292139151",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2015-07-11T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 2M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I04-1",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.928190",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I04-1"
+    }
+  ],
+  "entry": {
+    "id": "9FL6"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.09,
+      "density_percent_sol": 41.01,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "30% PEG8000, 0.2 M lithium sulfate and 0.1 M acetate pH 4.5",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-06-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-06-04T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "NUDT1",
+      "id": 1,
+      "source_name": "Other",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T08:54:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1674,
+      "DCC_Rfree": 0.2061,
+      "EDS_R": 0.1762,
+      "EDS_res_high": 1.3,
+      "EDS_res_low": 45.2,
+      "Fo_Fc_correlation": 0.968,
+      "I_over_sigma": "2.08(1.30A)",
+      "Padilla_Yeates_L2_mean": 0.326,
+      "Padilla_Yeates_L_mean": 0.492,
+      "Wilson_B_aniso": "[15.330,12.079,13.050,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 13.404,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 31.234,
+      "bulk_solvent_k": 0.329,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.241,
+      "data_completeness": 99.87,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 37960,
+      "number_reflns_R_free": 1935,
+      "percent_RSRZ_outliers": 5.84,
+      "percent_free_reflections": 5.09,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 10.59% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.02,
+      "bonds_RMSZ": 1.01,
+      "clashscore": 3.05,
+      "num_H_reduce": 1277,
+      "num_angles_RMSZ": 1850,
+      "num_bonds_RMSZ": 1369,
+      "percent_ramachandran_outliers": 0.66,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-06-04T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-06-18T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-06-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9FL6",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9FL6"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1467,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 154,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 158,
+    "deposited_solvent_atom_count": 132,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9282,
+    "diffrn_radiation_wavelength_minimum": 0.9282,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 18.36,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.2,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 18.1,
+    "polymer_molecular_weight_minimum": 18.1,
+    "polymer_monomer_count_maximum": 158,
+    "polymer_monomer_count_minimum": 158,
+    "resolution_combined": [
+      1.3
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "MOSFLM",
+      "PHASER",
+      "REFMAC"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.3
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To be published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Salah, E.",
+      "Huber, K.V.M.",
+      "Elkins, J.M."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "NUDT1 with medetomidine"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 16.151,
+      "aniso_B_1_1": 0.413,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": -0.492,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 0.078,
+      "correlation_coeff_Fo_to_Fc": 0.973,
+      "correlation_coeff_Fo_to_Fc_free": 0.949,
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.2065,
+      "ls_R_factor_R_work": 0.1592,
+      "ls_R_factor_all": 0.161,
+      "ls_d_res_high": 1.3,
+      "ls_d_res_low": 45.205,
+      "ls_number_reflns_R_free": 1935,
+      "ls_number_reflns_R_work": 36025,
+      "ls_number_reflns_obs": 37960,
+      "ls_percent_reflns_R_free": 5.097,
+      "ls_percent_reflns_obs": 99.868,
+      "overall_SU_B": 1.947,
+      "overall_SU_ML": 0.036,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.053,
+      "pdbx_overall_ESU_R_Free": 0.055,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "solvent_model_details": "MASK BULK SOLVENT"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.3,
+      "d_res_low": 45.205,
+      "number_atoms_solvent": 132,
+      "number_atoms_total": 1397,
+      "pdbx_number_atoms_ligand": 19,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1246,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.006,
+      "dev_ideal_target": 0.013,
+      "number": 1381,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.015,
+      "number": 1272,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.428,
+      "dev_ideal_target": 1.645,
+      "number": 1885,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 1.311,
+      "dev_ideal_target": 1.597,
+      "number": 2938,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 7.315,
+      "dev_ideal_target": 5.0,
+      "number": 174,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 28.714,
+      "dev_ideal_target": 22.308,
+      "number": 78,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 10.718,
+      "dev_ideal_target": 15.0,
+      "number": 232,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 11.251,
+      "dev_ideal_target": 15.0,
+      "number": 9,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.077,
+      "dev_ideal_target": 0.2,
+      "number": 165,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "dev_ideal_target": 0.02,
+      "number": 1672,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 342,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 0.202,
+      "dev_ideal_target": 0.2,
+      "number": 161,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.172,
+      "dev_ideal_target": 0.2,
+      "number": 1047,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_other"
+    },
+    {
+      "dev_ideal": 0.163,
+      "dev_ideal_target": 0.2,
+      "number": 574,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "dev_ideal": 0.072,
+      "dev_ideal_target": 0.2,
+      "number": 554,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbtor_other"
+    },
+    {
+      "dev_ideal": 0.117,
+      "dev_ideal_target": 0.2,
+      "number": 64,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.286,
+      "dev_ideal_target": 0.2,
+      "number": 9,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.144,
+      "dev_ideal_target": 0.2,
+      "number": 27,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "dev_ideal": 0.116,
+      "dev_ideal_target": 0.2,
+      "number": 13,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 1.254,
+      "dev_ideal_target": 1.433,
+      "number": 653,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 1.241,
+      "dev_ideal_target": 1.432,
+      "number": 651,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 1.751,
+      "dev_ideal_target": 2.162,
+      "number": 824,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 1.755,
+      "dev_ideal_target": 2.162,
+      "number": 825,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 1.683,
+      "dev_ideal_target": 1.72,
+      "number": 727,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 1.682,
+      "dev_ideal_target": 1.72,
+      "number": 728,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 2.184,
+      "dev_ideal_target": 2.479,
+      "number": 1055,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 2.184,
+      "dev_ideal_target": 2.479,
+      "number": 1056,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 2.968,
+      "dev_ideal_target": 17.002,
+      "number": 1372,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_it"
+    },
+    {
+      "dev_ideal": 2.967,
+      "dev_ideal_target": 17.007,
+      "number": 1373,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_other"
+    },
+    {
+      "dev_ideal": 1.118,
+      "dev_ideal_target": 3.0,
+      "number": 2652,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.3,
+      "d_resolution_low": 67.53,
+      "number_obs": 38033,
+      "pdbx_Rmerge_I_obs": 0.061,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.5,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.693,
+      "d_res_high": 1.3,
+      "d_res_low": 1.32,
+      "number_unique_obs": 1936,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 5.4,
+      "percent_possible_all": 99.9
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0267"
+    },
+    {
+      "classification": "data reduction",
+      "name": "MOSFLM",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Human NUDT1 with medetomidine"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "Nudix hydrolase, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 18,
+    "space_group_name_H_M": "P 2 21 21"
+  },
+  "rcsb_id": "9FL6"
+}

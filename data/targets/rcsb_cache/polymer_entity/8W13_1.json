@@ -1,0 +1,5040 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "yes",
+    "pdbx_seq_one_letter_code": "GSTKVKYVDKIHIGNYEIDAWYFSPFPEDYGKQPKLWLCEYCLKYMKYEKSYRFHLGQCQWRQPPGKEIYRKSNISVHEVDGKDHKIYCQNLCLLAKLFLDH(ALY)TLYFDVEPFVFYILTEVDRQGAHIVGYFSKEKESPDGNNVSCIMILPPYQRRGYGRFLIAFSYELSKLESTVGSPEKPLSDLGKLSYRSYWSSVLLENLRDFRGTLSIKDLSQMTSITQNDIISTLQSLNMVKYWKGQHVICVTPKLVEEHLKSAQYKKPPITVDSVCLKWAPPK",
+    "pdbx_seq_one_letter_code_can": "GSTKVKYVDKIHIGNYEIDAWYFSPFPEDYGKQPKLWLCEYCLKYMKYEKSYRFHLGQCQWRQPPGKEIYRKSNISVHEVDGKDHKIYCQNLCLLAKLFLDHKTLYFDVEPFVFYILTEVDRQGAHIVGYFSKEKESPDGNNVSCIMILPPYQRRGYGRFLIAFSYELSKLESTVGSPEKPLSDLGKLSYRSYWSSVLLENLRDFRGTLSIKDLSQMTSITQNDIISTLQSLNMVKYWKGQHVICVTPKLVEEHLKSAQYKKPPITVDSVCLKWAPPK",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 7,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 1,
+    "rcsb_non_std_monomers": [
+      "ALY"
+    ],
+    "rcsb_sample_sequence_length": 278,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "human",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 278,
+      "pdbx_gene_src_gene": "KAT8, MOF, MYST1, PP7073",
+      "pdbx_gene_src_ncbi_taxonomy_id": "9606",
+      "pdbx_gene_src_scientific_name": "Homo sapiens",
+      "pdbx_host_org_ncbi_taxonomy_id": "469008",
+      "pdbx_host_org_scientific_name": "Escherichia coli BL21(DE3)",
+      "pdbx_host_org_variant": "codon plus RIPL",
+      "pdbx_host_org_vector_type": "plasmid",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1,
+      "plasmid_name": "pET21b"
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 1960,
+      "identity": 100
+    },
+    {
+      "cluster_id": 1955,
+      "identity": 95
+    },
+    {
+      "cluster_id": 2000,
+      "identity": 90
+    },
+    {
+      "cluster_id": 2733,
+      "identity": 70
+    },
+    {
+      "cluster_id": 3812,
+      "identity": 50
+    },
+    {
+      "cluster_id": 4880,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 278,
+      "ncbi_common_names": [
+        "Escherichia coli str. BL21(DE3)",
+        "Escherichia coli strain BL21(DE3)"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli BL21(DE3)",
+      "ncbi_taxonomy_id": 469008,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli BL21(DE3)",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli str. BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli strain BL21(DE3)"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "human",
+      "end_seq_num": 278,
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "KAT8"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "MOF"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "MYST1"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "PP7073"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 32.545,
+    "pdbx_description": "Histone acetyltransferase KAT8",
+    "pdbx_ec": "2.3.1.48",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "2",
+        "name": "Transferases"
+      },
+      {
+        "depth": 2,
+        "id": "2.3",
+        "name": "Acyltransferases"
+      },
+      {
+        "depth": 3,
+        "id": "2.3.1",
+        "name": "Transferring groups other than aminoacyl groups"
+      },
+      {
+        "depth": 4,
+        "id": "2.3.1.48",
+        "name": "histone acetyltransferase"
+      },
+      {
+        "depth": 1,
+        "id": "2",
+        "name": "Transferases"
+      },
+      {
+        "depth": 2,
+        "id": "2.3",
+        "name": "Acyltransferases"
+      },
+      {
+        "depth": 3,
+        "id": "2.3.1",
+        "name": "Transferring groups other than aminoacyl groups"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Histone acetyltransferase KAT8",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "Lysine acetyltransferase 8",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "YBF2/SAS3",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "SAS2 and TIP60 protein 1",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "MYST-1",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "hMOF",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "2.3.1.48",
+        "provenance_source": "PDB Primary Data"
+      },
+      {
+        "depth": 3,
+        "ec": "2.3.1",
+        "provenance_source": "UniProt"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Histone acetyltransferase KAT8"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "Q9H7Z6",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 276,
+          "ref_beg_seq_id": 174
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF17772",
+      "assignment_version": "34.0",
+      "name": "MYST family zinc finger domain (zf-MYST)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "PF01853",
+      "assignment_version": "34.0",
+      "name": "MOZ/SAS family (MOZ_SAS)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0005739",
+      "name": "mitochondrion",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005739",
+          "name": "mitochondrion"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0045892",
+      "name": "negative regulation of DNA-templated transcription",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:1902679",
+          "name": "negative regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0006351",
+          "name": "DNA-templated transcription"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0051252",
+          "name": "regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0045934",
+          "name": "negative regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:2001141",
+          "name": "regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0045892",
+          "name": "negative regulation of DNA-templated transcription"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0006355",
+          "name": "regulation of DNA-templated transcription"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        },
+        {
+          "id": "GO:0051253",
+          "name": "negative regulation of RNA metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000123",
+      "name": "histone acetyltransferase complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:1902494",
+          "name": "catalytic complex"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0000785",
+          "name": "chromatin"
+        },
+        {
+          "id": "GO:0005694",
+          "name": "chromosome"
+        },
+        {
+          "id": "GO:1990234",
+          "name": "transferase complex"
+        },
+        {
+          "id": "GO:0000123",
+          "name": "histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:1902493",
+          "name": "acetyltransferase complex"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0031248",
+          "name": "protein acetyltransferase complex"
+        },
+        {
+          "id": "GO:0140535",
+          "name": "intracellular protein-containing complex"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016363",
+      "name": "nuclear matrix",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        },
+        {
+          "id": "GO:0016363",
+          "name": "nuclear matrix"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032480",
+      "name": "negative regulation of type I interferon production",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0032480",
+          "name": "negative regulation of type I interferon production"
+        },
+        {
+          "id": "GO:0001816",
+          "name": "cytokine production"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0001817",
+          "name": "regulation of cytokine production"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0032606",
+          "name": "type I interferon production"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0001818",
+          "name": "negative regulation of cytokine production"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0010629",
+          "name": "negative regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0051241",
+          "name": "negative regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        },
+        {
+          "id": "GO:0032479",
+          "name": "regulation of type I interferon production"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0072487",
+      "name": "MSL complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:1902494",
+          "name": "catalytic complex"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0000785",
+          "name": "chromatin"
+        },
+        {
+          "id": "GO:0005694",
+          "name": "chromosome"
+        },
+        {
+          "id": "GO:1990234",
+          "name": "transferase complex"
+        },
+        {
+          "id": "GO:0000123",
+          "name": "histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:0072487",
+          "name": "MSL complex"
+        },
+        {
+          "id": "GO:1902493",
+          "name": "acetyltransferase complex"
+        },
+        {
+          "id": "GO:1902562",
+          "name": "H4 histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0031248",
+          "name": "protein acetyltransferase complex"
+        },
+        {
+          "id": "GO:0140535",
+          "name": "intracellular protein-containing complex"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0035267",
+      "name": "NuA4 histone acetyltransferase complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:1902494",
+          "name": "catalytic complex"
+        },
+        {
+          "id": "GO:0035267",
+          "name": "NuA4 histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0000785",
+          "name": "chromatin"
+        },
+        {
+          "id": "GO:0005694",
+          "name": "chromosome"
+        },
+        {
+          "id": "GO:1990234",
+          "name": "transferase complex"
+        },
+        {
+          "id": "GO:0043189",
+          "name": "H4/H2A histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:0000123",
+          "name": "histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:1902493",
+          "name": "acetyltransferase complex"
+        },
+        {
+          "id": "GO:1902562",
+          "name": "H4 histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0031248",
+          "name": "protein acetyltransferase complex"
+        },
+        {
+          "id": "GO:0140535",
+          "name": "intracellular protein-containing complex"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0045815",
+      "name": "transcription initiation-coupled chromatin remodeling",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0010557",
+          "name": "positive regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0141137",
+          "name": "positive regulation of gene expression, epigenetic"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0009893",
+          "name": "positive regulation of metabolic process"
+        },
+        {
+          "id": "GO:0006351",
+          "name": "DNA-templated transcription"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0006366",
+          "name": "transcription by RNA polymerase II"
+        },
+        {
+          "id": "GO:0009891",
+          "name": "positive regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0006325",
+          "name": "chromatin organization"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0006338",
+          "name": "chromatin remodeling"
+        },
+        {
+          "id": "GO:0010604",
+          "name": "positive regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0006367",
+          "name": "transcription initiation at RNA polymerase II promoter"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0040029",
+          "name": "epigenetic regulation of gene expression"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0006352",
+          "name": "DNA-templated transcription initiation"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0010628",
+          "name": "positive regulation of gene expression"
+        },
+        {
+          "id": "GO:0045815",
+          "name": "transcription initiation-coupled chromatin remodeling"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR002717",
+      "name": "Histone acetyltransferase domain, MYST-type",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR002717",
+          "name": "Histone acetyltransferase domain, MYST-type"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0022008",
+      "name": "neurogenesis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0007399",
+          "name": "nervous system development"
+        },
+        {
+          "id": "GO:0022008",
+          "name": "neurogenesis"
+        },
+        {
+          "id": "GO:0007275",
+          "name": "multicellular organism development"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0160108",
+          "name": "animal gross anatomical part developmental process"
+        },
+        {
+          "id": "GO:0048731",
+          "name": "system development"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0048477",
+      "name": "oogenesis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0019953",
+          "name": "sexual reproduction"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0022414",
+          "name": "reproductive process"
+        },
+        {
+          "id": "GO:0048477",
+          "name": "oogenesis"
+        },
+        {
+          "id": "GO:0048609",
+          "name": "multicellular organismal reproductive process"
+        },
+        {
+          "id": "GO:0048468",
+          "name": "cell development"
+        },
+        {
+          "id": "GO:0022412",
+          "name": "cellular process involved in reproduction in multicellular organism"
+        },
+        {
+          "id": "GO:0003006",
+          "name": "developmental process involved in reproduction"
+        },
+        {
+          "id": "GO:0007292",
+          "name": "female gamete generation"
+        },
+        {
+          "id": "GO:0007276",
+          "name": "gamete generation"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0007281",
+          "name": "germ cell development"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016197",
+      "name": "Chromo-like domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016197",
+          "name": "Chromo-like domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1902726",
+      "name": "positive regulation of skeletal muscle satellite cell differentiation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0035914",
+          "name": "skeletal muscle cell differentiation"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0050793",
+          "name": "regulation of developmental process"
+        },
+        {
+          "id": "GO:0007519",
+          "name": "skeletal muscle tissue development"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0045595",
+          "name": "regulation of cell differentiation"
+        },
+        {
+          "id": "GO:1902726",
+          "name": "positive regulation of skeletal muscle satellite cell differentiation"
+        },
+        {
+          "id": "GO:0014706",
+          "name": "striated muscle tissue development"
+        },
+        {
+          "id": "GO:0061061",
+          "name": "muscle structure development"
+        },
+        {
+          "id": "GO:0051094",
+          "name": "positive regulation of developmental process"
+        },
+        {
+          "id": "GO:0060538",
+          "name": "skeletal muscle organ development"
+        },
+        {
+          "id": "GO:2001014",
+          "name": "regulation of skeletal muscle cell differentiation"
+        },
+        {
+          "id": "GO:0045597",
+          "name": "positive regulation of cell differentiation"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:2001016",
+          "name": "positive regulation of skeletal muscle cell differentiation"
+        },
+        {
+          "id": "GO:0060537",
+          "name": "muscle tissue development"
+        },
+        {
+          "id": "GO:0007517",
+          "name": "muscle organ development"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0048513",
+          "name": "animal organ development"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0009888",
+          "name": "tissue development"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0160108",
+          "name": "animal gross anatomical part developmental process"
+        },
+        {
+          "id": "GO:0014816",
+          "name": "skeletal muscle satellite cell differentiation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0061629",
+      "name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008134",
+          "name": "transcription factor binding"
+        },
+        {
+          "id": "GO:0061629",
+          "name": "RNA polymerase II-specific DNA-binding transcription factor binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0140297",
+          "name": "DNA-binding transcription factor binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0043996",
+      "name": "histone H4K8 acetyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0061733",
+          "name": "protein-lysine-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0034212",
+          "name": "protein N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0008080",
+          "name": "N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0010485",
+          "name": "histone H4 acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0140186",
+          "name": "protein N-acyltransferase activity"
+        },
+        {
+          "id": "GO:0004402",
+          "name": "histone acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016407",
+          "name": "acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140993",
+          "name": "histone modifying activity"
+        },
+        {
+          "id": "GO:0043996",
+          "name": "histone H4K8 acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003713",
+      "name": "transcription coactivator activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003713",
+          "name": "transcription coactivator activity"
+        },
+        {
+          "id": "GO:0140110",
+          "name": "transcription regulator activity"
+        },
+        {
+          "id": "GO:0003712",
+          "name": "transcription coregulator activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005654",
+      "name": "nucleoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005654",
+          "name": "nucleoplasm"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR050603",
+      "name": "MYST family histone acetyltransferases",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR050603",
+          "name": "MYST family histone acetyltransferases"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0044545",
+      "name": "NSL complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044545",
+          "name": "NSL complex"
+        },
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:1902494",
+          "name": "catalytic complex"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0000785",
+          "name": "chromatin"
+        },
+        {
+          "id": "GO:0005694",
+          "name": "chromosome"
+        },
+        {
+          "id": "GO:1990234",
+          "name": "transferase complex"
+        },
+        {
+          "id": "GO:0000123",
+          "name": "histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:1902493",
+          "name": "acetyltransferase complex"
+        },
+        {
+          "id": "GO:1902562",
+          "name": "H4 histone acetyltransferase complex"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0031248",
+          "name": "protein acetyltransferase complex"
+        },
+        {
+          "id": "GO:0140535",
+          "name": "intracellular protein-containing complex"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1990841",
+      "name": "promoter-specific chromatin binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003682",
+          "name": "chromatin binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:1990841",
+          "name": "promoter-specific chromatin binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000953",
+      "name": "Chromo/chromo shadow domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR000953",
+          "name": "Chromo/chromo shadow domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0060261",
+      "name": "positive regulation of transcription initiation by RNA polymerase II",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0045893",
+          "name": "positive regulation of DNA-templated transcription"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0010557",
+          "name": "positive regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0006351",
+          "name": "DNA-templated transcription"
+        },
+        {
+          "id": "GO:0009893",
+          "name": "positive regulation of metabolic process"
+        },
+        {
+          "id": "GO:2000142",
+          "name": "regulation of DNA-templated transcription initiation"
+        },
+        {
+          "id": "GO:0051252",
+          "name": "regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0006366",
+          "name": "transcription by RNA polymerase II"
+        },
+        {
+          "id": "GO:0009891",
+          "name": "positive regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0010604",
+          "name": "positive regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0006367",
+          "name": "transcription initiation at RNA polymerase II promoter"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:2001141",
+          "name": "regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0006357",
+          "name": "regulation of transcription by RNA polymerase II"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0060261",
+          "name": "positive regulation of transcription initiation by RNA polymerase II"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0045944",
+          "name": "positive regulation of transcription by RNA polymerase II"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0006352",
+          "name": "DNA-templated transcription initiation"
+        },
+        {
+          "id": "GO:2000144",
+          "name": "positive regulation of DNA-templated transcription initiation"
+        },
+        {
+          "id": "GO:0051254",
+          "name": "positive regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:1902680",
+          "name": "positive regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0060260",
+          "name": "regulation of transcription initiation by RNA polymerase II"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0006355",
+          "name": "regulation of DNA-templated transcription"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1903108",
+      "name": "regulation of mitochondrial transcription",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:1903108",
+          "name": "regulation of mitochondrial transcription"
+        },
+        {
+          "id": "GO:0062125",
+          "name": "regulation of mitochondrial gene expression"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0140053",
+          "name": "mitochondrial gene expression"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0006351",
+          "name": "DNA-templated transcription"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0051252",
+          "name": "regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:2001141",
+          "name": "regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0006390",
+          "name": "mitochondrial transcription"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0000959",
+          "name": "mitochondrial RNA metabolic process"
+        },
+        {
+          "id": "GO:0006355",
+          "name": "regulation of DNA-templated transcription"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000776",
+      "name": "kinetochore",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0005694",
+          "name": "chromosome"
+        },
+        {
+          "id": "GO:0098687",
+          "name": "chromosomal region"
+        },
+        {
+          "id": "GO:0000776",
+          "name": "kinetochore"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0000775",
+          "name": "chromosome, centromeric region"
+        },
+        {
+          "id": "GO:0000779",
+          "name": "condensed chromosome, centromeric region"
+        },
+        {
+          "id": "GO:0099080",
+          "name": "supramolecular complex"
+        },
+        {
+          "id": "GO:0000793",
+          "name": "condensed chromosome"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005694",
+      "name": "chromosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0005694",
+          "name": "chromosome"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009048",
+      "name": "dosage compensation by inactivation of X chromosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0044085",
+          "name": "cellular component biogenesis"
+        },
+        {
+          "id": "GO:0022607",
+          "name": "cellular component assembly"
+        },
+        {
+          "id": "GO:0006325",
+          "name": "chromatin organization"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0006338",
+          "name": "chromatin remodeling"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0031507",
+          "name": "heterochromatin formation"
+        },
+        {
+          "id": "GO:0007549",
+          "name": "sex-chromosome dosage compensation"
+        },
+        {
+          "id": "GO:0040029",
+          "name": "epigenetic regulation of gene expression"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0070828",
+          "name": "heterochromatin organization"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0010629",
+          "name": "negative regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0009048",
+          "name": "dosage compensation by inactivation of X chromosome"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0045814",
+          "name": "negative regulation of gene expression, epigenetic"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0035166",
+      "name": "post-embryonic hemopoiesis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0030097",
+          "name": "hemopoiesis"
+        },
+        {
+          "id": "GO:0048468",
+          "name": "cell development"
+        },
+        {
+          "id": "GO:0007275",
+          "name": "multicellular organism development"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0009791",
+          "name": "post-embryonic development"
+        },
+        {
+          "id": "GO:0035166",
+          "name": "post-embryonic hemopoiesis"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036388",
+      "name": "Winged helix-like DNA-binding domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036388",
+          "name": "Winged helix-like DNA-binding domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR025995",
+      "name": "RNA binding activity-knot of a chromodomain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR025995",
+          "name": "RNA binding activity-knot of a chromodomain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0010719",
+      "name": "negative regulation of epithelial to mesenchymal transition",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0010717",
+          "name": "regulation of epithelial to mesenchymal transition"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050793",
+          "name": "regulation of developmental process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0045595",
+          "name": "regulation of cell differentiation"
+        },
+        {
+          "id": "GO:0060485",
+          "name": "mesenchyme development"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0045596",
+          "name": "negative regulation of cell differentiation"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0051093",
+          "name": "negative regulation of developmental process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0048513",
+          "name": "animal organ development"
+        },
+        {
+          "id": "GO:0009888",
+          "name": "tissue development"
+        },
+        {
+          "id": "GO:0010719",
+          "name": "negative regulation of epithelial to mesenchymal transition"
+        },
+        {
+          "id": "GO:0001837",
+          "name": "epithelial to mesenchymal transition"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0048762",
+          "name": "mesenchymal cell differentiation"
+        },
+        {
+          "id": "GO:0051241",
+          "name": "negative regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0160108",
+          "name": "animal gross anatomical part developmental process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0045893",
+      "name": "positive regulation of DNA-templated transcription",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0045893",
+          "name": "positive regulation of DNA-templated transcription"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0010557",
+          "name": "positive regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0009893",
+          "name": "positive regulation of metabolic process"
+        },
+        {
+          "id": "GO:0006351",
+          "name": "DNA-templated transcription"
+        },
+        {
+          "id": "GO:0051252",
+          "name": "regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0009891",
+          "name": "positive regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0010604",
+          "name": "positive regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:2001141",
+          "name": "regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0051254",
+          "name": "positive regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:1902680",
+          "name": "positive regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0006355",
+          "name": "regulation of DNA-templated transcription"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0043995",
+      "name": "histone H4K5 acetyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0061733",
+          "name": "protein-lysine-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0034212",
+          "name": "protein N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0008080",
+          "name": "N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0010485",
+          "name": "histone H4 acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0140186",
+          "name": "protein N-acyltransferase activity"
+        },
+        {
+          "id": "GO:0004402",
+          "name": "histone acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016407",
+          "name": "acetyltransferase activity"
+        },
+        {
+          "id": "GO:0043995",
+          "name": "histone H4K5 acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140993",
+          "name": "histone modifying activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0050684",
+      "name": "regulation of mRNA processing",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0006397",
+          "name": "mRNA processing"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0051252",
+          "name": "regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0006396",
+          "name": "RNA processing"
+        },
+        {
+          "id": "GO:0050684",
+          "name": "regulation of mRNA processing"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0016071",
+          "name": "mRNA metabolic process"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:1903311",
+          "name": "regulation of mRNA metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0010506",
+      "name": "regulation of autophagy",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0006914",
+          "name": "autophagy"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0009894",
+          "name": "regulation of catabolic process"
+        },
+        {
+          "id": "GO:0010506",
+          "name": "regulation of autophagy"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0061919",
+          "name": "process utilizing autophagic mechanism"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016181",
+      "name": "Acyl-CoA N-acyltransferase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016181",
+          "name": "Acyl-CoA N-acyltransferase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR040706",
+      "name": "MYST, zinc finger domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR040706",
+          "name": "MYST, zinc finger domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0061920",
+      "name": "protein propionyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0061920",
+          "name": "protein propionyltransferase activity"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0046972",
+      "name": "histone H4K16 acetyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0061733",
+          "name": "protein-lysine-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0034212",
+          "name": "protein N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0008080",
+          "name": "N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0010485",
+          "name": "histone H4 acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0140186",
+          "name": "protein N-acyltransferase activity"
+        },
+        {
+          "id": "GO:0004402",
+          "name": "histone acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016407",
+          "name": "acetyltransferase activity"
+        },
+        {
+          "id": "GO:0046972",
+          "name": "histone H4K16 acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140993",
+          "name": "histone modifying activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008270",
+      "name": "zinc ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0046914",
+          "name": "transition metal ion binding"
+        },
+        {
+          "id": "GO:0008270",
+          "name": "zinc ion binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0010485",
+      "name": "histone H4 acetyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0061733",
+          "name": "protein-lysine-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0034212",
+          "name": "protein N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0008080",
+          "name": "N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0010485",
+          "name": "histone H4 acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0140186",
+          "name": "protein N-acyltransferase activity"
+        },
+        {
+          "id": "GO:0004402",
+          "name": "histone acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016407",
+          "name": "acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140993",
+          "name": "histone modifying activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0061733",
+      "name": "protein-lysine-acetyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0140186",
+          "name": "protein N-acyltransferase activity"
+        },
+        {
+          "id": "GO:0061733",
+          "name": "protein-lysine-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016407",
+          "name": "acetyltransferase activity"
+        },
+        {
+          "id": "GO:0034212",
+          "name": "protein N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0008080",
+          "name": "N-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0071339",
+      "name": "MLL1 complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0035097",
+          "name": "histone methyltransferase complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:1902494",
+          "name": "catalytic complex"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0140513",
+          "name": "nuclear protein-containing complex"
+        },
+        {
+          "id": "GO:0044665",
+          "name": "MLL1/2 complex"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:1990234",
+          "name": "transferase complex"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0071339",
+          "name": "MLL1 complex"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005654",
+          "name": "nucleoplasm"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0034708",
+          "name": "methyltransferase complex"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0019899",
+      "name": "enzyme binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0019899",
+          "name": "enzyme binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005634",
+      "name": "nucleus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030099",
+      "name": "myeloid cell differentiation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0030099",
+          "name": "myeloid cell differentiation"
+        },
+        {
+          "id": "GO:0030097",
+          "name": "hemopoiesis"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0048468",
+          "name": "cell development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ALY",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "chem_comp_nstd_monomers": [
+      "ALY"
+    ],
+    "entity_id": "1",
+    "entry_id": "8W13",
+    "rcsb_id": "8W13_1",
+    "uniprot_ids": [
+      "Q9H7Z6"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "Q9H7Z6",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.9928057553956835,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.6026200873362445
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF01853",
+      "name": "MOZ/SAS family (MOZ_SAS)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 64,
+          "end_seq_id": 241
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF17772",
+      "name": "MYST family zinc finger domain (zf-MYST)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "end_seq_id": 59
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "monomer_feature_1",
+      "name": "Parent monomer LYS",
+      "provenance_source": "PDB",
+      "type": "modified_monomer",
+      "feature_positions": [
+        {
+          "beg_seq_id": 103
+        }
+      ],
+      "additional_properties": [
+        {
+          "name": "PARENT_COMP_ID",
+          "values": [
+            "LYS"
+          ]
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "expression tag",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 2
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.68,
+            -1.07,
+            -0.48,
+            -0.76,
+            0.18,
+            -0.33,
+            -0.29,
+            -0.29,
+            -1.14,
+            -0.26,
+            -0.21,
+            -0.51,
+            -0.26,
+            -0.9,
+            -0.54,
+            -0.24,
+            -0.28,
+            0.42,
+            -0.26,
+            -0.26,
+            -0.84,
+            -0.89,
+            -0.79,
+            -1.53,
+            -1.83,
+            -1.83,
+            -2.58,
+            -1.98,
+            -1.69,
+            -0.88,
+            -0.46,
+            -0.8,
+            -0.51,
+            0.16,
+            0.76,
+            0.76,
+            0.19,
+            0.5,
+            -0.36,
+            -0.78,
+            -0.78,
+            -1.07,
+            -1.43,
+            -2.0,
+            -2.07,
+            -1.61,
+            -2.18,
+            -1.32,
+            -1.22,
+            -1.22,
+            -0.51,
+            -0.81,
+            -0.77,
+            -0.77,
+            -1.47,
+            -1.29,
+            -1.89,
+            -1.89,
+            -1.93,
+            -2.6,
+            -1.71,
+            -1.76,
+            -1.76,
+            -1.8,
+            -1.71,
+            -1.92,
+            -1.38,
+            -1.03,
+            -0.18,
+            -1.03,
+            -1.28,
+            -0.31,
+            -0.27,
+            -0.22,
+            -0.27,
+            -1.16,
+            -1.42,
+            -2.32,
+            -1.47,
+            -1.22,
+            -1.41,
+            -1.41,
+            -1.76,
+            -0.9,
+            -0.23,
+            0.54,
+            1.4,
+            1.1,
+            0.81,
+            0.96,
+            1.66,
+            2.47,
+            1.66,
+            1.02,
+            0.17,
+            -0.33,
+            -0.11,
+            0.18,
+            0.07,
+            -0.63,
+            -0.59,
+            -0.59,
+            -0.41,
+            0.33,
+            0.88,
+            0.77,
+            0.77,
+            0.96,
+            1.77,
+            1.22,
+            1.22,
+            1.87,
+            1.17,
+            0.2,
+            -0.5,
+            -0.4,
+            -0.7,
+            -1.48,
+            -0.9,
+            -0.04,
+            -0.56,
+            -0.31,
+            0.5,
+            0.8,
+            0.41,
+            -0.18,
+            -0.26,
+            -1.14,
+            -1.7,
+            -1.83,
+            -2.08,
+            -2.43,
+            -2.73,
+            -2.69,
+            -1.83,
+            -1.49,
+            -0.82,
+            -0.23,
+            0.16,
+            1.04,
+            1.51,
+            1.72,
+            1.93,
+            1.32,
+            1.02,
+            0.24,
+            -0.76,
+            -1.01,
+            -1.66,
+            -2.12,
+            -2.44,
+            -1.96,
+            -1.39,
+            -0.5,
+            0.2,
+            1.01,
+            0.97,
+            0.97,
+            0.62,
+            1.54,
+            1.14,
+            0.29,
+            0.21,
+            -0.38,
+            -0.78,
+            -0.77,
+            -0.16,
+            0.19,
+            -0.32,
+            -0.41,
+            -0.37,
+            -1.22,
+            -1.01,
+            -0.5,
+            -0.51,
+            -1.37,
+            -0.9,
+            -0.86,
+            -1.11,
+            -0.3,
+            0.04,
+            0.08,
+            -0.84,
+            -0.84,
+            -0.6,
+            -1.12,
+            -1.17,
+            -0.82,
+            -0.78,
+            -0.27,
+            0.3,
+            0.41,
+            0.11,
+            0.68,
+            0.28,
+            -0.02,
+            0.38,
+            -0.59,
+            -1.06,
+            -1.56,
+            -0.74,
+            -0.44,
+            -0.37,
+            -0.3,
+            -0.3,
+            -0.19,
+            0.22,
+            -0.12,
+            0.17,
+            -0.33,
+            -0.33,
+            -0.33,
+            0.02,
+            0.02,
+            -0.79,
+            -1.09,
+            -0.2,
+            0.09,
+            0.08,
+            0.09,
+            0.01,
+            -0.3,
+            0.0,
+            0.81,
+            0.81,
+            0.52,
+            0.49,
+            0.14,
+            0.08,
+            -0.44,
+            -0.49,
+            -0.44,
+            -1.26,
+            -1.22,
+            -0.97,
+            -0.93,
+            -0.22,
+            0.39,
+            0.41,
+            0.67,
+            0.28,
+            1.09,
+            1.91,
+            1.06,
+            0.17,
+            -0.47,
+            -0.51,
+            -0.87,
+            -0.78,
+            -0.14,
+            -0.96,
+            -1.57,
+            -1.61,
+            -1.66,
+            -1.48,
+            -2.08,
+            -1.14,
+            -1.13,
+            -0.87,
+            -0.87,
+            -0.81,
+            0.09,
+            0.8,
+            1.4,
+            1.14,
+            0.54,
+            0.82,
+            0.18,
+            0.39,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.77,
+            0.72,
+            0.61,
+            0.57,
+            0.53,
+            0.39,
+            0.36,
+            0.23,
+            0.2,
+            0.13,
+            0.06,
+            0.04,
+            0.02,
+            0.02,
+            0.03,
+            0.02,
+            0.03,
+            0.05,
+            0.07,
+            0.03,
+            0.03,
+            0.05,
+            0.06,
+            0.11,
+            0.1,
+            0.06,
+            0.05,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.02,
+            0.02,
+            0.03,
+            0.02,
+            0.01,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.03,
+            0.01,
+            0.02,
+            0.05,
+            0.09,
+            0.11,
+            0.16,
+            0.21,
+            0.21,
+            0.23,
+            0.16,
+            0.16,
+            0.16,
+            0.24,
+            0.24,
+            0.24,
+            0.26,
+            0.26,
+            0.26,
+            0.25,
+            0.29,
+            0.28,
+            0.38,
+            0.38,
+            0.38,
+            0.35,
+            0.32,
+            0.25,
+            0.18,
+            0.11,
+            0.17,
+            0.23,
+            0.14,
+            0.08,
+            0.04,
+            0.02,
+            0.03,
+            0.03,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.03,
+            0.01,
+            0.01,
+            0.02,
+            0.04,
+            0.08,
+            0.13,
+            0.2,
+            0.31,
+            0.33,
+            0.31,
+            0.38,
+            0.37,
+            0.31,
+            0.31,
+            0.24,
+            0.2,
+            0.18,
+            0.18,
+            0.18,
+            0.2,
+            0.31,
+            0.31,
+            0.33,
+            0.33,
+            0.31,
+            0.32,
+            0.24,
+            0.24,
+            0.22,
+            0.14,
+            0.1,
+            0.07,
+            0.06,
+            0.05,
+            0.05,
+            0.05,
+            0.08,
+            0.06,
+            0.09,
+            0.14,
+            0.07,
+            0.06,
+            0.1,
+            0.09,
+            0.06,
+            0.06,
+            0.06,
+            0.11,
+            0.11,
+            0.11,
+            0.19,
+            0.17,
+            0.22,
+            0.25,
+            0.25,
+            0.25,
+            0.33,
+            0.24,
+            0.32,
+            0.26,
+            0.25,
+            0.33,
+            0.26,
+            0.17,
+            0.17,
+            0.23,
+            0.18,
+            0.13,
+            0.08,
+            0.08,
+            0.08,
+            0.04,
+            0.07,
+            0.08,
+            0.04,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.07,
+            0.06,
+            0.1,
+            0.11,
+            0.09,
+            0.12,
+            0.16,
+            0.15,
+            0.13,
+            0.13,
+            0.19,
+            0.19,
+            0.13,
+            0.13,
+            0.13,
+            0.13,
+            0.08,
+            0.13,
+            0.13,
+            0.14,
+            0.15,
+            0.12,
+            0.14,
+            0.15,
+            0.1,
+            0.07,
+            0.07,
+            0.07,
+            0.13,
+            0.13,
+            0.1,
+            0.06,
+            0.04,
+            0.05,
+            0.07,
+            0.09,
+            0.09,
+            0.09,
+            0.06,
+            0.06,
+            0.1,
+            0.1,
+            0.07,
+            0.11,
+            0.11,
+            0.13,
+            0.2,
+            0.13,
+            0.13,
+            0.13,
+            0.14,
+            0.21,
+            0.22,
+            0.27,
+            0.27,
+            0.29,
+            0.26,
+            0.21,
+            0.24,
+            0.25,
+            0.25,
+            0.18,
+            0.16,
+            0.24,
+            0.26,
+            0.26,
+            0.33,
+            0.37,
+            0.5,
+            0.53,
+            0.58,
+            0.6,
+            0.63,
+            0.72,
+            0.76,
+            0.86
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.06,
+            0.06,
+            0.06,
+            0.07,
+            0.07,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.07,
+            0.08,
+            0.09,
+            0.09,
+            0.09,
+            0.09,
+            0.1,
+            0.1,
+            0.11,
+            0.12,
+            0.13,
+            0.13,
+            0.13,
+            0.13,
+            0.11,
+            0.11,
+            0.1,
+            0.1,
+            0.09,
+            0.08,
+            0.07,
+            0.06,
+            0.05,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.05,
+            0.05,
+            0.05,
+            0.06,
+            0.07,
+            0.07,
+            0.08,
+            0.07,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.07,
+            0.08,
+            0.09,
+            0.11,
+            0.13,
+            0.15,
+            0.18,
+            0.21,
+            0.23,
+            0.23,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.23,
+            0.22,
+            0.2,
+            0.2,
+            0.19,
+            0.2,
+            0.2,
+            0.2,
+            0.19,
+            0.18,
+            0.16,
+            0.14,
+            0.13,
+            0.11,
+            0.1,
+            0.09,
+            0.07,
+            0.06,
+            0.06,
+            0.05,
+            0.05,
+            0.05,
+            0.06,
+            0.06,
+            0.07,
+            0.07,
+            0.08,
+            0.09,
+            0.11,
+            0.12,
+            0.13,
+            0.14,
+            0.16,
+            0.17,
+            0.18,
+            0.2,
+            0.21,
+            0.23,
+            0.25,
+            0.26,
+            0.27,
+            0.28,
+            0.29,
+            0.29,
+            0.3,
+            0.32,
+            0.32,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.34,
+            0.33,
+            0.3,
+            0.28,
+            0.26,
+            0.25,
+            0.23,
+            0.22,
+            0.21,
+            0.21,
+            0.2,
+            0.2,
+            0.19,
+            0.19,
+            0.19,
+            0.2,
+            0.2,
+            0.2,
+            0.21,
+            0.22,
+            0.22,
+            0.23,
+            0.23,
+            0.24,
+            0.25,
+            0.26,
+            0.26,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.26,
+            0.26,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.24,
+            0.24,
+            0.23,
+            0.23,
+            0.23,
+            0.22,
+            0.22,
+            0.21,
+            0.2,
+            0.2,
+            0.19,
+            0.19,
+            0.17,
+            0.17,
+            0.16,
+            0.15,
+            0.15,
+            0.14,
+            0.15,
+            0.15,
+            0.16,
+            0.17,
+            0.18,
+            0.2,
+            0.22,
+            0.24,
+            0.26,
+            0.29,
+            0.31,
+            0.33,
+            0.35,
+            0.36,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.35,
+            0.34,
+            0.33,
+            0.32,
+            0.31,
+            0.3,
+            0.3,
+            0.29,
+            0.3,
+            0.3,
+            0.29,
+            0.28,
+            0.27,
+            0.26,
+            0.24,
+            0.23,
+            0.22,
+            0.21,
+            0.2,
+            0.19,
+            0.19,
+            0.19,
+            0.2,
+            0.21,
+            0.22,
+            0.24,
+            0.25,
+            0.27,
+            0.28,
+            0.29,
+            0.31,
+            0.32,
+            0.33,
+            0.33,
+            0.32,
+            0.32,
+            0.32
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.0036,
+      "type": "modified_monomer"
+    },
+    {
+      "count": 1,
+      "coverage": 0.00719,
+      "maximum_length": 2,
+      "minimum_length": 2,
+      "type": "artifact"
+    },
+    {
+      "count": 2,
+      "coverage": 0.83813,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1960_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 278,
+          "ref_beg_seq_id": 18
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "Q9H7Z6",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 276,
+          "ref_beg_seq_id": 174
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2733_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 278,
+          "ref_beg_seq_id": 208
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2000_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 278,
+          "ref_beg_seq_id": 208
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "4880_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 278,
+          "ref_beg_seq_id": 378
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "3812_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 205,
+          "ref_beg_seq_id": 543
+        },
+        {
+          "entity_beg_seq_id": 206,
+          "length": 73,
+          "ref_beg_seq_id": 750
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1955_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 278,
+          "ref_beg_seq_id": 201
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "Lysine acetyltransferase 8,MOZ,YBF2/SAS3,SAS2 and TIP60 protein 1,MYST-1,hMOF"
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL1932912",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 275,
+          "target_beg_seq_id": 174
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "19193",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 275,
+          "target_beg_seq_id": 174
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "RJKGJBPXVHTNJL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "O=[N+]([O-])c1cccc2ccccc12",
+      "cofactor_resource_id": "CHEMBL165373",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1932912"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "QSNSCYSYFYORTR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Nc1ccc(Cl)cc1",
+      "cofactor_name": "4-CHLOROANILINE",
+      "cofactor_resource_id": "CHEMBL15888",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1932912"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "IIFVWLUQBAIPMJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCc1ccc(F)cc1",
+      "cofactor_resource_id": "CHEMBL12392",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1932912"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "KRZCOLNOCZKSDF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Nc1ccc(F)cc1",
+      "cofactor_resource_id": "CHEMBL32014",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1932912"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "DDWYGJVFURAIJZ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cl.NNc1ccc(Cl)cc1Cl",
+      "cofactor_resource_id": "CHEMBL4165575",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1932912"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "JOVOSQBPPZZESK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cl.NNc1ccccc1",
+      "cofactor_resource_id": "CHEMBL3182475",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1932912"
+    },
+    {
+      "binding_assay_value": 2.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "HKOOXMFOFWEVGF-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NNc1ccccc1",
+      "cofactor_chem_comp_id": "PHZ",
+      "cofactor_name": "PHENYLHYDRAZINE",
+      "cofactor_resource_id": "CHEMBL456807",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL1932912"
+    },
+    {
+      "binding_assay_value": 7.77,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Nc1ccc(O)c2ccccc12",
+      "cofactor_resource_id": "CHEMBL576321",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        28527406
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "19193"
+    }
+  ],
+  "rcsb_id": "8W13_1"
+}

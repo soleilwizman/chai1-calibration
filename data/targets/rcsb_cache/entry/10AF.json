@@ -1,0 +1,501 @@
+{
+  "audit_author": [
+    {
+      "name": "Seattle Structural Genomics Center for Infectious Disease (SSGCID)",
+      "pdbx_ordinal": 1
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 57.614,
+    "length_b": 57.614,
+    "length_c": 97.26
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To be published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Dunham, J.",
+        "Lyons, R.",
+        "Xidas, P.",
+        "Meagher, L.",
+        "Meagher, A.",
+        "Seibold, S.",
+        "Lovell, S.",
+        "Battaile, K.P.",
+        "Bolen, R.",
+        "Mackey, K.",
+        "Stojanoff, V.",
+        "Pepenella, S.",
+        "Pinto, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal Structure of cyclophilin B, from Brugia malayi (K5H/S166A mutant)"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "10AF",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb10af/pdb",
+      "pdbx_database_accession": "pdb_000010af"
+    },
+    {
+      "database_code": "D_1000304103",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-12-14T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "Double Crystal Si 111",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "19-ID",
+      "pdbx_synchrotron_site": "NSLS-II",
+      "pdbx_wavelength_list": "0.9786",
+      "source": "SYNCHROTRON",
+      "type": "NSLS-II BEAMLINE 19-ID"
+    }
+  ],
+  "entry": {
+    "id": "10AF"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.39,
+      "density_percent_sol": 48.44,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 8.5,
+      "pdbx_details": "Index A5: 2.0 M Ammonium sulfate, 0.1 M HEPES pH 7.5. BrmaA.01375.b.B1.PS01744 at 31 mg/mL. plate 14177 A4 drop 2, Puck: BNL-OEP 001-008, Cryo: 80% crystallant + 20% PEG 200",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_SG_project": [
+    {
+      "full_name_of_center": "Seattle Structural Genomics Center for Infectious Disease",
+      "id": 1,
+      "initial_of_center": "SSGCID",
+      "project_name": "NIAID, National Institute of Allergy and Infectious Diseases"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-01-21T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute Of Allergy and Infectious Diseases (NIH/NIAID)",
+      "grant_number": "75N93022C00036",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/Office of the Director",
+      "grant_number": "S10OD030394",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "Y",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2026-01-08T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "4JCP",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-06T18:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1296,
+      "DCC_Rfree": 0.1499,
+      "EDS_R": 0.1364,
+      "EDS_res_high": 1.25,
+      "EDS_res_low": 44.39,
+      "Fo_Fc_correlation": 0.977,
+      "I_over_sigma": "3.79(1.25A)",
+      "Padilla_Yeates_L2_mean": 0.331,
+      "Padilla_Yeates_L_mean": 0.499,
+      "Wilson_B_aniso": "[12.536,12.536,10.229,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 11.684,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 48.465,
+      "bulk_solvent_k": 0.363,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.196,
+      "data_completeness": 97.04,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 50837,
+      "number_reflns_R_free": 2610,
+      "percent_RSRZ_outliers": 1.18,
+      "percent_free_reflections": 4.98,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 8.09% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.023"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.58,
+      "bonds_RMSZ": 0.32,
+      "clashscore": 0.75,
+      "num_H_reduce": 1313,
+      "num_angles_RMSZ": 1855,
+      "num_bonds_RMSZ": 1384,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2026-01-08T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-01-21T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-01-21T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "10AF",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "10AF"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1606,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 170,
+    "deposited_nonpolymer_entity_instance_count": 6,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 179,
+    "deposited_solvent_atom_count": 245,
+    "deposited_unmodeled_polymer_monomer_count": 9,
+    "diffrn_radiation_wavelength_maximum": 0.9786,
+    "diffrn_radiation_wavelength_minimum": 0.9786,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 19.93,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.1,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 19.54,
+    "polymer_molecular_weight_minimum": 19.54,
+    "polymer_monomer_count_maximum": 179,
+    "polymer_monomer_count_minimum": 179,
+    "resolution_combined": [
+      1.25
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.25
+    }
+  },
+  "rcsb_external_references": [
+    {
+      "id": "10.18430/M310AF",
+      "link": "https://dx.doi.org/10.18430/M310AF",
+      "type": "PROTEIN DIFFRACTION"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To be published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0009-0009-7736-9109",
+      "0009-0005-4949-3496",
+      "0009-0003-1632-9054",
+      "0009-0006-3735-3864",
+      "0009-0004-7800-0518",
+      "0000-0001-8297-229X",
+      "0000-0002-3215-4472",
+      "0000-0003-0833-3259",
+      "0000-0002-6740-3264",
+      "0000-0003-4129-5514",
+      "0000-0002-6650-512X",
+      "0009-0000-9225-9201",
+      "0000-0002-8861-6568"
+    ],
+    "rcsb_authors": [
+      "Dunham, J.",
+      "Lyons, R.",
+      "Xidas, P.",
+      "Meagher, L.",
+      "Meagher, A.",
+      "Seibold, S.",
+      "Lovell, S.",
+      "Battaile, K.P.",
+      "Bolen, R.",
+      "Mackey, K.",
+      "Stojanoff, V.",
+      "Pepenella, S.",
+      "Pinto, M."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal Structure of cyclophilin B, from Brugia malayi (K5H/S166A mutant)"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1348,
+      "ls_R_factor_R_work": 0.1148,
+      "ls_R_factor_obs": 0.1158,
+      "ls_d_res_high": 1.25,
+      "ls_d_res_low": 44.39,
+      "ls_number_reflns_R_free": 2610,
+      "ls_number_reflns_obs": 50833,
+      "ls_percent_reflns_R_free": 5.13,
+      "ls_percent_reflns_obs": 97.04,
+      "overall_SU_ML": 0.1,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 10.79,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.25,
+      "d_res_low": 44.39,
+      "number_atoms_solvent": 245,
+      "number_atoms_total": 1551,
+      "pdbx_number_atoms_ligand": 18,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1288,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "number": 1390,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.0,
+      "number": 1882,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 15.133,
+      "number": 518,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.087,
+      "number": 193,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.01,
+      "number": 254,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.25,
+      "d_resolution_low": 48.63,
+      "number_obs": 50888,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.054,
+      "pdbx_Rpim_I_all": 0.013,
+      "pdbx_Rrim_I_all": 0.056,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 28.0,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 17.1,
+      "percent_possible_obs": 97.1
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.456,
+      "d_res_high": 1.25,
+      "d_res_low": 1.27,
+      "number_unique_obs": 1939,
+      "pdbx_CC_half": 0.914,
+      "pdbx_Rpim_I_all": 0.172,
+      "pdbx_Rrim_I_all": 0.49,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.6,
+      "percent_possible_all": 76.4
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(2.0_5896: ???)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of cyclophilin B, from Brugia malayi (K5H/S166A mutant)"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "SSGCID, STRUCTURAL GENOMICS, SEATTLE STRUCTURAL GENOMICS CENTER FOR INFECTIOUS DISEASE, cyclophilin B, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 152,
+    "space_group_name_H_M": "P 31 2 1"
+  },
+  "rcsb_id": "10AF"
+}

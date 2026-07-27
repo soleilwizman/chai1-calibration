@@ -1,0 +1,710 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-0091-8842",
+      "name": "Menetrey, J.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-0843-145X",
+      "name": "Jackson, C.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0003-4520-5694",
+      "name": "Dacks, J.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0003-0066-6542",
+      "name": "Elias, M.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0002-5840-7060",
+      "name": "Vargova, R.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 59.12,
+    "length_b": 59.12,
+    "length_c": 119.73
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Microbiol",
+      "journal_id_ISSN": "2058-5276",
+      "journal_volume": "10",
+      "page_first": "495",
+      "page_last": "508",
+      "pdbx_database_id_DOI": "10.1038/s41564-024-01904-6",
+      "pdbx_database_id_PubMed": 39849086,
+      "rcsb_authors": [
+        "Vargova, R.",
+        "Chevreau, R.",
+        "Alves, M.",
+        "Courbin, C.",
+        "Terry, K.",
+        "Legrand, P.",
+        "Elias, M.",
+        "Menetrey, J.",
+        "Dacks, J.B.",
+        "Jackson, C.L."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Microbiol",
+      "title": "The Asgard archaeal origins of Arf family GTPases involved in eukaryotic organelle dynamics.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8OUK",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8ouk/pdb",
+      "pdbx_database_accession": "pdb_00008ouk"
+    },
+    {
+      "database_code": "D_1292128336",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2021-05-25T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 9M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "PROXIMA 2",
+      "pdbx_synchrotron_site": "SOLEIL",
+      "pdbx_wavelength_list": "0.979415",
+      "source": "SYNCHROTRON",
+      "type": "SOLEIL BEAMLINE PROXIMA 2"
+    }
+  ],
+  "entry": {
+    "id": "8OUK"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.59,
+      "density_percent_sol": 52.47,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 7.5,
+      "pdbx_details": "2.0 M Sodium formate and 0.1M HEPES pH 7.5",
+      "temp": 290.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-05-01T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2025-02-05T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2025-02-12T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.country",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_CSD",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_entry_details.has_protein_modification",
+      "ordinal": 9,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 10,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 11,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "France",
+      "funding_organization": "Agence Nationale de la Recherche (ANR)",
+      "grant_number": "ANR-20-CE13-0007-02",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-04-23T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "Phyre2",
+      "id": 1,
+      "source_name": "Other",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T06:32:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1888,
+      "DCC_Rfree": 0.1923,
+      "EDS_R": 0.189,
+      "EDS_res_high": 1.8,
+      "EDS_res_low": 18.72,
+      "Fo_Fc_correlation": 0.967,
+      "I_over_sigma": "6.93(1.79A)",
+      "Padilla_Yeates_L2_mean": 0.323,
+      "Padilla_Yeates_L_mean": 0.49,
+      "Wilson_B_aniso": "[44.370,44.370,18.186,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 30.652,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 39.842,
+      "bulk_solvent_k": 0.377,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.735,
+      "data_completeness": 99.79,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 20410,
+      "number_reflns_R_free": 1012,
+      "percent_RSRZ_outliers": 6.29,
+      "percent_free_reflections": 4.96,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.44% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.9,
+      "bonds_RMSZ": 0.67,
+      "clashscore": 0.36,
+      "num_H_reduce": 1377,
+      "num_angles_RMSZ": 1899,
+      "num_bonds_RMSZ": 1399,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 3.45
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-04-23T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-05-01T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2025-02-12T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8OUK",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39849086,
+    "rcsb_id": "8OUK"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1499,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 175,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 179,
+    "deposited_solvent_atom_count": 95,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9794,
+    "diffrn_radiation_wavelength_minimum": 0.9794,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 6,
+    "molecular_weight": 20.76,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "GTP",
+      "MG"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.52,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 20.21,
+    "polymer_molecular_weight_minimum": 20.21,
+    "polymer_monomer_count_maximum": 179,
+    "polymer_monomer_count_minimum": 179,
+    "resolution_combined": [
+      1.8
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "BUSTER",
+      "PHASER",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.8
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Microbiol",
+    "journal_id_ISSN": "2058-5276",
+    "journal_volume": "10",
+    "page_first": "495",
+    "page_last": "508",
+    "pdbx_database_id_DOI": "10.1038/s41564-024-01904-6",
+    "pdbx_database_id_PubMed": 39849086,
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-5840-7060",
+      "?",
+      "0000-0003-0109-4726",
+      "?",
+      "?",
+      "0000-0003-2431-2255",
+      "0000-0003-0066-6542",
+      "0000-0003-0091-8842",
+      "0000-0003-4520-5694",
+      "0000-0002-0843-145X"
+    ],
+    "rcsb_authors": [
+      "Vargova, R.",
+      "Chevreau, R.",
+      "Alves, M.",
+      "Courbin, C.",
+      "Terry, K.",
+      "Legrand, P.",
+      "Elias, M.",
+      "Menetrey, J.",
+      "Dacks, J.B.",
+      "Jackson, C.L."
+    ],
+    "rcsb_journal_abbrev": "Nat Microbiol",
+    "title": "The Asgard archaeal origins of Arf family GTPases involved in eukaryotic organelle dynamics.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 42.95,
+      "aniso_B_1_1": -7.5865,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": -7.5865,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 15.173,
+      "correlation_coeff_Fo_to_Fc": 0.934,
+      "correlation_coeff_Fo_to_Fc_free": 0.937,
+      "ls_R_factor_R_free": 0.215,
+      "ls_R_factor_R_work": 0.1923,
+      "ls_R_factor_obs": 0.1934,
+      "ls_d_res_high": 1.8,
+      "ls_d_res_low": 18.72,
+      "ls_number_reflns_R_free": 1010,
+      "ls_number_reflns_obs": 20387,
+      "ls_percent_reflns_R_free": 4.95,
+      "ls_percent_reflns_obs": 99.9,
+      "overall_SU_R_Cruickshank_DPI": 0.112,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 0.0,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_SU_R_Blow_DPI": 0.118,
+      "pdbx_overall_SU_R_free_Blow_DPI": 0.108,
+      "pdbx_overall_SU_R_free_Cruickshank_DPI": 0.105,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_analyze": [
+    {
+      "Luzzati_coordinate_error_obs": 0.23,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.8,
+      "d_res_low": 18.72,
+      "number_atoms_solvent": 97,
+      "number_atoms_total": 1507,
+      "pdbx_number_atoms_ligand": 33,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1377,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.008,
+      "number": 1440,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_bond_d",
+      "weight": 2.0
+    },
+    {
+      "dev_ideal": 0.9,
+      "number": 1962,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_angle_deg",
+      "weight": 2.0
+    },
+    {
+      "number": 499,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SINUSOIDAL",
+      "type": "t_dihedral_angle_d",
+      "weight": 2.0
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_incorr_chiral_ct"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_pseud_angle"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_trig_c_planes"
+    },
+    {
+      "number": 251,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_gen_planes",
+      "weight": 5.0
+    },
+    {
+      "number": 1440,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "HARMONIC",
+      "type": "t_it",
+      "weight": 10.0
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_nbd"
+    },
+    {
+      "dev_ideal": 3.62,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_omega_torsion"
+    },
+    {
+      "dev_ideal": 15.62,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_other_torsion"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_improper_torsion"
+    },
+    {
+      "number": 192,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_chiral_improper_torsion",
+      "weight": 5.0
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_sum_occupancies"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_utility_distance"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_utility_angle"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "t_utility_torsion"
+    },
+    {
+      "number": 1227,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_restraint_function": "SEMIHARMONIC",
+      "type": "t_ideal_dist_contact",
+      "weight": 4.0
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.8,
+      "d_resolution_low": 42.1,
+      "number_obs": 20387,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rrim_I_all": 0.044,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 39.8,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 20.0,
+      "percent_possible_obs": 99.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.8,
+      "d_res_low": 1.84,
+      "number_unique_obs": 1982,
+      "pdbx_CC_half": 0.981,
+      "pdbx_Rrim_I_all": 0.582,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "BUSTER",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Arf GTPase from the asgard Hodarchaea : HodArfR1 bound to GTP"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "SIGNALING PROTEIN",
+    "text": "Arf GTPases, Asgaard Archaea, SIGNALING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 96,
+    "space_group_name_H_M": "P 43 21 2"
+  },
+  "rcsb_id": "8OUK"
+}

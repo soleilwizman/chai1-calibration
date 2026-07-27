@@ -1,0 +1,447 @@
+{
+  "audit_author": [
+    {
+      "name": "Sun, L.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-1016-1874",
+      "name": "Zhang, Q.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0001-5173-5080",
+      "name": "Bartlam, M.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 49.529,
+    "length_b": 60.931,
+    "length_c": 121.386,
+    "volume": 366324.922
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Sun, L.",
+        "Zhang, Q.",
+        "Bartlam, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "isochorismate synthase MenF with product salicylic acid and pyruvate"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9VA5",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9va5/pdb",
+      "pdbx_database_accession": "pdb_00009va5"
+    },
+    {
+      "database_code": "D_1300060149",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-04-27T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL19U1",
+      "pdbx_synchrotron_site": "SSRF",
+      "pdbx_wavelength_list": "0.97015",
+      "source": "SYNCHROTRON",
+      "type": "SSRF BEAMLINE BL19U1"
+    }
+  ],
+  "entry": {
+    "id": "9VA5"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.41,
+      "density_percent_sol": 49.06,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 7.5,
+      "pdbx_details": "30%PEG-3000 , 0.1 M Tris pH7.5 , 0.2 M NaCl",
+      "temp": 289.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-06-10T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2025-06-02T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5JY4",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-06-01T15:07:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2069,
+      "DCC_Rfree": 0.2488,
+      "EDS_R": 0.222,
+      "EDS_res_high": 1.95,
+      "EDS_res_low": 30.47,
+      "Fo_Fc_correlation": 0.951,
+      "I_over_sigma": "2.04(1.95A)",
+      "Padilla_Yeates_L2_mean": 0.325,
+      "Padilla_Yeates_L_mean": 0.492,
+      "Wilson_B_aniso": "[31.140,42.502,27.835,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 32.784,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 40.81,
+      "bulk_solvent_k": 0.326,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.434,
+      "data_completeness": 91.9,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 25683,
+      "number_reflns_R_free": 2000,
+      "percent_RSRZ_outliers": 6.28,
+      "percent_free_reflections": 7.79,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.81% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.58,
+      "bonds_RMSZ": 0.36,
+      "clashscore": 6.91,
+      "num_H_reduce": 2674,
+      "num_angles_RMSZ": 3724,
+      "num_bonds_RMSZ": 2720,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.85
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-06-02T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-06-10T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-06-10T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9VA5",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9VA5"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 4,
+    "deposited_atom_count": 2930,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 366,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 366,
+    "deposited_solvent_atom_count": 247,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.9701,
+    "diffrn_radiation_wavelength_minimum": 0.9701,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 38.15,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.14,
+    "nonpolymer_molecular_weight_minimum": 0.09,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 37.93,
+    "polymer_molecular_weight_minimum": 37.93,
+    "polymer_monomer_count_maximum": 366,
+    "polymer_monomer_count_minimum": 366,
+    "resolution_combined": [
+      1.95
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-2000",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.95
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "0000-0002-1016-1874",
+      "0000-0001-5173-5080"
+    ],
+    "rcsb_authors": [
+      "Sun, L.",
+      "Zhang, Q.",
+      "Bartlam, M."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "isochorismate synthase MenF with product salicylic acid and pyruvate"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 42.51,
+      "ls_R_factor_R_free": 0.249,
+      "ls_R_factor_R_work": 0.2063,
+      "ls_R_factor_obs": 0.2096,
+      "ls_d_res_high": 1.95,
+      "ls_d_res_low": 30.47,
+      "ls_number_reflns_R_free": 1999,
+      "ls_number_reflns_R_work": 23666,
+      "ls_number_reflns_obs": 25665,
+      "ls_percent_reflns_R_free": 7.79,
+      "ls_percent_reflns_obs": 93.26,
+      "overall_SU_ML": 0.2494,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.39,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 26.9755,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.95,
+      "d_res_low": 30.47,
+      "number_atoms_solvent": 255,
+      "number_atoms_total": 2938,
+      "pdbx_number_atoms_ligand": 16,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2667,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0079,
+      "number": 2735,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.0365,
+      "number": 3743,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0573,
+      "number": 443,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0095,
+      "number": 500,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 17.0155,
+      "number": 979,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 33.8,
+      "d_resolution_high": 1.95,
+      "d_resolution_low": 30.47,
+      "number_obs": 25681,
+      "pdbx_Rpim_I_all": 0.021,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 12.7,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.0,
+      "percent_possible_obs": 93.2
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.95,
+      "d_res_low": 2.02,
+      "meanI_over_sigI_obs": 3.3,
+      "number_unique_obs": 2665,
+      "pdbx_Rpim_I_all": 0.107,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.19.2_4158"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "isochorismate synthase MenF with product salicylic acid and pyruvate"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "BIOSYNTHETIC PROTEIN",
+    "text": "Isochorismate synthase, MsMenF, Mycolicibacterium smegmatis, Crystal structure., BIOSYNTHETIC PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21",
+    "space_group_name_Hall": "P 2ac 2ab"
+  },
+  "rcsb_id": "9VA5"
+}

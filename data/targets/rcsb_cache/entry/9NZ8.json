@@ -1,0 +1,444 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-7942-3900",
+      "name": "Syed, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-5376-3728",
+      "name": "Arvai, A.S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0003-1659-2429",
+      "name": "Tainer, J.A.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 106.731,
+    "length_b": 106.731,
+    "length_c": 47.817
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Syed, A.",
+        "Arvai, A.S.",
+        "Tainer, J.A."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structure of human OGG1 in a DNA-free state"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9NZ8",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9nz8/pdb",
+      "pdbx_database_accession": "pdb_00009nz8"
+    },
+    {
+      "database_code": "D_1000292501",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-08-26T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL12-2",
+      "pdbx_synchrotron_site": "SSRL",
+      "pdbx_wavelength_list": "0.9795",
+      "source": "SYNCHROTRON",
+      "type": "SSRL BEAMLINE BL12-2"
+    }
+  ],
+  "entry": {
+    "id": "9NZ8"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.19,
+      "density_percent_sol": 43.85,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 5.0,
+      "pdbx_details": "100 mM sodium citrate, pH 5.0, 22% PEG6000, 5% ammonium sulfate (saturated)",
+      "temp": 288.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-04-15T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Cancer Institute (NIH/NCI)",
+      "grant_number": "P01 CA092584",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Cancer Institute (NIH/NCI)",
+      "grant_number": "R35 CA220430",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2025-03-31T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5AN4",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-04-15T01:11:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1702,
+      "DCC_Rfree": 0.1986,
+      "EDS_R": 0.1818,
+      "EDS_res_high": 1.85,
+      "EDS_res_low": 35.61,
+      "Fo_Fc_correlation": 0.968,
+      "I_over_sigma": "0.81(1.85A)",
+      "Padilla_Yeates_L2_mean": 0.338,
+      "Padilla_Yeates_L_mean": 0.504,
+      "Wilson_B_aniso": "[29.325,29.325,24.233,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 27.572,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 34.307,
+      "bulk_solvent_k": 0.348,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.184,
+      "data_completeness": 92.7,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 26802,
+      "number_reflns_R_free": 1352,
+      "percent_RSRZ_outliers": 0.63,
+      "percent_free_reflections": 5.04,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.37% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-h-k,-l:0.033"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.47,
+      "bonds_RMSZ": 0.27,
+      "clashscore": 2.49,
+      "num_H_reduce": 2346,
+      "num_angles_RMSZ": 3438,
+      "num_bonds_RMSZ": 2521,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 2.78
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-03-31T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-04-15T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-04-15T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "9NZ8",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9NZ8"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2752,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 315,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 319,
+    "deposited_solvent_atom_count": 280,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9795,
+    "diffrn_radiation_wavelength_minimum": 0.9795,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 36.28,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.1,
+    "nonpolymer_molecular_weight_minimum": 0.1,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 35.89,
+    "polymer_molecular_weight_minimum": 35.89,
+    "polymer_monomer_count_maximum": 319,
+    "polymer_monomer_count_minimum": 319,
+    "resolution_combined": [
+      1.85
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.85
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-7942-3900",
+      "0000-0002-5376-3728",
+      "0000-0003-1659-2429"
+    ],
+    "rcsb_authors": [
+      "Syed, A.",
+      "Arvai, A.S.",
+      "Tainer, J.A."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structure of human OGG1 in a DNA-free state"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1986,
+      "ls_R_factor_R_work": 0.1702,
+      "ls_R_factor_obs": 0.1717,
+      "ls_d_res_high": 1.85,
+      "ls_d_res_low": 35.61,
+      "ls_number_reflns_R_free": 1262,
+      "ls_number_reflns_obs": 24849,
+      "ls_percent_reflns_R_free": 5.08,
+      "ls_percent_reflns_obs": 92.68,
+      "overall_SU_ML": 0.22,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 0.03,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 24.95,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.85,
+      "d_res_low": 35.61,
+      "number_atoms_solvent": 280,
+      "number_atoms_total": 2752,
+      "pdbx_number_atoms_ligand": 20,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2452,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.006,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.798,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 14.23,
+      "number": 892,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.049,
+      "number": 372,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.009,
+      "number": 447,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.85,
+      "d_resolution_low": 35.61,
+      "number_obs": 26819,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.111,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 12.0,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 9.7,
+      "percent_possible_obs": 99.8
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.85,
+      "d_res_low": 1.89,
+      "number_unique_obs": 1644,
+      "pdbx_CC_half": 0.24,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 97.1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.20.1_4487: ???)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of human OGG1 in a DNA-free state"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE, LYASE/DNA",
+    "text": "DNA-glycosylase, AP-lyase, HYDROLASE, LYASE, LYASE-DNA complex"
+  },
+  "symmetry": {
+    "Int_Tables_number": 170,
+    "space_group_name_H_M": "P 65"
+  },
+  "rcsb_id": "9NZ8"
+}

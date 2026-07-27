@@ -1,0 +1,418 @@
+{
+  "audit_author": [
+    {
+      "name": "Ma, Z.F.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Shen, X.Y.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 12,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 72.389,
+    "length_b": 72.389,
+    "length_c": 186.176,
+    "volume": 844888.661
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Ma, Z.F.",
+        "Shen, X.Y."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Imine Reductase from Burholderia ubonensis in \ncomplex with NADH"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9J5Q",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9j5q/pdb",
+      "pdbx_database_accession": "pdb_00009j5q"
+    },
+    {
+      "database_code": "D_1300050376",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-10-14T00:00:00.000+00:00",
+      "type": "Bruker PHOTON III"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "0.979183",
+      "source": "LIQUID ANODE",
+      "type": "BRUKER METALJET"
+    }
+  ],
+  "entry": {
+    "id": "9J5Q"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.28,
+      "density_percent_sol": 45.99,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "PEG3350,Lithium sulphat,Bis-Tris",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-02-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2024-08-13T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-15T12:50:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2097,
+      "DCC_Rfree": 0.2456,
+      "EDS_R": 0.2107,
+      "EDS_res_high": 1.67,
+      "EDS_res_low": 52.0,
+      "Fo_Fc_correlation": 0.963,
+      "I_over_sigma": "1.62(1.67A)",
+      "Padilla_Yeates_L2_mean": 0.328,
+      "Padilla_Yeates_L_mean": 0.495,
+      "Wilson_B_aniso": "[30.034,30.034,19.043,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 25.537,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 46.05,
+      "bulk_solvent_k": 0.404,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.417,
+      "data_completeness": 99.81,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 34474,
+      "number_reflns_R_free": 1767,
+      "percent_RSRZ_outliers": 8.65,
+      "percent_free_reflections": 5.11,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.07% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.4,
+      "bonds_RMSZ": 0.25,
+      "clashscore": 3.68,
+      "num_H_reduce": 2160,
+      "num_angles_RMSZ": 2968,
+      "num_bonds_RMSZ": 2182,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-08-13T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-02-18T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-02-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "9J5Q",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9J5Q"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2381,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2161,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 289,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 293,
+    "deposited_solvent_atom_count": 188,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9792,
+    "diffrn_radiation_wavelength_minimum": 0.9792,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 31.66,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.74,
+    "nonpolymer_molecular_weight_minimum": 0.74,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 30.92,
+    "polymer_molecular_weight_minimum": 30.92,
+    "polymer_monomer_count_maximum": 293,
+    "polymer_monomer_count_minimum": 293,
+    "resolution_combined": [
+      1.67
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.67
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Ma, Z.F.",
+      "Shen, X.Y."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Imine Reductase from Burholderia ubonensis in \ncomplex with NADH"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 40.8,
+      "ls_R_factor_R_free": 0.2441,
+      "ls_R_factor_R_work": 0.207,
+      "ls_d_res_high": 1.67,
+      "ls_d_res_low": 52.0,
+      "ls_number_reflns_R_free": 1767,
+      "ls_number_reflns_obs": 34475,
+      "ls_percent_reflns_R_free": 5.12,
+      "ls_percent_reflns_obs": 99.9334,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.67,
+      "d_res_low": 52.0,
+      "number_atoms_solvent": 188,
+      "number_atoms_total": 2381,
+      "pdbx_number_atoms_ligand": 48,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2145,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.006,
+      "number": 2234,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.8311,
+      "number": 3048,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0436,
+      "number": 357,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0041,
+      "number": 387,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 19.9183,
+      "number": 782,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 25.53,
+      "d_resolution_high": 1.67,
+      "d_resolution_low": 62.69,
+      "number_obs": 34475,
+      "pdbx_CC_half": 0.999,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 14.3,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_obs": 99.81
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.274,
+      "d_res_high": 1.67,
+      "d_res_low": 1.76,
+      "number_unique_obs": 26279,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 3,
+      "version": "1.17.1_3660"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Imine Reductase from Burholderia ubonensis in complex with NADPH"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "Imine reductase, NADH-dependent, Oxidoreductase"
+  },
+  "symmetry": {
+    "Int_Tables_number": 179,
+    "space_group_name_H_M": "P 65 2 2",
+    "space_group_name_Hall": "P 65 2 (x,y,z+1/12)"
+  },
+  "rcsb_id": "9J5Q"
+}

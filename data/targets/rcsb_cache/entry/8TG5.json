@@ -1,0 +1,646 @@
+{
+  "audit_author": [
+    {
+      "name": "Jacewicz, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Dantuluri, S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Shuman, S.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 38.291,
+    "length_b": 45.344,
+    "length_c": 125.239,
+    "volume": 217448.356
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+      "journal_id_ASTM": "PNASA6",
+      "journal_id_CSD": "0040",
+      "journal_id_ISSN": "1091-6490",
+      "journal_volume": "120",
+      "page_first": "e2312999120",
+      "page_last": "e2312999120",
+      "pdbx_database_id_DOI": "10.1073/pnas.2312999120",
+      "pdbx_database_id_PubMed": 37883434,
+      "rcsb_authors": [
+        "Jacewicz, A.",
+        "Dantuluri, S.",
+        "Shuman, S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+      "title": "Structural basis for Tpt1-catalyzed 2'-PO 4 transfer from RNA and NADP(H) to NAD.",
+      "year": 2023
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8TG5",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8tg5/pdb",
+      "pdbx_database_accession": "pdb_00008tg5"
+    },
+    {
+      "database_code": "D_1000275896",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-02-07T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "24-ID-E",
+      "pdbx_synchrotron_site": "APS",
+      "pdbx_wavelength_list": "0.9792",
+      "source": "SYNCHROTRON",
+      "type": "APS BEAMLINE 24-ID-E"
+    }
+  ],
+  "entry": {
+    "id": "8TG5"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.61,
+      "density_percent_sol": 52.85,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "0.1 M Tris-Bicine (pH 8.3 or 8.5), 0.1 M amino acid additives mixture (0.02 M each of DL-glutamic acid monohydrate, DL-alanine, glycine, DL-lysine monohydrate and DL-serine), 16-29.6% ethylene glycol, and 8-14.8% PEG-8000.",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-06-05T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-06-19T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2024-06-26T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_abbrev",
+      "ordinal": 9,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_id_ISSN",
+      "ordinal": 10,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 11,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 12,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 13,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_DOI",
+      "ordinal": 14,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 15,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 16,
+      "revision_ordinal": 3
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+      "grant_number": "R35-GM126945",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Department of Energy (DOE, United States)",
+      "grant_number": "DE-AC02-06CH11357",
+      "ordinal": 2
+    },
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+      "grant_number": "P30-GM124165",
+      "ordinal": 3
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Department of Energy (DOE, United States)",
+      "grant_number": "DE-SC0012704",
+      "ordinal": 4
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Other government",
+      "grant_number": "HEI-S10OD021527",
+      "ordinal": 5
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "8TFI",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2023-07-12T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "8TFI",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T18:50:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1938,
+      "DCC_Rfree": 0.2423,
+      "EDS_R": 0.2122,
+      "EDS_res_high": 2.0,
+      "EDS_res_low": 42.64,
+      "Fo_Fc_correlation": 0.958,
+      "I_over_sigma": "2.18(2.00A)",
+      "Padilla_Yeates_L2_mean": 0.332,
+      "Padilla_Yeates_L_mean": 0.495,
+      "Wilson_B_aniso": "[40.601,53.916,26.587,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 37.472,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 41.295,
+      "bulk_solvent_k": 0.338,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.677,
+      "data_completeness": 99.93,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 15404,
+      "number_reflns_R_free": 766,
+      "percent_RSRZ_outliers": 2.82,
+      "percent_free_reflections": 4.74,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 8.07% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.49,
+      "bonds_RMSZ": 0.33,
+      "clashscore": 4.56,
+      "num_H_reduce": 1513,
+      "num_angles_RMSZ": 2036,
+      "num_bonds_RMSZ": 1517,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-07-12T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-06-05T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 2,
+    "revision_date": "2024-06-26T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8TG5",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 37883434,
+    "rcsb_id": "8TG5"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1615,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 177,
+    "deposited_nonpolymer_entity_instance_count": 6,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 177,
+    "deposited_solvent_atom_count": 62,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.9792,
+    "diffrn_radiation_wavelength_minimum": 0.9792,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 5,
+    "molecular_weight": 22.03,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "K"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 1.01,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 20.84,
+    "polymer_molecular_weight_minimum": 20.84,
+    "polymer_monomer_count_maximum": 177,
+    "polymer_monomer_count_minimum": 177,
+    "resolution_combined": [
+      2.0
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.0
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "Proc.Natl.Acad.Sci.USA",
+    "journal_id_ASTM": "PNASA6",
+    "journal_id_CSD": "0040",
+    "journal_id_ISSN": "1091-6490",
+    "journal_volume": "120",
+    "page_first": "e2312999120",
+    "page_last": "e2312999120",
+    "pdbx_database_id_DOI": "10.1073/pnas.2312999120",
+    "pdbx_database_id_PubMed": 37883434,
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-7827-6507",
+      "?",
+      "0000-0001-5034-6438"
+    ],
+    "rcsb_authors": [
+      "Jacewicz, A.",
+      "Dantuluri, S.",
+      "Shuman, S."
+    ],
+    "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+    "title": "Structural basis for Tpt1-catalyzed 2'-PO 4 transfer from RNA and NADP(H) to NAD.",
+    "year": 2023
+  },
+  "refine": [
+    {
+      "B_iso_mean": 47.84,
+      "ls_R_factor_R_free": 0.243,
+      "ls_R_factor_R_work": 0.1943,
+      "ls_R_factor_obs": 0.1968,
+      "ls_d_res_high": 2.0,
+      "ls_d_res_low": 42.64,
+      "ls_number_reflns_R_free": 766,
+      "ls_number_reflns_R_work": 14619,
+      "ls_number_reflns_obs": 15385,
+      "ls_percent_reflns_R_free": 4.98,
+      "ls_percent_reflns_obs": 99.83,
+      "overall_SU_ML": 0.2769,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 28.573,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.0,
+      "d_res_low": 42.64,
+      "number_atoms_solvent": 62,
+      "number_atoms_total": 1600,
+      "pdbx_number_atoms_ligand": 72,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1466,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0076,
+      "number": 1589,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.9307,
+      "number": 2155,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0597,
+      "number": 228,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0094,
+      "number": 264,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 12.3443,
+      "number": 214,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 37.94,
+      "d_resolution_high": 2.0,
+      "d_resolution_low": 45.34,
+      "number_obs": 15452,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.1,
+      "pdbx_Rpim_I_all": 0.032,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 11.0,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 1.013,
+      "d_res_high": 2.0,
+      "d_res_low": 2.05,
+      "meanI_over_sigI_obs": 2.1,
+      "number_unique_obs": 1137,
+      "pdbx_CC_half": 0.882,
+      "pdbx_Rpim_I_all": 0.314,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 11.3,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "tRNA 2'-phosphotransferase (Tpt1) from Pyrococcus horikoshii in complex with branched 2'-PO4 RNA"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "tRNA 2'-PHOSPHOTRANSFERASE, TPT1, tRNA SPLICING, branched RNA, 2'-PO4 RNA, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21",
+    "space_group_name_Hall": "P 2ac 2ab"
+  },
+  "rcsb_id": "8TG5"
+}

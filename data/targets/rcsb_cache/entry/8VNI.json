@@ -1,0 +1,763 @@
+{
+  "audit_author": [
+    {
+      "name": "Wang, Y.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Ralls, H.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Jordan, S.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 94.25,
+    "angle_gamma": 90.0,
+    "length_a": 41.188,
+    "length_b": 35.312,
+    "length_c": 72.31
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Wang, Y.",
+        "Ralls, H.",
+        "Jordan, S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal structures of mercaptosuccinate dioxygenase"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8VNI",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8vni/pdb",
+      "pdbx_database_accession": "pdb_00008vni"
+    },
+    {
+      "database_code": "D_1000280605",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-10-19T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 2M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "5.0.1",
+      "pdbx_synchrotron_site": "ALS",
+      "pdbx_wavelength_list": "0.97741",
+      "source": "SYNCHROTRON",
+      "type": "ALS BEAMLINE 5.0.1"
+    }
+  ],
+  "entry": {
+    "id": "8VNI"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.43,
+      "density_percent_sol": 49.49,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "0.1 M sodium acetate, pH 4.5, 0.2 M lithium sulfate, 30% w/v PEG8000",
+      "temp": 285.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-01-14T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United States",
+      "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+      "grant_number": "GM147510",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2024-01-13T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T05:41:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1588,
+      "DCC_Rfree": 0.18,
+      "EDS_R": 0.1625,
+      "EDS_res_high": 1.57,
+      "EDS_res_low": 41.07,
+      "Fo_Fc_correlation": 0.965,
+      "I_over_sigma": "1.25(1.57A)",
+      "Padilla_Yeates_L2_mean": 0.325,
+      "Padilla_Yeates_L_mean": 0.492,
+      "Wilson_B_aniso": "[11.094,11.919,12.761,0.000,-1.952,0.000]",
+      "Wilson_B_estimate": 11.818,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 48.655,
+      "bulk_solvent_k": 0.38,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.14,
+      "data_completeness": 95.58,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 29415,
+      "number_reflns_R_free": 2009,
+      "percent_RSRZ_outliers": 3.63,
+      "percent_free_reflections": 6.83,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 8.97% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.56,
+      "bonds_RMSZ": 0.3,
+      "clashscore": 3.17,
+      "num_H_reduce": 1566,
+      "num_angles_RMSZ": 2164,
+      "num_bonds_RMSZ": 1599,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.66
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-01-13T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-01-14T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-01-14T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "entry_id": "8VNI",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8VNI"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1842,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 193,
+    "deposited_nonpolymer_entity_instance_count": 8,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 196,
+    "deposited_solvent_atom_count": 256,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 0.9774,
+    "diffrn_radiation_wavelength_minimum": 0.9774,
+    "disulfide_bond_count": 0,
+    "entity_count": 7,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 6,
+    "molecular_weight": 22.17,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "FE2"
+    ],
+    "nonpolymer_entity_count": 5,
+    "nonpolymer_molecular_weight_maximum": 0.12,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 21.54,
+    "polymer_molecular_weight_minimum": 21.54,
+    "polymer_monomer_count_maximum": 196,
+    "polymer_monomer_count_minimum": 196,
+    "resolution_combined": [
+      1.57
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-2000",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.57
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Wang, Y.",
+      "Ralls, H.",
+      "Jordan, S."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal structures of mercaptosuccinate dioxygenase"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1796,
+      "ls_R_factor_R_work": 0.1586,
+      "ls_R_factor_obs": 0.1601,
+      "ls_d_res_high": 1.57,
+      "ls_d_res_low": 41.07,
+      "ls_number_reflns_R_free": 2009,
+      "ls_number_reflns_obs": 29413,
+      "ls_percent_reflns_R_free": 6.83,
+      "ls_percent_reflns_obs": 99.73,
+      "overall_SU_ML": 0.15,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "NONE",
+      "pdbx_ls_sigma_F": 1.36,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 16.93,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.57,
+      "d_res_low": 41.07,
+      "number_atoms_solvent": 256,
+      "number_atoms_total": 1788,
+      "pdbx_number_atoms_ligand": 38,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1494,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "number": 1614,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.981,
+      "number": 2194,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 7.8,
+      "number": 242,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.061,
+      "number": 236,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.012,
+      "number": 295,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.57,
+      "d_resolution_low": 50.0,
+      "number_obs": 29426,
+      "pdbx_CC_half": 0.99,
+      "pdbx_Rmerge_I_obs": 0.112,
+      "pdbx_Rpim_I_all": 0.047,
+      "pdbx_Rrim_I_all": 0.121,
+      "pdbx_chi_squared": 1.041,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 5.2,
+      "pdbx_number_measured_all": 187876,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.4,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.658,
+      "d_res_high": 1.57,
+      "d_res_low": 1.6,
+      "number_unique_obs": 1435,
+      "pdbx_CC_half": 0.683,
+      "pdbx_Rpim_I_all": 0.353,
+      "pdbx_Rrim_I_all": 0.752,
+      "pdbx_chi_squared": 0.497,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 4.4,
+      "percent_possible_all": 98.2
+    },
+    {
+      "Rmerge_I_obs": 0.631,
+      "d_res_high": 1.6,
+      "d_res_low": 1.63,
+      "number_unique_obs": 1437,
+      "pdbx_CC_half": 0.779,
+      "pdbx_Rpim_I_all": 0.299,
+      "pdbx_Rrim_I_all": 0.702,
+      "pdbx_chi_squared": 0.512,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 5.2,
+      "percent_possible_all": 99.5
+    },
+    {
+      "Rmerge_I_obs": 0.565,
+      "d_res_high": 1.63,
+      "d_res_low": 1.66,
+      "number_unique_obs": 1479,
+      "pdbx_CC_half": 0.836,
+      "pdbx_Rpim_I_all": 0.247,
+      "pdbx_Rrim_I_all": 0.618,
+      "pdbx_chi_squared": 0.536,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 3,
+      "pdbx_redundancy": 6.0,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.547,
+      "d_res_high": 1.66,
+      "d_res_low": 1.69,
+      "number_unique_obs": 1463,
+      "pdbx_CC_half": 0.865,
+      "pdbx_Rpim_I_all": 0.232,
+      "pdbx_Rrim_I_all": 0.596,
+      "pdbx_chi_squared": 0.596,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 4,
+      "pdbx_redundancy": 6.4,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.453,
+      "d_res_high": 1.69,
+      "d_res_low": 1.73,
+      "number_unique_obs": 1439,
+      "pdbx_CC_half": 0.886,
+      "pdbx_Rpim_I_all": 0.19,
+      "pdbx_Rrim_I_all": 0.492,
+      "pdbx_chi_squared": 0.63,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 5,
+      "pdbx_redundancy": 6.5,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.411,
+      "d_res_high": 1.73,
+      "d_res_low": 1.77,
+      "number_unique_obs": 1475,
+      "pdbx_CC_half": 0.92,
+      "pdbx_Rpim_I_all": 0.171,
+      "pdbx_Rrim_I_all": 0.446,
+      "pdbx_chi_squared": 0.665,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 6,
+      "pdbx_redundancy": 6.7,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.361,
+      "d_res_high": 1.77,
+      "d_res_low": 1.81,
+      "number_unique_obs": 1459,
+      "pdbx_CC_half": 0.932,
+      "pdbx_Rpim_I_all": 0.15,
+      "pdbx_Rrim_I_all": 0.392,
+      "pdbx_chi_squared": 0.772,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 7,
+      "pdbx_redundancy": 6.7,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.315,
+      "d_res_high": 1.81,
+      "d_res_low": 1.86,
+      "number_unique_obs": 1466,
+      "pdbx_CC_half": 0.947,
+      "pdbx_Rpim_I_all": 0.131,
+      "pdbx_Rrim_I_all": 0.342,
+      "pdbx_chi_squared": 0.818,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 8,
+      "pdbx_redundancy": 6.6,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.28,
+      "d_res_high": 1.86,
+      "d_res_low": 1.92,
+      "number_unique_obs": 1451,
+      "pdbx_CC_half": 0.957,
+      "pdbx_Rpim_I_all": 0.12,
+      "pdbx_Rrim_I_all": 0.305,
+      "pdbx_chi_squared": 0.97,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 9,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.23,
+      "d_res_high": 1.92,
+      "d_res_low": 1.98,
+      "number_unique_obs": 1456,
+      "pdbx_CC_half": 0.965,
+      "pdbx_Rpim_I_all": 0.099,
+      "pdbx_Rrim_I_all": 0.251,
+      "pdbx_chi_squared": 1.138,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 10,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.206,
+      "d_res_high": 1.98,
+      "d_res_low": 2.05,
+      "number_unique_obs": 1463,
+      "pdbx_CC_half": 0.973,
+      "pdbx_Rpim_I_all": 0.088,
+      "pdbx_Rrim_I_all": 0.225,
+      "pdbx_chi_squared": 1.215,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 11,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.187,
+      "d_res_high": 2.05,
+      "d_res_low": 2.13,
+      "number_unique_obs": 1465,
+      "pdbx_CC_half": 0.981,
+      "pdbx_Rpim_I_all": 0.076,
+      "pdbx_Rrim_I_all": 0.202,
+      "pdbx_chi_squared": 1.263,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 12,
+      "pdbx_redundancy": 6.9,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.162,
+      "d_res_high": 2.13,
+      "d_res_low": 2.23,
+      "number_unique_obs": 1484,
+      "pdbx_CC_half": 0.983,
+      "pdbx_Rpim_I_all": 0.066,
+      "pdbx_Rrim_I_all": 0.175,
+      "pdbx_chi_squared": 1.421,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 13,
+      "pdbx_redundancy": 6.9,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.141,
+      "d_res_high": 2.23,
+      "d_res_low": 2.35,
+      "number_unique_obs": 1472,
+      "pdbx_CC_half": 0.986,
+      "pdbx_Rpim_I_all": 0.058,
+      "pdbx_Rrim_I_all": 0.152,
+      "pdbx_chi_squared": 1.416,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 14,
+      "pdbx_redundancy": 6.9,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.126,
+      "d_res_high": 2.35,
+      "d_res_low": 2.49,
+      "number_unique_obs": 1469,
+      "pdbx_CC_half": 0.989,
+      "pdbx_Rpim_I_all": 0.052,
+      "pdbx_Rrim_I_all": 0.136,
+      "pdbx_chi_squared": 1.439,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 15,
+      "pdbx_redundancy": 6.7,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.111,
+      "d_res_high": 2.49,
+      "d_res_low": 2.68,
+      "number_unique_obs": 1478,
+      "pdbx_CC_half": 0.99,
+      "pdbx_Rpim_I_all": 0.047,
+      "pdbx_Rrim_I_all": 0.121,
+      "pdbx_chi_squared": 1.514,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 16,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.094,
+      "d_res_high": 2.68,
+      "d_res_low": 2.95,
+      "number_unique_obs": 1490,
+      "pdbx_CC_half": 0.992,
+      "pdbx_Rpim_I_all": 0.04,
+      "pdbx_Rrim_I_all": 0.102,
+      "pdbx_chi_squared": 1.466,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 17,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.07,
+      "d_res_high": 2.95,
+      "d_res_low": 3.38,
+      "number_unique_obs": 1491,
+      "pdbx_CC_half": 0.996,
+      "pdbx_Rpim_I_all": 0.028,
+      "pdbx_Rrim_I_all": 0.076,
+      "pdbx_chi_squared": 1.362,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 18,
+      "pdbx_redundancy": 7.0,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.05,
+      "d_res_high": 3.38,
+      "d_res_low": 4.26,
+      "number_unique_obs": 1498,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rpim_I_all": 0.021,
+      "pdbx_Rrim_I_all": 0.054,
+      "pdbx_chi_squared": 1.195,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 19,
+      "pdbx_redundancy": 6.8,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.041,
+      "d_res_high": 4.26,
+      "d_res_low": 50.0,
+      "number_unique_obs": 1556,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rpim_I_all": 0.017,
+      "pdbx_Rrim_I_all": 0.045,
+      "pdbx_chi_squared": 0.921,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 20,
+      "pdbx_redundancy": 6.4,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.19.2_4158: ???)"
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "A ligand-free crystal structure of mercaptosuccinate dioxygenase"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "thiol dioxygenase, substrate-free, mercaptosuccinate dioxygenase, MSDO, OXIDOREDUCTASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1"
+  },
+  "rcsb_id": "8VNI"
+}

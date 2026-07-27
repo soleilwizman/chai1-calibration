@@ -1,0 +1,1785 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "MKPPQFTWAQWFETQHINMTSQQCTNAMQVINNYQRRCKNQNTFLLTTFANVVNVCGNPNMTCPSNKTRKNCHHSGSQVPLIHCNLTTPSPQNISNCRYAQTPANMFYIVACDNRDQRRDPPQYPVVPVHLDRII",
+    "pdbx_seq_one_letter_code_can": "MKPPQFTWAQWFETQHINMTSQQCTNAMQVINNYQRRCKNQNTFLLTTFANVVNVCGNPNMTCPSNKTRKNCHHSGSQVPLIHCNLTTPSPQNISNCRYAQTPANMFYIVACDNRDQRRDPPQYPVVPVHLDRII",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 135,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 135,
+      "pdbx_gene_src_gene": "RNASE2, EDN, RNS2",
+      "pdbx_gene_src_ncbi_taxonomy_id": "866768",
+      "pdbx_gene_src_scientific_name": "Escherichia coli 'BL21-Gold(DE3)pLysS AG'",
+      "pdbx_host_org_ncbi_taxonomy_id": "1531953",
+      "pdbx_host_org_scientific_name": "Cloning vector pET-T7p(-14G)-SpacerA-GFP-LVA",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 2224,
+      "identity": 100
+    },
+    {
+      "cluster_id": 3129,
+      "identity": 95
+    },
+    {
+      "cluster_id": 3166,
+      "identity": 90
+    },
+    {
+      "cluster_id": 2152,
+      "identity": 70
+    },
+    {
+      "cluster_id": 2982,
+      "identity": 50
+    },
+    {
+      "cluster_id": 2077,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 135,
+      "ncbi_common_names": [
+        "pET-T7p(-14G)-SpacerA-GFP-LVA"
+      ],
+      "ncbi_parent_scientific_name": "other sequences",
+      "ncbi_scientific_name": "Cloning vector pET-T7p(-14G)-SpacerA-GFP-LVA",
+      "ncbi_taxonomy_id": 1531953,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Cloning vector pET-T7p(-14G)-SpacerA-GFP-LVA",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "2787854",
+          "name": "other entries"
+        },
+        {
+          "depth": 2,
+          "id": "28384",
+          "name": "other sequences"
+        },
+        {
+          "depth": 3,
+          "id": "81077",
+          "name": "artificial sequences"
+        },
+        {
+          "depth": 4,
+          "id": "29278",
+          "name": "vectors"
+        },
+        {
+          "depth": 5,
+          "id": "1531953",
+          "name": "Cloning vector pET-T7p(-14G)-SpacerA-GFP-LVA"
+        },
+        {
+          "depth": 5,
+          "id": "1531953",
+          "name": "pET-T7p(-14G)-SpacerA-GFP-LVA"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 135,
+      "ncbi_common_names": [
+        "Escherichia coli BL21-Gold(DE3)pLysS AG",
+        "Escherichia coli str. BL21-Gold(DE3)pLysS AG",
+        "Escherichia coli strain BL21-Gold(DE3)pLysS AG"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli 'BL21-Gold(DE3)pLysS AG",
+      "ncbi_taxonomy_id": 866768,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli 'BL21-Gold(DE3)pLysS AG'",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        },
+        {
+          "depth": 10,
+          "id": "866768",
+          "name": "Escherichia coli 'BL21-Gold(DE3)pLysS AG"
+        },
+        {
+          "depth": 10,
+          "id": "866768",
+          "name": "Escherichia coli BL21-Gold(DE3)pLysS AG"
+        },
+        {
+          "depth": 10,
+          "id": "866768",
+          "name": "Escherichia coli str. BL21-Gold(DE3)pLysS AG"
+        },
+        {
+          "depth": 10,
+          "id": "866768",
+          "name": "Escherichia coli strain BL21-Gold(DE3)pLysS AG"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "RNASE2"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "EDN"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "RNS2"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 15.612,
+    "pdbx_description": "Non-secretory ribonuclease",
+    "pdbx_ec": "4.6.1.18",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "4",
+        "name": "Lyases"
+      },
+      {
+        "depth": 2,
+        "id": "4.6",
+        "name": "Phosphorus-oxygen lyases"
+      },
+      {
+        "depth": 3,
+        "id": "4.6.1",
+        "name": "Phosphorus-oxygen lyases (only sub-subclass identified to date)"
+      },
+      {
+        "depth": 4,
+        "id": "4.6.1.18",
+        "name": "pancreatic ribonuclease"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Non-secretory ribonuclease",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "Eosinophil-derived neurotoxin",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "RNase UpI-2",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Ribonuclease 2",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "RNase 2",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Ribonuclease US",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "4.6.1.18",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Non-secretory ribonuclease"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P10153",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF00074",
+      "assignment_version": "34.0",
+      "name": "Pancreatic ribonuclease (RnaseA)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0006401",
+      "name": "RNA catabolic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0009057",
+          "name": "macromolecule catabolic process"
+        },
+        {
+          "id": "GO:0034655",
+          "name": "nucleobase-containing compound catabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0141188",
+          "name": "nucleic acid catabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0006401",
+          "name": "RNA catabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006935",
+      "name": "chemotaxis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006935",
+          "name": "chemotaxis"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0042330",
+          "name": "taxis"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009605",
+          "name": "response to external stimulus"
+        },
+        {
+          "id": "GO:0040011",
+          "name": "locomotion"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004522",
+      "name": "ribonuclease A activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016849",
+          "name": "phosphorus-oxygen lyase activity"
+        },
+        {
+          "id": "GO:0004519",
+          "name": "endonuclease activity"
+        },
+        {
+          "id": "GO:0004518",
+          "name": "nuclease activity"
+        },
+        {
+          "id": "GO:0004522",
+          "name": "ribonuclease A activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0004521",
+          "name": "RNA endonuclease activity"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0004540",
+          "name": "RNA nuclease activity"
+        },
+        {
+          "id": "GO:0016829",
+          "name": "lyase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003676",
+      "name": "nucleic acid binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036816",
+      "name": "Ribonuclease A-like domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036816",
+          "name": "Ribonuclease A-like domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005576",
+      "name": "extracellular region",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0002227",
+      "name": "innate immune response in mucosa",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0002227",
+          "name": "innate immune response in mucosa"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006955",
+          "name": "immune response"
+        },
+        {
+          "id": "GO:0051707",
+          "name": "response to other organism"
+        },
+        {
+          "id": "GO:0006952",
+          "name": "defense response"
+        },
+        {
+          "id": "GO:0140546",
+          "name": "defense response to symbiont"
+        },
+        {
+          "id": "GO:0009605",
+          "name": "response to external stimulus"
+        },
+        {
+          "id": "GO:0009607",
+          "name": "response to biotic stimulus"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0098542",
+          "name": "defense response to other organism"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0045087",
+          "name": "innate immune response"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0043207",
+          "name": "response to external biotic stimulus"
+        },
+        {
+          "id": "GO:0002385",
+          "name": "mucosal immune response"
+        },
+        {
+          "id": "GO:0002251",
+          "name": "organ or tissue specific immune response"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001427",
+      "name": "Pancreatic ribonuclease",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR001427",
+          "name": "Pancreatic ribonuclease"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0070062",
+      "name": "extracellular exosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0070062",
+          "name": "extracellular exosome"
+        },
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:1903561",
+          "name": "extracellular vesicle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0043230",
+          "name": "extracellular organelle"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0065010",
+          "name": "extracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004540",
+      "name": "RNA nuclease activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0004518",
+          "name": "nuclease activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0004540",
+          "name": "RNA nuclease activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR023411",
+      "name": "Ribonuclease A, active site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR023411",
+          "name": "Ribonuclease A, active site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016787",
+      "name": "hydrolase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR023412",
+      "name": "Ribonuclease A-domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR023412",
+          "name": "Ribonuclease A-domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0035578",
+      "name": "azurophil granule lumen",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0000323",
+          "name": "lytic vacuole"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0060205",
+          "name": "cytoplasmic vesicle lumen"
+        },
+        {
+          "id": "GO:0005775",
+          "name": "vacuolar lumen"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0005764",
+          "name": "lysosome"
+        },
+        {
+          "id": "GO:0031983",
+          "name": "vesicle lumen"
+        },
+        {
+          "id": "GO:0042582",
+          "name": "azurophil granule"
+        },
+        {
+          "id": "GO:0005773",
+          "name": "vacuole"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0034774",
+          "name": "secretory granule lumen"
+        },
+        {
+          "id": "GO:0035578",
+          "name": "azurophil granule lumen"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0030141",
+          "name": "secretory granule"
+        },
+        {
+          "id": "GO:0005766",
+          "name": "primary lysosome"
+        },
+        {
+          "id": "GO:0099503",
+          "name": "secretory vesicle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0051607",
+      "name": "defense response to virus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0051607",
+          "name": "defense response to virus"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006952",
+          "name": "defense response"
+        },
+        {
+          "id": "GO:0051707",
+          "name": "response to other organism"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009605",
+          "name": "response to external stimulus"
+        },
+        {
+          "id": "GO:0043207",
+          "name": "response to external biotic stimulus"
+        },
+        {
+          "id": "GO:0009615",
+          "name": "response to virus"
+        },
+        {
+          "id": "GO:0009607",
+          "name": "response to biotic stimulus"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005615",
+      "name": "extracellular space",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005615",
+          "name": "extracellular space"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "8QEW",
+    "rcsb_id": "8QEW_1",
+    "uniprot_ids": [
+      "P10153"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P10153",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.8385093167701864
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF00074",
+      "name": "Pancreatic ribonuclease (RnaseA)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 7,
+          "end_seq_id": 132
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "initiating methionine",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 1
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.63,
+            -1.23,
+            -0.9,
+            -0.41,
+            -0.62,
+            -0.31,
+            -1.01,
+            -1.29,
+            -0.69,
+            -1.28,
+            -0.68,
+            -0.66,
+            -1.06,
+            -1.06,
+            -1.37,
+            -0.7,
+            -0.42,
+            -1.31,
+            -0.72,
+            -0.72,
+            -1.03,
+            -0.48,
+            0.41,
+            0.41,
+            -0.26,
+            -0.32,
+            -0.32,
+            -1.02,
+            -1.73,
+            -1.07,
+            -1.97,
+            -2.86,
+            -2.86,
+            -2.86,
+            -2.79,
+            -2.09,
+            -1.17,
+            -0.24,
+            -0.6,
+            -0.24,
+            0.46,
+            1.04,
+            1.04,
+            1.59,
+            1.74,
+            0.93,
+            0.98,
+            1.33,
+            1.37,
+            0.67,
+            0.29,
+            0.29,
+            0.03,
+            -0.51,
+            0.16,
+            -0.49,
+            -0.86,
+            -1.2,
+            -1.24,
+            -1.14,
+            -1.26,
+            -1.9,
+            -2.21,
+            -2.21,
+            -2.39,
+            -2.66,
+            -2.36,
+            -1.97,
+            -1.98,
+            -1.87,
+            -0.97,
+            -0.76,
+            -0.61,
+            0.24,
+            0.24,
+            0.61,
+            0.27,
+            0.78,
+            1.09,
+            0.54,
+            0.54,
+            0.03,
+            -0.64,
+            -0.68,
+            -1.34,
+            -0.46,
+            -0.97,
+            -1.28,
+            -0.92,
+            -1.24,
+            -1.3,
+            -0.92,
+            -0.92,
+            -0.61,
+            -1.29,
+            -1.0,
+            -1.0,
+            -1.07,
+            -0.26,
+            -0.26,
+            0.04,
+            0.9,
+            1.18,
+            1.63,
+            1.04,
+            1.04,
+            0.33,
+            -0.37,
+            -0.61,
+            -1.61,
+            -2.58,
+            -3.17,
+            -3.62,
+            -3.41,
+            -3.41,
+            -3.06,
+            -2.84,
+            -1.99,
+            -1.02,
+            -0.7,
+            0.16,
+            -0.02,
+            0.58,
+            0.58,
+            0.22,
+            0.9,
+            0.93
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.87,
+            0.77,
+            0.74,
+            0.69,
+            0.66,
+            0.61,
+            0.51,
+            0.48,
+            0.41,
+            0.36,
+            0.32,
+            0.35,
+            0.35,
+            0.23,
+            0.19,
+            0.2,
+            0.24,
+            0.21,
+            0.27,
+            0.23,
+            0.16,
+            0.22,
+            0.29,
+            0.21,
+            0.21,
+            0.22,
+            0.24,
+            0.16,
+            0.16,
+            0.18,
+            0.18,
+            0.18,
+            0.17,
+            0.12,
+            0.16,
+            0.13,
+            0.12,
+            0.13,
+            0.1,
+            0.09,
+            0.13,
+            0.15,
+            0.12,
+            0.12,
+            0.14,
+            0.06,
+            0.06,
+            0.05,
+            0.15,
+            0.14,
+            0.13,
+            0.12,
+            0.04,
+            0.05,
+            0.08,
+            0.1,
+            0.14,
+            0.14,
+            0.16,
+            0.23,
+            0.27,
+            0.12,
+            0.15,
+            0.18,
+            0.18,
+            0.21,
+            0.36,
+            0.38,
+            0.34,
+            0.34,
+            0.31,
+            0.29,
+            0.3,
+            0.34,
+            0.31,
+            0.26,
+            0.25,
+            0.23,
+            0.26,
+            0.25,
+            0.27,
+            0.27,
+            0.43,
+            0.38,
+            0.4,
+            0.4,
+            0.27,
+            0.27,
+            0.2,
+            0.21,
+            0.21,
+            0.24,
+            0.3,
+            0.27,
+            0.41,
+            0.37,
+            0.36,
+            0.31,
+            0.27,
+            0.2,
+            0.18,
+            0.1,
+            0.11,
+            0.11,
+            0.15,
+            0.16,
+            0.17,
+            0.3,
+            0.29,
+            0.36,
+            0.41,
+            0.42,
+            0.44,
+            0.35,
+            0.41,
+            0.35,
+            0.32,
+            0.41,
+            0.4,
+            0.44,
+            0.41,
+            0.46,
+            0.54,
+            0.46,
+            0.4,
+            0.44,
+            0.47,
+            0.5,
+            0.54,
+            0.58,
+            0.6,
+            0.62,
+            0.64,
+            0.66,
+            0.76
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.39,
+            0.38,
+            0.38,
+            0.37,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.38,
+            0.38,
+            0.39,
+            0.4,
+            0.43,
+            0.4,
+            0.37,
+            0.34,
+            0.31,
+            0.28,
+            0.26,
+            0.24,
+            0.22,
+            0.21,
+            0.2,
+            0.2,
+            0.22,
+            0.25,
+            0.28,
+            0.29,
+            0.3,
+            0.31,
+            0.32,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.27,
+            0.29,
+            0.31,
+            0.33,
+            0.36,
+            0.41,
+            0.41,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.38,
+            0.41,
+            0.43,
+            0.41,
+            0.35,
+            0.29,
+            0.24,
+            0.19,
+            0.18,
+            0.16,
+            0.16,
+            0.15,
+            0.14,
+            0.13,
+            0.11,
+            0.12,
+            0.13,
+            0.15,
+            0.16,
+            0.17,
+            0.17,
+            0.17,
+            0.18,
+            0.18,
+            0.21,
+            0.24,
+            0.25,
+            0.26,
+            0.29,
+            0.31,
+            0.33,
+            0.35,
+            0.36,
+            0.37,
+            0.36,
+            0.34,
+            0.34,
+            0.35,
+            0.33,
+            0.32,
+            0.31,
+            0.31,
+            0.31,
+            0.3,
+            0.32,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.36,
+            0.38,
+            0.4,
+            0.42,
+            0.43,
+            0.42,
+            0.4,
+            0.38,
+            0.36,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.39,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.37,
+            0.37
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00741,
+      "maximum_length": 1,
+      "minimum_length": 1,
+      "type": "artifact"
+    },
+    {
+      "count": 1,
+      "coverage": 0.93333,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2152_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "P10153",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "3166_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2077_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 20,
+          "ref_beg_seq_id": 30
+        },
+        {
+          "entity_beg_seq_id": 21,
+          "length": 115,
+          "ref_beg_seq_id": 51
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2224_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "3129_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "2982_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 135,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "Eosinophil-derived neurotoxin,RNase UpI-2,Ribonuclease 2,RNase 2,Ribonuclease US"
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL5120",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 134,
+          "target_beg_seq_id": 27
+        }
+      ]
+    },
+    {
+      "related_resource_name": "DrugBank",
+      "related_resource_version": "5.1",
+      "related_target_id": "P10153",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 134,
+          "target_beg_seq_id": 27
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "4711",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 134,
+          "target_beg_seq_id": 27
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 5.74,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "JIAJERGOUFOENU-LNAOLWRRSA-N",
+      "cofactor_SMILES": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O[C@H]2C[C@H](n3ccc(=O)[nH]c3=O)O[C@@H]2COP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1O",
+      "cofactor_chem_comp_id": "PUA",
+      "cofactor_resource_id": "CHEMBL401150",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL5120"
+    },
+    {
+      "binding_assay_value": 5.74,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "KXVUZKNOAXDIED-LNAOLWRRSA-N",
+      "cofactor_SMILES": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](OP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)C[C@@H]2O)[C@H]1O",
+      "cofactor_resource_id": "CHEMBL455775",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL5120"
+    },
+    {
+      "cofactor_InChIKey": "WHTCPDAXWFLDIH-KQYNXXCUSA-N",
+      "cofactor_SMILES": "NC1=NC=NC2=C1N=CN2[C@@H]1O[C@H](COP(O)(O)=O)[C@@H](OP(O)(O)=O)[C@H]1O",
+      "cofactor_chem_comp_id": "A3P",
+      "cofactor_name": "Adenosine 3',5'-diphosphate",
+      "cofactor_resource_id": "DB01812",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17139284,
+        17016423
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P10153"
+    },
+    {
+      "cofactor_InChIKey": "AEOBEOJCBAYXBA-KQYNXXCUSA-N",
+      "cofactor_SMILES": "[H][C@]1(COP(O)(O)=O)O[C@@]([H])(N2C=NC3=C(N)N=CN=C23)[C@]([H])(OP(O)(O)=O)[C@]1([H])O",
+      "cofactor_chem_comp_id": "A2P",
+      "cofactor_name": "Adenosine-2'-5'-Diphosphate",
+      "cofactor_resource_id": "DB02098",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17139284,
+        17016423
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P10153"
+    },
+    {
+      "binding_assay_value": 6.75,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](OP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)C[C@@H]2O)[C@H]1O",
+      "cofactor_resource_id": "CHEMBL455775",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        19173562
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "4711"
+    },
+    {
+      "binding_assay_value": 6.75,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O[C@H]2C[C@H](n3ccc(=O)[nH]c3=O)O[C@@H]2COP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1O",
+      "cofactor_chem_comp_id": "PUA",
+      "cofactor_resource_id": "CHEMBL401150",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        23122937
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "4711"
+    }
+  ],
+  "rcsb_id": "8QEW_1"
+}

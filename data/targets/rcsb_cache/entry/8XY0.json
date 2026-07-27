@@ -1,0 +1,502 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0007-5007-7072",
+      "name": "Nakamura, T.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0001-9333-2335",
+      "name": "Takita, T.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-1411-5429",
+      "name": "Mizutani, K.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0003-0638-8619",
+      "name": "Mikami, B.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0001-5130-2488",
+      "name": "Nakamura, S.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "identifier_ORCID": "0000-0001-7748-6043",
+      "name": "Yasukawa, K.",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.52,
+    "angle_gamma": 90.0,
+    "length_a": 105.179,
+    "length_b": 41.783,
+    "length_c": 80.873,
+    "volume": 355397.463
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Sci Rep",
+      "journal_id_ISSN": "2045-2322",
+      "journal_volume": "14",
+      "page_first": "7767",
+      "page_last": "7767",
+      "pdbx_database_id_DOI": "10.1038/s41598-024-57819-z",
+      "pdbx_database_id_PubMed": 38565938,
+      "rcsb_authors": [
+        "Nakamura, T.",
+        "Takita, T.",
+        "Kuwata, K.",
+        "Mizutani, K.",
+        "Mikami, B.",
+        "Nakamura, S.",
+        "Yasukawa, K."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Sci Rep",
+      "title": "Activity-stability trade-off observed in variants at position 315 of the GH10 xylanase XynR.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8XY0",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8xy0/pdb",
+      "pdbx_database_accession": "pdb_00008xy0"
+    },
+    {
+      "database_code": "D_1300044475",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-12-02T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER R 4M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL26B1",
+      "pdbx_synchrotron_site": "SPring-8",
+      "pdbx_wavelength_list": "1.0000",
+      "source": "SYNCHROTRON",
+      "type": "SPRING-8 BEAMLINE BL26B1"
+    }
+  ],
+  "entry": {
+    "id": "8XY0"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.17,
+      "density_percent_sol": 43.32,
+      "description": "thin plate",
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION",
+      "pH": 5.9,
+      "pdbx_details": "0.2 M ammonium iodide, 26% w/v PEG4,000",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-05-22T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Japan",
+      "funding_organization": "Japan Society for the Promotion of Science (JSPS)",
+      "grant_number": "30397559",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2024-01-19T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "7CPK",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T12:10:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1728,
+      "DCC_Rfree": 0.2214,
+      "EDS_R": 0.1804,
+      "EDS_res_high": 1.9,
+      "EDS_res_low": 44.27,
+      "Fo_Fc_correlation": 0.958,
+      "I_over_sigma": "1.30(1.89A)",
+      "Padilla_Yeates_L2_mean": 0.328,
+      "Padilla_Yeates_L_mean": 0.495,
+      "Wilson_B_aniso": "[25.612,24.723,24.734,0.000,2.678,0.000]",
+      "Wilson_B_estimate": 24.83,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 40.892,
+      "bulk_solvent_k": 0.324,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.036,
+      "data_completeness": 94.44,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 26491,
+      "number_reflns_R_free": 1325,
+      "percent_RSRZ_outliers": 0.28,
+      "percent_free_reflections": 5.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 10.30% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.020"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.56,
+      "bonds_RMSZ": 0.35,
+      "clashscore": 2.6,
+      "num_H_reduce": 2794,
+      "num_angles_RMSZ": 4138,
+      "num_bonds_RMSZ": 3044,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.65
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-01-19T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-05-22T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-05-22T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "8XY0",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38565938,
+    "rcsb_id": "8XY0"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 3,
+    "deposited_atom_count": 3307,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 353,
+    "deposited_nonpolymer_entity_instance_count": 4,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 360,
+    "deposited_solvent_atom_count": 338,
+    "deposited_unmodeled_polymer_monomer_count": 7,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 42.42,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.11,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 42.06,
+    "polymer_molecular_weight_minimum": 42.06,
+    "polymer_monomer_count_maximum": 360,
+    "polymer_monomer_count_minimum": 360,
+    "resolution_combined": [
+      1.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Sci Rep",
+    "journal_id_ISSN": "2045-2322",
+    "journal_volume": "14",
+    "page_first": "7767",
+    "page_last": "7767",
+    "pdbx_database_id_DOI": "10.1038/s41598-024-57819-z",
+    "pdbx_database_id_PubMed": 38565938,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Nakamura, T.",
+      "Takita, T.",
+      "Kuwata, K.",
+      "Mizutani, K.",
+      "Mikami, B.",
+      "Nakamura, S.",
+      "Yasukawa, K."
+    ],
+    "rcsb_journal_abbrev": "Sci Rep",
+    "title": "Activity-stability trade-off observed in variants at position 315 of the GH10 xylanase XynR.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 24.54,
+      "ls_R_factor_R_free": 0.2201,
+      "ls_R_factor_R_work": 0.1705,
+      "ls_R_factor_obs": 0.173,
+      "ls_d_res_high": 1.9,
+      "ls_d_res_low": 44.27,
+      "ls_number_reflns_R_free": 1325,
+      "ls_number_reflns_R_work": 25161,
+      "ls_number_reflns_obs": 26486,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 94.4,
+      "overall_SU_ML": 0.2001,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 21.8805,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.9,
+      "d_res_low": 44.27,
+      "number_atoms_solvent": 336,
+      "number_atoms_total": 3265,
+      "pdbx_number_atoms_ligand": 22,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2907,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0079,
+      "number": 3050,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.9448,
+      "number": 4147,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0597,
+      "number": 421,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0077,
+      "number": 551,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 6.569,
+      "number": 411,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 22.77,
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 50.0,
+      "number_obs": 26490,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rmerge_I_obs": 0.068,
+      "pdbx_Rrim_I_all": 0.078,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.05,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.87,
+      "percent_possible_obs": 94.4
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.348,
+      "d_res_high": 1.9,
+      "d_res_low": 2.01,
+      "meanI_over_sigI_obs": 2.28,
+      "number_unique_obs": 3206,
+      "pdbx_CC_half": 0.829,
+      "pdbx_Rrim_I_all": 0.434,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.46,
+      "percent_possible_all": 71.3
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHENIX",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Activity-stability trade-off observed in variants at position 315 of the GH10 xylanase XynR"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "GH10, Alkaliphily, Alkaline resistance, Thermostability, Xylanase, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 5,
+    "space_group_name_H_M": "C 1 2 1",
+    "space_group_name_Hall": "C 2y"
+  },
+  "rcsb_id": "8XY0"
+}

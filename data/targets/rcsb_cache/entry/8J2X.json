@@ -1,0 +1,626 @@
+{
+  "audit_author": [
+    {
+      "name": "Zhang, S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Poddar, H.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Levy, C.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Leys, D.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 109.667,
+    "length_b": 109.667,
+    "length_c": 98.074
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "15",
+      "page_first": "2740",
+      "page_last": "2740",
+      "pdbx_database_id_DOI": "10.1038/s41467-024-46995-1",
+      "pdbx_database_id_PubMed": 38548733,
+      "rcsb_authors": [
+        "Zhang, S.",
+        "Jeffreys, L.N.",
+        "Poddar, H.",
+        "Yu, Y.",
+        "Liu, C.",
+        "Patel, K.",
+        "Johannissen, L.O.",
+        "Zhu, L.",
+        "Cliff, M.J.",
+        "Yan, C.",
+        "Schiro, G.",
+        "Weik, M.",
+        "Sakuma, M.",
+        "Levy, C.W.",
+        "Leys, D.",
+        "Heyes, D.J.",
+        "Scrutton, N.S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "Photocobilins integrate B12 and bilin photochemistry for enzyme control.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8J2X",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8j2x/pdb",
+      "pdbx_database_accession": "pdb_00008j2x"
+    },
+    {
+      "database_code": "D_1300037039",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-07-08T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 XE 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I03",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.9763",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I03"
+    }
+  ],
+  "entry": {
+    "id": "8J2X"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 4.68,
+      "density_percent_sol": 73.7,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pdbx_details": "0.2M Potassium citrate tribasic monohydrate 20% w/v PEG 3350",
+      "temp": 277.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-04-10T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United Kingdom",
+      "funding_organization": "Engineering and Physical Sciences Research Council",
+      "grant_number": "EP/S030336/1",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2023-04-15T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T20:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.1914,
+      "EDS_R": 0.1977,
+      "EDS_res_high": 1.98,
+      "EDS_res_low": 94.97,
+      "Fo_Fc_correlation": 0.968,
+      "I_over_sigma": "1.47(1.98A)",
+      "Padilla_Yeates_L2_mean": 0.331,
+      "Padilla_Yeates_L_mean": 0.498,
+      "Wilson_B_aniso": "[56.281,56.281,40.346,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 49.571,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 45.176,
+      "bulk_solvent_k": 0.36,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.313,
+      "data_completeness": 100.0,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 47812,
+      "number_reflns_R_free": 2271,
+      "percent_RSRZ_outliers": 10.09,
+      "percent_free_reflections": 4.75,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 3.80% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.025"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.86,
+      "bonds_RMSZ": 0.59,
+      "clashscore": 4.1,
+      "num_H_reduce": 2657,
+      "num_angles_RMSZ": 3607,
+      "num_bonds_RMSZ": 2634,
+      "percent_ramachandran_outliers": 0.6,
+      "percent_rotamer_outliers": 0.41
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-04-15T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-04-10T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-04-10T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8J2X",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38548733,
+    "rcsb_id": "8J2X"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2789,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 337,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 341,
+    "deposited_solvent_atom_count": 80,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 0.9763,
+    "diffrn_radiation_wavelength_minimum": 0.9763,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 1,
+    "molecular_weight": 38.43,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "B12"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 1.33,
+    "nonpolymer_molecular_weight_minimum": 0.11,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 36.41,
+    "polymer_molecular_weight_minimum": 36.41,
+    "polymer_monomer_count_maximum": 341,
+    "polymer_monomer_count_minimum": 341,
+    "resolution_combined": [
+      1.98
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "DIALS",
+      "PHASER",
+      "REFMAC",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.98
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "15",
+    "page_first": "2740",
+    "page_last": "2740",
+    "pdbx_database_id_DOI": "10.1038/s41467-024-46995-1",
+    "pdbx_database_id_PubMed": 38548733,
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-9763-3266",
+      "0000-0002-0607-6116",
+      "0000-0001-5396-5314",
+      "?",
+      "0000-0001-6077-3169",
+      "?",
+      "0000-0002-0916-9094",
+      "?",
+      "0000-0002-7482-0234",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "0000-0003-4845-8443",
+      "0000-0002-7453-1571",
+      "0000-0002-4182-3500"
+    ],
+    "rcsb_authors": [
+      "Zhang, S.",
+      "Jeffreys, L.N.",
+      "Poddar, H.",
+      "Yu, Y.",
+      "Liu, C.",
+      "Patel, K.",
+      "Johannissen, L.O.",
+      "Zhu, L.",
+      "Cliff, M.J.",
+      "Yan, C.",
+      "Schiro, G.",
+      "Weik, M.",
+      "Sakuma, M.",
+      "Levy, C.W.",
+      "Leys, D.",
+      "Heyes, D.J.",
+      "Scrutton, N.S."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "Photocobilins integrate B12 and bilin photochemistry for enzyme control.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 60.837,
+      "aniso_B_1_1": -0.21,
+      "aniso_B_1_2": -0.11,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": -0.21,
+      "aniso_B_2_3": 0.0,
+      "aniso_B_3_3": 0.69,
+      "correlation_coeff_Fo_to_Fc": 0.971,
+      "correlation_coeff_Fo_to_Fc_free": 0.959,
+      "details": "U VALUES : WITH TLS ADDED\nHYDROGENS HAVE BEEN ADDED IN THE RIDING POSITIONS\nU VALUES : RESIDUAL ONLY",
+      "ls_R_factor_R_free": 0.20029,
+      "ls_R_factor_R_work": 0.18316,
+      "ls_R_factor_obs": 0.18394,
+      "ls_d_res_high": 1.98,
+      "ls_d_res_low": 94.97,
+      "ls_number_reflns_R_free": 2271,
+      "ls_number_reflns_obs": 45541,
+      "ls_percent_reflns_R_free": 4.7,
+      "ls_percent_reflns_obs": 100.0,
+      "overall_SU_B": 7.104,
+      "overall_SU_ML": 0.089,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.105,
+      "pdbx_overall_ESU_R_Free": 0.1,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.7,
+      "pdbx_solvent_shrinkage_radii": 0.7,
+      "pdbx_solvent_vdw_probe_radii": 1.0,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.98,
+      "d_res_low": 94.97,
+      "number_atoms_solvent": 80,
+      "number_atoms_total": 2759,
+      "pdbx_number_atoms_ligand": 141,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2538,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.009,
+      "dev_ideal_target": 0.016,
+      "number": 2788,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.015,
+      "number": 2543,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 1.551,
+      "dev_ideal_target": 1.828,
+      "number": 3850,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 0.481,
+      "dev_ideal_target": 1.611,
+      "number": 5853,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.039,
+      "dev_ideal_target": 5.441,
+      "number": 374,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 1.745,
+      "dev_ideal_target": 5.0,
+      "number": 9,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 14.364,
+      "dev_ideal_target": 10.0,
+      "number": 369,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 0.093,
+      "dev_ideal_target": 0.2,
+      "number": 424,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.005,
+      "dev_ideal_target": 0.02,
+      "number": 3354,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.001,
+      "dev_ideal_target": 0.02,
+      "number": 587,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 2.405,
+      "dev_ideal_target": 3.536,
+      "number": 1358,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 2.405,
+      "dev_ideal_target": 3.536,
+      "number": 1358,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 3.624,
+      "dev_ideal_target": 5.276,
+      "number": 1698,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 3.623,
+      "dev_ideal_target": 5.281,
+      "number": 1699,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 3.156,
+      "dev_ideal_target": 3.929,
+      "number": 1430,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 3.155,
+      "dev_ideal_target": 3.93,
+      "number": 1431,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 4.758,
+      "dev_ideal_target": 5.775,
+      "number": 2152,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 7.542,
+      "dev_ideal_target": 49.75,
+      "number": 3047,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "dev_ideal": 7.537,
+      "dev_ideal_target": 48.722,
+      "number": 3040,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.98,
+      "d_resolution_low": 98.07,
+      "number_obs": 47811,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rmerge_I_obs": 0.07186,
+      "pdbx_Rrim_I_all": 0.074,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 20.64,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 20.6,
+      "percent_possible_obs": 99.92
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 2.404,
+      "d_res_high": 1.98,
+      "d_res_low": 2.01,
+      "meanI_over_sigI_obs": 0.67,
+      "number_unique_obs": 4716,
+      "pdbx_CC_half": 0.6,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.0"
+    },
+    {
+      "classification": "data reduction",
+      "name": "DIALS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Saccharothrix syringae photocobilins protein, light state"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "UNKNOWN FUNCTION",
+    "text": "cobalamin binding, biliverdin binding, B12-dependent photoreceptor protein, photocobilins, UNKNOWN FUNCTION"
+  },
+  "symmetry": {
+    "Int_Tables_number": 154,
+    "space_group_name_H_M": "P 32 2 1"
+  },
+  "rcsb_id": "8J2X"
+}

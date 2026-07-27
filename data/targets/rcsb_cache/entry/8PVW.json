@@ -1,0 +1,459 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-1693-3916",
+      "name": "Rodriguez, J.A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-9098-7974",
+      "name": "Wolf Watz, M.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Sauer-Eriksson, E.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 30.838,
+    "length_b": 73.244,
+    "length_c": 90.357
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Rodriguez, J.A.",
+        "Wolf Watz, M.",
+        "Nagy, T.M.",
+        "Phoeurk, C.",
+        "Rogne, P.",
+        "Schierholz, L.J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Structure of a short E. coli adenylate kinase in complex with Ap5A"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8PVW",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8pvw/pdb",
+      "pdbx_database_accession": "pdb_00008pvw"
+    },
+    {
+      "database_code": "D_1292131929",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2023-07-08T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 4M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "ID30B",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "0.873",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE ID30B"
+    }
+  ],
+  "entry": {
+    "id": "8PVW"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.49,
+      "density_percent_sol": 50.0,
+      "description": "Plate",
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 8.0,
+      "pdbx_details": "30% PEG 4000, 0.2 M Ammonium sulfate",
+      "pdbx_pH_range": "7.0-8.5",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-02-05T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Sweden",
+      "funding_organization": "Swedish Research Council",
+      "grant_number": "2021-04513_VR",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-07-18T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "4x8L",
+      "entity_id_list": [
+        "83"
+      ],
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-12T14:24:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1922,
+      "DCC_Rfree": 0.2418,
+      "EDS_R": 0.1993,
+      "EDS_res_high": 2.0,
+      "EDS_res_low": 38.45,
+      "Fo_Fc_correlation": 0.95,
+      "I_over_sigma": "4.12(2.00A)",
+      "Padilla_Yeates_L2_mean": 0.292,
+      "Padilla_Yeates_L_mean": 0.463,
+      "Wilson_B_aniso": "[31.130,26.756,31.261,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 29.773,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 37.374,
+      "bulk_solvent_k": 0.306,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.152,
+      "data_completeness": 85.48,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 12391,
+      "number_reflns_R_free": 621,
+      "percent_RSRZ_outliers": 3.21,
+      "percent_free_reflections": 4.28,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.77% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.81,
+      "bonds_RMSZ": 0.62,
+      "clashscore": 3.33,
+      "num_H_reduce": 1499,
+      "num_angles_RMSZ": 1966,
+      "num_bonds_RMSZ": 1462,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-07-18T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-02-05T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-02-05T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "8PVW",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8PVW"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1616,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 187,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 187,
+    "deposited_solvent_atom_count": 114,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.873,
+    "diffrn_radiation_wavelength_minimum": 0.873,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 21.46,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.92,
+    "nonpolymer_molecular_weight_minimum": 0.92,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 20.54,
+    "polymer_molecular_weight_minimum": 20.54,
+    "polymer_monomer_count_maximum": 187,
+    "polymer_monomer_count_minimum": 187,
+    "resolution_combined": [
+      2.0
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "AUTOPROC",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.7
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-1693-3916",
+      "0000-0002-9098-7974",
+      "0000-0001-6080-9782",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Rodriguez, J.A.",
+      "Wolf Watz, M.",
+      "Nagy, T.M.",
+      "Phoeurk, C.",
+      "Rogne, P.",
+      "Schierholz, L.J."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Structure of a short E. coli adenylate kinase in complex with Ap5A"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2344,
+      "ls_R_factor_R_work": 0.1834,
+      "ls_R_factor_obs": 0.1859,
+      "ls_d_res_high": 2.0,
+      "ls_d_res_low": 38.45,
+      "ls_number_reflns_R_free": 620,
+      "ls_number_reflns_obs": 12390,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 85.5,
+      "overall_SU_ML": 0.27,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 26.08,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.0,
+      "d_res_low": 38.45,
+      "number_atoms_solvent": 114,
+      "number_atoms_total": 1609,
+      "pdbx_number_atoms_ligand": 57,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1438,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.014,
+      "number": 1525,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.725,
+      "number": 2069,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 21.184,
+      "number": 238,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.062,
+      "number": 232,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.008,
+      "number": 262,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 18.36,
+      "d_resolution_high": 1.7,
+      "d_resolution_low": 58.45,
+      "number_obs": 13571,
+      "pdbx_CC_half": 0.988,
+      "pdbx_Rmerge_I_obs": 0.092,
+      "pdbx_Rpim_I_all": 0.036,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 12.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 10.0,
+      "percent_possible_obs": 78.7
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.955,
+      "d_res_low": 2.5,
+      "number_unique_obs": 13571,
+      "pdbx_CC_half": 0.988,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.17.1_3660: ???)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Structure of a short E. coli adenylate kinase in complex with Ap5A"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "SIGNALING PROTEIN",
+    "text": "P-loop nucleotide/nucleoside kinase-like, SIGNALING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 18,
+    "space_group_name_H_M": "P 2 21 21"
+  },
+  "rcsb_id": "8PVW"
+}

@@ -1,0 +1,2922 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "GAKVGKIGVCAMDAKVLSKPMRHILNRLIEHGEFETVIFGDKVILDERIENWPTCDFLISFFSSGFPLDKAIKYVKLRKPFIINDLIMQKILWDRRLCLQVLEAYNVPTPPRLEISRDGGPRANEELRAKLREHGVEVKPVEEPEWKMVDDDTLEVDGKTMTKPFVEKPVDGEDHNIYIYYHSKNGGGGRRLFRKVGNKSSEFDPTLVHPRTEGSYIYEQFMDTDNFEDVKAYTIGENFCHAETRKSPVVDGIVRRNTHGKEVRYITELSDEEKTIAGKVSKAFSQMICGFDLLRVSGKSYVIDVNGFSFVKDNKAYYDSCANILRSTFIEAKKKMD",
+    "pdbx_seq_one_letter_code_can": "GAKVGKIGVCAMDAKVLSKPMRHILNRLIEHGEFETVIFGDKVILDERIENWPTCDFLISFFSSGFPLDKAIKYVKLRKPFIINDLIMQKILWDRRLCLQVLEAYNVPTPPRLEISRDGGPRANEELRAKLREHGVEVKPVEEPEWKMVDDDTLEVDGKTMTKPFVEKPVDGEDHNIYIYYHSKNGGGGRRLFRKVGNKSSEFDPTLVHPRTEGSYIYEQFMDTDNFEDVKAYTIGENFCHAETRKSPVVDGIVRRNTHGKEVRYITELSDEEKTIAGKVSKAFSQMICGFDLLRVSGKSYVIDVNGFSFVKDNKAYYDSCANILRSTFIEAKKKMD",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 337,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "brewer's yeast",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 337,
+      "pdbx_gene_src_gene": "VIP1, YLR410W",
+      "pdbx_gene_src_ncbi_taxonomy_id": "4932",
+      "pdbx_gene_src_scientific_name": "Saccharomyces cerevisiae",
+      "pdbx_host_org_cell_line": "Tnao",
+      "pdbx_host_org_ncbi_taxonomy_id": "7111",
+      "pdbx_host_org_scientific_name": "Trichoplusia ni",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 53637,
+      "identity": 100
+    },
+    {
+      "cluster_id": 69372,
+      "identity": 95
+    },
+    {
+      "cluster_id": 76540,
+      "identity": 90
+    },
+    {
+      "cluster_id": 44419,
+      "identity": 70
+    },
+    {
+      "cluster_id": 15383,
+      "identity": 50
+    },
+    {
+      "cluster_id": 14660,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 337,
+      "ncbi_common_names": [
+        "cabbage looper"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Trichoplusia ni",
+      "ncbi_taxonomy_id": 7111,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Trichoplusia ni",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33317",
+          "name": "Protostomia"
+        },
+        {
+          "depth": 8,
+          "id": "1206794",
+          "name": "Ecdysozoa"
+        },
+        {
+          "depth": 9,
+          "id": "88770",
+          "name": "Panarthropoda"
+        },
+        {
+          "depth": 10,
+          "id": "6656",
+          "name": "Arthropoda"
+        },
+        {
+          "depth": 10,
+          "id": "6656",
+          "name": "arthropods"
+        },
+        {
+          "depth": 11,
+          "id": "197563",
+          "name": "Mandibulata"
+        },
+        {
+          "depth": 11,
+          "id": "197563",
+          "name": "mandibulates"
+        },
+        {
+          "depth": 12,
+          "id": "197562",
+          "name": "Pancrustacea"
+        },
+        {
+          "depth": 12,
+          "id": "197562",
+          "name": "crustaceans and hexapods"
+        },
+        {
+          "depth": 13,
+          "id": "3701028",
+          "name": "Altocrustacea"
+        },
+        {
+          "depth": 14,
+          "id": "3701030",
+          "name": "Allotriocarida"
+        },
+        {
+          "depth": 15,
+          "id": "6960",
+          "name": "Hexapoda"
+        },
+        {
+          "depth": 15,
+          "id": "6960",
+          "name": "hexapods"
+        },
+        {
+          "depth": 16,
+          "id": "50557",
+          "name": "Insecta"
+        },
+        {
+          "depth": 16,
+          "id": "50557",
+          "name": "insects"
+        },
+        {
+          "depth": 16,
+          "id": "50557",
+          "name": "true insects"
+        },
+        {
+          "depth": 17,
+          "id": "85512",
+          "name": "Dicondylia"
+        },
+        {
+          "depth": 18,
+          "id": "7496",
+          "name": "Pterygota"
+        },
+        {
+          "depth": 18,
+          "id": "7496",
+          "name": "winged insects"
+        },
+        {
+          "depth": 19,
+          "id": "33340",
+          "name": "Neoptera"
+        },
+        {
+          "depth": 20,
+          "id": "3701061",
+          "name": "Eumetabola"
+        },
+        {
+          "depth": 21,
+          "id": "33392",
+          "name": "Endopterygota"
+        },
+        {
+          "depth": 21,
+          "id": "33392",
+          "name": "Holometabola"
+        },
+        {
+          "depth": 22,
+          "id": "3701062",
+          "name": "Aparaglossata"
+        },
+        {
+          "depth": 23,
+          "id": "3701063",
+          "name": "Panorpida"
+        },
+        {
+          "depth": 24,
+          "id": "85604",
+          "name": "Amphiesmenoptera"
+        },
+        {
+          "depth": 25,
+          "id": "7088",
+          "name": "Lepidoptera"
+        },
+        {
+          "depth": 25,
+          "id": "7088",
+          "name": "moths & butterflies"
+        },
+        {
+          "depth": 26,
+          "id": "41191",
+          "name": "Glossata"
+        },
+        {
+          "depth": 27,
+          "id": "41196",
+          "name": "Neolepidoptera"
+        },
+        {
+          "depth": 28,
+          "id": "41197",
+          "name": "Heteroneura"
+        },
+        {
+          "depth": 29,
+          "id": "37567",
+          "name": "Ditrysia"
+        },
+        {
+          "depth": 30,
+          "id": "104431",
+          "name": "Obtectomera"
+        },
+        {
+          "depth": 31,
+          "id": "37570",
+          "name": "Noctuoidea"
+        },
+        {
+          "depth": 32,
+          "id": "7100",
+          "name": "Noctuidae"
+        },
+        {
+          "depth": 32,
+          "id": "7100",
+          "name": "noctuid moths"
+        },
+        {
+          "depth": 32,
+          "id": "7100",
+          "name": "owlet moths"
+        },
+        {
+          "depth": 33,
+          "id": "95186",
+          "name": "Plusiinae"
+        },
+        {
+          "depth": 34,
+          "id": "7110",
+          "name": "Trichoplusia"
+        },
+        {
+          "depth": 35,
+          "id": "7111",
+          "name": "Trichoplusia ni"
+        },
+        {
+          "depth": 35,
+          "id": "7111",
+          "name": "cabbage looper"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "brewer's yeast",
+      "end_seq_num": 337,
+      "ncbi_common_names": [
+        "Candida robusta",
+        "Mycoderma cerevisiae",
+        "Saccharomyces boulardii",
+        "Saccharomyces boulardii (nom. inval.)",
+        "Saccharomyces capensis",
+        "Saccharomyces cerevisiae 'var. diastaticus",
+        "Saccharomyces cerevisiae (Desm.) Meyen ex E.C. Hansen, 1883",
+        "Saccharomyces diastaticus",
+        "Saccharomyces italicus",
+        "Saccharomyces oviformis",
+        "Saccharomyces uvarum var. melibiosus",
+        "baker's yeast",
+        "brewer's yeast"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Saccharomyces cerevisiae",
+      "ncbi_taxonomy_id": 4932,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "4751",
+          "name": "Fungi"
+        },
+        {
+          "depth": 4,
+          "id": "4751",
+          "name": "Mycota"
+        },
+        {
+          "depth": 5,
+          "id": "451864",
+          "name": "Dikarya"
+        },
+        {
+          "depth": 6,
+          "id": "4890",
+          "name": "Ascomycota"
+        },
+        {
+          "depth": 6,
+          "id": "4890",
+          "name": "ascomycete fungi"
+        },
+        {
+          "depth": 6,
+          "id": "4890",
+          "name": "sac fungi"
+        },
+        {
+          "depth": 7,
+          "id": "716545",
+          "name": "saccharomyceta"
+        },
+        {
+          "depth": 8,
+          "id": "147537",
+          "name": "Saccharomycotina"
+        },
+        {
+          "depth": 8,
+          "id": "147537",
+          "name": "budding yeasts & allies"
+        },
+        {
+          "depth": 8,
+          "id": "147537",
+          "name": "true yeasts"
+        },
+        {
+          "depth": 9,
+          "id": "4891",
+          "name": "Saccharomycetes"
+        },
+        {
+          "depth": 9,
+          "id": "4891",
+          "name": "Hemiascomycetes"
+        },
+        {
+          "depth": 10,
+          "id": "4892",
+          "name": "Saccharomycetales"
+        },
+        {
+          "depth": 10,
+          "id": "4892",
+          "name": "Endomycetales"
+        },
+        {
+          "depth": 11,
+          "id": "4893",
+          "name": "Saccharomycetaceae"
+        },
+        {
+          "depth": 12,
+          "id": "4930",
+          "name": "Saccharomyces"
+        },
+        {
+          "depth": 12,
+          "id": "4930",
+          "name": "Pachytichospora"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces cerevisiae"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Candida robusta"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Mycoderma cerevisiae"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces boulardii"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces boulardii (nom. inval.)"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces capensis"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces cerevisiae 'var. diastaticus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces cerevisiae (Desm.) Meyen ex E.C. Hansen, 1883"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces diastaticus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces italicus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces oviformis"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "Saccharomyces uvarum var. melibiosus"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "baker's yeast"
+        },
+        {
+          "depth": 13,
+          "id": "4932",
+          "name": "brewer's yeast"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "VIP1"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "YLR410W"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 38.652,
+    "pdbx_description": "Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase",
+    "pdbx_ec": "2.7.4.24",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "2",
+        "name": "Transferases"
+      },
+      {
+        "depth": 2,
+        "id": "2.7",
+        "name": "Transferring phosphorus-containing groups"
+      },
+      {
+        "depth": 3,
+        "id": "2.7.4",
+        "name": "Phosphotransferases with a phosphate group as acceptor"
+      },
+      {
+        "depth": 4,
+        "id": "2.7.4.24",
+        "name": "diphosphoinositol-pentakisphosphate 1-kinase"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "InsP6 and PP-IP5 kinase",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "2.7.4.24",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "Q06685",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 335,
+          "ref_beg_seq_id": 186
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF18086",
+      "assignment_version": "34.0",
+      "name": "Diphosphoinositol pentakisphosphate kinase 2 N-terminal domain (PPIP5K2_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "PF08443",
+      "assignment_version": "34.0",
+      "name": "RimK-like ATP-grasp domain (RimK)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0005524",
+      "name": "ATP binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0032559",
+          "name": "adenyl ribonucleotide binding"
+        },
+        {
+          "id": "GO:0000166",
+          "name": "nucleotide binding"
+        },
+        {
+          "id": "GO:0032555",
+          "name": "purine ribonucleotide binding"
+        },
+        {
+          "id": "GO:0035639",
+          "name": "purine ribonucleoside triphosphate binding"
+        },
+        {
+          "id": "GO:1901265",
+          "name": "nucleoside phosphate binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0017076",
+          "name": "purine nucleotide binding"
+        },
+        {
+          "id": "GO:0043168",
+          "name": "anion binding"
+        },
+        {
+          "id": "GO:0030554",
+          "name": "adenyl nucleotide binding"
+        },
+        {
+          "id": "GO:0005524",
+          "name": "ATP binding"
+        },
+        {
+          "id": "GO:1901363",
+          "name": "heterocyclic compound binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0097367",
+          "name": "carbohydrate derivative binding"
+        },
+        {
+          "id": "GO:0032553",
+          "name": "ribonucleotide binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030643",
+      "name": "intracellular phosphate ion homeostasis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0055062",
+          "name": "phosphate ion homeostasis"
+        },
+        {
+          "id": "GO:0030643",
+          "name": "intracellular phosphate ion homeostasis"
+        },
+        {
+          "id": "GO:0019725",
+          "name": "cellular homeostasis"
+        },
+        {
+          "id": "GO:0098771",
+          "name": "inorganic ion homeostasis"
+        },
+        {
+          "id": "GO:0048878",
+          "name": "chemical homeostasis"
+        },
+        {
+          "id": "GO:0042592",
+          "name": "homeostatic process"
+        },
+        {
+          "id": "GO:0055082",
+          "name": "intracellular chemical homeostasis"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0052841",
+      "name": "inositol bisdiphosphate tetrakisphosphate diphosphatase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016462",
+          "name": "pyrophosphatase activity"
+        },
+        {
+          "id": "GO:0052841",
+          "name": "inositol bisdiphosphate tetrakisphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0016818",
+          "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0008486",
+          "name": "diphosphoinositol-polyphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0016817",
+          "name": "hydrolase activity, acting on acid anhydrides"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000830",
+      "name": "inositol hexakisphosphate 4-kinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016301",
+          "name": "kinase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0000828",
+          "name": "inositol hexakisphosphate kinase activity"
+        },
+        {
+          "id": "GO:0180030",
+          "name": "inositol phosphate kinase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016776",
+          "name": "phosphotransferase activity, phosphate group as acceptor"
+        },
+        {
+          "id": "GO:0000830",
+          "name": "inositol hexakisphosphate 4-kinase activity"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005856",
+      "name": "cytoskeleton",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005856",
+          "name": "cytoskeleton"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0052845",
+      "name": "inositol-5-diphosphate-1,2,3,4,6-pentakisphosphate diphosphatase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016462",
+          "name": "pyrophosphatase activity"
+        },
+        {
+          "id": "GO:0052845",
+          "name": "inositol-5-diphosphate-1,2,3,4,6-pentakisphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0016818",
+          "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0052842",
+          "name": "inositol diphosphate pentakisphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0008486",
+          "name": "diphosphoinositol-polyphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0016817",
+          "name": "hydrolase activity, acting on acid anhydrides"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000828",
+      "name": "inositol hexakisphosphate kinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016301",
+          "name": "kinase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0000828",
+          "name": "inositol hexakisphosphate kinase activity"
+        },
+        {
+          "id": "GO:0180030",
+          "name": "inositol phosphate kinase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016776",
+          "name": "phosphotransferase activity, phosphate group as acceptor"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032958",
+      "name": "inositol phosphate biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019751",
+          "name": "polyol metabolic process"
+        },
+        {
+          "id": "GO:0044283",
+          "name": "small molecule biosynthetic process"
+        },
+        {
+          "id": "GO:0006066",
+          "name": "alcohol metabolic process"
+        },
+        {
+          "id": "GO:0043647",
+          "name": "inositol phosphate metabolic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0019637",
+          "name": "organophosphate metabolic process"
+        },
+        {
+          "id": "GO:0090407",
+          "name": "organophosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0032958",
+          "name": "inositol phosphate biosynthetic process"
+        },
+        {
+          "id": "GO:0046173",
+          "name": "polyol biosynthetic process"
+        },
+        {
+          "id": "GO:0046165",
+          "name": "alcohol biosynthetic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0044281",
+          "name": "small molecule metabolic process"
+        },
+        {
+          "id": "GO:0006793",
+          "name": "phosphorus metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000560",
+      "name": "Histidine phosphatase superfamily, clade-2",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR000560",
+          "name": "Histidine phosphatase superfamily, clade-2"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0051516",
+      "name": "regulation of bipolar cell growth",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0040008",
+          "name": "regulation of growth"
+        },
+        {
+          "id": "GO:0051128",
+          "name": "regulation of cellular component organization"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050793",
+          "name": "regulation of developmental process"
+        },
+        {
+          "id": "GO:0048589",
+          "name": "developmental growth"
+        },
+        {
+          "id": "GO:0009826",
+          "name": "unidimensional cell growth"
+        },
+        {
+          "id": "GO:0000902",
+          "name": "cell morphogenesis"
+        },
+        {
+          "id": "GO:0016049",
+          "name": "cell growth"
+        },
+        {
+          "id": "GO:0022604",
+          "name": "regulation of cell morphogenesis"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0051516",
+          "name": "regulation of bipolar cell growth"
+        },
+        {
+          "id": "GO:0022603",
+          "name": "regulation of anatomical structure morphogenesis"
+        },
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0042815",
+          "name": "bipolar cell growth"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0048638",
+          "name": "regulation of developmental growth"
+        },
+        {
+          "id": "GO:0040007",
+          "name": "growth"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0001558",
+          "name": "regulation of cell growth"
+        },
+        {
+          "id": "GO:0060560",
+          "name": "developmental growth involved in morphogenesis"
+        },
+        {
+          "id": "GO:0051510",
+          "name": "regulation of unidimensional cell growth"
+        },
+        {
+          "id": "GO:0009653",
+          "name": "anatomical structure morphogenesis"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0052723",
+      "name": "inositol hexakisphosphate 1-kinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0052723",
+          "name": "inositol hexakisphosphate 1-kinase activity"
+        },
+        {
+          "id": "GO:0016301",
+          "name": "kinase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0000828",
+          "name": "inositol hexakisphosphate kinase activity"
+        },
+        {
+          "id": "GO:0180030",
+          "name": "inositol phosphate kinase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016776",
+          "name": "phosphotransferase activity, phosphate group as acceptor"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR029033",
+      "name": "Histidine phosphatase superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR029033",
+          "name": "Histidine phosphatase superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR037446",
+      "name": "Histidine acid phosphatase, VIP1 family",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR000560",
+          "name": "Histidine phosphatase superfamily, clade-2"
+        },
+        {
+          "depth": 2,
+          "id": "IPR037446",
+          "name": "Histidine acid phosphatase, VIP1 family"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0033857",
+      "name": "5-diphosphoinositol pentakisphosphate 1-kinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016301",
+          "name": "kinase activity"
+        },
+        {
+          "id": "GO:0000829",
+          "name": "diphosphoinositol pentakisphosphate kinase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0033857",
+          "name": "5-diphosphoinositol pentakisphosphate 1-kinase activity"
+        },
+        {
+          "id": "GO:0180030",
+          "name": "inositol phosphate kinase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016776",
+          "name": "phosphotransferase activity, phosphate group as acceptor"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0052843",
+      "name": "inositol-1-diphosphate-2,3,4,5,6-pentakisphosphate diphosphatase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016462",
+          "name": "pyrophosphatase activity"
+        },
+        {
+          "id": "GO:0016818",
+          "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0052842",
+          "name": "inositol diphosphate pentakisphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0052843",
+          "name": "inositol-1-diphosphate-2,3,4,5,6-pentakisphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0008486",
+          "name": "diphosphoinositol-polyphosphate diphosphatase activity"
+        },
+        {
+          "id": "GO:0016817",
+          "name": "hydrolase activity, acting on acid anhydrides"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR040557",
+      "name": "VIP1-like, N-terminal domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR040557",
+          "name": "VIP1-like, N-terminal domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0052724",
+      "name": "inositol hexakisphosphate 3-kinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016301",
+          "name": "kinase activity"
+        },
+        {
+          "id": "GO:0052724",
+          "name": "inositol hexakisphosphate 3-kinase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0000828",
+          "name": "inositol hexakisphosphate kinase activity"
+        },
+        {
+          "id": "GO:0180030",
+          "name": "inositol phosphate kinase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016776",
+          "name": "phosphotransferase activity, phosphate group as acceptor"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005737",
+      "name": "cytoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000831",
+      "name": "inositol hexakisphosphate 6-kinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0000831",
+          "name": "inositol hexakisphosphate 6-kinase activity"
+        },
+        {
+          "id": "GO:0016301",
+          "name": "kinase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0000828",
+          "name": "inositol hexakisphosphate kinase activity"
+        },
+        {
+          "id": "GO:0180030",
+          "name": "inositol phosphate kinase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016776",
+          "name": "phosphotransferase activity, phosphate group as acceptor"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013651",
+      "name": "ATP-grasp fold, RimK-type",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR011761",
+          "name": "ATP-grasp fold"
+        },
+        {
+          "depth": 2,
+          "id": "IPR013651",
+          "name": "ATP-grasp fold, RimK-type"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0070507",
+      "name": "regulation of microtubule cytoskeleton organization",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051493",
+          "name": "regulation of cytoskeleton organization"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0051128",
+          "name": "regulation of cellular component organization"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0000226",
+          "name": "microtubule cytoskeleton organization"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0032886",
+          "name": "regulation of microtubule-based process"
+        },
+        {
+          "id": "GO:0033043",
+          "name": "regulation of organelle organization"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0006996",
+          "name": "organelle organization"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007017",
+          "name": "microtubule-based process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0070507",
+          "name": "regulation of microtubule cytoskeleton organization"
+        },
+        {
+          "id": "GO:0007010",
+          "name": "cytoskeleton organization"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000829",
+      "name": "diphosphoinositol pentakisphosphate kinase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016301",
+          "name": "kinase activity"
+        },
+        {
+          "id": "GO:0000829",
+          "name": "diphosphoinositol pentakisphosphate kinase activity"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0180030",
+          "name": "inositol phosphate kinase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016776",
+          "name": "phosphotransferase activity, phosphate group as acceptor"
+        },
+        {
+          "id": "GO:0016772",
+          "name": "transferase activity, transferring phosphorus-containing groups"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "9GR8",
+    "rcsb_id": "9GR8_1",
+    "uniprot_ids": [
+      "Q06685"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "Q06685",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.9940652818991098,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.29232111692844676
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF08443",
+      "name": "RimK-like ATP-grasp domain (RimK)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 199,
+          "end_seq_id": 326
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF18086",
+      "name": "Diphosphoinositol pentakisphosphate kinase 2 N-terminal domain (PPIP5K2_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "end_seq_id": 94
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "expression tag",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 2
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            0.63,
+            0.96,
+            0.96,
+            1.6,
+            0.74,
+            0.99,
+            0.99,
+            0.96,
+            1.42,
+            0.87,
+            0.16,
+            -0.22,
+            -0.22,
+            -0.33,
+            -0.89,
+            0.04,
+            0.0,
+            -0.81,
+            -1.22,
+            -0.37,
+            0.31,
+            -0.29,
+            -0.14,
+            0.17,
+            -0.72,
+            -0.83,
+            -0.83,
+            -0.41,
+            -0.37,
+            -0.37,
+            0.33,
+            0.64,
+            0.3,
+            0.26,
+            0.41,
+            1.3,
+            1.8,
+            0.94,
+            0.06,
+            -0.76,
+            -0.21,
+            -0.21,
+            -0.17,
+            -0.73,
+            -1.41,
+            -1.91,
+            -1.24,
+            -1.24,
+            -0.43,
+            -0.51,
+            0.38,
+            0.68,
+            1.09,
+            1.58,
+            1.57,
+            1.2,
+            1.54,
+            1.54,
+            0.94,
+            0.87,
+            0.57,
+            -0.18,
+            -0.29,
+            0.3,
+            -0.04,
+            -0.14,
+            0.01,
+            -0.24,
+            -0.24,
+            -0.36,
+            -0.36,
+            -0.73,
+            -0.92,
+            0.01,
+            0.66,
+            -0.2,
+            -0.16,
+            -0.16,
+            0.84,
+            1.49,
+            1.28,
+            0.53,
+            0.53,
+            0.46,
+            0.74,
+            0.74,
+            -0.18,
+            -1.18,
+            -0.97,
+            -0.3,
+            0.56,
+            -0.33,
+            -0.29,
+            0.23,
+            0.23,
+            0.93,
+            1.29,
+            0.48,
+            0.67,
+            0.07,
+            0.38,
+            -0.27,
+            -0.87,
+            -0.98,
+            -0.76,
+            -1.0,
+            -0.11,
+            -0.67,
+            -0.99,
+            -1.3,
+            -1.17,
+            -1.03,
+            -0.71,
+            -1.63,
+            -1.04,
+            -1.93,
+            -2.23,
+            -2.12,
+            -1.31,
+            -1.77,
+            -1.52,
+            -1.78,
+            -0.86,
+            -1.56,
+            -1.56,
+            -1.52,
+            -1.18,
+            -1.13,
+            -1.02,
+            -0.76,
+            -0.76,
+            -1.36,
+            -0.39,
+            -0.39,
+            -0.42,
+            -0.56,
+            -1.41,
+            -1.12,
+            -2.02,
+            -1.38,
+            -0.73,
+            -1.59,
+            -1.59,
+            -1.59,
+            -1.49,
+            -0.68,
+            -0.97,
+            -0.07,
+            -0.67,
+            -1.18,
+            -1.22,
+            -0.91,
+            -0.31,
+            -0.31,
+            -1.17,
+            -0.96,
+            -1.11,
+            -0.26,
+            -0.6,
+            -0.6,
+            -0.7,
+            -0.44,
+            -0.76,
+            -0.37,
+            -0.58,
+            -1.28,
+            -2.1,
+            -2.1,
+            -1.17,
+            -1.13,
+            -1.1,
+            -0.86,
+            -0.96,
+            -0.92,
+            -0.62,
+            -0.7,
+            -0.7,
+            -1.24,
+            -1.14,
+            -1.69,
+            -1.59,
+            -1.94,
+            -2.09,
+            -1.58,
+            -0.83,
+            -0.94,
+            -1.33,
+            -0.82,
+            -0.82,
+            -1.17,
+            -1.1,
+            -0.69,
+            -1.2,
+            -1.9,
+            -1.09,
+            -1.04,
+            -1.69,
+            -1.72,
+            -0.91,
+            -0.01,
+            -0.28,
+            -0.37,
+            -0.48,
+            -0.87,
+            -0.87,
+            -0.73,
+            -0.74,
+            -1.31,
+            -1.28,
+            -1.07,
+            -1.28,
+            -1.17,
+            -0.78,
+            -0.18,
+            -0.52,
+            -0.51,
+            -0.76,
+            -1.64,
+            -1.19,
+            -1.19,
+            -1.19,
+            -1.03,
+            -1.68,
+            -1.09,
+            -1.16,
+            -0.84,
+            0.04,
+            -0.31,
+            -0.31,
+            -0.31,
+            -0.47,
+            0.24,
+            -0.31,
+            0.03,
+            -0.28,
+            -0.86,
+            -1.31,
+            -1.36,
+            -1.06,
+            -1.54,
+            -1.36,
+            -0.53,
+            -1.12,
+            -0.78,
+            -0.2,
+            0.77,
+            0.7,
+            0.29,
+            0.08,
+            -0.47,
+            -1.29,
+            -0.94,
+            -1.33,
+            -2.22,
+            -2.22,
+            -2.22,
+            -1.87,
+            -0.98,
+            -0.98,
+            -1.01,
+            -0.54,
+            -0.2,
+            -0.2,
+            -1.06,
+            -0.94,
+            -1.23,
+            -1.81,
+            -1.23,
+            -0.64,
+            -1.11,
+            -1.46,
+            -0.6,
+            -0.3,
+            -0.34,
+            0.29,
+            0.68,
+            0.09,
+            -0.5,
+            -0.24,
+            0.69,
+            0.5,
+            0.54,
+            1.29,
+            0.7,
+            0.81,
+            1.32,
+            1.21,
+            1.47,
+            0.88,
+            0.56,
+            0.17,
+            -0.23,
+            0.01,
+            0.06,
+            0.13,
+            0.24,
+            0.24,
+            -0.06,
+            -0.06,
+            0.69,
+            0.69,
+            1.14,
+            1.14,
+            0.21,
+            0.21,
+            -0.64,
+            -0.69,
+            -0.44,
+            -0.9,
+            -0.96,
+            -1.66,
+            -2.21,
+            -1.5,
+            -0.91,
+            -0.91,
+            0.02,
+            0.24,
+            -0.11,
+            -0.06,
+            0.26,
+            0.66,
+            0.88,
+            0.29,
+            0.88,
+            -0.06,
+            -0.91,
+            -0.84,
+            -0.54,
+            -0.86
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.75,
+            0.68,
+            0.65,
+            0.57,
+            0.53,
+            0.42,
+            0.3,
+            0.26,
+            0.22,
+            0.21,
+            0.14,
+            0.15,
+            0.18,
+            0.1,
+            0.1,
+            0.1,
+            0.09,
+            0.09,
+            0.05,
+            0.09,
+            0.12,
+            0.13,
+            0.16,
+            0.09,
+            0.12,
+            0.12,
+            0.12,
+            0.11,
+            0.06,
+            0.06,
+            0.05,
+            0.06,
+            0.04,
+            0.03,
+            0.02,
+            0.04,
+            0.05,
+            0.05,
+            0.04,
+            0.08,
+            0.07,
+            0.05,
+            0.06,
+            0.05,
+            0.07,
+            0.07,
+            0.04,
+            0.03,
+            0.03,
+            0.05,
+            0.03,
+            0.01,
+            0.01,
+            0.02,
+            0.04,
+            0.03,
+            0.04,
+            0.02,
+            0.02,
+            0.04,
+            0.03,
+            0.01,
+            0.03,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.01,
+            0.01,
+            0.03,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.0,
+            0.0,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.0,
+            0.0,
+            0.01,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.03,
+            0.04,
+            0.04,
+            0.05,
+            0.09,
+            0.1,
+            0.17,
+            0.11,
+            0.12,
+            0.11,
+            0.19,
+            0.25,
+            0.34,
+            0.35,
+            0.4,
+            0.47,
+            0.47,
+            0.5,
+            0.58,
+            0.54,
+            0.59,
+            0.55,
+            0.54,
+            0.47,
+            0.41,
+            0.44,
+            0.51,
+            0.53,
+            0.56,
+            0.56,
+            0.54,
+            0.51,
+            0.53,
+            0.48,
+            0.47,
+            0.5,
+            0.53,
+            0.53,
+            0.46,
+            0.44,
+            0.47,
+            0.45,
+            0.47,
+            0.49,
+            0.54,
+            0.56,
+            0.49,
+            0.5,
+            0.44,
+            0.49,
+            0.49,
+            0.52,
+            0.52,
+            0.47,
+            0.5,
+            0.48,
+            0.49,
+            0.41,
+            0.37,
+            0.46,
+            0.46,
+            0.5,
+            0.5,
+            0.48,
+            0.47,
+            0.47,
+            0.47,
+            0.53,
+            0.52,
+            0.52,
+            0.44,
+            0.38,
+            0.35,
+            0.29,
+            0.33,
+            0.33,
+            0.35,
+            0.32,
+            0.38,
+            0.42,
+            0.41,
+            0.42,
+            0.4,
+            0.44,
+            0.39,
+            0.33,
+            0.32,
+            0.31,
+            0.26,
+            0.25,
+            0.31,
+            0.36,
+            0.41,
+            0.47,
+            0.54,
+            0.46,
+            0.46,
+            0.49,
+            0.48,
+            0.43,
+            0.38,
+            0.38,
+            0.4,
+            0.4,
+            0.39,
+            0.46,
+            0.53,
+            0.53,
+            0.47,
+            0.46,
+            0.39,
+            0.41,
+            0.42,
+            0.35,
+            0.33,
+            0.33,
+            0.41,
+            0.41,
+            0.39,
+            0.32,
+            0.38,
+            0.44,
+            0.38,
+            0.35,
+            0.32,
+            0.27,
+            0.25,
+            0.2,
+            0.2,
+            0.27,
+            0.33,
+            0.32,
+            0.24,
+            0.23,
+            0.27,
+            0.3,
+            0.28,
+            0.28,
+            0.25,
+            0.25,
+            0.36,
+            0.3,
+            0.24,
+            0.31,
+            0.32,
+            0.28,
+            0.31,
+            0.31,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.42,
+            0.48,
+            0.49,
+            0.47,
+            0.46,
+            0.39,
+            0.35,
+            0.35,
+            0.35,
+            0.25,
+            0.3,
+            0.34,
+            0.35,
+            0.35,
+            0.4,
+            0.44,
+            0.38,
+            0.35,
+            0.35,
+            0.34,
+            0.27,
+            0.27,
+            0.27,
+            0.23,
+            0.19,
+            0.19,
+            0.26,
+            0.28,
+            0.2,
+            0.15,
+            0.21,
+            0.13,
+            0.13,
+            0.08,
+            0.05,
+            0.05,
+            0.03,
+            0.05,
+            0.06,
+            0.06,
+            0.06,
+            0.05,
+            0.03,
+            0.02,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.01,
+            0.03,
+            0.02,
+            0.01,
+            0.02,
+            0.02,
+            0.04,
+            0.06,
+            0.04,
+            0.04,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.03,
+            0.04,
+            0.04,
+            0.03,
+            0.04,
+            0.04,
+            0.04,
+            0.05,
+            0.03,
+            0.06,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.05,
+            0.06,
+            0.12,
+            0.23,
+            0.27,
+            0.32,
+            0.41,
+            0.5,
+            0.54,
+            0.65,
+            0.75,
+            0.79
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.06,
+            0.07,
+            0.08,
+            0.08,
+            0.09,
+            0.1,
+            0.11,
+            0.12,
+            0.14,
+            0.17,
+            0.18,
+            0.19,
+            0.18,
+            0.18,
+            0.18,
+            0.17,
+            0.16,
+            0.15,
+            0.13,
+            0.12,
+            0.11,
+            0.1,
+            0.09,
+            0.09,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.07,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.06,
+            0.07,
+            0.07,
+            0.08,
+            0.08,
+            0.08,
+            0.09,
+            0.09,
+            0.1,
+            0.1,
+            0.1,
+            0.08,
+            0.07,
+            0.06,
+            0.05,
+            0.05,
+            0.04,
+            0.04,
+            0.03,
+            0.03,
+            0.03,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.02,
+            0.03,
+            0.03,
+            0.04,
+            0.06,
+            0.07,
+            0.09,
+            0.11,
+            0.14,
+            0.17,
+            0.19,
+            0.22,
+            0.24,
+            0.25,
+            0.26,
+            0.26,
+            0.27,
+            0.28,
+            0.28,
+            0.29,
+            0.29,
+            0.3,
+            0.31,
+            0.32,
+            0.32,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.34,
+            0.35,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.36,
+            0.35,
+            0.33,
+            0.32,
+            0.31,
+            0.29,
+            0.28,
+            0.27,
+            0.27,
+            0.27,
+            0.26,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.28,
+            0.29,
+            0.3,
+            0.3,
+            0.3,
+            0.31,
+            0.31,
+            0.3,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.27,
+            0.25,
+            0.24,
+            0.21,
+            0.2,
+            0.19,
+            0.19,
+            0.19,
+            0.18,
+            0.18,
+            0.16,
+            0.15,
+            0.14,
+            0.14,
+            0.13,
+            0.13,
+            0.12,
+            0.1,
+            0.09,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.06,
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.06,
+            0.06,
+            0.06,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.06
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00593,
+      "maximum_length": 2,
+      "minimum_length": 2,
+      "type": "artifact"
+    },
+    {
+      "count": 2,
+      "coverage": 0.64688,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "76540_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 337,
+          "ref_beg_seq_id": 184
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "69372_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 337,
+          "ref_beg_seq_id": 184
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "14660_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 131,
+          "ref_beg_seq_id": 409
+        },
+        {
+          "entity_beg_seq_id": 132,
+          "length": 7,
+          "ref_beg_seq_id": 542
+        },
+        {
+          "entity_beg_seq_id": 139,
+          "length": 46,
+          "ref_beg_seq_id": 559
+        },
+        {
+          "entity_beg_seq_id": 185,
+          "length": 27,
+          "ref_beg_seq_id": 607
+        },
+        {
+          "entity_beg_seq_id": 212,
+          "length": 126,
+          "ref_beg_seq_id": 638
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "15383_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 132,
+          "ref_beg_seq_id": 184
+        },
+        {
+          "entity_beg_seq_id": 133,
+          "length": 205,
+          "ref_beg_seq_id": 317
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "53637_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 337,
+          "ref_beg_seq_id": 184
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "Q06685",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 335,
+          "ref_beg_seq_id": 186
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "44419_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 337,
+          "ref_beg_seq_id": 184
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "InsP6 and PP-IP5 kinase"
+    }
+  ],
+  "rcsb_id": "9GR8_1"
+}

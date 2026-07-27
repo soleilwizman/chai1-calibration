@@ -1,0 +1,455 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-7029-7346",
+      "name": "Ding, J.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0009-0004-9933-7750",
+      "name": "Lan, C.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-5889-3628",
+      "name": "Chen, Z.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 70.15,
+    "length_b": 97.73,
+    "length_c": 116.74,
+    "volume": 800341.364
+  },
+  "citation": [
+    {
+      "country": "CN",
+      "id": "primary",
+      "journal_abbrev": "Acta Biochim.Biophys.Sin.",
+      "journal_id_ISSN": "1745-7270",
+      "pdbx_database_id_DOI": "10.3724/abbs.2026058",
+      "pdbx_database_id_PubMed": 41964352,
+      "rcsb_authors": [
+        "Lan, C.",
+        "Chen, Z.",
+        "Wang, G.",
+        "Ding, J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Acta Biochim Biophys Sin (Shanghai)",
+      "title": "Biochemical and structural studies reveal the substrate specificity and catalytic mechanism of MYG1 as a two-metal ion-dependent 3'\u21925' exonuclease.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "24AJ",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb24aj/pdb",
+      "pdbx_database_accession": "pdb_000024aj"
+    },
+    {
+      "database_code": "D_1300070755",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 193.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-12-14T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL10U2",
+      "pdbx_synchrotron_site": "SSRF",
+      "pdbx_wavelength_list": "0.9791",
+      "source": "SYNCHROTRON",
+      "type": "SSRF BEAMLINE BL10U2"
+    }
+  ],
+  "entry": {
+    "id": "24AJ"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.71,
+      "density_percent_sol": 54.59,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "0.1 M sodium citrate tribasic dihydrate, pH 5.5, 18% w/v PEG 3350",
+      "temp": 289.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-04-22T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "National Natural Science Foundation of China (NSFC)",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2026-02-26T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-04-16T09:40:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1854,
+      "DCC_Rfree": 0.2171,
+      "EDS_R": 0.1955,
+      "EDS_res_high": 1.83,
+      "EDS_res_low": 48.87,
+      "Fo_Fc_correlation": 0.961,
+      "I_over_sigma": "1.99(1.83A)",
+      "Padilla_Yeates_L2_mean": 0.337,
+      "Padilla_Yeates_L_mean": 0.502,
+      "Wilson_B_aniso": "[31.338,40.062,18.982,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 28.672,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 41.677,
+      "bulk_solvent_k": 0.373,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.7,
+      "data_completeness": 99.39,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 35528,
+      "number_reflns_R_free": 1780,
+      "percent_RSRZ_outliers": 3.06,
+      "percent_free_reflections": 4.98,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.61% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.46,
+      "bonds_RMSZ": 0.28,
+      "clashscore": 3.01,
+      "num_H_reduce": 2431,
+      "num_angles_RMSZ": 3575,
+      "num_bonds_RMSZ": 2625,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2026-02-26T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-04-22T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-04-22T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "24AJ",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 41964352,
+    "rcsb_id": "24AJ"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2897,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 327,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 327,
+    "deposited_solvent_atom_count": 342,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.9791,
+    "diffrn_radiation_wavelength_minimum": 0.9791,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 11,
+    "molecular_weight": 36.98,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "NA"
+    ],
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.02,
+    "nonpolymer_molecular_weight_minimum": 0.02,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 36.93,
+    "polymer_molecular_weight_minimum": 36.93,
+    "polymer_monomer_count_maximum": 327,
+    "polymer_monomer_count_minimum": 327,
+    "resolution_combined": [
+      1.83
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-2000",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.83
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "CN",
+    "id": "primary",
+    "journal_abbrev": "Acta Biochim.Biophys.Sin.",
+    "journal_id_ISSN": "1745-7270",
+    "pdbx_database_id_DOI": "10.3724/abbs.2026058",
+    "pdbx_database_id_PubMed": 41964352,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Lan, C.",
+      "Chen, Z.",
+      "Wang, G.",
+      "Ding, J."
+    ],
+    "rcsb_journal_abbrev": "Acta Biochim Biophys Sin (Shanghai)",
+    "title": "Biochemical and structural studies reveal the substrate specificity and catalytic mechanism of MYG1 as a two-metal ion-dependent 3'\u21925' exonuclease.",
+    "year": 2026
+  },
+  "refine": [
+    {
+      "B_iso_mean": 33.73,
+      "ls_R_factor_R_free": 0.2183,
+      "ls_R_factor_R_work": 0.1851,
+      "ls_R_factor_obs": 0.1868,
+      "ls_d_res_high": 1.83,
+      "ls_d_res_low": 48.87,
+      "ls_number_reflns_R_free": 1779,
+      "ls_number_reflns_R_work": 33749,
+      "ls_number_reflns_obs": 35528,
+      "ls_percent_reflns_R_free": 5.01,
+      "ls_percent_reflns_obs": 99.4,
+      "overall_SU_ML": 0.2137,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.34,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 24.2951,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.83,
+      "d_res_low": 48.87,
+      "number_atoms_solvent": 342,
+      "number_atoms_total": 2897,
+      "pdbx_number_atoms_ligand": 2,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2553,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0066,
+      "number": 2625,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.7927,
+      "number": 3575,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0533,
+      "number": 383,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0089,
+      "number": 471,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 5.433,
+      "number": 358,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 28.67,
+      "d_resolution_high": 1.83,
+      "d_resolution_low": 48.87,
+      "number_obs": 35587,
+      "pdbx_CC_half": 0.99,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 18.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 10.8,
+      "percent_possible_obs": 99.5
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.83,
+      "d_res_low": 1.89,
+      "number_unique_obs": 2562,
+      "pdbx_CC_half": 0.6,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 2,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of nuclease MYG1 bound to Na+"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "HYDROLASE",
+    "text": "MYG1, nuclease, DHH family, HYDROLASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 20,
+    "space_group_name_H_M": "C 2 2 21",
+    "space_group_name_Hall": "C 2c 2"
+  },
+  "rcsb_id": "24AJ"
+}

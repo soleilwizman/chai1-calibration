@@ -1,0 +1,462 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0009-0005-1995-1476",
+      "name": "Zhang, Y.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0009-0001-4884-3985",
+      "name": "Liu, J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0003-4002-3648",
+      "name": "Cao, L.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.7,
+    "angle_gamma": 90.0,
+    "length_a": 29.501,
+    "length_b": 65.893,
+    "length_c": 29.513
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Zhang, Y.",
+        "Cao, L."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "De novo design of ligand binder and sensor usign a physically generative approach"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9V3A",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9v3a/pdb",
+      "pdbx_database_accession": "pdb_00009v3a"
+    },
+    {
+      "database_code": "D_1300059162",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 181.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-05-25T00:00:00.000+00:00",
+      "type": "RIGAKU HyPix-6000HE"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "1.54184",
+      "source": "ROTATING ANODE",
+      "type": "Cu FINE FOCUS"
+    }
+  ],
+  "entry": {
+    "id": "9V3A"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.05,
+      "density_percent_sol": 40.11,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "BATCH MODE",
+      "pdbx_details": "25.5% (w/v) PEG 4000, 170 mM Ammonium sulfate, 15% (v/v) Glycerol",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-05-27T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "China",
+      "funding_organization": "Ministry of Science and Technology (MoST, China)",
+      "grant_number": "2022YFA1303700",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBC",
+    "recvd_initial_deposition_date": "2025-05-21T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "de novo designed model",
+      "id": 1,
+      "source_name": "Other",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-05-19T12:31:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2016,
+      "DCC_Rfree": 0.2338,
+      "EDS_R": 0.2025,
+      "EDS_res_high": 2.0,
+      "EDS_res_low": 26.93,
+      "Fo_Fc_correlation": 0.936,
+      "I_over_sigma": "6.03(1.99A)",
+      "Padilla_Yeates_L2_mean": 0.321,
+      "Padilla_Yeates_L_mean": 0.49,
+      "Wilson_B_aniso": "[18.668,26.635,11.047,0.000,-0.917,0.000]",
+      "Wilson_B_estimate": 17.853,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 32.356,
+      "bulk_solvent_k": 0.294,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.83,
+      "data_completeness": 98.92,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 7593,
+      "number_reflns_R_free": 774,
+      "percent_RSRZ_outliers": 0.83,
+      "percent_free_reflections": 10.08,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 11.92% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "l,k,-h:0.007;h,-k,-l:0.063;l,-k,h:0.032"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.61,
+      "bonds_RMSZ": 0.64,
+      "clashscore": 3.08,
+      "num_H_reduce": 983,
+      "num_angles_RMSZ": 1274,
+      "num_bonds_RMSZ": 950,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.05
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-05-21T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-05-27T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-05-27T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9V3A",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9V3A"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1157,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 120,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 123,
+    "deposited_solvent_atom_count": 194,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 14.33,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.18,
+    "nonpolymer_molecular_weight_minimum": 0.09,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 13.97,
+    "polymer_molecular_weight_minimum": 13.97,
+    "polymer_monomer_count_maximum": 123,
+    "polymer_monomer_count_minimum": 123,
+    "resolution_combined": [
+      2.0
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "COOT",
+      "CRYSALISPRO",
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.0
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0009-0005-1995-1476",
+      "0000-0003-4002-3648"
+    ],
+    "rcsb_authors": [
+      "Zhang, Y.",
+      "Cao, L."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "De novo design of ligand binder and sensor usign a physically generative approach"
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2341,
+      "ls_R_factor_R_work": 0.2021,
+      "ls_d_res_high": 2.0,
+      "ls_d_res_low": 26.93,
+      "ls_number_reflns_R_free": 774,
+      "ls_number_reflns_obs": 7301,
+      "ls_percent_reflns_R_free": 10.19,
+      "ls_percent_reflns_obs": 98.96,
+      "overall_SU_ML": 0.24,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 0.06,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 25.13,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.0,
+      "d_res_low": 26.93,
+      "number_atoms_solvent": 194,
+      "number_atoms_total": 1157,
+      "pdbx_number_atoms_ligand": 25,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 938,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "number": 953,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.887,
+      "number": 1278,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 16.942,
+      "number": 369,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.045,
+      "number": 143,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.006,
+      "number": 162,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 17.91,
+      "d_resolution_high": 2.0,
+      "d_resolution_low": 26.93,
+      "number_obs": 7301,
+      "pdbx_CC_half": 0.996,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.88,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.1,
+      "percent_possible_obs": 98.96
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.1238,
+      "d_res_high": 2.0,
+      "d_res_low": 2.13,
+      "meanI_over_sigI_obs": 6.83,
+      "number_unique_obs": 1121,
+      "pdbx_CC_half": 0.969,
+      "pdbx_Rpim_I_all": 0.0798,
+      "pdbx_Rrim_I_all": 0.1481,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20"
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "model building",
+      "name": "PHENIX",
+      "pdbx_ordinal": 3,
+      "version": "1.20"
+    },
+    {
+      "classification": "model building",
+      "name": "Coot",
+      "pdbx_ordinal": 4,
+      "version": "0.9.8.1"
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    },
+    {
+      "classification": "data reduction",
+      "name": "CrysalisPro",
+      "pdbx_ordinal": 6
+    },
+    {
+      "classification": "data scaling",
+      "name": "CrysalisPro",
+      "pdbx_ordinal": 7
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of de novo designed serotonin binder SROb2_26_L7F"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DE NOVO PROTEIN",
+    "text": "small molecule binding complex, de novo protein, serotonin binding protein"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1"
+  },
+  "rcsb_id": "9V3A"
+}

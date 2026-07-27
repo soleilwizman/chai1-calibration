@@ -1,0 +1,5792 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "GSGFWEEFESLQKQEVKNLHQRLEGQRPENKGKNRYKNILPFDHSRVILQGRDSNIPGSDYINANYIKNQLLGPDENAKTYIASQGCLEATVNDFWQMAWQENSRVIVMTTREVEKGRNKCVPYWPEVGMQRAYGPYSVTNCGEHDTTEYKLRTLQVSPLDNGDLIREIWHYQYLSWPDHGVPSEPGGVLSFLDQINQRQESLPHAGPIIVHSSAGIGRTGTIIVIDMLMENISTKGLDCDIDIQKTIQMVRAQRSGMVQTEAQYKFIYVAIAQFIETTKKKLEVLQS",
+    "pdbx_seq_one_letter_code_can": "GSGFWEEFESLQKQEVKNLHQRLEGQRPENKGKNRYKNILPFDHSRVILQGRDSNIPGSDYINANYIKNQLLGPDENAKTYIASQGCLEATVNDFWQMAWQENSRVIVMTTREVEKGRNKCVPYWPEVGMQRAYGPYSVTNCGEHDTTEYKLRTLQVSPLDNGDLIREIWHYQYLSWPDHGVPSEPGGVLSFLDQINQRQESLPHAGPIIVHSSAGIGRTGTIIVIDMLMENISTKGLDCDIDIQKTIQMVRAQRSGMVQTEAQYKFIYVAIAQFIETTKKKLEVLQS",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 1,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 288,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "human",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 288,
+      "pdbx_gene_src_gene": "PTPN6, HCP, PTP1C",
+      "pdbx_gene_src_ncbi_taxonomy_id": "9606",
+      "pdbx_gene_src_scientific_name": "Homo sapiens",
+      "pdbx_host_org_ncbi_taxonomy_id": "562",
+      "pdbx_host_org_scientific_name": "Escherichia coli",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 24034,
+      "identity": 100
+    },
+    {
+      "cluster_id": 6112,
+      "identity": 95
+    },
+    {
+      "cluster_id": 5935,
+      "identity": 90
+    },
+    {
+      "cluster_id": 8619,
+      "identity": 70
+    },
+    {
+      "cluster_id": 951,
+      "identity": 50
+    },
+    {
+      "cluster_id": 1295,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 288,
+      "ncbi_common_names": [
+        "Bacillus coli",
+        "Bacterium coli",
+        "Bacterium coli commune",
+        "E. coli",
+        "Enterococcus coli",
+        "Escherichia/Shigella coli"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli",
+      "ncbi_taxonomy_id": 562,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "human",
+      "end_seq_num": 288,
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "PTPN6"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "HCP"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "PTP1C"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 32.918,
+    "pdbx_description": "Tyrosine-protein phosphatase non-receptor type 6",
+    "pdbx_ec": "3.1.3.48",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "3",
+        "name": "Hydrolases"
+      },
+      {
+        "depth": 2,
+        "id": "3.1",
+        "name": "Acting on ester bonds"
+      },
+      {
+        "depth": 3,
+        "id": "3.1.3",
+        "name": "Phosphoric-monoester hydrolases"
+      },
+      {
+        "depth": 4,
+        "id": "3.1.3.48",
+        "name": "protein-tyrosine-phosphatase"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Tyrosine-protein phosphatase non-receptor type 6",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "Hematopoietic cell protein-tyrosine phosphatase",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Protein-tyrosine phosphatase 1C",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "PTP-1C",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Protein-tyrosine phosphatase SHP-1",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "SH-PTP1",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "3.1.3.48",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Tyrosine-protein phosphatase non-receptor type 6"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P29350",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 286,
+          "ref_beg_seq_id": 243
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF00102",
+      "assignment_version": "34.0",
+      "name": "Protein-tyrosine phosphatase (Y_phosphatase)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0106015",
+      "name": "negative regulation of inflammatory response to wounding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0031347",
+          "name": "regulation of defense response"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0032101",
+          "name": "regulation of response to external stimulus"
+        },
+        {
+          "id": "GO:0050728",
+          "name": "negative regulation of inflammatory response"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:1903034",
+          "name": "regulation of response to wounding"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0080134",
+          "name": "regulation of response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009611",
+          "name": "response to wounding"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0106014",
+          "name": "regulation of inflammatory response to wounding"
+        },
+        {
+          "id": "GO:0006952",
+          "name": "defense response"
+        },
+        {
+          "id": "GO:0048585",
+          "name": "negative regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0009605",
+          "name": "response to external stimulus"
+        },
+        {
+          "id": "GO:0050727",
+          "name": "regulation of inflammatory response"
+        },
+        {
+          "id": "GO:1903035",
+          "name": "negative regulation of response to wounding"
+        },
+        {
+          "id": "GO:0106015",
+          "name": "negative regulation of inflammatory response to wounding"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0032102",
+          "name": "negative regulation of response to external stimulus"
+        },
+        {
+          "id": "GO:0090594",
+          "name": "inflammatory response to wounding"
+        },
+        {
+          "id": "GO:0031348",
+          "name": "negative regulation of defense response"
+        },
+        {
+          "id": "GO:0006954",
+          "name": "inflammatory response"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0019221",
+      "name": "cytokine-mediated signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0007166",
+          "name": "cell surface receptor signaling pathway"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0034097",
+          "name": "response to cytokine"
+        },
+        {
+          "id": "GO:0019221",
+          "name": "cytokine-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:1901652",
+          "name": "response to peptide"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0071345",
+          "name": "cellular response to cytokine stimulus"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032720",
+      "name": "negative regulation of tumor necrosis factor production",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0032680",
+          "name": "regulation of tumor necrosis factor production"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0032720",
+          "name": "negative regulation of tumor necrosis factor production"
+        },
+        {
+          "id": "GO:0001816",
+          "name": "cytokine production"
+        },
+        {
+          "id": "GO:0001817",
+          "name": "regulation of cytokine production"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0071706",
+          "name": "tumor necrosis factor superfamily cytokine production"
+        },
+        {
+          "id": "GO:0001818",
+          "name": "negative regulation of cytokine production"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0032640",
+          "name": "tumor necrosis factor production"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0010629",
+          "name": "negative regulation of gene expression"
+        },
+        {
+          "id": "GO:1903555",
+          "name": "regulation of tumor necrosis factor superfamily cytokine production"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:1903556",
+          "name": "negative regulation of tumor necrosis factor superfamily cytokine production"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0051241",
+          "name": "negative regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016020",
+      "name": "membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005911",
+      "name": "cell-cell junction",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005911",
+          "name": "cell-cell junction"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0070161",
+          "name": "anchoring junction"
+        },
+        {
+          "id": "GO:0030054",
+          "name": "cell junction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005001",
+      "name": "transmembrane receptor protein tyrosine phosphatase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042578",
+          "name": "phosphoric ester hydrolase activity"
+        },
+        {
+          "id": "GO:0060089",
+          "name": "molecular transducer activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0016791",
+          "name": "phosphatase activity"
+        },
+        {
+          "id": "GO:0038023",
+          "name": "signaling receptor activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0004721",
+          "name": "phosphoprotein phosphatase activity"
+        },
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004725",
+          "name": "protein tyrosine phosphatase activity"
+        },
+        {
+          "id": "GO:0019198",
+          "name": "transmembrane receptor protein phosphatase activity"
+        },
+        {
+          "id": "GO:0004888",
+          "name": "transmembrane signaling receptor activity"
+        },
+        {
+          "id": "GO:0005001",
+          "name": "transmembrane receptor protein tyrosine phosphatase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1905867",
+      "name": "epididymis development",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:1905867",
+          "name": "epididymis development"
+        },
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0007275",
+          "name": "multicellular organism development"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0035295",
+          "name": "tube development"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0160108",
+          "name": "animal gross anatomical part developmental process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032715",
+      "name": "negative regulation of interleukin-6 production",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032635",
+          "name": "interleukin-6 production"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0032675",
+          "name": "regulation of interleukin-6 production"
+        },
+        {
+          "id": "GO:0001817",
+          "name": "regulation of cytokine production"
+        },
+        {
+          "id": "GO:0001816",
+          "name": "cytokine production"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0001818",
+          "name": "negative regulation of cytokine production"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0032715",
+          "name": "negative regulation of interleukin-6 production"
+        },
+        {
+          "id": "GO:0010629",
+          "name": "negative regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0051241",
+          "name": "negative regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0070062",
+      "name": "extracellular exosome",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0070062",
+          "name": "extracellular exosome"
+        },
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:1903561",
+          "name": "extracellular vesicle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0043230",
+          "name": "extracellular organelle"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0065010",
+          "name": "extracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006470",
+      "name": "protein dephosphorylation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006470",
+          "name": "protein dephosphorylation"
+        },
+        {
+          "id": "GO:0043412",
+          "name": "macromolecule modification"
+        },
+        {
+          "id": "GO:0016311",
+          "name": "dephosphorylation"
+        },
+        {
+          "id": "GO:0006796",
+          "name": "phosphate-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0019538",
+          "name": "protein metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0036211",
+          "name": "protein modification process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042981",
+      "name": "regulation of apoptotic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0042981",
+          "name": "regulation of apoptotic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0006915",
+          "name": "apoptotic process"
+        },
+        {
+          "id": "GO:0043067",
+          "name": "regulation of programmed cell death"
+        },
+        {
+          "id": "GO:0008219",
+          "name": "cell death"
+        },
+        {
+          "id": "GO:0012501",
+          "name": "programmed cell death"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005737",
+      "name": "cytoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0001784",
+      "name": "phosphotyrosine residue binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051219",
+          "name": "phosphoprotein binding"
+        },
+        {
+          "id": "GO:0001784",
+          "name": "phosphotyrosine residue binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0045309",
+          "name": "protein phosphorylated amino acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016130",
+      "name": "Protein-tyrosine phosphatase, active site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016130",
+          "name": "Protein-tyrosine phosphatase, active site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0017124",
+      "name": "SH3 domain binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0017124",
+          "name": "SH3 domain binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0019904",
+          "name": "protein domain specific binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0033007",
+      "name": "negative regulation of mast cell activation involved in immune response",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0002697",
+          "name": "regulation of immune effector process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0002694",
+          "name": "regulation of leukocyte activation"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0050865",
+          "name": "regulation of cell activation"
+        },
+        {
+          "id": "GO:0002263",
+          "name": "cell activation involved in immune response"
+        },
+        {
+          "id": "GO:0002274",
+          "name": "myeloid leukocyte activation"
+        },
+        {
+          "id": "GO:0045321",
+          "name": "leukocyte activation"
+        },
+        {
+          "id": "GO:0002366",
+          "name": "leukocyte activation involved in immune response"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0045576",
+          "name": "mast cell activation"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0002682",
+          "name": "regulation of immune system process"
+        },
+        {
+          "id": "GO:0033003",
+          "name": "regulation of mast cell activation"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0006955",
+          "name": "immune response"
+        },
+        {
+          "id": "GO:0048585",
+          "name": "negative regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0050777",
+          "name": "negative regulation of immune response"
+        },
+        {
+          "id": "GO:0001775",
+          "name": "cell activation"
+        },
+        {
+          "id": "GO:0002698",
+          "name": "negative regulation of immune effector process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0002275",
+          "name": "myeloid cell activation involved in immune response"
+        },
+        {
+          "id": "GO:0002252",
+          "name": "immune effector process"
+        },
+        {
+          "id": "GO:0050866",
+          "name": "negative regulation of cell activation"
+        },
+        {
+          "id": "GO:0033004",
+          "name": "negative regulation of mast cell activation"
+        },
+        {
+          "id": "GO:0002279",
+          "name": "mast cell activation involved in immune response"
+        },
+        {
+          "id": "GO:0002683",
+          "name": "negative regulation of immune system process"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0033007",
+          "name": "negative regulation of mast cell activation involved in immune response"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0050776",
+          "name": "regulation of immune response"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0051241",
+          "name": "negative regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0002695",
+          "name": "negative regulation of leukocyte activation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042105",
+      "name": "alpha-beta T cell receptor complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0098797",
+          "name": "plasma membrane protein complex"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0098796",
+          "name": "membrane protein complex"
+        },
+        {
+          "id": "GO:0042105",
+          "name": "alpha-beta T cell receptor complex"
+        },
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0098802",
+          "name": "plasma membrane signaling receptor complex"
+        },
+        {
+          "id": "GO:0043235",
+          "name": "signaling receptor complex"
+        },
+        {
+          "id": "GO:0042101",
+          "name": "T cell receptor complex"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0070372",
+      "name": "regulation of ERK1 and ERK2 cascade",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0023051",
+          "name": "regulation of signaling"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0009966",
+          "name": "regulation of signal transduction"
+        },
+        {
+          "id": "GO:0043408",
+          "name": "regulation of MAPK cascade"
+        },
+        {
+          "id": "GO:0035556",
+          "name": "intracellular signal transduction"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:1902531",
+          "name": "regulation of intracellular signal transduction"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0141124",
+          "name": "intracellular signaling cassette"
+        },
+        {
+          "id": "GO:0000165",
+          "name": "MAPK cascade"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0010646",
+          "name": "regulation of cell communication"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0070371",
+          "name": "ERK1 and ERK2 cascade"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0070372",
+          "name": "regulation of ERK1 and ERK2 cascade"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0031665",
+      "name": "negative regulation of lipopolysaccharide-mediated signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0031664",
+          "name": "regulation of lipopolysaccharide-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0031665",
+          "name": "negative regulation of lipopolysaccharide-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0002831",
+          "name": "regulation of response to biotic stimulus"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0002832",
+          "name": "negative regulation of response to biotic stimulus"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0032101",
+          "name": "regulation of response to external stimulus"
+        },
+        {
+          "id": "GO:0033993",
+          "name": "response to lipid"
+        },
+        {
+          "id": "GO:0023057",
+          "name": "negative regulation of signaling"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0071222",
+          "name": "cellular response to lipopolysaccharide"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0009966",
+          "name": "regulation of signal transduction"
+        },
+        {
+          "id": "GO:0009607",
+          "name": "response to biotic stimulus"
+        },
+        {
+          "id": "GO:0010648",
+          "name": "negative regulation of cell communication"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:0031663",
+          "name": "lipopolysaccharide-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0071216",
+          "name": "cellular response to biotic stimulus"
+        },
+        {
+          "id": "GO:0009617",
+          "name": "response to bacterium"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0043207",
+          "name": "response to external biotic stimulus"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0023051",
+          "name": "regulation of signaling"
+        },
+        {
+          "id": "GO:0007166",
+          "name": "cell surface receptor signaling pathway"
+        },
+        {
+          "id": "GO:0048585",
+          "name": "negative regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0051707",
+          "name": "response to other organism"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0009605",
+          "name": "response to external stimulus"
+        },
+        {
+          "id": "GO:0071219",
+          "name": "cellular response to molecule of bacterial origin"
+        },
+        {
+          "id": "GO:0009968",
+          "name": "negative regulation of signal transduction"
+        },
+        {
+          "id": "GO:0032496",
+          "name": "response to lipopolysaccharide"
+        },
+        {
+          "id": "GO:1901701",
+          "name": "cellular response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0070887",
+          "name": "cellular response to chemical stimulus"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0032102",
+          "name": "negative regulation of response to external stimulus"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0071396",
+          "name": "cellular response to lipid"
+        },
+        {
+          "id": "GO:0010646",
+          "name": "regulation of cell communication"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0002237",
+          "name": "response to molecule of bacterial origin"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0031295",
+      "name": "T cell costimulation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0002694",
+          "name": "regulation of leukocyte activation"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0050865",
+          "name": "regulation of cell activation"
+        },
+        {
+          "id": "GO:1903039",
+          "name": "positive regulation of leukocyte cell-cell adhesion"
+        },
+        {
+          "id": "GO:0046649",
+          "name": "lymphocyte activation"
+        },
+        {
+          "id": "GO:0007159",
+          "name": "leukocyte cell-cell adhesion"
+        },
+        {
+          "id": "GO:0045321",
+          "name": "leukocyte activation"
+        },
+        {
+          "id": "GO:0022409",
+          "name": "positive regulation of cell-cell adhesion"
+        },
+        {
+          "id": "GO:0051251",
+          "name": "positive regulation of lymphocyte activation"
+        },
+        {
+          "id": "GO:0050867",
+          "name": "positive regulation of cell activation"
+        },
+        {
+          "id": "GO:0007155",
+          "name": "cell adhesion"
+        },
+        {
+          "id": "GO:0098609",
+          "name": "cell-cell adhesion"
+        },
+        {
+          "id": "GO:0042110",
+          "name": "T cell activation"
+        },
+        {
+          "id": "GO:0002696",
+          "name": "positive regulation of leukocyte activation"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0002682",
+          "name": "regulation of immune system process"
+        },
+        {
+          "id": "GO:0022407",
+          "name": "regulation of cell-cell adhesion"
+        },
+        {
+          "id": "GO:0002684",
+          "name": "positive regulation of immune system process"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0050870",
+          "name": "positive regulation of T cell activation"
+        },
+        {
+          "id": "GO:0045785",
+          "name": "positive regulation of cell adhesion"
+        },
+        {
+          "id": "GO:0030155",
+          "name": "regulation of cell adhesion"
+        },
+        {
+          "id": "GO:0001775",
+          "name": "cell activation"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0050863",
+          "name": "regulation of T cell activation"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0031294",
+          "name": "lymphocyte costimulation"
+        },
+        {
+          "id": "GO:1903037",
+          "name": "regulation of leukocyte cell-cell adhesion"
+        },
+        {
+          "id": "GO:0051240",
+          "name": "positive regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0031295",
+          "name": "T cell costimulation"
+        },
+        {
+          "id": "GO:0051249",
+          "name": "regulation of lymphocyte activation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0035580",
+      "name": "specific granule lumen",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0031983",
+          "name": "vesicle lumen"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0060205",
+          "name": "cytoplasmic vesicle lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0034774",
+          "name": "secretory granule lumen"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0035580",
+          "name": "specific granule lumen"
+        },
+        {
+          "id": "GO:0030141",
+          "name": "secretory granule"
+        },
+        {
+          "id": "GO:0099503",
+          "name": "secretory vesicle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        },
+        {
+          "id": "GO:0042581",
+          "name": "specific granule"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR052123",
+      "name": "Non-receptor Tyrosine Phosphatase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR052123",
+          "name": "Non-receptor Tyrosine Phosphatase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000278",
+      "name": "mitotic cell cycle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007049",
+          "name": "cell cycle"
+        },
+        {
+          "id": "GO:0000278",
+          "name": "mitotic cell cycle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005730",
+      "name": "nucleolus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005730",
+          "name": "nucleolus"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004726",
+      "name": "non-membrane spanning protein tyrosine phosphatase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042578",
+          "name": "phosphoric ester hydrolase activity"
+        },
+        {
+          "id": "GO:0004721",
+          "name": "phosphoprotein phosphatase activity"
+        },
+        {
+          "id": "GO:0004726",
+          "name": "non-membrane spanning protein tyrosine phosphatase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004725",
+          "name": "protein tyrosine phosphatase activity"
+        },
+        {
+          "id": "GO:0016791",
+          "name": "phosphatase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030154",
+      "name": "cell differentiation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036860",
+      "name": "SH2 domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036860",
+          "name": "SH2 domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR003595",
+      "name": "Protein-tyrosine phosphatase, catalytic",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR003595",
+          "name": "Protein-tyrosine phosphatase, catalytic"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000980",
+      "name": "SH2 domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR000980",
+          "name": "SH2 domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042169",
+      "name": "SH2 domain binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0042169",
+          "name": "SH2 domain binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0019904",
+          "name": "protein domain specific binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0045824",
+      "name": "negative regulation of innate immune response",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0031347",
+          "name": "regulation of defense response"
+        },
+        {
+          "id": "GO:0002831",
+          "name": "regulation of response to biotic stimulus"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0002832",
+          "name": "negative regulation of response to biotic stimulus"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0032101",
+          "name": "regulation of response to external stimulus"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0009607",
+          "name": "response to biotic stimulus"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0080134",
+          "name": "regulation of response to stress"
+        },
+        {
+          "id": "GO:0045087",
+          "name": "innate immune response"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0002682",
+          "name": "regulation of immune system process"
+        },
+        {
+          "id": "GO:0043207",
+          "name": "response to external biotic stimulus"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0048585",
+          "name": "negative regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0006955",
+          "name": "immune response"
+        },
+        {
+          "id": "GO:0051707",
+          "name": "response to other organism"
+        },
+        {
+          "id": "GO:0006952",
+          "name": "defense response"
+        },
+        {
+          "id": "GO:0045088",
+          "name": "regulation of innate immune response"
+        },
+        {
+          "id": "GO:0050777",
+          "name": "negative regulation of immune response"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0140546",
+          "name": "defense response to symbiont"
+        },
+        {
+          "id": "GO:0009605",
+          "name": "response to external stimulus"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0002683",
+          "name": "negative regulation of immune system process"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0098542",
+          "name": "defense response to other organism"
+        },
+        {
+          "id": "GO:0032102",
+          "name": "negative regulation of response to external stimulus"
+        },
+        {
+          "id": "GO:0031348",
+          "name": "negative regulation of defense response"
+        },
+        {
+          "id": "GO:0050776",
+          "name": "regulation of immune response"
+        },
+        {
+          "id": "GO:0045824",
+          "name": "negative regulation of innate immune response"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0050839",
+      "name": "cell adhesion molecule binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050839",
+          "name": "cell adhesion molecule binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005886",
+      "name": "plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0051897",
+      "name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0010647",
+          "name": "positive regulation of cell communication"
+        },
+        {
+          "id": "GO:0051896",
+          "name": "regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0009967",
+          "name": "positive regulation of signal transduction"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0009966",
+          "name": "regulation of signal transduction"
+        },
+        {
+          "id": "GO:0035556",
+          "name": "intracellular signal transduction"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:0048584",
+          "name": "positive regulation of response to stimulus"
+        },
+        {
+          "id": "GO:1902531",
+          "name": "regulation of intracellular signal transduction"
+        },
+        {
+          "id": "GO:0141124",
+          "name": "intracellular signaling cassette"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0023051",
+          "name": "regulation of signaling"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:1902533",
+          "name": "positive regulation of intracellular signal transduction"
+        },
+        {
+          "id": "GO:0051897",
+          "name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0010646",
+          "name": "regulation of cell communication"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043491",
+          "name": "phosphatidylinositol 3-kinase/protein kinase B signal transduction"
+        },
+        {
+          "id": "GO:0023056",
+          "name": "positive regulation of signaling"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005654",
+      "name": "nucleoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005654",
+          "name": "nucleoplasm"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032991",
+      "name": "protein-containing complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004725",
+      "name": "protein tyrosine phosphatase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042578",
+          "name": "phosphoric ester hydrolase activity"
+        },
+        {
+          "id": "GO:0004721",
+          "name": "phosphoprotein phosphatase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004725",
+          "name": "protein tyrosine phosphatase activity"
+        },
+        {
+          "id": "GO:0016791",
+          "name": "phosphatase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR012152",
+      "name": "Protein-tyrosine phosphatase, non-receptor type-6, -11",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR012152",
+          "name": "Protein-tyrosine phosphatase, non-receptor type-6, -11"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1902564",
+      "name": "negative regulation of neutrophil activation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0042119",
+          "name": "neutrophil activation"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0002694",
+          "name": "regulation of leukocyte activation"
+        },
+        {
+          "id": "GO:1902563",
+          "name": "regulation of neutrophil activation"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:1902564",
+          "name": "negative regulation of neutrophil activation"
+        },
+        {
+          "id": "GO:0050865",
+          "name": "regulation of cell activation"
+        },
+        {
+          "id": "GO:0002274",
+          "name": "myeloid leukocyte activation"
+        },
+        {
+          "id": "GO:0045321",
+          "name": "leukocyte activation"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0002682",
+          "name": "regulation of immune system process"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0001775",
+          "name": "cell activation"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0050866",
+          "name": "negative regulation of cell activation"
+        },
+        {
+          "id": "GO:0002683",
+          "name": "negative regulation of immune system process"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0051241",
+          "name": "negative regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0002695",
+          "name": "negative regulation of leukocyte activation"
+        },
+        {
+          "id": "GO:0036230",
+          "name": "granulocyte activation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008284",
+      "name": "positive regulation of cell population proliferation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0008283",
+          "name": "cell population proliferation"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0008284",
+          "name": "positive regulation of cell population proliferation"
+        },
+        {
+          "id": "GO:0042127",
+          "name": "regulation of cell population proliferation"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0042110",
+      "name": "T cell activation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0042110",
+          "name": "T cell activation"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0001775",
+          "name": "cell activation"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0046649",
+          "name": "lymphocyte activation"
+        },
+        {
+          "id": "GO:0045321",
+          "name": "leukocyte activation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0018108",
+      "name": "peptidyl-tyrosine phosphorylation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006468",
+          "name": "protein phosphorylation"
+        },
+        {
+          "id": "GO:0016310",
+          "name": "phosphorylation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0018212",
+          "name": "peptidyl-tyrosine modification"
+        },
+        {
+          "id": "GO:0043412",
+          "name": "macromolecule modification"
+        },
+        {
+          "id": "GO:0018193",
+          "name": "peptidyl-amino acid modification"
+        },
+        {
+          "id": "GO:0006796",
+          "name": "phosphate-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0019538",
+          "name": "protein metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0018108",
+          "name": "peptidyl-tyrosine phosphorylation"
+        },
+        {
+          "id": "GO:0036211",
+          "name": "protein modification process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR029021",
+      "name": "Protein-tyrosine phosphatase-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR029021",
+          "name": "Protein-tyrosine phosphatase-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1904724",
+      "name": "tertiary granule lumen",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:1904724",
+          "name": "tertiary granule lumen"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0097708",
+          "name": "intracellular vesicle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0070820",
+          "name": "tertiary granule"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0031410",
+          "name": "cytoplasmic vesicle"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0030141",
+          "name": "secretory granule"
+        },
+        {
+          "id": "GO:0099503",
+          "name": "secretory vesicle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0031982",
+          "name": "vesicle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0019901",
+      "name": "protein kinase binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0019900",
+          "name": "kinase binding"
+        },
+        {
+          "id": "GO:0019899",
+          "name": "enzyme binding"
+        },
+        {
+          "id": "GO:0019901",
+          "name": "protein kinase binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0050859",
+      "name": "negative regulation of B cell receptor signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050855",
+          "name": "regulation of B cell receptor signaling pathway"
+        },
+        {
+          "id": "GO:0002768",
+          "name": "immune response-regulating cell surface receptor signaling pathway"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0023057",
+          "name": "negative regulation of signaling"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0009966",
+          "name": "regulation of signal transduction"
+        },
+        {
+          "id": "GO:0050854",
+          "name": "regulation of antigen receptor-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0050858",
+          "name": "negative regulation of antigen receptor-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0010648",
+          "name": "negative regulation of cell communication"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:0050859",
+          "name": "negative regulation of B cell receptor signaling pathway"
+        },
+        {
+          "id": "GO:0048584",
+          "name": "positive regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0002757",
+          "name": "immune response-activating signaling pathway"
+        },
+        {
+          "id": "GO:0002764",
+          "name": "immune response-regulating signaling pathway"
+        },
+        {
+          "id": "GO:0050778",
+          "name": "positive regulation of immune response"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0002682",
+          "name": "regulation of immune system process"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0002684",
+          "name": "positive regulation of immune system process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0023051",
+          "name": "regulation of signaling"
+        },
+        {
+          "id": "GO:0007166",
+          "name": "cell surface receptor signaling pathway"
+        },
+        {
+          "id": "GO:0002429",
+          "name": "immune response-activating cell surface receptor signaling pathway"
+        },
+        {
+          "id": "GO:0006955",
+          "name": "immune response"
+        },
+        {
+          "id": "GO:0048585",
+          "name": "negative regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0050853",
+          "name": "B cell receptor signaling pathway"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0009968",
+          "name": "negative regulation of signal transduction"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0002683",
+          "name": "negative regulation of immune system process"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0050776",
+          "name": "regulation of immune response"
+        },
+        {
+          "id": "GO:0010646",
+          "name": "regulation of cell communication"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0050851",
+          "name": "antigen receptor-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0002253",
+          "name": "activation of immune response"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0160162",
+      "name": "CD27 signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0007166",
+          "name": "cell surface receptor signaling pathway"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:0160162",
+          "name": "CD27 signaling pathway"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005576",
+      "name": "extracellular region",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008285",
+      "name": "negative regulation of cell population proliferation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008285",
+          "name": "negative regulation of cell population proliferation"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0008283",
+          "name": "cell population proliferation"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0042127",
+          "name": "regulation of cell population proliferation"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000242",
+      "name": "Tyrosine-specific protein phosphatase, PTPase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR000242",
+          "name": "Tyrosine-specific protein phosphatase, PTPase domain"
+        },
+        {
+          "depth": 1,
+          "id": "IPR000387",
+          "name": "Tyrosine-specific protein phosphatases domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0035335",
+      "name": "peptidyl-tyrosine dephosphorylation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006470",
+          "name": "protein dephosphorylation"
+        },
+        {
+          "id": "GO:0016311",
+          "name": "dephosphorylation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0043412",
+          "name": "macromolecule modification"
+        },
+        {
+          "id": "GO:0006796",
+          "name": "phosphate-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0019538",
+          "name": "protein metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0036211",
+          "name": "protein modification process"
+        },
+        {
+          "id": "GO:0035335",
+          "name": "peptidyl-tyrosine dephosphorylation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0060338",
+      "name": "regulation of type I interferon-mediated signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0031347",
+          "name": "regulation of defense response"
+        },
+        {
+          "id": "GO:0002831",
+          "name": "regulation of response to biotic stimulus"
+        },
+        {
+          "id": "GO:0044419",
+          "name": "biological process involved in interspecies interaction between organisms"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0032101",
+          "name": "regulation of response to external stimulus"
+        },
+        {
+          "id": "GO:0060338",
+          "name": "regulation of type I interferon-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0034097",
+          "name": "response to cytokine"
+        },
+        {
+          "id": "GO:0009966",
+          "name": "regulation of signal transduction"
+        },
+        {
+          "id": "GO:0009607",
+          "name": "response to biotic stimulus"
+        },
+        {
+          "id": "GO:0019221",
+          "name": "cytokine-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:0140888",
+          "name": "interferon-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0071357",
+          "name": "cellular response to type I interferon"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0080134",
+          "name": "regulation of response to stress"
+        },
+        {
+          "id": "GO:0045087",
+          "name": "innate immune response"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0002682",
+          "name": "regulation of immune system process"
+        },
+        {
+          "id": "GO:0071345",
+          "name": "cellular response to cytokine stimulus"
+        },
+        {
+          "id": "GO:0043207",
+          "name": "response to external biotic stimulus"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0023051",
+          "name": "regulation of signaling"
+        },
+        {
+          "id": "GO:0007166",
+          "name": "cell surface receptor signaling pathway"
+        },
+        {
+          "id": "GO:0006955",
+          "name": "immune response"
+        },
+        {
+          "id": "GO:0051707",
+          "name": "response to other organism"
+        },
+        {
+          "id": "GO:0006952",
+          "name": "defense response"
+        },
+        {
+          "id": "GO:0045088",
+          "name": "regulation of innate immune response"
+        },
+        {
+          "id": "GO:0001959",
+          "name": "regulation of cytokine-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0140546",
+          "name": "defense response to symbiont"
+        },
+        {
+          "id": "GO:0009605",
+          "name": "response to external stimulus"
+        },
+        {
+          "id": "GO:1901652",
+          "name": "response to peptide"
+        },
+        {
+          "id": "GO:0060759",
+          "name": "regulation of response to cytokine stimulus"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0098542",
+          "name": "defense response to other organism"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0060337",
+          "name": "type I interferon-mediated signaling pathway"
+        },
+        {
+          "id": "GO:0050776",
+          "name": "regulation of immune response"
+        },
+        {
+          "id": "GO:0010646",
+          "name": "regulation of cell communication"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0034340",
+          "name": "response to type I interferon"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000387",
+      "name": "Tyrosine-specific protein phosphatases domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR000387",
+          "name": "Tyrosine-specific protein phosphatases domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0007186",
+      "name": "G protein-coupled receptor signaling pathway",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0007186",
+          "name": "G protein-coupled receptor signaling pathway"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016525",
+      "name": "negative regulation of angiogenesis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0050793",
+          "name": "regulation of developmental process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0001525",
+          "name": "angiogenesis"
+        },
+        {
+          "id": "GO:1901342",
+          "name": "regulation of vasculature development"
+        },
+        {
+          "id": "GO:0007275",
+          "name": "multicellular organism development"
+        },
+        {
+          "id": "GO:0035239",
+          "name": "tube morphogenesis"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0051239",
+          "name": "regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0022603",
+          "name": "regulation of anatomical structure morphogenesis"
+        },
+        {
+          "id": "GO:0048731",
+          "name": "system development"
+        },
+        {
+          "id": "GO:0001568",
+          "name": "blood vessel development"
+        },
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:2000026",
+          "name": "regulation of multicellular organismal development"
+        },
+        {
+          "id": "GO:0048514",
+          "name": "blood vessel morphogenesis"
+        },
+        {
+          "id": "GO:0035295",
+          "name": "tube development"
+        },
+        {
+          "id": "GO:2000181",
+          "name": "negative regulation of blood vessel morphogenesis"
+        },
+        {
+          "id": "GO:0051093",
+          "name": "negative regulation of developmental process"
+        },
+        {
+          "id": "GO:0016525",
+          "name": "negative regulation of angiogenesis"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0001944",
+          "name": "vasculature development"
+        },
+        {
+          "id": "GO:0072359",
+          "name": "circulatory system development"
+        },
+        {
+          "id": "GO:1901343",
+          "name": "negative regulation of vasculature development"
+        },
+        {
+          "id": "GO:0009653",
+          "name": "anatomical structure morphogenesis"
+        },
+        {
+          "id": "GO:0045765",
+          "name": "regulation of angiogenesis"
+        },
+        {
+          "id": "GO:0048646",
+          "name": "anatomical structure formation involved in morphogenesis"
+        },
+        {
+          "id": "GO:0051241",
+          "name": "negative regulation of multicellular organismal process"
+        },
+        {
+          "id": "GO:0160108",
+          "name": "animal gross anatomical part developmental process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:2000045",
+      "name": "regulation of G1/S transition of mitotic cell cycle",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:1901987",
+          "name": "regulation of cell cycle phase transition"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0010564",
+          "name": "regulation of cell cycle process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044770",
+          "name": "cell cycle phase transition"
+        },
+        {
+          "id": "GO:1902806",
+          "name": "regulation of cell cycle G1/S phase transition"
+        },
+        {
+          "id": "GO:0044843",
+          "name": "cell cycle G1/S phase transition"
+        },
+        {
+          "id": "GO:0000278",
+          "name": "mitotic cell cycle"
+        },
+        {
+          "id": "GO:1901990",
+          "name": "regulation of mitotic cell cycle phase transition"
+        },
+        {
+          "id": "GO:0007346",
+          "name": "regulation of mitotic cell cycle"
+        },
+        {
+          "id": "GO:2000045",
+          "name": "regulation of G1/S transition of mitotic cell cycle"
+        },
+        {
+          "id": "GO:1903047",
+          "name": "mitotic cell cycle process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0007049",
+          "name": "cell cycle"
+        },
+        {
+          "id": "GO:0051726",
+          "name": "regulation of cell cycle"
+        },
+        {
+          "id": "GO:0000082",
+          "name": "G1/S transition of mitotic cell cycle"
+        },
+        {
+          "id": "GO:0022402",
+          "name": "cell cycle process"
+        },
+        {
+          "id": "GO:0044772",
+          "name": "mitotic cell cycle phase transition"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005634",
+      "name": "nucleus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0140031",
+      "name": "phosphorylation-dependent protein binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0140031",
+          "name": "phosphorylation-dependent protein binding"
+        },
+        {
+          "id": "GO:0005515",
+          "name": "protein binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0140030",
+          "name": "modification-dependent protein binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "8YHI",
+    "rcsb_id": "8YHI_1",
+    "uniprot_ids": [
+      "P29350"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P29350",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.9930555555555556,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.48067226890756304
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF00102",
+      "name": "Protein-tyrosine phosphatase (Y_phosphatase)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 30,
+          "end_seq_id": 274
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "expression tag",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 2
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.82,
+            -0.87,
+            -0.36,
+            -0.7,
+            -1.44,
+            -1.73,
+            -1.73,
+            -0.88,
+            -1.62,
+            -1.62,
+            -1.11,
+            -1.89,
+            -1.89,
+            -1.96,
+            -1.14,
+            -1.14,
+            -1.66,
+            -1.61,
+            -1.72,
+            -2.32,
+            -2.36,
+            -2.36,
+            -2.29,
+            -2.76,
+            -2.8,
+            -3.14,
+            -3.26,
+            -2.9,
+            -3.16,
+            -3.16,
+            -2.27,
+            -1.41,
+            -1.54,
+            -0.8,
+            -0.8,
+            -0.66,
+            -0.6,
+            -0.67,
+            0.19,
+            0.19,
+            0.19,
+            -0.02,
+            -0.38,
+            -0.49,
+            -0.52,
+            -0.52,
+            -0.41,
+            -0.38,
+            -1.06,
+            -1.52,
+            -1.22,
+            -1.57,
+            -1.21,
+            -0.32,
+            -0.62,
+            -0.03,
+            -0.92,
+            -0.89,
+            -0.34,
+            -0.69,
+            -0.69,
+            -0.93,
+            -1.01,
+            -0.2,
+            -0.44,
+            -0.23,
+            -0.48,
+            -1.37,
+            -1.32,
+            -0.73,
+            -0.78,
+            -1.28,
+            -1.84,
+            -1.3,
+            -0.92,
+            -0.62,
+            -0.62,
+            -0.28,
+            -0.2,
+            0.66,
+            0.34,
+            0.69,
+            0.11,
+            0.38,
+            0.08,
+            0.08,
+            0.43,
+            0.06,
+            -0.76,
+            -0.16,
+            -0.16,
+            -0.18,
+            -1.03,
+            -1.03,
+            -1.03,
+            -1.43,
+            -1.83,
+            -0.98,
+            -0.69,
+            -0.42,
+            -0.11,
+            0.2,
+            0.51,
+            0.4,
+            0.1,
+            1.07,
+            0.21,
+            -0.72,
+            -1.23,
+            -1.94,
+            -2.26,
+            -2.61,
+            -1.83,
+            -0.98,
+            -1.62,
+            -1.38,
+            -1.04,
+            -1.18,
+            -1.07,
+            -0.21,
+            0.18,
+            0.11,
+            -0.74,
+            -1.07,
+            -0.72,
+            -0.77,
+            -0.63,
+            -0.42,
+            -1.03,
+            -1.08,
+            -0.82,
+            -0.51,
+            -0.4,
+            -0.32,
+            -0.22,
+            -0.57,
+            -0.74,
+            -0.99,
+            -0.98,
+            -1.52,
+            -1.83,
+            -1.59,
+            -2.3,
+            -1.83,
+            -1.94,
+            -1.67,
+            -0.86,
+            -1.17,
+            -0.62,
+            -0.32,
+            -0.36,
+            0.5,
+            -0.31,
+            -0.2,
+            -0.17,
+            -0.98,
+            -0.17,
+            -0.13,
+            -0.54,
+            -0.76,
+            -0.68,
+            -0.39,
+            -0.36,
+            -0.46,
+            -0.46,
+            -1.02,
+            -1.1,
+            -0.69,
+            -0.4,
+            -1.08,
+            -1.37,
+            -1.37,
+            -1.27,
+            -0.41,
+            -0.44,
+            -0.96,
+            -1.26,
+            -1.33,
+            -1.2,
+            -0.86,
+            -0.03,
+            0.43,
+            -0.12,
+            0.37,
+            0.88,
+            0.88,
+            0.67,
+            1.21,
+            0.87,
+            0.01,
+            -0.91,
+            -1.21,
+            -1.91,
+            -2.42,
+            -1.61,
+            -1.4,
+            -2.26,
+            -1.67,
+            -1.32,
+            -1.0,
+            -0.11,
+            0.78,
+            1.33,
+            0.56,
+            0.64,
+            0.91,
+            0.91,
+            0.91,
+            1.59,
+            1.04,
+            0.04,
+            -0.5,
+            -0.19,
+            -0.18,
+            0.41,
+            0.71,
+            1.22,
+            1.22,
+            0.88,
+            1.59,
+            2.09,
+            2.34,
+            2.03,
+            1.14,
+            1.14,
+            0.59,
+            0.01,
+            -0.03,
+            -0.29,
+            -0.29,
+            -0.89,
+            -0.22,
+            -0.22,
+            -0.22,
+            -0.52,
+            0.06,
+            0.1,
+            -0.29,
+            -0.79,
+            0.1,
+            -0.57,
+            0.03,
+            0.0,
+            -0.11,
+            -0.41,
+            -0.41,
+            -0.48,
+            -0.49,
+            -1.03,
+            -0.43,
+            -0.18,
+            -1.03,
+            -0.61,
+            -1.2,
+            -0.61,
+            -0.5,
+            -0.56,
+            -0.94,
+            -0.84,
+            -0.81,
+            -0.57,
+            -0.02,
+            0.57,
+            0.87,
+            1.46,
+            1.21,
+            1.96,
+            2.14,
+            1.26,
+            1.32,
+            0.78,
+            0.14,
+            -0.79,
+            -1.42,
+            -0.61,
+            -1.31,
+            -1.34,
+            -0.53,
+            -0.84,
+            -0.86
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.89,
+            0.87,
+            0.84,
+            0.82,
+            0.77,
+            0.69,
+            0.66,
+            0.63,
+            0.53,
+            0.5,
+            0.47,
+            0.45,
+            0.38,
+            0.37,
+            0.42,
+            0.51,
+            0.5,
+            0.53,
+            0.58,
+            0.59,
+            0.58,
+            0.64,
+            0.63,
+            0.64,
+            0.63,
+            0.58,
+            0.64,
+            0.64,
+            0.58,
+            0.58,
+            0.61,
+            0.52,
+            0.53,
+            0.6,
+            0.61,
+            0.61,
+            0.54,
+            0.48,
+            0.39,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.32,
+            0.41,
+            0.39,
+            0.39,
+            0.46,
+            0.45,
+            0.35,
+            0.41,
+            0.37,
+            0.36,
+            0.29,
+            0.21,
+            0.26,
+            0.32,
+            0.39,
+            0.3,
+            0.22,
+            0.21,
+            0.23,
+            0.24,
+            0.25,
+            0.32,
+            0.26,
+            0.26,
+            0.25,
+            0.17,
+            0.17,
+            0.2,
+            0.2,
+            0.23,
+            0.23,
+            0.24,
+            0.24,
+            0.26,
+            0.23,
+            0.21,
+            0.23,
+            0.3,
+            0.31,
+            0.21,
+            0.15,
+            0.14,
+            0.13,
+            0.13,
+            0.1,
+            0.1,
+            0.15,
+            0.21,
+            0.24,
+            0.23,
+            0.18,
+            0.13,
+            0.14,
+            0.17,
+            0.17,
+            0.19,
+            0.18,
+            0.25,
+            0.19,
+            0.18,
+            0.25,
+            0.31,
+            0.3,
+            0.32,
+            0.35,
+            0.33,
+            0.29,
+            0.3,
+            0.24,
+            0.17,
+            0.2,
+            0.26,
+            0.27,
+            0.31,
+            0.32,
+            0.32,
+            0.31,
+            0.31,
+            0.23,
+            0.29,
+            0.31,
+            0.25,
+            0.25,
+            0.22,
+            0.22,
+            0.23,
+            0.22,
+            0.26,
+            0.25,
+            0.3,
+            0.38,
+            0.37,
+            0.36,
+            0.42,
+            0.34,
+            0.36,
+            0.29,
+            0.28,
+            0.31,
+            0.3,
+            0.31,
+            0.24,
+            0.3,
+            0.32,
+            0.3,
+            0.31,
+            0.31,
+            0.4,
+            0.41,
+            0.34,
+            0.3,
+            0.27,
+            0.29,
+            0.22,
+            0.13,
+            0.18,
+            0.13,
+            0.2,
+            0.15,
+            0.1,
+            0.15,
+            0.07,
+            0.12,
+            0.14,
+            0.12,
+            0.17,
+            0.12,
+            0.14,
+            0.14,
+            0.14,
+            0.22,
+            0.29,
+            0.31,
+            0.23,
+            0.22,
+            0.33,
+            0.26,
+            0.27,
+            0.27,
+            0.36,
+            0.38,
+            0.37,
+            0.49,
+            0.46,
+            0.45,
+            0.48,
+            0.47,
+            0.45,
+            0.46,
+            0.46,
+            0.41,
+            0.38,
+            0.41,
+            0.32,
+            0.31,
+            0.32,
+            0.33,
+            0.41,
+            0.49,
+            0.44,
+            0.42,
+            0.4,
+            0.41,
+            0.38,
+            0.38,
+            0.37,
+            0.35,
+            0.27,
+            0.27,
+            0.18,
+            0.12,
+            0.15,
+            0.12,
+            0.06,
+            0.09,
+            0.14,
+            0.18,
+            0.12,
+            0.12,
+            0.12,
+            0.13,
+            0.13,
+            0.14,
+            0.15,
+            0.11,
+            0.12,
+            0.07,
+            0.07,
+            0.07,
+            0.1,
+            0.14,
+            0.2,
+            0.12,
+            0.13,
+            0.17,
+            0.13,
+            0.12,
+            0.1,
+            0.14,
+            0.14,
+            0.15,
+            0.15,
+            0.12,
+            0.13,
+            0.12,
+            0.15,
+            0.15,
+            0.18,
+            0.17,
+            0.17,
+            0.17,
+            0.11,
+            0.07,
+            0.08,
+            0.05,
+            0.05,
+            0.05,
+            0.04,
+            0.05,
+            0.03,
+            0.01,
+            0.01,
+            0.01,
+            0.02,
+            0.03,
+            0.02,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.03,
+            0.07,
+            0.15,
+            0.21,
+            0.34,
+            0.42,
+            0.47,
+            0.6,
+            0.72,
+            0.76
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.45,
+            0.45,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.44,
+            0.44,
+            0.45,
+            0.45,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.45,
+            0.45,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.41,
+            0.43,
+            0.42,
+            0.41,
+            0.39,
+            0.39,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.39,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.39,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.35,
+            0.34,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.32,
+            0.31,
+            0.31,
+            0.3,
+            0.3,
+            0.28,
+            0.26,
+            0.25,
+            0.23,
+            0.21,
+            0.2,
+            0.19,
+            0.18,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.17,
+            0.18,
+            0.2,
+            0.22,
+            0.24,
+            0.25,
+            0.25,
+            0.26,
+            0.26,
+            0.25,
+            0.24,
+            0.23,
+            0.21,
+            0.19,
+            0.16,
+            0.13,
+            0.12,
+            0.1,
+            0.09,
+            0.08,
+            0.07,
+            0.07,
+            0.06,
+            0.05,
+            0.05,
+            0.05
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00694,
+      "maximum_length": 2,
+      "minimum_length": 2,
+      "type": "artifact"
+    },
+    {
+      "count": 1,
+      "coverage": 0.85069,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "8619_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 288,
+          "ref_beg_seq_id": 243
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "5935_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 288,
+          "ref_beg_seq_id": 243
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "6112_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 288,
+          "ref_beg_seq_id": 241
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "24034_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 288,
+          "ref_beg_seq_id": 21
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "P29350",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 3,
+          "length": 286,
+          "ref_beg_seq_id": 243
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "951_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 72,
+          "ref_beg_seq_id": 303
+        },
+        {
+          "entity_beg_seq_id": 73,
+          "length": 56,
+          "ref_beg_seq_id": 432
+        },
+        {
+          "entity_beg_seq_id": 129,
+          "length": 5,
+          "ref_beg_seq_id": 489
+        },
+        {
+          "entity_beg_seq_id": 134,
+          "length": 29,
+          "ref_beg_seq_id": 496
+        },
+        {
+          "entity_beg_seq_id": 163,
+          "length": 2,
+          "ref_beg_seq_id": 527
+        },
+        {
+          "entity_beg_seq_id": 165,
+          "length": 40,
+          "ref_beg_seq_id": 531
+        },
+        {
+          "entity_beg_seq_id": 205,
+          "length": 83,
+          "ref_beg_seq_id": 575
+        },
+        {
+          "entity_beg_seq_id": 288,
+          "length": 1,
+          "ref_beg_seq_id": 683
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "1295_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 15,
+          "ref_beg_seq_id": 313
+        },
+        {
+          "entity_beg_seq_id": 16,
+          "length": 57,
+          "ref_beg_seq_id": 330
+        },
+        {
+          "entity_beg_seq_id": 73,
+          "length": 56,
+          "ref_beg_seq_id": 455
+        },
+        {
+          "entity_beg_seq_id": 129,
+          "length": 4,
+          "ref_beg_seq_id": 512
+        },
+        {
+          "entity_beg_seq_id": 133,
+          "length": 1,
+          "ref_beg_seq_id": 518
+        },
+        {
+          "entity_beg_seq_id": 134,
+          "length": 30,
+          "ref_beg_seq_id": 521
+        },
+        {
+          "entity_beg_seq_id": 164,
+          "length": 1,
+          "ref_beg_seq_id": 610
+        },
+        {
+          "entity_beg_seq_id": 165,
+          "length": 40,
+          "ref_beg_seq_id": 615
+        },
+        {
+          "entity_beg_seq_id": 205,
+          "length": 84,
+          "ref_beg_seq_id": 663
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "Hematopoietic cell protein-tyrosine phosphatase,Protein-tyrosine phosphatase 1C,PTP-1C,Protein-tyrosine phosphatase SHP-1,SH-PTP1"
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL6066056",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 286,
+          "target_beg_seq_id": 242
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL3166",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 286,
+          "target_beg_seq_id": 242
+        }
+      ]
+    },
+    {
+      "related_resource_name": "DrugBank",
+      "related_resource_version": "5.1",
+      "related_target_id": "P29350",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 286,
+          "target_beg_seq_id": 242
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "3874",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 2,
+          "length": 286,
+          "target_beg_seq_id": 242
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "JRPHNJVUIYVFFF-KRWDZBQOSA-N",
+      "cofactor_SMILES": "CCOP(=O)(OCC)[C@H](Nc1ccc([N+](=O)[O-])cc1)c1ccccc1O",
+      "cofactor_resource_id": "CHEMBL1946245",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "IGLFQKPVXIZQFX-KRWDZBQOSA-N",
+      "cofactor_SMILES": "CCOP(=O)(OCC)[C@H](Nc1ccc(Br)cc1)c1ccccc1O",
+      "cofactor_resource_id": "CHEMBL1946244",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "WZCSYHAZVLFUOB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCOP(=O)(O)C(NCCCCCCNC(c1ccccc1O)P(=O)(O)OCC)c1ccccc1O",
+      "cofactor_resource_id": "CHEMBL1946384",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "HPYKWPIXRXJMML-YOXMSGLASA-M",
+      "cofactor_SMILES": "CCOP(=O)(O)C(N[C@@H](Cc1ccc(O)cc1)C(=O)[O-])c1ccccc1O.[Na+]",
+      "cofactor_resource_id": "CHEMBL1946383",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "KFCBGFXCDLOLOQ-YOXMSGLASA-M",
+      "cofactor_SMILES": "CCOP(=O)(O)C(N[C@@H](Cc1ccccc1)C(=O)[O-])c1ccccc1O.[Na+]",
+      "cofactor_resource_id": "CHEMBL1946252",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "OOHQUZMSURDIFR-QMOSYVFLSA-M",
+      "cofactor_SMILES": "CCOP(=O)(O)C(N[C@@H](CS)C(=O)[O-])c1ccccc1O.[Na+]",
+      "cofactor_resource_id": "CHEMBL1946251",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "XOBTZRBDJMITNS-XRZIKPEHSA-M",
+      "cofactor_SMILES": "CCOP(=O)(O)C(N[C@@H](Cc1c[nH]c2ccccc12)C(=O)[O-])c1ccccc1O.[Na+]",
+      "cofactor_resource_id": "CHEMBL1946250",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "BMAOKLRHVXDYHM-ZDUSSCGKSA-N",
+      "cofactor_SMILES": "O=P(O)(O)[C@H](Nc1ccc(O)cc1)c1ccccc1O",
+      "cofactor_resource_id": "CHEMBL1946247",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "MVFWKZUSRUOHFM-PQVPNTNJSA-M",
+      "cofactor_SMILES": "CCOP(=O)(O)C(N[C@H](C(=O)[O-])[C@@H](C)O)c1ccccc1O.[Na+]",
+      "cofactor_resource_id": "CHEMBL1946389",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "binding_assay_value": 1.0,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "PVCLFBMHROTTDT-DTBGRZLTSA-M",
+      "cofactor_SMILES": "CCOP(=O)(O)C(N[C@@H](C)C(=O)[O-])c1ccccc1O.[Na+]",
+      "cofactor_resource_id": "CHEMBL1946388",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3166"
+    },
+    {
+      "cofactor_InChIKey": "DKJJVAGXPKPDRL-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OP(O)(=O)C(SC1=CC=C(Cl)C=C1)P(O)(O)=O",
+      "cofactor_name": "Tiludronic acid",
+      "cofactor_resource_id": "DB01133",
+      "mechanism_of_action": "Bisphosphonates are taken into the bone where they bind to hydroxyapatite.[L4763] Bone resorption by osteoclasts causes local acidification, releasing the bisphosphonate, which is taken into the osteoclast by fluid-phase endocytosis.[A959] Endocytic vesicles become acidified, releasing bisphosphonates into the cytosol of osteoclasts where they act.[A959]\r\n\r\nOsteoclasts mediate resorption of bone.[A6366] When osteoclasts bind to bone they form podosomes, ring structures of F-actin.[A6366] Tiludronate inhibits protein-tyrosine-phosphatase, which increases tyrosine phosphorylation, and disrupts podosome formation.[A6366,L4763] Tiludronic acid also inhibits V-ATPases in the osteoclast, though the exact subunits are unknown, preventing F-actin from forming podosomes.[A202229,A202247] Disruption of the podosomes causes osteoclasts to detach from bones, preventing bone resorption.[A6366]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        9145236,
+        19189046
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P29350"
+    },
+    {
+      "binding_assay_value": 6.96,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CSCC[C@H]1NC(=O)[C@H](Cc2ccc(OP(=O)(O)O)cc2)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)CNC(=O)[C@@H](N)CCC(=O)O)CCCCNC(=O)NCC(=O)C[C@H](C(=O)N[C@@H](CC(C)C)C(=O)O)NC1=O",
+      "cofactor_resource_id": "CHEMBL262382",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        15743195
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.8,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CC(C)C[C@H](N)C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(OP(=O)(O)O)cc1)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)O)C(C)c1ccccc1)C(C)C",
+      "cofactor_resource_id": "CHEMBL413215",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        15743195
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.68,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CSCC[C@H]1NC(=O)[C@H](Cc2ccc(OP(=O)(O)O)cc2)NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)CNC(=O)[C@@H](N)CCC(=O)O)CCCCNC(=O)NCC(=O)CC[C@H](C(=O)N[C@@H](CC(C)C)C(=O)O)NC1=O",
+      "cofactor_resource_id": "CHEMBL408337",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        15743195
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.6,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CSCC[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](N)C(C)c1ccccc1)C(C)C)C(=O)N[C@@H](Cc1ccc(OP(=O)(O)O)cc1)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)O",
+      "cofactor_resource_id": "CHEMBL412186",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        15743195
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.54,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "CSCC[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](N)C(O)c1ccccc1)C(C)C)C(=O)N[C@@H](Cc1ccc(OP(=O)(O)O)cc1)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)O",
+      "cofactor_resource_id": "CHEMBL413492",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        15743195
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.47,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1ccc(-c2oc3cc(O)c(C(=O)O)cc3c2-c2cn(CCCC(=O)Nc3cccc4ccccc34)nn2)cc1",
+      "cofactor_resource_id": "CHEMBL1650889",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        21190368
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.45,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=S(=O)(O)c1ccc2cc(/N=N/c3cc(S(=O)(=O)O)c4cccnc4c3O)ccc2c1",
+      "cofactor_resource_id": "CHEMBL472004",
+      "neighbor_flag": "N",
+      "patent_nos": [
+        "US8987474"
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.42,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1ccc(-c2oc3cc(O)c(C(=O)O)cc3c2-c2cn(CCCC(=O)Nc3ccc(Cl)c4ccccc34)nn2)cc1",
+      "cofactor_resource_id": "CHEMBL1650891",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        21190368
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.39,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1ccc(-c2oc3cc(O)c(C(=O)O)cc3c2-c2cn(CCCC(=O)Nc3cccc4ccccc34)nn2)cc1",
+      "cofactor_resource_id": "CHEMBL1650892",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        21190368
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    },
+    {
+      "binding_assay_value": 6.31,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1ccc2nc(NC(=O)CCCn3cc(-c4c(-c5cccc(C)c5)oc5cc(O)c(C(=O)O)cc45)nn3)sc2c1",
+      "cofactor_resource_id": "CHEMBL1650893",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        21190368
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "3874"
+    }
+  ],
+  "rcsb_id": "8YHI_1"
+}

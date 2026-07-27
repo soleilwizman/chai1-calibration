@@ -1,0 +1,488 @@
+{
+  "audit_author": [
+    {
+      "name": "Lee, K.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Raia, P.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-3597-5698",
+      "name": "Hothorn, M.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 94.32,
+    "angle_gamma": 90.0,
+    "length_a": 40.675,
+    "length_b": 83.172,
+    "length_c": 51.768
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "16",
+      "page_first": "1753",
+      "page_last": "1753",
+      "pdbx_database_id_DOI": "10.1038/s41467-025-56937-0",
+      "pdbx_database_id_PubMed": 39966396,
+      "rcsb_authors": [
+        "Raia, P.",
+        "Lee, K.",
+        "Bartsch, S.M.",
+        "Rico-Resendiz, F.",
+        "Portugal-Calisto, D.",
+        "Vadas, O.",
+        "Panse, V.G.",
+        "Fiedler, D.",
+        "Hothorn, M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "A small signaling domain controls PPIP5K phosphatase activity in phosphate homeostasis.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9GR8",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9gr8/pdb",
+      "pdbx_database_accession": "pdb_00009gr8"
+    },
+    {
+      "database_code": "D_1292141671",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-10-29T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 2M-F"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X06DA",
+      "pdbx_synchrotron_site": "SLS",
+      "pdbx_wavelength_list": "1.000036",
+      "source": "SYNCHROTRON",
+      "type": "SLS BEAMLINE X06DA"
+    }
+  ],
+  "entry": {
+    "id": "9GR8"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.26,
+      "density_percent_sol": 45.55,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 6.4,
+      "pdbx_details": "23 % [v/v] PEG 3,350, 0.1 M citric acid / BIS-Tris propane pH 6.4",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-02-26T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Switzerland",
+      "funding_organization": "Swiss National Science Foundation",
+      "grant_number": "CRSII5_209412",
+      "ordinal": 1
+    },
+    {
+      "country": "United States",
+      "funding_organization": "Howard Hughes Medical Institute (HHMI)",
+      "grant_number": "55008733",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-09-11T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "3T9A",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T09:18:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1439,
+      "DCC_Rfree": 0.1744,
+      "EDS_R": 0.1571,
+      "EDS_res_high": 1.18,
+      "EDS_res_low": 43.86,
+      "Fo_Fc_correlation": 0.978,
+      "I_over_sigma": "1.59(1.18A)",
+      "Padilla_Yeates_L2_mean": 0.327,
+      "Padilla_Yeates_L_mean": 0.494,
+      "Wilson_B_aniso": "[12.892,9.681,16.593,-0.000,-3.764,0.000]",
+      "Wilson_B_estimate": 12.342,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 41.788,
+      "bulk_solvent_k": 0.406,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.529,
+      "data_completeness": 97.6,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 110059,
+      "number_reflns_R_free": 5503,
+      "percent_RSRZ_outliers": 5.34,
+      "percent_free_reflections": 4.88,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.05% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.68,
+      "bonds_RMSZ": 0.55,
+      "clashscore": 2.06,
+      "num_H_reduce": 2919,
+      "num_angles_RMSZ": 4016,
+      "num_bonds_RMSZ": 2983,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-09-11T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-02-26T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-02-26T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9GR8",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 39966396,
+    "rcsb_id": "9GR8"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 3263,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 3662,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 337,
+    "deposited_nonpolymer_entity_instance_count": 6,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 337,
+    "deposited_solvent_atom_count": 371,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 39.39,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.43,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 38.65,
+    "polymer_molecular_weight_minimum": 38.65,
+    "polymer_monomer_count_maximum": 337,
+    "polymer_monomer_count_minimum": 337,
+    "resolution_combined": [
+      1.18
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.18
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "16",
+    "page_first": "1753",
+    "page_last": "1753",
+    "pdbx_database_id_DOI": "10.1038/s41467-025-56937-0",
+    "pdbx_database_id_PubMed": 39966396,
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-3469-1922",
+      "0000-0002-7761-5586",
+      "0000-0002-2215-7901",
+      "?",
+      "?",
+      "0000-0003-3511-6479",
+      "0000-0002-4770-7068",
+      "0000-0002-0798-946X",
+      "0000-0002-3597-5698"
+    ],
+    "rcsb_authors": [
+      "Raia, P.",
+      "Lee, K.",
+      "Bartsch, S.M.",
+      "Rico-Resendiz, F.",
+      "Portugal-Calisto, D.",
+      "Vadas, O.",
+      "Panse, V.G.",
+      "Fiedler, D.",
+      "Hothorn, M."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "A small signaling domain controls PPIP5K phosphatase activity in phosphate homeostasis.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.1829,
+      "ls_R_factor_R_work": 0.1526,
+      "ls_R_factor_obs": 0.1541,
+      "ls_d_res_high": 1.18,
+      "ls_d_res_low": 43.86,
+      "ls_number_reflns_R_free": 10766,
+      "ls_number_reflns_obs": 215318,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 96.4,
+      "overall_SU_ML": 0.15,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.33,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 21.55,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.18,
+      "d_res_low": 43.86,
+      "number_atoms_solvent": 371,
+      "number_atoms_total": 3133,
+      "pdbx_number_atoms_ligand": 47,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2715,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.012,
+      "number": 2974,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.288,
+      "number": 4039,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 14.424,
+      "number": 1178,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.094,
+      "number": 431,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.014,
+      "number": 525,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.18,
+      "d_resolution_low": 43.86,
+      "number_obs": 220120,
+      "observed_criterion_sigma_I": -3.0,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rrim_I_all": 0.104,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.3,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.7,
+      "percent_possible_obs": 97.5
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.18,
+      "d_res_low": 1.25,
+      "meanI_over_sigI_obs": 1.2,
+      "number_unique_obs": 36388,
+      "pdbx_CC_half": 0.547,
+      "pdbx_Rrim_I_all": 2.02,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.2,
+      "percent_possible_all": 93.4
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.21.1_5286: ???)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal structure of the N-terminal kinase domain from Saccharomyces cerevisiae Vip1 in complex with ADP."
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "BIOSYNTHETIC PROTEIN",
+    "text": "Inositol pyrophosphate, inositol pyrophosphate phosphatase, histidine acid phosphatase, phytase, enzyme mechanism, GAF domain, phosphate homeostasis, BIOSYNTHETIC PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1"
+  },
+  "rcsb_id": "9GR8"
+}

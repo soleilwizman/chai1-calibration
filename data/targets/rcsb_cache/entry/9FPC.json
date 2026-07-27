@@ -1,0 +1,613 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-6600-2381",
+      "name": "Pickersgill, R.W.",
+      "pdbx_ordinal": 1
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 61.13,
+    "length_b": 74.19,
+    "length_c": 85.89
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Pickersgill, R.W.",
+        "Brown, D.G.",
+        "Ladakis, D.",
+        "Warren, M.J."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Architectural insights into the corrin and metal binding sites of CobN cobaltochelatase"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9FPC",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9fpc/pdb",
+      "pdbx_database_accession": "pdb_00009fpc"
+    },
+    {
+      "database_code": "D_1292139325",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2013-01-01T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "Silicon",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "I04",
+      "pdbx_synchrotron_site": "Diamond",
+      "pdbx_wavelength_list": "0.979",
+      "source": "SYNCHROTRON",
+      "type": "DIAMOND BEAMLINE I04"
+    }
+  ],
+  "entry": {
+    "id": "9FPC"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.43,
+      "density_percent_sol": 47.0,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 8.5,
+      "pdbx_details": "0.2 M Lithium sulfate, 30% polyethylene glycol 4000 and 0.1M Tris pH 8.5",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-06-25T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United Kingdom",
+      "funding_organization": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+      "grant_number": "BB/X001946/1",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-06-13T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-14T09:55:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_Rfree": 0.2173,
+      "EDS_R": 0.1841,
+      "EDS_res_high": 1.97,
+      "EDS_res_low": 7.14,
+      "Fo_Fc_correlation": 0.952,
+      "I_over_sigma": "2.26(1.93A)",
+      "Padilla_Yeates_L2_mean": 0.317,
+      "Padilla_Yeates_L_mean": 0.484,
+      "Wilson_B_aniso": "[25.161,24.750,24.673,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 24.871,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 49.57,
+      "bulk_solvent_k": 0.503,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.02,
+      "data_completeness": 96.47,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 29441,
+      "number_reflns_R_free": 1498,
+      "percent_RSRZ_outliers": 1.04,
+      "percent_free_reflections": 5.09,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.00% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.46,
+      "bonds_RMSZ": 0.92,
+      "clashscore": 1.03,
+      "num_H_reduce": 2859,
+      "num_angles_RMSZ": 4120,
+      "num_bonds_RMSZ": 3035,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.35
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-06-13T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-06-25T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-06-25T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "9FPC",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9FPC"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 3168,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 384,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 384,
+    "deposited_solvent_atom_count": 201,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.979,
+    "diffrn_radiation_wavelength_minimum": 0.979,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 42.06,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 42.06,
+    "polymer_molecular_weight_minimum": 42.06,
+    "polymer_monomer_count_maximum": 384,
+    "polymer_monomer_count_minimum": 384,
+    "resolution_combined": [
+      1.965
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "BUCCANEER",
+      "REFMAC",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.93
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-6600-2381",
+      "0000-0003-4605-4779",
+      "0000-0002-6559-2735",
+      "0000-0002-6028-6456"
+    ],
+    "rcsb_authors": [
+      "Pickersgill, R.W.",
+      "Brown, D.G.",
+      "Ladakis, D.",
+      "Warren, M.J."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Architectural insights into the corrin and metal binding sites of CobN cobaltochelatase"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 27.408,
+      "aniso_B_1_1": 0.013,
+      "aniso_B_1_2": 0.0,
+      "aniso_B_1_3": 0.0,
+      "aniso_B_2_2": 0.002,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": -0.015,
+      "correlation_coeff_Fo_to_Fc": 0.957,
+      "correlation_coeff_Fo_to_Fc_free": 0.923,
+      "details": "Hydrogens have been added in their riding positions",
+      "ls_R_factor_R_free": 0.2288,
+      "ls_R_factor_R_work": 0.173,
+      "ls_R_factor_all": 0.176,
+      "ls_d_res_high": 1.965,
+      "ls_d_res_low": 7.143,
+      "ls_number_reflns_R_free": 1391,
+      "ls_number_reflns_R_work": 26118,
+      "ls_number_reflns_obs": 27509,
+      "ls_percent_reflns_R_free": 5.057,
+      "ls_percent_reflns_obs": 96.465,
+      "ls_wR_factor_R_free": 0.214,
+      "ls_wR_factor_R_work": 0.162,
+      "overall_SU_B": 3.779,
+      "overall_SU_ML": 0.107,
+      "pdbx_average_fsc_free": 0.9646,
+      "pdbx_average_fsc_work": 0.9795,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_method_to_determine_struct": "SAD",
+      "pdbx_overall_ESU_R": 0.17,
+      "pdbx_overall_ESU_R_Free": 0.161,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "solvent_model_details": "MASK BULK SOLVENT"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.965,
+      "d_res_low": 7.143,
+      "number_atoms_solvent": 201,
+      "number_atoms_total": 3168,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2967,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "dev_ideal_target": 0.012,
+      "number": 3035,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "dev_ideal": 0.006,
+      "dev_ideal_target": 0.016,
+      "number": 2805,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 2.196,
+      "dev_ideal_target": 1.821,
+      "number": 4120,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "dev_ideal": 1.11,
+      "dev_ideal_target": 1.764,
+      "number": 6419,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.645,
+      "dev_ideal_target": 5.0,
+      "number": 383,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 12.757,
+      "dev_ideal_target": 5.0,
+      "number": 30,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 12.958,
+      "dev_ideal_target": 10.0,
+      "number": 467,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "dev_ideal": 15.844,
+      "dev_ideal_target": 10.0,
+      "number": 153,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_6_deg"
+    },
+    {
+      "dev_ideal": 0.127,
+      "dev_ideal_target": 0.2,
+      "number": 433,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.012,
+      "dev_ideal_target": 0.02,
+      "number": 3787,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "dev_ideal": 0.005,
+      "dev_ideal_target": 0.02,
+      "number": 755,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "dev_ideal": 0.19,
+      "dev_ideal_target": 0.2,
+      "number": 556,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.138,
+      "dev_ideal_target": 0.2,
+      "number": 2364,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_other"
+    },
+    {
+      "dev_ideal": 0.157,
+      "dev_ideal_target": 0.2,
+      "number": 1467,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "dev_ideal": 0.064,
+      "dev_ideal_target": 0.2,
+      "number": 1667,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbtor_other"
+    },
+    {
+      "dev_ideal": 0.127,
+      "dev_ideal_target": 0.2,
+      "number": 178,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.109,
+      "dev_ideal_target": 0.2,
+      "number": 3,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_nbd_refined"
+    },
+    {
+      "dev_ideal": 0.132,
+      "dev_ideal_target": 0.2,
+      "number": 38,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "dev_ideal": 0.088,
+      "dev_ideal_target": 0.2,
+      "number": 6,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_xyhbond_nbd_refined"
+    },
+    {
+      "dev_ideal": 2.766,
+      "dev_ideal_target": 2.478,
+      "number": 1535,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "dev_ideal": 2.763,
+      "dev_ideal_target": 2.479,
+      "number": 1535,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 3.633,
+      "dev_ideal_target": 4.457,
+      "number": 1917,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "dev_ideal": 3.632,
+      "dev_ideal_target": 4.459,
+      "number": 1918,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 4.21,
+      "dev_ideal_target": 2.918,
+      "number": 1500,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "dev_ideal": 4.209,
+      "dev_ideal_target": 2.92,
+      "number": 1501,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "dev_ideal": 6.096,
+      "dev_ideal_target": 5.147,
+      "number": 2203,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "dev_ideal": 6.094,
+      "dev_ideal_target": 5.149,
+      "number": 2204,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 6.946,
+      "dev_ideal_target": 24.315,
+      "number": 3351,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_it"
+    },
+    {
+      "dev_ideal": 6.925,
+      "dev_ideal_target": 23.83,
+      "number": 3322,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_lrange_other"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.93,
+      "d_resolution_low": 25.93,
+      "number_obs": 111314,
+      "pdbx_Rmerge_I_obs": 0.046,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.4,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 3.8,
+      "percent_possible_obs": 98.2
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.339,
+      "d_res_high": 1.93,
+      "d_res_low": 1.98,
+      "meanI_over_sigI_obs": 2.3,
+      "number_unique_obs": 4148,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 2.3,
+      "percent_possible_all": 86.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0425"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "BUCCANEER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Architectural insights into the corrin and metal binding sites of CobN cobaltochelatase"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "BIOSYNTHETIC PROTEIN",
+    "text": "Cobaltochelatase/Cobalamin biosynthesis/CobN, BIOSYNTHETIC PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21"
+  },
+  "rcsb_id": "9FPC"
+}

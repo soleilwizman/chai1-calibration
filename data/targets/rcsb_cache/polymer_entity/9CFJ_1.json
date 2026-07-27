@@ -1,0 +1,2455 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "yes",
+    "pdbx_seq_one_letter_code": "GGSLSSLVRAAAPAGKLQEGLDMLEAAARLRPGFRTLDELDRAYPPLALASGPARPKLFCFSTPMALGGAAQFARLAVHFQGVRDLYALQVPGYAPDDSLPDNVDVVVRMWAESIREAAGDDPFVVMGY(OCS)GGGNFAHAAVSYLERNGVRPEGLILLDTFLPDSDVIDELGGQMLEGMFDRAEVYGPFSDTRMTAMGRYYRLFRETVVEDIETPVLFLRPDTPLPSGPDGERSREGNWRASWHLKHDLCEVRGDHLTMLEGEAGSIAQAVEEWLKPS",
+    "pdbx_seq_one_letter_code_can": "GGSLSSLVRAAAPAGKLQEGLDMLEAAARLRPGFRTLDELDRAYPPLALASGPARPKLFCFSTPMALGGAAQFARLAVHFQGVRDLYALQVPGYAPDDSLPDNVDVVVRMWAESIREAAGDDPFVVMGYCGGGNFAHAAVSYLERNGVRPEGLILLDTFLPDSDVIDELGGQMLEGMFDRAEVYGPFSDTRMTAMGRYYRLFRETVVEDIETPVLFLRPDTPLPSGPDGERSREGNWRASWHLKHDLCEVRGDHLTMLEGEAGSIAQAVEEWLKPS",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 1,
+    "rcsb_non_std_monomers": [
+      "OCS"
+    ],
+    "rcsb_sample_sequence_length": 276,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 276,
+      "pdbx_gene_src_gene": "fluC",
+      "pdbx_gene_src_ncbi_taxonomy_id": "1233071",
+      "pdbx_gene_src_scientific_name": "Actinomadura vulgaris",
+      "pdbx_host_org_ncbi_taxonomy_id": "562",
+      "pdbx_host_org_scientific_name": "Escherichia coli",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 733882,
+      "identity": 100
+    },
+    {
+      "cluster_id": 624618,
+      "identity": 95
+    },
+    {
+      "cluster_id": 579687,
+      "identity": 90
+    },
+    {
+      "cluster_id": 295838,
+      "identity": 70
+    },
+    {
+      "cluster_id": 296598,
+      "identity": 50
+    },
+    {
+      "cluster_id": 6319,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 276,
+      "ncbi_common_names": [
+        "Bacillus coli",
+        "Bacterium coli",
+        "Bacterium coli commune",
+        "E. coli",
+        "Enterococcus coli",
+        "Escherichia/Shigella coli"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli",
+      "ncbi_taxonomy_id": 562,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 276,
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Actinomadura vulgaris",
+      "ncbi_taxonomy_id": 1233071,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Actinomadura vulgaris",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Bacillati"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Firmacutes"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Firmicuteota"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Firmicutes"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Firmicutes corrig. Gibbons and Murray 1978 (Approved Lists 1980)"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Terrabacteria"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Terrabacteria group"
+        },
+        {
+          "depth": 3,
+          "id": "1783272",
+          "name": "Terrabacterida"
+        },
+        {
+          "depth": 4,
+          "id": "201174",
+          "name": "Actinomycetota"
+        },
+        {
+          "depth": 4,
+          "id": "201174",
+          "name": "Actinobacteraeota"
+        },
+        {
+          "depth": 4,
+          "id": "201174",
+          "name": "Actinobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "201174",
+          "name": "Actinobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "201174",
+          "name": "actinobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1760",
+          "name": "Actinomycetes"
+        },
+        {
+          "depth": 5,
+          "id": "1760",
+          "name": "Actinobacteria Stackebrandt et al. 1997"
+        },
+        {
+          "depth": 5,
+          "id": "1760",
+          "name": "Actinomycetia"
+        },
+        {
+          "depth": 5,
+          "id": "1760",
+          "name": "high G+C Gram-positive bacteria"
+        },
+        {
+          "depth": 6,
+          "id": "85012",
+          "name": "Streptosporangiales"
+        },
+        {
+          "depth": 6,
+          "id": "85012",
+          "name": "Streptosporangineae"
+        },
+        {
+          "depth": 7,
+          "id": "2012",
+          "name": "Thermomonosporaceae"
+        },
+        {
+          "depth": 7,
+          "id": "2012",
+          "name": "Thermomonospora group"
+        },
+        {
+          "depth": 8,
+          "id": "1988",
+          "name": "Actinomadura"
+        },
+        {
+          "depth": 9,
+          "id": "1233071",
+          "name": "Actinomadura vulgaris"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "fluC"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 30.221,
+    "pdbx_description": "FluC",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "FluC",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "FluC"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "K4I6L4",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 276,
+          "ref_beg_seq_id": 2114
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "IPR016035",
+      "name": "Acyl transferase/acyl hydrolase/lysophospholipase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016035",
+          "name": "Acyl transferase/acyl hydrolase/lysophospholipase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR015083",
+      "name": "Polyketide synthase NorB/C/GfsB-E-like, docking domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR015083",
+          "name": "Polyketide synthase NorB/C/GfsB-E-like, docking domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013154",
+      "name": "Alcohol dehydrogenase-like, N-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013154",
+          "name": "Alcohol dehydrogenase-like, N-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR057326",
+      "name": "Ketoreductase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR057326",
+          "name": "Ketoreductase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR014030",
+      "name": "Beta-ketoacyl synthase-like, N-terminal domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR014030",
+          "name": "Beta-ketoacyl synthase-like, N-terminal domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR049552",
+      "name": "Polyketide synthase, dehydratase domain, N-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR049552",
+          "name": "Polyketide synthase, dehydratase domain, N-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004316",
+      "name": "3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0004316",
+          "name": "3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity"
+        },
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0016616",
+          "name": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"
+        },
+        {
+          "id": "GO:0016614",
+          "name": "oxidoreductase activity, acting on CH-OH group of donors"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR049900",
+      "name": "Polyketide synthase, dehydratase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR049900",
+          "name": "Polyketide synthase, dehydratase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR002364",
+      "name": "Quinone oxidoreductase/zeta-crystallin, conserved site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR002364",
+          "name": "Quinone oxidoreductase/zeta-crystallin, conserved site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004313",
+      "name": "[acyl-carrier-protein] S-acetyltransferase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016407",
+          "name": "acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0004313",
+          "name": "[acyl-carrier-protein] S-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0016418",
+          "name": "S-acetyltransferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0031177",
+      "name": "phosphopantetheine binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019842",
+          "name": "vitamin binding"
+        },
+        {
+          "id": "GO:0072341",
+          "name": "modified amino acid binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0043168",
+          "name": "anion binding"
+        },
+        {
+          "id": "GO:0031177",
+          "name": "phosphopantetheine binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:1901681",
+          "name": "sulfur compound binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0016297",
+      "name": "fatty acyl-[ACP] hydrolase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016297",
+          "name": "fatty acyl-[ACP] hydrolase activity"
+        },
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0016790",
+          "name": "thiolester hydrolase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR049551",
+      "name": "Polyketide synthase, dehydratase domain, C-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR049551",
+          "name": "Polyketide synthase, dehydratase domain, C-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016036",
+      "name": "Malonyl-CoA ACP transacylase, ACP-binding",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016036",
+          "name": "Malonyl-CoA ACP transacylase, ACP-binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR050091",
+      "name": "Polyketide and Nonribosomal Peptide Biosynthesis Enzymes",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR050091",
+          "name": "Polyketide and Nonribosomal Peptide Biosynthesis Enzymes"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004315",
+      "name": "3-oxoacyl-[acyl-carrier-protein] synthase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0004315",
+          "name": "3-oxoacyl-[acyl-carrier-protein] synthase activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR020841",
+      "name": "Polyketide synthase, beta-ketoacyl synthase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR020841",
+          "name": "Polyketide synthase, beta-ketoacyl synthase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR020807",
+      "name": "Polyketide/metazoan fatty acid synthase-like, dehydratase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR020807",
+          "name": "Polyketide/metazoan fatty acid synthase-like, dehydratase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036736",
+      "name": "ACP-like superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036736",
+          "name": "ACP-like superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR014043",
+      "name": "Acyl transferase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR014043",
+          "name": "Acyl transferase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR020843",
+      "name": "Enoylreductase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR020843",
+          "name": "Enoylreductase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0141148",
+      "name": "enoyl-[acyl-carrier-protein] reductase (NADPH) activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0016628",
+          "name": "oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor"
+        },
+        {
+          "id": "GO:0016631",
+          "name": "enoyl-[acyl-carrier-protein] reductase [NAD(P)H] activity"
+        },
+        {
+          "id": "GO:0016627",
+          "name": "oxidoreductase activity, acting on the CH-CH group of donors"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0141148",
+          "name": "enoyl-[acyl-carrier-protein] reductase (NADPH) activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR020802",
+      "name": "Thioesterase TesA-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001031",
+          "name": "Thioesterase"
+        },
+        {
+          "depth": 2,
+          "id": "IPR020802",
+          "name": "Thioesterase TesA-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR014031",
+      "name": "Beta-ketoacyl synthase, C-terminal domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR014031",
+          "name": "Beta-ketoacyl synthase, C-terminal domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR032821",
+      "name": "Polyketide synthase, C-terminal extension",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR032821",
+          "name": "Polyketide synthase, C-terminal extension"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR011032",
+      "name": "GroES-like superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR011032",
+          "name": "GroES-like superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR009081",
+      "name": "Phosphopantetheine binding ACP domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR009081",
+          "name": "Phosphopantetheine binding ACP domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR020806",
+      "name": "Polyketide synthase-like, phosphopantetheine-binding domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR020806",
+          "name": "Polyketide synthase-like, phosphopantetheine-binding domain"
+        },
+        {
+          "depth": 1,
+          "id": "IPR009081",
+          "name": "Phosphopantetheine binding ACP domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006633",
+      "name": "fatty acid biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006631",
+          "name": "fatty acid metabolic process"
+        },
+        {
+          "id": "GO:0072330",
+          "name": "monocarboxylic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0044283",
+          "name": "small molecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043436",
+          "name": "oxoacid metabolic process"
+        },
+        {
+          "id": "GO:0019752",
+          "name": "carboxylic acid metabolic process"
+        },
+        {
+          "id": "GO:0008610",
+          "name": "lipid biosynthetic process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0006633",
+          "name": "fatty acid biosynthetic process"
+        },
+        {
+          "id": "GO:0046394",
+          "name": "carboxylic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0044281",
+          "name": "small molecule metabolic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0032787",
+          "name": "monocarboxylic acid metabolic process"
+        },
+        {
+          "id": "GO:0006629",
+          "name": "lipid metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR029058",
+      "name": "Alpha/Beta hydrolase fold",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR029058",
+          "name": "Alpha/Beta hydrolase fold"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013968",
+      "name": "Polyketide synthase-like, ketoreductase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR013968",
+          "name": "Polyketide synthase-like, ketoreductase domain"
+        },
+        {
+          "depth": 1,
+          "id": "IPR057326",
+          "name": "Ketoreductase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR016039",
+      "name": "Thiolase-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR016039",
+          "name": "Thiolase-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004312",
+      "name": "fatty acid synthase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0004312",
+          "name": "fatty acid synthase activity"
+        },
+        {
+          "id": "GO:0016746",
+          "name": "acyltransferase activity"
+        },
+        {
+          "id": "GO:0016747",
+          "name": "acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "id": "GO:0016740",
+          "name": "transferase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001227",
+      "name": "Acyl transferase domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR001227",
+          "name": "Acyl transferase domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036291",
+      "name": "NAD(P)-binding domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036291",
+          "name": "NAD(P)-binding domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR018201",
+      "name": "Beta-ketoacyl synthase, active site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR018201",
+          "name": "Beta-ketoacyl synthase, active site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0033068",
+      "name": "macrolide biosynthetic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0033068",
+          "name": "macrolide biosynthetic process"
+        },
+        {
+          "id": "GO:0030638",
+          "name": "polyketide metabolic process"
+        },
+        {
+          "id": "GO:0033067",
+          "name": "macrolide metabolic process"
+        },
+        {
+          "id": "GO:0019748",
+          "name": "secondary metabolic process"
+        },
+        {
+          "id": "GO:0017000",
+          "name": "antibiotic biosynthetic process"
+        },
+        {
+          "id": "GO:0016999",
+          "name": "antibiotic metabolic process"
+        },
+        {
+          "id": "GO:0030639",
+          "name": "polyketide biosynthetic process"
+        },
+        {
+          "id": "GO:0044550",
+          "name": "secondary metabolite biosynthetic process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:1901334",
+          "name": "lactone metabolic process"
+        },
+        {
+          "id": "GO:1901336",
+          "name": "lactone biosynthetic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008270",
+      "name": "zinc ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0046914",
+          "name": "transition metal ion binding"
+        },
+        {
+          "id": "GO:0008270",
+          "name": "zinc ion binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR042104",
+      "name": "Polyketide synthase, dehydratase domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR042104",
+          "name": "Polyketide synthase, dehydratase domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001031",
+      "name": "Thioesterase",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001031",
+          "name": "Thioesterase"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR055123",
+      "name": "Polyketide synthase extender module SpnB-like, Rossmann fold domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR055123",
+          "name": "Polyketide synthase extender module SpnB-like, Rossmann fold domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0019171",
+      "name": "(3R)-hydroxyacyl-[acyl-carrier-protein] dehydratase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019171",
+          "name": "(3R)-hydroxyacyl-[acyl-carrier-protein] dehydratase activity"
+        },
+        {
+          "id": "GO:0016836",
+          "name": "hydro-lyase activity"
+        },
+        {
+          "id": "GO:0016829",
+          "name": "lyase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0016835",
+          "name": "carbon-oxygen lyase activity"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "OCS",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "chem_comp_nstd_monomers": [
+      "OCS"
+    ],
+    "entity_id": "1",
+    "entry_id": "9CFJ",
+    "rcsb_id": "9CFJ_1",
+    "uniprot_ids": [
+      "K4I6L4"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "K4I6L4",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.11519198664440734
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "monomer_feature_1",
+      "name": "Parent monomer CYS",
+      "provenance_source": "PDB",
+      "type": "modified_monomer",
+      "feature_positions": [
+        {
+          "beg_seq_id": 130
+        }
+      ],
+      "additional_properties": [
+        {
+          "name": "PARENT_COMP_ID",
+          "values": [
+            "CYS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            0.46,
+            0.7,
+            0.94,
+            1.23,
+            0.63,
+            0.92,
+            0.97,
+            0.11,
+            0.07,
+            0.18,
+            -0.41,
+            -0.66,
+            -0.43,
+            -0.64,
+            -0.63,
+            -0.17,
+            -0.12,
+            -0.34,
+            0.24,
+            0.83,
+            0.38,
+            0.38,
+            0.27,
+            -0.12,
+            -0.59,
+            0.11,
+            -0.59,
+            -0.87,
+            -0.64,
+            -0.53,
+            -1.34,
+            -0.42,
+            -0.63,
+            -1.09,
+            -1.2,
+            -0.84,
+            -0.94,
+            -1.54,
+            -0.73,
+            -0.14,
+            -0.14,
+            0.44,
+            0.86,
+            0.61,
+            0.58,
+            0.96,
+            0.63,
+            0.03,
+            -0.6,
+            -0.6,
+            -0.49,
+            -0.12,
+            0.23,
+            0.32,
+            0.04,
+            0.37,
+            0.76,
+            1.39,
+            1.39,
+            1.03,
+            0.71,
+            0.6,
+            0.89,
+            0.58,
+            1.07,
+            1.06,
+            0.36,
+            0.36,
+            0.6,
+            1.11,
+            0.56,
+            0.67,
+            0.67,
+            0.31,
+            0.58,
+            0.58,
+            -0.23,
+            -0.01,
+            -0.62,
+            -0.07,
+            0.04,
+            0.04,
+            0.56,
+            -0.09,
+            0.37,
+            0.61,
+            0.39,
+            0.36,
+            -0.23,
+            -1.04,
+            -0.74,
+            -0.79,
+            -0.79,
+            -1.13,
+            -1.38,
+            -1.11,
+            -1.32,
+            -0.47,
+            0.39,
+            0.94,
+            0.02,
+            0.41,
+            0.7,
+            1.29,
+            0.43,
+            0.73,
+            0.77,
+            -0.2,
+            -1.06,
+            -0.36,
+            -0.37,
+            -0.31,
+            -0.9,
+            -0.9,
+            -0.99,
+            -1.18,
+            -0.21,
+            0.64,
+            0.66,
+            0.41,
+            0.31,
+            0.98,
+            1.32,
+            1.46,
+            1.1,
+            0.24,
+            0.09,
+            0.08,
+            -0.23,
+            0.11,
+            0.03,
+            0.54,
+            0.5,
+            0.4,
+            1.21,
+            0.51,
+            -0.19,
+            -0.22,
+            -0.47,
+            -0.2,
+            -1.17,
+            -1.26,
+            -1.5,
+            -1.97,
+            -1.16,
+            -0.16,
+            0.66,
+            1.12,
+            0.27,
+            0.69,
+            1.18,
+            1.99,
+            1.86,
+            1.04,
+            0.46,
+            -0.36,
+            -0.31,
+            0.58,
+            0.27,
+            -0.43,
+            -0.43,
+            -0.3,
+            0.04,
+            -0.26,
+            0.34,
+            0.3,
+            -0.59,
+            -0.24,
+            0.36,
+            0.24,
+            -0.1,
+            -0.56,
+            0.03,
+            -0.57,
+            -0.52,
+            -0.28,
+            -0.28,
+            -0.67,
+            -0.67,
+            -0.37,
+            -0.26,
+            -0.53,
+            -0.64,
+            -0.9,
+            -0.83,
+            -0.59,
+            -0.2,
+            -0.56,
+            -0.97,
+            -0.72,
+            -0.79,
+            -0.79,
+            -0.58,
+            -0.19,
+            -0.89,
+            -1.49,
+            -1.52,
+            -0.56,
+            0.06,
+            -0.19,
+            -0.08,
+            0.0,
+            -0.7,
+            -0.28,
+            -0.07,
+            0.48,
+            0.43,
+            0.28,
+            1.09,
+            0.98,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.26,
+            -0.34,
+            -0.74,
+            -1.21,
+            -0.89,
+            -1.1,
+            -0.76,
+            -1.07,
+            -1.39,
+            -1.9,
+            -2.22,
+            -2.52,
+            -2.52,
+            -2.73,
+            -2.44,
+            -2.9,
+            -2.31,
+            -1.9,
+            -1.91,
+            -1.77,
+            -0.96,
+            -1.34,
+            -1.31,
+            -1.6,
+            -0.68,
+            -0.6,
+            -0.9,
+            -0.33,
+            -0.48,
+            -0.94,
+            -0.9,
+            -0.9,
+            -0.09,
+            -0.59,
+            -0.66,
+            0.16,
+            -0.7,
+            -0.24,
+            -0.59,
+            0.0,
+            0.31,
+            -0.2,
+            0.38,
+            0.37,
+            -0.44,
+            0.14,
+            0.66,
+            0.66,
+            0.07,
+            0.01,
+            0.52,
+            -0.41,
+            -0.79,
+            -0.49
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.84,
+            0.77,
+            0.77,
+            0.71,
+            0.67,
+            0.63,
+            0.52,
+            0.5,
+            0.47,
+            0.43,
+            0.32,
+            0.33,
+            0.3,
+            0.22,
+            0.31,
+            0.27,
+            0.24,
+            0.27,
+            0.33,
+            0.26,
+            0.29,
+            0.35,
+            0.38,
+            0.27,
+            0.3,
+            0.3,
+            0.23,
+            0.31,
+            0.31,
+            0.22,
+            0.23,
+            0.3,
+            0.26,
+            0.2,
+            0.31,
+            0.33,
+            0.29,
+            0.28,
+            0.24,
+            0.21,
+            0.28,
+            0.27,
+            0.27,
+            0.23,
+            0.32,
+            0.35,
+            0.35,
+            0.34,
+            0.23,
+            0.16,
+            0.14,
+            0.13,
+            0.13,
+            0.18,
+            0.21,
+            0.15,
+            0.08,
+            0.12,
+            0.13,
+            0.16,
+            0.15,
+            0.16,
+            0.1,
+            0.06,
+            0.08,
+            0.05,
+            0.03,
+            0.02,
+            0.03,
+            0.03,
+            0.06,
+            0.1,
+            0.06,
+            0.06,
+            0.06,
+            0.05,
+            0.03,
+            0.05,
+            0.03,
+            0.03,
+            0.03,
+            0.04,
+            0.04,
+            0.04,
+            0.05,
+            0.05,
+            0.09,
+            0.13,
+            0.18,
+            0.12,
+            0.22,
+            0.22,
+            0.23,
+            0.24,
+            0.26,
+            0.19,
+            0.21,
+            0.24,
+            0.26,
+            0.3,
+            0.2,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.26,
+            0.26,
+            0.2,
+            0.16,
+            0.16,
+            0.25,
+            0.23,
+            0.23,
+            0.15,
+            0.16,
+            0.11,
+            0.12,
+            0.16,
+            0.13,
+            0.1,
+            0.13,
+            0.19,
+            0.23,
+            0.2,
+            0.13,
+            0.15,
+            0.15,
+            0.11,
+            0.11,
+            0.09,
+            0.09,
+            0.05,
+            0.03,
+            0.03,
+            0.05,
+            0.07,
+            0.1,
+            0.08,
+            0.08,
+            0.15,
+            0.23,
+            0.23,
+            0.16,
+            0.11,
+            0.07,
+            0.08,
+            0.11,
+            0.12,
+            0.09,
+            0.06,
+            0.11,
+            0.12,
+            0.18,
+            0.28,
+            0.19,
+            0.14,
+            0.15,
+            0.17,
+            0.17,
+            0.18,
+            0.16,
+            0.16,
+            0.13,
+            0.13,
+            0.21,
+            0.28,
+            0.31,
+            0.2,
+            0.2,
+            0.29,
+            0.34,
+            0.32,
+            0.24,
+            0.17,
+            0.16,
+            0.25,
+            0.23,
+            0.23,
+            0.22,
+            0.3,
+            0.28,
+            0.23,
+            0.21,
+            0.22,
+            0.25,
+            0.23,
+            0.23,
+            0.19,
+            0.21,
+            0.19,
+            0.15,
+            0.12,
+            0.1,
+            0.16,
+            0.23,
+            0.17,
+            0.11,
+            0.18,
+            0.18,
+            0.13,
+            0.13,
+            0.15,
+            0.21,
+            0.17,
+            0.16,
+            0.14,
+            0.1,
+            0.1,
+            0.17,
+            0.25,
+            0.27,
+            0.35,
+            0.36,
+            0.39,
+            0.38,
+            0.38,
+            0.47,
+            0.53,
+            0.53,
+            0.53,
+            0.56,
+            0.55,
+            0.54,
+            0.53,
+            0.58,
+            0.63,
+            0.61,
+            0.65,
+            0.65,
+            0.64,
+            0.55,
+            0.55,
+            0.47,
+            0.54,
+            0.51,
+            0.52,
+            0.45,
+            0.37,
+            0.38,
+            0.32,
+            0.29,
+            0.31,
+            0.32,
+            0.32,
+            0.25,
+            0.24,
+            0.22,
+            0.24,
+            0.26,
+            0.27,
+            0.27,
+            0.34,
+            0.35,
+            0.39,
+            0.33,
+            0.32,
+            0.32,
+            0.36,
+            0.36,
+            0.37,
+            0.43,
+            0.38,
+            0.32,
+            0.3,
+            0.34,
+            0.41,
+            0.44,
+            0.51,
+            0.61,
+            0.64,
+            0.68,
+            0.71,
+            0.76,
+            0.8,
+            0.83,
+            0.91
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.39,
+            0.4,
+            0.4,
+            0.39,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.36,
+            0.34,
+            0.33,
+            0.31,
+            0.3,
+            0.29,
+            0.28,
+            0.28,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.28,
+            0.28,
+            0.27,
+            0.26,
+            0.24,
+            0.24,
+            0.23,
+            0.23,
+            0.22,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.25,
+            0.26,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.29,
+            0.29,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.31,
+            0.31,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.34,
+            0.32,
+            0.3,
+            0.29,
+            0.28,
+            0.28,
+            0.27,
+            0.26,
+            0.26,
+            0.25,
+            0.24,
+            0.24,
+            0.24,
+            0.25,
+            0.25,
+            0.25,
+            0.26,
+            0.28,
+            0.3,
+            0.33,
+            0.36,
+            0.4,
+            0.42,
+            0.41,
+            0.39,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.41,
+            0.43,
+            0.41,
+            0.39,
+            0.38,
+            0.36,
+            0.36,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.35,
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.33,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.34,
+            0.34,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.38
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00362,
+      "type": "modified_monomer"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "295838_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 276,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "6319_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 18,
+          "ref_beg_seq_id": 1244
+        },
+        {
+          "entity_beg_seq_id": 19,
+          "length": 35,
+          "ref_beg_seq_id": 1269
+        },
+        {
+          "entity_beg_seq_id": 54,
+          "length": 16,
+          "ref_beg_seq_id": 1309
+        },
+        {
+          "entity_beg_seq_id": 70,
+          "length": 7,
+          "ref_beg_seq_id": 1334
+        },
+        {
+          "entity_beg_seq_id": 77,
+          "length": 8,
+          "ref_beg_seq_id": 1355
+        },
+        {
+          "entity_beg_seq_id": 85,
+          "length": 14,
+          "ref_beg_seq_id": 1366
+        },
+        {
+          "entity_beg_seq_id": 99,
+          "length": 8,
+          "ref_beg_seq_id": 1385
+        },
+        {
+          "entity_beg_seq_id": 107,
+          "length": 7,
+          "ref_beg_seq_id": 1419
+        },
+        {
+          "entity_beg_seq_id": 114,
+          "length": 32,
+          "ref_beg_seq_id": 1427
+        },
+        {
+          "entity_beg_seq_id": 146,
+          "length": 19,
+          "ref_beg_seq_id": 1460
+        },
+        {
+          "entity_beg_seq_id": 165,
+          "length": 2,
+          "ref_beg_seq_id": 1480
+        },
+        {
+          "entity_beg_seq_id": 167,
+          "length": 1,
+          "ref_beg_seq_id": 1486
+        },
+        {
+          "entity_beg_seq_id": 168,
+          "length": 16,
+          "ref_beg_seq_id": 1491
+        },
+        {
+          "entity_beg_seq_id": 184,
+          "length": 27,
+          "ref_beg_seq_id": 1508
+        },
+        {
+          "entity_beg_seq_id": 211,
+          "length": 13,
+          "ref_beg_seq_id": 1548
+        },
+        {
+          "entity_beg_seq_id": 224,
+          "length": 18,
+          "ref_beg_seq_id": 1618
+        },
+        {
+          "entity_beg_seq_id": 242,
+          "length": 7,
+          "ref_beg_seq_id": 1637
+        },
+        {
+          "entity_beg_seq_id": 249,
+          "length": 12,
+          "ref_beg_seq_id": 1646
+        },
+        {
+          "entity_beg_seq_id": 261,
+          "length": 16,
+          "ref_beg_seq_id": 1667
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "K4I6L4",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 276,
+          "ref_beg_seq_id": 2114
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "579687_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 276,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "733882_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 276,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "296598_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 276,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "624618_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 276,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    }
+  ],
+  "rcsb_id": "9CFJ_1"
+}

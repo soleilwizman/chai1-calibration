@@ -1,0 +1,3171 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "PSLRTQPSLYSGPFPFYRRPSELGCFSLDAQRQYHGDARALRYYSPPPINGPGPDFDLRDGYPDRYQPRDEEVQERLDHLLRWVLEHRNQLEGGPGWLAGATVTWRGHLTKLLTTPYERQEGWQLAASRFQGTLYLSEVETPAARAQRLARPPLLRELMYMGYKFEQYMCADKPGGSPDPSGEVNTNVAYCSVLRSRLGNHPLLFSGEVDCLNPQAPCTQPPSCYVELKTSKEMHSPGQWRSFYRHKLLKWWAQSFLPGVPHVVAGFRNPEGFVCSLKTFPTMEMFENVRNDREGWNPSVCMNFCAAFLSFAQSTVVQDDPRLVHLFSWEPGGPVTVSVHRDAPYAFLPSWYVETMTQ",
+    "pdbx_seq_one_letter_code_can": "PSLRTQPSLYSGPFPFYRRPSELGCFSLDAQRQYHGDARALRYYSPPPINGPGPDFDLRDGYPDRYQPRDEEVQERLDHLLRWVLEHRNQLEGGPGWLAGATVTWRGHLTKLLTTPYERQEGWQLAASRFQGTLYLSEVETPAARAQRLARPPLLRELMYMGYKFEQYMCADKPGGSPDPSGEVNTNVAYCSVLRSRLGNHPLLFSGEVDCLNPQAPCTQPPSCYVELKTSKEMHSPGQWRSFYRHKLLKWWAQSFLPGVPHVVAGFRNPEGFVCSLKTFPTMEMFENVRNDREGWNPSVCMNFCAAFLSFAQSTVVQDDPRLVHLFSWEPGGPVTVSVHRDAPYAFLPSWYVETMTQ",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 358,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "house mouse",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 358,
+      "pdbx_gene_src_gene": "Dxo, Dom3z, Ng6",
+      "pdbx_gene_src_ncbi_taxonomy_id": "10090",
+      "pdbx_gene_src_scientific_name": "Mus musculus",
+      "pdbx_host_org_ncbi_taxonomy_id": "469008",
+      "pdbx_host_org_scientific_name": "Escherichia coli BL21(DE3)",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 5204,
+      "identity": 100
+    },
+    {
+      "cluster_id": 6808,
+      "identity": 95
+    },
+    {
+      "cluster_id": 6543,
+      "identity": 90
+    },
+    {
+      "cluster_id": 9031,
+      "identity": 70
+    },
+    {
+      "cluster_id": 9902,
+      "identity": 50
+    },
+    {
+      "cluster_id": 9723,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 358,
+      "ncbi_common_names": [
+        "Escherichia coli str. BL21(DE3)",
+        "Escherichia coli strain BL21(DE3)"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli BL21(DE3)",
+      "ncbi_taxonomy_id": 469008,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli BL21(DE3)",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli str. BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli strain BL21(DE3)"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "house mouse",
+      "end_seq_num": 358,
+      "ncbi_common_names": [
+        "house mouse",
+        "mouse"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Mus musculus",
+      "ncbi_taxonomy_id": 10090,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Mus musculus",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "314147",
+          "name": "Glires"
+        },
+        {
+          "depth": 23,
+          "id": "314147",
+          "name": "Rodents and rabbits"
+        },
+        {
+          "depth": 24,
+          "id": "9989",
+          "name": "Rodentia"
+        },
+        {
+          "depth": 24,
+          "id": "9989",
+          "name": "rodent"
+        },
+        {
+          "depth": 24,
+          "id": "9989",
+          "name": "rodents"
+        },
+        {
+          "depth": 25,
+          "id": "1963758",
+          "name": "Myomorpha"
+        },
+        {
+          "depth": 25,
+          "id": "1963758",
+          "name": "mice and others"
+        },
+        {
+          "depth": 26,
+          "id": "337687",
+          "name": "Muroidea"
+        },
+        {
+          "depth": 27,
+          "id": "10066",
+          "name": "Muridae"
+        },
+        {
+          "depth": 28,
+          "id": "39107",
+          "name": "Murinae"
+        },
+        {
+          "depth": 29,
+          "id": "10088",
+          "name": "Mus"
+        },
+        {
+          "depth": 29,
+          "id": "10088",
+          "name": "mice"
+        },
+        {
+          "depth": 29,
+          "id": "10088",
+          "name": "mouse"
+        },
+        {
+          "depth": 30,
+          "id": "862507",
+          "name": "Mus"
+        },
+        {
+          "depth": 31,
+          "id": "10090",
+          "name": "Mus musculus"
+        },
+        {
+          "depth": 31,
+          "id": "10090",
+          "name": "house mouse"
+        },
+        {
+          "depth": 31,
+          "id": "10090",
+          "name": "mouse"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "Dxo"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "Dom3z"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "Ng6"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 40.961,
+    "pdbx_description": "Decapping and exoribonuclease protein",
+    "pdbx_ec": "3.6.1,3.1.13",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "3",
+        "name": "Hydrolases"
+      },
+      {
+        "depth": 2,
+        "id": "3.6",
+        "name": "Acting on acid anhydrides"
+      },
+      {
+        "depth": 3,
+        "id": "3.6.1",
+        "name": "In phosphorus-containing anhydrides"
+      },
+      {
+        "depth": 1,
+        "id": "3",
+        "name": "Hydrolases"
+      },
+      {
+        "depth": 2,
+        "id": "3.1",
+        "name": "Acting on ester bonds"
+      },
+      {
+        "depth": 3,
+        "id": "3.1.13",
+        "name": "Exoribonucleases producing 5\u2032-phosphomonoesters"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Decapping and exoribonuclease protein",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "5'-3' exoribonuclease DXO",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "Dom-3 homolog Z",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "NAD-capped RNA hydrolase DXO",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "DeNADding enzyme DXO",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 3,
+        "ec": "3.6.1",
+        "provenance_source": "PDB Primary Data"
+      },
+      {
+        "depth": 3,
+        "ec": "3.1.13",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Decapping and exoribonuclease protein"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "O70348",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 358,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF08652",
+      "assignment_version": "34.0",
+      "name": "RAI1 like PD-(D/E)XK nuclease (RAI1)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0000287",
+      "name": "magnesium ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0000287",
+          "name": "magnesium ion binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR039039",
+      "name": "RAI1-like family",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR039039",
+          "name": "RAI1-like family"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000956",
+      "name": "nuclear-transcribed mRNA catabolic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0009057",
+          "name": "macromolecule catabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0006401",
+          "name": "RNA catabolic process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0006402",
+          "name": "mRNA catabolic process"
+        },
+        {
+          "id": "GO:0000956",
+          "name": "nuclear-transcribed mRNA catabolic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0016071",
+          "name": "mRNA metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0034655",
+          "name": "nucleobase-containing compound catabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0010629",
+          "name": "negative regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0141188",
+          "name": "nucleic acid catabolic process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0050779",
+      "name": "RNA destabilization",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0009057",
+          "name": "macromolecule catabolic process"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0009893",
+          "name": "positive regulation of metabolic process"
+        },
+        {
+          "id": "GO:0010608",
+          "name": "post-transcriptional regulation of gene expression"
+        },
+        {
+          "id": "GO:0051252",
+          "name": "regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0010604",
+          "name": "positive regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0065008",
+          "name": "regulation of biological quality"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0006401",
+          "name": "RNA catabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050779",
+          "name": "RNA destabilization"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009894",
+          "name": "regulation of catabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0034655",
+          "name": "nucleobase-containing compound catabolic process"
+        },
+        {
+          "id": "GO:0051254",
+          "name": "positive regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0009896",
+          "name": "positive regulation of catabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0043487",
+          "name": "regulation of RNA stability"
+        },
+        {
+          "id": "GO:0141188",
+          "name": "nucleic acid catabolic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003729",
+      "name": "mRNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003723",
+          "name": "RNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003729",
+          "name": "mRNA binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0110152",
+      "name": "RNA NAD+-cap (NAD+-forming) hydrolase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110152",
+          "name": "RNA NAD+-cap (NAD+-forming) hydrolase activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016818",
+          "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0016817",
+          "name": "hydrolase activity, acting on acid anhydrides"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0090304",
+      "name": "nucleic acid metabolic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006402",
+      "name": "mRNA catabolic process",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0009057",
+          "name": "macromolecule catabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0006401",
+          "name": "RNA catabolic process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0006402",
+          "name": "mRNA catabolic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0016071",
+          "name": "mRNA metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0034655",
+          "name": "nucleobase-containing compound catabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0010629",
+          "name": "negative regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0141188",
+          "name": "nucleic acid catabolic process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000166",
+      "name": "nucleotide binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:1901265",
+          "name": "nucleoside phosphate binding"
+        },
+        {
+          "id": "GO:0000166",
+          "name": "nucleotide binding"
+        },
+        {
+          "id": "GO:1901363",
+          "name": "heterocyclic compound binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0034353",
+      "name": "mRNA 5'-diphosphatase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016462",
+          "name": "pyrophosphatase activity"
+        },
+        {
+          "id": "GO:0042578",
+          "name": "phosphoric ester hydrolase activity"
+        },
+        {
+          "id": "GO:0034353",
+          "name": "mRNA 5'-diphosphatase activity"
+        },
+        {
+          "id": "GO:0140098",
+          "name": "catalytic activity, acting on RNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016791",
+          "name": "phosphatase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004651",
+          "name": "polynucleotide 5'-phosphatase activity"
+        },
+        {
+          "id": "GO:0016818",
+          "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+        },
+        {
+          "id": "GO:0016817",
+          "name": "hydrolase activity, acting on acid anhydrides"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0110155",
+      "name": "NAD-cap decapping",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110155",
+          "name": "NAD-cap decapping"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0110154",
+          "name": "RNA decapping"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005886",
+      "name": "plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0008409",
+      "name": "5'-3' exonuclease activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016788",
+          "name": "hydrolase activity, acting on ester bonds"
+        },
+        {
+          "id": "GO:0004518",
+          "name": "nuclease activity"
+        },
+        {
+          "id": "GO:0008409",
+          "name": "5'-3' exonuclease activity"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0004527",
+          "name": "exonuclease activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0071028",
+      "name": "nuclear mRNA surveillance",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0009056",
+          "name": "catabolic process"
+        },
+        {
+          "id": "GO:0048519",
+          "name": "negative regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0009057",
+          "name": "macromolecule catabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0048523",
+          "name": "negative regulation of cellular process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0071025",
+          "name": "RNA surveillance"
+        },
+        {
+          "id": "GO:0006401",
+          "name": "RNA catabolic process"
+        },
+        {
+          "id": "GO:0010605",
+          "name": "negative regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0006402",
+          "name": "mRNA catabolic process"
+        },
+        {
+          "id": "GO:0071027",
+          "name": "nuclear RNA surveillance"
+        },
+        {
+          "id": "GO:0000956",
+          "name": "nuclear-transcribed mRNA catabolic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0009892",
+          "name": "negative regulation of metabolic process"
+        },
+        {
+          "id": "GO:0071028",
+          "name": "nuclear mRNA surveillance"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0010467",
+          "name": "gene expression"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0016071",
+          "name": "mRNA metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0034655",
+          "name": "nucleobase-containing compound catabolic process"
+        },
+        {
+          "id": "GO:0010468",
+          "name": "regulation of gene expression"
+        },
+        {
+          "id": "GO:0010629",
+          "name": "negative regulation of gene expression"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0009890",
+          "name": "negative regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0010558",
+          "name": "negative regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0141188",
+          "name": "nucleic acid catabolic process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013961",
+      "name": "RAI1-like",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013961",
+          "name": "RAI1-like"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005654",
+      "name": "nucleoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005654",
+          "name": "nucleoplasm"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005634",
+      "name": "nucleus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "11AP",
+    "rcsb_id": "11AP_1",
+    "uniprot_ids": [
+      "O70348"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "O70348",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1.0,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.9017632241813602
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF08652",
+      "name": "RAI1 like PD-(D/E)XK nuclease (RAI1)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 18,
+          "end_seq_id": 353
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.66,
+            -0.62,
+            -0.62,
+            -1.09,
+            -0.77,
+            -0.38,
+            -0.17,
+            0.32,
+            0.27,
+            -0.66,
+            -1.01,
+            -1.1,
+            -1.14,
+            -1.36,
+            -1.24,
+            -1.11,
+            -1.14,
+            -0.69,
+            -0.28,
+            0.64,
+            0.43,
+            0.72,
+            0.72,
+            -0.2,
+            -0.54,
+            -0.97,
+            -1.63,
+            -1.59,
+            -2.4,
+            -1.81,
+            -2.51,
+            -1.92,
+            -1.0,
+            -1.11,
+            -1.11,
+            -0.9,
+            -0.94,
+            -0.73,
+            -1.11,
+            -0.79,
+            -0.49,
+            -1.3,
+            -0.84,
+            -0.88,
+            -0.78,
+            -0.87,
+            -1.08,
+            -0.59,
+            -0.8,
+            -0.88,
+            -0.99,
+            -1.33,
+            -1.2,
+            -1.3,
+            -1.3,
+            -1.3,
+            -2.11,
+            -1.87,
+            -2.68,
+            -2.36,
+            -2.47,
+            -2.81,
+            -3.06,
+            -3.27,
+            -2.41,
+            -2.3,
+            -2.54,
+            -2.66,
+            -2.06,
+            -1.94,
+            -1.91,
+            -1.1,
+            -0.29,
+            -1.26,
+            -0.97,
+            -0.11,
+            0.81,
+            0.0,
+            0.03,
+            -0.11,
+            -0.92,
+            -1.73,
+            -0.81,
+            -1.1,
+            -1.61,
+            -2.08,
+            -1.87,
+            -1.56,
+            -1.16,
+            -0.34,
+            0.24,
+            -0.22,
+            0.37,
+            0.33,
+            0.84,
+            0.94,
+            0.89,
+            0.49,
+            0.02,
+            -0.53,
+            -0.07,
+            -0.34,
+            -0.7,
+            -0.74,
+            -0.24,
+            -0.22,
+            0.2,
+            0.07,
+            0.28,
+            -0.53,
+            -0.96,
+            -0.91,
+            -1.72,
+            -2.19,
+            -2.21,
+            -2.52,
+            -1.92,
+            -1.58,
+            -0.99,
+            -0.58,
+            -0.69,
+            0.01,
+            -0.33,
+            -0.28,
+            0.03,
+            0.03,
+            -0.31,
+            -0.09,
+            -0.09,
+            0.02,
+            0.18,
+            0.18,
+            0.14,
+            0.04,
+            -0.18,
+            0.17,
+            -0.76,
+            -0.47,
+            -0.47,
+            -1.43,
+            -0.62,
+            -0.34,
+            -0.67,
+            -1.04,
+            -1.42,
+            -0.5,
+            -0.28,
+            -0.39,
+            -0.28,
+            -0.28,
+            -0.27,
+            0.09,
+            0.48,
+            0.61,
+            0.04,
+            -0.81,
+            0.0,
+            0.0,
+            -0.81,
+            -1.17,
+            -0.81,
+            -0.74,
+            -0.5,
+            -0.74,
+            -0.74,
+            -1.23,
+            -0.89,
+            -0.54,
+            -0.49,
+            -0.88,
+            -1.54,
+            -1.92,
+            -1.62,
+            -1.23,
+            -1.44,
+            -0.93,
+            -1.28,
+            -1.27,
+            -1.48,
+            -0.62,
+            -0.24,
+            -0.3,
+            0.02,
+            0.32,
+            0.32,
+            1.13,
+            0.71,
+            1.01,
+            0.04,
+            0.27,
+            0.37,
+            -0.3,
+            -0.57,
+            -1.21,
+            -1.21,
+            -0.29,
+            0.11,
+            0.52,
+            0.06,
+            -0.29,
+            0.57,
+            0.53,
+            0.99,
+            0.99,
+            0.18,
+            -0.31,
+            -0.61,
+            -0.37,
+            -0.16,
+            -0.34,
+            -0.03,
+            -0.7,
+            -1.3,
+            -1.09,
+            -1.0,
+            -0.33,
+            -0.68,
+            -0.03,
+            -0.7,
+            -0.2,
+            -0.24,
+            -0.14,
+            -0.06,
+            -0.4,
+            -1.07,
+            -0.71,
+            -1.53,
+            -1.23,
+            -1.83,
+            -1.44,
+            -1.76,
+            -1.77,
+            -1.83,
+            -1.53,
+            -1.43,
+            -1.22,
+            -1.63,
+            -1.81,
+            -2.2,
+            -1.39,
+            -0.87,
+            -0.8,
+            -0.81,
+            -1.22,
+            -0.88,
+            -0.77,
+            -0.5,
+            0.24,
+            0.24,
+            -0.36,
+            0.03,
+            0.6,
+            0.52,
+            -0.03,
+            0.82,
+            1.38,
+            1.27,
+            0.8,
+            1.29,
+            0.83,
+            -0.02,
+            -0.02,
+            -0.06,
+            -0.57,
+            -0.72,
+            -0.46,
+            -0.13,
+            -0.53,
+            0.39,
+            0.34,
+            0.44,
+            1.14,
+            1.01,
+            0.62,
+            0.37,
+            -0.3,
+            0.0,
+            -0.11,
+            -0.07,
+            -0.38,
+            -0.22,
+            -0.54,
+            -0.86,
+            -1.46,
+            -1.57,
+            -2.17,
+            -2.52,
+            -2.23,
+            -2.23,
+            -2.88,
+            -2.47,
+            -1.61,
+            -0.94,
+            -0.23,
+            -0.23,
+            0.12,
+            0.5,
+            1.09,
+            1.47,
+            1.87,
+            1.82,
+            1.46,
+            1.56,
+            2.14,
+            1.44,
+            1.08,
+            0.8,
+            1.07,
+            1.22,
+            0.41,
+            0.11,
+            -0.59,
+            -0.97,
+            -1.08,
+            -0.57,
+            -0.02,
+            -0.84,
+            -0.89,
+            -0.19,
+            0.11,
+            0.4,
+            0.19,
+            0.51,
+            0.04,
+            -0.47,
+            -0.29,
+            -0.24,
+            -0.63,
+            -0.08,
+            -0.07,
+            0.79,
+            0.61,
+            0.16,
+            -0.19,
+            0.19,
+            -0.46,
+            -0.52,
+            -0.79,
+            -0.39,
+            -0.43,
+            -0.26,
+            0.16,
+            0.44,
+            0.1,
+            0.74,
+            0.5,
+            0.22,
+            0.12,
+            -0.38,
+            -0.59
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.92,
+            0.9,
+            0.89,
+            0.8,
+            0.78,
+            0.68,
+            0.58,
+            0.54,
+            0.5,
+            0.49,
+            0.45,
+            0.43,
+            0.38,
+            0.45,
+            0.38,
+            0.31,
+            0.29,
+            0.2,
+            0.22,
+            0.26,
+            0.35,
+            0.35,
+            0.38,
+            0.28,
+            0.35,
+            0.31,
+            0.41,
+            0.45,
+            0.44,
+            0.41,
+            0.33,
+            0.33,
+            0.27,
+            0.27,
+            0.27,
+            0.37,
+            0.48,
+            0.51,
+            0.52,
+            0.5,
+            0.54,
+            0.54,
+            0.55,
+            0.55,
+            0.63,
+            0.58,
+            0.6,
+            0.53,
+            0.54,
+            0.56,
+            0.59,
+            0.6,
+            0.63,
+            0.68,
+            0.72,
+            0.67,
+            0.66,
+            0.65,
+            0.61,
+            0.68,
+            0.68,
+            0.68,
+            0.61,
+            0.63,
+            0.61,
+            0.58,
+            0.58,
+            0.58,
+            0.62,
+            0.57,
+            0.49,
+            0.46,
+            0.42,
+            0.35,
+            0.27,
+            0.29,
+            0.33,
+            0.29,
+            0.26,
+            0.28,
+            0.19,
+            0.19,
+            0.19,
+            0.24,
+            0.25,
+            0.24,
+            0.18,
+            0.17,
+            0.15,
+            0.16,
+            0.2,
+            0.27,
+            0.23,
+            0.34,
+            0.3,
+            0.35,
+            0.35,
+            0.35,
+            0.3,
+            0.3,
+            0.29,
+            0.3,
+            0.22,
+            0.22,
+            0.21,
+            0.21,
+            0.13,
+            0.22,
+            0.29,
+            0.31,
+            0.31,
+            0.33,
+            0.24,
+            0.3,
+            0.23,
+            0.29,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.35,
+            0.35,
+            0.27,
+            0.2,
+            0.17,
+            0.27,
+            0.18,
+            0.2,
+            0.2,
+            0.22,
+            0.18,
+            0.23,
+            0.23,
+            0.26,
+            0.29,
+            0.31,
+            0.23,
+            0.2,
+            0.28,
+            0.3,
+            0.32,
+            0.26,
+            0.27,
+            0.35,
+            0.44,
+            0.38,
+            0.34,
+            0.34,
+            0.31,
+            0.3,
+            0.2,
+            0.23,
+            0.19,
+            0.2,
+            0.26,
+            0.18,
+            0.16,
+            0.15,
+            0.15,
+            0.16,
+            0.13,
+            0.13,
+            0.17,
+            0.23,
+            0.22,
+            0.22,
+            0.29,
+            0.34,
+            0.41,
+            0.42,
+            0.43,
+            0.45,
+            0.45,
+            0.51,
+            0.5,
+            0.43,
+            0.48,
+            0.45,
+            0.42,
+            0.46,
+            0.4,
+            0.35,
+            0.33,
+            0.34,
+            0.35,
+            0.3,
+            0.28,
+            0.27,
+            0.23,
+            0.25,
+            0.2,
+            0.15,
+            0.13,
+            0.13,
+            0.13,
+            0.14,
+            0.14,
+            0.17,
+            0.11,
+            0.15,
+            0.15,
+            0.2,
+            0.26,
+            0.23,
+            0.25,
+            0.15,
+            0.18,
+            0.2,
+            0.22,
+            0.25,
+            0.24,
+            0.18,
+            0.17,
+            0.18,
+            0.19,
+            0.13,
+            0.13,
+            0.17,
+            0.16,
+            0.29,
+            0.35,
+            0.32,
+            0.28,
+            0.27,
+            0.31,
+            0.29,
+            0.41,
+            0.33,
+            0.32,
+            0.3,
+            0.19,
+            0.12,
+            0.22,
+            0.27,
+            0.33,
+            0.25,
+            0.25,
+            0.25,
+            0.17,
+            0.11,
+            0.09,
+            0.09,
+            0.11,
+            0.07,
+            0.05,
+            0.05,
+            0.05,
+            0.03,
+            0.05,
+            0.05,
+            0.03,
+            0.03,
+            0.05,
+            0.05,
+            0.03,
+            0.03,
+            0.04,
+            0.08,
+            0.08,
+            0.13,
+            0.14,
+            0.12,
+            0.08,
+            0.08,
+            0.09,
+            0.13,
+            0.12,
+            0.07,
+            0.12,
+            0.1,
+            0.09,
+            0.15,
+            0.17,
+            0.12,
+            0.13,
+            0.2,
+            0.15,
+            0.15,
+            0.13,
+            0.13,
+            0.13,
+            0.21,
+            0.27,
+            0.26,
+            0.26,
+            0.35,
+            0.35,
+            0.29,
+            0.29,
+            0.23,
+            0.23,
+            0.19,
+            0.12,
+            0.13,
+            0.18,
+            0.11,
+            0.07,
+            0.11,
+            0.07,
+            0.06,
+            0.06,
+            0.06,
+            0.05,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.07,
+            0.12,
+            0.09,
+            0.06,
+            0.1,
+            0.1,
+            0.06,
+            0.07,
+            0.06,
+            0.11,
+            0.12,
+            0.2,
+            0.23,
+            0.24,
+            0.18,
+            0.18,
+            0.18,
+            0.23,
+            0.17,
+            0.15,
+            0.13,
+            0.13,
+            0.12,
+            0.19,
+            0.18,
+            0.18,
+            0.17,
+            0.19,
+            0.2,
+            0.29,
+            0.2,
+            0.12,
+            0.08,
+            0.09,
+            0.07,
+            0.08,
+            0.08,
+            0.13,
+            0.16,
+            0.25,
+            0.31,
+            0.36,
+            0.38,
+            0.46,
+            0.48,
+            0.6,
+            0.66,
+            0.78
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.45,
+            0.45,
+            0.45,
+            0.46,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.46,
+            0.45,
+            0.45,
+            0.45,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.44,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.37,
+            0.36,
+            0.35,
+            0.35,
+            0.35,
+            0.35,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.42,
+            0.43,
+            0.42,
+            0.41,
+            0.39,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.35,
+            0.35,
+            0.36,
+            0.36,
+            0.38,
+            0.41,
+            0.43,
+            0.42,
+            0.4,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.34,
+            0.35,
+            0.38,
+            0.4,
+            0.43,
+            0.39,
+            0.35,
+            0.31,
+            0.28,
+            0.24,
+            0.2,
+            0.17,
+            0.15,
+            0.13,
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.12,
+            0.11,
+            0.12,
+            0.14,
+            0.16,
+            0.18,
+            0.2,
+            0.22,
+            0.23,
+            0.25,
+            0.27,
+            0.28,
+            0.3,
+            0.3,
+            0.29,
+            0.28,
+            0.29,
+            0.29,
+            0.31,
+            0.31,
+            0.33,
+            0.34,
+            0.35,
+            0.37,
+            0.4,
+            0.42,
+            0.38,
+            0.35,
+            0.34,
+            0.32,
+            0.31,
+            0.31,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.36,
+            0.4,
+            0.43,
+            0.4,
+            0.37,
+            0.35,
+            0.34,
+            0.31,
+            0.28,
+            0.25,
+            0.22,
+            0.2,
+            0.19,
+            0.17,
+            0.17,
+            0.16,
+            0.15,
+            0.14,
+            0.14,
+            0.15,
+            0.15,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.18,
+            0.17,
+            0.18,
+            0.18,
+            0.19,
+            0.2,
+            0.21,
+            0.22,
+            0.22,
+            0.23,
+            0.22,
+            0.22,
+            0.23,
+            0.23,
+            0.23,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.25,
+            0.26,
+            0.28,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.31,
+            0.31,
+            0.32,
+            0.33,
+            0.34,
+            0.34,
+            0.35,
+            0.34,
+            0.33,
+            0.32,
+            0.3,
+            0.27,
+            0.25,
+            0.23,
+            0.21,
+            0.19,
+            0.17,
+            0.16,
+            0.15,
+            0.14,
+            0.14,
+            0.15,
+            0.16,
+            0.17,
+            0.18,
+            0.2,
+            0.22,
+            0.24,
+            0.27,
+            0.29,
+            0.31,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.38
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.93855,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "9031_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 358,
+          "ref_beg_seq_id": 47
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "9902_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 49,
+          "ref_beg_seq_id": 51
+        },
+        {
+          "entity_beg_seq_id": 50,
+          "length": 43,
+          "ref_beg_seq_id": 102
+        },
+        {
+          "entity_beg_seq_id": 93,
+          "length": 2,
+          "ref_beg_seq_id": 149
+        },
+        {
+          "entity_beg_seq_id": 95,
+          "length": 264,
+          "ref_beg_seq_id": 152
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "6543_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 358,
+          "ref_beg_seq_id": 47
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "6808_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 358,
+          "ref_beg_seq_id": 47
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "5204_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 358,
+          "ref_beg_seq_id": 47
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "9723_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 49,
+          "ref_beg_seq_id": 57
+        },
+        {
+          "entity_beg_seq_id": 50,
+          "length": 24,
+          "ref_beg_seq_id": 108
+        },
+        {
+          "entity_beg_seq_id": 74,
+          "length": 19,
+          "ref_beg_seq_id": 133
+        },
+        {
+          "entity_beg_seq_id": 93,
+          "length": 2,
+          "ref_beg_seq_id": 182
+        },
+        {
+          "entity_beg_seq_id": 95,
+          "length": 83,
+          "ref_beg_seq_id": 185
+        },
+        {
+          "entity_beg_seq_id": 178,
+          "length": 1,
+          "ref_beg_seq_id": 269
+        },
+        {
+          "entity_beg_seq_id": 179,
+          "length": 44,
+          "ref_beg_seq_id": 273
+        },
+        {
+          "entity_beg_seq_id": 223,
+          "length": 69,
+          "ref_beg_seq_id": 318
+        },
+        {
+          "entity_beg_seq_id": 292,
+          "length": 45,
+          "ref_beg_seq_id": 388
+        },
+        {
+          "entity_beg_seq_id": 337,
+          "length": 22,
+          "ref_beg_seq_id": 435
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "O70348",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 358,
+          "ref_beg_seq_id": 27
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "DXO,5'-3' exoribonuclease DXO,Dom-3 homolog Z,NAD-capped RNA hydrolase DXO,DeNADding enzyme DXO"
+    }
+  ],
+  "rcsb_id": "11AP_1"
+}

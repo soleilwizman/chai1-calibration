@@ -1,0 +1,486 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0001-5026-5996",
+      "name": "Drickamer, K.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-9937-4699",
+      "name": "Feinberg, H.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-5583-6150",
+      "name": "Weis, W.I.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0001-8300-4987",
+      "name": "Taylor, M.E.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0001-7768-0102",
+      "name": "Jegouzo, S.A.F.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 45.65,
+    "length_b": 66.56,
+    "length_c": 37.23,
+    "volume": 113122.015
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Jegouzo, S.A.F.",
+        "Feinberg, H.",
+        "Lasanajak, Y.",
+        "Smith, D.H.",
+        "Weis, W.I.",
+        "Drickamer, K.",
+        "Taylor, M.E."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Sugar binding activity of the endothelial receptor Endo180"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9QY1",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9qy1/pdb",
+      "pdbx_database_accession": "pdb_00009qy1"
+    },
+    {
+      "database_code": "D_1292147205",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2021-12-23T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL12-1",
+      "pdbx_synchrotron_site": "SSRL",
+      "pdbx_wavelength_list": "0.97946",
+      "source": "SYNCHROTRON",
+      "type": "SSRL BEAMLINE BL12-1"
+    }
+  ],
+  "entry": {
+    "id": "9QY1"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 1.89,
+      "density_percent_sol": 34.93,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 8.0,
+      "pdbx_details": "Drop:\n5.2 mg/ml protein\n5 mM CaCl2\n10 mM Tris-Cl, pH 8.0\n25mM NaCl\n50mM alpha-Methyl-Fucoside\n\nReservoir\n26% polyethylene glycol 8K\n0.1 M Tris-Cl, pH 8.0.",
+      "temp": 289.5
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-05-28T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "United Kingdom",
+      "funding_organization": "UK Research and Innovation (UKRI)",
+      "grant_number": "BB/V014137/1",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2025-04-16T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5E4K",
+      "details": "Chain A residues 380-506 and two Ca2+ ions",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-04-26T11:19:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1839,
+      "DCC_Rfree": 0.2388,
+      "EDS_R": 0.1919,
+      "EDS_res_high": 1.9,
+      "EDS_res_low": 37.65,
+      "Fo_Fc_correlation": 0.963,
+      "I_over_sigma": "7.14(1.89A)",
+      "Padilla_Yeates_L2_mean": 0.332,
+      "Padilla_Yeates_L_mean": 0.498,
+      "Wilson_B_aniso": "[17.220,20.434,41.860,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 23.975,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 42.429,
+      "bulk_solvent_k": 0.351,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.93,
+      "data_completeness": 99.78,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 9386,
+      "number_reflns_R_free": 472,
+      "percent_RSRZ_outliers": 2.38,
+      "percent_free_reflections": 3.45,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 11.76% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.49,
+      "bonds_RMSZ": 0.26,
+      "clashscore": 7.25,
+      "num_H_reduce": 1003,
+      "num_angles_RMSZ": 1450,
+      "num_bonds_RMSZ": 1074,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.87
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-04-16T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-05-28T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-05-28T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9QY1",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9QY1"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1134,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 126,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 128,
+    "deposited_solvent_atom_count": 67,
+    "deposited_unmodeled_polymer_monomer_count": 2,
+    "diffrn_radiation_wavelength_maximum": 0.9795,
+    "diffrn_radiation_wavelength_minimum": 0.9795,
+    "disulfide_bond_count": 3,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 17,
+    "molecular_weight": 15.22,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA",
+      "MFU"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.18,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 14.96,
+    "polymer_molecular_weight_minimum": 14.96,
+    "polymer_monomer_count_maximum": 128,
+    "polymer_monomer_count_minimum": 128,
+    "resolution_combined": [
+      1.9
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.9
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "0000-0001-7768-0102",
+      "0000-0002-9937-4699",
+      "0000-0003-1450-8107",
+      "?",
+      "0000-0002-5583-6150",
+      "0000-0001-5026-5996",
+      "0000-0001-8300-4987"
+    ],
+    "rcsb_authors": [
+      "Jegouzo, S.A.F.",
+      "Feinberg, H.",
+      "Lasanajak, Y.",
+      "Smith, D.H.",
+      "Weis, W.I.",
+      "Drickamer, K.",
+      "Taylor, M.E."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Sugar binding activity of the endothelial receptor Endo180"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 32.92,
+      "ls_R_factor_R_free": 0.2386,
+      "ls_R_factor_R_work": 0.1837,
+      "ls_R_factor_obs": 0.1865,
+      "ls_d_res_high": 1.9,
+      "ls_d_res_low": 37.65,
+      "ls_number_reflns_R_free": 472,
+      "ls_number_reflns_R_work": 8913,
+      "ls_number_reflns_obs": 9385,
+      "ls_percent_reflns_R_free": 5.03,
+      "ls_percent_reflns_obs": 99.78,
+      "overall_SU_ML": 0.1898,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.38,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 28.2236,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.9,
+      "d_res_low": 37.65,
+      "number_atoms_solvent": 67,
+      "number_atoms_total": 1117,
+      "pdbx_number_atoms_ligand": 14,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1036,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0058,
+      "number": 1096,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.8054,
+      "number": 1485,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0564,
+      "number": 154,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0062,
+      "number": 189,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 13.464,
+      "number": 398,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 24.0,
+      "d_resolution_high": 1.9,
+      "d_resolution_low": 40.0,
+      "number_obs": 9435,
+      "pdbx_CC_half": 0.99,
+      "pdbx_Rsym_value": 0.125,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 21.08,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 24.7,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.9,
+      "d_res_low": 1.97,
+      "number_unique_obs": 922,
+      "pdbx_CC_half": 0.992,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 22.4,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Endo180 (uPARAP) carbohydrate-recognition domain 2 with bound methyl fucoside"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "SUGAR BINDING PROTEIN",
+    "text": "Lectin Endocytosis Endothelial cells, SUGAR BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 18,
+    "space_group_name_H_M": "P 21 21 2",
+    "space_group_name_Hall": "P 2 2ab"
+  },
+  "rcsb_id": "9QY1"
+}

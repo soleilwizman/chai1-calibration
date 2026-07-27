@@ -1,0 +1,454 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-1560-5769",
+      "name": "Pacesa, M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-7377-8636",
+      "name": "Correia, B.E.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 35.14,
+    "length_b": 51.28,
+    "length_c": 70.72,
+    "volume": 127435.969
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Pacesa, M.",
+        "Goverde, C.A.",
+        "Schellhaas, C.",
+        "Georgeon, S.",
+        "Correia, B.E."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Structural characterization of a designed beta barrel protein with a hydrophobic pore"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9HAG",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9hag/pdb",
+      "pdbx_database_accession": "pdb_00009hag"
+    },
+    {
+      "database_code": "D_1292142938",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2024-06-12T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS3 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "MASSIF-1",
+      "pdbx_synchrotron_site": "ESRF",
+      "pdbx_wavelength_list": "1",
+      "source": "SYNCHROTRON",
+      "type": "ESRF BEAMLINE MASSIF-1"
+    }
+  ],
+  "entry": {
+    "id": "9HAG"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.37,
+      "density_percent_sol": 48.12,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 5.5,
+      "pdbx_details": "0.1M Bis-Tris pH 5.5, 0.2 M ammonium acetate, 25% w/v PEG 3350",
+      "temp": 289.15
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-12-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Swiss National Science Foundation",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2024-11-03T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "id": 1,
+      "source_name": "AlphaFold",
+      "type": "in silico model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-06T17:01:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2151,
+      "DCC_Rfree": 0.2294,
+      "EDS_R": 0.2143,
+      "EDS_res_high": 1.86,
+      "EDS_res_low": 41.51,
+      "Fo_Fc_correlation": 0.96,
+      "I_over_sigma": "1.79(1.87A)",
+      "Padilla_Yeates_L2_mean": 0.321,
+      "Padilla_Yeates_L_mean": 0.484,
+      "Wilson_B_aniso": "[23.645,26.410,46.688,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 30.4,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 43.214,
+      "bulk_solvent_k": 0.41,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.715,
+      "data_completeness": 98.51,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 11030,
+      "number_reflns_R_free": 546,
+      "percent_RSRZ_outliers": 11.61,
+      "percent_free_reflections": 4.88,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 8.65% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.47,
+      "bonds_RMSZ": 0.24,
+      "clashscore": 1.74,
+      "num_H_reduce": 848,
+      "num_angles_RMSZ": 1207,
+      "num_bonds_RMSZ": 877,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-11-03T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-12-18T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-12-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9HAG",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "9HAG"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 948,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 848,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 112,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 122,
+    "deposited_solvent_atom_count": 71,
+    "deposited_unmodeled_polymer_monomer_count": 10,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 4,
+    "molecular_weight": 13.76,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "K"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.28,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 13.44,
+    "polymer_molecular_weight_minimum": 13.44,
+    "polymer_monomer_count_maximum": 122,
+    "polymer_monomer_count_minimum": 122,
+    "resolution_combined": [
+      1.86
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.86
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Pacesa, M.",
+      "Goverde, C.A.",
+      "Schellhaas, C.",
+      "Georgeon, S.",
+      "Correia, B.E."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Structural characterization of a designed beta barrel protein with a hydrophobic pore"
+  },
+  "refine": [
+    {
+      "B_iso_mean": 45.66,
+      "ls_R_factor_R_free": 0.2289,
+      "ls_R_factor_R_work": 0.2146,
+      "ls_R_factor_obs": 0.2153,
+      "ls_d_res_high": 1.86,
+      "ls_d_res_low": 41.51,
+      "ls_number_reflns_R_free": 544,
+      "ls_number_reflns_R_work": 10486,
+      "ls_number_reflns_obs": 11030,
+      "ls_percent_reflns_R_free": 4.93,
+      "ls_percent_reflns_obs": 98.51,
+      "overall_SU_ML": 0.2429,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 31.3175,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.86,
+      "d_res_low": 41.51,
+      "number_atoms_solvent": 71,
+      "number_atoms_total": 948,
+      "pdbx_number_atoms_ligand": 20,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 857,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0049,
+      "number": 895,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.8266,
+      "number": 1224,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0452,
+      "number": 143,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0083,
+      "number": 153,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 14.0799,
+      "number": 314,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 30.4,
+      "d_resolution_high": 1.86,
+      "d_resolution_low": 41.51,
+      "number_obs": 11030,
+      "pdbx_CC_half": 0.999,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 13.7,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.1,
+      "percent_possible_obs": 98.51
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.86,
+      "d_res_low": 2.05,
+      "meanI_over_sigI_obs": 2.3,
+      "number_unique_obs": 2637,
+      "pdbx_CC_half": 0.879,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 5.8,
+      "percent_possible_all": 96.31
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "dev_4788"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "De novo designed beta barrel fold BBF-14"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "DE NOVO PROTEIN",
+    "text": "De novo, beta barrel, PEG, DE NOVO PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 19,
+    "space_group_name_H_M": "P 21 21 21",
+    "space_group_name_Hall": "P 2ac 2ab"
+  },
+  "rcsb_id": "9HAG"
+}

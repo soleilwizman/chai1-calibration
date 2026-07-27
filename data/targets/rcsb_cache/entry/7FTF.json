@@ -1,0 +1,836 @@
+{
+  "audit_author": [
+    {
+      "name": "Leibrock, L.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Benz, J.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Groebke-Zbinden, K.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Rudolph, M.G.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 48.367,
+    "length_b": 59.896,
+    "length_c": 125.453
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To be published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Groebke-Zbinden, K.",
+        "Vandemeulebroucke, A.",
+        "Hilbert, M.",
+        "Rudolph, M.G."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Crystal Structure of a human cyclic GMP-AMP synthase complex"
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "7FTF",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb7ftf/pdb",
+      "pdbx_database_accession": "pdb_00007ftf"
+    },
+    {
+      "database_code": "D_1001405324",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2018-07-06T00:00:00.000+00:00",
+      "type": "PSI PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X10SA",
+      "pdbx_synchrotron_site": "SLS",
+      "pdbx_wavelength_list": "0.999980",
+      "source": "SYNCHROTRON",
+      "type": "SLS BEAMLINE X10SA"
+    }
+  ],
+  "entry": {
+    "id": "7FTF"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.14,
+      "density_percent_sol": 42.59,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 7.0,
+      "pdbx_details": "10-12 mg/mL protein in 25 mM Tris/HCl pH7.5, 500mM NaCl, 2mM TCEP, supplemented with 10x molar excess of ligand and, if needed, with 10 mM MgCl2 and 5mM ATP, then mixed 1:1 with reservoir of the Procomplex screen. Several conditions resulted in crystals.",
+      "temp": 293.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "pdbx_entry_details",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_initial_refinement_model",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Structure summary",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-02-21T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2026-02-18T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Switzerland",
+      "funding_organization": "F. Hoffmann-La Roche LTD",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2023-02-08T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_deposit_group": [
+    {
+      "group_description": "A set of cGAS crystal structures",
+      "group_id": "G_1002263",
+      "group_title": "To be published",
+      "group_type": "undefined"
+    }
+  ],
+  "pdbx_initial_refinement_model": [
+    {
+      "details": "inhouse model",
+      "id": 1,
+      "source_name": "Other",
+      "type": "other"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-06T23:49:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1843,
+      "DCC_Rfree": 0.2193,
+      "EDS_R": 0.1919,
+      "EDS_res_high": 1.51,
+      "EDS_res_low": 45.13,
+      "Fo_Fc_correlation": 0.968,
+      "I_over_sigma": "1.03(1.51A)",
+      "Padilla_Yeates_L2_mean": 0.333,
+      "Padilla_Yeates_L_mean": 0.498,
+      "Wilson_B_aniso": "[24.655,24.703,24.458,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 24.57,
+      "acentric_outliers": 2,
+      "bulk_solvent_b": 40.684,
+      "bulk_solvent_k": 0.31,
+      "centric_outliers": 2,
+      "data_anisotropy": 0.01,
+      "data_completeness": 79.2,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 47618,
+      "number_reflns_R_free": 2394,
+      "percent_RSRZ_outliers": 14.8,
+      "percent_free_reflections": 4.11,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.14% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.52,
+      "bonds_RMSZ": 0.29,
+      "clashscore": 4.06,
+      "num_H_reduce": 3120,
+      "num_angles_RMSZ": 4188,
+      "num_bonds_RMSZ": 3125,
+      "percent_ramachandran_outliers": 0.85,
+      "percent_rotamer_outliers": 4.22
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-02-08T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-02-21T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2026-02-18T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "7FTF",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "7FTF"
+  },
+  "rcsb_entry_group_membership": [
+    {
+      "aggregation_method": "matching_deposit_group_id",
+      "group_id": "G_1002263"
+    }
+  ],
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 3229,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 358,
+    "deposited_nonpolymer_entity_instance_count": 2,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 362,
+    "deposited_solvent_atom_count": 192,
+    "deposited_unmodeled_polymer_monomer_count": 4,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 4,
+    "molecular_weight": 42.53,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "ZN"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.07,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 42.4,
+    "polymer_molecular_weight_minimum": 42.4,
+    "polymer_monomer_count_maximum": 362,
+    "polymer_monomer_count_minimum": 362,
+    "resolution_combined": [
+      1.508
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.51
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To be published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Groebke-Zbinden, K.",
+      "Vandemeulebroucke, A.",
+      "Hilbert, M.",
+      "Rudolph, M.G."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Crystal Structure of a human cyclic GMP-AMP synthase complex"
+  },
+  "refine": [
+    {
+      "B_iso_max": 179.39,
+      "B_iso_mean": 56.9023,
+      "B_iso_min": 17.7,
+      "ls_R_factor_R_free": 0.2137,
+      "ls_R_factor_R_work": 0.1788,
+      "ls_R_factor_obs": 0.1805,
+      "ls_d_res_high": 1.508,
+      "ls_d_res_low": 45.129,
+      "ls_number_reflns_R_free": 2393,
+      "ls_number_reflns_R_work": 45213,
+      "ls_number_reflns_obs": 47606,
+      "ls_percent_reflns_R_free": 5.03,
+      "ls_percent_reflns_obs": 81.65,
+      "overall_SU_ML": 0.16,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 25.45,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "inhouse model",
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "final",
+      "d_res_high": 1.508,
+      "d_res_low": 45.129,
+      "number_atoms_solvent": 192,
+      "number_atoms_total": 3151,
+      "pdbx_B_iso_mean_ligand": 40.6,
+      "pdbx_B_iso_mean_solvent": 43.32,
+      "pdbx_number_atoms_ligand": 5,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2954,
+      "pdbx_number_residues_total": 358,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 37.451,
+      "d_resolution_high": 1.51,
+      "d_resolution_low": 62.73,
+      "number_obs": 58354,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rmerge_I_obs": 0.051,
+      "pdbx_Rrim_I_all": 0.055,
+      "pdbx_chi_squared": 0.84,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 14.87,
+      "pdbx_number_measured_all": 423586,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 7.259,
+      "pdbx_scaling_rejects": 39,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 2.782,
+      "d_res_high": 1.51,
+      "d_res_low": 1.55,
+      "meanI_over_sigI_obs": 0.61,
+      "number_measured_obs": 29510,
+      "number_possible": 4256,
+      "number_unique_obs": 4254,
+      "pdbx_CC_half": 0.32,
+      "pdbx_Rrim_I_all": 3.01,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.937,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 2.03,
+      "d_res_high": 1.55,
+      "d_res_low": 1.59,
+      "meanI_over_sigI_obs": 0.9,
+      "number_measured_obs": 30988,
+      "number_possible": 4112,
+      "number_unique_obs": 4110,
+      "pdbx_CC_half": 0.501,
+      "pdbx_Rrim_I_all": 2.181,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 2,
+      "pdbx_redundancy": 7.54,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 1.499,
+      "d_res_high": 1.59,
+      "d_res_low": 1.64,
+      "meanI_over_sigI_obs": 1.27,
+      "number_measured_obs": 30472,
+      "number_possible": 4074,
+      "number_unique_obs": 4074,
+      "pdbx_CC_half": 0.65,
+      "pdbx_Rrim_I_all": 1.611,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 3,
+      "pdbx_redundancy": 7.48,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 1.141,
+      "d_res_high": 1.64,
+      "d_res_low": 1.69,
+      "meanI_over_sigI_obs": 1.69,
+      "number_measured_obs": 28860,
+      "number_possible": 3907,
+      "number_unique_obs": 3904,
+      "pdbx_CC_half": 0.724,
+      "pdbx_Rrim_I_all": 1.228,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 4,
+      "pdbx_redundancy": 7.392,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.844,
+      "d_res_high": 1.69,
+      "d_res_low": 1.74,
+      "meanI_over_sigI_obs": 2.28,
+      "number_measured_obs": 27534,
+      "number_possible": 3814,
+      "number_unique_obs": 3814,
+      "pdbx_CC_half": 0.85,
+      "pdbx_Rrim_I_all": 0.91,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 5,
+      "pdbx_redundancy": 7.219,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.564,
+      "d_res_high": 1.74,
+      "d_res_low": 1.8,
+      "meanI_over_sigI_obs": 3.33,
+      "number_measured_obs": 25096,
+      "number_possible": 3682,
+      "number_unique_obs": 3681,
+      "pdbx_CC_half": 0.906,
+      "pdbx_Rrim_I_all": 0.611,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 6,
+      "pdbx_redundancy": 6.818,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.391,
+      "d_res_high": 1.8,
+      "d_res_low": 1.87,
+      "meanI_over_sigI_obs": 5.02,
+      "number_measured_obs": 26624,
+      "number_possible": 3596,
+      "number_unique_obs": 3596,
+      "pdbx_CC_half": 0.965,
+      "pdbx_Rrim_I_all": 0.42,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 7,
+      "pdbx_redundancy": 7.404,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.291,
+      "d_res_high": 1.87,
+      "d_res_low": 1.95,
+      "meanI_over_sigI_obs": 6.88,
+      "number_measured_obs": 25697,
+      "number_possible": 3412,
+      "number_unique_obs": 3411,
+      "pdbx_CC_half": 0.976,
+      "pdbx_Rrim_I_all": 0.313,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 8,
+      "pdbx_redundancy": 7.534,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.188,
+      "d_res_high": 1.95,
+      "d_res_low": 2.03,
+      "meanI_over_sigI_obs": 10.18,
+      "number_measured_obs": 24791,
+      "number_possible": 3291,
+      "number_unique_obs": 3291,
+      "pdbx_CC_half": 0.99,
+      "pdbx_Rrim_I_all": 0.202,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 9,
+      "pdbx_redundancy": 7.533,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.134,
+      "d_res_high": 2.03,
+      "d_res_low": 2.13,
+      "meanI_over_sigI_obs": 13.78,
+      "number_measured_obs": 23518,
+      "number_possible": 3170,
+      "number_unique_obs": 3170,
+      "pdbx_CC_half": 0.994,
+      "pdbx_Rrim_I_all": 0.144,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 10,
+      "pdbx_redundancy": 7.419,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.094,
+      "d_res_high": 2.13,
+      "d_res_low": 2.25,
+      "meanI_over_sigI_obs": 18.14,
+      "number_measured_obs": 20933,
+      "number_possible": 2986,
+      "number_unique_obs": 2986,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rrim_I_all": 0.101,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 11,
+      "pdbx_redundancy": 7.01,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.072,
+      "d_res_high": 2.25,
+      "d_res_low": 2.38,
+      "meanI_over_sigI_obs": 23.14,
+      "number_measured_obs": 20786,
+      "number_possible": 2869,
+      "number_unique_obs": 2868,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rrim_I_all": 0.078,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 12,
+      "pdbx_redundancy": 7.248,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.061,
+      "d_res_high": 2.38,
+      "d_res_low": 2.55,
+      "meanI_over_sigI_obs": 27.99,
+      "number_measured_obs": 20751,
+      "number_possible": 2705,
+      "number_unique_obs": 2705,
+      "pdbx_CC_half": 0.998,
+      "pdbx_Rrim_I_all": 0.065,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 13,
+      "pdbx_redundancy": 7.671,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.052,
+      "d_res_high": 2.55,
+      "d_res_low": 2.75,
+      "meanI_over_sigI_obs": 32.03,
+      "number_measured_obs": 18733,
+      "number_possible": 2506,
+      "number_unique_obs": 2505,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rrim_I_all": 0.055,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 14,
+      "pdbx_redundancy": 7.478,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.044,
+      "d_res_high": 2.75,
+      "d_res_low": 3.02,
+      "meanI_over_sigI_obs": 36.39,
+      "number_measured_obs": 16945,
+      "number_possible": 2330,
+      "number_unique_obs": 2330,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rrim_I_all": 0.048,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 15,
+      "pdbx_redundancy": 7.273,
+      "percent_possible_all": 100.0
+    },
+    {
+      "Rmerge_I_obs": 0.038,
+      "d_res_high": 3.02,
+      "d_res_low": 3.37,
+      "meanI_over_sigI_obs": 40.03,
+      "number_measured_obs": 13929,
+      "number_possible": 2114,
+      "number_unique_obs": 2112,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rrim_I_all": 0.041,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 16,
+      "pdbx_redundancy": 6.595,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.034,
+      "d_res_high": 3.37,
+      "d_res_low": 3.89,
+      "meanI_over_sigI_obs": 47.37,
+      "number_measured_obs": 13742,
+      "number_possible": 1875,
+      "number_unique_obs": 1873,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rrim_I_all": 0.037,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 17,
+      "pdbx_redundancy": 7.337,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.035,
+      "d_res_high": 3.89,
+      "d_res_low": 4.77,
+      "meanI_over_sigI_obs": 49.21,
+      "number_measured_obs": 11572,
+      "number_possible": 1622,
+      "number_unique_obs": 1621,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rrim_I_all": 0.038,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 18,
+      "pdbx_redundancy": 7.139,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.035,
+      "d_res_high": 4.77,
+      "d_res_low": 6.74,
+      "meanI_over_sigI_obs": 46.17,
+      "number_measured_obs": 8069,
+      "number_possible": 1282,
+      "number_unique_obs": 1281,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rrim_I_all": 0.038,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 19,
+      "pdbx_redundancy": 6.299,
+      "percent_possible_all": 99.9
+    },
+    {
+      "Rmerge_I_obs": 0.03,
+      "d_res_high": 6.74,
+      "d_res_low": 45.129,
+      "meanI_over_sigI_obs": 48.04,
+      "number_measured_obs": 5036,
+      "number_possible": 770,
+      "number_unique_obs": 768,
+      "pdbx_CC_half": 0.999,
+      "pdbx_Rrim_I_all": 0.032,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 20,
+      "pdbx_redundancy": 6.557,
+      "percent_possible_all": 99.7
+    }
+  ],
+  "software": [
+    {
+      "classification": "data scaling",
+      "contact_author": "Wolfgang Kabsch",
+      "location": "http://www.mpimf-heidelberg.mpg.de/~kabsch/xds/html_doc/xscale_program.html",
+      "name": "XSCALE",
+      "pdbx_ordinal": 1,
+      "type": "package"
+    },
+    {
+      "classification": "refinement",
+      "contact_author": "Paul D. Adams",
+      "contact_author_email": "PDAdams@lbl.gov",
+      "language": "C++",
+      "location": "http://www.phenix-online.org/",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2,
+      "type": "package",
+      "version": "dev_3139"
+    },
+    {
+      "classification": "data extraction",
+      "contact_author": "PDB",
+      "contact_author_email": "deposit@deposit.rcsb.org",
+      "date": "Oct. 31, 2020",
+      "language": "C++",
+      "location": "http://sw-tools.pdb.org/apps/PDB_EXTRACT/",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 3,
+      "type": "package",
+      "version": "3.27"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 5
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 6
+    }
+  ],
+  "struct": {
+    "title": "Crystal Structure of apo human cyclic GMP-AMP synthase"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "IMMUNE RESPONSE, TRANSFERASE, NTASE, DNA SENSOR"
+  },
+  "symmetry": {
+    "Int_Tables_number": 18,
+    "space_group_name_H_M": "P 21 2 21"
+  },
+  "rcsb_id": "7FTF"
+}

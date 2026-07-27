@@ -1,0 +1,428 @@
+{
+  "audit_author": [
+    {
+      "name": "Corbett, B.W.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Suits, M.D.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 54.735,
+    "length_b": 74.968,
+    "length_c": 79.803
+  },
+  "citation": [
+    {
+      "id": "primary",
+      "journal_abbrev": "To Be Published",
+      "journal_id_CSD": "0353",
+      "rcsb_authors": [
+        "Corbett, B.W.",
+        "Suits, M.D."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "To be published",
+      "title": "Structural and functional characterization of the high-affinity ferrous iron transport protein HftA from Treponema denticola."
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8T7K",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8t7k/pdb",
+      "pdbx_database_accession": "pdb_00008t7k"
+    },
+    {
+      "database_code": "D_1000275113",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-02-22T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "7B2",
+      "pdbx_synchrotron_site": "CHESS",
+      "pdbx_wavelength_list": "0.9686",
+      "source": "SYNCHROTRON",
+      "type": "CHESS BEAMLINE 7B2"
+    }
+  ],
+  "entry": {
+    "id": "8T7K"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.37,
+      "density_percent_sol": 48.06,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "Sodium acetate, ammonium sulphate, glycerol",
+      "temp": 291.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-06-26T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Canada",
+      "funding_organization": "Natural Sciences and Engineering Research Council (NSERC, Canada)",
+      "grant_number": "RGPIN-2022-05457",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2023-06-20T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "3PJL",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-10T11:00:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2155,
+      "DCC_Rfree": 0.2378,
+      "EDS_R": 0.2256,
+      "EDS_res_high": 1.78,
+      "EDS_res_low": 29.62,
+      "Fo_Fc_correlation": 0.955,
+      "I_over_sigma": "2.71(1.78A)",
+      "Padilla_Yeates_L2_mean": 0.341,
+      "Padilla_Yeates_L_mean": 0.505,
+      "Wilson_B_aniso": "[45.699,23.180,20.056,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 27.219,
+      "acentric_outliers": 2,
+      "bulk_solvent_b": 30.847,
+      "bulk_solvent_k": 0.377,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.865,
+      "data_completeness": 99.96,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 16077,
+      "number_reflns_R_free": 748,
+      "percent_RSRZ_outliers": 5.77,
+      "percent_free_reflections": 4.65,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 9.63% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.54,
+      "bonds_RMSZ": 0.32,
+      "clashscore": 5.08,
+      "num_H_reduce": 1140,
+      "num_angles_RMSZ": 1704,
+      "num_bonds_RMSZ": 1256,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.59
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-06-20T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-06-26T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-06-26T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "8T7K",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "rcsb_id": "8T7K"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 1,
+    "deposited_atom_count": 1273,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 156,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 156,
+    "deposited_solvent_atom_count": 53,
+    "deposited_unmodeled_polymer_monomer_count": 0,
+    "diffrn_radiation_wavelength_maximum": 0.9686,
+    "diffrn_radiation_wavelength_minimum": 0.9686,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 17.27,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 17.27,
+    "polymer_molecular_weight_minimum": 17.27,
+    "polymer_monomer_count_maximum": 156,
+    "polymer_monomer_count_minimum": 156,
+    "resolution_combined": [
+      1.78
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOPROC",
+      "PHASER",
+      "PHENIX",
+      "SCALA"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.78
+    }
+  },
+  "rcsb_primary_citation": {
+    "id": "primary",
+    "journal_abbrev": "To Be Published",
+    "journal_id_CSD": "0353",
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Corbett, B.W.",
+      "Suits, M.D."
+    ],
+    "rcsb_journal_abbrev": "To be published",
+    "title": "Structural and functional characterization of the high-affinity ferrous iron transport protein HftA from Treponema denticola."
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.2394,
+      "ls_R_factor_R_work": 0.2153,
+      "ls_R_factor_obs": 0.2163,
+      "ls_d_res_high": 1.78,
+      "ls_d_res_low": 29.62,
+      "ls_number_reflns_R_free": 747,
+      "ls_number_reflns_obs": 16053,
+      "ls_percent_reflns_R_free": 4.65,
+      "ls_percent_reflns_obs": 99.84,
+      "overall_SU_ML": 0.16,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 31.5,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_starting_model": "3PJL",
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.78,
+      "d_res_low": 29.62,
+      "number_atoms_solvent": 53,
+      "number_atoms_total": 1273,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1220,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.007,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.909,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 7.065,
+      "number": 164,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.066,
+      "number": 172,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.009,
+      "number": 227,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 27.34,
+      "d_resolution_high": 1.78,
+      "d_resolution_low": 29.62,
+      "number_obs": 16097,
+      "pdbx_CC_half": 0.998,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 15.2,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.6,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.78,
+      "d_res_low": 1.88,
+      "meanI_over_sigI_obs": 3.5,
+      "number_unique_obs": 2296,
+      "pdbx_CC_half": 0.95,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.20.1_4487: ???)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALA",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Apo HftA from Treponema denticola"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "METAL BINDING PROTEIN",
+    "text": "Lipoprotein, Iron transport, Periplasmic, METAL BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 20,
+    "space_group_name_H_M": "C 2 2 21"
+  },
+  "rcsb_id": "8T7K"
+}

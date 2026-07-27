@@ -1,0 +1,682 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-6314-2503",
+      "name": "Ito, S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Baba, D.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Fukuda, T.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Tanaka, N.",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 71.439,
+    "length_b": 71.439,
+    "length_c": 45.66
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Bioorg.Med.Chem.Lett.",
+      "journal_id_ASTM": "BMCLE8",
+      "journal_id_CSD": "1127",
+      "journal_id_ISSN": "1464-3405",
+      "journal_volume": "108",
+      "page_first": "129799",
+      "page_last": "129799",
+      "pdbx_database_id_DOI": "10.1016/j.bmcl.2024.129799",
+      "pdbx_database_id_PubMed": 38754564,
+      "rcsb_authors": [
+        "Fukuda, T.",
+        "Kuribayashi, T.",
+        "Takano, R.",
+        "Sasaki, K.",
+        "Tsuji, T.",
+        "Niitsu, Y.",
+        "Ishii, K.",
+        "Hashimoto, M.",
+        "Baba, D.",
+        "Ito, S.",
+        "Tanaka, N."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Bioorg Med Chem Lett",
+      "title": "Discovery of DS44470011: An oral hypoxia-inducible factor prolyl hydroxylase inhibitor for the treatment of renal anemia.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8Z35",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8z35/pdb",
+      "pdbx_database_accession": "pdb_00008z35"
+    },
+    {
+      "database_code": "D_1300046933",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2007-06-24T00:00:00.000+00:00",
+      "type": "RIGAKU"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "1.5418",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU FR-E"
+    }
+  ],
+  "entry": {
+    "id": "8Z35"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.3,
+      "density_percent_sol": 46.43,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION",
+      "pdbx_details": "Protein (30mg/ml in 20mM Tril-HCl (pH 7.5), 50mM NaCl), reservoir solution (30% (w/v) PEG MME 5000, 0.2M ammonium sulfate, 0.1M HEPES (pH 7.0))",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-02-26T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Not funded",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "8Z31",
+      "db_name": "PDB"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "8Z32",
+      "db_name": "PDB"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "8Z33",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "N",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2024-04-14T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2HBT",
+      "entity_id_list": [
+        "1"
+      ],
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T15:46:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1983,
+      "DCC_Rfree": 0.2275,
+      "EDS_R": 0.1986,
+      "EDS_res_high": 2.0,
+      "EDS_res_low": 20.0,
+      "Fo_Fc_correlation": 0.959,
+      "I_over_sigma": "1.44(1.99A)",
+      "Padilla_Yeates_L2_mean": 0.324,
+      "Padilla_Yeates_L_mean": 0.491,
+      "Wilson_B_aniso": "[34.962,34.962,37.301,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 35.742,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 53.937,
+      "bulk_solvent_k": 0.364,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.065,
+      "data_completeness": 99.51,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 15671,
+      "number_reflns_R_free": 1614,
+      "percent_RSRZ_outliers": 2.8,
+      "percent_free_reflections": 10.26,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.72% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-k,-l:0.048"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.87,
+      "bonds_RMSZ": 0.42,
+      "clashscore": 2.06,
+      "num_H_reduce": 1655,
+      "num_angles_RMSZ": 2358,
+      "num_bonds_RMSZ": 1746,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 3.91
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2024-04-14T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-02-26T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-02-26T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "8Z35",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38754564,
+    "rcsb_id": "8Z35"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 1855,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 214,
+    "deposited_nonpolymer_entity_instance_count": 5,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 224,
+    "deposited_solvent_atom_count": 112,
+    "deposited_unmodeled_polymer_monomer_count": 10,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 6,
+    "molecular_weight": 26.03,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "A1L0X",
+      "FE2"
+    ],
+    "nonpolymer_entity_count": 4,
+    "nonpolymer_molecular_weight_maximum": 0.38,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 25.37,
+    "polymer_molecular_weight_minimum": 25.37,
+    "polymer_monomer_count_maximum": 224,
+    "polymer_monomer_count_minimum": 224,
+    "resolution_combined": [
+      2.0
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "HKL-2000",
+      "PHASER",
+      "REFMAC"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.0
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Bioorg.Med.Chem.Lett.",
+    "journal_id_ASTM": "BMCLE8",
+    "journal_id_CSD": "1127",
+    "journal_id_ISSN": "1464-3405",
+    "journal_volume": "108",
+    "page_first": "129799",
+    "page_last": "129799",
+    "pdbx_database_id_DOI": "10.1016/j.bmcl.2024.129799",
+    "pdbx_database_id_PubMed": 38754564,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Fukuda, T.",
+      "Kuribayashi, T.",
+      "Takano, R.",
+      "Sasaki, K.",
+      "Tsuji, T.",
+      "Niitsu, Y.",
+      "Ishii, K.",
+      "Hashimoto, M.",
+      "Baba, D.",
+      "Ito, S.",
+      "Tanaka, N."
+    ],
+    "rcsb_journal_abbrev": "Bioorg Med Chem Lett",
+    "title": "Discovery of DS44470011: An oral hypoxia-inducible factor prolyl hydroxylase inhibitor for the treatment of renal anemia.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 34.123,
+      "aniso_B_1_1": -0.31,
+      "aniso_B_1_2": -0.0,
+      "aniso_B_1_3": -0.0,
+      "aniso_B_2_2": -0.31,
+      "aniso_B_2_3": -0.0,
+      "aniso_B_3_3": 0.62,
+      "correlation_coeff_Fo_to_Fc": 0.963,
+      "correlation_coeff_Fo_to_Fc_free": 0.95,
+      "ls_R_factor_R_free": 0.21582,
+      "ls_R_factor_R_work": 0.18469,
+      "ls_R_factor_obs": 0.18791,
+      "ls_d_res_high": 2.0,
+      "ls_d_res_low": 20.0,
+      "ls_number_reflns_R_free": 1614,
+      "ls_number_reflns_obs": 14049,
+      "ls_percent_reflns_R_free": 10.3,
+      "ls_percent_reflns_obs": 99.51,
+      "overall_SU_B": 7.661,
+      "overall_SU_ML": 0.108,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_ESU_R": 0.203,
+      "pdbx_overall_ESU_R_Free": 0.163,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_ion_probe_radii": 0.8,
+      "pdbx_solvent_shrinkage_radii": 0.8,
+      "pdbx_solvent_vdw_probe_radii": 1.2,
+      "pdbx_stereochemistry_target_values": "MAXIMUM LIKELIHOOD",
+      "solvent_model_details": "BABINET MODEL WITH MASK"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "1",
+      "d_res_high": 2.0,
+      "d_res_low": 20.0,
+      "number_atoms_solvent": 112,
+      "number_atoms_total": 1855,
+      "pdbx_number_atoms_ligand": 40,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1703,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.002,
+      "dev_ideal_target": 0.012,
+      "number": 1786,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_refined_d"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_bond_other_d"
+    },
+    {
+      "dev_ideal": 0.85,
+      "dev_ideal_target": 1.66,
+      "number": 2411,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_refined_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_angle_other_deg"
+    },
+    {
+      "dev_ideal": 6.437,
+      "dev_ideal_target": 5.0,
+      "number": 212,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_1_deg"
+    },
+    {
+      "dev_ideal": 3.683,
+      "dev_ideal_target": 5.0,
+      "number": 15,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_2_deg"
+    },
+    {
+      "dev_ideal": 12.222,
+      "dev_ideal_target": 10.0,
+      "number": 293,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_3_deg"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_dihedral_angle_4_deg"
+    },
+    {
+      "dev_ideal": 0.071,
+      "dev_ideal_target": 0.2,
+      "number": 247,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.003,
+      "dev_ideal_target": 0.02,
+      "number": 1367,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_gen_planes_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_nbtor_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_xyhbond_nbd_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_metal_ion_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_vdw_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_hbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_symmetry_metal_ion_other"
+    },
+    {
+      "dev_ideal": 1.097,
+      "dev_ideal_target": 3.152,
+      "number": 854,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcbond_other"
+    },
+    {
+      "dev_ideal": 1.879,
+      "dev_ideal_target": 5.647,
+      "number": 1064,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_mcangle_other"
+    },
+    {
+      "dev_ideal": 1.428,
+      "dev_ideal_target": 3.397,
+      "number": 932,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scbond_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_it"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_scangle_other"
+    },
+    {
+      "dev_ideal": 5.665,
+      "dev_ideal_target": 37.79,
+      "number": 2785,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_refined"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_long_range_B_other"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_rigid_bond_restr"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_free"
+    },
+    {
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "r_sphericity_bonded"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 2.0,
+      "d_resolution_low": 50.0,
+      "number_obs": 15794,
+      "pdbx_Rmerge_I_obs": 0.036,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 55.1,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.0,
+      "percent_possible_obs": 99.3
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.362,
+      "d_res_high": 2.0,
+      "d_res_low": 2.07,
+      "meanI_over_sigI_obs": 4.7,
+      "number_unique_obs": 1532,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "REFMAC",
+      "pdbx_ordinal": 1,
+      "version": "5.8.0405"
+    },
+    {
+      "classification": "data scaling",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "HKL-2000",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4,
+      "version": "1.3.3"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Crystal Structure of HIF-PHD2 in complex with compound 7 (DS44470011)"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "OXIDOREDUCTASE",
+    "text": "Renal anemia, Inhibitor, OXIDOREDUCTASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 76,
+    "space_group_name_H_M": "P 41"
+  },
+  "rcsb_id": "8Z35"
+}

@@ -1,0 +1,4783 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "SNASVERVYQKKTQLEHILLRPDTYIGSVEPLTQFMWVYDEDVGMNCREVTFVPGLYKIFDEILVNAADNKQRDKNMTCIKVSIDPESNIISIWNNGKGIPVVEHKVEKVYVPALIFGQLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTKFTVETACKEYKHSFKQTWMNNMMKTSEAKIKHFDGEDYTCITFQPDLSKFKMEKLDKDIVALMTRRAYDLAGSCRGVKVMFNGKKLPVNGFRSYVDLYVKDKLDETGVALKVIHELANERWDVCLTLSEKGFQQISFVNSIATTKGGRHVDYVVDQVVGKLIEVVKKKNKAGVSVKPFQVKNHIWVFINCLIENPTFDSQTKENMTLQPKSFGSKCQLSEKFFKAASNCGIVESILNWVKFKAQTQ",
+    "pdbx_seq_one_letter_code_can": "SNASVERVYQKKTQLEHILLRPDTYIGSVEPLTQFMWVYDEDVGMNCREVTFVPGLYKIFDEILVNAADNKQRDKNMTCIKVSIDPESNIISIWNNGKGIPVVEHKVEKVYVPALIFGQLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTKFTVETACKEYKHSFKQTWMNNMMKTSEAKIKHFDGEDYTCITFQPDLSKFKMEKLDKDIVALMTRRAYDLAGSCRGVKVMFNGKKLPVNGFRSYVDLYVKDKLDETGVALKVIHELANERWDVCLTLSEKGFQQISFVNSIATTKGGRHVDYVVDQVVGKLIEVVKKKNKAGVSVKPFQVKNHIWVFINCLIENPTFDSQTKENMTLQPKSFGSKCQLSEKFFKAASNCGIVESILNWVKFKAQTQ",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 397,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "human",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 397,
+      "pdbx_gene_src_gene": "TOP2B",
+      "pdbx_gene_src_ncbi_taxonomy_id": "9606",
+      "pdbx_gene_src_scientific_name": "Homo sapiens",
+      "pdbx_host_org_ncbi_taxonomy_id": "562",
+      "pdbx_host_org_scientific_name": "Escherichia coli",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 11213,
+      "identity": 100
+    },
+    {
+      "cluster_id": 18019,
+      "identity": 95
+    },
+    {
+      "cluster_id": 19586,
+      "identity": 90
+    },
+    {
+      "cluster_id": 5294,
+      "identity": 70
+    },
+    {
+      "cluster_id": 3511,
+      "identity": 50
+    },
+    {
+      "cluster_id": 3420,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 397,
+      "ncbi_common_names": [
+        "Bacillus coli",
+        "Bacterium coli",
+        "Bacterium coli commune",
+        "E. coli",
+        "Enterococcus coli",
+        "Escherichia/Shigella coli"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli",
+      "ncbi_taxonomy_id": 562,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "human",
+      "end_seq_num": 397,
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "TOP2B"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 45.262,
+    "pdbx_description": "DNA topoisomerase 2-beta",
+    "pdbx_ec": "5.6.2.2",
+    "pdbx_fragment": "residues 50-443 (Uniprot numbering)",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "5",
+        "name": "Isomerases"
+      },
+      {
+        "depth": 2,
+        "id": "5.6",
+        "name": "Isomerases altering macromolecular conformation"
+      },
+      {
+        "depth": 3,
+        "id": "5.6.2",
+        "name": "Enzymes altering nucleic acid conformation"
+      },
+      {
+        "depth": 4,
+        "id": "5.6.2.2",
+        "name": "DNA topoisomerase (ATP-hydrolysing)"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "DNA topoisomerase 2-beta",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "DNA topoisomerase II",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "beta isozyme",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "5.6.2.2",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "DNA topoisomerase 2-beta"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "Q02880",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 4,
+          "length": 394,
+          "ref_beg_seq_id": 50
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF00204",
+      "assignment_version": "34.0",
+      "name": "DNA gyrase B (DNA_gyraseB)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "PF02518",
+      "assignment_version": "34.0",
+      "name": "Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase (HATPase_c)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "IPR001154",
+      "name": "DNA topoisomerase II, eukaryotic-type",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR001154",
+          "name": "DNA topoisomerase II, eukaryotic-type"
+        },
+        {
+          "depth": 1,
+          "id": "IPR001241",
+          "name": "DNA topoisomerase, type IIA"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005730",
+      "name": "nucleolus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043232",
+          "name": "intracellular membraneless organelle"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005730",
+          "name": "nucleolus"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0043228",
+          "name": "membraneless organelle"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0045870",
+      "name": "positive regulation of single stranded viral RNA replication via double stranded DNA intermediate",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0045091",
+          "name": "regulation of single stranded viral RNA replication via double stranded DNA intermediate"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0016070",
+          "name": "RNA metabolic process"
+        },
+        {
+          "id": "GO:0019058",
+          "name": "viral life cycle"
+        },
+        {
+          "id": "GO:0010557",
+          "name": "positive regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0032774",
+          "name": "RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0141187",
+          "name": "nucleic acid biosynthetic process"
+        },
+        {
+          "id": "GO:0009893",
+          "name": "positive regulation of metabolic process"
+        },
+        {
+          "id": "GO:0051252",
+          "name": "regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:0045870",
+          "name": "positive regulation of single stranded viral RNA replication via double stranded DNA intermediate"
+        },
+        {
+          "id": "GO:0009891",
+          "name": "positive regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0039694",
+          "name": "viral RNA genome replication"
+        },
+        {
+          "id": "GO:0016032",
+          "name": "viral process"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0010604",
+          "name": "positive regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:2001141",
+          "name": "regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0009889",
+          "name": "regulation of biosynthetic process"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0045070",
+          "name": "positive regulation of viral genome replication"
+        },
+        {
+          "id": "GO:0048524",
+          "name": "positive regulation of viral process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0034654",
+          "name": "nucleobase-containing compound biosynthetic process"
+        },
+        {
+          "id": "GO:0009059",
+          "name": "macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0039692",
+          "name": "single stranded viral RNA replication via double stranded DNA intermediate"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0051254",
+          "name": "positive regulation of RNA metabolic process"
+        },
+        {
+          "id": "GO:1903900",
+          "name": "regulation of viral life cycle"
+        },
+        {
+          "id": "GO:0050792",
+          "name": "regulation of viral process"
+        },
+        {
+          "id": "GO:0009058",
+          "name": "biosynthetic process"
+        },
+        {
+          "id": "GO:0019079",
+          "name": "viral genome replication"
+        },
+        {
+          "id": "GO:1902680",
+          "name": "positive regulation of RNA biosynthetic process"
+        },
+        {
+          "id": "GO:0045069",
+          "name": "regulation of viral genome replication"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0010556",
+          "name": "regulation of macromolecule biosynthetic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR018522",
+      "name": "DNA topoisomerase, type IIA, conserved site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR018522",
+          "name": "DNA topoisomerase, type IIA, conserved site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030183",
+      "name": "B cell differentiation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032502",
+          "name": "developmental process"
+        },
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0048869",
+          "name": "cellular developmental process"
+        },
+        {
+          "id": "GO:0030097",
+          "name": "hemopoiesis"
+        },
+        {
+          "id": "GO:0042113",
+          "name": "B cell activation"
+        },
+        {
+          "id": "GO:0001775",
+          "name": "cell activation"
+        },
+        {
+          "id": "GO:0048468",
+          "name": "cell development"
+        },
+        {
+          "id": "GO:1903131",
+          "name": "mononuclear cell differentiation"
+        },
+        {
+          "id": "GO:0030098",
+          "name": "lymphocyte differentiation"
+        },
+        {
+          "id": "GO:0046649",
+          "name": "lymphocyte activation"
+        },
+        {
+          "id": "GO:0045321",
+          "name": "leukocyte activation"
+        },
+        {
+          "id": "GO:0030183",
+          "name": "B cell differentiation"
+        },
+        {
+          "id": "GO:0030154",
+          "name": "cell differentiation"
+        },
+        {
+          "id": "GO:0002376",
+          "name": "immune system process"
+        },
+        {
+          "id": "GO:0048856",
+          "name": "anatomical structure development"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0002521",
+          "name": "leukocyte differentiation"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013506",
+      "name": "DNA topoisomerase, type IIA, subunit B, domain 2",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013506",
+          "name": "DNA topoisomerase, type IIA, subunit B, domain 2"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013760",
+      "name": "DNA topoisomerase, type IIA-like domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013760",
+          "name": "DNA topoisomerase, type IIA-like domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013758",
+      "name": "DNA topoisomerase, type IIA, domain A, alpha-beta",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013758",
+          "name": "DNA topoisomerase, type IIA, domain A, alpha-beta"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:2001034",
+      "name": "positive regulation of double-strand break repair via nonhomologous end joining",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:2000779",
+          "name": "regulation of double-strand break repair"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0080135",
+          "name": "regulation of cellular response to stress"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0080090",
+          "name": "regulation of primary metabolic process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0048584",
+          "name": "positive regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0009893",
+          "name": "positive regulation of metabolic process"
+        },
+        {
+          "id": "GO:0045739",
+          "name": "positive regulation of DNA repair"
+        },
+        {
+          "id": "GO:0033554",
+          "name": "cellular response to stress"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0080134",
+          "name": "regulation of response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0010604",
+          "name": "positive regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019219",
+          "name": "regulation of nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:2001032",
+          "name": "regulation of double-strand break repair via nonhomologous end joining"
+        },
+        {
+          "id": "GO:0006281",
+          "name": "DNA repair"
+        },
+        {
+          "id": "GO:0006302",
+          "name": "double-strand break repair"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:2001034",
+          "name": "positive regulation of double-strand break repair via nonhomologous end joining"
+        },
+        {
+          "id": "GO:0006303",
+          "name": "double-strand break repair via nonhomologous end joining"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0006259",
+          "name": "DNA metabolic process"
+        },
+        {
+          "id": "GO:0060255",
+          "name": "regulation of macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:2000781",
+          "name": "positive regulation of double-strand break repair"
+        },
+        {
+          "id": "GO:0006282",
+          "name": "regulation of DNA repair"
+        },
+        {
+          "id": "GO:0051054",
+          "name": "positive regulation of DNA metabolic process"
+        },
+        {
+          "id": "GO:0006974",
+          "name": "DNA damage response"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        },
+        {
+          "id": "GO:0019222",
+          "name": "regulation of metabolic process"
+        },
+        {
+          "id": "GO:0051052",
+          "name": "regulation of DNA metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000712",
+      "name": "resolution of meiotic recombination intermediates",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0019953",
+          "name": "sexual reproduction"
+        },
+        {
+          "id": "GO:0035825",
+          "name": "homologous recombination"
+        },
+        {
+          "id": "GO:0022414",
+          "name": "reproductive process"
+        },
+        {
+          "id": "GO:0000712",
+          "name": "resolution of meiotic recombination intermediates"
+        },
+        {
+          "id": "GO:1903046",
+          "name": "meiotic cell cycle process"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0007127",
+          "name": "meiosis I"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0140013",
+          "name": "meiotic nuclear division"
+        },
+        {
+          "id": "GO:0007049",
+          "name": "cell cycle"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0140527",
+          "name": "reciprocal homologous recombination"
+        },
+        {
+          "id": "GO:0022402",
+          "name": "cell cycle process"
+        },
+        {
+          "id": "GO:0051321",
+          "name": "meiotic cell cycle"
+        },
+        {
+          "id": "GO:0006310",
+          "name": "DNA recombination"
+        },
+        {
+          "id": "GO:0048285",
+          "name": "organelle fission"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0006259",
+          "name": "DNA metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0007131",
+          "name": "reciprocal meiotic recombination"
+        },
+        {
+          "id": "GO:0000280",
+          "name": "nuclear division"
+        },
+        {
+          "id": "GO:0006996",
+          "name": "organelle organization"
+        },
+        {
+          "id": "GO:0061982",
+          "name": "meiosis I cell cycle process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR036890",
+      "name": "Histidine kinase/HSP90-like ATPase superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR036890",
+          "name": "Histidine kinase/HSP90-like ATPase superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005829",
+      "name": "cytosol",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        },
+        {
+          "id": "GO:0005829",
+          "name": "cytosol"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR006171",
+      "name": "TOPRIM domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR006171",
+          "name": "TOPRIM domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003682",
+      "name": "chromatin binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003682",
+          "name": "chromatin binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR003594",
+      "name": "Histidine kinase/HSP90-like ATPase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR003594",
+          "name": "Histidine kinase/HSP90-like ATPase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR034157",
+      "name": "DNA topoisomerase 2, TOPRIM domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR034157",
+          "name": "DNA topoisomerase 2, TOPRIM domain"
+        },
+        {
+          "depth": 1,
+          "id": "IPR006171",
+          "name": "TOPRIM domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0043021",
+      "name": "ribonucleoprotein complex binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043021",
+          "name": "ribonucleoprotein complex binding"
+        },
+        {
+          "id": "GO:0044877",
+          "name": "protein-containing complex binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR020568",
+      "name": "Ribosomal protein uS5 domain 2-type superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR020568",
+          "name": "Ribosomal protein uS5 domain 2-type superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001241",
+      "name": "DNA topoisomerase, type IIA",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001241",
+          "name": "DNA topoisomerase, type IIA"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006265",
+      "name": "DNA topological change",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051276",
+          "name": "chromosome organization"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0071103",
+          "name": "DNA conformation change"
+        },
+        {
+          "id": "GO:0006259",
+          "name": "DNA metabolic process"
+        },
+        {
+          "id": "GO:0090304",
+          "name": "nucleic acid metabolic process"
+        },
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0006139",
+          "name": "nucleobase-containing compound metabolic process"
+        },
+        {
+          "id": "GO:0006265",
+          "name": "DNA topological change"
+        },
+        {
+          "id": "GO:0006996",
+          "name": "organelle organization"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005654",
+      "name": "nucleoplasm",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005654",
+          "name": "nucleoplasm"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0031981",
+          "name": "nuclear lumen"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0090398",
+      "name": "cellular senescence",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0033554",
+          "name": "cellular response to stress"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0090398",
+          "name": "cellular senescence"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR012542",
+      "name": "DTHCT",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR012542",
+          "name": "DTHCT"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR014721",
+      "name": "Small ribosomal subunit protein uS5 domain 2-type fold, subgroup",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR014721",
+          "name": "Small ribosomal subunit protein uS5 domain 2-type fold, subgroup"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005524",
+      "name": "ATP binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0032559",
+          "name": "adenyl ribonucleotide binding"
+        },
+        {
+          "id": "GO:0000166",
+          "name": "nucleotide binding"
+        },
+        {
+          "id": "GO:0032555",
+          "name": "purine ribonucleotide binding"
+        },
+        {
+          "id": "GO:0035639",
+          "name": "purine ribonucleoside triphosphate binding"
+        },
+        {
+          "id": "GO:1901265",
+          "name": "nucleoside phosphate binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0017076",
+          "name": "purine nucleotide binding"
+        },
+        {
+          "id": "GO:0043168",
+          "name": "anion binding"
+        },
+        {
+          "id": "GO:0030554",
+          "name": "adenyl nucleotide binding"
+        },
+        {
+          "id": "GO:0005524",
+          "name": "ATP binding"
+        },
+        {
+          "id": "GO:1901363",
+          "name": "heterocyclic compound binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0097367",
+          "name": "carbohydrate derivative binding"
+        },
+        {
+          "id": "GO:0032553",
+          "name": "ribonucleotide binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003677",
+      "name": "DNA binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0003677",
+          "name": "DNA binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003676",
+          "name": "nucleic acid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0070301",
+      "name": "cellular response to hydrogen peroxide",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0034599",
+          "name": "cellular response to oxidative stress"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0062197",
+          "name": "cellular response to chemical stress"
+        },
+        {
+          "id": "GO:1901701",
+          "name": "cellular response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0070301",
+          "name": "cellular response to hydrogen peroxide"
+        },
+        {
+          "id": "GO:0000302",
+          "name": "response to reactive oxygen species"
+        },
+        {
+          "id": "GO:0042542",
+          "name": "response to hydrogen peroxide"
+        },
+        {
+          "id": "GO:0006979",
+          "name": "response to oxidative stress"
+        },
+        {
+          "id": "GO:0034614",
+          "name": "cellular response to reactive oxygen species"
+        },
+        {
+          "id": "GO:0070887",
+          "name": "cellular response to chemical stimulus"
+        },
+        {
+          "id": "GO:0033554",
+          "name": "cellular response to stress"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013757",
+      "name": "DNA topoisomerase, type IIA, alpha-helical domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013757",
+          "name": "DNA topoisomerase, type IIA, alpha-helical domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0071318",
+      "name": "cellular response to ATP",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:1901699",
+          "name": "cellular response to nitrogen compound"
+        },
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0071318",
+          "name": "cellular response to ATP"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0046683",
+          "name": "response to organophosphorus"
+        },
+        {
+          "id": "GO:1901700",
+          "name": "response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:1901698",
+          "name": "response to nitrogen compound"
+        },
+        {
+          "id": "GO:0033198",
+          "name": "response to ATP"
+        },
+        {
+          "id": "GO:0014074",
+          "name": "response to purine-containing compound"
+        },
+        {
+          "id": "GO:1901701",
+          "name": "cellular response to oxygen-containing compound"
+        },
+        {
+          "id": "GO:0070887",
+          "name": "cellular response to chemical stimulus"
+        },
+        {
+          "id": "GO:0042221",
+          "name": "response to chemical"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR013759",
+      "name": "DNA topoisomerase, type IIA, subunit B, C-terminal",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR013759",
+          "name": "DNA topoisomerase, type IIA, subunit B, C-terminal"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR031660",
+      "name": "C-terminal associated domain of TOPRIM",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR031660",
+          "name": "C-terminal associated domain of TOPRIM"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0003918",
+      "name": "DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008094",
+          "name": "ATP-dependent activity, acting on DNA"
+        },
+        {
+          "id": "GO:0120545",
+          "name": "nucleic acid conformation isomerase activity"
+        },
+        {
+          "id": "GO:0016853",
+          "name": "isomerase activity"
+        },
+        {
+          "id": "GO:0140097",
+          "name": "catalytic activity, acting on DNA"
+        },
+        {
+          "id": "GO:0140640",
+          "name": "catalytic activity, acting on a nucleic acid"
+        },
+        {
+          "id": "GO:0003916",
+          "name": "DNA topoisomerase activity"
+        },
+        {
+          "id": "GO:0003918",
+          "name": "DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0120543",
+          "name": "macromolecular conformation isomerase activity"
+        },
+        {
+          "id": "GO:0140657",
+          "name": "ATP-dependent activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0000819",
+      "name": "sister chromatid segregation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016043",
+          "name": "cellular component organization"
+        },
+        {
+          "id": "GO:0006996",
+          "name": "organelle organization"
+        },
+        {
+          "id": "GO:0098813",
+          "name": "nuclear chromosome segregation"
+        },
+        {
+          "id": "GO:0051276",
+          "name": "chromosome organization"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0000819",
+          "name": "sister chromatid segregation"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0071840",
+          "name": "cellular component organization or biogenesis"
+        },
+        {
+          "id": "GO:0007049",
+          "name": "cell cycle"
+        },
+        {
+          "id": "GO:0007059",
+          "name": "chromosome segregation"
+        },
+        {
+          "id": "GO:0022402",
+          "name": "cell cycle process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:1990904",
+      "name": "ribonucleoprotein complex",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032991",
+          "name": "protein-containing complex"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:1990904",
+          "name": "ribonucleoprotein complex"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR050634",
+      "name": "DNA Topoisomerase II",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR050634",
+          "name": "DNA Topoisomerase II"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0046872",
+      "name": "metal ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005634",
+      "name": "nucleus",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005634",
+          "name": "nucleus"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR002205",
+      "name": "DNA topoisomerase, type IIA, domain A",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR002205",
+          "name": "DNA topoisomerase, type IIA, domain A"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "9BQ8",
+    "rcsb_id": "9BQ8_1",
+    "uniprot_ids": [
+      "Q02880"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "Q02880",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.9924433249370277,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.24231242312423124
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF02518",
+      "name": "Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase (HATPase_c)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 53,
+          "end_seq_id": 199
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "expression tag",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 3
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.47,
+            -0.77,
+            -0.81,
+            -1.44,
+            -1.43,
+            -2.29,
+            -1.48,
+            -1.37,
+            -2.19,
+            -1.54,
+            -0.73,
+            0.12,
+            0.06,
+            -0.04,
+            -0.04,
+            -0.54,
+            -0.3,
+            0.56,
+            0.01,
+            -0.5,
+            -0.46,
+            -0.34,
+            -0.34,
+            0.47,
+            0.47,
+            0.22,
+            0.03,
+            0.29,
+            0.28,
+            0.28,
+            0.52,
+            0.31,
+            -0.5,
+            -0.81,
+            0.04,
+            -0.31,
+            -0.31,
+            -0.6,
+            -0.79,
+            -1.14,
+            -1.14,
+            -0.29,
+            0.02,
+            -0.13,
+            0.38,
+            -0.01,
+            0.33,
+            0.48,
+            0.83,
+            0.79,
+            0.82,
+            1.21,
+            0.51,
+            -0.34,
+            0.33,
+            0.8,
+            0.84,
+            0.6,
+            1.23,
+            0.93,
+            0.23,
+            0.23,
+            0.19,
+            -0.7,
+            -1.62,
+            -2.48,
+            -2.52,
+            -3.11,
+            -3.1,
+            -2.79,
+            -2.12,
+            -1.19,
+            -1.23,
+            -0.27,
+            0.03,
+            0.97,
+            0.97,
+            0.58,
+            0.27,
+            -0.1,
+            -0.99,
+            -0.06,
+            -0.02,
+            -0.02,
+            -0.02,
+            0.27,
+            0.06,
+            0.06,
+            0.1,
+            0.06,
+            -0.49,
+            -0.49,
+            -0.58,
+            -0.61,
+            -0.04,
+            -0.04,
+            -0.01,
+            -0.4,
+            0.5,
+            0.16,
+            -0.78,
+            -0.13,
+            -0.74,
+            -0.74,
+            -0.53,
+            0.02,
+            0.88,
+            0.91,
+            1.61,
+            2.0,
+            1.14,
+            1.71,
+            1.67,
+            1.77,
+            1.48,
+            0.97,
+            0.08,
+            -0.38,
+            -0.72,
+            -0.72,
+            -1.53,
+            -2.34,
+            -2.7,
+            -3.04,
+            -2.49,
+            -2.18,
+            -2.08,
+            -1.73,
+            -1.84,
+            -1.84,
+            -1.5,
+            -1.21,
+            -0.82,
+            -1.09,
+            -1.44,
+            -0.98,
+            -0.66,
+            -0.54,
+            0.34,
+            0.7,
+            0.76,
+            0.72,
+            0.09,
+            0.83,
+            0.33,
+            0.52,
+            0.52,
+            -0.06,
+            -0.17,
+            0.2,
+            -0.16,
+            -0.11,
+            -0.57,
+            -0.92,
+            -1.74,
+            -1.44,
+            -1.06,
+            -1.69,
+            -2.36,
+            -2.0,
+            -1.71,
+            -1.36,
+            -1.31,
+            -1.34,
+            -1.04,
+            -1.14,
+            -1.14,
+            -0.83,
+            -0.84,
+            -1.13,
+            -1.14,
+            -1.19,
+            -0.3,
+            -0.94,
+            -1.51,
+            -0.77,
+            -1.08,
+            -1.03,
+            -1.03,
+            -1.62,
+            -1.33,
+            -1.91,
+            -1.2,
+            -0.34,
+            -0.73,
+            -0.03,
+            -0.38,
+            -0.17,
+            -0.17,
+            0.4,
+            0.39,
+            -0.32,
+            -0.51,
+            -0.87,
+            -0.97,
+            -0.97,
+            -1.22,
+            -0.41,
+            -1.22,
+            -1.57,
+            -1.52,
+            -1.33,
+            -0.43,
+            -0.44,
+            0.37,
+            1.01,
+            0.51,
+            0.4,
+            0.33,
+            0.92,
+            0.28,
+            -0.58,
+            -0.36,
+            -0.58,
+            -0.83,
+            -0.84,
+            -0.07,
+            -0.07,
+            -0.31,
+            0.3,
+            0.26,
+            0.3,
+            0.31,
+            0.67,
+            0.37,
+            0.04,
+            0.11,
+            -0.28,
+            -0.32,
+            -0.07,
+            -0.07,
+            -0.67,
+            -1.02,
+            -0.32,
+            -0.78,
+            -0.43,
+            -0.14,
+            -0.1,
+            -0.31,
+            -0.36,
+            -0.11,
+            0.4,
+            -0.34,
+            -0.23,
+            -0.58,
+            -0.01,
+            -0.87,
+            -0.87,
+            -1.37,
+            -1.27,
+            -1.27,
+            -0.63,
+            0.18,
+            0.18,
+            0.22,
+            1.11,
+            1.14,
+            0.83,
+            1.3,
+            1.03,
+            0.44,
+            -0.37,
+            -0.43,
+            -1.0,
+            -1.89,
+            -1.07,
+            -0.4,
+            -0.4,
+            -0.68,
+            0.13,
+            0.43,
+            0.54,
+            0.21,
+            0.56,
+            0.4,
+            -0.27,
+            -1.08,
+            -0.5,
+            -1.01,
+            -0.61,
+            0.24,
+            0.29,
+            0.24,
+            0.43,
+            1.02,
+            1.33,
+            0.76,
+            0.41,
+            0.06,
+            -0.46,
+            -0.57,
+            -0.83,
+            -0.87,
+            -1.46,
+            -1.52,
+            -0.98,
+            -0.08,
+            -0.42,
+            -0.77,
+            0.2,
+            1.02,
+            0.51,
+            0.47,
+            1.03,
+            1.07,
+            0.21,
+            1.07,
+            1.92,
+            1.02,
+            0.12,
+            -0.27,
+            -0.22,
+            -1.08,
+            -1.38,
+            -1.03,
+            -1.03,
+            -1.59,
+            -0.69,
+            -0.69,
+            -0.43,
+            0.27,
+            0.31,
+            0.58,
+            0.19,
+            -0.67,
+            -0.93,
+            -0.9,
+            -0.57,
+            0.08,
+            0.08,
+            0.97,
+            0.11,
+            0.82,
+            1.63,
+            2.49,
+            1.6,
+            1.31,
+            0.67,
+            0.28,
+            0.09,
+            0.09,
+            -0.28,
+            -1.09,
+            -1.67,
+            -1.71,
+            -1.71,
+            -1.92,
+            -1.63,
+            -2.02,
+            -1.21,
+            -1.51,
+            -1.3,
+            -1.66,
+            -1.31,
+            -0.61,
+            -0.27,
+            -0.57,
+            -0.92,
+            -1.07,
+            -1.07,
+            -0.47,
+            -0.12,
+            -0.42,
+            -1.17,
+            -0.81,
+            -0.41,
+            -0.41,
+            -0.49,
+            0.1,
+            -0.41,
+            -0.71,
+            -0.04,
+            0.34,
+            0.53,
+            0.69,
+            0.73,
+            0.44,
+            0.74,
+            1.26,
+            1.26,
+            0.88,
+            1.39,
+            0.46,
+            0.3,
+            0.26,
+            0.54,
+            -0.34,
+            -0.84,
+            -0.84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.34,
+            0.33,
+            0.32,
+            0.31,
+            0.3,
+            0.3,
+            0.28,
+            0.28,
+            0.27,
+            0.25,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.25,
+            0.26,
+            0.26,
+            0.27,
+            0.27,
+            0.27,
+            0.27,
+            0.28,
+            0.28,
+            0.27,
+            0.27,
+            0.26,
+            0.27,
+            0.28,
+            0.29,
+            0.31,
+            0.33,
+            0.35,
+            0.36,
+            0.38,
+            0.4,
+            0.42,
+            0.43,
+            0.42,
+            0.4,
+            0.38,
+            0.36,
+            0.34,
+            0.33,
+            0.32,
+            0.31,
+            0.29,
+            0.28,
+            0.27,
+            0.27,
+            0.28,
+            0.29,
+            0.3,
+            0.31,
+            0.31,
+            0.32,
+            0.33,
+            0.34,
+            0.34,
+            0.36,
+            0.36,
+            0.36,
+            0.34,
+            0.33,
+            0.32,
+            0.3,
+            0.28,
+            0.26,
+            0.25,
+            0.23,
+            0.21,
+            0.2,
+            0.19,
+            0.19,
+            0.18,
+            0.18,
+            0.18,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.2,
+            0.21,
+            0.22,
+            0.23,
+            0.24,
+            0.25,
+            0.26,
+            0.27,
+            0.29,
+            0.3,
+            0.32,
+            0.33,
+            0.33,
+            0.32,
+            0.33,
+            0.33,
+            0.34,
+            0.35,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.41,
+            0.43,
+            0.42,
+            0.41,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.41,
+            0.43,
+            0.4,
+            0.38,
+            0.35,
+            0.31,
+            0.29,
+            0.26,
+            0.24,
+            0.22,
+            0.2,
+            0.19,
+            0.18,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.18,
+            0.18,
+            0.19,
+            0.21,
+            0.23,
+            0.26,
+            0.27,
+            0.29,
+            0.31,
+            0.33,
+            0.34,
+            0.36,
+            0.37,
+            0.36,
+            0.34,
+            0.32,
+            0.3,
+            0.29,
+            0.27,
+            0.26,
+            0.24,
+            0.23,
+            0.22,
+            0.2,
+            0.21,
+            0.22,
+            0.24,
+            0.25,
+            0.27,
+            0.29,
+            0.32,
+            0.34,
+            0.36,
+            0.37,
+            0.4,
+            0.39,
+            0.36,
+            0.34,
+            0.33,
+            0.31,
+            0.28,
+            0.26,
+            0.24,
+            0.23,
+            0.21,
+            0.19,
+            0.19,
+            0.18,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.18,
+            0.19,
+            0.21,
+            0.23,
+            0.24,
+            0.26,
+            0.27,
+            0.29,
+            0.3,
+            0.3,
+            0.31,
+            0.31,
+            0.31,
+            0.31,
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.29,
+            0.3,
+            0.3,
+            0.3,
+            0.29,
+            0.28,
+            0.27,
+            0.26,
+            0.24,
+            0.23,
+            0.22,
+            0.2,
+            0.19,
+            0.18,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.18,
+            0.18,
+            0.18,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.16,
+            0.17,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.15,
+            0.15,
+            0.14,
+            0.14,
+            0.14,
+            0.13,
+            0.13,
+            0.13,
+            0.13,
+            0.14,
+            0.15,
+            0.15,
+            0.16,
+            0.17,
+            0.18,
+            0.19,
+            0.21,
+            0.22,
+            0.23,
+            0.24,
+            0.25,
+            0.26,
+            0.26,
+            0.27,
+            0.26,
+            0.24,
+            0.23,
+            0.2,
+            0.18,
+            0.16,
+            0.15,
+            0.13,
+            0.12,
+            0.11,
+            0.11,
+            0.11,
+            0.11,
+            0.12,
+            0.13,
+            0.14,
+            0.15,
+            0.16,
+            0.17,
+            0.17,
+            0.18,
+            0.18,
+            0.18,
+            0.17,
+            0.16,
+            0.15,
+            0.15,
+            0.14,
+            0.13,
+            0.12,
+            0.11,
+            0.11,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.11,
+            0.11,
+            0.12,
+            0.12,
+            0.12,
+            0.13,
+            0.13,
+            0.14,
+            0.14,
+            0.15,
+            0.15,
+            0.16,
+            0.17,
+            0.18,
+            0.2,
+            0.22,
+            0.25,
+            0.29,
+            0.34,
+            0.37,
+            0.4,
+            0.43,
+            0.41,
+            0.37,
+            0.35,
+            0.34,
+            0.36,
+            0.39,
+            0.42,
+            0.4,
+            0.35,
+            0.32,
+            0.28,
+            0.24,
+            0.21,
+            0.19,
+            0.17,
+            0.17,
+            0.16,
+            0.15,
+            0.15,
+            0.15,
+            0.15,
+            0.16,
+            0.17,
+            0.17,
+            0.16,
+            0.16,
+            0.15,
+            0.14,
+            0.13,
+            0.13,
+            0.13,
+            0.13,
+            0.12,
+            0.12,
+            0.12,
+            0.13,
+            0.14,
+            0.15,
+            0.16,
+            0.18,
+            0.2,
+            0.2,
+            0.2,
+            0.21,
+            0.22,
+            0.22,
+            0.24,
+            0.26,
+            0.31,
+            0.36,
+            0.4,
+            0.43,
+            0.39,
+            0.33,
+            0.31,
+            0.3,
+            0.28,
+            0.31,
+            0.36,
+            0.42,
+            0.41,
+            0.37,
+            0.33,
+            0.28,
+            0.23
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.88,
+            0.85,
+            0.81,
+            0.78,
+            0.67,
+            0.64,
+            0.59,
+            0.47,
+            0.37,
+            0.25,
+            0.2,
+            0.23,
+            0.23,
+            0.26,
+            0.18,
+            0.17,
+            0.17,
+            0.17,
+            0.16,
+            0.22,
+            0.24,
+            0.17,
+            0.17,
+            0.17,
+            0.1,
+            0.13,
+            0.07,
+            0.05,
+            0.04,
+            0.07,
+            0.12,
+            0.13,
+            0.07,
+            0.06,
+            0.05,
+            0.07,
+            0.08,
+            0.07,
+            0.08,
+            0.08,
+            0.07,
+            0.04,
+            0.04,
+            0.05,
+            0.05,
+            0.05,
+            0.04,
+            0.07,
+            0.07,
+            0.06,
+            0.06,
+            0.06,
+            0.04,
+            0.04,
+            0.03,
+            0.04,
+            0.03,
+            0.04,
+            0.04,
+            0.03,
+            0.05,
+            0.05,
+            0.09,
+            0.13,
+            0.12,
+            0.11,
+            0.14,
+            0.21,
+            0.17,
+            0.17,
+            0.26,
+            0.2,
+            0.19,
+            0.18,
+            0.25,
+            0.33,
+            0.33,
+            0.37,
+            0.41,
+            0.33,
+            0.27,
+            0.27,
+            0.2,
+            0.14,
+            0.13,
+            0.14,
+            0.14,
+            0.17,
+            0.17,
+            0.14,
+            0.23,
+            0.17,
+            0.17,
+            0.17,
+            0.24,
+            0.23,
+            0.15,
+            0.16,
+            0.15,
+            0.11,
+            0.11,
+            0.12,
+            0.14,
+            0.18,
+            0.17,
+            0.12,
+            0.07,
+            0.07,
+            0.08,
+            0.05,
+            0.06,
+            0.05,
+            0.08,
+            0.12,
+            0.12,
+            0.07,
+            0.08,
+            0.12,
+            0.12,
+            0.13,
+            0.16,
+            0.21,
+            0.2,
+            0.17,
+            0.19,
+            0.25,
+            0.32,
+            0.4,
+            0.4,
+            0.31,
+            0.37,
+            0.4,
+            0.4,
+            0.34,
+            0.25,
+            0.25,
+            0.28,
+            0.21,
+            0.2,
+            0.19,
+            0.18,
+            0.13,
+            0.13,
+            0.15,
+            0.15,
+            0.15,
+            0.13,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.09,
+            0.09,
+            0.08,
+            0.13,
+            0.13,
+            0.15,
+            0.15,
+            0.13,
+            0.14,
+            0.14,
+            0.17,
+            0.16,
+            0.19,
+            0.18,
+            0.19,
+            0.23,
+            0.29,
+            0.28,
+            0.22,
+            0.3,
+            0.3,
+            0.23,
+            0.23,
+            0.31,
+            0.32,
+            0.31,
+            0.24,
+            0.3,
+            0.27,
+            0.21,
+            0.2,
+            0.16,
+            0.19,
+            0.23,
+            0.23,
+            0.17,
+            0.17,
+            0.18,
+            0.12,
+            0.15,
+            0.13,
+            0.15,
+            0.2,
+            0.14,
+            0.14,
+            0.13,
+            0.14,
+            0.16,
+            0.12,
+            0.13,
+            0.13,
+            0.11,
+            0.17,
+            0.16,
+            0.14,
+            0.12,
+            0.12,
+            0.12,
+            0.08,
+            0.11,
+            0.11,
+            0.13,
+            0.08,
+            0.09,
+            0.13,
+            0.09,
+            0.1,
+            0.06,
+            0.08,
+            0.06,
+            0.08,
+            0.12,
+            0.14,
+            0.15,
+            0.09,
+            0.1,
+            0.08,
+            0.13,
+            0.13,
+            0.11,
+            0.13,
+            0.14,
+            0.09,
+            0.09,
+            0.09,
+            0.06,
+            0.05,
+            0.04,
+            0.05,
+            0.07,
+            0.12,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.12,
+            0.07,
+            0.08,
+            0.05,
+            0.05,
+            0.06,
+            0.03,
+            0.03,
+            0.05,
+            0.04,
+            0.03,
+            0.05,
+            0.1,
+            0.13,
+            0.09,
+            0.09,
+            0.06,
+            0.07,
+            0.05,
+            0.04,
+            0.03,
+            0.03,
+            0.04,
+            0.05,
+            0.09,
+            0.05,
+            0.07,
+            0.13,
+            0.08,
+            0.08,
+            0.08,
+            0.06,
+            0.06,
+            0.06,
+            0.03,
+            0.04,
+            0.04,
+            0.06,
+            0.08,
+            0.13,
+            0.13,
+            0.2,
+            0.21,
+            0.15,
+            0.15,
+            0.1,
+            0.13,
+            0.09,
+            0.09,
+            0.15,
+            0.1,
+            0.13,
+            0.18,
+            0.18,
+            0.12,
+            0.12,
+            0.14,
+            0.1,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.07,
+            0.09,
+            0.08,
+            0.08,
+            0.12,
+            0.11,
+            0.11,
+            0.12,
+            0.1,
+            0.14,
+            0.1,
+            0.1,
+            0.15,
+            0.23,
+            0.17,
+            0.17,
+            0.17,
+            0.12,
+            0.08,
+            0.08,
+            0.05,
+            0.04,
+            0.03,
+            0.03,
+            0.05,
+            0.06,
+            0.1,
+            0.06,
+            0.05,
+            0.1,
+            0.1,
+            0.13,
+            0.14,
+            0.14,
+            0.14,
+            0.18,
+            0.22,
+            0.2,
+            0.28,
+            0.38,
+            0.36,
+            0.42,
+            0.39,
+            0.45,
+            0.45,
+            0.44,
+            0.33,
+            0.35,
+            0.37,
+            0.35,
+            0.37,
+            0.36,
+            0.29,
+            0.22,
+            0.21,
+            0.18,
+            0.18,
+            0.19,
+            0.27,
+            0.18,
+            0.16,
+            0.12,
+            0.08,
+            0.13,
+            0.12,
+            0.08,
+            0.05,
+            0.09,
+            0.06,
+            0.06,
+            0.06,
+            0.03,
+            0.03,
+            0.04,
+            0.06,
+            0.06,
+            0.07,
+            0.11,
+            0.14,
+            0.17,
+            0.3,
+            0.34,
+            0.45,
+            0.55,
+            0.6,
+            0.64,
+            0.74
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.00756,
+      "maximum_length": 3,
+      "minimum_length": 3,
+      "type": "artifact"
+    },
+    {
+      "count": 1,
+      "coverage": 0.37028,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "18019_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 397,
+          "ref_beg_seq_id": 52
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "5294_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 394,
+          "ref_beg_seq_id": 59
+        },
+        {
+          "entity_beg_seq_id": 395,
+          "length": 3,
+          "ref_beg_seq_id": 461
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "Q02880",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 4,
+          "length": 394,
+          "ref_beg_seq_id": 50
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "3511_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 32,
+          "ref_beg_seq_id": 106
+        },
+        {
+          "entity_beg_seq_id": 33,
+          "length": 11,
+          "ref_beg_seq_id": 139
+        },
+        {
+          "entity_beg_seq_id": 44,
+          "length": 143,
+          "ref_beg_seq_id": 151
+        },
+        {
+          "entity_beg_seq_id": 187,
+          "length": 18,
+          "ref_beg_seq_id": 299
+        },
+        {
+          "entity_beg_seq_id": 205,
+          "length": 49,
+          "ref_beg_seq_id": 319
+        },
+        {
+          "entity_beg_seq_id": 254,
+          "length": 28,
+          "ref_beg_seq_id": 371
+        },
+        {
+          "entity_beg_seq_id": 282,
+          "length": 39,
+          "ref_beg_seq_id": 400
+        },
+        {
+          "entity_beg_seq_id": 321,
+          "length": 57,
+          "ref_beg_seq_id": 441
+        },
+        {
+          "entity_beg_seq_id": 378,
+          "length": 17,
+          "ref_beg_seq_id": 499
+        },
+        {
+          "entity_beg_seq_id": 395,
+          "length": 3,
+          "ref_beg_seq_id": 524
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "11213_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 397,
+          "ref_beg_seq_id": 47
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "3420_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 32,
+          "ref_beg_seq_id": 123
+        },
+        {
+          "entity_beg_seq_id": 33,
+          "length": 11,
+          "ref_beg_seq_id": 156
+        },
+        {
+          "entity_beg_seq_id": 44,
+          "length": 33,
+          "ref_beg_seq_id": 202
+        },
+        {
+          "entity_beg_seq_id": 77,
+          "length": 110,
+          "ref_beg_seq_id": 236
+        },
+        {
+          "entity_beg_seq_id": 187,
+          "length": 18,
+          "ref_beg_seq_id": 351
+        },
+        {
+          "entity_beg_seq_id": 205,
+          "length": 20,
+          "ref_beg_seq_id": 371
+        },
+        {
+          "entity_beg_seq_id": 225,
+          "length": 29,
+          "ref_beg_seq_id": 392
+        },
+        {
+          "entity_beg_seq_id": 254,
+          "length": 28,
+          "ref_beg_seq_id": 431
+        },
+        {
+          "entity_beg_seq_id": 282,
+          "length": 39,
+          "ref_beg_seq_id": 467
+        },
+        {
+          "entity_beg_seq_id": 321,
+          "length": 50,
+          "ref_beg_seq_id": 508
+        },
+        {
+          "entity_beg_seq_id": 371,
+          "length": 7,
+          "ref_beg_seq_id": 562
+        },
+        {
+          "entity_beg_seq_id": 378,
+          "length": 17,
+          "ref_beg_seq_id": 570
+        },
+        {
+          "entity_beg_seq_id": 395,
+          "length": 3,
+          "ref_beg_seq_id": 595
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "19586_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 397,
+          "ref_beg_seq_id": 52
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "DNA topoisomerase II,beta isozyme"
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2094255",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 4,
+          "length": 393,
+          "target_beg_seq_id": 50
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL3396",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 4,
+          "length": 393,
+          "target_beg_seq_id": 50
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL5564",
+      "target_taxonomy_id": 10090,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 4,
+          "length": 393,
+          "target_beg_seq_id": 38
+        }
+      ]
+    },
+    {
+      "related_resource_name": "DrugBank",
+      "related_resource_version": "5.1",
+      "related_target_id": "Q02880",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 4,
+          "length": 393,
+          "target_beg_seq_id": 50
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "7662",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 4,
+          "length": 393,
+          "target_beg_seq_id": 50
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 2.3,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "NPYXBHZQVNRAOF-BCXXRTHPSA-N",
+      "cofactor_SMILES": "CC(C)CCC[C@@H](C)[C@H]1CCC2C3CC=C4C[C@@H](OCCO)CC[C@]4(C)C3CC[C@@]21C",
+      "cofactor_resource_id": "CHEMBL188403",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.3,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "VHSCWUOENVSGKM-QCGFFWLZSA-N",
+      "cofactor_SMILES": "CC(C)CCC[C@@H](C)[C@H]1CCC2C3CC=C4C[C@@H](OCC(=O)O)CC[C@]4(C)C3CC[C@@]21C",
+      "cofactor_resource_id": "CHEMBL189703",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.29,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "SFDBHPJUOZSMJY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN(CC)CCNc1ccc(CNC=O)c2sc3ccccc3c(=O)c12",
+      "cofactor_resource_id": "CHEMBL120915",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.29,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "DHAXMRJRMLZEOY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cc1cc(-c2c(F)cc3c(=O)c(C(=O)O)cn4c3c2OCC4(C)C)cc(C)n1",
+      "cofactor_resource_id": "CHEMBL45755",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.28,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "VDIATEYEXGSXMS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cc1cc(-c2c(F)cc3c(=O)c(C(=O)O)cn(CCF)c3c2F)cc(C)n1",
+      "cofactor_resource_id": "CHEMBL319939",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.27,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "DOIHEANNHDBQGO-LLVKDONJSA-N",
+      "cofactor_SMILES": "Cc1cc(-c2c(F)cc3c(=O)c(C(=O)O)cn4c3c2OC[C@H]4C)cc(C)n1",
+      "cofactor_resource_id": "CHEMBL50551",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.25,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "MSZAGRDFHLDYTD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "Cc1cc(-c2c(F)cc3c(=O)c(C(=O)O)cn4c3c2OCC4)cc(C)n1.Cl",
+      "cofactor_resource_id": "CHEMBL542357",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.24,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "RZCCYPFPALDTNG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCn1cc(C(=O)O)c(=O)c2cc(F)c(-c3cc(C)nc(C)c3)cc21",
+      "cofactor_resource_id": "CHEMBL45887",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.14,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_InChIKey": "UKMWHQNNGCKKJS-NSHDSACASA-N",
+      "cofactor_SMILES": "Cc1cc(-c2c(F)cc3c(=O)c(C(=O)O)cn4c3c2NC[C@@H]4C)cc(C)n1",
+      "cofactor_resource_id": "CHEMBL43881",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2094255"
+    },
+    {
+      "binding_assay_value": 2.3,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "DARNFXCXELGQKU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC(C(C)N1CC(=O)NC(=O)C1)N1CCNC(=O)C1",
+      "cofactor_resource_id": "CHEMBL5076925",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL3396"
+    },
+    {
+      "cofactor_InChIKey": "XCPGHVQEEXUHNC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=C(NC2=C3C=CC=CC3=NC3=CC=CC=C23)C=CC(NS(C)(=O)=O)=C1",
+      "cofactor_chem_comp_id": "ASW",
+      "cofactor_name": "Amsacrine",
+      "cofactor_resource_id": "DB00276",
+      "mechanism_of_action": "Amsacrine binds to DNA through intercalation and external binding. It has a base specificity for A-T pairs. Rapidly dividing cells are two to four times more sensitive to amsacrine than are resting cells. Amsacrine appears to cleave DNA by inducing double stranded breaks. Amsacrine also targets and inhibits topoisomerase II. Cytotoxicity is greatest during the S phase of the cell cycle when topoisomerase levels are at a maximum.",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        29547830,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "BMKDZUISNHGIBY-ZETCQYMHSA-N",
+      "cofactor_SMILES": "C[C@@H](CN1CC(=O)NC(=O)C1)N1CC(=O)NC(=O)C1",
+      "cofactor_chem_comp_id": "CDX",
+      "cofactor_name": "Dexrazoxane",
+      "cofactor_resource_id": "DB00380",
+      "mechanism_of_action": "The mechanism by which dexrazoxane exerts its cardioprotective activity is not fully understood. Dexrazoxane is a cyclic derivative of EDTA that readily penetrates cell membranes. Results of laboratory studies suggest that dexrazoxane (a prodrug) is converted intracellularly to a ring-opened bidentate chelating agent that chelates to free iron and interferes with iron-mediated free radical generation thought to be responsible, in part, for anthracycline-induced cardiomyopathy. It should be noted that dexrazoxane may also be protective through its inhibitory effect on topoisomerase II.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619,
+        33750129,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "ZOCKGBMQLCSHFP-KQRAQHLDSA-N",
+      "cofactor_SMILES": "[H][C@@]1(C[C@@](O)(CC2=C(O)C3=C(C(O)=C12)C(=O)C1=C(OC)C=CC=C1C3=O)C(=O)COC(=O)CCCC)O[C@H]1C[C@H](NC(=O)C(F)(F)F)[C@H](O)[C@H](C)O1",
+      "cofactor_name": "Valrubicin",
+      "cofactor_resource_id": "DB00385",
+      "mechanism_of_action": "Valrubicin is an anthracycline that affects a variety of inter-related biological functions, most of which involve nucleic acid metabolism. It readily penetrates into cells, where after DNA intercalation, it inhibits the incorporation of nucleosides into nucleic acids, causes extensive chromosomal damage, and arrests cell cycle in G2. Although valrubicin does not bind strongly to DNA, a principal mechanism of its action, mediated by valrubicin metabolites, is interference with the normal DNA breaking-resealing action of DNA topoisomerase II.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "NRUKOCRGYNPUPR-QBPJDGROSA-N",
+      "cofactor_SMILES": "[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=C(C=C3OCOC3=C1)[C@H]2O[C@]1([H])O[C@]2([H])CO[C@H](O[C@@]2([H])[C@H](O)[C@H]1O)C1=CC=CS1",
+      "cofactor_chem_comp_id": "9TP",
+      "cofactor_name": "Teniposide",
+      "cofactor_resource_id": "DB00444",
+      "mechanism_of_action": "The mechanism of action appears to be related to the inhibition of type II topoisomerase activity since teniposide does not intercalate into DNA or bind strongly to DNA. Teniposide binds to and inhibits DNA topoisomerase II. The cytotoxic effects of teniposide are related to the relative number of double-stranded DNA breaks produced in cells, which are a reflection of the stabilization of a topoisomerase II-DNA intermediate.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "AOJJSUZBOXZQNB-VTZDEGQISA-N",
+      "cofactor_SMILES": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+      "cofactor_name": "Epirubicin",
+      "cofactor_resource_id": "DB00445",
+      "mechanism_of_action": "Epirubicin has antimitotic and cytotoxic activity. It inhibits nucleic acid (DNA and RNA) and protein synthesis through a number of proposed mechanisms of action: Epirubicin forms complexes with DNA by intercalation between base pairs, and it inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes. It also interferes with DNA replication and transcription by inhibiting DNA helicase activity.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "IDYZIJYBMGIQMJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(N=C12)N1CCNCC1",
+      "cofactor_name": "Enoxacin",
+      "cofactor_resource_id": "DB00467",
+      "mechanism_of_action": "Enoxacin exerts its bactericidal action via the inhibition of the essential bacterial enzyme DNA gyrase (DNA Topoisomerase II).",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "FHFYDNQZQSQIAI-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(C=C12)N1CCN(C)CC1",
+      "cofactor_name": "Pefloxacin",
+      "cofactor_resource_id": "DB00487",
+      "mechanism_of_action": "The bactericidal action of pefloxacin results from interference with the activity of the bacterial enzymes DNA gyrase and topoisomerase IV, which are needed for the transcription and replication of bacterial DNA. DNA gyrase appears to be the primary quinolone target for gram-negative bacteria. Topoisomerase IV appears to be the preferential target in gram-positive organisms. Interference with these two topoisomerases results in strand breakage of the bacterial chromosome, supercoiling, and resealing. As a result DNA replication and transcription is inhibited.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "STQGQHZAVUOBTE-VGBVRHCVSA-N",
+      "cofactor_SMILES": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(C)=O)C(O)=C1C2=O",
+      "cofactor_chem_comp_id": "DM1",
+      "cofactor_name": "Daunorubicin",
+      "cofactor_resource_id": "DB00694",
+      "mechanism_of_action": "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action: Daunorubicin forms complexes with DNA by intercalation between base pairs, and it inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        6380596,
+        1963303
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "VJJPUSNTGOMMGY-MRVIYFEKSA-N",
+      "cofactor_SMILES": "[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=CC3=C(OCO3)C=C1[C@H]2O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](O)[C@H]1O",
+      "cofactor_chem_comp_id": "EVP",
+      "cofactor_name": "Etoposide",
+      "cofactor_resource_id": "DB00773",
+      "mechanism_of_action": "Etoposide inhibits DNA topoisomerase II, thereby inhibiting DNA re-ligation. This causes critical errors in DNA synthesis at the premitotic stage of cell division and can lead to apoptosis of the cancer cell. Etoposide is cell cycle dependent and phase specific, affecting mainly the S and G2 phases of cell division. Inhibition of the topoisomerase II alpha isoform results in the anti-tumour activity of etoposide. The drug is also capable of inhibiting the beta isoform but inhibition of this target is not associated with the anti-tumour activity. It is instead associated with the carcinogenic effect. ",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17578914
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "MHWLWQUZZRMNGJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN1C=C(C(O)=O)C(=O)C2=C1N=C(C)C=C2",
+      "cofactor_chem_comp_id": "NIX",
+      "cofactor_name": "Nalidixic acid",
+      "cofactor_resource_id": "DB00779",
+      "mechanism_of_action": "Evidence exists for Nalidixic acid that its active metabolite, hydroxynalidixic acid, binds strongly, but reversibly, to DNA, interfering with synthesis of RNA and, consequently, with protein synthesis.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "XBPZXDSZHPDXQU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN1C=C(C(O)=O)C(=O)C2=C1C=C(C=C2)C1=CC=NC=C1",
+      "cofactor_name": "Rosoxacin",
+      "cofactor_resource_id": "DB00817",
+      "mechanism_of_action": "Rosoxacin binds to and inhibits the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV, which are required for bacterial DNA replication, transcription, repair, and recombination.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "VDUWPHTZYNWKRN-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN1N=C(C(O)=O)C(=O)C2=CC3=C(OCO3)C=C12",
+      "cofactor_name": "Cinoxacin",
+      "cofactor_resource_id": "DB00827",
+      "mechanism_of_action": "Evidence exists that cinoxacin binds strongly, but reversibly, to DNA, interfering with synthesis of RNA and, consequently, with protein synthesis. It appears to also inhibit DNA gyrase. This enzyme is necessary for proper replicated DNA separation. By inhibiting this enzyme, DNA replication and cell division is inhibited.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "ZEKZLJVOYLTDKK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(N3CCNC(C)C3)C(F)=C12",
+      "cofactor_name": "Lomefloxacin",
+      "cofactor_resource_id": "DB00978",
+      "mechanism_of_action": "Lomefloxacin is a bactericidal fluoroquinolone agent with activity against a wide range of gram-negative and gram-positive organisms. The bactericidal action of lomefloxacin results from interference with the activity of the bacterial enzymes DNA gyrase and topoisomerase IV, which are needed for the transcription and replication of bacterial DNA. DNA gyrase appears to be the primary quinolone target for gram-negative bacteria. Topoisomerase IV appears to be the preferential target in gram-positive organisms. Interference with these two topoisomerases results in strand breakage of the bacterial chromosome, supercoiling, and resealing. As a result DNA replication and transcription is inhibited.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "AOJJSUZBOXZQNB-TZSSRYMLSA-N",
+      "cofactor_SMILES": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+      "cofactor_chem_comp_id": "DM2",
+      "cofactor_name": "Doxorubicin",
+      "cofactor_resource_id": "DB00997",
+      "mechanism_of_action": "Generally, doxorubicin is thought to exert its antineoplastic activity through 2 primary mechanisms: intercalation into DNA and disrupt topoisomerase-mediated repairs and free radicals-mediated cellular damages.[A257614]\r\n\r\nDoxorubicin can intercalate into DNA through the anthraquinone ring, which stabilizes the complex by forming hydrogen bonds with DNA bases.[A257659] Intercalation of doxorubicin can introduce torsional stress into the polynucleotide structure, thus destabilizing nucleosome structures and leading to nucleosome eviction and replacement.[A257664,A18538] Additionally, the doxorubicin-DNA complex can interfere with topoisomerase II enzyme activity by preventing relegation of topoisomerase-mediated DNA breaks, thus inhibiting replication and transcription and inducing apoptosis.[A257669,A257674] \r\n\r\nMoreover, doxorubicin can be metabolized by microsomal NADPH-cytochrome P-450 reductase into a semiquinone radical, which can be reoxidized in the presence of oxygen to form oxygen radicals.[A1579,A257584] Reactive oxygen species have been known to cause cellular damage through various mechanisms, including lipid peroxidation and membrane damage, DNA damage, oxidative stress, and apoptosis.[A257634] Although free radicals generated from this pathway can be deactivated by catalase and superoxide dismutase, tumor and myocardial cells tend to lack these enzymes, thus explaining doxorubicin's effectiveness against cancer cells and tendency to cause cardiotoxicity.[A1579,A257584,A1578]\r\n",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        30391699
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "YJQPYGGHQPGBLI-KGSXXDOSSA-N",
+      "cofactor_SMILES": "CO[C@@H]1[C@@H](OC(N)=O)[C@@H](O)[C@H](OC2=C(C)C3=C(C=C2)C(O)=C(NC(=O)C2=CC=C(O)C(CC=C(C)C)=C2)C(=O)O3)OC1(C)C",
+      "cofactor_chem_comp_id": "NOV",
+      "cofactor_name": "Novobiocin",
+      "cofactor_resource_id": "DB01051",
+      "mechanism_of_action": "Novobiocin is an aminocoumarinthat works by inhibiting the GyrB subunit of the bacterial DNA gyrase enzyme involved in energy tranduction. Similar to other aminocoumarin antibiotics, it acts as a competitive inhibitor of the ATPase reaction catalysed by GyrB.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "XDXDZDZNSLXDNA-TZNDIEGXSA-N",
+      "cofactor_SMILES": "C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O",
+      "cofactor_chem_comp_id": "DM5",
+      "cofactor_name": "Idarubicin",
+      "cofactor_resource_id": "DB01177",
+      "mechanism_of_action": "Idarubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action: Idarubicin forms complexes with DNA by intercalation between base pairs, and it inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "YJGVMLPVUAXIQN-XVVDYKMHSA-N",
+      "cofactor_SMILES": "[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(OC)C(OC)=C1)C1=CC3=C(OCO3)C=C1[C@@H]2O",
+      "cofactor_chem_comp_id": "POD",
+      "cofactor_name": "Podofilox",
+      "cofactor_resource_id": "DB01179",
+      "mechanism_of_action": "The exact mechanism of action is not well understood. It does appear, however, that it and its derivatives may bind and inhibit topoisomerase II during the late S and early G2 stage. The drug may bind and stabilize the temporary break caused by the enzyme. This disrupts the reparation of the break through which the double-stranded DNA passes, and consequently stops DNA unwinding and replication",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "KKZJGLLVHKMTCM-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OCCNCCNC1=CC=C(NCCNCCO)C2=C1C(=O)C1=C(C(O)=CC=C1O)C2=O",
+      "cofactor_chem_comp_id": "MIX",
+      "cofactor_name": "Mitoxantrone",
+      "cofactor_resource_id": "DB01204",
+      "mechanism_of_action": "Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA. It has a cytocidal effect on both proliferating and nonproliferating cultured human cells, suggesting lack of cell cycle phase specificity.",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "FJAQNRBDVKIIKK-LFLQOBSNSA-N",
+      "cofactor_SMILES": "CO[C@@H]1[C@@H](OC(=O)C2=CC=C(C)N2)[C@@H](O)[C@H](OC2=C(Cl)C3=C(C=C2)C(O)=C(NC(=O)C2=CC(CC=C(C)C)=C(O)C=C2)C(=O)O3)OC1(C)C",
+      "cofactor_chem_comp_id": "CBN",
+      "cofactor_name": "Clorobiocin",
+      "cofactor_resource_id": "DB03966",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "PVKSNHVPLWYQGJ-FCIPNVEPSA-N",
+      "cofactor_SMILES": "NC1=NC=NC2=C1N=CN2[C@@H]1O[C@@H](CO[P@](O)(=O)O[P@@](O)(=O)NP(O)(O)=O)[C@H](O)[C@H]1O",
+      "cofactor_chem_comp_id": "A0P",
+      "cofactor_name": "Phosphoaminophosphonic Acid-Adenylate Ester",
+      "cofactor_resource_id": "DB04395",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "XBJBPGROQZJDOJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN1CCN(CC1)C1=C(F)C=C2C(=O)C(=CN(CCF)C2=C1F)C(O)=O",
+      "cofactor_name": "Fleroxacin",
+      "cofactor_resource_id": "DB04576",
+      "mechanism_of_action": "The inhibition of DNA gyrase and DNA topoisomerase 2 leads ultimately to cell death as these enzymes are required for bacterial DNA replication, transcription, repair, strand supercoiling repair, and recombination.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "LISFMEBWQUVKPJ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "O=C1NC2=C(C=CC=C2)C=C1",
+      "cofactor_chem_comp_id": "OCH",
+      "cofactor_name": "2-Hydroxyquinoline",
+      "cofactor_resource_id": "DB04745",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "ORYDPOVDJJZGHQ-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC1=[N+]([O-])C2=C(C=CC=C2)[N+]([O-])=N1",
+      "cofactor_name": "Tirapazamine",
+      "cofactor_resource_id": "DB04858",
+      "mechanism_of_action": "Extensive preclinical testing has established that the mechanism for the selective toxicity towards hypoxic cells is the result of a one-electron reduction of the parent molecule to a free radical species that interacts with DNA to produce single- and double-strand breaks and lethal chromosome aberrations. It has also shown activity when combined with fractionated irradiation and when combined with some chemotherapy agents, particularly cisplatin and carboplatin.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "FBQPGGIHOFZRGH-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN(CC)CCNC1=C2C(=O)C3=CC=CC=C3SC2=C(C)C=C1",
+      "cofactor_name": "Lucanthone",
+      "cofactor_resource_id": "DB04967",
+      "mechanism_of_action": "Recent data suggests that lucanthone inhibits post-radiation DNA repair in tumor cells. The ability of lucanthone to inhibit AP endonuclease and topoisomerase II probably account for the specific DNA repair inhibition in irradiated cells.\r\n\r\n",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "YZBAXVICWUUHGG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "C[N+](C)([O-])CCNC1=CC=C(NCC[N+](C)(C)[O-])C2=C1C(=O)C1=C(O)C=CC(O)=C1C2=O",
+      "cofactor_name": "Banoxantrone",
+      "cofactor_resource_id": "DB04975",
+      "mechanism_of_action": "Banoxantrone (formally known as AQ4N) is preferentially and irreversibly converted to AQ4, its cytotoxic form, in hypoxic tumour cells where it remains localised. When the surrounding oxygenated cells are killed by radiotherapy or chemotherapy bringing these AQ4-containing quiescent cells closer to the oxygen source, they become reoxygenated, attempt to resume replication and, in this state, are killed by AQ4 through potent DNA intercalation and topoisomerase II inhibition.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "UPALIKSFLSVKIS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN(C)CCN1C(=O)C2=CC=CC3=CC(N)=CC(C1=O)=C23",
+      "cofactor_name": "Amonafide",
+      "cofactor_resource_id": "DB05022",
+      "mechanism_of_action": "Amonafide is a DNA intercalating agent and inhibitor of topoisomerase II that has been extensively studied in patients with malignant solid tumors. Amonafide has also been studied in patients with AML.",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "MGQRRMONVLMKJL-KWJIQSIXSA-N",
+      "cofactor_SMILES": "CO[C@@H]1[C@@H](N)[C@@H](O[C@H]2[C@H](OC3=CC=CC4=C3C3=C5C(C(=O)OC6=C5C(=C(C)C=C6)C(=O)O3)=C4O)O[C@H](C)[C@H](O)[C@]2(C)O)O[C@H](C)[C@@H]1O",
+      "cofactor_name": "Elsamitrucin",
+      "cofactor_resource_id": "DB05129",
+      "mechanism_of_action": "Elsamitrucin induces single strand breaks in DNA and inhibits topoisomerase I and II, enzymes that play an important role in DNA replication.\r\n",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_name": "Technetium Tc-99m ciprofloxacin",
+      "cofactor_resource_id": "DB05488",
+      "mechanism_of_action": "Ciprofloxacin is a fluoroquinolone antibiotic. The mechanism of action of these fluoroquinolones is not fully understood, but it has been postulated that the interaction of ciprofloxacin with bacterial DNA gyrase (a type II topoisomerase) prevents DNA uncoiling and subsequent DNA synthesis within  bacteria. Ciprofloxacin demonstrates a significant antibiotic effect for both gram-negative and gram-positive bacteria in either stationary or growth phases of bacterial replication. However, the addition of the 99mTc atom likely affects the interaction of the ciprofloxacin molecule with the enzyme.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "OBMJQRLIQQTJLR-USGQOSEYSA-N",
+      "cofactor_SMILES": "COC1=C2C(=O)C3=C(O)C4=C(C[C@](O)(C[C@@H]4O[C@H]4C[C@H](N)[C@H](O)[C@H](C)O4)C(\\CO)=N\\NC(=O)CCCCCN4C(=O)C=CC4=O)C(O)=C3C(=O)C2=CC=C1",
+      "cofactor_name": "Aldoxorubicin",
+      "cofactor_resource_id": "DB06013",
+      "mechanism_of_action": "INNO-206 is the (6-Maleimidocaproyl) hydrazone of doxorubicin. INNO-206 is a prodrug of doxorubicin that binds endogenous albumin after administration. The bound doxorubicin is released in the acidic environment of the tumor cell through cleavage of an acid sensitive linker. In preclinical models, INNO-206 was superior to doxorubicin with regard to antitumor efficacy and toxicity.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_name": "ZEN-012",
+      "cofactor_resource_id": "DB06042",
+      "mechanism_of_action": "Mode of action studies revealed that the compound ZEN-012 inhibits the polymerization of \u00df-tubulin in low micromolar concentrations. Competition studies suggest that ZEN-012 interacts with the same binding site on microtubules as colchicine. ZEN-012 destroys the mitotic spindles of the cancer cells, arrests the cancer cells in G2/M phase at low concentrations, mediates DNA fragmentation via inhibition of topoisomerase II and induces apoptosis via various mechanisms.",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "NJDRXTDGYFKORP-LLVKDONJSA-N",
+      "cofactor_SMILES": "C[C@H]1NCC2=CC(=CC=C12)C1=CC=C2C(=O)C(=CN(C3CC3)C2=C1OC(F)F)C(O)=O",
+      "cofactor_name": "Garenoxacin",
+      "cofactor_resource_id": "DB06160",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "PEZPMAYDXJQYRV-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCCNC1=CC=C(NCCN)C2=C1C(=O)C1=C(C=NC=C1)C2=O",
+      "cofactor_name": "Pixantrone",
+      "cofactor_resource_id": "DB06193",
+      "mechanism_of_action": "Pixantrone is an aza-anthracenedione which acts as a DNA intercalator. By intercalating between DNA, with modest affinity, it stimulates DNA cleavage by topoisomerase II. (Pixantrone acts as a poison to topoisomerase II by stabilizing protein-DNA complexes which are usually transient, giving rise to double stranded DNA breaks.)\r\nHowever, pixantrone is believed to have additional mechanisms of action as its potency does not correlate to the degree of double stranded DNA breaks observed. It has been postulated that this second mechanism may be pixantrone-DNA adduct formation. [1]  \r\n\r\nIt is important to note that the formation of a pixtantrone-DNA adduct requires pixantrone activation by formaldehyde. Formadehyde may be generated in vitro by hydrogen peroxide, and is derived by various sources in biological systems. It is present in low levels as a result of normal metabolism, and may be present in elevated levels in some haematolgical malignancies. [1] The formation of pixantrone-DNA adducts is thus feasible, and it is believed that a long pixantrone-DNA adduct half life has the potential to maximize DNA damage. It may do so by enhancing the disruption of DNA replication and transcription, and potentially by encourage apoptosis. [1]\r\n\r\nIn explanation of pixantrones lack of cardiotoxicity, it has been elucidated that pixantrone is structurally similar to mitoxantrone; however, instead of a 5,8-dihydroxyphenyl ring (thought to be responsible for cardiotoxicity) it has a nitrogen heteroatom. This nitrogen heteroatom helps to create additional hydrogen bonding sites amd increases pixantrone interaction with DNA and topoisomerase II. [2] \r\n\r\nPixantrone's lack of a hydroquinone is believed to render it resistant to one electron reduction. In contrast, doxorubicin - which contains a hydroquinone - experiences one electron redox cycling and ROS formation via NADH dehydrogenase. [3] Pixantrone also does not bind iron, and thus does not produce ROS by redox cycling between oxidative states of iron, as other anthracyclines do. [2]\r\n\r\nThe first line agent doxorubicin is cardiotoxic, in part, due to its ability to redox activate the superoxide anion and hydrogen peroxide, and form a long-lived secondary alcohol metabolite: doxorubicinol. [3] Clearance of doxorubicin from myocardial tissue is incomplete, and it can be found months or years after the last administration. [3] In doxorubicin treated ex vivo cardiac strips, pixantrone formed an N-dealkylated product that inhibited metabolism of residual doxorubicin into doxorubicinol. Additionally, in ex vivo human myocardial strips (doxorubicin naive, and doxorubicin pretreated) pixantrone showed high cardiac uptake without formation of superoxide anion or hydrogen peroxide. Pixantrones lack of cardiotoxicity is thus attributed to its redox inactivity and inhibition of doxorubicinol formation. [3]  ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "JSKFWUPVIZYJMR-UDOAKELVSA-N",
+      "cofactor_SMILES": "CCN(CC)CCN1C(=O)C2=C(C1=O)C1=C(N([C@@H]3O[C@H](CO)[C@@H](OC)[C@H](O)[C@H]3O)C3=C(Cl)C=CC=C13)C1=C2C2=C(N1)C(Cl)=CC=C2",
+      "cofactor_name": "Becatecarin",
+      "cofactor_resource_id": "DB06362",
+      "mechanism_of_action": "Becatecarin is a small molecule, anticancer compound for the treatment of hepatobiliary duct tumors, a rare and aggressive form of cancer with a high medical need and very limited survival. Becatecarin intercalates into DNA and stabilizes the DNA-topoisomerase I complex, thereby interfering with the topoisomerase I-catalyzed DNA breakage-reunion reaction and initiating DNA cleavage and apoptosis.",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "SFOADSRLCHRTKT-UHFFFAOYSA-N",
+      "cofactor_SMILES": "[H]N(CCN([H])CCN([H])C(=O)C1=CC=CC2=NC3=CC=CC(C)=C3N=C12)CCN([H])C(=O)C1=CC=CC2=NC3=CC=CC(C)=C3N=C12",
+      "cofactor_chem_comp_id": "XR2",
+      "cofactor_name": "XR5944",
+      "cofactor_resource_id": "DB06364",
+      "mechanism_of_action": "XR5944 is a novel DNA targeting agent that in preclinical studies has demonstrated a high level of anti-tumor activity, both in vitro and in vivo, against a number of human tumor models. In human tumor xenograft models, treatment with XR5944 caused both partial and complete regression of large established tumors.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "YEYAKZXEBSVURO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CCN(CC)CCNC(=O)C1=CC=C(N)C(Cl)=C1",
+      "cofactor_name": "Declopramide",
+      "cofactor_resource_id": "DB06421",
+      "mechanism_of_action": "Declopramide is a member of the N-substituted benzamide class of DNA repair inhibitors. There are two possible mechanisms of action of declopramide, with one involving (nuclear localizing factor kappaB) NFkB and the other involving the activation of the caspase cascade via the mitochondrial pathway, both of which lead to cell death (apoptosis). Declopramide may also increase the susceptibility of cancer cells to traditional radiation and/or chemotherapy treatment. It is proposed that G2/M cell cycle block is induced by pathways other than the protein 53 (p53) pathway. ",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "BORVFKJZAOEGOO-GJMOJQLCSA-N",
+      "cofactor_SMILES": "[H][C@]1(S)C[C@@]([H])(O[C@]1([H])COP(O)(O)=O)N1C=C(C)C(=O)NC1=O",
+      "cofactor_chem_comp_id": "TSP",
+      "cofactor_name": "3'-THIO-THYMIDINE-5'-PHOSPHATE",
+      "cofactor_resource_id": "DB08651",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "USZYSDMBJDPRIF-SVEJIMAYSA-N",
+      "cofactor_SMILES": "CC[C@@]1(O)C[C@H](O[C@H]2C[C@@H]([C@H](O[C@H]3C[C@H](O)[C@H](O[C@H]4CCC(=O)[C@H](C)O4)[C@H](C)O3)[C@H](C)O2)N(C)C)C2=C(O)C3=C(C=C2[C@H]1C(=O)OC)C(=O)C1=C(C(O)=CC=C1)C3=O",
+      "cofactor_name": "Aclarubicin",
+      "cofactor_resource_id": "DB11617",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "XZAFZXJXZHRNAQ-STQMWFEESA-N",
+      "cofactor_SMILES": "CN[C@H]1CN(C[C@@H]1OC)C1=CC=C2C(=O)C(=CN(C3=NC=CS3)C2=N1)C(O)=O",
+      "cofactor_name": "Vosaroxin",
+      "cofactor_resource_id": "DB11999",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "PZFAZQUREQIODZ-LJQANCHMSA-N",
+      "cofactor_SMILES": "O=C1C=CC2=C3N1C[C@@H](CN1CCC(CC1)NCC1=CC4=C(OCCC4)C=N1)N3C(=O)C=N2",
+      "cofactor_chem_comp_id": "JHN",
+      "cofactor_name": "Gepotidacin",
+      "cofactor_resource_id": "DB12134",
+      "mechanism_of_action": "The primary mechanism of action of gepotidacin involves the disruption of bacterial DNA replication through the selective inhibition of two essential bacterial enzymes: DNA gyrase (also known as topoisomerase II) and topoisomerase IV.[A273705,L52685] These enzymes are crucial for bacteria as they manage the topological state of DNA during replication, transcription, and cell division. Gepotidacin exerts its inhibitory effect by binding to these enzymes in a manner that is distinct from other antibiotic classes, including fluoroquinolones - specifically, gepotidacin interacts with the GyrA subunit of bacterial DNA gyrase and the ParC subunit of bacterial topoisomerase IV.[A273705,A273730,L52685] Structural studies have revealed that gepotidacin binds midway between the two scissile DNA bonds, within a pocket formed by these subunits.[A273735]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "VQHRZZISQVWPLK-UIRGBLDSSA-N",
+      "cofactor_SMILES": "[H][C@]1(N)C[C@]([H])(O[C@]2([H])[C@]([H])(C)O[C@]([H])(C[C@]2([H])O)O[C@@]2([H])C[C@@](O)(CC3=C(O)C4=C(C(O)=C23)C(=O)C2=CC=CC=C2C4=O)C(=O)CO)O[C@@]([H])(C)[C@@]1([H])O",
+      "cofactor_chem_comp_id": "44D",
+      "cofactor_name": "Sabarubicin",
+      "cofactor_resource_id": "DB12410",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "HZCWPKGYTCJSEB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC=C2NC3=C4C(=CC=C3[N+]([O-])=O)N(CCCN(C)C)N=C4C2=C1",
+      "cofactor_name": "Pyrazoloacridine",
+      "cofactor_resource_id": "DB12549",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "MQYXUWHLBZFQQO-QGTGJCAVSA-N",
+      "cofactor_SMILES": "[H][C@]12[C@@H](CC[C@]1(C)CC[C@]1(C)[C@]2([H])CC[C@]2([H])[C@@]3(C)CC[C@H](O)C(C)(C)[C@]3([H])CC[C@@]12C)C(C)=C",
+      "cofactor_name": "Lupeol",
+      "cofactor_resource_id": "DB12622",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "SRIOCKJKFXAKHK-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC1=CC=C2N=C3N(CC2=C1)C(=O)C1=CC=CC=C31",
+      "cofactor_name": "Daniquidone",
+      "cofactor_resource_id": "DB12804",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "CTSPAMFJBXKSOY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC1=C2C=CN=CC2=C(C)C2=C1NC1=C2C=CC=C1",
+      "cofactor_name": "Ellipticine",
+      "cofactor_resource_id": "DB17026",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "FIGNGSHKNAHTSH-JJMFXPFOSA-N",
+      "cofactor_SMILES": "[H][C@@]1(C[C@@](O)(CC2=C(O)C3=C(C(O)=C12)C(=O)C1=C(C=CC=C1OC)C3=O)C(=O)CO)O[C@H]1C[C@H](N)[C@H](OCC2=CC=CC=C2)[C@H](C)O1",
+      "cofactor_name": "Berubicin",
+      "cofactor_resource_id": "DB17149",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "FCWSQAKOPTZCOD-SQYSSJHTSA-N",
+      "cofactor_SMILES": "[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(OC(=O)OCC3COC(C)(C)O3)C(OC)=C1)C1=C(C=C3OCOC3=C1)[C@H]2O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](O)[C@H]1O",
+      "cofactor_name": "Etoposide toniribate",
+      "cofactor_resource_id": "DB17255",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "CZXGBIFEWYVYJY-NPLULESDSA-N",
+      "cofactor_SMILES": "COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CO)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](NC(=O)[C@H](CO)NC(=O)[C@H](C)NC(=O)[C@@H]4C[C@@H](O)CN4C(=O)CCCC(O)=O)C4CCCCC4)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O",
+      "cofactor_name": "L-377202",
+      "cofactor_resource_id": "DB19022",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "NUQZXROIVGBRGR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC(OC1=CC=C(OC2=NC3=CC(Cl)=CC=C3N=C2)C=C1)C(O)=O",
+      "cofactor_name": "XK-469 free acid",
+      "cofactor_resource_id": "DB19306",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "XXVLKDRPHSFIIB-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN(C)CCN1C(=O)C2=CC=CC3=CC(=CC(C1=O)=C23)[N+]([O-])=O",
+      "cofactor_name": "Mitonafide",
+      "cofactor_resource_id": "DB19492",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "YROQEQPFUCPDCP-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OCCNCCNC1=CC=C2N(CCNCCO)N=C3C2=C1C(=O)C1=C3C=CC=C1O",
+      "cofactor_name": "Losoxantrone",
+      "cofactor_resource_id": "DB19912",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "RUXPNBWPIRDVTH-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CNN1C=C(C(O)=O)C(=O)C2=CC(F)=C(C=C12)N1CCN(C)CC1",
+      "cofactor_name": "Amifloxacin",
+      "cofactor_resource_id": "DB20048",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "FFGSXKJJVBXWCY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "OCCNCCNC1=C2C(=O)C3=C(C=CC=C3)C(=O)C2=C(NCCNCCO)C=C1",
+      "cofactor_chem_comp_id": "AKE",
+      "cofactor_name": "Ametantrone",
+      "cofactor_resource_id": "DB21078",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        29870668,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "cofactor_InChIKey": "RTJVUHUGTUDWRK-CSLCKUBZSA-N",
+      "cofactor_SMILES": "[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(OP(O)(O)=O)C(OC)=C1)C1=C(C=C3OCOC3=C1)[C@@]2([H])O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](OC(=O)COC2=C(F)C(F)=C(F)C(F)=C2F)[C@H]1OC(=O)COC1=C(F)C(F)=C(F)C(F)=C1F",
+      "cofactor_name": "Tafluposide",
+      "cofactor_resource_id": "DB21110",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "Q02880"
+    },
+    {
+      "binding_assay_value": 8.16,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1cc(C2=N/C(=C\\\\c3cc(Br)cc(Br)c3OC(C)=O)C(=O)NN2c2ncc(-c3ccccc3)s2)cc(OC)c1OC",
+      "cofactor_resource_id": "CHEMBL4161876",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        30025350
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 7.9,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1cc(C2=N/C(=C\\\\c3cc(Br)cc(Br)c3OC(C)=O)C(=O)NN2c2ccccc2)cc(OC)c1OC",
+      "cofactor_resource_id": "CHEMBL4174756",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        30025350
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 7.52,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C1c2ccccc2C(=O)c2c(NCCNCCO)ccc(NCCNCCO)c21",
+      "cofactor_chem_comp_id": "AKE",
+      "cofactor_resource_id": "CHEMBL49442",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29870668
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 7.5,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1cc(C2=N/C(=C\\\\c3cc(Br)cc(Br)c3OC(C)=O)C(=O)NN2C(N)=S)cc(OC)c1OC",
+      "cofactor_resource_id": "CHEMBL4160802",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        30025350
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 7.09,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1cc(C(=O)N/C(=C/c2cc(Br)cc(Br)c2OC(C)=O)C(=O)NNC(N)=S)cc(OC)c1OC",
+      "cofactor_resource_id": "CHEMBL4172196",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        30025350
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 6.96,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "COc1cc(C2=N/C(=C\\\\c3cc(Br)cc(Br)c3OC(C)=O)C(=O)n3c(C)nc(=S)n32)cc(OC)c1OC",
+      "cofactor_resource_id": "CHEMBL4169404",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        30025350
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 6.89,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Cc1cc(NC2=NC(=O)/C(=C\\\\c3c4ccccc4cc4ccccc34)S2)no1",
+      "cofactor_resource_id": "CHEMBL4751362",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        33065442
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 6.24,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)CC1)N/N=C/c1ccccc1O",
+      "cofactor_resource_id": "CHEMBL4213218",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        29547830
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 6.07,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)CC1)N/N=C/c1cc2ccccc2[nH]1",
+      "cofactor_resource_id": "CHEMBL4205327",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        29547830
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    },
+    {
+      "binding_assay_value": 6.03,
+      "binding_assay_value_type": "pEC50",
+      "cofactor_SMILES": "Cc1cc(-c2c(F)cc3c4nn(CCN(C)C)c(=O)c-4cn(C4CC4)c3c2F)cc(C)n1",
+      "cofactor_resource_id": "CHEMBL130381",
+      "neighbor_flag": "N",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "7662"
+    }
+  ],
+  "rcsb_id": "9BQ8_1"
+}

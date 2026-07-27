@@ -1,0 +1,547 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-8961-4847",
+      "name": "Maslac, N.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-3382-8969",
+      "name": "Wagner, T.",
+      "pdbx_ordinal": 2
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 98.895,
+    "length_b": 98.895,
+    "length_c": 61.149
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Febs J.",
+      "journal_id_ISSN": "1742-464X",
+      "journal_volume": "291",
+      "page_first": "3454",
+      "page_last": "3480",
+      "pdbx_database_id_DOI": "10.1111/febs.17148",
+      "pdbx_database_id_PubMed": 38696373,
+      "rcsb_authors": [
+        "Maslac, N.",
+        "Cadoux, C.",
+        "Bolte, P.",
+        "Murken, F.",
+        "Gu, W.",
+        "Milton, R.D.",
+        "Wagner, T."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "FEBS J",
+      "title": "Structural comparison of (hyper-)thermophilic nitrogenase reductases from three marine Methanococcales.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8Q50",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8q50/pdb",
+      "pdbx_database_accession": "pdb_00008q50"
+    },
+    {
+      "database_code": "D_1292132460",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2019-11-22T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "PROXIMA 1",
+      "pdbx_synchrotron_site": "SOLEIL",
+      "pdbx_wavelength_list": "1.74013",
+      "source": "SYNCHROTRON",
+      "type": "SOLEIL BEAMLINE PROXIMA 1"
+    }
+  ],
+  "entry": {
+    "id": "8Q50"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.39,
+      "density_percent_sol": 48.55,
+      "description": "The crystal was in a shape of an orthorhombic rod and brown.",
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 4.6,
+      "pdbx_details": "The purified protein was crystallised at a final concentration of 6 mg/ml by spotting 0.5 ul of crystallisation solution with 0.5 ul of protein sample. Crystallization was done anaerobically in a Coy tent containing N2/H2 (97:3%) atmosphere. The screening was done at 20 degrees Celsius on 96-Well MRC 2-drop polystyrene (SWISSCI) plates containing 90 ul of crystallization solution. The crystallisation solution in which crystals were obtained contained 30 % v/v 2-methyl-2,4-pentanediol, 100 mM sodium acetate, pH 4.6 and 20 mM calcium chloride.",
+      "temp": 293.15
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-05-15T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-08-14T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Germany",
+      "funding_organization": "Max Planck Society",
+      "ordinal": 1
+    },
+    {
+      "country": "Switzerland",
+      "funding_organization": "Swiss National Science Foundation",
+      "grant_number": "NCCR Catalysis 180544",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-08-07T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2NIP",
+      "details": "NITROGENASE IRON PROTEIN FROM AZOTOBACTER VINELANDII",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T09:52:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.2053,
+      "DCC_Rfree": 0.2372,
+      "EDS_R": 0.2164,
+      "EDS_res_high": 1.91,
+      "EDS_res_low": 52.01,
+      "Fo_Fc_correlation": 0.957,
+      "I_over_sigma": "1.72(1.91A)",
+      "Padilla_Yeates_L2_mean": 0.327,
+      "Padilla_Yeates_L_mean": 0.493,
+      "Wilson_B_aniso": "[36.467,36.467,41.574,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 37.958,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 41.221,
+      "bulk_solvent_k": 0.333,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.134,
+      "data_completeness": 100.0,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 24199,
+      "number_reflns_R_free": 1157,
+      "percent_RSRZ_outliers": 4.69,
+      "percent_free_reflections": 4.28,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 4.25% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 1.01,
+      "bonds_RMSZ": 0.8,
+      "clashscore": 1.86,
+      "num_H_reduce": 2145,
+      "num_angles_RMSZ": 2902,
+      "num_bonds_RMSZ": 2154,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.44
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-08-07T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-05-15T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 1,
+    "revision_date": "2024-08-14T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "entry_id": "8Q50",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38696373,
+    "rcsb_id": "8Q50"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2278,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 277,
+    "deposited_nonpolymer_entity_instance_count": 7,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 284,
+    "deposited_solvent_atom_count": 126,
+    "deposited_unmodeled_polymer_monomer_count": 7,
+    "diffrn_radiation_wavelength_maximum": 1.7401,
+    "diffrn_radiation_wavelength_minimum": 1.7401,
+    "disulfide_bond_count": 0,
+    "entity_count": 6,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 31.85,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "CA",
+      "FES"
+    ],
+    "nonpolymer_entity_count": 4,
+    "nonpolymer_molecular_weight_maximum": 0.18,
+    "nonpolymer_molecular_weight_minimum": 0.04,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 31.27,
+    "polymer_molecular_weight_minimum": 31.27,
+    "polymer_monomer_count_maximum": 284,
+    "polymer_monomer_count_minimum": 284,
+    "resolution_combined": [
+      1.91
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AUTOPROC",
+      "PHASER",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.91
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Febs J.",
+    "journal_id_ISSN": "1742-464X",
+    "journal_volume": "291",
+    "page_first": "3454",
+    "page_last": "3480",
+    "pdbx_database_id_DOI": "10.1111/febs.17148",
+    "pdbx_database_id_PubMed": 38696373,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Maslac, N.",
+      "Cadoux, C.",
+      "Bolte, P.",
+      "Murken, F.",
+      "Gu, W.",
+      "Milton, R.D.",
+      "Wagner, T."
+    ],
+    "rcsb_journal_abbrev": "FEBS J",
+    "title": "Structural comparison of (hyper-)thermophilic nitrogenase reductases from three marine Methanococcales.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 46.31,
+      "details": "Translation-libration screw was used during refinement. The model was refined with riding hydrogens that were omitted in the final deposited model",
+      "ls_R_factor_R_free": 0.2305,
+      "ls_R_factor_R_work": 0.2019,
+      "ls_R_factor_obs": 0.2032,
+      "ls_d_res_high": 1.91,
+      "ls_d_res_low": 52.01,
+      "ls_number_reflns_R_free": 1157,
+      "ls_number_reflns_obs": 24197,
+      "ls_percent_reflns_R_free": 4.78,
+      "ls_percent_reflns_obs": 99.98,
+      "overall_SU_ML": 0.25,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 22.84,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.91,
+      "d_res_low": 52.01,
+      "number_atoms_solvent": 126,
+      "number_atoms_total": 2278,
+      "pdbx_number_atoms_ligand": 29,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2123,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.013,
+      "number": 2177,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.431,
+      "number": 2925,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 19.331,
+      "number": 825,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.305,
+      "number": 326,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.012,
+      "number": 385,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    }
+  ],
+  "reflns": [
+    {
+      "d_resolution_high": 1.91,
+      "d_resolution_low": 52.01,
+      "number_obs": 24200,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rmerge_I_obs": 0.159,
+      "pdbx_Rpim_I_all": 0.025,
+      "pdbx_Rrim_I_all": 0.161,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 15.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 41.2,
+      "percent_possible_obs": 100.0
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 3.12,
+      "d_res_high": 1.91,
+      "d_res_low": 1.94,
+      "meanI_over_sigI_obs": 1.4,
+      "number_unique_obs": 1183,
+      "pdbx_CC_half": 0.616,
+      "pdbx_Rpim_I_all": 0.644,
+      "pdbx_Rrim_I_all": 3.19,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 23.9,
+      "percent_possible_all": 100.0
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "(1.20.1_4487: ???)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "autoPROC",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "autoPROC",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Nitrogenase Fe protein from Methanothermococcus thermolithotrophicus, tetragonal crystalline form at 1.91-A resolution"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "ELECTRON TRANSPORT",
+    "text": "nitrogenase, electron donor, ATPase, [4Fe-4S]-cluster, electron transfer, conformational changes, methanogenic archaea, oxidoreductase, O2-sensitivity, N2-fixation, ELECTRON TRANSPORT"
+  },
+  "symmetry": {
+    "Int_Tables_number": 96,
+    "space_group_name_H_M": "P 43 21 2"
+  },
+  "rcsb_id": "8Q50"
+}

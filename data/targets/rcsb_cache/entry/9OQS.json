@@ -1,0 +1,492 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0003-1485-1378",
+      "name": "Higgins, M.A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0009-0000-0111-3611",
+      "name": "Shi, X.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0003-1192-2070",
+      "name": "Hoffarth, E.R.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "identifier_ORCID": "0000-0001-7072-4803",
+      "name": "Du, Y.L.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "identifier_ORCID": "0000-0003-1643-1940",
+      "name": "Ryan, K.S.",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "cell": {
+    "Z_PDB": 8,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 90.0,
+    "length_a": 75.714,
+    "length_b": 75.714,
+    "length_c": 75.335,
+    "volume": 431866.159
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "J.Am.Chem.Soc.",
+      "journal_id_ASTM": "JACSAT",
+      "journal_id_ISSN": "1520-5126",
+      "journal_volume": "147",
+      "page_first": "39160",
+      "page_last": "39168",
+      "pdbx_database_id_DOI": "10.1021/jacs.5c08886",
+      "pdbx_database_id_PubMed": 41101755,
+      "rcsb_authors": [
+        "Higgins, M.A.",
+        "Mirotadze, N.",
+        "Shi, X.",
+        "Hoffarth, E.R.",
+        "Du, Y.L.",
+        "Ryan, K.S."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Am Chem Soc",
+      "title": "Conversion of a Heme-Dependent Dehydratase to a Piperazate Synthase Reveals the Role of the Heme Propionate Group in N-N Bond-Formation.",
+      "year": 2025
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "9OQS",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb9oqs/pdb",
+      "pdbx_database_accession": "pdb_00009oqs"
+    },
+    {
+      "database_code": "D_1000296092",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-01-20T00:00:00.000+00:00",
+      "type": "DECTRIS PILATUS 6M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "BL9-2",
+      "pdbx_synchrotron_site": "SSRL",
+      "pdbx_wavelength_list": "0.97853",
+      "source": "SYNCHROTRON",
+      "type": "SSRL BEAMLINE BL9-2"
+    }
+  ],
+  "entry": {
+    "id": "9OQS"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.39,
+      "density_percent_sol": 48.62,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pdbx_details": "5 % PEG 3350, 0.1 M sodium acetate pH 5.0",
+      "temp": 295.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2025-12-03T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Canada",
+      "funding_organization": "Natural Sciences and Engineering Research Council (NSERC, Canada)",
+      "grant_number": "RPGIN-2021-02626",
+      "ordinal": 1
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2025-05-21T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "9EBK",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-09T12:49:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1865,
+      "DCC_Rfree": 0.2064,
+      "EDS_R": 0.1911,
+      "EDS_res_high": 1.4,
+      "EDS_res_low": 33.86,
+      "Fo_Fc_correlation": 0.965,
+      "I_over_sigma": "1.32(1.40A)",
+      "Padilla_Yeates_L2_mean": 0.349,
+      "Padilla_Yeates_L_mean": 0.513,
+      "Wilson_B_aniso": "[14.008,14.008,14.008,0.000,0.000,0.000]",
+      "Wilson_B_estimate": 14.008,
+      "acentric_outliers": 1,
+      "bulk_solvent_b": 39.021,
+      "bulk_solvent_k": 0.288,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.0,
+      "data_completeness": 99.37,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 43334,
+      "number_reflns_R_free": 2019,
+      "percent_RSRZ_outliers": 7.0,
+      "percent_free_reflections": 4.63,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 5.33% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-l,-k:0.008;l,-k,h:0.006"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.56,
+      "bonds_RMSZ": 0.34,
+      "clashscore": 6.96,
+      "num_H_reduce": 1622,
+      "num_angles_RMSZ": 2267,
+      "num_bonds_RMSZ": 1655,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.65
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-05-21T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2025-12-03T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2025-12-03T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "entry_id": "9OQS",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 41101755,
+    "rcsb_id": "9OQS"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 3,
+    "deposited_atom_count": 2050,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 200,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 206,
+    "deposited_solvent_atom_count": 385,
+    "deposited_unmodeled_polymer_monomer_count": 6,
+    "diffrn_radiation_wavelength_maximum": 0.9785,
+    "diffrn_radiation_wavelength_minimum": 0.9785,
+    "disulfide_bond_count": 0,
+    "entity_count": 4,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 2,
+    "molecular_weight": 23.29,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "HEM"
+    ],
+    "nonpolymer_entity_count": 2,
+    "nonpolymer_molecular_weight_maximum": 0.62,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 22.55,
+    "polymer_molecular_weight_minimum": 22.55,
+    "polymer_monomer_count_maximum": 206,
+    "polymer_monomer_count_minimum": 206,
+    "resolution_combined": [
+      1.4
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "AIMLESS",
+      "PHASER",
+      "PHENIX",
+      "XDS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.4
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "J.Am.Chem.Soc.",
+    "journal_id_ASTM": "JACSAT",
+    "journal_id_ISSN": "1520-5126",
+    "journal_volume": "147",
+    "page_first": "39160",
+    "page_last": "39168",
+    "pdbx_database_id_DOI": "10.1021/jacs.5c08886",
+    "pdbx_database_id_PubMed": 41101755,
+    "rcsb_ORCID_identifiers": [
+      "0000-0003-1485-1378",
+      "0009-0000-6769-317X",
+      "?",
+      "?",
+      "0000-0001-7072-4803",
+      "0000-0003-1643-1940"
+    ],
+    "rcsb_authors": [
+      "Higgins, M.A.",
+      "Mirotadze, N.",
+      "Shi, X.",
+      "Hoffarth, E.R.",
+      "Du, Y.L.",
+      "Ryan, K.S."
+    ],
+    "rcsb_journal_abbrev": "J Am Chem Soc",
+    "title": "Conversion of a Heme-Dependent Dehydratase to a Piperazate Synthase Reveals the Role of the Heme Propionate Group in N-N Bond-Formation.",
+    "year": 2025
+  },
+  "refine": [
+    {
+      "B_iso_mean": 23.26,
+      "ls_R_factor_R_free": 0.2066,
+      "ls_R_factor_R_work": 0.1864,
+      "ls_R_factor_obs": 0.1873,
+      "ls_d_res_high": 1.4,
+      "ls_d_res_low": 33.86,
+      "ls_number_reflns_R_free": 2019,
+      "ls_number_reflns_R_work": 41314,
+      "ls_number_reflns_obs": 43333,
+      "ls_percent_reflns_R_free": 4.66,
+      "ls_percent_reflns_obs": 99.4,
+      "overall_SU_ML": 0.1433,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.35,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 21.3632,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.4,
+      "d_res_low": 33.86,
+      "number_atoms_solvent": 385,
+      "number_atoms_total": 1960,
+      "pdbx_number_atoms_ligand": 51,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1524,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0077,
+      "number": 1721,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.0251,
+      "number": 2383,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0929,
+      "number": 258,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.007,
+      "number": 318,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 16.4235,
+      "number": 930,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 14.01,
+      "d_resolution_high": 1.4,
+      "d_resolution_low": 37.86,
+      "number_obs": 43685,
+      "pdbx_CC_half": 1.0,
+      "pdbx_Rpim_I_all": 0.013,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 25.1,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 25.4,
+      "percent_possible_obs": 99.9
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.4,
+      "d_res_low": 1.42,
+      "meanI_over_sigI_obs": 1.4,
+      "number_unique_obs": 2108,
+      "pdbx_CC_half": 0.823,
+      "pdbx_Rpim_I_all": 0.43,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.13_2998"
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data scaling",
+      "name": "Aimless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 4
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "N-hydroxylamine dehydratase (NohD) crystal structure with heme"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "BIOSYNTHETIC PROTEIN",
+    "text": "dehydratase, piperazate synthase, heme, N-N bond, hydroxylamine, BIOSYNTHETIC PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 92,
+    "space_group_name_H_M": "P 41 21 2",
+    "space_group_name_Hall": "P 4abw 2nw"
+  },
+  "rcsb_id": "9OQS"
+}

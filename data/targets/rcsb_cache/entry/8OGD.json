@@ -1,0 +1,578 @@
+{
+  "audit_author": [
+    {
+      "name": "Silva, J.M.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Cerofolini, L.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Carvalho, A.L.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Ravera, E.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Fragai, M.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Parigi, G.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Macedo, A.L.",
+      "pdbx_ordinal": 7
+    },
+    {
+      "name": "Geraldes, C.F.G.C.",
+      "pdbx_ordinal": 8
+    },
+    {
+      "name": "Luchinat, C.",
+      "pdbx_ordinal": 9
+    }
+  ],
+  "cell": {
+    "Z_PDB": 2,
+    "angle_alpha": 90.0,
+    "angle_beta": 104.427,
+    "angle_gamma": 90.0,
+    "length_a": 42.028,
+    "length_b": 41.333,
+    "length_c": 72.25,
+    "volume": 121550.799
+  },
+  "citation": [
+    {
+      "country": "US",
+      "id": "primary",
+      "journal_abbrev": "J.Inorg.Biochem.",
+      "journal_id_ASTM": "JIBIDJ",
+      "journal_id_CSD": "0525",
+      "journal_id_ISSN": "0162-0134",
+      "journal_volume": "244",
+      "page_first": "112222",
+      "page_last": "112222",
+      "pdbx_database_id_DOI": "10.1016/j.jinorgbio.2023.112222",
+      "pdbx_database_id_PubMed": 37068394,
+      "rcsb_authors": [
+        "Silva, J.M.",
+        "Cerofolini, L.",
+        "Carvalho, A.L.",
+        "Ravera, E.",
+        "Fragai, M.",
+        "Parigi, G.",
+        "Macedo, A.L.",
+        "Geraldes, C.F.G.C.",
+        "Luchinat, C."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Inorg Biochem",
+      "title": "Elucidating the concentration-dependent effects of thiocyanate binding to carbonic anhydrase.",
+      "year": 2023
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8OGD",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8ogd/pdb",
+      "pdbx_database_accession": "pdb_00008ogd"
+    },
+    {
+      "database_code": "D_1292128799",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "CMOS",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2020-07-30T00:00:00.000+00:00",
+      "type": "BRUKER PHOTON 100"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "1.5418",
+      "source": "SEALED TUBE",
+      "type": "BRUKER IMUS MICROFOCUS"
+    }
+  ],
+  "entry": {
+    "id": "8OGD"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.08,
+      "density_percent_sol": 40.82,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, SITTING DROP",
+      "pH": 7.5,
+      "pdbx_details": "100 mM HEPES, 2.9 M ammonium sulfate, 1 mM 4-hydroxymercuric benzoic acid sodium salt.",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2024-02-07T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "funding_organization": "Other government",
+      "ordinal": 1
+    },
+    {
+      "country": "Italy",
+      "funding_organization": "Florence Instruct-ERIC Center",
+      "ordinal": 2
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "UIDP/04378/2020",
+      "ordinal": 3
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "UIDB/04378/2020",
+      "ordinal": 4
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "LA/P/0140/2020",
+      "ordinal": 5
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "PD/BD/135180/2017",
+      "ordinal": 6
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "PD/00065/2013",
+      "ordinal": 7
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "RECI/BBB-BEP/0124/2012",
+      "ordinal": 8
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "ROTEIRO/0031/2013PINFRA/22161/2016",
+      "ordinal": 9
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "UIDB/00313/2020",
+      "ordinal": 10
+    },
+    {
+      "country": "Portugal",
+      "funding_organization": "Fundacao para a Ciencia e a Tecnologia",
+      "grant_number": "UIDP/00313/2020",
+      "ordinal": 11
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-03-20T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "3k34",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-05T13:06:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1715,
+      "DCC_Rfree": 0.1994,
+      "EDS_R": 0.1751,
+      "EDS_res_high": 1.75,
+      "EDS_res_low": 23.77,
+      "Fo_Fc_correlation": 0.952,
+      "I_over_sigma": "1.56(1.75A)",
+      "Padilla_Yeates_L2_mean": 0.331,
+      "Padilla_Yeates_L_mean": 0.498,
+      "Wilson_B_aniso": "[9.317,11.995,11.479,0.000,1.010,0.000]",
+      "Wilson_B_estimate": 10.886,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 47.066,
+      "bulk_solvent_k": 0.407,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.245,
+      "data_completeness": 99.84,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 24468,
+      "number_reflns_R_free": 1160,
+      "percent_RSRZ_outliers": 1.17,
+      "percent_free_reflections": 4.73,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 7.66% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "h,-k,-h-l:0.033"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.81,
+      "bonds_RMSZ": 0.46,
+      "clashscore": 6.47,
+      "num_H_reduce": 2068,
+      "num_angles_RMSZ": 2967,
+      "num_bonds_RMSZ": 2190,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.45
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-03-20T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2024-02-07T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2024-02-07T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "entry_id": "8OGD",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2",
+      "3",
+      "4"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 37068394,
+    "rcsb_id": "8OGD"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 2,
+    "deposited_atom_count": 2466,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 2073,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 257,
+    "deposited_nonpolymer_entity_instance_count": 3,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 260,
+    "deposited_solvent_atom_count": 362,
+    "deposited_unmodeled_polymer_monomer_count": 3,
+    "diffrn_radiation_wavelength_maximum": 1.5418,
+    "diffrn_radiation_wavelength_minimum": 1.5418,
+    "disulfide_bond_count": 0,
+    "entity_count": 5,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 7,
+    "molecular_weight": 29.7,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_bound_components": [
+      "HGB",
+      "SCN",
+      "ZN"
+    ],
+    "nonpolymer_entity_count": 3,
+    "nonpolymer_molecular_weight_maximum": 0.34,
+    "nonpolymer_molecular_weight_minimum": 0.06,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 29.24,
+    "polymer_molecular_weight_minimum": 29.24,
+    "polymer_monomer_count_maximum": 260,
+    "polymer_monomer_count_minimum": 260,
+    "resolution_combined": [
+      1.75
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "CARELESS",
+      "PHASER",
+      "PHENIX",
+      "SADABS"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 1.75
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "US",
+    "id": "primary",
+    "journal_abbrev": "J.Inorg.Biochem.",
+    "journal_id_ASTM": "JIBIDJ",
+    "journal_id_CSD": "0525",
+    "journal_id_ISSN": "0162-0134",
+    "journal_volume": "244",
+    "page_first": "112222",
+    "page_last": "112222",
+    "pdbx_database_id_DOI": "10.1016/j.jinorgbio.2023.112222",
+    "pdbx_database_id_PubMed": 37068394,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Silva, J.M.",
+      "Cerofolini, L.",
+      "Carvalho, A.L.",
+      "Ravera, E.",
+      "Fragai, M.",
+      "Parigi, G.",
+      "Macedo, A.L.",
+      "Geraldes, C.F.G.C.",
+      "Luchinat, C."
+    ],
+    "rcsb_journal_abbrev": "J Inorg Biochem",
+    "title": "Elucidating the concentration-dependent effects of thiocyanate binding to carbonic anhydrase.",
+    "year": 2023
+  },
+  "refine": [
+    {
+      "B_iso_mean": 14.98,
+      "ls_R_factor_R_free": 0.1981,
+      "ls_R_factor_R_work": 0.1713,
+      "ls_R_factor_obs": 0.1725,
+      "ls_d_res_high": 1.75,
+      "ls_d_res_low": 23.77,
+      "ls_number_reflns_R_free": 1160,
+      "ls_number_reflns_R_work": 23308,
+      "ls_number_reflns_obs": 24468,
+      "ls_percent_reflns_R_free": 4.74,
+      "ls_percent_reflns_obs": 99.89,
+      "overall_SU_ML": 0.1661,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.36,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 19.4287,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 1.75,
+      "d_res_low": 23.77,
+      "number_atoms_solvent": 362,
+      "number_atoms_total": 2423,
+      "pdbx_number_atoms_ligand": 14,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2047,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0108,
+      "number": 2164,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 1.5678,
+      "number": 2936,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0721,
+      "number": 305,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0108,
+      "number": 382,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 6.475,
+      "number": 278,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 10.89,
+      "d_resolution_high": 1.75,
+      "d_resolution_low": 23.77,
+      "number_obs": 24493,
+      "pdbx_CC_half": 0.993,
+      "pdbx_Rmerge_I_obs": 0.071,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 11.44,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 1.9,
+      "percent_possible_obs": 99.84
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 1.75,
+      "d_res_low": 1.813,
+      "number_unique_obs": 2410,
+      "pdbx_CC_half": 0.659,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.18.2_3874"
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 2,
+      "version": "1.18.2_3874"
+    },
+    {
+      "classification": "data reduction",
+      "name": "careless",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "SADABS",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Structure of zinc(II) double mutant human carbonic anhydrase II bound to thiocyanate"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "METAL BINDING PROTEIN",
+    "text": "Inhibitor, thiocyanate, zinc, METAL BINDING PROTEIN"
+  },
+  "symmetry": {
+    "Int_Tables_number": 4,
+    "space_group_name_H_M": "P 1 21 1",
+    "space_group_name_Hall": "P 2yb"
+  },
+  "rcsb_id": "8OGD"
+}

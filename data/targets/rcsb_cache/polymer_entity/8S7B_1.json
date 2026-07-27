@@ -1,0 +1,2409 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "GHMASMADESWRAPAIVQELAAAGVEEPPSRYLLREKDRSDVKLVAAELPEPLPVVDLSRLDGAEEATKLRVALQNWGFFLLTNHGVEASLMDSVMNLSREFFNQPIERKQKFSNLIDGKNFQIQGYGTDRVVTQDQILDWSDRLHLRVEPKEEQDLAFWPDHPESFRDVLNKYASGTKRIRDDIIQAMAKLLELDEDYFLDRLNEAPAFARFNYYPPCPRPDLVFGIRPHSDGTLLTILLVDKDVSGLQVQRDGKWSNVEATPHTLLINLGDTMEVMCNGIFRSPVHRVVTNAEKERISLAMLYSVNDEKDIEPAAGLLDENRPARYRKVSVEEFRAGIFGKFSRGERYIDSLRI",
+    "pdbx_seq_one_letter_code_can": "GHMASMADESWRAPAIVQELAAAGVEEPPSRYLLREKDRSDVKLVAAELPEPLPVVDLSRLDGAEEATKLRVALQNWGFFLLTNHGVEASLMDSVMNLSREFFNQPIERKQKFSNLIDGKNFQIQGYGTDRVVTQDQILDWSDRLHLRVEPKEEQDLAFWPDHPESFRDVLNKYASGTKRIRDDIIQAMAKLLELDEDYFLDRLNEAPAFARFNYYPPCPRPDLVFGIRPHSDGTLLTILLVDKDVSGLQVQRDGKWSNVEATPHTLLINLGDTMEVMCNGIFRSPVHRVVTNAEKERISLAMLYSVNDEKDIEPAAGLLDENRPARYRKVSVEEFRAGIFGKFSRGERYIDSLRI",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 1,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 356,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_gen": [
+    {
+      "gene_src_common_name": "Japanese rice",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_beg_seq_num": 1,
+      "pdbx_end_seq_num": 356,
+      "pdbx_gene_src_gene": "HIS1, LOC_Os02g17940, Os02g0280700, OSNPB_020280700",
+      "pdbx_gene_src_ncbi_taxonomy_id": "39947",
+      "pdbx_gene_src_scientific_name": "Oryza sativa Japonica Group",
+      "pdbx_host_org_ncbi_taxonomy_id": "469008",
+      "pdbx_host_org_scientific_name": "Escherichia coli BL21(DE3)",
+      "pdbx_host_org_variant": "pLysS",
+      "pdbx_host_org_vector_type": "Plasmid",
+      "pdbx_seq_type": "Biological sequence",
+      "pdbx_src_id": 1,
+      "plasmid_name": "PET28a"
+    }
+  ],
+  "rcsb_cluster_membership": [
+    {
+      "cluster_id": 54167,
+      "identity": 100
+    },
+    {
+      "cluster_id": 70062,
+      "identity": 95
+    },
+    {
+      "cluster_id": 50100,
+      "identity": 90
+    },
+    {
+      "cluster_id": 21802,
+      "identity": 70
+    },
+    {
+      "cluster_id": 9668,
+      "identity": 50
+    },
+    {
+      "cluster_id": 660,
+      "identity": 30
+    }
+  ],
+  "rcsb_entity_host_organism": [
+    {
+      "beg_seq_num": 1,
+      "end_seq_num": 356,
+      "ncbi_common_names": [
+        "Escherichia coli str. BL21(DE3)",
+        "Escherichia coli strain BL21(DE3)"
+      ],
+      "ncbi_parent_scientific_name": "Bacteria",
+      "ncbi_scientific_name": "Escherichia coli BL21(DE3)",
+      "ncbi_taxonomy_id": 469008,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Escherichia coli BL21(DE3)",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria (ex Cavalier-Smith 1987)"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteria Woese et al. 2024"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "Bacteriobiota"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "bacteria"
+        },
+        {
+          "depth": 2,
+          "id": "2",
+          "name": "eubacteria"
+        },
+        {
+          "depth": 3,
+          "id": "3379134",
+          "name": "Pseudomonadati"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Pseudomonadota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "\"Alphaproteobacteriota\" Whitman et al. 2018"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Alphaproteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "Proteobacteriota"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "proteobacteria"
+        },
+        {
+          "depth": 4,
+          "id": "1224",
+          "name": "purple photosynthetic bacteria and relatives"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Gammaproteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Proteobacteria gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Pseudomonadia"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "Purple bacteria, gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "g-proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma proteobacteria"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subdivision"
+        },
+        {
+          "depth": 5,
+          "id": "1236",
+          "name": "gamma subgroup"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacterales"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae and related endosymbionts"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriaceae group"
+        },
+        {
+          "depth": 6,
+          "id": "91347",
+          "name": "Enterobacteriales"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteriaceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "Enterobacteraceae"
+        },
+        {
+          "depth": 7,
+          "id": "543",
+          "name": "enterobacteria"
+        },
+        {
+          "depth": 8,
+          "id": "561",
+          "name": "Escherichia"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacillus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Bacterium coli commune"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "E. coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Enterococcus coli"
+        },
+        {
+          "depth": 9,
+          "id": "562",
+          "name": "Escherichia/Shigella coli"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli str. BL21(DE3)"
+        },
+        {
+          "depth": 10,
+          "id": "469008",
+          "name": "Escherichia coli strain BL21(DE3)"
+        }
+      ]
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "beg_seq_num": 1,
+      "common_name": "Japanese rice",
+      "end_seq_num": 356,
+      "ncbi_common_names": [
+        "Japanese rice",
+        "Japonica rice",
+        "Oryza sativa (japonica cultivar-group)",
+        "Oryza sativa subsp. japonica"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Oryza sativa Japonica Group",
+      "ncbi_taxonomy_id": 39947,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Oryza sativa Japonica Group",
+      "source_type": "genetically engineered",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Viridiplantae"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Chlorobionta"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Chlorophyta/Embryophyta group"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "Chloroplastida"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "chlorophyte/embryophyte group"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "green plants"
+        },
+        {
+          "depth": 3,
+          "id": "33090",
+          "name": "plants"
+        },
+        {
+          "depth": 4,
+          "id": "35493",
+          "name": "Streptophyta"
+        },
+        {
+          "depth": 5,
+          "id": "131221",
+          "name": "Streptophytina"
+        },
+        {
+          "depth": 5,
+          "id": "131221",
+          "name": "Charophyta/Embryophyta group"
+        },
+        {
+          "depth": 5,
+          "id": "131221",
+          "name": "charophyte/embryophyte group"
+        },
+        {
+          "depth": 6,
+          "id": "3193",
+          "name": "Embryophyta"
+        },
+        {
+          "depth": 6,
+          "id": "3193",
+          "name": "higher plants"
+        },
+        {
+          "depth": 6,
+          "id": "3193",
+          "name": "land plants"
+        },
+        {
+          "depth": 7,
+          "id": "58023",
+          "name": "Tracheophyta"
+        },
+        {
+          "depth": 7,
+          "id": "58023",
+          "name": "vascular plants"
+        },
+        {
+          "depth": 8,
+          "id": "78536",
+          "name": "Euphyllophyta"
+        },
+        {
+          "depth": 8,
+          "id": "78536",
+          "name": "euphyllophytes"
+        },
+        {
+          "depth": 9,
+          "id": "58024",
+          "name": "Spermatophyta"
+        },
+        {
+          "depth": 9,
+          "id": "58024",
+          "name": "seed plants"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "Magnoliopsida"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "Angiospermae"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "Magnoliophyta"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "angiosperms"
+        },
+        {
+          "depth": 10,
+          "id": "3398",
+          "name": "flowering plants"
+        },
+        {
+          "depth": 11,
+          "id": "1437183",
+          "name": "Mesangiospermae"
+        },
+        {
+          "depth": 12,
+          "id": "4447",
+          "name": "Liliopsida"
+        },
+        {
+          "depth": 12,
+          "id": "4447",
+          "name": "Monocotyledoneae"
+        },
+        {
+          "depth": 12,
+          "id": "4447",
+          "name": "monocots"
+        },
+        {
+          "depth": 12,
+          "id": "4447",
+          "name": "monocotyledons"
+        },
+        {
+          "depth": 13,
+          "id": "1437197",
+          "name": "Petrosaviidae"
+        },
+        {
+          "depth": 14,
+          "id": "4734",
+          "name": "commelinids"
+        },
+        {
+          "depth": 14,
+          "id": "4734",
+          "name": "Commelinidae"
+        },
+        {
+          "depth": 14,
+          "id": "4734",
+          "name": "Commeliniflorae"
+        },
+        {
+          "depth": 15,
+          "id": "38820",
+          "name": "Poales"
+        },
+        {
+          "depth": 16,
+          "id": "4479",
+          "name": "Poaceae"
+        },
+        {
+          "depth": 16,
+          "id": "4479",
+          "name": "Bambusaceae"
+        },
+        {
+          "depth": 16,
+          "id": "4479",
+          "name": "Gramineae"
+        },
+        {
+          "depth": 16,
+          "id": "4479",
+          "name": "grass family"
+        },
+        {
+          "depth": 17,
+          "id": "359160",
+          "name": "BOP clade"
+        },
+        {
+          "depth": 17,
+          "id": "359160",
+          "name": "BEP clade"
+        },
+        {
+          "depth": 18,
+          "id": "147367",
+          "name": "Oryzoideae"
+        },
+        {
+          "depth": 18,
+          "id": "147367",
+          "name": "Ehrhartoideae"
+        },
+        {
+          "depth": 19,
+          "id": "147380",
+          "name": "Oryzeae"
+        },
+        {
+          "depth": 20,
+          "id": "1648021",
+          "name": "Oryzinae"
+        },
+        {
+          "depth": 21,
+          "id": "4527",
+          "name": "Oryza"
+        },
+        {
+          "depth": 22,
+          "id": "4530",
+          "name": "Oryza sativa"
+        },
+        {
+          "depth": 22,
+          "id": "4530",
+          "name": "Asian cultivated rice"
+        },
+        {
+          "depth": 22,
+          "id": "4530",
+          "name": "red rice"
+        },
+        {
+          "depth": 22,
+          "id": "4530",
+          "name": "rice"
+        },
+        {
+          "depth": 23,
+          "id": "39947",
+          "name": "Oryza sativa Japonica Group"
+        },
+        {
+          "depth": 23,
+          "id": "39947",
+          "name": "Japanese rice"
+        },
+        {
+          "depth": 23,
+          "id": "39947",
+          "name": "Japonica rice"
+        },
+        {
+          "depth": 23,
+          "id": "39947",
+          "name": "Oryza sativa (japonica cultivar-group)"
+        },
+        {
+          "depth": 23,
+          "id": "39947",
+          "name": "Oryza sativa subsp. japonica"
+        }
+      ],
+      "rcsb_gene_name": [
+        {
+          "provenance_source": "Primary Data",
+          "value": "HIS1"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "LOC_Os02g17940"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "Os02g0280700"
+        },
+        {
+          "provenance_source": "Primary Data",
+          "value": "OSNPB_020280700"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "details": "The His-tag was removed by TEV protease before crystallography. Some residues at the N-termini was not visible in the electron density map.",
+    "formula_weight": 40.653,
+    "pdbx_description": "Fe(II)/2-oxoglutarate-dependent oxygenase",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "man",
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Fe(II)/2-oxoglutarate-dependent oxygenase",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "Os02g0280700 protein",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "cDNA clone:J013034J09",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "full insert sequence",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Os02g0280700 protein"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "Q6ES21",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 6,
+          "length": 351,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF03171",
+      "assignment_version": "34.0",
+      "name": "2OG-Fe(II) oxygenase superfamily (2OG-FeII_Oxy)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "PF14226",
+      "assignment_version": "34.0",
+      "name": "non-haem dioxygenase in morphine synthesis N-terminal (DIOX_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0016491",
+      "name": "oxidoreductase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0016491",
+          "name": "oxidoreductase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR026992",
+      "name": "Non-haem dioxygenase, N-terminal domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR026992",
+          "name": "Non-haem dioxygenase, N-terminal domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR005123",
+      "name": "Oxoglutarate/iron-dependent dioxygenase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR005123",
+          "name": "Oxoglutarate/iron-dependent dioxygenase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR027443",
+      "name": "Isopenicillin N synthase-like superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR027443",
+          "name": "Isopenicillin N synthase-like superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR044861",
+      "name": "Isopenicillin N synthase-like, Fe(2+) 2OG dioxygenase domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 2,
+          "id": "IPR044861",
+          "name": "Isopenicillin N synthase-like, Fe(2+) 2OG dioxygenase domain"
+        },
+        {
+          "depth": 1,
+          "id": "IPR005123",
+          "name": "Oxoglutarate/iron-dependent dioxygenase domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0046872",
+      "name": "metal ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR050295",
+      "name": "Plant_2OG-oxidoreductases",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR050295",
+          "name": "Plant_2OG-oxidoreductases"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "8S7B",
+    "rcsb_id": "8S7B_1",
+    "uniprot_ids": [
+      "Q6ES21"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "Q6ES21",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 0.9859550561797753,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 1.0
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF03171",
+      "name": "2OG-Fe(II) oxygenase superfamily (2OG-FeII_Oxy)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 208,
+          "end_seq_id": 307
+        }
+      ]
+    },
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF14226",
+      "name": "non-haem dioxygenase in morphine synthesis N-terminal (DIOX_N)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 53,
+          "end_seq_id": 163
+        }
+      ]
+    },
+    {
+      "assignment_version": "V1.0",
+      "feature_id": "range_feature_1",
+      "name": "expression tag",
+      "provenance_source": "PDB",
+      "type": "artifact",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 5
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.44,
+            -0.49,
+            -0.23,
+            -0.94,
+            -0.94,
+            -1.03,
+            -1.04,
+            -0.74,
+            0.11,
+            0.11,
+            -0.19,
+            0.33,
+            1.03,
+            1.03,
+            1.41,
+            1.17,
+            1.13,
+            0.28,
+            0.28,
+            0.49,
+            -0.11,
+            -0.4,
+            -1.1,
+            -1.44,
+            -0.98,
+            -1.02,
+            -1.13,
+            -1.13,
+            -1.39,
+            -1.6,
+            -2.01,
+            -1.6,
+            -1.84,
+            -1.8,
+            -2.66,
+            -1.73,
+            -0.88,
+            -0.24,
+            0.34,
+            0.46,
+            0.97,
+            1.18,
+            0.32,
+            0.58,
+            0.58,
+            -0.07,
+            0.2,
+            0.47,
+            0.47,
+            0.47,
+            0.56,
+            0.44,
+            1.04,
+            0.23,
+            0.37,
+            0.1,
+            -0.76,
+            -0.76,
+            -0.98,
+            -0.97,
+            -0.9,
+            -0.9,
+            -1.01,
+            -0.5,
+            -0.5,
+            0.31,
+            0.31,
+            -0.28,
+            -0.3,
+            0.09,
+            -0.02,
+            0.79,
+            0.74,
+            0.97,
+            0.47,
+            0.47,
+            0.5,
+            0.56,
+            1.07,
+            0.37,
+            0.26,
+            -0.26,
+            -0.26,
+            0.03,
+            0.03,
+            0.3,
+            0.81,
+            0.56,
+            0.56,
+            0.78,
+            0.78,
+            -0.14,
+            -0.74,
+            -0.04,
+            0.36,
+            -0.5,
+            -1.1,
+            -0.89,
+            -0.81,
+            -1.11,
+            -1.11,
+            -1.16,
+            -1.86,
+            -2.6,
+            -1.9,
+            -1.6,
+            -1.81,
+            -1.89,
+            -1.0,
+            -0.89,
+            -0.5,
+            -0.54,
+            -0.5,
+            -0.5,
+            -0.8,
+            0.09,
+            -0.72,
+            -1.27,
+            -1.02,
+            -1.02,
+            -0.67,
+            -0.67,
+            -1.48,
+            -0.62,
+            -0.66,
+            -0.34,
+            -0.69,
+            -0.93,
+            -1.28,
+            -0.7,
+            0.11,
+            0.22,
+            -0.34,
+            -0.9,
+            -1.21,
+            -1.32,
+            -0.51,
+            -0.48,
+            -0.56,
+            -1.48,
+            -0.62,
+            -0.91,
+            -1.0,
+            -1.04,
+            -0.93,
+            -1.74,
+            -1.78,
+            -2.59,
+            -1.67,
+            -1.93,
+            -1.23,
+            -1.16,
+            -0.9,
+            -0.9,
+            -0.87,
+            -0.66,
+            -0.66,
+            -1.17,
+            -1.06,
+            -1.87,
+            -2.16,
+            -1.51,
+            -0.7,
+            -0.73,
+            -0.99,
+            -0.74,
+            -0.46,
+            -0.86,
+            -0.4,
+            -0.09,
+            -0.99,
+            -1.91,
+            -1.02,
+            -1.09,
+            -1.33,
+            -1.92,
+            -1.33,
+            -0.79,
+            -1.1,
+            -0.47,
+            0.24,
+            -0.06,
+            0.01,
+            0.82,
+            1.63,
+            0.74,
+            0.67,
+            0.67,
+            0.08,
+            -0.52,
+            -0.87,
+            -0.12,
+            -0.12,
+            -0.93,
+            -1.04,
+            -1.04,
+            -1.04,
+            -1.04,
+            -0.46,
+            -0.49,
+            -0.6,
+            -0.71,
+            -0.12,
+            -0.12,
+            -0.23,
+            -0.23,
+            0.01,
+            -0.33,
+            -0.33,
+            -0.71,
+            -0.74,
+            -1.12,
+            -1.12,
+            -1.61,
+            -1.61,
+            -1.04,
+            -0.43,
+            0.06,
+            0.19,
+            0.41,
+            0.09,
+            0.41,
+            0.23,
+            0.53,
+            -0.28,
+            -0.79,
+            -1.18,
+            -0.71,
+            -0.79,
+            -0.37,
+            0.31,
+            1.09,
+            1.6,
+            2.46,
+            2.11,
+            1.76,
+            0.94,
+            0.99,
+            0.98,
+            0.43,
+            0.43,
+            -0.38,
+            -0.38,
+            -0.38,
+            -0.44,
+            -0.44,
+            -0.96,
+            -1.3,
+            -1.36,
+            -1.87,
+            -1.87,
+            -1.87,
+            -1.87,
+            -1.17,
+            -0.86,
+            -0.99,
+            -0.91,
+            -0.89,
+            -0.38,
+            0.43,
+            0.47,
+            0.47,
+            0.69,
+            0.72,
+            0.51,
+            0.79,
+            1.08,
+            0.27,
+            0.31,
+            0.02,
+            0.69,
+            -0.12,
+            -0.12,
+            0.77,
+            1.16,
+            0.44,
+            0.74,
+            0.1,
+            0.36,
+            -0.28,
+            -0.39,
+            0.12,
+            0.09,
+            -0.3,
+            -0.19,
+            0.1,
+            -0.11,
+            -1.01,
+            -1.04,
+            -1.04,
+            -1.01,
+            -1.57,
+            -1.07,
+            -0.48,
+            -0.47,
+            0.34,
+            0.63,
+            0.93,
+            1.9,
+            1.01,
+            0.71,
+            -0.1,
+            -0.73,
+            -1.33,
+            -1.26,
+            -1.5,
+            -1.59,
+            -1.86,
+            -1.27,
+            -0.92,
+            -0.11,
+            0.74,
+            0.74,
+            -0.14,
+            -0.14,
+            -0.47,
+            -0.84,
+            -0.84,
+            -1.3,
+            -1.87,
+            -2.79,
+            -2.83,
+            -1.98,
+            -1.68,
+            -0.71,
+            -0.92,
+            -1.51,
+            -0.7,
+            -1.06,
+            -0.36,
+            0.03,
+            0.07,
+            0.47,
+            -0.04,
+            -0.09,
+            0.61,
+            0.21,
+            0.21,
+            -0.03,
+            -0.38,
+            -1.38,
+            -1.83,
+            -1.29,
+            -1.24,
+            -1.64,
+            -1.13,
+            -1.13,
+            -0.59
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.92,
+            0.89,
+            0.84,
+            0.82,
+            0.77,
+            0.68,
+            0.6,
+            0.58,
+            0.55,
+            0.45,
+            0.38,
+            0.36,
+            0.33,
+            0.37,
+            0.33,
+            0.34,
+            0.38,
+            0.43,
+            0.43,
+            0.41,
+            0.4,
+            0.41,
+            0.35,
+            0.31,
+            0.28,
+            0.31,
+            0.36,
+            0.43,
+            0.4,
+            0.39,
+            0.48,
+            0.44,
+            0.45,
+            0.41,
+            0.35,
+            0.39,
+            0.36,
+            0.36,
+            0.26,
+            0.27,
+            0.27,
+            0.31,
+            0.31,
+            0.4,
+            0.4,
+            0.34,
+            0.33,
+            0.24,
+            0.22,
+            0.22,
+            0.15,
+            0.13,
+            0.19,
+            0.17,
+            0.24,
+            0.31,
+            0.3,
+            0.33,
+            0.31,
+            0.29,
+            0.25,
+            0.18,
+            0.14,
+            0.13,
+            0.12,
+            0.17,
+            0.15,
+            0.15,
+            0.14,
+            0.08,
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.06,
+            0.05,
+            0.03,
+            0.04,
+            0.03,
+            0.03,
+            0.04,
+            0.03,
+            0.05,
+            0.05,
+            0.06,
+            0.04,
+            0.04,
+            0.05,
+            0.05,
+            0.08,
+            0.15,
+            0.14,
+            0.14,
+            0.14,
+            0.15,
+            0.18,
+            0.12,
+            0.18,
+            0.17,
+            0.19,
+            0.2,
+            0.28,
+            0.24,
+            0.25,
+            0.25,
+            0.25,
+            0.21,
+            0.22,
+            0.31,
+            0.31,
+            0.32,
+            0.23,
+            0.33,
+            0.34,
+            0.35,
+            0.35,
+            0.24,
+            0.33,
+            0.32,
+            0.33,
+            0.33,
+            0.26,
+            0.21,
+            0.28,
+            0.28,
+            0.28,
+            0.37,
+            0.38,
+            0.3,
+            0.31,
+            0.22,
+            0.22,
+            0.31,
+            0.28,
+            0.29,
+            0.27,
+            0.18,
+            0.23,
+            0.17,
+            0.18,
+            0.2,
+            0.2,
+            0.27,
+            0.33,
+            0.35,
+            0.35,
+            0.27,
+            0.25,
+            0.25,
+            0.23,
+            0.25,
+            0.34,
+            0.33,
+            0.35,
+            0.37,
+            0.45,
+            0.38,
+            0.45,
+            0.47,
+            0.47,
+            0.38,
+            0.35,
+            0.35,
+            0.27,
+            0.24,
+            0.23,
+            0.23,
+            0.3,
+            0.3,
+            0.35,
+            0.35,
+            0.31,
+            0.31,
+            0.32,
+            0.21,
+            0.14,
+            0.16,
+            0.2,
+            0.17,
+            0.14,
+            0.19,
+            0.17,
+            0.12,
+            0.13,
+            0.12,
+            0.13,
+            0.13,
+            0.14,
+            0.09,
+            0.06,
+            0.04,
+            0.07,
+            0.08,
+            0.04,
+            0.04,
+            0.07,
+            0.09,
+            0.1,
+            0.09,
+            0.07,
+            0.07,
+            0.07,
+            0.06,
+            0.11,
+            0.06,
+            0.06,
+            0.08,
+            0.09,
+            0.06,
+            0.11,
+            0.15,
+            0.25,
+            0.25,
+            0.17,
+            0.2,
+            0.12,
+            0.12,
+            0.09,
+            0.07,
+            0.1,
+            0.15,
+            0.18,
+            0.2,
+            0.29,
+            0.28,
+            0.29,
+            0.3,
+            0.26,
+            0.17,
+            0.17,
+            0.1,
+            0.08,
+            0.07,
+            0.07,
+            0.12,
+            0.12,
+            0.2,
+            0.2,
+            0.19,
+            0.21,
+            0.13,
+            0.15,
+            0.15,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.2,
+            0.21,
+            0.2,
+            0.28,
+            0.31,
+            0.35,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.3,
+            0.22,
+            0.31,
+            0.23,
+            0.29,
+            0.29,
+            0.29,
+            0.26,
+            0.27,
+            0.22,
+            0.27,
+            0.2,
+            0.21,
+            0.27,
+            0.18,
+            0.13,
+            0.13,
+            0.12,
+            0.14,
+            0.1,
+            0.15,
+            0.18,
+            0.19,
+            0.14,
+            0.2,
+            0.2,
+            0.16,
+            0.17,
+            0.19,
+            0.2,
+            0.25,
+            0.2,
+            0.26,
+            0.2,
+            0.17,
+            0.22,
+            0.25,
+            0.19,
+            0.2,
+            0.13,
+            0.18,
+            0.19,
+            0.2,
+            0.26,
+            0.33,
+            0.25,
+            0.26,
+            0.32,
+            0.27,
+            0.25,
+            0.24,
+            0.18,
+            0.19,
+            0.19,
+            0.26,
+            0.28,
+            0.3,
+            0.39,
+            0.42,
+            0.41,
+            0.4,
+            0.38,
+            0.36,
+            0.3,
+            0.3,
+            0.23,
+            0.31,
+            0.31,
+            0.2,
+            0.21,
+            0.21,
+            0.21,
+            0.2,
+            0.19,
+            0.19,
+            0.18,
+            0.12,
+            0.12,
+            0.1,
+            0.12,
+            0.12,
+            0.17,
+            0.13,
+            0.08,
+            0.12,
+            0.12,
+            0.1,
+            0.09,
+            0.05,
+            0.12,
+            0.16,
+            0.22,
+            0.26,
+            0.37,
+            0.5,
+            0.53,
+            0.58,
+            0.69,
+            0.73
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.4,
+            0.4,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.36,
+            0.35,
+            0.35,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.38,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.42,
+            0.4,
+            0.39,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.39,
+            0.41,
+            0.42,
+            0.43,
+            0.41,
+            0.4,
+            0.38,
+            0.37,
+            0.35,
+            0.34,
+            0.33,
+            0.32,
+            0.31,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.3,
+            0.32,
+            0.34,
+            0.36,
+            0.38,
+            0.4,
+            0.42,
+            0.43,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.42,
+            0.4,
+            0.38,
+            0.37,
+            0.36,
+            0.34,
+            0.32,
+            0.3,
+            0.29,
+            0.29,
+            0.28,
+            0.29,
+            0.3,
+            0.31,
+            0.32,
+            0.33,
+            0.35,
+            0.37,
+            0.4,
+            0.42,
+            0.43,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.38,
+            0.37,
+            0.35,
+            0.34,
+            0.33,
+            0.32,
+            0.33,
+            0.34,
+            0.35,
+            0.36,
+            0.37,
+            0.38,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.38,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.38,
+            0.38,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.41,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.37,
+            0.36,
+            0.37,
+            0.37,
+            0.38,
+            0.39,
+            0.4,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.42,
+            0.43,
+            0.42,
+            0.4,
+            0.38,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.32,
+            0.32,
+            0.32,
+            0.31,
+            0.32,
+            0.32,
+            0.31,
+            0.3,
+            0.29,
+            0.29,
+            0.28,
+            0.28,
+            0.28,
+            0.28,
+            0.29,
+            0.28,
+            0.28,
+            0.29,
+            0.3,
+            0.3,
+            0.3,
+            0.31,
+            0.32,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.34,
+            0.34,
+            0.34,
+            0.35,
+            0.34,
+            0.34,
+            0.33,
+            0.33,
+            0.34,
+            0.35,
+            0.35,
+            0.35,
+            0.35,
+            0.35,
+            0.34,
+            0.35
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.01404,
+      "maximum_length": 5,
+      "minimum_length": 5,
+      "type": "artifact"
+    },
+    {
+      "count": 2,
+      "coverage": 0.5927,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "50100_90",
+      "similarity_cutoff": 90.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 356,
+          "ref_beg_seq_id": 5
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "21802_70",
+      "similarity_cutoff": 70.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 356,
+          "ref_beg_seq_id": 5
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "Q6ES21",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 6,
+          "length": 351,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "9668_50",
+      "similarity_cutoff": 50.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 42,
+          "ref_beg_seq_id": 5
+        },
+        {
+          "entity_beg_seq_id": 43,
+          "length": 21,
+          "ref_beg_seq_id": 49
+        },
+        {
+          "entity_beg_seq_id": 64,
+          "length": 130,
+          "ref_beg_seq_id": 78
+        },
+        {
+          "entity_beg_seq_id": 194,
+          "length": 12,
+          "ref_beg_seq_id": 211
+        },
+        {
+          "entity_beg_seq_id": 206,
+          "length": 29,
+          "ref_beg_seq_id": 224
+        },
+        {
+          "entity_beg_seq_id": 235,
+          "length": 20,
+          "ref_beg_seq_id": 254
+        },
+        {
+          "entity_beg_seq_id": 255,
+          "length": 9,
+          "ref_beg_seq_id": 278
+        },
+        {
+          "entity_beg_seq_id": 264,
+          "length": 60,
+          "ref_beg_seq_id": 288
+        },
+        {
+          "entity_beg_seq_id": 324,
+          "length": 33,
+          "ref_beg_seq_id": 349
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "54167_100",
+      "similarity_cutoff": 100.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 356,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "70062_95",
+      "similarity_cutoff": 95.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 356,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "660_30",
+      "similarity_cutoff": 30.0,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 3,
+          "ref_beg_seq_id": 87
+        },
+        {
+          "entity_beg_seq_id": 4,
+          "length": 2,
+          "ref_beg_seq_id": 94
+        },
+        {
+          "entity_beg_seq_id": 6,
+          "length": 7,
+          "ref_beg_seq_id": 97
+        },
+        {
+          "entity_beg_seq_id": 13,
+          "length": 11,
+          "ref_beg_seq_id": 105
+        },
+        {
+          "entity_beg_seq_id": 24,
+          "length": 2,
+          "ref_beg_seq_id": 119
+        },
+        {
+          "entity_beg_seq_id": 26,
+          "length": 2,
+          "ref_beg_seq_id": 126
+        },
+        {
+          "entity_beg_seq_id": 28,
+          "length": 15,
+          "ref_beg_seq_id": 130
+        },
+        {
+          "entity_beg_seq_id": 43,
+          "length": 2,
+          "ref_beg_seq_id": 147
+        },
+        {
+          "entity_beg_seq_id": 45,
+          "length": 16,
+          "ref_beg_seq_id": 170
+        },
+        {
+          "entity_beg_seq_id": 61,
+          "length": 3,
+          "ref_beg_seq_id": 188
+        },
+        {
+          "entity_beg_seq_id": 64,
+          "length": 18,
+          "ref_beg_seq_id": 221
+        },
+        {
+          "entity_beg_seq_id": 82,
+          "length": 10,
+          "ref_beg_seq_id": 253
+        },
+        {
+          "entity_beg_seq_id": 92,
+          "length": 10,
+          "ref_beg_seq_id": 264
+        },
+        {
+          "entity_beg_seq_id": 102,
+          "length": 18,
+          "ref_beg_seq_id": 278
+        },
+        {
+          "entity_beg_seq_id": 120,
+          "length": 3,
+          "ref_beg_seq_id": 306
+        },
+        {
+          "entity_beg_seq_id": 123,
+          "length": 1,
+          "ref_beg_seq_id": 310
+        },
+        {
+          "entity_beg_seq_id": 124,
+          "length": 7,
+          "ref_beg_seq_id": 313
+        },
+        {
+          "entity_beg_seq_id": 131,
+          "length": 4,
+          "ref_beg_seq_id": 321
+        },
+        {
+          "entity_beg_seq_id": 135,
+          "length": 16,
+          "ref_beg_seq_id": 326
+        },
+        {
+          "entity_beg_seq_id": 151,
+          "length": 7,
+          "ref_beg_seq_id": 361
+        },
+        {
+          "entity_beg_seq_id": 158,
+          "length": 6,
+          "ref_beg_seq_id": 369
+        },
+        {
+          "entity_beg_seq_id": 164,
+          "length": 5,
+          "ref_beg_seq_id": 376
+        },
+        {
+          "entity_beg_seq_id": 169,
+          "length": 8,
+          "ref_beg_seq_id": 386
+        },
+        {
+          "entity_beg_seq_id": 177,
+          "length": 13,
+          "ref_beg_seq_id": 411
+        },
+        {
+          "entity_beg_seq_id": 190,
+          "length": 4,
+          "ref_beg_seq_id": 425
+        },
+        {
+          "entity_beg_seq_id": 194,
+          "length": 4,
+          "ref_beg_seq_id": 432
+        },
+        {
+          "entity_beg_seq_id": 198,
+          "length": 6,
+          "ref_beg_seq_id": 450
+        },
+        {
+          "entity_beg_seq_id": 204,
+          "length": 2,
+          "ref_beg_seq_id": 459
+        },
+        {
+          "entity_beg_seq_id": 206,
+          "length": 1,
+          "ref_beg_seq_id": 467
+        },
+        {
+          "entity_beg_seq_id": 207,
+          "length": 15,
+          "ref_beg_seq_id": 470
+        },
+        {
+          "entity_beg_seq_id": 222,
+          "length": 13,
+          "ref_beg_seq_id": 487
+        },
+        {
+          "entity_beg_seq_id": 235,
+          "length": 10,
+          "ref_beg_seq_id": 501
+        },
+        {
+          "entity_beg_seq_id": 245,
+          "length": 1,
+          "ref_beg_seq_id": 512
+        },
+        {
+          "entity_beg_seq_id": 246,
+          "length": 6,
+          "ref_beg_seq_id": 515
+        },
+        {
+          "entity_beg_seq_id": 252,
+          "length": 3,
+          "ref_beg_seq_id": 525
+        },
+        {
+          "entity_beg_seq_id": 255,
+          "length": 7,
+          "ref_beg_seq_id": 538
+        },
+        {
+          "entity_beg_seq_id": 262,
+          "length": 2,
+          "ref_beg_seq_id": 547
+        },
+        {
+          "entity_beg_seq_id": 264,
+          "length": 2,
+          "ref_beg_seq_id": 550
+        },
+        {
+          "entity_beg_seq_id": 266,
+          "length": 10,
+          "ref_beg_seq_id": 553
+        },
+        {
+          "entity_beg_seq_id": 276,
+          "length": 5,
+          "ref_beg_seq_id": 588
+        },
+        {
+          "entity_beg_seq_id": 281,
+          "length": 16,
+          "ref_beg_seq_id": 594
+        },
+        {
+          "entity_beg_seq_id": 297,
+          "length": 25,
+          "ref_beg_seq_id": 611
+        },
+        {
+          "entity_beg_seq_id": 322,
+          "length": 2,
+          "ref_beg_seq_id": 639
+        },
+        {
+          "entity_beg_seq_id": 324,
+          "length": 2,
+          "ref_beg_seq_id": 643
+        },
+        {
+          "entity_beg_seq_id": 326,
+          "length": 7,
+          "ref_beg_seq_id": 646
+        },
+        {
+          "entity_beg_seq_id": 333,
+          "length": 10,
+          "ref_beg_seq_id": 654
+        },
+        {
+          "entity_beg_seq_id": 343,
+          "length": 5,
+          "ref_beg_seq_id": 665
+        },
+        {
+          "entity_beg_seq_id": 348,
+          "length": 2,
+          "ref_beg_seq_id": 672
+        },
+        {
+          "entity_beg_seq_id": 350,
+          "length": 2,
+          "ref_beg_seq_id": 675
+        },
+        {
+          "entity_beg_seq_id": 352,
+          "length": 1,
+          "ref_beg_seq_id": 678
+        },
+        {
+          "entity_beg_seq_id": 353,
+          "length": 4,
+          "ref_beg_seq_id": 680
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "Os02g0280700 protein,cDNA clone:J013034J09,full insert sequence"
+    }
+  ],
+  "rcsb_id": "8S7B_1"
+}
