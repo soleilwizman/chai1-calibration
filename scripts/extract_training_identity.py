@@ -58,6 +58,10 @@ def build_query(sequence: str, cutoff: str, rows: int = 25,
         "request_options": {
             "scoring_strategy": "sequence",
             "return_all_hits": False,
+            # REQUIRED: without "verbose" the API returns only identifier+score,
+            # with no match_context, so sequence_identity would be unavailable
+            # and every target would silently look maximally novel.
+            "results_verbosity": "verbose",
             "paginate": {"start": 0, "rows": rows},
         },
     }
@@ -66,14 +70,24 @@ def build_query(sequence: str, cutoff: str, rows: int = 25,
 def parse_max_identity(response: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     """Extract the best-hit sequence identity from a search response.
 
-    Returns ``{max_identity, best_hit, n_hits}``. ``max_identity`` is None when
-    there are no pre-cutoff hits (a maximally novel target).
+    Returns ``{max_identity, best_hit, n_hits, parse_failed}``.
+
+    ``max_identity`` is None either because the target genuinely has no
+    pre-cutoff hit, or because the response carried no ``match_context``.
+    Those mean opposite things scientifically, so ``parse_failed`` distinguishes
+    them: True means hits existed but no identity could be read (a bug or a
+    verbosity regression), and the caller should treat the value as missing
+    rather than as "maximally novel".
     """
     if not response or "result_set" not in response:
-        return {"max_identity": None, "best_hit": None, "n_hits": 0}
+        return {"max_identity": None, "best_hit": None, "n_hits": 0,
+                "parse_failed": False}
+
+    results = response.get("result_set", [])
+    # total_count is the true number of pre-cutoff hits; result_set is paginated.
+    n_hits = int(response.get("total_count", len(results)) or 0)
 
     best_id, best_hit = None, None
-    results = response.get("result_set", [])
     for res in results:
         identifier = res.get("identifier")
         for svc in res.get("services", []):
@@ -82,7 +96,9 @@ def parse_max_identity(response: Optional[Dict[str, Any]]) -> Dict[str, Any]:
                     sid = ctx.get("sequence_identity")
                     if sid is not None and (best_id is None or sid > best_id):
                         best_id, best_hit = sid, identifier
-    return {"max_identity": best_id, "best_hit": best_hit, "n_hits": len(results)}
+
+    return {"max_identity": best_id, "best_hit": best_hit, "n_hits": n_hits,
+            "parse_failed": bool(results) and best_id is None}
 
 
 def query_one(session: requests.Session, sequence: str, cutoff: str,
@@ -145,9 +161,25 @@ def main() -> int:
     out_path = root / args.out
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(rows, indent=2), encoding="utf-8")
-    n_novel = sum(1 for r in rows if r["max_identity"] is None)
+
+    n_scored = sum(1 for r in rows if r["max_identity"] is not None)
+    n_novel = sum(1 for r in rows
+                  if r["max_identity"] is None and not r["parse_failed"])
+    n_broken = sum(1 for r in rows if r["parse_failed"])
     print(f"Wrote training identity for {len(rows)} targets to {out_path} "
-          f"({n_novel} with no pre-{args.cutoff} hit)")
+          f"({n_scored} with an identity, {n_novel} with no pre-{args.cutoff} hit)")
+
+    if n_broken:
+        # Loud failure: silently recording None here would make every target look
+        # maximally novel and invalidate the novelty stratification.
+        print(f"ERROR: {n_broken}/{len(rows)} responses had hits but no readable "
+              f"sequence_identity. Do NOT trust novelty_bin from this run -- check "
+              f"that request_options.results_verbosity is 'verbose'.", file=sys.stderr)
+        return 1
+    if n_scored == 0 and rows:
+        print("ERROR: no target got an identity value; the search returned nothing "
+              "usable. novelty_bin would be empty.", file=sys.stderr)
+        return 1
     return 0
 
 
