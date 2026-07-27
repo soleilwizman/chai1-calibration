@@ -71,6 +71,12 @@ def load_entries(targets_path: Path) -> List[str]:
     return sorted(entries)
 
 
+def already_present(entry: str, out_dir: Path) -> bool:
+    """True if this entry is already downloaded in any supported format."""
+    return any(dest.exists() and dest.stat().st_size > 0
+               for _, dest in sources(entry, out_dir))
+
+
 def download_one(session: Session, entry: str, out_dir: Path, timeout: int, retries: int) -> bool:
     """Download one entry, trying each mirror source in turn.
 
@@ -129,15 +135,26 @@ def main() -> int:
     session = requests.Session()
     session.headers.update({"User-Agent": "chai1-calibration/1.0"})
 
-    ok, failed = 0, []
-    for entry in tqdm(entries, desc="Downloading structures", unit="entry"):
+    # Partition up front so an already-complete set costs nothing and the
+    # progress bar reflects real network work rather than existence checks.
+    missing = [e for e in entries if not already_present(e, out_dir)]
+    present = len(entries) - len(missing)
+    if present:
+        print(f"{present}/{len(entries)} entries already on disk; skipping")
+    if not missing:
+        print(f"Nothing to download; all {len(entries)} entries present in {out_dir}")
+        return 0
+
+    downloaded, failed = 0, []
+    for entry in tqdm(missing, desc="Downloading structures", unit="entry"):
         if download_one(session, entry, out_dir, args.timeout, args.retries):
-            ok += 1
+            downloaded += 1
         else:
             failed.append(entry)
-        time.sleep(args.sleep)
+        time.sleep(args.sleep)   # politeness delay: only for real requests
 
-    print(f"Downloaded {ok}/{len(entries)} entries to {out_dir}")
+    print(f"Downloaded {downloaded}/{len(missing)} missing entries to {out_dir} "
+          f"({present + downloaded}/{len(entries)} total present)")
     if failed:
         print(f"Failed ({len(failed)}): {', '.join(failed)}", file=sys.stderr)
         return 1
