@@ -94,6 +94,23 @@ def build(lddt_dir: Path, covariates: Optional[Path], msa_depth: Optional[Path],
         df["ligand_state"] = np.where(
             df["nonpolymer_entity_count"].fillna(0) > 0, "holo", "apo")
 
+    # Per-residue disorder proxies (hypothesis 1). Unlike the per-target
+    # covariates below, these vary *within* a protein, so they are binned across
+    # all residues directly.
+    if "ref_bfactor_z" in df.columns and df["ref_bfactor_z"].notna().any():
+        # Flexible = B-factor at least 1 sd above this structure's mean.
+        df["flexibility"] = np.where(
+            df["ref_bfactor_z"].isna(), None,
+            np.where(df["ref_bfactor_z"] >= 1.0, "flexible",
+                     np.where(df["ref_bfactor_z"] <= -0.5, "rigid", "intermediate")))
+    if "sse" in df.columns and df["sse"].notna().any():
+        df["structured"] = np.where(df["sse"].isin(["a", "b"]), "helix_or_sheet",
+                                    np.where(df["sse"] == "c", "coil", None))
+    if "rsa" in df.columns and df["rsa"].notna().any():
+        df["exposure"] = np.where(df["rsa"].isna(), None,
+                                  np.where(df["rsa"] >= 0.5, "exposed",
+                                           np.where(df["rsa"] <= 0.2, "buried", "partial")))
+
     # Tertiles are computed per-target (not per-residue) so bin edges aren't
     # dominated by big proteins contributing many rows.
     per_target = df.drop_duplicates("candidate").set_index("candidate")

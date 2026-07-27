@@ -73,6 +73,83 @@ def load_structure(path: Path, model: int = 1) -> struc.AtomArray:
     return atoms
 
 
+# Maximum accessible surface area per residue (Tien et al. 2013, theoretical),
+# used to turn absolute SASA into a relative (0..1) solvent accessibility.
+_MAX_ASA = {
+    "ALA": 129, "ARG": 274, "ASN": 195, "ASP": 193, "CYS": 167, "GLN": 225,
+    "GLU": 223, "GLY": 104, "HIS": 224, "ILE": 197, "LEU": 201, "LYS": 236,
+    "MET": 224, "PHE": 240, "PRO": 159, "SER": 155, "THR": 172, "TRP": 285,
+    "TYR": 263, "VAL": 174,
+}
+
+
+def reference_annotations(ref: struc.AtomArray) -> pd.DataFrame:
+    """Per-residue disorder proxies computed from the *experimental* structure.
+
+    Supports hypothesis 1 ("pLDDT is overconfident in intrinsically disordered
+    regions"). Truly disordered residues are usually *absent* from a crystal
+    structure and therefore have no lDDT to compare against, so these are proxies
+    for local flexibility among the residues that were modelled:
+
+    * ``ref_bfactor``   -- crystallographic B-factor (higher = more mobile).
+    * ``ref_bfactor_z`` -- B-factor z-scored *within this structure*, since raw
+      B-factors are not comparable across resolutions and refinement protocols.
+      This is the primary disorder proxy.
+    * ``rsa``           -- relative solvent accessibility (0..1); disordered
+      segments tend to be exposed.
+    * ``sse``           -- secondary structure (``a`` helix, ``b`` sheet,
+      ``c`` coil); disorder is coil-associated.
+    * ``near_chain_gap``-- residue adjacent to a break in residue numbering, i.e.
+      flanking an unmodelled (disordered) stretch. This is the most direct
+      evidence of disorder available for modelled residues.
+
+    Returned frame is keyed by ``(chain, res_id)`` for joining onto scores.
+    """
+    starts = struc.get_residue_starts(ref)
+    chain_id = ref.chain_id[starts]
+    res_id = ref.res_id[starts]
+    res_name = ref.res_name[starts]
+
+    bfac = struc.apply_residue_wise(ref, ref.b_factor, np.mean)
+    std = float(np.std(bfac))
+    bfac_z = (bfac - float(np.mean(bfac))) / std if std > 0 else np.zeros_like(bfac)
+
+    # Relative solvent accessibility from all-atom SASA.
+    try:
+        atom_sasa = struc.sasa(ref)
+        atom_sasa = np.nan_to_num(atom_sasa, nan=0.0)
+        res_sasa = struc.apply_residue_wise(ref, atom_sasa, np.sum)
+        max_asa = np.array([_MAX_ASA.get(rn, np.nan) for rn in res_name], dtype=float)
+        rsa = np.clip(res_sasa / max_asa, 0.0, 1.5)
+    except Exception:
+        rsa = np.full(len(starts), np.nan)
+
+    # Secondary structure (P-SEA; CA-based).
+    try:
+        sse = struc.annotate_sse(ref)
+        if len(sse) != len(starts):
+            sse = np.full(len(starts), "", dtype="U1")
+    except Exception:
+        sse = np.full(len(starts), "", dtype="U1")
+
+    # Residues flanking a numbering discontinuity = edges of unmodelled regions.
+    near_gap = np.zeros(len(starts), dtype=bool)
+    for i in range(len(starts) - 1):
+        if chain_id[i] == chain_id[i + 1] and (res_id[i + 1] - res_id[i]) > 1:
+            near_gap[i] = True
+            near_gap[i + 1] = True
+
+    return pd.DataFrame({
+        "chain": chain_id,
+        "res_id": res_id,
+        "ref_bfactor": np.asarray(bfac, dtype=float),
+        "ref_bfactor_z": np.asarray(bfac_z, dtype=float),
+        "rsa": np.asarray(rsa, dtype=float),
+        "sse": np.asarray(sse, dtype=str),
+        "near_chain_gap": near_gap,
+    })
+
+
 def _one_letter(res_names: np.ndarray) -> seq.ProteinSequence:
     """Convert a 3-letter residue-name array to a ProteinSequence (unknown -> X)."""
     letters = []
@@ -181,6 +258,10 @@ def per_residue_scores(ref: struc.AtomArray, sub: struc.AtomArray, metric: str =
     ``ref`` is the experimental reference, ``sub`` the prediction. A ``coverage``
     attribute is attached to the returned frame (``df.attrs['coverage']``).
     """
+    # Computed on the FULL reference: SASA and secondary structure need every
+    # atom, so this must happen before the Ca-only reduction in match_atoms.
+    annotations = reference_annotations(ref)
+
     ref_m, sub_m, coverage, n_ref_res = match_atoms(ref, sub, metric=metric)
 
     lddt = struc.lddt(ref_m, sub_m, aggregation="residue")
@@ -194,6 +275,9 @@ def per_residue_scores(ref: struc.AtomArray, sub: struc.AtomArray, metric: str =
         "plddt": np.asarray(struc.apply_residue_wise(ref_m, sub_m.b_factor, np.mean), dtype=float),
         "n_atoms": np.asarray(struc.apply_residue_wise(ref_m, np.ones(ref_m.array_length()), np.sum), dtype=int),
     })
+    # Attach the disorder proxies for the residues that were actually scored.
+    df = df.merge(annotations, on=["chain", "res_id"], how="left")
+
     # Persisted as a column (constant per target) so downstream steps can filter
     # out poorly-aligned targets; attrs alone would be lost on CSV round-trip.
     df["coverage"] = coverage
