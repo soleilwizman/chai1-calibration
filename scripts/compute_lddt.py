@@ -194,6 +194,9 @@ def per_residue_scores(ref: struc.AtomArray, sub: struc.AtomArray, metric: str =
         "plddt": np.asarray(struc.apply_residue_wise(ref_m, sub_m.b_factor, np.mean), dtype=float),
         "n_atoms": np.asarray(struc.apply_residue_wise(ref_m, np.ones(ref_m.array_length()), np.sum), dtype=int),
     })
+    # Persisted as a column (constant per target) so downstream steps can filter
+    # out poorly-aligned targets; attrs alone would be lost on CSV round-trip.
+    df["coverage"] = coverage
     df.attrs["coverage"] = coverage
     df.attrs["n_ref_residues"] = n_ref_res
     return df
