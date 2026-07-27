@@ -64,8 +64,18 @@ def _tertile_labels(series: pd.Series, names=("low", "mid", "high")) -> pd.Serie
 
 
 def build(lddt_dir: Path, covariates: Optional[Path], msa_depth: Optional[Path],
-          training_identity: Optional[Path]) -> pd.DataFrame:
+          training_identity: Optional[Path], min_coverage: float = 0.8) -> pd.DataFrame:
     df = load_lddt_tables(lddt_dir)
+
+    # Drop targets whose prediction/reference alignment was poor -- their lDDT is
+    # not trustworthy, and including them would quietly bias the calibration.
+    if "coverage" in df.columns and min_coverage > 0:
+        per_target = df.groupby("candidate")["coverage"].first()
+        bad = sorted(per_target[per_target < min_coverage].index)
+        if bad:
+            print(f"Excluding {len(bad)} target(s) with coverage < {min_coverage:.0%}: "
+                  f"{', '.join(bad[:10])}{' ...' if len(bad) > 10 else ''}")
+            df = df[~df["candidate"].isin(bad)].reset_index(drop=True)
 
     meta = _covariate_frame(
         covariates,
@@ -106,6 +116,8 @@ def main() -> int:
     parser.add_argument("--msa-depth", default="data/targets/msa_depth.json")
     parser.add_argument("--training-identity", default="data/targets/training_identity.json")
     parser.add_argument("--out", default="data/analysis/all_residues.csv")
+    parser.add_argument("--min-coverage", type=float, default=0.8,
+                        help="Drop targets whose alignment coverage is below this (0 = keep all)")
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
@@ -119,6 +131,7 @@ def main() -> int:
         covariates=_opt(args.covariates),
         msa_depth=_opt(args.msa_depth),
         training_identity=_opt(args.training_identity),
+        min_coverage=args.min_coverage,
     )
 
     out_path = root / args.out
