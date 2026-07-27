@@ -100,7 +100,7 @@ log "Stage 5: calibration analysis"
 $PY scripts/calibration.py --scores data/analysis/all_residues.csv \
     --plot data/analysis/reliability.png | tee logs/calibration_overall.txt
 
-for covariate in msa_depth_bin novelty_bin ligand_state; do
+for covariate in flexibility structured exposure msa_depth_bin novelty_bin ligand_state; do
   echo
   log "Stratified by ${covariate}"
   $PY scripts/calibration.py --scores data/analysis/all_residues.csv \

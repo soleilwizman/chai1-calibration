@@ -71,6 +71,12 @@ every metric by a covariate (`--by`) to test the hypotheses above.
 - **lDDT is Cα by default** (`--metric ca`), matching what AlphaFold-style pLDDT
   is trained to predict. `--metric all-atom` is available but is *not* the right
   comparison for pLDDT calibration.
+- **Disorder proxies come from the experimental structure** (hypothesis 1):
+  `ref_bfactor_z` (B-factor z-scored within each structure -- raw B-factors
+  aren't comparable across refinements), `rsa`, `sse`, and `near_chain_gap`.
+  Caveat: genuinely disordered residues are usually *absent* from a crystal
+  structure and so have no lDDT to score; these measure flexibility among the
+  residues that *were* modelled, which is a lower bound on the disorder effect.
 - **Stratification bins are computed per target, not per residue**, so a few
   large proteins don't dominate the bin edges. Note residues within a protein are
   correlated: treat per-residue ECE as descriptive and cluster by `candidate` for
