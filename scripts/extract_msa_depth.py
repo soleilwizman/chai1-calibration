@@ -11,15 +11,25 @@ server in stage 3) this computes:
   independent evolutionary signal the model had.
 * ``neff_per_col`` -- ``neff`` divided by query length, a length-normalized depth.
 
-a3m format: lines starting with ``>`` are headers; sequence lines use uppercase /
-``-`` for match columns and lowercase for insertions. Insertions (lowercase and
-``.``) are stripped so every sequence has the query's column count.
+Two input formats are supported:
+
+* **``.aligned.pqt``** -- what Chai-1 actually writes (``<output>/msas/*.pqt``): a
+  parquet table with a ``sequence`` column of already-gap-aligned rows plus a
+  ``source_database`` column (the query row is tagged ``query``). This is the
+  preferred input because it is the exact alignment the model consumed.
+* **``.a3m``** -- headers starting with ``>``; uppercase/``-`` are match columns
+  and lowercase are insertions, which are stripped so every row has the query's
+  column count.
+
+Neff is O(n^2) in the number of sequences, and real MSAs run to tens of thousands
+of rows, so it is computed on a random subsample of ``--max-seqs`` sequences and
+rescaled to the full depth. ``n_sequences`` is always the exact, full count.
 
 Examples
 --------
-Single MSA::
+Single MSA (either format)::
 
-    python scripts/extract_msa_depth.py --a3m predictions/10AF_1/msa/query.a3m
+    python scripts/extract_msa_depth.py --msa predictions/10AF_1/output/msas/*.pqt
 
 All targets under predictions/::
 
@@ -58,72 +68,129 @@ def read_a3m(path: Path) -> List[str]:
     return seqs
 
 
-def compute_neff(seqs: List[str], seqid: float = 0.62) -> Dict[str, float]:
-    """Depth metrics for a list of equal-length match-state sequences.
+def read_aligned_pqt(path: Path) -> List[str]:
+    """Return aligned sequences from a Chai-1 ``.aligned.pqt`` parquet MSA.
 
-    Neff uses the standard HHblits-style weighting: a sequence's weight is the
-    reciprocal of the number of sequences (including itself) that are at least
-    ``seqid`` identical to it, summed over all sequences.
+    Chai-1 writes columns ``sequence, source_database, pairing_key, comment``;
+    rows are already gap-aligned to the query, so no insertion stripping is
+    needed. The query row (``source_database == 'query'``) is kept -- it is part
+    of the depth, and Neff weighting expects it present.
+    """
+    import pandas as pd
+
+    df = pd.read_parquet(path, columns=None)
+    if "sequence" not in df.columns:
+        raise ValueError(f"{path} has no 'sequence' column (found {list(df.columns)})")
+    return [s for s in df["sequence"].astype(str).tolist() if s]
+
+
+def read_msa(path: Path) -> List[str]:
+    """Read either a ``.aligned.pqt`` or ``.a3m`` MSA into aligned sequences."""
+    if path.suffix.lower() == ".pqt" or path.name.endswith(".aligned.pqt"):
+        return read_aligned_pqt(path)
+    return read_a3m(path)
+
+
+def compute_neff(seqs: List[str], seqid: float = 0.62, max_seqs: int = 5000,
+                 seed: int = 0) -> Dict[str, float]:
+    """Depth metrics for a list of equal-length aligned sequences.
+
+    Neff uses HHblits-style weighting: a sequence's weight is the reciprocal of
+    the number of sequences (including itself) at least ``seqid`` identical to
+    it, summed over all sequences.
+
+    Because that is O(n^2 * length) and real MSAs reach tens of thousands of
+    rows, Neff is computed on a random subsample of at most ``max_seqs``
+    sequences and rescaled by ``n / n_sampled``. ``n_sequences`` is always the
+    exact full count, and ``neff_estimated`` records whether subsampling kicked
+    in.
     """
     if not seqs:
-        return {"n_sequences": 0, "neff": 0.0, "neff_per_col": 0.0, "length": 0}
+        return {"n_sequences": 0, "neff": 0.0, "neff_per_col": 0.0,
+                "length": 0, "neff_estimated": False}
 
     length = len(seqs[0])
     seqs = [s for s in seqs if len(s) == length]  # guard against ragged rows
     n = len(seqs)
 
-    # Encode as an integer matrix; gaps map to a distinct symbol.
-    alphabet = {c: i for i, c in enumerate(sorted(set("".join(seqs))))}
-    mat = np.array([[alphabet[c] for c in s] for s in seqs], dtype=np.int16)
+    sampled = seqs
+    estimated = False
+    if n > max_seqs:
+        rng = np.random.default_rng(seed)
+        idx = rng.choice(n, size=max_seqs, replace=False)
+        sampled = [seqs[i] for i in idx]
+        estimated = True
+    m = len(sampled)
 
-    # Pairwise fractional identity over columns, then weight = 1 / cluster size.
-    # O(n^2 * length); fine for typical MSAs, chunked to bound memory.
-    weights = np.zeros(n, dtype=float)
+    # Encode as an integer matrix; gaps map to a distinct symbol.
+    alphabet = {c: i for i, c in enumerate(sorted(set("".join(sampled))))}
+    mat = np.array([[alphabet[c] for c in s] for s in sampled], dtype=np.int16)
+
+    # Chunked pairwise identity: weight = 1 / (# neighbours within `seqid`).
     thresh = seqid * length
-    for i in range(n):
-        matches = (mat == mat[i]).sum(axis=1)      # identity count vs every seq
-        cluster = int((matches >= thresh).sum())   # neighbors incl. self
-        weights[i] = 1.0 / cluster
+    weights = np.zeros(m, dtype=float)
+    chunk = max(1, min(256, m))
+    for start in range(0, m, chunk):
+        block = mat[start:start + chunk]                     # (c, L)
+        matches = (block[:, None, :] == mat[None, :, :]).sum(axis=2)  # (c, m)
+        clusters = (matches >= thresh).sum(axis=1)           # (c,)
+        weights[start:start + chunk] = 1.0 / np.maximum(clusters, 1)
+
     neff = float(weights.sum())
+    if estimated:
+        neff *= n / m  # rescale subsample to full depth
+
     return {
         "n_sequences": n,
         "neff": round(neff, 3),
         "neff_per_col": round(neff / length, 4) if length else 0.0,
         "length": length,
+        "neff_estimated": estimated,
     }
 
 
-def find_a3m(target_dir: Path) -> Optional[Path]:
-    """Locate the query a3m under a target's prediction directory."""
-    candidates = sorted(target_dir.rglob("*.a3m"))
-    return candidates[0] if candidates else None
+def find_msa(target_dir: Path) -> Optional[Path]:
+    """Locate a target's MSA, preferring Chai-1's aligned parquet over a3m."""
+    for pattern in ("*.aligned.pqt", "*.pqt", "*.a3m"):
+        hits = sorted(target_dir.rglob(pattern))
+        if hits:
+            return hits[0]
+    return None
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--a3m", help="Single a3m file to summarize")
-    parser.add_argument("--pred-dir", help="Root dir with one subdir per target holding an a3m")
+    parser.add_argument("--msa", "--a3m", dest="msa",
+                        help="Single MSA file (.aligned.pqt or .a3m) to summarize")
+    parser.add_argument("--pred-dir", help="Root dir with one subdir per target holding an MSA")
     parser.add_argument("--out", help="Output JSON (list of {candidate, ...depth})")
     parser.add_argument("--seqid", type=float, default=0.62, help="Identity threshold for Neff")
+    parser.add_argument("--max-seqs", type=int, default=5000,
+                        help="Subsample cap for the O(n^2) Neff computation")
     args = parser.parse_args()
 
-    if args.a3m:
-        stats = compute_neff(read_a3m(Path(args.a3m)), seqid=args.seqid)
+    if args.msa:
+        stats = compute_neff(read_msa(Path(args.msa)), seqid=args.seqid,
+                             max_seqs=args.max_seqs)
         print(json.dumps(stats, indent=2))
         return 0
 
     if not args.pred_dir:
-        parser.error("provide either --a3m or --pred-dir")
+        parser.error("provide either --msa or --pred-dir")
 
     pred_dir = Path(args.pred_dir)
     rows = []
     for target_dir in sorted(p for p in pred_dir.iterdir() if p.is_dir()):
-        a3m = find_a3m(target_dir)
-        if a3m is None:
-            print(f"Warning: no a3m for {target_dir.name}", file=sys.stderr)
+        msa = find_msa(target_dir)
+        if msa is None:
+            print(f"Warning: no MSA for {target_dir.name}", file=sys.stderr)
             continue
-        stats = compute_neff(read_a3m(a3m), seqid=args.seqid)
+        try:
+            stats = compute_neff(read_msa(msa), seqid=args.seqid, max_seqs=args.max_seqs)
+        except Exception as exc:  # one bad MSA shouldn't kill a 500-target run
+            print(f"Warning: {target_dir.name} MSA unreadable ({exc})", file=sys.stderr)
+            continue
         rows.append({"candidate": target_dir.name, **stats})
 
     payload = json.dumps(rows, indent=2)
