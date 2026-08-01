@@ -48,7 +48,7 @@ scripts under `scripts/`.
 |---|---|---|---|
 | 1 | Target selection & covariates | `extract_candidate_covariates.py` | `data/targets/candidates_covariates.json` |
 | 2 | Download ground-truth structures | `download_structures.py` | `data/raw/cif/*.cif.gz` |
-| 3 | Run Chai-1 predictions | `run_predictions.py` | `predictions/<candidate>/*.cif` |
+| 3 | Run Chai-1 predictions | `run_predictions.py` | `predictions/<candidate>/output/pred.model_idx_0.cif` |
 | 3b | MSA-depth covariate (hyp. 2) | `extract_msa_depth.py` | `data/targets/msa_depth.json` |
 | 3c | Training-identity covariate (hyp. 3) | `extract_training_identity.py` | `data/targets/training_identity.json` |
 | 4 | Compute per-residue lDDT vs pLDDT | `compute_lddt.py` | `data/analysis/per_target/<candidate>.csv` |
@@ -71,18 +71,60 @@ every metric by a covariate (`--by`) to test the hypotheses above.
 - **lDDT is Cα by default** (`--metric ca`), matching what AlphaFold-style pLDDT
   is trained to predict. `--metric all-atom` is available but is *not* the right
   comparison for pLDDT calibration.
+- **Disorder proxies come from the experimental structure** (hypothesis 1):
+  `ref_bfactor_z` (B-factor z-scored within each structure -- raw B-factors
+  aren't comparable across refinements), `rsa`, `sse`, and `near_chain_gap`.
+  Caveat: genuinely disordered residues are usually *absent* from a crystal
+  structure and so have no lDDT to score; these measure flexibility among the
+  residues that *were* modelled, which is a lower bound on the disorder effect.
 - **Stratification bins are computed per target, not per residue**, so a few
   large proteins don't dominate the bin edges. Note residues within a protein are
   correlated: treat per-residue ECE as descriptive and cluster by `candidate` for
   any significance testing.
 
 ### Setup
+
+Analysis-only host (download, scoring, covariates, calibration -- no GPU needed):
+
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Prediction host (stage 3) additionally needs the model, which is GPU-only and so
+is kept out of `requirements.txt`. On a bare CUDA box:
+
+```bash
+apt update && apt install -y git python3-venv python3-pip tmux   # prepend sudo if not root
+git clone https://github.com/soleilwizman/chai1-calibration.git
+cd chai1-calibration
+python3 -m venv .venv && . .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt chai_lab
+nvidia-smi                                    # confirm the GPU is visible
+```
+
+Chai-1 downloads its model weights on first run (several GB), so the first
+prediction takes noticeably longer than the rest. A 24 GB card is ample for this
+target set: a 179-residue target uses ~2 GB.
+
 ### Running the pipeline
+
+The whole batch is one resumable command (see `scripts/run_all.sh`); every stage
+skips work already on disk, so it is safe to interrupt and re-run:
+
+```bash
+mkdir -p logs
+tmux new -s chai                      # so it survives a dropped connection
+./scripts/run_all.sh 2>&1 | tee logs/run_all.log
+# detach: Ctrl-B then D   |   reattach: tmux attach -t chai
+```
+
+Knobs: `MAX_TARGETS=N` (smoke test), `SKIP_DOWNLOAD=1`, `SKIP_PREDICT=1`
+(score on a CPU box), `SKIP_IDENTITY=1`.
+
+Or run the stages individually:
+
 ```bash
 # Stage 2: fetch experimental ground truth (needs RCSB egress access)
 python scripts/download_structures.py
@@ -124,8 +166,9 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
 - `scripts/extract_candidate_covariates.py`: fetch candidate covariate data for analysis
 - `scripts/download_structures.py`: stage 2 — download experimental mmCIF ground truth
 - `scripts/run_predictions.py`: stage 3 — write Chai-1 FASTAs and run predictions
-- `scripts/extract_msa_depth.py`: stage 3b — MSA depth / Neff covariate from a3m files
+- `scripts/extract_msa_depth.py`: stage 3b — MSA depth / Neff from Chai-1 `.aligned.pqt` (or a3m)
 - `scripts/extract_training_identity.py`: stage 3c — max identity to pre-cutoff PDB
 - `scripts/compute_lddt.py`: stage 4 — sequence-aligned per-residue lDDT vs pLDDT
 - `scripts/build_dataset.py`: stage 4b — merge per-target lDDT with covariates
 - `scripts/calibration.py`: stage 5 — reliability curve, ECE/MCE, covariate stratification
+- `scripts/run_all.sh`: driver — runs every stage end to end, resumable

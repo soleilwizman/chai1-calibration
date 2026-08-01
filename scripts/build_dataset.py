@@ -64,8 +64,18 @@ def _tertile_labels(series: pd.Series, names=("low", "mid", "high")) -> pd.Serie
 
 
 def build(lddt_dir: Path, covariates: Optional[Path], msa_depth: Optional[Path],
-          training_identity: Optional[Path]) -> pd.DataFrame:
+          training_identity: Optional[Path], min_coverage: float = 0.8) -> pd.DataFrame:
     df = load_lddt_tables(lddt_dir)
+
+    # Drop targets whose prediction/reference alignment was poor -- their lDDT is
+    # not trustworthy, and including them would quietly bias the calibration.
+    if "coverage" in df.columns and min_coverage > 0:
+        per_target = df.groupby("candidate")["coverage"].first()
+        bad = sorted(per_target[per_target < min_coverage].index)
+        if bad:
+            print(f"Excluding {len(bad)} target(s) with coverage < {min_coverage:.0%}: "
+                  f"{', '.join(bad[:10])}{' ...' if len(bad) > 10 else ''}")
+            df = df[~df["candidate"].isin(bad)].reset_index(drop=True)
 
     meta = _covariate_frame(
         covariates,
@@ -83,6 +93,23 @@ def build(lddt_dir: Path, covariates: Optional[Path], msa_depth: Optional[Path],
     if "nonpolymer_entity_count" in df.columns:
         df["ligand_state"] = np.where(
             df["nonpolymer_entity_count"].fillna(0) > 0, "holo", "apo")
+
+    # Per-residue disorder proxies (hypothesis 1). Unlike the per-target
+    # covariates below, these vary *within* a protein, so they are binned across
+    # all residues directly.
+    if "ref_bfactor_z" in df.columns and df["ref_bfactor_z"].notna().any():
+        # Flexible = B-factor at least 1 sd above this structure's mean.
+        df["flexibility"] = np.where(
+            df["ref_bfactor_z"].isna(), None,
+            np.where(df["ref_bfactor_z"] >= 1.0, "flexible",
+                     np.where(df["ref_bfactor_z"] <= -0.5, "rigid", "intermediate")))
+    if "sse" in df.columns and df["sse"].notna().any():
+        df["structured"] = np.where(df["sse"].isin(["a", "b"]), "helix_or_sheet",
+                                    np.where(df["sse"] == "c", "coil", None))
+    if "rsa" in df.columns and df["rsa"].notna().any():
+        df["exposure"] = np.where(df["rsa"].isna(), None,
+                                  np.where(df["rsa"] >= 0.5, "exposed",
+                                           np.where(df["rsa"] <= 0.2, "buried", "partial")))
 
     # Tertiles are computed per-target (not per-residue) so bin edges aren't
     # dominated by big proteins contributing many rows.
@@ -106,6 +133,8 @@ def main() -> int:
     parser.add_argument("--msa-depth", default="data/targets/msa_depth.json")
     parser.add_argument("--training-identity", default="data/targets/training_identity.json")
     parser.add_argument("--out", default="data/analysis/all_residues.csv")
+    parser.add_argument("--min-coverage", type=float, default=0.8,
+                        help="Drop targets whose alignment coverage is below this (0 = keep all)")
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
@@ -119,6 +148,7 @@ def main() -> int:
         covariates=_opt(args.covariates),
         msa_depth=_opt(args.msa_depth),
         training_identity=_opt(args.training_identity),
+        min_coverage=args.min_coverage,
     )
 
     out_path = root / args.out

@@ -30,9 +30,25 @@ Run predictions for all targets (GPU + chai_lab required)::
 """
 import argparse
 import json
+import shutil
 import sys
 from pathlib import Path
 from typing import Dict, List
+
+
+def _free_gpu_memory() -> None:
+    """Release cached CUDA memory after a failure.
+
+    Without this, one out-of-memory target can leave the allocator fragmented and
+    cause every subsequent target to fail too, turning a single bad protein into
+    a dead batch.
+    """
+    try:
+        import torch  # type: ignore
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    except Exception:
+        pass
 
 
 def load_targets(path: Path) -> List[Dict]:
@@ -105,7 +121,7 @@ def main() -> int:
         targets = targets[: args.max]
 
     out_root = root / args.out_dir
-    staged, predicted = 0, 0
+    staged, predicted, failures = 0, 0, []
     for t in targets:
         target_dir = out_root / t["candidate"]
         chai_out = target_dir / "output"
@@ -113,9 +129,24 @@ def main() -> int:
             continue
         fasta = write_fasta(t, target_dir)
         staged += 1
-        if not args.dry_run:
+        if args.dry_run:
+            continue
+
+        # A single bad target (OOM on a long sequence, a transient MSA-server
+        # error) must not abort a multi-hour batch. On failure, remove the
+        # partial output directory -- Chai-1 asserts its output dir is empty, so
+        # leaving debris behind would make the retry fail too.
+        try:
             run_chai(fasta, chai_out)
             predicted += 1
+        except KeyboardInterrupt:
+            raise
+        except BaseException as exc:  # includes torch OutOfMemoryError
+            failures.append(t["candidate"])
+            print(f"ERROR: {t['candidate']} failed ({type(exc).__name__}: {exc}); "
+                  f"continuing", file=sys.stderr)
+            shutil.rmtree(chai_out, ignore_errors=True)
+            _free_gpu_memory()
 
     mode = "staged FASTA for" if args.dry_run else "predicted"
     print(f"{mode} {staged if args.dry_run else predicted}/{len(targets)} targets "
@@ -123,6 +154,12 @@ def main() -> int:
     if args.dry_run:
         print("Dry run: FASTA inputs written. Run without --dry-run on a GPU host "
               "with chai_lab installed to produce structures.")
+
+    if failures:
+        failed_path = out_root / "failed_targets.txt"
+        failed_path.write_text("\n".join(failures) + "\n", encoding="utf-8")
+        print(f"{len(failures)} target(s) failed; ids written to {failed_path}",
+              file=sys.stderr)
     return 0
 
 
