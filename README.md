@@ -83,10 +83,30 @@ every metric by a covariate (`--by`) to test the hypotheses above.
   any significance testing.
 
 ### Setup
+
+Analysis-only host (download, scoring, covariates, calibration -- no GPU needed):
+
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Prediction host (stage 3) additionally needs the model, which is GPU-only and so
+is kept out of `requirements.txt`. On a bare CUDA box:
+
+```bash
+apt update && apt install -y git python3-venv python3-pip tmux   # prepend sudo if not root
+git clone https://github.com/soleilwizman/chai1-calibration.git
+cd chai1-calibration
+python3 -m venv .venv && . .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt chai_lab
+nvidia-smi                                    # confirm the GPU is visible
+```
+
+Chai-1 downloads its model weights on first run (several GB), so the first
+prediction takes noticeably longer than the rest. A 24 GB card is ample for this
+target set: a 179-residue target uses ~2 GB.
 
 ### Running the pipeline
 
