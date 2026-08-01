@@ -132,6 +132,14 @@ def main() -> int:
         if args.dry_run:
             continue
 
+        # Anything still here is an incomplete attempt: either a crash whose
+        # cleanup ran, or -- crucially -- a run killed by a signal, where the
+        # except-block below never executed. Chai-1 asserts its output dir is
+        # empty, so leftover debris (a partial msas/ directory, say) would make
+        # this target fail on every future run. Clear it so retries self-heal.
+        if chai_out.exists():
+            shutil.rmtree(chai_out, ignore_errors=True)
+
         # A single bad target (OOM on a long sequence, a transient MSA-server
         # error) must not abort a multi-hour batch. On failure, remove the
         # partial output directory -- Chai-1 asserts its output dir is empty, so
