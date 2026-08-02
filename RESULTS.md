@@ -176,6 +176,44 @@ others act. Chai-1 is well calibrated, and in places underconfident, on rigid,
 familiar, ligand-bound structure. Its miscalibration concentrates in mobile
 regions, and compounds there with novelty and ligand absence.
 
+## 7. Ensemble disagreement adds nothing over pLDDT
+
+Chai-1 emits five diffusion samples per target and the pipeline scores only rank
+0. The four discarded models are a free second opinion: mean pairwise Cα lDDT
+across the ten model pairs gives a per-residue *agreement* score that costs no
+additional GPU time. If disagreement flagged errors better than the model's own
+confidence, it would be an easy win for anyone filtering on pLDDT.
+
+It does not.
+
+| signal | Spearman vs lDDT | AUROC (flag worst decile) |
+|---|---|---|
+| **pLDDT** (model's own) | **0.691** | **0.914** |
+| ensemble agreement | 0.591 | 0.854 |
+| combined (rank average) | 0.687 | 0.899 |
+
+pLDDT wins on both measures, and the naive combination is *worse* than pLDDT
+alone — expected when an unweighted average dilutes a stronger signal with a
+weaker one correlated at 0.73.
+
+An unweighted average is a weak test of complementarity, so we also tested
+incremental value directly: regress lDDT on pLDDT and correlate agreement with
+the residual. The result is **−0.036** — indistinguishable from zero. Ensemble
+agreement carries no information about accuracy that pLDDT does not already
+contain.
+
+**Why.** The five samples share weights, MSA, and trunk representation, differing
+only in diffusion noise. Their spread measures *sampling variance* within one
+converged prediction, not the model's uncertainty about whether that prediction
+is right. pLDDT, by contrast, is produced by a head trained against true
+structures, so it can express error modes on which all five samples happily
+agree. Agreement is blind exactly where the model is confidently wrong.
+
+**Practical consequence:** scoring one model per target is sufficient. There is
+no reason to compute ensemble disagreement as a confidence signal for this model,
+and the result is a positive characterization of pLDDT — a trained confidence
+head that outperforms the obvious model-free alternative and subsumes it.
+
 ## Statistical approach
 
 Point estimates are pooled over all residues. Intervals and significance come
@@ -217,8 +255,10 @@ MSA-depth results from apparently-established to not-established.
    least accurate (lDDT 0.889) group in every table. These targets have not been
    characterized.
 
-6. **Single model per target.** Only the rank-0 prediction was scored; Chai-1
-   emits five. Ensemble disagreement is an unused confidence signal.
+6. **Single model per target**, which §7 shows is sufficient: ensemble
+   disagreement across all five samples is redundant with pLDDT. This does not
+   rule out other uses of the discarded samples (e.g. as an accuracy estimate
+   rather than a confidence signal).
 
 ## Reproducing
 
