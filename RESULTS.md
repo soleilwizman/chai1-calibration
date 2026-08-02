@@ -4,8 +4,9 @@ Calibration of Chai-1's per-residue confidence (pLDDT) against realized accuracy
 (Cα lDDT) on 511 experimental protein structures released 2024–2026, after the
 model's training cutoff.
 
-> **Status:** preliminary. All figures below are per-residue and unclustered;
-> see [Limitations](#limitations) before drawing inferential conclusions.
+> **Status:** preliminary. Stratified tables are per-residue and descriptive;
+> all confidence intervals and significance claims come from a bootstrap that
+> resamples whole targets. See [Limitations](#limitations).
 
 ## Dataset
 
@@ -37,11 +38,33 @@ residues paired by global sequence alignment rather than residue numbering.
 | Mean lDDT | 0.9413 |
 
 Averaged over all residues, Chai-1 claims 94.70% confidence and delivers 94.13%
-accuracy — an over-claim of 0.57 percentage points. On unseen structures, its
-confidence head is close to honest.
+accuracy — an over-claim of 0.57 percentage points (95% CI [+0.31, +0.84] pp,
+bootstrapped over targets). On unseen structures, its confidence head is close to
+honest.
 
-This average conceals systematic structure, which the remainder of this section
-characterizes.
+### The mean is not the typical protein
+
+Resolved per target, that pooled average turns out to describe almost no
+individual protein:
+
+| statistic over 511 targets | overconfidence |
+|---|---|
+| median | **−0.07 pp** |
+| IQR | [−1.13, +2.09] pp |
+| range | [−7.18, +17.27] pp |
+| targets overconfident | 249 / 511 (**48.7%**) |
+
+The median target is very slightly *under*confident, and barely half of targets
+are overconfident at all — yet the pooled mean is +0.57 pp. The aggregate is
+produced by a minority of badly-calibrated targets with a long right tail, not by
+a population-wide bias.
+
+The operative framing is therefore not "Chai-1 is mildly overconfident" but
+**"Chai-1 is well calibrated on the typical protein, with a subpopulation where
+it fails badly."** For anyone using pLDDT as a filter, the question that matters
+is which targets fall in that tail — not a small global correction.
+
+The sections below characterize what distinguishes them.
 
 ## 2. Miscalibration concentrates in mobile regions
 
@@ -55,7 +78,9 @@ a geometric assignment, and a surface property:
 | Secondary structure | helix/sheet +0.20 | coil +0.93 | 4.7× |
 | Solvent accessibility | buried +0.31 | exposed +1.23 | 4.0× |
 
-All three are monotonic and agree in direction.
+All three are monotonic and agree in direction. The flexible − rigid contrast is
+**+1.87 pp, 95% CI [+1.37, +2.37] pp** (bootstrapped over targets) — the largest
+and most precisely estimated effect in this analysis.
 
 The mechanism is visible in the component columns. Between rigid and flexible
 residues, realized accuracy falls by **7.98 pp** (0.962 → 0.882) while confidence
@@ -74,19 +99,20 @@ Stratified by maximum sequence identity to any PDB entry released before
 | mid | 95.55 | 0.948 | +0.76 |
 | low (novel) | 94.57 | 0.937 | +0.91 |
 
-Monotonic across the range. Accuracy declines by 1.9 pp from familiar to novel
-targets while confidence declines by only 0.77 pp — the same under-adjustment
-seen for flexibility.
+Monotonic across the range, and significant under target-clustered resampling:
+low − high novelty = **+1.22 pp, 95% CI [+0.65, +1.79] pp**. Accuracy declines by
+1.9 pp from familiar to novel targets while confidence declines by only 0.77 pp —
+the same under-adjustment seen for flexibility.
 
 On familiar targets Chai-1 is slightly **under**confident. Overconfidence
 emerges only as targets become novel.
 
-## 4. Ligand-free structures are harder, beyond their mobility
+## 4. Ligand-free structures: suggestive, not established
 
 Marginally, apo structures are both less accurate (0.924 vs 0.944) and worse
 calibrated (+1.02 vs +0.50 pp) than holo. Because ligand binding rigidifies
-proteins, this could be flexibility observed through a correlated variable. It
-is not:
+proteins, this could be flexibility observed through a correlated variable.
+Stratifying by flexibility shows the gap does not vanish:
 
 | flexibility | apo | holo | gap |
 |---|---|---|---|
@@ -95,14 +121,20 @@ is not:
 | rigid | +0.46 | +0.14 | +0.32 |
 | *marginal* | | | *+0.52* |
 
-The gap survives at every level of flexibility. Notably, the gap among flexible
-residues (+1.72 pp) is more than three times the marginal estimate (+0.52 pp),
-which is diluted by the rigid and holo residues that dominate the pooled
-average.
+**However, the effect does not reach significance once targets are treated as
+the unit of analysis:** apo − holo = +0.52 pp, 95% CI [−0.18, +1.25] pp. Apo/holo
+is a target-level property, so all of a target's residues carry the same label
+and the residue count contributes no independent information — precisely the
+situation where per-residue stratification is most misleading. With 15,069 apo
+residues drawn from a modest number of apo targets, the design is
+underpowered for this comparison.
 
-This is mechanistically expected: Chai-1 predicts from sequence alone and has no
-way to know whether a ligand is present. Where a bound ligand would rigidify a
-mobile region, the ligand-free structure is more variable than the model assumes.
+The direction is consistent with a plausible mechanism — Chai-1 predicts from
+sequence alone and cannot know whether a ligand is present, so where a bound
+ligand would rigidify a mobile region the apo structure is more variable than the
+model assumes — but this dataset does not establish the effect. Testing it
+properly would need a target set enriched for apo structures (the baseline query
+yields only 122 apo clusters; see README).
 
 ## 5. MSA depth shows no consistent effect
 
@@ -116,7 +148,9 @@ than mid. Stratifying by flexibility resolves this as noise rather than signal:
 | intermediate | +0.13 |
 | rigid | +0.31 |
 
-The sign is inconsistent across strata and every magnitude is below 0.35 pp.
+The sign is inconsistent across strata and every magnitude is below 0.35 pp. The
+target-clustered contrast agrees: low − high depth = **+0.15 pp, 95% CI
+[−0.49, +0.78] pp**.
 
 **We do not find support for the hypothesis that calibration degrades with MSA
 depth.** One plausible explanation is restriction of range: the target set is
@@ -132,19 +166,37 @@ holds throughout. Effect sizes within each flexibility bin:
 | effect | rigid | flexible | amplification |
 |---|---|---|---|
 | Novelty (low − high) | +0.88 pp | +2.11 pp | 2.4× |
-| Ligand-free (apo − holo) | +0.32 pp | +1.72 pp | 5.4× |
+| Ligand-free (apo − holo)* | +0.32 pp | +1.72 pp | 5.4× |
+
+\* the ligand-free effect is not significant on its own (§4); the amplification
+pattern is reported for completeness, and rests on the novelty row.
 
 Local mobility is not one factor among several — it is the axis along which the
 others act. Chai-1 is well calibrated, and in places underconfident, on rigid,
 familiar, ligand-bound structure. Its miscalibration concentrates in mobile
 regions, and compounds there with novelty and ligand absence.
 
+## Statistical approach
+
+Point estimates are pooled over all residues. Intervals and significance come
+from a percentile bootstrap over **targets** (2,000 replicates,
+`scripts/cluster_analysis.py`): each replicate draws 511 targets with
+replacement, re-pools their residues, and recomputes the statistic. Contrasts
+draw both strata under the same target sample, which preserves the pairing when a
+target contributes residues to both levels.
+
+Target clustering widens intervals roughly fourfold relative to a residue-level
+bootstrap. That difference is not cosmetic — it is what moves the apo/holo and
+MSA-depth results from apparently-established to not-established.
+
 ## Limitations
 
-1. **Residues are not independent.** All figures are per-residue across 511
-   proteins. Within-protein correlation means the effective sample size is far
-   below 115,275, and no significance testing is reported here. Any inferential
-   claim requires clustering by target.
+1. **Residues are not independent**, and this is now accounted for. Stratified
+   tables are per-residue and should be read descriptively; every interval and
+   significance claim comes from a bootstrap that resamples whole *targets*
+   (`scripts/cluster_analysis.py`), which is ~4x wider than a residue-level
+   interval. Two effects that look convincing per-residue — apo/holo and MSA
+   depth — do not survive this correction.
 
 2. **The disorder effect is a lower bound.** Genuinely disordered residues are
    usually absent from crystal structures and therefore have no lDDT to score.
