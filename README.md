@@ -189,4 +189,6 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
 - `scripts/compute_lddt.py`: stage 4 — sequence-aligned per-residue lDDT vs pLDDT
 - `scripts/build_dataset.py`: stage 4b — merge per-target lDDT with covariates
 - `scripts/calibration.py`: stage 5 — reliability curve, ECE/MCE, covariate stratification
+- `scripts/cluster_analysis.py`: target-clustered bootstrap CIs (residues are not independent)
+- `scripts/ensemble_agreement.py`: per-residue agreement across Chai-1's 5 samples, vs pLDDT
 - `scripts/run_all.sh`: driver — runs every stage end to end, resumable
