@@ -16,6 +16,18 @@ The baseline candidate pool is defined as:
 
 This query returns 2,814 entities collapsing to 559 clusters when deduplicated at 30% sequence identity.
 
+### Non-standard monomer exclusion (559 → 512)
+Targets containing non-standard monomers (`entity_poly.rcsb_non_std_monomer_count > 0`
+— selenomethionine, phosphoserine, and similar modified residues) are excluded
+during covariate extraction. Chai-1 predicts standard amino acids from sequence, so
+where the experimental structure contains a chemically modified residue the lDDT
+comparison would be against something the model was never asked to produce.
+
+This removes **47 of the 559 clusters, leaving 512 targets**, which is the set
+carried through prediction and analysis. The exclusion is applied in
+`extract_candidate_covariates.py`, not in the RCSB query, which is why the query
+above still reports 559.
+
 We do not filter on `nonpolymer_entity_count` in the baseline. Apo/holo status should be recorded as a covariate and analyzed separately because it represents a real confound for sequence-only prediction.
 
 ### Sensitivity variants
@@ -40,9 +52,9 @@ We do not filter on `nonpolymer_entity_count` in the baseline. Apo/holo status s
 - Deduplication at 30% sequence identity is performed server-side by the RCSB query with `group_by`.
 
 ## Pipeline
-The project runs as a sequence of stages. Stage 1 is complete (559 curated
-targets + covariates are committed); the remaining stages are implemented as
-scripts under `scripts/`.
+The project runs as a sequence of stages. Stage 1 is complete (512 curated
+targets + covariates are committed — 559 clusters minus the 47 excluded above);
+the remaining stages are implemented as scripts under `scripts/`.
 
 | # | Stage | Script | Output |
 |---|---|---|---|
