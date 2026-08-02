@@ -25,10 +25,19 @@ Per-target covariates come from the metadata files; residue-level properties
 fractions, since a target's *composition* is what could plausibly explain its
 calibration.
 
+The tail can be defined two ways. By rank (``--top 20``) it is simply the worst
+targets by overconfidence, which mixes two behaviours: a model that is
+confidently wrong, and one that already flags low confidence and merely
+under-adjusts. Only the first defeats a pLDDT filter. ``--min-plddt`` /
+``--max-lddt`` isolate that failure mode directly.
+
 Examples
 --------
     python scripts/tail_analysis.py --per-target data/analysis/per_target_calibration.csv \
         --scores data/analysis/all_residues.csv --top 20
+
+    # high-confidence errors only: the failures a pLDDT threshold would not catch
+    python scripts/tail_analysis.py --min-plddt 90 --max-lddt 0.85
 """
 import argparse
 import json
@@ -145,6 +154,12 @@ def main() -> int:
                         help="Tail size by --metric (0 to use --quantile instead)")
     parser.add_argument("--quantile", type=float, default=0.10,
                         help="Tail fraction when --top is 0")
+    parser.add_argument("--min-plddt", type=float, default=None,
+                        help="Define the tail by threshold rather than rank: keep "
+                             "targets with mean pLDDT above this (combine with "
+                             "--max-lddt to isolate high-confidence errors)")
+    parser.add_argument("--max-lddt", type=float, default=None,
+                        help="Threshold rule: keep targets with mean lDDT below this")
     parser.add_argument("--perm", type=int, default=5000)
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--out", default=None, help="Optional CSV for the ranked table")
@@ -159,11 +174,44 @@ def main() -> int:
     df = per_target.merge(feats, on="candidate", how="left")
 
     df = df.sort_values(args.metric, ascending=False).reset_index(drop=True)
-    k = args.top if args.top > 0 else max(1, int(round(len(df) * args.quantile)))
-    df["is_tail"] = False
-    df.loc[df.index[:k], "is_tail"] = True
 
-    print(f"targets={len(df)}   tail = worst {k} by {args.metric}")
+    def _col(*names):
+        return next((c for c in names if c in df.columns), None)
+    plddt_col, lddt_col = _col("mean_plddt", "mean_plddt_x"), _col("mean_lddt", "mean_lddt_x")
+
+    if args.min_plddt is not None or args.max_lddt is not None:
+        # Threshold rule. Ranking by overconfidence conflates a model that is
+        # confidently wrong with one that flags low confidence and merely
+        # under-adjusts; only the former defeats a pLDDT filter, and only the
+        # former is worth a practitioner's attention.
+        mask = pd.Series(True, index=df.index)
+        parts = []
+        if args.min_plddt is not None:
+            if plddt_col is None:
+                raise KeyError("--min-plddt needs a mean_plddt column")
+            mask &= df[plddt_col] > args.min_plddt
+            parts.append(f"pLDDT > {args.min_plddt:g}")
+        if args.max_lddt is not None:
+            if lddt_col is None:
+                raise KeyError("--max-lddt needs a mean_lddt column")
+            mask &= df[lddt_col] < args.max_lddt
+            parts.append(f"lDDT < {args.max_lddt:g}")
+        df["is_tail"] = mask.to_numpy()
+        k = int(mask.sum())
+        rule = " and ".join(parts)
+        print(f"targets={len(df)}   tail = {k} targets with {rule}")
+        if k == 0:
+            print("No target meets the rule; nothing to test.")
+            return 1
+        if k < 10:
+            print(f"WARNING: only {k} targets meet the rule — the scan below is "
+                  f"badly underpowered and should be read as descriptive only.")
+    else:
+        k = args.top if args.top > 0 else max(1, int(round(len(df) * args.quantile)))
+        df["is_tail"] = False
+        df.loc[df.index[:k], "is_tail"] = True
+        print(f"targets={len(df)}   tail = worst {k} by {args.metric}")
+
     print(f"tail {args.metric}: {df.loc[df.is_tail, args.metric].min():+.4f} .. "
           f"{df.loc[df.is_tail, args.metric].max():+.4f}")
     print(f"rest {args.metric}: {df.loc[~df.is_tail, args.metric].min():+.4f} .. "
@@ -173,7 +221,9 @@ def main() -> int:
     show = [c for c in ["candidate", args.metric, "mean_plddt", "mean_plddt_x",
                         "mean_lddt", "mean_lddt_x", "n_residues", "mean_coverage"]
             if c in df.columns]
-    print(df.head(min(k, 20))[show].to_string(index=False))
+    display = df[df.is_tail] if (args.min_plddt is not None or args.max_lddt is not None) \
+        else df.head(min(k, 20))
+    print(display.head(30)[show].to_string(index=False))
 
     # Outcomes and any merge-collision duplicates are not candidate explanations.
     skip = {"candidate", "is_tail", "n", "ece", "mce", "overconfidence",
@@ -181,7 +231,9 @@ def main() -> int:
     numeric = [c for c in df.columns
                if c not in skip and not c.endswith(("_x", "_y"))
                and pd.api.types.is_numeric_dtype(df[c])
-               and df[c].notna().sum() >= 20 and df[c].nunique() > 2]
+               # >= 2 distinct values, i.e. exclude only constants: a genuine
+               # binary flag is a legitimate covariate and was being dropped.
+               and df[c].notna().sum() >= 20 and df[c].nunique() >= 2]
 
     rows = []
     tail = df["is_tail"].to_numpy()
