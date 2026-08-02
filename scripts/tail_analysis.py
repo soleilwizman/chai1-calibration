@@ -51,18 +51,33 @@ def auc(values: np.ndarray, is_tail: np.ndarray) -> float:
 
 def permutation_p(values: np.ndarray, is_tail: np.ndarray,
                   n_perm: int = 5000, seed: int = 0) -> float:
-    """Two-sided permutation p-value for the observed AUC."""
+    """Two-sided permutation p-value for the observed AUC.
+
+    Ranks are invariant under relabelling, so they are computed once and each
+    replicate only re-sums the ranks of a fresh random tail. That turns the
+    inner loop into a sum over ``npos`` values instead of a re-rank of the whole
+    column, which is the difference between seconds and minutes across a dozen
+    covariates.
+    """
     s = pd.DataFrame({"v": values, "t": is_tail}).dropna()
-    if s["t"].sum() == 0 or len(s) < 5:
+    if len(s) < 5:
         return float("nan")
-    obs = abs(auc(s["v"].to_numpy(), s["t"].to_numpy().astype(bool)) - 0.5)
-    rng = np.random.default_rng(seed)
+    ranks = s["v"].rank().to_numpy()
     labels = s["t"].to_numpy().astype(bool)
-    vals = s["v"].to_numpy()
-    hits = 0
-    for _ in range(n_perm):
-        hits += abs(auc(vals, rng.permutation(labels)) - 0.5) >= obs
-    return float((hits + 1) / (n_perm + 1))
+    npos, nneg = int(labels.sum()), int((~labels).sum())
+    if npos == 0 or nneg == 0:
+        return float("nan")
+
+    denom = npos * nneg
+    const = npos * (npos + 1) / 2
+    obs = abs((ranks[labels].sum() - const) / denom - 0.5)
+
+    rng = np.random.default_rng(seed)
+    n = len(ranks)
+    # One (n_perm, npos) draw of tail memberships, vectorised.
+    picks = np.argpartition(rng.random((n_perm, n)), npos, axis=1)[:, :npos]
+    stats = np.abs((ranks[picks].sum(axis=1) - const) / denom - 0.5)
+    return float((int((stats >= obs).sum()) + 1) / (n_perm + 1))
 
 
 def load_target_covariates(root: Path) -> pd.DataFrame:
