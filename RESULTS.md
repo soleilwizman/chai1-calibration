@@ -220,7 +220,7 @@ no reason to compute ensemble disagreement as a confidence signal for this model
 and the result is a positive characterization of pLDDT — a trained confidence
 head that outperforms the obvious model-free alternative and subsumes it.
 
-## 8. The badly-calibrated tail is novel, not flexible
+## 8. The tail is novel, not flexible — but the confidently-wrong tail is neither
 
 Section 1 established that the pooled overconfidence is a tail phenomenon. The
 worst 20 targets (overconfidence +6.6 to +17.3 pp) sit well clear of the rest
@@ -292,8 +292,69 @@ should worry a user:
 The second group is largely benign in practice: pLDDT in the 60s and 70s already
 tells a user not to trust the model. The first is the failure that costs
 something — a pLDDT-based filter set anywhere below 94 accepts all three.
-Isolating high-confidence errors specifically (e.g. pLDDT > 90 with lDDT < 0.85)
-would be the more actionable target definition, and is left for future work.
+
+### Confidently wrong is a different tail, and novelty does not explain it
+
+Re-running the same scan with the tail defined by a **threshold on confidence and
+accuracy** rather than by overconfidence rank isolates that first group directly.
+Two cuts were run, a strict one and a looser one, to check whether the ranking is
+an artifact of where the line is drawn:
+
+| definition | targets |
+|---|---|
+| pLDDT > 90 and lDDT < 0.85 | 9 |
+| pLDDT > 85 and lDDT < 0.88 | 41 |
+
+At the loose threshold (n = 41), covariates ordered by effect size (|AUC − 0.5|;
+AUC < 0.5 means the tail sits *lower* on that covariate):
+
+| covariate | AUC | tail median | rest median | p |
+|---|---|---|---|---|
+| mean RSA | 0.620 | 0.270 | 0.252 | 0.012 |
+| residue count | 0.393 | 183 | 218 | 0.024 |
+| entity length | 0.397 | 187 | 222.5 | 0.032 |
+| fraction flexible | 0.404 | 0.132 | 0.142 | 0.041 |
+| max identity to any PDB entry | 0.405 | 0.909 | 0.995 | 0.051 |
+| max identity to pre-cutoff PDB | 0.408 | 0.516 | 0.916 | 0.039 |
+| fraction exposed | 0.581 | 0.181 | 0.164 | 0.089 |
+
+**Nothing clears Bonferroni at either threshold** (p < 0.0025 for 20 tests), so
+everything below is hypothesis-generating.
+
+What is stable across the two cuts is a **size/exposure cluster**. At n = 9,
+residue count ranked first (p = 0.013); at n = 41, mean RSA, residue count and
+entity length take the top three slots. Confidently-wrong targets are shorter and
+more solvent-exposed than the rest. These three covariates are not independent
+measurements — shorter proteins have a higher surface-to-volume ratio, and
+`entity_length` is the sequence-level twin of `n_residues` — so this is one
+signal appearing three times, not three converging lines of evidence.
+
+What is *not* stable is novelty. In the rank-based tail it was the single
+strongest separator; under the strict threshold it fell to rank 11 (p = 0.46),
+and at the loose threshold it sits mid-table by rank separation (AUC 0.408)
+despite the largest median contrast in the scan (0.52 vs 0.92 identity to
+pre-cutoff PDB). That combination — big median gap, modest AUC — means the
+novelty effect here is carried by a subset of the tail rather than shifting it as
+a whole.
+
+The dissociation this establishes:
+
+| tail definition | what it selects | top covariate |
+|---|---|---|
+| worst 20 by overconfidence | over-claiming, mostly at low pLDDT | novelty |
+| pLDDT high, lDDT low | confident and wrong | size / exposure |
+
+Novelty explains why the model *over-claims*, which it does most visibly on
+targets whose pLDDT already signals doubt. It does not explain the failures that
+matter operationally, where high pLDDT accompanies a wrong structure. Those
+targets look small and exposed instead, which is a plausible mechanism — a short,
+surface-dominated domain has fewer long-range contacts constraining the fold, and
+Cα lDDT is sensitive to exactly that — but at n = 9–41 with nothing surviving
+correction, it is a lead, not a result.
+
+Flexibility again fails to separate the tail (AUC 0.404), and in the direction
+opposite to the mobility hypothesis: confidently-wrong targets are slightly
+*less* flexible than the rest. The §2/§3 split holds under both tail definitions.
 
 ## Statistical approach
 
@@ -342,10 +403,17 @@ MSA-depth results from apparently-established to not-established.
    rather than a confidence signal).
 
 7. **The tail is characterized but not explained.** Novelty ranks first among
-   twenty covariates and is independently significant, but no covariate clears
-   correction for multiplicity, and the covariates tested are limited to
-   sequence, structure-quality and MSA properties. Whatever additionally
-   distinguishes the worst 20 targets is not captured here.
+   twenty covariates for the rank-defined tail and is independently significant,
+   but no covariate clears correction for multiplicity under any tail definition,
+   and the covariates tested are limited to sequence, structure-quality and MSA
+   properties. Whatever additionally distinguishes the worst targets is not
+   captured here.
+
+8. **The confidently-wrong subset is small.** Only 9 targets satisfy pLDDT > 90
+   with lDDT < 0.85, and 41 satisfy the loosened cut. The size/exposure signal in
+   §8 is consistent across both, but no scan at that sample size can be more than
+   hypothesis-generating, and the three covariates involved measure much the same
+   thing.
 
 ## Reproducing
 
@@ -358,4 +426,6 @@ python scripts/cluster_analysis.py --scores data/analysis/all_residues.csv \
     --contrast flexibility:flexible-rigid --contrast novelty_bin:low-high
 python scripts/ensemble_agreement.py --compare
 python scripts/tail_analysis.py --top 20
+python scripts/tail_analysis.py --min-plddt 90 --max-lddt 0.85   # confidently wrong
+python scripts/tail_analysis.py --min-plddt 85 --max-lddt 0.88   # loosened, n=41
 ```
