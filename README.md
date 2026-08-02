@@ -162,6 +162,12 @@ python scripts/build_dataset.py --lddt-dir data/analysis/per_target \
 # Stage 5: analyze, stratifying by any covariate column
 python scripts/calibration.py --scores data/analysis/all_residues.csv \
     --plot data/analysis/reliability.png --by msa_depth_bin   # or novelty_bin, ligand_state
+
+# Two covariates cross-tabulated, to check whether a marginal difference is
+# confounded. If the apo/holo gap collapses once flexibility is held fixed,
+# the marginal apo penalty was mobility all along.
+python scripts/calibration.py --scores data/analysis/all_residues.csv \
+    --by flexibility,ligand_state
 ```
 
 > **Note:** stages 2–3 require outbound network / GPU access. Stage 2 pulls
