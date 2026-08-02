@@ -1,5 +1,20 @@
 # chai1-calibration
 
+Is Chai-1's per-residue confidence (pLDDT) honest on structures it has never
+seen? We predicted 511 crystal structures released after the training cutoff and
+compared claimed confidence against realized Cα lDDT, residue by residue.
+
+- **[REPORT.md](REPORT.md)** — the full write-up: what Chai-1 is, what we
+  measured and why, what it showed, and what it says about the model. Start here.
+- **[RESULTS.md](RESULTS.md)** — the same findings condensed, with every number.
+
+Headline: Chai-1 is close to honest overall (ECE 0.0057, +0.57 pp over-claim),
+but that average hides a bad tail — the *median* target is slightly
+under-confident and only 48.7% are overconfident at all. Miscalibration
+concentrates in mobile regions within a protein (+1.87 pp) and on novel targets
+across proteins (+1.22 pp); MSA depth shows no effect, and ensemble disagreement
+across Chai-1's five samples adds nothing over pLDDT.
+
 ## Hypotheses
 - pLDDT is systematically overconfident on residues in intrinsically disordered regions.
 - Confidence degrades with MSA depth, and the calibration degrades faster than the accuracy does (i.e. the model does not know that it does not know).
