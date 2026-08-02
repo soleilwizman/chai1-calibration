@@ -107,7 +107,11 @@ def residue_composition(scores: pd.DataFrame) -> pd.DataFrame:
             r["frac_coil"] = float((g["structured"] == "coil").mean())
         if "exposure" in g:
             r["frac_exposed"] = float((g["exposure"] == "exposed").mean())
-        for col in ("ref_bfactor_z", "ref_bfactor", "rsa", "coverage", "plddt", "lddt"):
+        # Deliberately excludes plddt/lddt: per_target_calibration.csv already has
+        # them, and they are outcomes, not covariates -- overconfidence is defined
+        # as mean_conf - mean_acc, so ranking mean_lddt against the tail would
+        # rediscover that definition and crowd out real explanations.
+        for col in ("ref_bfactor_z", "ref_bfactor", "rsa", "coverage"):
             if col in g:
                 r[f"mean_{col}"] = float(g[col].mean())
         if "near_chain_gap" in g:
@@ -151,14 +155,17 @@ def main() -> int:
           f"{df.loc[~df.is_tail, args.metric].max():+.4f}\n")
 
     print("=== worst targets ===")
-    show = ["candidate", args.metric, "mean_plddt", "mean_lddt", "n_residues"]
-    show = [c for c in show if c in df.columns]
+    show = [c for c in ["candidate", args.metric, "mean_plddt", "mean_plddt_x",
+                        "mean_lddt", "mean_lddt_x", "n_residues", "mean_coverage"]
+            if c in df.columns]
     print(df.head(min(k, 20))[show].to_string(index=False))
 
+    # Outcomes and any merge-collision duplicates are not candidate explanations.
     skip = {"candidate", "is_tail", "n", "ece", "mce", "overconfidence",
             "mean_plddt", "mean_lddt"}
     numeric = [c for c in df.columns
-               if c not in skip and pd.api.types.is_numeric_dtype(df[c])
+               if c not in skip and not c.endswith(("_x", "_y"))
+               and pd.api.types.is_numeric_dtype(df[c])
                and df[c].notna().sum() >= 20 and df[c].nunique() > 2]
 
     rows = []
