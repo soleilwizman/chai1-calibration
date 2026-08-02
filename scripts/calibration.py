@@ -102,18 +102,48 @@ def summarize(plddt, lddt, n_bins: int = 20) -> CalibrationSummary:
     )
 
 
-def stratified_summary(df: pd.DataFrame, by: str, n_bins: int = 20,
+def stratified_summary(df: pd.DataFrame, by, n_bins: int = 20,
                        min_count: int = 50) -> pd.DataFrame:
-    """Compute the calibration summary within each level of a covariate column."""
-    if by not in df.columns:
-        raise KeyError(f"Stratification column '{by}' not in table columns {list(df.columns)}")
+    """Calibration summary within each level (or combination of levels) of a covariate.
+
+    ``by`` is a column name, or a list of names for a cross-tabulated
+    (interaction) stratification. Two columns are what you want when a marginal
+    difference might be confounded: comparing apo vs holo *within* each
+    flexibility bin shows whether the apo penalty survives adjustment for
+    mobility, or was mobility all along.
+    """
+    cols = [by] if isinstance(by, str) else list(by)
+    missing = [c for c in cols if c not in df.columns]
+    if missing:
+        raise KeyError(f"Stratification column(s) {missing} not in table columns {list(df.columns)}")
+
     rows = []
-    for level, g in df.groupby(by, dropna=False):
+    group_key = cols[0] if len(cols) == 1 else cols
+    for level, g in df.groupby(group_key, dropna=False):
         if len(g) < min_count:
             continue
+        levels = (level,) if len(cols) == 1 else level
         s = summarize(g["plddt"].to_numpy(), g["lddt"].to_numpy(), n_bins=n_bins)
-        rows.append({by: level, **asdict(s)})
-    return pd.DataFrame(rows).sort_values(by).reset_index(drop=True)
+        rows.append({**dict(zip(cols, levels)), **asdict(s)})
+
+    if not rows:
+        return pd.DataFrame(columns=cols + list(asdict(summarize([], [])).keys()))
+    return pd.DataFrame(rows).sort_values(cols).reset_index(drop=True)
+
+
+def interaction_gap(strat: pd.DataFrame, outer: str, inner: str,
+                    metric: str = "overconfidence") -> pd.DataFrame:
+    """Pivot a two-way stratification and show the inner-covariate gap per outer level.
+
+    The gap column is what answers the confounding question: if the marginal
+    difference between two inner levels shrinks toward zero once ``outer`` is
+    held fixed, the marginal effect was largely explained by ``outer``.
+    """
+    piv = strat.pivot(index=outer, columns=inner, values=metric)
+    if piv.shape[1] == 2:
+        a, b = list(piv.columns)
+        piv[f"{a}_minus_{b}"] = piv[a] - piv[b]
+    return piv
 
 
 def plot_reliability(plddt, lddt, out_path: Path, n_bins: int = 20,
@@ -162,7 +192,12 @@ def main() -> int:
     parser.add_argument("--scores", required=True,
                         help="CSV/Parquet with 'plddt' and 'lddt' columns")
     parser.add_argument("--plot", default=None, help="Path to save reliability diagram")
-    parser.add_argument("--by", default=None, help="Covariate column to stratify by")
+    parser.add_argument("--by", default=None,
+                        help="Covariate column to stratify by. Comma-separate two columns "
+                             "(e.g. --by flexibility,ligand_state) for a cross-tabulated "
+                             "interaction, which also prints the per-level gap.")
+    parser.add_argument("--gap-metric", default="overconfidence",
+                        help="Metric used for the interaction gap table (default: overconfidence)")
     parser.add_argument("--bins", type=int, default=20)
     parser.add_argument("--min-count", type=int, default=50)
     args = parser.parse_args()
@@ -179,10 +214,30 @@ def main() -> int:
         print(f"  {k:16s}: {v:.4f}" if isinstance(v, float) else f"  {k:16s}: {v}")
 
     if args.by:
-        print(f"\n=== Stratified by '{args.by}' ===")
-        strat = stratified_summary(df, args.by, n_bins=args.bins, min_count=args.min_count)
-        with pd.option_context("display.width", 120, "display.max_columns", None):
+        cols = [c.strip() for c in args.by.split(",") if c.strip()]
+        label = " x ".join(cols)
+        print(f"\n=== Stratified by '{label}' ===")
+        strat = stratified_summary(df, cols, n_bins=args.bins, min_count=args.min_count)
+        with pd.option_context("display.width", 140, "display.max_columns", None):
             print(strat.to_string(index=False))
+
+        if len(cols) == 2 and not strat.empty:
+            outer, inner = cols
+            print(f"\n=== {args.gap_metric}: {inner} gap within each {outer} ===")
+            try:
+                gap = interaction_gap(strat, outer, inner, metric=args.gap_metric)
+                with pd.option_context("display.width", 140, "display.max_columns", None):
+                    print(gap.to_string())
+                marginal = stratified_summary(df, inner, n_bins=args.bins,
+                                              min_count=args.min_count)
+                if len(marginal) == 2:
+                    m = marginal.set_index(inner)[args.gap_metric]
+                    a, b = marginal[inner].tolist()
+                    print(f"\nmarginal (unstratified) {a} - {b}: {m[a] - m[b]:+.5f}")
+                    print("A within-level gap much smaller than the marginal one means the "
+                          f"marginal {inner} difference is largely explained by {outer}.")
+            except Exception as exc:
+                print(f"(could not build gap table: {exc})", file=sys.stderr)
 
     if args.plot:
         plot_reliability(df["plddt"].to_numpy(), df["lddt"].to_numpy(),
