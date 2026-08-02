@@ -176,6 +176,12 @@ others act. Chai-1 is well calibrated, and in places underconfident, on rigid,
 familiar, ligand-bound structure. Its miscalibration concentrates in mobile
 regions, and compounds there with novelty and ligand absence.
 
+**This is a statement about residues within a protein, not about proteins.** §8
+shows that a target's overall share of flexible residues does not predict whether
+that target is badly calibrated (AUC 0.469, p = 0.64). Mobility explains where
+inside a structure confidence is unreliable; it does not explain which structures
+fail.
+
 ## 7. Ensemble disagreement adds nothing over pLDDT
 
 Chai-1 emits five diffusion samples per target and the pipeline scores only rank
@@ -213,6 +219,81 @@ agree. Agreement is blind exactly where the model is confidently wrong.
 no reason to compute ensemble disagreement as a confidence signal for this model,
 and the result is a positive characterization of pLDDT — a trained confidence
 head that outperforms the obvious model-free alternative and subsumes it.
+
+## 8. The badly-calibrated tail is novel, not flexible
+
+Section 1 established that the pooled overconfidence is a tail phenomenon. The
+worst 20 targets (overconfidence +6.6 to +17.3 pp) sit well clear of the rest
+(−7.2 to +6.1 pp), so this is a distinct group rather than an arbitrary cut
+through a continuum. All twenty have alignment coverage of 1.000, ruling out a
+scoring artifact: these predictions are genuinely wrong.
+
+Twenty per-target covariates were scored by how well each separates the tail
+(rank AUC, permutation p-value, Bonferroni-corrected):
+
+| covariate | tail median | rest median | AUC | p |
+|---|---|---|---|---|
+| **max identity to pre-cutoff PDB** | **0.42** | **0.91** | 0.329 | 0.0058 |
+| **pre-cutoff homologs found** | **12** | **68** | 0.334 | 0.0132 |
+| residue count | 180 | 217 | 0.389 | 0.092 |
+| mean RSA | 0.266 | 0.254 | 0.607 | 0.112 |
+| mean B-factor z | 0.00 | 0.00 | 0.604 | 0.116 |
+| ... | | | | |
+| fraction flexible | 0.137 | 0.141 | 0.469 | 0.64 |
+| fraction coil | 0.505 | 0.517 | 0.441 | 0.38 |
+
+**No covariate clears the Bonferroni threshold** (p < 0.0025 for 20 tests). Taken
+as a pure exploratory scan, the tail is unexplained by anything measured.
+
+Two qualifications point the other way, though. The two top-ranked covariates are
+the same underlying quantity — sequence similarity to structures released before
+the training cutoff — and the effect is large: tail targets sit at 42% maximum
+identity against 91% for the rest. And novelty was not discovered here; it is a
+pre-specified hypothesis, independently significant in §3 (+1.22 pp, 95% CI
+[+0.65, +1.79]). A 20-test penalty is the right correction for the eighteen
+exploratory covariates, not for a hypothesis stated in advance. This is a
+consistent second look at an established effect rather than a new claim.
+
+### Flexibility does not explain which targets fail
+
+The clearest result here is negative. `frac_flexible` — the target-level share of
+mobile residues — has **AUC 0.469, p = 0.64**: no relationship to tail membership
+whatsoever. The same holds for coil fraction and mean B-factor z-score.
+
+This dissociates two effects that a single pooled analysis would blur:
+
+| | what varies | what predicts miscalibration |
+|---|---|---|
+| **within a protein** | which residues | mobility (§2, +1.87 pp) |
+| **across proteins** | which targets | novelty (§3, §8) — *not* mobility |
+
+The interpretation is mechanical rather than surprising. Every protein contains
+flexible loops, so mobility explains *where inside a structure* confidence is
+unreliable but cannot distinguish one target from another. Novelty is a
+whole-target property, so it is what separates the target that fails from the one
+that does not.
+
+Practically: a target's flexibility profile is not a usable warning sign, whereas
+low sequence identity to anything in the pre-cutoff PDB is.
+
+### The tail metric conflates two failure modes
+
+Ranking by overconfidence mixes two behaviours that differ in how much they
+should worry a user:
+
+| target | pLDDT | lDDT | |
+|---|---|---|---|
+| 8VO2_1 | 94.6 | 0.773 | confident and wrong |
+| 9RI7_1 | 97.1 | 0.804 | confident and wrong |
+| 9TNG_1 | 97.3 | 0.873 | confident and wrong |
+| 9FWA_1 | 62.8 | 0.504 | signals low confidence, still over-claims |
+| 8KA7_1 | 72.2 | 0.627 | signals low confidence, still over-claims |
+
+The second group is largely benign in practice: pLDDT in the 60s and 70s already
+tells a user not to trust the model. The first is the failure that costs
+something — a pLDDT-based filter set anywhere below 94 accepts all three.
+Isolating high-confidence errors specifically (e.g. pLDDT > 90 with lDDT < 0.85)
+would be the more actionable target definition, and is left for future work.
 
 ## Statistical approach
 
@@ -260,10 +341,21 @@ MSA-depth results from apparently-established to not-established.
    rule out other uses of the discarded samples (e.g. as an accuracy estimate
    rather than a confidence signal).
 
+7. **The tail is characterized but not explained.** Novelty ranks first among
+   twenty covariates and is independently significant, but no covariate clears
+   correction for multiplicity, and the covariates tested are limited to
+   sequence, structure-quality and MSA properties. Whatever additionally
+   distinguishes the worst 20 targets is not captured here.
+
 ## Reproducing
 
 ```bash
 ./scripts/run_all.sh                       # full pipeline
 python scripts/calibration.py --scores data/analysis/all_residues.csv --by flexibility
 python scripts/calibration.py --scores data/analysis/all_residues.csv --by flexibility,ligand_state
+
+python scripts/cluster_analysis.py --scores data/analysis/all_residues.csv \
+    --contrast flexibility:flexible-rigid --contrast novelty_bin:low-high
+python scripts/ensemble_agreement.py --compare
+python scripts/tail_analysis.py --top 20
 ```
