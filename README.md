@@ -191,4 +191,5 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
 - `scripts/calibration.py`: stage 5 — reliability curve, ECE/MCE, covariate stratification
 - `scripts/cluster_analysis.py`: target-clustered bootstrap CIs (residues are not independent)
 - `scripts/ensemble_agreement.py`: per-residue agreement across Chai-1's 5 samples, vs pLDDT
+- `scripts/tail_analysis.py`: which covariates distinguish the badly-calibrated targets
 - `scripts/run_all.sh`: driver — runs every stage end to end, resumable
