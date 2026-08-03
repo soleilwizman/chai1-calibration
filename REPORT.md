@@ -514,6 +514,7 @@ python scripts/cluster_analysis.py --scores data/analysis/all_residues.csv \
 python scripts/ensemble_agreement.py --compare
 python scripts/tail_analysis.py --top 20
 python scripts/tail_analysis.py --min-plddt 90 --max-lddt 0.85
+python scripts/reliability_curve.py --plot data/analysis/reliability_curve.png
 ```
 
 Stages 2–3 need network egress (RCSB / wwPDB, the MSA server) and a GPU. A 24 GB

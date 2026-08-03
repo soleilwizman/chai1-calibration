@@ -247,6 +247,8 @@ file and its size.
 - `scripts/compute_lddt.py`: stage 4 — sequence-aligned per-residue lDDT vs pLDDT
 - `scripts/build_dataset.py`: stage 4b — merge per-target lDDT with covariates
 - `scripts/calibration.py`: stage 5 — reliability curve, ECE/MCE, covariate stratification
+- `scripts/reliability_curve.py`: the reliability curve itself -- per-bin gap with
+  clustered CIs, an MCE diagnosis, and a pLDDT-threshold table
 - `scripts/cluster_analysis.py`: target-clustered bootstrap CIs (residues are not independent)
 - `scripts/ensemble_agreement.py`: per-residue agreement across Chai-1's 5 samples, vs pLDDT
 - `scripts/tail_analysis.py`: which covariates distinguish the badly-calibrated targets
