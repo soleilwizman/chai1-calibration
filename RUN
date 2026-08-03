@@ -1,0 +1,51 @@
+import sys; sys.path.insert(0, "scripts")
+from pathlib import Path
+import numpy as np
+import biotite.structure as struc
+from compute_lddt import load_structure
+
+ref = load_structure(Path("data/raw/cif/10AF.cif.gz"))
+b = ref.b_factor
+print(f"atoms={len(b)}  min={b.min():.2f}  max={b.max():.2f}  mean={b.mean():.2f}")
+
+# per-residue, printed as a terminal sparkline
+starts = struc.get_residue_starts(ref)
+ids = ref.res_id[starts]
+vals = struc.apply_residue_wise(ref, b, np.mean)
+for i, v in zip(ids, vals):
+    print(f"{i:4d} {v:6.1f} {'█' * int(v / 2)}")
+
+print(f"std={vals.std():.2f}  flexible (z>=1) = {(vals > vals.mean() + vals.std()).sum()}/{len(vals)}")
+
+import sys; sys.path.insert(0, "scripts")
+from pathlib import Path
+import numpy as np
+import matplotlib; matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import biotite.structure as struc
+from compute_lddt import load_structure
+
+ref = load_structure(Path("data/raw/cif/10AF.cif.gz"))
+
+starts = struc.get_residue_starts(ref)
+ids  = ref.res_id[starts]
+vals = struc.apply_residue_wise(ref, ref.b_factor, np.mean)
+
+mean, std = vals.mean(), vals.std()
+flexible = vals > mean + std
+print(f"mean={mean:.2f}  std={std:.2f}")
+print(f"flexible (z>=1): {flexible.sum()}/{len(vals)} residues")
+print("flexible residue ids:", ids[flexible].tolist())
+
+fig, ax = plt.subplots(figsize=(11, 4))
+ax.plot(ids, vals, color="#1f77b4", lw=1.2)
+ax.axhline(mean, color="gray", ls="--", lw=1, label=f"mean {mean:.1f}")
+ax.axhline(mean + std, color="#d62728", ls="--", lw=1, label="mean + 1 sd (flexible)")
+ax.scatter(ids[flexible], vals[flexible], color="#d62728", s=25, zorder=3)
+ax.set_xlabel("residue number")
+ax.set_ylabel("B-factor (Å²)")
+ax.set_title("10AF — crystallographic B-factor per residue")
+ax.legend()
+fig.tight_layout()
+fig.savefig("bfactor.png", dpi=130)
+print("wrote bfactor.png")

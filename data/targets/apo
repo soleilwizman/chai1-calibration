@@ -1,0 +1,34 @@
+
+import sys; sys.path.insert(0, "scripts")
+import pandas as pd
+from calibration import summarize
+
+df = pd.read_csv("data/analysis/all_residues.csv")
+
+print("=== 1. Is apo actually more flexible? (the proposed mechanism) ===")
+print((pd.crosstab(df.ligand_state, df.flexibility, normalize="index") * 100).round(1))
+print("\nmean B-factor z-score by ligand state:")
+print(df.groupby("ligand_state")["ref_bfactor_z"].mean().round(3))
+
+print("\n=== 2. apo vs holo WITHIN each flexibility bin ===")
+rows = []
+for flex in ["rigid", "intermediate", "flexible"]:
+    for lig in ["apo", "holo"]:
+        sub = df[(df.flexibility == flex) & (df.ligand_state == lig)]
+        if len(sub) < 50:
+            continue
+        s = summarize(sub.plddt.to_numpy(), sub.lddt.to_numpy())
+        rows.append({"flexibility": flex, "ligand": lig, "n": s.n,
+                     "overconf_pp": round(s.overconfidence * 100, 3),
+                     "ece": round(s.ece, 4),
+                     "mean_plddt": round(s.mean_plddt, 2),
+                     "mean_lddt": round(s.mean_lddt, 4)})
+out = pd.DataFrame(rows)
+print(out.to_string(index=False))
+
+print("\n=== 3. apo - holo gap within each bin ===")
+piv = out.pivot(index="flexibility", columns="ligand", values="overconf_pp")
+piv["apo_minus_holo"] = piv["apo"] - piv["holo"]
+print(piv.round(3))
+print("\nmarginal (unstratified) apo-holo gap was +0.52 pp")
+PY
