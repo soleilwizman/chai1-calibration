@@ -111,6 +111,28 @@ def bootstrap_metric(slabs: np.ndarray, metric: str = "overconfidence",
             "se": float(np.nanstd(reps)), "n_targets": n}
 
 
+def coerce_level(series: pd.Series, level: str):
+    """Match a command-line level string to the column's dtype.
+
+    ``--contrast`` levels arrive as strings, but ``near_chain_gap`` is a genuine
+    bool and several covariates are numeric. Comparing a bool column to the
+    string ``"True"`` selects *nothing* and yields an empty stratum whose metrics
+    are silently NaN, so the level is converted before comparison.
+    """
+    if pd.api.types.is_bool_dtype(series):
+        low = level.strip().lower()
+        if low in ("true", "t", "1", "yes"):
+            return True
+        if low in ("false", "f", "0", "no"):
+            return False
+    elif pd.api.types.is_numeric_dtype(series):
+        try:
+            return pd.to_numeric(level)
+        except (TypeError, ValueError):
+            pass
+    return level
+
+
 def bootstrap_contrast(df: pd.DataFrame, column: str, level_a: str, level_b: str,
                        metric: str = "overconfidence", n_bins: int = 20,
                        n_boot: int = 2000, seed: int = 0,
@@ -122,8 +144,18 @@ def bootstrap_contrast(df: pd.DataFrame, column: str, level_a: str, level_b: str
     residue-level covariates such as flexibility) and is what makes the interval
     a valid test of the difference rather than of two independent means.
     """
-    _, slabs_a = per_target_bins(df, n_bins, subset=df[column] == level_a)
-    _, slabs_b = per_target_bins(df, n_bins, subset=df[column] == level_b)
+    a_val = coerce_level(df[column], level_a)
+    b_val = coerce_level(df[column], level_b)
+    mask_a, mask_b = df[column] == a_val, df[column] == b_val
+    if not mask_a.any() or not mask_b.any():
+        levels = sorted(str(v) for v in df[column].dropna().unique()[:12])
+        raise ValueError(
+            f"contrast '{column}: {level_a} - {level_b}' selected "
+            f"{int(mask_a.sum())} and {int(mask_b.sum())} residues; "
+            f"available levels are {levels}")
+
+    _, slabs_a = per_target_bins(df, n_bins, subset=mask_a)
+    _, slabs_b = per_target_bins(df, n_bins, subset=mask_b)
 
     def diff(sa, sb):
         ma = metrics_from_bins(sa.sum(axis=0))[metric]
@@ -204,8 +236,12 @@ def main() -> int:
             if column not in df.columns:
                 print(f"  skipping '{spec}': no column '{column}'")
                 continue
-            r = bootstrap_contrast(df, column, a, b, metric=args.metric,
-                                   n_bins=args.bins, n_boot=args.boot, seed=args.seed)
+            try:
+                r = bootstrap_contrast(df, column, a, b, metric=args.metric,
+                                       n_bins=args.bins, n_boot=args.boot, seed=args.seed)
+            except ValueError as exc:
+                print(f"  skipping '{spec}': {exc}")
+                continue
             flag = "significant" if r["excludes_zero"] else "n.s."
             print(f"  {r['contrast']:38s} {r['point']:+.5f}  "
                   f"95% CI [{r['lo']:+.5f}, {r['hi']:+.5f}]  {flag}")
