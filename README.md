@@ -1,5 +1,20 @@
 # chai1-calibration
 
+Is Chai-1's per-residue confidence (pLDDT) honest on structures it has never
+seen? We predicted 511 crystal structures released after the training cutoff and
+compared claimed confidence against realized Cα lDDT, residue by residue.
+
+- **[REPORT.md](REPORT.md)** — the full write-up: what Chai-1 is, what we
+  measured and why, what it showed, and what it says about the model. Start here.
+- **[RESULTS.md](RESULTS.md)** — the same findings condensed, with every number.
+
+Headline: Chai-1 is close to honest overall (ECE 0.0057, +0.57 pp over-claim),
+but that average hides a bad tail — the *median* target is slightly
+under-confident and only 48.7% are overconfident at all. Miscalibration
+concentrates in mobile regions within a protein (+1.87 pp) and on novel targets
+across proteins (+1.22 pp); MSA depth shows no effect, and ensemble disagreement
+across Chai-1's five samples adds nothing over pLDDT.
+
 ## Hypotheses
 - pLDDT is systematically overconfident on residues in intrinsically disordered regions.
 - Confidence degrades with MSA depth, and the calibration degrades faster than the accuracy does (i.e. the model does not know that it does not know).
@@ -15,6 +30,18 @@ The baseline candidate pool is defined as:
 - sequence length 100–400
 
 This query returns 2,814 entities collapsing to 559 clusters when deduplicated at 30% sequence identity.
+
+### Non-standard monomer exclusion (559 → 512)
+Targets containing non-standard monomers (`entity_poly.rcsb_non_std_monomer_count > 0`
+— selenomethionine, phosphoserine, and similar modified residues) are excluded
+during covariate extraction. Chai-1 predicts standard amino acids from sequence, so
+where the experimental structure contains a chemically modified residue the lDDT
+comparison would be against something the model was never asked to produce.
+
+This removes **47 of the 559 clusters, leaving 512 targets**, which is the set
+carried through prediction and analysis. The exclusion is applied in
+`extract_candidate_covariates.py`, not in the RCSB query, which is why the query
+above still reports 559.
 
 We do not filter on `nonpolymer_entity_count` in the baseline. Apo/holo status should be recorded as a covariate and analyzed separately because it represents a real confound for sequence-only prediction.
 
@@ -40,9 +67,9 @@ We do not filter on `nonpolymer_entity_count` in the baseline. Apo/holo status s
 - Deduplication at 30% sequence identity is performed server-side by the RCSB query with `group_by`.
 
 ## Pipeline
-The project runs as a sequence of stages. Stage 1 is complete (559 curated
-targets + covariates are committed); the remaining stages are implemented as
-scripts under `scripts/`.
+The project runs as a sequence of stages. Stage 1 is complete (512 curated
+targets + covariates are committed — 559 clusters minus the 47 excluded above);
+the remaining stages are implemented as scripts under `scripts/`.
 
 | # | Stage | Script | Output |
 |---|---|---|---|
@@ -150,7 +177,51 @@ python scripts/build_dataset.py --lddt-dir data/analysis/per_target \
 # Stage 5: analyze, stratifying by any covariate column
 python scripts/calibration.py --scores data/analysis/all_residues.csv \
     --plot data/analysis/reliability.png --by msa_depth_bin   # or novelty_bin, ligand_state
+
+# Two covariates cross-tabulated, to check whether a marginal difference is
+# confounded. If the apo/holo gap collapses once flexibility is held fixed,
+# the marginal apo penalty was mobility all along.
+python scripts/calibration.py --scores data/analysis/all_residues.csv \
+    --by flexibility,ligand_state
 ```
+
+### Preserving a run before the GPU host is destroyed
+
+`predictions/`, `data/analysis/` and `data/raw/cif/` are all gitignored, so a
+finished batch lives on exactly one machine. Rescue it in this order — cheapest
+and most irreplaceable first:
+
+```bash
+./scripts/archive_run.sh          # inventory + checksums + commit the small stuff
+git push -u origin <branch>       # ~50 MB: per-residue scores and covariates
+```
+
+That alone preserves every number in `RESULTS.md`. What it cannot hold is the
+raw model output:
+
+| asset | size | cost to recreate |
+|---|---|---|
+| `predictions/**/pred.model_idx_*.cif` + `scores.*.npz` | GB | the full GPU batch (~a day) |
+| `predictions/**/msas/*.aligned.pqt` | GB | re-fetchable, but **not reproducible** — the MSA server's database moves, so new alignments would not match the `neff` values already computed |
+| `data/raw/cif/` | ~150 MB | re-downloadable from wwPDB, no GPU |
+| `data/analysis/` | ~50 MB | recomputable on CPU from the two above |
+
+Upload the large directories somewhere durable — this needs no second copy on
+disk, which matters if the instance is nearly full:
+
+```bash
+pip install -U huggingface_hub && hf auth login
+hf upload <user>/chai1-calibration-run predictions predictions --repo-type dataset
+hf upload <user>/chai1-calibration-run data/raw/cif data/raw/cif --repo-type dataset
+```
+
+Or pull them to another machine: `rsync -avP gpu-host:~/chai1-calibration/predictions ./`.
+`./scripts/archive_run.sh --tar` builds tarballs instead, but needs free space
+equal to what it is archiving.
+
+**Verify before terminating.** Read one file back from the destination and check
+it against `archive/predictions_filelist.tsv`, which records every prediction
+file and its size.
 
 > **Note:** stages 2–3 require outbound network / GPU access. Stage 2 pulls
 > structures from `files.wwpdb.org` (the canonical wwPDB HTTPS egress host),
@@ -171,4 +242,8 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
 - `scripts/compute_lddt.py`: stage 4 — sequence-aligned per-residue lDDT vs pLDDT
 - `scripts/build_dataset.py`: stage 4b — merge per-target lDDT with covariates
 - `scripts/calibration.py`: stage 5 — reliability curve, ECE/MCE, covariate stratification
+- `scripts/cluster_analysis.py`: target-clustered bootstrap CIs (residues are not independent)
+- `scripts/ensemble_agreement.py`: per-residue agreement across Chai-1's 5 samples, vs pLDDT
+- `scripts/tail_analysis.py`: which covariates distinguish the badly-calibrated targets
 - `scripts/run_all.sh`: driver — runs every stage end to end, resumable
+- `scripts/archive_run.sh`: preserve a finished run before tearing down the GPU host
