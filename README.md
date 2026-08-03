@@ -185,6 +185,44 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
     --by flexibility,ligand_state
 ```
 
+### Preserving a run before the GPU host is destroyed
+
+`predictions/`, `data/analysis/` and `data/raw/cif/` are all gitignored, so a
+finished batch lives on exactly one machine. Rescue it in this order — cheapest
+and most irreplaceable first:
+
+```bash
+./scripts/archive_run.sh          # inventory + checksums + commit the small stuff
+git push -u origin <branch>       # ~50 MB: per-residue scores and covariates
+```
+
+That alone preserves every number in `RESULTS.md`. What it cannot hold is the
+raw model output:
+
+| asset | size | cost to recreate |
+|---|---|---|
+| `predictions/**/pred.model_idx_*.cif` + `scores.*.npz` | GB | the full GPU batch (~a day) |
+| `predictions/**/msas/*.aligned.pqt` | GB | re-fetchable, but **not reproducible** — the MSA server's database moves, so new alignments would not match the `neff` values already computed |
+| `data/raw/cif/` | ~150 MB | re-downloadable from wwPDB, no GPU |
+| `data/analysis/` | ~50 MB | recomputable on CPU from the two above |
+
+Upload the large directories somewhere durable — this needs no second copy on
+disk, which matters if the instance is nearly full:
+
+```bash
+pip install -U huggingface_hub && hf auth login
+hf upload <user>/chai1-calibration-run predictions predictions --repo-type dataset
+hf upload <user>/chai1-calibration-run data/raw/cif data/raw/cif --repo-type dataset
+```
+
+Or pull them to another machine: `rsync -avP gpu-host:~/chai1-calibration/predictions ./`.
+`./scripts/archive_run.sh --tar` builds tarballs instead, but needs free space
+equal to what it is archiving.
+
+**Verify before terminating.** Read one file back from the destination and check
+it against `archive/predictions_filelist.tsv`, which records every prediction
+file and its size.
+
 > **Note:** stages 2–3 require outbound network / GPU access. Stage 2 pulls
 > structures from `files.wwpdb.org` (the canonical wwPDB HTTPS egress host),
 > falling back to the RCSB mirrors (`models.rcsb.org`, `files.rcsb.org`). In
@@ -208,3 +246,4 @@ python scripts/calibration.py --scores data/analysis/all_residues.csv \
 - `scripts/ensemble_agreement.py`: per-residue agreement across Chai-1's 5 samples, vs pLDDT
 - `scripts/tail_analysis.py`: which covariates distinguish the badly-calibrated targets
 - `scripts/run_all.sh`: driver — runs every stage end to end, resumable
+- `scripts/archive_run.sh`: preserve a finished run before tearing down the GPU host
