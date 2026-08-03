@@ -74,6 +74,18 @@ log "  $(wc -l < "$OUT/predictions_filelist.tsv") prediction files listed"
 
 # ---------------------------------------------------------------- 2. git
 if [ "$DO_GIT" = "1" ]; then
+  # A fresh cloud box usually has no git identity, and `git commit` fails on it.
+  # Catch that here rather than after staging, so the failure is legible.
+  if ! git config user.email >/dev/null || ! git config user.name >/dev/null; then
+    log "ERROR: git has no identity on this host, so the commit would fail. Run:"
+    log "    git config user.email \"you@example.com\""
+    log "    git config user.name  \"Your Name\""
+    log "then re-run this script. Continuing with inventory/tarballs only."
+    DO_GIT=0
+  fi
+fi
+
+if [ "$DO_GIT" = "1" ]; then
   log "Committing small derived outputs (force-add past .gitignore)"
   # all_residues.csv is tens of MB; store it compressed.
   if [ -f data/analysis/all_residues.csv ] && [ ! -f data/analysis/all_residues.csv.gz ]; then
@@ -91,13 +103,17 @@ if [ "$DO_GIT" = "1" ]; then
   git add -f data/analysis/per_target 2>/dev/null
   if git diff --cached --quiet; then
     log "  nothing new to commit"
-  else
-    git commit -q -m "Archive run outputs: per-residue scores, per-target calibration, covariates
+  elif git commit -q -m "Archive run outputs: per-residue scores, per-target calibration, covariates
 
 Derived outputs from the 511-target batch, committed so they survive the GPU
 host. Predictions and reference structures are too large for git and are
-archived separately; archive/MANIFEST.txt records what existed on the host."
-    log "  committed -- now: git push -u origin \$(git rev-parse --abbrev-ref HEAD)"
+archived separately; archive/MANIFEST.txt records what existed on the host."; then
+    log "  committed $(git show --stat --oneline HEAD | tail -1)"
+    log "  now: git push -u origin $(git rev-parse --abbrev-ref HEAD)"
+    log "  (GitHub needs a personal access token as the password, not your password)"
+  else
+    log "ERROR: commit failed. The files are still STAGED and nothing is lost --"
+    log "  fix the cause above, then re-run 'git commit' or this script."
   fi
 fi
 
