@@ -27,12 +27,16 @@ Four findings:
    targets that fail badly (up to +17 pp). The right mental model is not
    "slightly overconfident everywhere" but **"well calibrated, with a bad tail."**
 
-3. **Inside a protein, miscalibration lives in mobile regions.** Flexible
-   residues are over-claimed by +1.87 pp more than rigid ones (95% CI
-   [+1.37, +2.37]) — the largest and best-estimated effect here, confirmed by
-   three independent proxies. The mechanism is visible: from rigid to flexible
-   residues, accuracy drops 7.98 pp while confidence drops only 6.11 pp. The
-   model knows mobile regions are harder. It does not know *how much* harder.
+3. **Inside a protein, miscalibration lives in mobile regions** — and peaks at
+   the edge of disorder. Flexible residues are over-claimed by +1.87 pp more than
+   rigid ones (95% CI [+1.37, +2.37]), confirmed by three independent proxies.
+   Residues flanking an actual break in the crystal — where density ran out —
+   are over-claimed by **+8.10 pp** (95% CI [+4.34, +12.22]), 15.7× the global
+   rate and the largest effect in the study. The mechanism is visible throughout:
+   from rigid to flexible residues accuracy drops 7.98 pp while confidence drops
+   6.11 pp, and at a chain break accuracy drops 18.4 pp against 10.3 pp of
+   confidence. The model knows these regions are harder. It does not know *how
+   much* harder.
 
 4. **Across proteins, what predicts failure is novelty, not flexibility.** A
    target's overall flexibility says nothing about whether that target is badly
@@ -256,10 +260,28 @@ it is not blind to them — but it lowers it by too little. **Confidence degrade
 more slowly than accuracy.** That specific shape is what a well-trained but
 insufficiently pessimistic confidence head looks like.
 
-An important caveat: genuinely disordered residues are usually *absent* from
-crystal structures, so they have no lDDT to score, and our ≤10-unmodeled-residue
-filter excludes the most disordered proteins outright. This is flexibility among
-residues that *were* modeled — a lower bound on the disorder effect.
+**And the closer you get to real disorder, the worse it gets.** All three proxies
+above measure mobility among residues the crystallographer could model. A fourth
+covariate reaches past that: the residues flanking an actual break in the
+experimental chain, where density ran out entirely. Those 204 residues (across 90
+targets) are over-claimed by **+8.65 pp against a global +0.57 pp** — 15.7×, and
+**+8.10 pp, 95% CI [+4.34, +12.22]** under target clustering. It is the largest
+effect in the study.
+
+It is not mobility relabeled: holding flexibility fixed, gap adjacency still
+multiplies overconfidence by ~5× (flexible 1.97 → 10.07 pp; intermediate
+0.44 → 2.34 pp). And the under-adjustment is at its most extreme — accuracy
+falls 18.4 pp at a gap boundary while confidence falls 10.3 pp. Chai-1 clearly
+detects these residues; it still captures only half of what goes wrong.
+
+This quantifies the caveat rather than removing it. Genuinely disordered residues
+are *absent* from crystal structures, so they have no lDDT to score at all, and
+the ≤10-unmodeled-residue filter admits only the mildest gaps. The +1.87 pp
+mobility effect is a lower bound, and +8.65 pp at a chain break says how loose a
+bound it is. A jump in residue numbering is not always missing density —
+numbering conventions and engineered deletions produce one too — but those false
+positives are ordinary residues that dilute the contrast toward zero, so the
+figure is a floor.
 
 ### Across proteins: novelty, not mobility
 
@@ -470,9 +492,10 @@ Ordered by value per GPU-hour:
    the worst-calibrated group in the dataset and we do not know what it is.
 3. **An apo-enriched target set** to give the ligand hypothesis a fair test.
 4. **A shallow-MSA target set** to give the MSA-depth hypothesis a fair test.
-5. **`near_chain_gap`** is computed by `compute_lddt.py` and never analyzed —
-   proximity to an unmodeled region is the most direct disorder proxy available
-   and it is sitting unused in the data.
+5. **Spot-check the 204 gap-flanking residues** against their mmCIF. The effect
+   is large, significant and spread over 90 targets, but it rests on residue
+   numbering as a proxy for missing density. At n = 204 that is checkable by
+   hand, and worth checking before the number is quoted anywhere.
 
 ---
 

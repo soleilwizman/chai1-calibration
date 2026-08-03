@@ -12,8 +12,10 @@ Headline: Chai-1 is close to honest overall (ECE 0.0057, +0.57 pp over-claim),
 but that average hides a bad tail — the *median* target is slightly
 under-confident and only 48.7% are overconfident at all. Miscalibration
 concentrates in mobile regions within a protein (+1.87 pp) and on novel targets
-across proteins (+1.22 pp); MSA depth shows no effect, and ensemble disagreement
-across Chai-1's five samples adds nothing over pLDDT.
+across proteins (+1.22 pp), and peaks at the edge of disorder — residues flanking
+an unmodeled stretch are over-claimed by +8.10 pp, 15.7x the global rate. MSA
+depth shows no effect, and ensemble disagreement across Chai-1's five samples
+adds nothing over pLDDT.
 
 ## Hypotheses
 - pLDDT is systematically overconfident on residues in intrinsically disordered regions.
@@ -102,8 +104,11 @@ every metric by a covariate (`--by`) to test the hypotheses above.
   `ref_bfactor_z` (B-factor z-scored within each structure -- raw B-factors
   aren't comparable across refinements), `rsa`, `sse`, and `near_chain_gap`.
   Caveat: genuinely disordered residues are usually *absent* from a crystal
-  structure and so have no lDDT to score; these measure flexibility among the
-  residues that *were* modelled, which is a lower bound on the disorder effect.
+  structure and so have no lDDT to score; the first three measure flexibility
+  among the residues that *were* modelled, which is a lower bound on the disorder
+  effect. `near_chain_gap` -- residues flanking an actual break in the chain --
+  reaches closest to real disorder and carries by far the largest effect
+  (+8.10 pp, 95% CI [+4.34, +12.22]); see RESULTS.md section 2.
 - **Stratification bins are computed per target, not per residue**, so a few
   large proteins don't dominate the bin edges. Note residues within a protein are
   correlated: treat per-residue ECE as descriptive and cluster by `candidate` for

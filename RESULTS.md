@@ -88,6 +88,51 @@ falls by only **6.11 pp** (96.4 → 90.3). Chai-1 recognizes that mobile regions
 are harder — it does lower pLDDT — but it does not lower it enough. **Confidence
 degrades more slowly than accuracy.**
 
+### Residues flanking unmodeled density are the extreme case
+
+The three proxies above measure mobility among residues the crystallographer
+*could* model. A fourth covariate reaches closer to real disorder:
+`near_chain_gap` flags the residues on either side of a break in the
+experimental chain — the boundary of a stretch with no interpretable density.
+
+| | n | mean pLDDT | mean lDDT | overconfidence |
+|---|---|---|---|---|
+| not near a gap | 115,071 | 94.72 | 0.942 | +0.55 pp |
+| **flanking a gap** | **204** | **84.43** | **0.758** | **+8.65 pp** |
+
+**+8.10 pp, 95% CI [+4.34, +12.22]** under target-clustered resampling —
+**15.7× the baseline rate**, and the largest effect in this analysis by a wide
+margin. The 204 residues come from **90 different targets** (at most 12 from any
+one), so this is a general property rather than a few pathological structures.
+
+The same under-adjustment appears in its most extreme form. Accuracy falls
+**18.4 pp** at a gap boundary; confidence falls only **10.3 pp**. Chai-1 plainly
+detects these residues — a ten-point pLDDT drop is not a subtle response — and
+still captures barely half of what goes wrong.
+
+**This is not mobility measured a fourth way.** Holding flexibility fixed:
+
+| flexibility | not near gap | flanking gap | ratio |
+|---|---|---|---|
+| flexible (n=160 gap) | +1.97 pp | +10.07 pp | 5.1× |
+| intermediate (n=34 gap) | +0.44 pp | +2.34 pp | 5.3× |
+| rigid (n=10 gap) | +0.17 pp | — | too few to report |
+
+Gap adjacency multiplies overconfidence by **~5× within each flexibility level**,
+and the ratio is near-identical across the two levels with enough residues to
+estimate. The absolute penalty is much larger among flexible residues (8.10 pp
+vs 1.90 pp) only because they start higher — the same risk-multiplier structure
+as §6. B-factor mobility and proximity to missing density are measuring
+different things, and both matter.
+
+Two caveats, pointing in opposite directions. A jump in residue numbering is not
+always missing density — author numbering conventions, insertion codes and
+engineered deletions produce one too. But those false positives are ordinary
+residues with ordinary calibration, so they **dilute** the contrast toward zero;
++8.10 pp is a floor, not a ceiling. Pushing the same way, the target selection
+caps unmodeled residues at 10, so these are the mildest gaps in structures chosen
+for having almost none.
+
 ## 3. Novel targets are worse calibrated
 
 Stratified by maximum sequence identity to any PDB entry released before
@@ -378,13 +423,14 @@ MSA-depth results from apparently-established to not-established.
    interval. Two effects that look convincing per-residue — apo/holo and MSA
    depth — do not survive this correction.
 
-2. **The disorder effect is a lower bound.** Genuinely disordered residues are
-   usually absent from crystal structures and therefore have no lDDT to score.
-   The mobility proxies measure flexibility among residues that *were* modeled.
-   The selection filter (≤ 10 unmodeled residues) further excludes proteins with
-   substantial disorder — the most flexible target examined has a maximum
-   B-factor of ~44 Å², well below what an intrinsically disordered region would
-   show.
+2. **The disorder effect is a lower bound, and §2 now shows how loose a bound.**
+   Genuinely disordered residues are usually absent from crystal structures and
+   therefore have no lDDT to score; the B-factor, RSA and SSE proxies measure
+   flexibility among residues that *were* modeled. The 204 residues flanking an
+   actual chain break — the closest observable approach to true disorder — are
+   over-claimed by +8.65 pp against a global +0.57 pp. The selection filter
+   (≤ 10 unmodeled residues) admits only the mildest gaps, so even that is not
+   the ceiling.
 
 3. **Restricted range on MSA depth**, as noted in §5.
 
