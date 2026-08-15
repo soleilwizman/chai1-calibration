@@ -2,26 +2,15 @@
 
 Is Chai-1's per-residue confidence (pLDDT) honest on structures it has never
 seen? We predicted 511 crystal structures released after the training cutoff and
-compared claimed confidence against realized Cα lDDT, residue by residue.
+compared claimed confidence against realized Cα lDDT.
 
-- **[REPORT.md](REPORT.md)** — the full write-up: what Chai-1 is, what we
-  measured and why, what it showed, and what it says about the model. Start here.
-- **[RESULTS.md](RESULTS.md)** — the same findings condensed, with every number.
+- **[RESULTS.md](RESULTS.md)** 
 
-Headline: Chai-1 is close to honest overall (ECE 0.0057, +0.57 pp over-claim),
-but that average hides a bad tail — the *median* target is slightly
-under-confident and only 48.7% are overconfident at all. Miscalibration
+Chai-1 is close to honest overall (ECE 0.0057, +0.57 pp over-claim. When Chai-1 generates five structural samples per inference run, ensemble disagreement across those samples typically remains minimal on rigid core regions, concentrating instead on flexible loops, intrinsically disordered regions (IDRs), or ambiguous ligand/interface poses. Miscalibration
 concentrates in mobile regions within a protein (+1.87 pp) and on novel targets
-across proteins (+1.22 pp), and peaks at the edge of disorder — residues flanking
-an unmodeled stretch are over-claimed by +8.10 pp, 15.7x the global rate. MSA
-depth shows no effect, and ensemble disagreement across Chai-1's five samples
-adds nothing over pLDDT.
-
-## Hypotheses
-- pLDDT is systematically overconfident on residues in intrinsically disordered regions.
-- Confidence degrades with MSA depth, and the calibration degrades faster than the accuracy does (i.e. the model does not know that it does not know).
-- Targets with low maximum sequence identity to any pre-cutoff PDB entry are both less accurate and worse-calibrated.
-- I'm measuring per-residue predicted pLDDT vs actual lDDT for PDB structures 2024-2026 (so not in pretraining).
+across proteins (+1.22 pp). Residues around
+an unmodeled stretch are over-claimed by +8.10 pp, 15.7x global. MSA
+depth surpringly has no effect here. 
 
 ## Candidate filtering sensitivity
 The baseline candidate pool is defined as:
@@ -34,18 +23,8 @@ The baseline candidate pool is defined as:
 This query returns 2,814 entities collapsing to 559 clusters when deduplicated at 30% sequence identity.
 
 ### Non-standard monomer exclusion (559 → 512)
-Targets containing non-standard monomers (`entity_poly.rcsb_non_std_monomer_count > 0`
-— selenomethionine, phosphoserine, and similar modified residues) are excluded
-during covariate extraction. Chai-1 predicts standard amino acids from sequence, so
-where the experimental structure contains a chemically modified residue the lDDT
-comparison would be against something the model was never asked to produce.
-
-This removes **47 of the 559 clusters, leaving 512 targets**, which is the set
-carried through prediction and analysis. The exclusion is applied in
-`extract_candidate_covariates.py`, not in the RCSB query, which is why the query
-above still reports 559.
-
-We do not filter on `nonpolymer_entity_count` in the baseline. Apo/holo status should be recorded as a covariate and analyzed separately because it represents a real confound for sequence-only prediction.
+Targets containing non-standard monomers (selenomethionine, phosphoserine, etc) are excluded
+during covariate extraction. Chai-1 predicts only standard amino acids, so this would severely fuck up results.
 
 ### Sensitivity variants
 | Variant | Entities | Clusters |
@@ -84,11 +63,6 @@ the remaining stages are implemented as scripts under `scripts/`.
 | 4b | Merge lDDT + covariates | `build_dataset.py` | `data/analysis/all_residues.csv` |
 | 5 | Calibration analysis | `calibration.py` | metrics + reliability diagram |
 
-The core comparison is per residue: **lDDT** (realized accuracy, from stage 4)
-against **pLDDT** (Chai-1's predicted confidence, written into the mmCIF B-factor
-column). A calibrated model has `pLDDT ≈ 100 × lDDT` within any confidence bin;
-`calibration.py` reports ECE, MCE, and signed overconfidence, and can stratify
-every metric by a covariate (`--by`) to test the hypotheses above.
 
 ### Methodology notes (why the numbers are trustworthy)
 - **Residues are paired by sequence alignment, not residue number.** The
