@@ -64,7 +64,7 @@ the remaining stages are implemented as scripts under `scripts/`.
 | 5 | Calibration analysis | `calibration.py` | metrics + reliability diagram |
 
 
-### Methodology notes (why the numbers are trustworthy)
+### Methodology notes  
 - **Residues are paired by sequence alignment, not residue number.** The
   prediction is numbered 1..N from the FASTA; the experimental structure may use
   a different numbering (offsets, gaps, an unmodeled His-tag). `compute_lddt.py`
