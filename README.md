@@ -24,7 +24,7 @@ This query returns 2,814 entities collapsing to 559 clusters when deduplicated a
 
 ### Non-standard monomer exclusion (559 → 512)
 Targets containing non-standard monomers (selenomethionine, phosphoserine, etc) are excluded
-during covariate extraction. Chai-1 predicts only standard amino acids, so this would severely fuck up results.
+during covariate extraction. Chai-1 predicts only standard amino acids.
 
 ### Sensitivity variants
 | Variant | Entities | Clusters |
@@ -42,51 +42,40 @@ during covariate extraction. Chai-1 predicts only standard amino acids, so this 
 
 ### Notes
 - The apo-only filter is intentionally avoided in the baseline because it reduces the pool from 559 clusters to only 122 clusters.
-- Record `nonpolymer_entity_count` as a covariate rather than filtering apo-only. Chai-1 predicts apo from sequence alone, so holo structures are a genuine confound and should be analyzed as a covariate.
-- Relaxing resolution to 2.5 Å adds only 72 clusters, while removing the R-free filter adds 37 clusters, so the R-free cutoff is the stronger quality constraint.
-- Increasing unmodeled residue tolerance is the best lever for pool size, but comes with more structural ambiguity.
+- Relaxing resolution to 2.5 Å adds only 72 clusters, while removing the R-free filter adds 37 clusters, so the R-free cutoff is the stronger quality constraint. The free R-factor prevents overfitting 3D models to X-ray diffraction data, setting aside a subset of diffraction data that is never used during model refinement.
 - Deduplication at 30% sequence identity is performed server-side by the RCSB query with `group_by`.
-
-## Pipeline
-The project runs as a sequence of stages. Stage 1 is complete (512 curated
-targets + covariates are committed — 559 clusters minus the 47 excluded above);
-the remaining stages are implemented as scripts under `scripts/`.
 
 | # | Stage | Script | Output |
 |---|---|---|---|
 | 1 | Target selection & covariates | `extract_candidate_covariates.py` | `data/targets/candidates_covariates.json` |
 | 2 | Download ground-truth structures | `download_structures.py` | `data/raw/cif/*.cif.gz` |
 | 3 | Run Chai-1 predictions | `run_predictions.py` | `predictions/<candidate>/output/pred.model_idx_0.cif` |
-| 3b | MSA-depth covariate (hyp. 2) | `extract_msa_depth.py` | `data/targets/msa_depth.json` |
-| 3c | Training-identity covariate (hyp. 3) | `extract_training_identity.py` | `data/targets/training_identity.json` |
+| 3b | MSA-depth covariate trial | `extract_msa_depth.py` | `data/targets/msa_depth.json` |
+| 3c | Training-identity covariate trial | `extract_training_identity.py` | `data/targets/training_identity.json` |
 | 4 | Compute per-residue lDDT vs pLDDT | `compute_lddt.py` | `data/analysis/per_target/<candidate>.csv` |
-| 4b | Merge lDDT + covariates | `build_dataset.py` | `data/analysis/all_residues.csv` |
+| 4b | Merging lDDT + covariates | `build_dataset.py` | `data/analysis/all_residues.csv` |
 | 5 | Calibration analysis | `calibration.py` | metrics + reliability diagram |
 
 
 ### Methodology notes  
 - **Residues are paired by sequence alignment, not residue number.** The
   prediction is numbered 1..N from the FASTA; the experimental structure may use
-  a different numbering (offsets, gaps, an unmodeled His-tag). `compute_lddt.py`
+  a different numbering (offsets, gaps, etc). `compute_lddt.py`
   globally aligns the two sequences, so tags/offsets/chain-ID differences don't
   silently corrupt the score. Each target reports `coverage` (fraction of
   reference residues aligned); low coverage is flagged, not trusted.
 - **lDDT is Cα by default** (`--metric ca`), matching what AlphaFold-style pLDDT
   is trained to predict. `--metric all-atom` is available but is *not* the right
   comparison for pLDDT calibration.
-- **Disorder proxies come from the experimental structure** (hypothesis 1):
-  `ref_bfactor_z` (B-factor z-scored within each structure -- raw B-factors
+- **Disorder proxies**
+  `ref_bfactor_z` (B-factor z-scored within each structure - raw B-factors
   aren't comparable across refinements), `rsa`, `sse`, and `near_chain_gap`.
-  Caveat: genuinely disordered residues are usually *absent* from a crystal
+Note that genuinely disordered residues are usually *absent* from a crystal
   structure and so have no lDDT to score; the first three measure flexibility
   among the residues that *were* modelled, which is a lower bound on the disorder
   effect. `near_chain_gap` -- residues flanking an actual break in the chain --
   reaches closest to real disorder and carries by far the largest effect
   (+8.10 pp, 95% CI [+4.34, +12.22]); see RESULTS.md section 2.
-- **Stratification bins are computed per target, not per residue**, so a few
-  large proteins don't dominate the bin edges. Note residues within a protein are
-  correlated: treat per-residue ECE as descriptive and cluster by `candidate` for
-  any significance testing.
 
 ### Setup
 
@@ -110,14 +99,11 @@ pip install -r requirements.txt chai_lab
 nvidia-smi                                    # confirm the GPU is visible
 ```
 
-Chai-1 downloads its model weights on first run (several GB), so the first
-prediction takes noticeably longer than the rest. A 24 GB card is ample for this
-target set: a 179-residue target uses ~2 GB.
+Chai-1 downloads its model weights on first run (several GB) -- then the results will start folwing in once the model takes time to download.
 
 ### Running the pipeline
 
-The whole batch is one resumable command (see `scripts/run_all.sh`); every stage
-skips work already on disk, so it is safe to interrupt and re-run:
+The whole batch was made into one resumable command such that it'd be safe to interrupt an rerun if using rented gpu. 
 
 ```bash
 mkdir -p logs
@@ -129,84 +115,19 @@ tmux new -s chai                      # so it survives a dropped connection
 Knobs: `MAX_TARGETS=N` (smoke test), `SKIP_DOWNLOAD=1`, `SKIP_PREDICT=1`
 (score on a CPU box), `SKIP_IDENTITY=1`.
 
-Or run the stages individually:
-
-```bash
-# Stage 2: fetch experimental ground truth (needs RCSB egress access)
-python scripts/download_structures.py
-
-# Stage 3: stage inputs (any host), then predict on a GPU host with chai_lab
-python scripts/run_predictions.py --dry-run      # writes input FASTAs only
-python scripts/run_predictions.py                # GPU + chai_lab required
-
-# Stage 3b/3c: covariates for the hypotheses (MSA depth, novelty vs pre-cutoff PDB)
-python scripts/extract_msa_depth.py --pred-dir predictions --out data/targets/msa_depth.json
-python scripts/extract_training_identity.py --out data/targets/training_identity.json
-
-# Stage 4: score each prediction against its reference (Cα lDDT by default)
-# Chai-1 writes predictions/<id>/output/pred.model_idx_0.cif (rank-0 model)
-python scripts/compute_lddt.py --ref data/raw/cif/10AF.cif.gz \
-    --pred predictions/10AF_1/output/pred.model_idx_0.cif \
-    --out data/analysis/per_target/10AF_1.csv
-
-# Stage 4b: merge all per-target lDDT tables with covariates into one table
-python scripts/build_dataset.py --lddt-dir data/analysis/per_target \
-    --out data/analysis/all_residues.csv
-
-# Stage 5: analyze, stratifying by any covariate column
-python scripts/calibration.py --scores data/analysis/all_residues.csv \
-    --plot data/analysis/reliability.png --by msa_depth_bin   # or novelty_bin, ligand_state
-
-# Two covariates cross-tabulated, to check whether a marginal difference is
-# confounded. If the apo/holo gap collapses once flexibility is held fixed,
-# the marginal apo penalty was mobility all along.
-python scripts/calibration.py --scores data/analysis/all_residues.csv \
-    --by flexibility,ligand_state
-```
-
 ### Preserving a run before the GPU host is destroyed
 
 `predictions/`, `data/analysis/` and `data/raw/cif/` are all gitignored, so a
-finished batch lives on exactly one machine. Rescue it in this order — cheapest
-and most irreplaceable first:
-
-```bash
-./scripts/archive_run.sh          # inventory + checksums + commit the small stuff
-git push -u origin <branch>       # ~50 MB: per-residue scores and covariates
-```
-
-That alone preserves every number in `RESULTS.md`. What it cannot hold is the
-raw model output:
-
-| asset | size | cost to recreate |
-|---|---|---|
-| `predictions/**/pred.model_idx_*.cif` + `scores.*.npz` | GB | the full GPU batch (~a day) |
-| `predictions/**/msas/*.aligned.pqt` | GB | re-fetchable, but **not reproducible** — the MSA server's database moves, so new alignments would not match the `neff` values already computed |
-| `data/raw/cif/` | ~150 MB | re-downloadable from wwPDB, no GPU |
-| `data/analysis/` | ~50 MB | recomputable on CPU from the two above |
-
-Upload the large directories somewhere durable — this needs no second copy on
-disk, which matters if the instance is nearly full:
+finished batch is on one machine. 
 
 ```bash
 pip install -U huggingface_hub && hf auth login
 hf upload <user>/chai1-calibration-run predictions predictions --repo-type dataset
-hf upload <user>/chai1-calibration-run data/raw/cif data/raw/cif --repo-type dataset
-```
+hf upload <user>/chai1-calibration-run data/raw/cif data/raw/cif --repo-type dataset'''
 
-Or pull them to another machine: `rsync -avP gpu-host:~/chai1-calibration/predictions ./`.
-`./scripts/archive_run.sh --tar` builds tarballs instead, but needs free space
-equal to what it is archiving.
-
-**Verify before terminating.** Read one file back from the destination and check
-it against `archive/predictions_filelist.tsv`, which records every prediction
-file and its size.
-
-> **Note:** stages 2–3 require outbound network / GPU access. Stage 2 pulls
-> structures from `files.wwpdb.org` (the canonical wwPDB HTTPS egress host),
-> falling back to the RCSB mirrors (`models.rcsb.org`, `files.rcsb.org`). In
-> sandboxes where all of these are blocked by egress policy, stage 2 cannot run;
-> the code is otherwise environment-agnostic.
+> **Note:** stages 2–3 require GPU access. Stage 2 pulls
+> structures from the appropriate databases, and so in
+> sandboxes where all of these are blocked, it can't be run.
 
 ## Files
 - `data/targets/q.json`: baseline RCSB search query
